@@ -1135,7 +1135,10 @@ dnl ---------------------------------------------------------------------------
 # and /usr/X11 since they often symlink to each other, and configure
 # should use the more stable location (the real directory) if possible.
 #
-if test -x /usr/bin/X; then
+if test -n "$X_PATH"; then
+   # assume the user set these variables and don't second-guess them.
+   true
+elif test -x /usr/bin/X; then
    X_PATH="/usr/bin"
    X_SERVER_PATH="/usr/bin"
    X_SERVER="/usr/bin/X"
