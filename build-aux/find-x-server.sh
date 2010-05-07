@@ -11,7 +11,11 @@
 # and /usr/X11 since they often symlink to each other, and configure
 # should use the more stable location (the real directory) if possible.
 #
-if test -x /usr/bin/X; then
+
+if test -n "$X_BIN"; then
+    # assume the user set these variables and don't second-guess them.
+    echo "$X_BIN"
+elif test -x /usr/bin/X; then
     echo "/usr/bin/X"
 elif test -x /usr/X11/bin/Xserver; then
     echo "/usr/X11/bin/Xserver"
