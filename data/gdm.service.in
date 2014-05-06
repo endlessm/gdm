@@ -13,3 +13,4 @@ StandardError=inherit
 
 [Install]
 Alias=display-manager.service
+WantedBy=graphical.target
