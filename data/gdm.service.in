@@ -31,3 +31,4 @@ EnvironmentFile=-@LANG_CONFIG_FILE@
 
 [Install]
 Alias=display-manager.service
+WantedBy=graphical.target
