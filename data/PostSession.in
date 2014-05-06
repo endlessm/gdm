@@ -1,3 +1,9 @@
 #!/bin/sh
 
+# Clean Shared Account brower details (cookies, cache, history, ...)
+if [ ${USERNAME} = "shared" ]; then
+  rm -fr /home/shared/.cache/chromium
+  rm -fr /home/shared/.config/chromium
+fi
+
 exit 0

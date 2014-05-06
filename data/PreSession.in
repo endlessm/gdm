@@ -6,4 +6,16 @@
 #
 # Note that output goes into the .xsession-errors file for easy debugging
 #
+
+# Clean Shared Account brower details (cookies, cache, history, ...)
+if [ ${USERNAME} = "shared" ]; then
+  rm -fr /home/shared/.cache/chromium
+  rm -fr /home/shared/.config/chromium
+  cp -Rf /etc/skel/.config/chromium /home/shared/.config
+  chown -R shared:shared /home/shared/.config/chromium
+
+  # Disable autosave passwords in Chromium
+  sed -i "s/\"password_manager_enabled\": true/\"password_manager_enabled\": false/g" /home/shared/.config/chromium/Default/Preferences
+fi
+
 PATH="@X_PATH@:$PATH"
