@@ -887,8 +887,7 @@ worker_on_saved_language_name_read (GdmDBusWorker          *worker,
 {
         GdmSession *self = conversation->session;
 
-        if (strlen (language_name) > 0 &&
-            strcmp (language_name, get_default_language_name (self)) != 0) {
+        if (strlen (language_name) > 0) {
                 g_free (self->priv->saved_language);
                 self->priv->saved_language = g_strdup (language_name);
 
@@ -2268,10 +2267,41 @@ gdm_session_set_environment_variable (GdmSession *self,
 }
 
 static void
+set_up_session_language (GdmSession *self)
+{
+        char **environment;
+        int i;
+        const char *value;
+
+        environment = g_listenv ();
+        for (i = 0; environment[i] != NULL; i++) {
+                if (strcmp (environment[i], "LANG") != 0 &&
+                    strcmp (environment[i], "LANGUAGE") != 0 &&
+                    !g_str_has_prefix (environment[i], "LC_")) {
+                    continue;
+                }
+
+                value = g_getenv (environment[i]);
+
+                gdm_session_set_environment_variable (self,
+                                                      environment[i],
+                                                      value);
+        }
+        g_strfreev (environment);
+
+        // If a language has been set for the current user (through act_user_set_language),
+        // it takes precedence over the value coming from the environment.
+        // This fixes a bug where the system language was overriding the user's preference.
+        if (self->priv->saved_language && strlen(self->priv->saved_language) > 0) {
+            g_debug ("GdmSession: using saved language %s", self->priv->saved_language);
+            gdm_session_set_environment_variable (self, "LANG", self->priv->saved_language);
+        }
+
+}
+
+static void
 setup_session_environment (GdmSession *self)
 {
-        const char *locale;
-
         gdm_session_set_environment_variable (self,
                                               "GDMSESSION",
                                               get_session_name (self));
@@ -2279,16 +2309,7 @@ setup_session_environment (GdmSession *self)
                                               "DESKTOP_SESSION",
                                               get_session_name (self));
 
-        locale = get_language_name (self);
-
-        if (locale != NULL && locale[0] != '\0') {
-                gdm_session_set_environment_variable (self,
-                                                      "LANG",
-                                                      locale);
-                gdm_session_set_environment_variable (self,
-                                                      "GDM_LANG",
-                                                      locale);
-        }
+        set_up_session_language (self);
 
         gdm_session_set_environment_variable (self,
                                               "DISPLAY",
