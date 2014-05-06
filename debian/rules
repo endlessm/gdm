@@ -78,9 +78,6 @@ binary-install/gdm3::
 INFILES := $(wildcard debian/*.desktop.in)
 OUTFILES := $(INFILES:.desktop.in=.desktop)
 
-%.desktop: %.desktop.in
-	intltool-merge -d debian/po-up $< $@
-
 build/gdm3:: $(OUTFILES)
 
 binary-post-install/gdm3::
