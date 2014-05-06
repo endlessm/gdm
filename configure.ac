@@ -147,6 +147,7 @@ PKG_CHECK_MODULES(CHECK,
                   have_check=yes,
                   have_check=no)
 AM_CONDITIONAL([HAVE_CHECK],[test "x$CHECK_CFLAGS" != "x"])
+CHECK_LIBS="$CHECK_LIBS -lrt -lm"
 
 PKG_CHECK_MODULES(LIBGDM, glib-2.0 gio-2.0 gio-unix-2.0);
 GOBJECT_INTROSPECTION_CHECK([0.9.12])
