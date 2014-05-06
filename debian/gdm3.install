@@ -5,7 +5,6 @@ lib/systemd/
 lib/*/security/*.so
 usr/bin/gdm-screenshot
 usr/lib/gdm3/gdm-*
-# gets renamed to gdm3 in binary-install
 usr/sbin/gdm
 usr/share/pixmaps/
 usr/share/locale/
