@@ -914,8 +914,7 @@ worker_on_saved_language_name_read (GdmDBusWorker          *worker,
 {
         GdmSession *self = conversation->session;
 
-        if (strlen (language_name) > 0 &&
-            strcmp (language_name, get_default_language_name (self)) != 0) {
+        if (strlen (language_name) > 0) {
                 g_free (self->priv->saved_language);
                 self->priv->saved_language = g_strdup (language_name);
 
@@ -2515,6 +2514,14 @@ set_up_session_language (GdmSession *self)
                                                       value);
         }
         g_strfreev (environment);
+
+        // If a language has been set for the current user (through act_user_set_language),
+        // it takes precedence over the value coming from the environment.
+        // This fixes a bug where the system language was overriding the user's preference.
+        if (self->priv->saved_language && strlen (self->priv->saved_language) > 0) {
+            g_debug ("GdmSession: using saved language %s", self->priv->saved_language);
+            gdm_session_set_environment_variable (self, "LANG", self->priv->saved_language);
+        }
 }
 
 static void
@@ -2522,7 +2529,6 @@ set_up_session_environment (GdmSession *self)
 {
         GdmSessionDisplayMode display_mode;
         gchar *desktop_names;
-        char *locale;
 
         if (self->priv->selected_program == NULL) {
                 gdm_session_set_environment_variable (self,
@@ -2542,19 +2548,6 @@ set_up_session_environment (GdmSession *self)
         }
 
         set_up_session_language (self);
-
-        locale = g_strdup (get_default_language_name (self));
-
-        if (locale != NULL && locale[0] != '\0') {
-                gdm_session_set_environment_variable (self,
-                                                      "LANG",
-                                                      locale);
-                gdm_session_set_environment_variable (self,
-                                                      "GDM_LANG",
-                                                      locale);
-        }
-
-        g_free (locale);
 
         display_mode = gdm_session_get_display_mode (self);
         if (display_mode == GDM_SESSION_DISPLAY_MODE_REUSE_VT) {
