@@ -1892,6 +1892,7 @@ on_setup_complete_cb (GdmDBusWorker *proxy,
                                0,
                                service_name);
 
+		gdm_session_select_session_type (self, "x11");
                 gdm_session_authenticate (self, service_name);
                 g_variant_unref (ret);
 
