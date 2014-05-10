@@ -1,2 +1,2 @@
 user-db:user
-file-db:@DATADIR@/@PACKAGE@/greeter-dconf-defaults
+file-db:/var/lib/gdm3/greeter-dconf-defaults
