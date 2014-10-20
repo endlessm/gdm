@@ -40,7 +40,6 @@
 #include <X11/Xlib.h> /* for Display */
 #include <X11/Xatom.h> /* for XA_PIXMAP */
 #include <X11/cursorfont.h> /* for watch cursor */
-#include <X11/extensions/Xrandr.h>
 #include <X11/Xatom.h>
 
 #ifdef WITH_SYSTEMD
@@ -122,104 +121,224 @@ gdm_slave_error_quark (void)
         return ret;
 }
 
-static XRRScreenResources *
-get_screen_resources (Display *dpy)
+static void
+gdm_slave_whack_temp_auth_file (GdmSlave *slave)
 {
-        int major = 0, minor = 0;
+#if 0
+        uid_t old;
 
-        if (!XRRQueryVersion(dpy, &major, &minor)) {
-                return NULL;
+        old = geteuid ();
+        if (old != 0)
+                seteuid (0);
+        if (d->parent_temp_auth_file != NULL) {
+                VE_IGNORE_EINTR (g_unlink (d->parent_temp_auth_file));
         }
+        g_free (d->parent_temp_auth_file);
+        d->parent_temp_auth_file = NULL;
+        if (old != 0)
+                seteuid (old);
+#endif
+}
 
-        if (major > 1) {
-                return NULL;
+
+static void
+create_temp_auth_file (GdmSlave *slave)
+{
+#if 0
+        if (d->type == TYPE_FLEXI_XNEST &&
+            d->parent_auth_file != NULL) {
+                if (d->parent_temp_auth_file != NULL) {
+                        VE_IGNORE_EINTR (g_unlink (d->parent_temp_auth_file));
+                }
+                g_free (d->parent_temp_auth_file);
+                d->parent_temp_auth_file =
+                        copy_auth_file (d->server_uid,
+                                        gdm_daemon_config_get_gdmuid (),
+                                        d->parent_auth_file);
         }
-
-        if (minor >= 3) {
-                return XRRGetScreenResourcesCurrent (dpy,
-                                                     DefaultRootWindow (dpy));
-        }
-
-        return XRRGetScreenResources (dpy, DefaultRootWindow (dpy));
+#endif
 }
 
 static void
-determine_initial_cursor_position (GdmSlave *slave,
-                                   int      *x,
-                                   int      *y)
+listify_hash (const char *key,
+              const char *value,
+              GPtrArray  *env)
 {
-        XRRScreenResources *resources;
-        RROutput primary_output;
-        int i;
-
-        /* If this function fails for whatever reason,
-         * put the pointer in the lower right corner of the screen.
-         */
-        *x = .9 * DisplayWidth (slave->priv->server_display,
-                                DefaultScreen (slave->priv->server_display));
-        *y = .9 * DisplayHeight (slave->priv->server_display,
-                                 DefaultScreen (slave->priv->server_display));
-
-        gdm_error_trap_push ();
-        resources = get_screen_resources (slave->priv->server_display);
-        primary_output = XRRGetOutputPrimary (slave->priv->server_display,
-                                              DefaultRootWindow (slave->priv->server_display));
-        gdm_error_trap_pop ();
-
-        if (resources == NULL) {
-                return;
-        }
-
-        for (i = 0; i < resources->noutput; i++) {
-                XRROutputInfo *output_info;
-
-                if (primary_output == None) {
-                        primary_output = resources->outputs[0];
-                }
-
-                if (resources->outputs[i] != primary_output) {
-                        continue;
-                }
-
-                output_info = XRRGetOutputInfo (slave->priv->server_display,
-                                                resources,
-                                                resources->outputs[i]);
-
-                if (output_info->connection != RR_Disconnected &&
-                    output_info->crtc != 0) {
-                        XRRCrtcInfo *crtc_info;
-
-                        crtc_info = XRRGetCrtcInfo (slave->priv->server_display,
-                                                    resources,
-                                                    output_info->crtc);
-                        /* position it sort of in the lower right
-                         */
-                        *x = crtc_info->x + .9 * crtc_info->width;
-                        *y = crtc_info->y + .9 * crtc_info->height;
-                        XRRFreeCrtcInfo (crtc_info);
-                }
-
-                XRRFreeOutputInfo (output_info);
-                break;
-        }
-
-        XRRFreeScreenResources (resources);
+        char *str;
+        str = g_strdup_printf ("%s=%s", key, value);
+        g_debug ("GdmSlave: script environment: %s", str);
+        g_ptr_array_add (env, str);
 }
 
-void
-gdm_slave_set_initial_cursor_position (GdmSlave *slave)
+static GPtrArray *
+get_script_environment (GdmSlave   *slave,
+                        const char *username)
 {
-        if (slave->priv->server_display != NULL) {
-                int x, y;
+        GPtrArray     *env;
+        GHashTable    *hash;
+        struct passwd *pwent;
+        char          *temp;
 
-                determine_initial_cursor_position (slave, &x, &y);
-                XWarpPointer(slave->priv->server_display,
-                             None,
-                             DefaultRootWindow (slave->priv->server_display),
-                             0, 0,
-                             0, 0,
-                             x, y);
+        env = g_ptr_array_new ();
+
+        /* create a hash table of current environment, then update keys has necessary */
+        hash = g_hash_table_new_full (g_str_hash, g_str_equal, g_free, g_free);
+
+        /* modify environment here */
+        g_hash_table_insert (hash, g_strdup ("HOME"), g_strdup ("/"));
+        g_hash_table_insert (hash, g_strdup ("PWD"), g_strdup ("/"));
+        g_hash_table_insert (hash, g_strdup ("SHELL"), g_strdup ("/bin/sh"));
+
+        if (username != NULL) {
+                g_hash_table_insert (hash, g_strdup ("LOGNAME"),
+                                     g_strdup (username));
+                g_hash_table_insert (hash, g_strdup ("USER"),
+                                     g_strdup (username));
+                g_hash_table_insert (hash, g_strdup ("USERNAME"),
+                                     g_strdup (username));
+
+                gdm_get_pwent_for_name (username, &pwent);
+                if (pwent != NULL) {
+                        if (pwent->pw_dir != NULL && pwent->pw_dir[0] != '\0') {
+                                g_hash_table_insert (hash, g_strdup ("HOME"),
+                                                     g_strdup (pwent->pw_dir));
+                                g_hash_table_insert (hash, g_strdup ("PWD"),
+                                                     g_strdup (pwent->pw_dir));
+                        }
+
+                        g_hash_table_insert (hash, g_strdup ("SHELL"),
+                                             g_strdup (pwent->pw_shell));
+                }
         }
+
+#if 0
+        if (display_is_parented) {
+                g_hash_table_insert (hash, g_strdup ("GDM_PARENT_DISPLAY"), g_strdup (parent_display_name));
+
+                /*g_hash_table_insert (hash, "GDM_PARENT_XAUTHORITY"), slave->priv->parent_temp_auth_file));*/
+        }
+#endif
+
+        if (! slave->priv->display_is_local) {
+                g_hash_table_insert (hash, g_strdup ("REMOTE_HOST"), g_strdup (slave->priv->display_hostname));
+        }
+
+        /* Runs as root */
+        g_hash_table_insert (hash, g_strdup ("XAUTHORITY"), g_strdup (slave->priv->display_x11_authority_file));
+        g_hash_table_insert (hash, g_strdup ("DISPLAY"), g_strdup (slave->priv->display_name));
+        g_hash_table_insert (hash, g_strdup ("PATH"), g_strdup (GDM_SESSION_DEFAULT_PATH));
+        g_hash_table_insert (hash, g_strdup ("RUNNING_UNDER_GDM"), g_strdup ("true"));
+
+        g_hash_table_remove (hash, "MAIL");
+
+
+        g_hash_table_foreach (hash, (GHFunc)listify_hash, env);
+        g_hash_table_destroy (hash);
+
+        g_ptr_array_add (env, NULL);
+
+        return env;
+}
+
+gboolean
+gdm_slave_run_script (GdmSlave   *slave,
+                      const char *dir,
+                      const char *login)
+{
+        char      *script;
+        char     **argv;
+        gint       status;
+        GError    *error;
+        GPtrArray *env;
+        gboolean   res;
+        gboolean   ret;
+
+        ret = FALSE;
+
+        g_assert (dir != NULL);
+        g_assert (login != NULL);
+
+        script = g_build_filename (dir, slave->priv->display_name, NULL);
+        g_debug ("GdmSlave: Trying script %s", script);
+        if (! (g_file_test (script, G_FILE_TEST_IS_REGULAR)
+               && g_file_test (script, G_FILE_TEST_IS_EXECUTABLE))) {
+                g_debug ("GdmSlave: script %s not found; skipping", script);
+                g_free (script);
+                script = NULL;
+        }
+
+        if (script == NULL
+            && slave->priv->display_hostname != NULL
+            && slave->priv->display_hostname[0] != '\0') {
+                script = g_build_filename (dir, slave->priv->display_hostname, NULL);
+                g_debug ("GdmSlave: Trying script %s", script);
+                if (! (g_file_test (script, G_FILE_TEST_IS_REGULAR)
+                       && g_file_test (script, G_FILE_TEST_IS_EXECUTABLE))) {
+                        g_debug ("GdmSlave: script %s not found; skipping", script);
+                        g_free (script);
+                        script = NULL;
+                }
+        }
+
+        if (script == NULL) {
+                script = g_build_filename (dir, "Default", NULL);
+                g_debug ("GdmSlave: Trying script %s", script);
+                if (! (g_file_test (script, G_FILE_TEST_IS_REGULAR)
+                       && g_file_test (script, G_FILE_TEST_IS_EXECUTABLE))) {
+                        g_debug ("GdmSlave: script %s not found; skipping", script);
+                        g_free (script);
+                        script = NULL;
+                }
+        }
+
+        if (script == NULL) {
+                g_debug ("GdmSlave: no script found");
+                return TRUE;
+        }
+
+        create_temp_auth_file (slave);
+
+        g_debug ("GdmSlave: Running process: %s", script);
+        error = NULL;
+        if (! g_shell_parse_argv (script, NULL, &argv, &error)) {
+                g_warning ("Could not parse command: %s", error->message);
+                g_error_free (error);
+                goto out;
+        }
+
+        env = get_script_environment (slave, login);
+
+        res = g_spawn_sync (NULL,
+                            argv,
+                            (char **)env->pdata,
+                            G_SPAWN_SEARCH_PATH,
+                            NULL,
+                            NULL,
+                            NULL,
+                            NULL,
+                            &status,
+                            &error);
+
+        g_ptr_array_foreach (env, (GFunc)g_free, NULL);
+        g_ptr_array_free (env, TRUE);
+        g_strfreev (argv);
+
+        if (! res) {
+                g_warning ("GdmSlave: Unable to run script: %s", error->message);
+                g_error_free (error);
+        }
+
+        gdm_slave_whack_temp_auth_file (slave);
+
+        if (WIFEXITED (status)) {
+                g_debug ("GdmSlave: Process exit status: %d", WEXITSTATUS (status));
+                ret = WEXITSTATUS (status) == 0;
+        }
+
+ out:
+        g_free (script);
+
+        return ret;
 }
 
 static void
