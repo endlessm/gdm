@@ -16,6 +16,9 @@ if [ ${USERNAME} = "shared" ]; then
 
   # Disable autosave passwords in Chromium
   sed -i "s/\"password_manager_enabled\": true/\"password_manager_enabled\": false/g" /home/shared/.config/chromium/Default/Preferences
+
+  # Clean Trash
+  rm -fr /home/shared/.local/share/Trash
 fi
 
 PATH="@X_PATH@:$PATH"
