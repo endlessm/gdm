@@ -235,12 +235,14 @@ gdm_server_init_command (GdmServer *server)
          * missing, or c) we are running for the main seat 'seat0'. */
 
 #ifdef ENABLE_SYSTEMD_JOURNAL
-        /* For systemd, we don't have a log file but instead log to stdout,
-           so set it to the xserver's built-in default verbosity */
+        /* For systemd, we log to stdout (which is the Journal),
+           so set it to the same verbosity we use for -logverbose.
+           In Debian we want to log to Xorg.N.log in addition,
+           so we do not turn that off like GNOME upstream do. */
         if (debug)
-            verbosity = "7 -logfile /dev/null";
+            verbosity = "7";
         else
-            verbosity = "3 -logfile /dev/null";
+            verbosity = "3";
 #endif
 
         if (g_access (SYSTEMD_X_SERVER, X_OK) < 0) {
