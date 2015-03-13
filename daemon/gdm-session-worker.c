@@ -47,6 +47,8 @@
 #include <glib-object.h>
 #include <gio/gio.h>
 
+#include <act/act.h>
+
 #include <X11/Xauth.h>
 
 #include <systemd/sd-daemon.h>
@@ -1302,6 +1304,67 @@ gdm_session_worker_authenticate_user (GdmSessionWorker *worker,
         return TRUE;
 }
 
+static void
+user_loaded_cb (ActUser    *user,
+                GParamSpec *pspec,
+                gchar      *reminder)
+{
+        if (reminder != NULL) {
+                act_user_set_password_hint (user, reminder);
+                g_free (reminder);
+        } else {
+                act_user_set_password_mode (user, ACT_USER_PASSWORD_MODE_SET_AT_LOGIN);
+        }
+}
+
+static gboolean
+set_password_hint (GdmSessionWorker *worker)
+{
+        ActUser *user = NULL;
+        ActUserManager *manager = NULL;
+
+        char *password_reminder = NULL;
+
+        gboolean res = TRUE;
+
+        g_debug ("GdmSessionWorker: authenticated user requires new password hint");
+
+        while (res && password_reminder == NULL) {
+                gdm_session_worker_report_problem (worker, _("Type a hint or question to help remember your password."));
+                res = gdm_session_worker_ask_question (worker, _("Password reminder:"), &password_reminder);
+
+                if (password_reminder && password_reminder[0] == '\0') {
+                        g_free (password_reminder);
+                        password_reminder = NULL;
+                }
+        }
+
+        /* If they got past the hint screen with a whitespace, ignore setting the hint */
+        password_reminder = g_strstrip (password_reminder);
+        if (password_reminder[0] == '\0') {
+            g_free (password_reminder);
+            password_reminder = NULL;
+        }
+
+        /* If operation was cancelled, or user doesn't set a reminder, we do nothing */
+        if (!res || password_reminder == NULL)
+                return res;
+
+        manager = act_user_manager_get_default ();
+        user = act_user_manager_get_user (manager, worker->priv->username);
+
+        /* We use password_reminder variable in user_loaded_cb() to find out if
+           we must set the password hint (password_reminder != NULL) or we need
+           to reset the password mode because user cancelled the operation
+           (password_reminder == NULL) */
+        if (act_user_is_loaded (user))
+                user_loaded_cb (user, NULL, password_reminder);
+        else
+                g_signal_connect (user, "notify::is-loaded", G_CALLBACK (user_loaded_cb), password_reminder);
+
+        return res;
+}
+
 static gboolean
 gdm_session_worker_authorize_user (GdmSessionWorker *worker,
                                    gboolean          password_is_required,
@@ -1309,6 +1372,7 @@ gdm_session_worker_authorize_user (GdmSessionWorker *worker,
 {
         int error_code;
         int authentication_flags;
+        gboolean res;
 
         g_debug ("GdmSessionWorker: determining if authenticated user (password required:%d) is authorized to session",
                  password_is_required);
@@ -1335,6 +1399,9 @@ gdm_session_worker_authorize_user (GdmSessionWorker *worker,
                         gdm_session_auditor_report_password_change_failure (worker->priv->auditor);
                 } else {
                         gdm_session_auditor_report_password_changed (worker->priv->auditor);
+                        res = set_password_hint (worker);
+                        if (!res)
+                                error_code = PAM_ABORT;
                 }
         }
 
