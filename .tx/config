@@ -1,0 +1,9 @@
+[main]
+host = https://www.transifex.com
+
+[gdm.app]
+source_file = po/gdm.pot
+source_lang = en
+file_filter = po/<lang>.po
+trans.pt = po/pt_BR.po
+type = PO
