@@ -1,47 +1,43 @@
-# Brazilian Portuguese translation of gdm.
-# Copyright (C) 2001-2013 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gdm package.
-# Jorge Godoy <godoy@conectiva.com.br>
-# E. A. Tacão <tacao@conectiva.com.br>
-# Francisco Petrúcio Cavalcante Junior <fpcj@impa.br>
-# Gustavo Noronha Silva <kov@debian.org>, 2003, 2004.
-# David Barzilay <barzilay@redhat.com>, 2003.
-# Gustavo Maciel Dias Vieira <gustavo@sagui.org>, 2004.
-# Afonso Celso Medina <afmedina@uol.com.br>, 2004, 2005.
-# Alexandre Folle de Menezes <afmenez@terra.com.br>, 2003, 2005-2006.
-# Guilherme de S. Pastore <gpastore@gnome.org>, 2006.
-# Washington Lins <washington-lins@uol.com.br>, 2007.
-# Raul Pereira <contato@raulpereira.com>, 2007.
-# Rafael Sfair <rsfair@gmail.com>, 2007.
-# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2007.
-# Henrique P Machado <zehrique@gmail.com>, 2008, 2011.
-# Og Maciel <ogmaciel@gnome.org>, 2007-2009, 2011.
-# Fabrício Godoy <skarllot@gmail.com>, 2008.
-# Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008.
-# Rodrigo L. M. Flores <rodrigomarquesflores@gmail.com>, 2009.
-# Luciano Gardim <lucianogardim@gmail.com>, 2009.
-# Antonio Fernandes C. Neto <fernandesn@gnome.org>, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Adorilson Bezerra <adorilson@gmail.com>, 2011
+# Afonso Celso Medina <afmedina@uol.com.br>, 2004-2005
+# Antonio Fernandes C. Neto <fernandesn@gnome.org>, 2010
+# David Barzilay <barzilay@redhat.com>, 2003
+# Enrico Nicoletto <liverig@gmail.com>, 2013
+# Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008
+# skarllotbr <skarllot@gmail.com>, 2008
+# Guilherme de S. Pastore <gpastore@gnome.org>, 2006
+# Gustavo Maciel Dias Vieira <gustavo@sagui.org>, 2004
+# Gustavo Noronha Silva <kov@debian.org>, 2003-2004
+# Henrique P. Machado <zehrique@gmail.com>, 2008,2011
+# Jonh Wendell <jwendell@gnome.org>, 2012
 # Krix Apolinário <krixapolinario@gmail.com>, 2011
-# Adorilson Bezerra <adorilson@gmail.com>, 2011.
-# Jonh Wendell <jwendell@gnome.org>, 2012.
-# Rafael Ferreira <rafael.f.f1@gmail.com>, 2012, 2013.
-# Enrico Nicoletto <liverig@gmail.com>, 2013.
-#
+# leonardof <leonardof@gnome.org>, 2007
+# Luciano Gardim <lucianogardim@gmail.com>, 2009
+# Og Maciel <ogmaciel@gnome.org>, 2011
+# Rafael Ferreira <rafael.f.f1@gmail.com>, 2012-2013
+# Rafael Sfair <rsfair@gmail.com>, 2007
+# Raul Pereira <contato@raulpereira.com>, 2007
+# Rodrigo L. M. Flores <rodrigomarquesflores@gmail.com>, 2009
+# Silva <michele@endlessm.com>, 2015
+# Washington Lins <washington-lins@uol.com.br>, 2007
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gdm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-14 14:30+0000\n"
-"PO-Revision-Date: 2013-09-15 12:03-0300\n"
-"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
-"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
-"Language: pt_BR\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-18 23:00-0700\n"
+"PO-Revision-Date: 2015-03-24 01:13+0000\n"
+"Last-Translator: Silva <michele@endlessm.com>\n"
+"Language-Team: Portuguese (http://www.transifex.com/projects/p/gdm/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.7\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../common/gdm-common.c:518
 #, c-format
@@ -58,82 +54,52 @@ msgstr "não foi possível encontrar o usuário \"%s\" no sistema"
 msgid "No session available yet"
 msgstr "Nenhuma sessão disponível no momento"
 
-#: ../daemon/gdm-manager.c:276 ../daemon/gdm-manager.c:383
-#, c-format
-msgid "Unable to look up UID of user %s"
-msgstr "Não foi possível consultar o UID do usuário %s"
-
-#: ../daemon/gdm-manager.c:290
-msgid "no sessions available"
-msgstr "não há sessões disponíveis"
-
-#: ../daemon/gdm-manager.c:351
-#, c-format
-msgid "No sessions for %s available for reauthentication"
-msgstr "Não há sessões para %s disponíveis para nova autenticação"
-
-#: ../daemon/gdm-manager.c:405
-#, c-format
-msgid "Unable to find session for user %s"
-msgstr "Não foi possível encontrar a sessão do usuário %s"
-
-#: ../daemon/gdm-manager.c:475
-#, c-format
-msgid "Unable to find appropriate session for user %s"
-msgstr "Não foi possível encontrar a sessão apropriada do usuário %s"
-
-#: ../daemon/gdm-manager.c:670
-msgid "User doesn't own session"
-msgstr "O usuário não possui sessão"
-
-#: ../daemon/gdm-manager.c:683 ../daemon/gdm-manager.c:770
+#: ../daemon/gdm-manager.c:367 ../daemon/gdm-manager.c:412
 msgid "No session available"
 msgstr "Nenhuma sessão disponível"
 
-#: ../daemon/gdm-server.c:234
+#: ../daemon/gdm-server.c:242
 #, c-format
 msgid "%s: failed to connect to parent display '%s'"
 msgstr "%s: falha ao conectar à tela pai \"%s\""
 
-#: ../daemon/gdm-server.c:413
+#: ../daemon/gdm-server.c:431
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"O servidor deveria ter sido criado pelo usuário %s, mas tal usuário não "
-"existe"
+msgstr "O servidor deveria ter sido criado pelo usuário %s, mas tal usuário não existe"
 
-#: ../daemon/gdm-server.c:424 ../daemon/gdm-server.c:444
+#: ../daemon/gdm-server.c:442 ../daemon/gdm-server.c:462
 #, c-format
 msgid "Couldn't set groupid to %d"
 msgstr "Não foi possível definir o groupid para %d"
 
-#: ../daemon/gdm-server.c:430
+#: ../daemon/gdm-server.c:448
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups () falhou para %s"
 
-#: ../daemon/gdm-server.c:436
+#: ../daemon/gdm-server.c:454
 #, c-format
 msgid "Couldn't set userid to %d"
 msgstr "Não foi possível definir o userid para %d"
 
-#: ../daemon/gdm-server.c:483
+#: ../daemon/gdm-server.c:532
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: Não foi possível abrir arquivo de registros para a tela %s!"
 
-#: ../daemon/gdm-server.c:494 ../daemon/gdm-server.c:500
-#: ../daemon/gdm-server.c:506
+#: ../daemon/gdm-server.c:553 ../daemon/gdm-server.c:559
+#: ../daemon/gdm-server.c:565
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Erro ao ajustar %s para %s"
 
-#: ../daemon/gdm-server.c:526
+#: ../daemon/gdm-server.c:585
 #, c-format
 msgid "%s: Server priority couldn't be set to %d: %s"
 msgstr "%s: Não foi possível definir a prioridade do servidor para %d: %s"
 
-#: ../daemon/gdm-server.c:682
+#: ../daemon/gdm-server.c:741
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Comando de servidor vazio para a tela %s"
@@ -162,58 +128,62 @@ msgstr "Dispositivo de exibição"
 msgid "The display device"
 msgstr "O dispositivo de tela"
 
-#: ../daemon/gdm-session.c:1183
+#: ../daemon/gdm-session.c:1160
 msgid "Could not create authentication helper process"
 msgstr "Não foi possível criar o processo auxiliar de autenticação"
 
-#: ../daemon/gdm-session-worker.c:835
+#: ../daemon/gdm-session-worker.c:837
 msgid "Your account was given a time limit that's now passed."
 msgstr "Foi dada à sua conta um limite de tempo que acabou de passar."
 
-#: ../daemon/gdm-session-worker.c:842
+#: ../daemon/gdm-session-worker.c:844
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Desculpe, isto não funcionou. Por gentileza, tente novamente."
 
-#: ../daemon/gdm-session-worker.c:1074
+#: ../daemon/gdm-session-worker.c:1076
 msgid "Username:"
 msgstr "Nome de usuário:"
 
+#: ../daemon/gdm-session-worker.c:1260
+msgid "Type a hint or question to help remember your password."
+msgstr "Digite uma dica ou pergunta para ajudar a lembrar sua senha."
+
 #: ../daemon/gdm-session-worker.c:1261
+msgid "Password reminder:"
+msgstr "Lembrete de senha:"
+
+#: ../daemon/gdm-session-worker.c:1313
 msgid "Your password has expired, please change it now."
 msgstr "Sua senha expirou, por gentileza altere-a agora."
 
-#: ../daemon/gdm-session-worker.c:1500 ../daemon/gdm-session-worker.c:1517
+#: ../daemon/gdm-session-worker.c:1555 ../daemon/gdm-session-worker.c:1572
 #, c-format
 msgid "no user account available"
 msgstr "nenhuma conta de usuário disponível"
 
-#: ../daemon/gdm-session-worker.c:1544
+#: ../daemon/gdm-session-worker.c:1599
 msgid "Unable to change to user"
 msgstr "Não foi possível mudar para o usuário"
 
-#: ../daemon/gdm-simple-slave.c:1527
+#: ../daemon/gdm-simple-slave.c:1528
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Não foi possível iniciar o servidor X (seu ambiente gráfico) devido a algum "
-"erro interno. Por favor, contate o administrador de sistemas ou verifique o "
-"seu syslog para um diagnóstico. Enquanto isso, esta tela será desabilitada. "
-"Por favor reinicie o GDM quando o problema for corrigido."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Não foi possível iniciar o servidor X (seu ambiente gráfico) devido a algum erro interno. Por favor, contate o administrador de sistemas ou verifique o seu syslog para um diagnóstico. Enquanto isso, esta tela será desabilitada. Por favor reinicie o GDM quando o problema for corrigido."
 
-#: ../daemon/gdm-simple-slave.c:1568
+#: ../daemon/gdm-simple-slave.c:1569
 #, c-format
 msgid "Can only be called before user is logged in"
 msgstr "Somente pode ser chamado antes do usuário iniciar a sessão"
 
-#: ../daemon/gdm-simple-slave.c:1578
+#: ../daemon/gdm-simple-slave.c:1579
 #, c-format
 msgid "Caller not GDM"
 msgstr "O solicitante não é GDM"
 
-#: ../daemon/gdm-simple-slave.c:1631
+#: ../daemon/gdm-simple-slave.c:1632
 msgid "User not logged in"
 msgstr "O usuário não iniciou a sessão"
 
@@ -229,16 +199,13 @@ msgstr "Não foi possível criar soquete!"
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Não foi possível escrever o arquivo de PID %s: provavelmente não há espaço "
-"no disco: %s"
+msgstr "Não foi possível escrever o arquivo de PID %s: provavelmente não há espaço no disco: %s"
 
 #: ../daemon/main.c:188
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
 msgstr "Falha ao criar diretório %s marcador de executado uma vez: %s"
 
-# logdir é uma variável de configuração do GDM
 #: ../daemon/main.c:194
 #, c-format
 msgid "Failed to create LogDir %s: %s"
@@ -315,30 +282,23 @@ msgstr "Gerenciador de janelas e de composição"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
-msgstr ""
-"Permite ou não o uso de leitores de impressão digital para início de sessão"
+msgstr "Permite ou não o uso de leitores de impressão digital para início de sessão"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:2
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"A tela de início de sessão pode, opcionalmente, permitir que usuários que "
-"tenham suas impressões digitais registradas, iniciem sessão através de suas "
-"digitais."
+msgstr "A tela de início de sessão pode, opcionalmente, permitir que usuários que tenham suas impressões digitais registradas, iniciem sessão através de suas digitais."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
-msgstr ""
-"Permite ou não o uso de leitores de cartão inteligente para início de sessão"
+msgstr "Permite ou não o uso de leitores de cartão inteligente para início de sessão"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:4
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"A tela de início de sessão pode, opcionalmente, permitir que usuários que "
-"tenham cartões inteligentes, iniciem sessão usando esses cartões."
+msgstr "A tela de início de sessão pode, opcionalmente, permitir que usuários que tenham cartões inteligentes, iniciem sessão usando esses cartões."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -348,10 +308,7 @@ msgstr "Permite ou não o uso de senhas para início de sessão"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"A tela de início de sessão pode ser configurada para rejeitar autenticação "
-"por senha, forçando o usuário a usar autenticação por cartão inteligente ou "
-"impressão digital."
+msgstr "A tela de início de sessão pode ser configurada para rejeitar autenticação por senha, forçando o usuário a usar autenticação por cartão inteligente ou impressão digital."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -362,20 +319,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"A tela de início de sessão pode, opcionalmente, permitir a exibição de uma "
-"pequena imagem no topo de sua lista de usuários para fornecer a "
-"administradores e distribuições um meio de exibir sua marca."
+msgstr "A tela de início de sessão pode, opcionalmente, permitir a exibição de uma pequena imagem no topo de sua lista de usuários para fornecer a administradores e distribuições um meio de exibir sua marca."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
-"A tela de início de sessão alternativa pode, opcionalmente, exibir uma "
-"pequena imagem no topo de sua lista de usuários para fornecer a "
-"administradores e distribuições um meio de exibir sua marca."
+msgstr "A tela de início de sessão alternativa pode, opcionalmente, exibir uma pequena imagem no topo de sua lista de usuários para fornecer a administradores e distribuições um meio de exibir sua marca."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -383,14 +334,10 @@ msgstr "Evita mostrar a lista de usuários"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"A tela de início de sessão normalmente mostra uma lista de usuários "
-"disponíveis. Essa configuração pode ser utilizada para que essa lista não "
-"seja exibida."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "A tela de início de sessão normalmente mostra uma lista de usuários disponíveis. Essa configuração pode ser utilizada para que essa lista não seja exibida."
 
-# banner = faixa de mensagem.
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
 msgstr "Habilitar a exibição da faixa de mensagem "
@@ -405,18 +352,16 @@ msgstr "Texto da faixa de mensagem"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:15
 msgid "Text banner message to show in the login window."
-msgstr ""
-"Texto da faixa de mensagem a ser mostrada na janela de início de sessão."
+msgstr "Texto da faixa de mensagem a ser mostrada na janela de início de sessão."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:16
 msgid "Disable showing the restart buttons"
 msgstr "Desabilitar exibição dos botões de reiniciação"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Marque para desabilitar a exibição dos botões de reinicialização na janela "
-"de início de sessão."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Marque para desabilitar a exibição dos botões de reinicialização na janela de início de sessão."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -426,9 +371,7 @@ msgstr "Número de falhas de autenticação permitidas"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"O número de vezes que um usuário possui permissão para tentar autenticar, "
-"antes de desistir e voltar para a seleção de usuário."
+msgstr "O número de vezes que um usuário possui permissão para tentar autenticar, antes de desistir e voltar para a seleção de usuário."
 
 #: ../gui/libgdm/gdm-user-switching.c:72
 msgid "Unable to create transient display: "
@@ -441,7 +384,7 @@ msgstr "Não foi possível ativar a sessão:"
 
 #: ../gui/libgdm/gdm-user-switching.c:344
 #: ../gui/libgdm/gdm-user-switching.c:514 ../utils/gdmflexiserver.c:447
-#: ../utils/gdmflexiserver.c:614
+#: ../utils/gdmflexiserver.c:600
 #, c-format
 msgid "Could not identify the current session."
 msgstr "Impossível identificar a sessão atual."
@@ -451,21 +394,19 @@ msgstr "Impossível identificar a sessão atual."
 msgid "User unable to switch sessions."
 msgstr "Usuário não consegue alternar sessões."
 
-#: ../gui/libgdm/gdm-user-switching.c:523 ../utils/gdmflexiserver.c:623
+#: ../gui/libgdm/gdm-user-switching.c:523 ../utils/gdmflexiserver.c:609
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "Não foi possível identificar o assento atual."
 
-#: ../gui/libgdm/gdm-user-switching.c:533 ../utils/gdmflexiserver.c:633
+#: ../gui/libgdm/gdm-user-switching.c:533 ../utils/gdmflexiserver.c:619
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"O sistema não conseguiu deduzir se deve alternar para uma tela de login "
-"existente ou se é para abrir uma nova."
+msgstr "O sistema não conseguiu deduzir se deve alternar para uma tela de login existente ou se é para abrir uma nova."
 
-#: ../gui/libgdm/gdm-user-switching.c:541 ../utils/gdmflexiserver.c:641
+#: ../gui/libgdm/gdm-user-switching.c:541 ../utils/gdmflexiserver.c:627
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "O sistema não conseguiu abrir uma nova tela de login."
@@ -512,11 +453,11 @@ msgid "Version of this application"
 msgstr "Versão deste aplicativo"
 
 #. Option parsing
-#: ../utils/gdmflexiserver.c:707
+#: ../utils/gdmflexiserver.c:693
 msgid "- New GDM login"
 msgstr "- Novo início de sessão GDM"
 
-#: ../utils/gdmflexiserver.c:763
+#: ../utils/gdmflexiserver.c:749
 msgid "Unable to start new display"
 msgstr "Não foi possível criar nova exibição"
 
@@ -528,6 +469,3 @@ msgstr "Captura de tela obtida"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Captura uma foto da tela"
-
-#~ msgid "Your account was given an expiration date that's now passed."
-#~ msgstr "Foi dada à sua conta uma data de expiração que acabou de passar."
