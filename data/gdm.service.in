@@ -24,7 +24,7 @@ ExecStart=@sbindir@/gdm
 KillMode=mixed
 ExecStartPost=-/bin/bash -c "TERM=linux /usr/bin/clear > /dev/tty1"
 ExecStop=-/bin/bash -c "TERM=linux /usr/bin/clear > /dev/tty1"
-KillMode=process
+KillMode=mixed
 Restart=always
 IgnoreSIGPIPE=no
 BusName=org.gnome.DisplayManager
