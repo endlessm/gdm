@@ -23,6 +23,7 @@ OnFailure=plymouth-quit.service
 ExecStart=@sbindir@/gdm
 ExecStartPost=-/bin/bash -c "TERM=linux /usr/bin/clear > /dev/tty1"
 ExecStop=-/bin/bash -c "TERM=linux /usr/bin/clear > /dev/tty1"
+KillMode=process
 Restart=always
 IgnoreSIGPIPE=no
 BusName=org.gnome.DisplayManager
