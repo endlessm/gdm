@@ -4,40 +4,37 @@
 # 
 # Translators:
 # Adorilson Bezerra <adorilson@gmail.com>, 2011
-# Afonso Celso Medina <afmedina@uol.com.br>, 2004-2005
 # Antonio Fernandes C. Neto <fernandesn@gnome.org>, 2010
 # David Barzilay <barzilay@redhat.com>, 2003
 # Enrico Nicoletto <liverig@gmail.com>, 2013
 # Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008
-# skarllotbr <skarllot@gmail.com>, 2008
 # Guilherme de S. Pastore <gpastore@gnome.org>, 2006
 # Gustavo Maciel Dias Vieira <gustavo@sagui.org>, 2004
-# Gustavo Noronha Silva <kov@debian.org>, 2003-2004
 # Henrique P. Machado <zehrique@gmail.com>, 2008,2011
 # Jonh Wendell <jwendell@gnome.org>, 2012
 # Krix Apolinário <krixapolinario@gmail.com>, 2011
 # leonardof <leonardof@gnome.org>, 2007
 # Luciano Gardim <lucianogardim@gmail.com>, 2009
 # Og Maciel <ogmaciel@gnome.org>, 2011
-# Rafael Ferreira <rafael.f.f1@gmail.com>, 2012-2013
 # Rafael Sfair <rsfair@gmail.com>, 2007
 # Raul Pereira <contato@raulpereira.com>, 2007
 # Rodrigo L. M. Flores <rodrigomarquesflores@gmail.com>, 2009
 # Silva <michele@endlessm.com>, 2015
+# skarllotbr <skarllot@gmail.com>, 2008
 # Washington Lins <washington-lins@uol.com.br>, 2007
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-19 02:18+0000\n"
-"PO-Revision-Date: 2015-03-24 01:13+0000\n"
-"Last-Translator: Silva <michele@endlessm.com>\n"
-"Language-Team: Portuguese (http://www.transifex.com/projects/p/gdm/language/pt/)\n"
+"PO-Revision-Date: 2015-05-19 23:57+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/gdm/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../common/gdm-common.c:518
 #, c-format
