@@ -16,11 +16,6 @@ xauthdir = $(GDM_XAUTH_DIR)
 screenshotdir = $(GDM_SCREENSHOT_DIR)
 cachedir = $(localstatedir)/cache/gdm
 
-Xsession: $(srcdir)/Xsession.in
-	sed	-e 's,[@]XSESSION_SHELL[@],$(XSESSION_SHELL),g' \
-		-e 's,[@]libexecdir[@],$(libexecdir),g' \
-		<$(srcdir)/Xsession.in >Xsession
-
 Init: $(srcdir)/Init.in
 	sed	-e 's,[@]X_PATH[@],$(X_PATH),g' \
 		<$(srcdir)/Init.in >Init
@@ -191,6 +186,18 @@ CLEANFILES += gdm.service
 
 endif
 
+Xsession_files =
+if ENABLE_GDM_XSESSION
+
+Xsession: $(srcdir)/Xsession.in
+	sed	-e 's,[@]XSESSION_SHELL[@],$(XSESSION_SHELL),g' \
+		-e 's,[@]libexecdir[@],$(libexecdir),g' \
+		<$(srcdir)/Xsession.in >Xsession
+Xsession_files += Xsession
+CLEANFILES += Xsession
+
+endif
+
 EXTRA_DIST += gdm.service.in
 
 uninstall-hook:
@@ -222,7 +229,7 @@ uninstall-hook:
 	fi
 
 
-install-data-hook: gdm.conf-custom Xsession Init PostSession PreSession 00-upstream-settings 00-upstream-settings-locks $(systemdsystemunit)
+install-data-hook: gdm.conf-custom $(Xsession_files) Init PostSession PreSession 00-upstream-settings 00-upstream-settings-locks $(systemdsystemunit)
 	if test '!' -d $(DESTDIR)$(gdmconfdir); then \
 		$(mkinstalldirs) $(DESTDIR)$(gdmconfdir); \
 		chmod 755 $(DESTDIR)$(gdmconfdir); \
@@ -232,7 +239,9 @@ install-data-hook: gdm.conf-custom Xsession Init PostSession PreSession 00-upstr
 		chmod 644 $(DESTDIR)$(GDM_CUSTOM_CONF); \
 	fi
 
+if ENABLE_GDM_XSESSION
 	$(INSTALL_SCRIPT) Xsession $(DESTDIR)$(gdmconfdir)/Xsession
+endif
 
 	if test '!' -d $(DESTDIR)$(initdir); then \
 		$(mkinstalldirs) $(DESTDIR)$(initdir); \
