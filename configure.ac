@@ -1584,7 +1584,6 @@ data/pixmaps/Makefile
 data/pixmaps/16x16/Makefile
 data/pixmaps/32x32/Makefile
 data/pixmaps/48x48/Makefile
-data/dconf/gdm
 common/Makefile
 po/Makefile.in
 tests/Makefile
