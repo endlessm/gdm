@@ -661,8 +661,6 @@ clear_state (State **out_state)
 static gboolean
 on_sigterm (State *state)
 {
-        g_cancellable_cancel (state->cancellable);
-
         if (g_main_loop_is_running (state->main_loop)) {
                 g_main_loop_quit (state->main_loop);
         }
