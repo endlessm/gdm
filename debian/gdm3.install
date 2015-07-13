@@ -4,7 +4,6 @@ debian/tmp/usr/bin/gdm-screenshot
 debian/tmp/usr/lib/gdm3/gdm-*
 debian/tmp/usr/sbin/gdm
 debian/tmp/usr/share/pixmaps/
-debian/tmp/usr/share/gnome-session/
 debian/tmp/usr/share/locale/
 debian/tmp/usr/share/icons/
 debian/tmp/usr/share/help/
@@ -17,6 +16,5 @@ debian/tmp/var/*
 debian/dbus-1				usr/share/gdm/greeter
 debian/Xsession				etc/gdm3
 debian/greeter.dconf-defaults*		usr/share/gdm
-debian/default.desktop			usr/share/gdm/BuiltInSessions
 debian/generate-config			usr/share/gdm
 debian/insserv.conf.d			etc
