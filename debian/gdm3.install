@@ -9,7 +9,6 @@ debian/tmp/usr/share/icons/
 debian/tmp/usr/share/help/
 debian/tmp/usr/share/gdm/
 debian/tmp/usr/share/glib-2.0/
-debian/tmp/usr/share/dconf/
 debian/tmp/var/*
 lib/systemd/system
 debian/Xsession				etc/gdm3
