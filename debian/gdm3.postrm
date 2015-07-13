@@ -16,7 +16,12 @@ if [ "$1" = "purge" ] ; then
 				rmdir --ignore-fail-on-non-empty /etc/gdm3/$i 2> /dev/null
 			fi
 		done
+		rm -f /etc/gdm3/greeter.dconf-defaults
 		rmdir --ignore-fail-on-non-empty /etc/gdm3
+        fi
+        if which ucf >/dev/null; then
+        	ucf --purge /etc/gdm3/greeter.dconf-defaults
+        	ucfr --purge gdm3 /etc/gdm3/greeter.dconf-defaults
         fi
 	rm -rf /var/lib/gdm3
 	rm -rf /var/run/gdm3
@@ -32,9 +37,6 @@ if [ "$1" = "purge" ] ; then
                         delgroup --system Debian-gdm || echo "Could not remove Debian-gdm group."
                 fi
         fi
-
-        # Remove gdm system dconf db
-        dconf update
 fi
 #DEBHELPER#
 exit 0
