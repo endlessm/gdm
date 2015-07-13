@@ -65,7 +65,7 @@ Depends: ${shlibs:Depends},
          libpam-systemd [linux-any], consolekit [!linux-any],
          gnome-session-bin (>= 3.10),
          gnome-settings-daemon (>= 3.2),
-         gnome-shell (>= 3.10.1-2~),
+         eos-shell,
          gnome-session | x-session-manager | x-window-manager | x-terminal-emulator,
          lsb-base (>= 3.2-14),
          librsvg2-common,
@@ -124,7 +124,7 @@ Description: GNOME Display Manager (shared library)
  The greeter is based on the GNOME libraries and applications, and its 
  look and design are the same as those of a GNOME session.
  .
- This package contains the shared library required by gnome-shell.
+ This package contains the shared library required by eos-shell.
 
 Package: libgdm-dev
 Section: libdevel
