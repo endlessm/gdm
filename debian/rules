@@ -39,15 +39,14 @@ DEB_CONFIGURE_EXTRA_FLAGS += --enable-ipv6=yes \
 		--with-check-accelerated-directory=/usr/lib/gnome-session/ \
 		--with-ran-once-marker-directory=/var/run/gdm3 \
 		--with-gnome-settings-daemon-directory="`pkg-config --variable=libexecdir gnome-settings-daemon`" \
+		--disable-wayland-support \
 
 ifeq (linux,$(DEB_HOST_ARCH_OS))
 		DEB_CONFIGURE_EXTRA_FLAGS += --with-systemd \
-				--enable-wayland-support \
 				--with-selinux \
 				--without-console-kit
 else
 		DEB_CONFIGURE_EXTRA_FLAGS += --without-systemd \
-				--disable-wayland-support \
 				--without-selinux \
 				--with-console-kit
 endif
