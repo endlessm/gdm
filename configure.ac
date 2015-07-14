@@ -895,7 +895,7 @@ dnl - Check for systemd support
 dnl ---------------------------------------------------------------------------
 
 PKG_CHECK_MODULES(SYSTEMD,
-                  [libsystemd])
+                  [libsystemd],
                   [have_systemd=yes], [have_systemd=no])
 
 if test "x$with_systemd" = "xauto" ; then
