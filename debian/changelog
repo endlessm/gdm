@@ -1,3 +1,10 @@
+gdm3 (1:3.14.2-0) unstable; urgency=medium
+
+  * Rebase Endless changes on top of the gnome-3-14 upstream branch.
+  * Bump the epoch due to a previous problematic GDM 3.16 upgrade.
+
+ -- João Paulo Rechi Vita <jprvita@endlessm.com> Thu, 16 Jul 2015 18:10:00 -0500
+
 gdm3 (3.14.2-1) unstable; urgency=medium
 
   * New upstream release.
