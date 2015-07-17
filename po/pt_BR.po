@@ -4,18 +4,25 @@
 # 
 # Translators:
 # Adorilson Bezerra <adorilson@gmail.com>, 2011
+# Afonso Celso Medina <afmedina@uol.com.br>, 2004-2005
 # Antonio Fernandes C. Neto <fernandesn@gnome.org>, 2010
 # David Barzilay <barzilay@redhat.com>, 2003
-# Enrico Nicoletto <liverig@gmail.com>, 2013
+# Enrico Nicoletto <liverig@gmail.com>, 2013-2014
 # Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008
+# skarllotbr <skarllot@gmail.com>, 2008
 # Guilherme de S. Pastore <gpastore@gnome.org>, 2006
 # Gustavo Maciel Dias Vieira <gustavo@sagui.org>, 2004
+# Gustavo Noronha Silva <kov@debian.org>, 2003-2004
+# Henrique P. Machado <zehrique@gmail.com>, 2008,2011
 # Henrique P. Machado <zehrique@gmail.com>, 2008,2011
 # Jonh Wendell <jwendell@gnome.org>, 2012
 # Krix Apolinário <krixapolinario@gmail.com>, 2011
 # leonardof <leonardof@gnome.org>, 2007
+# leonardof <leonardof@gnome.org>, 2007
 # Luciano Gardim <lucianogardim@gmail.com>, 2009
 # Og Maciel <ogmaciel@gnome.org>, 2011
+# Og Maciel <ogmaciel@gnome.org>, 2011
+# Rafael Ferreira <rafael.f.f1@gmail.com>, 2012-2013
 # Rafael Sfair <rsfair@gmail.com>, 2007
 # Raul Pereira <contato@raulpereira.com>, 2007
 # Rodrigo L. M. Flores <rodrigomarquesflores@gmail.com>, 2009
@@ -27,7 +34,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2015-07-17 16:57+0000\n"
+"PO-Revision-Date: 2015-07-17 17:31+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/p/gdm/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +62,7 @@ msgstr "Usuário não consegue alternar sessões."
 #: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
 #, c-format
 msgid "Could not identify the current seat."
-msgstr "Não foi possível identificar o assento atual."
+msgstr "Não foi possível identificar a estação atual."
 
 #: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
 #, c-format
