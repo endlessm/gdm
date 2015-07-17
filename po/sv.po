@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gdm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-04-02 17:17+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-17 09:50-0700\n"
 "PO-Revision-Date: 2014-05-28 23:03+0200\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -21,29 +21,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../common/gdm-common.c:519
+#: ../common/gdm-common.c:311
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom är inte en teckenenhet"
 
-#: ../common/gdm-common.c:827 ../common/gdm-common.c:980
+#: ../common/gdm-common.c:619 ../common/gdm-common.c:772
 #: ../libgdm/gdm-user-switching.c:344 ../libgdm/gdm-user-switching.c:514
 #, c-format
 msgid "Could not identify the current session."
 msgstr "Kunde inte identifiera den aktuella sessionen."
 
-#: ../common/gdm-common.c:834 ../libgdm/gdm-user-switching.c:351
+#: ../common/gdm-common.c:626 ../libgdm/gdm-user-switching.c:351
 #, c-format
 msgid "User unable to switch sessions."
 msgstr "Användaren kan inte växla sessioner."
 
 # FIXME: Seat = säte?
-#: ../common/gdm-common.c:989 ../libgdm/gdm-user-switching.c:523
+#: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "Kunde inte identifiera det aktuella sätet."
 
-#: ../common/gdm-common.c:999 ../libgdm/gdm-user-switching.c:533
+#: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
@@ -52,7 +52,7 @@ msgstr ""
 "Systemet kan inte fastställa huruvida det ska växla till en befintlig "
 "inloggningsskärm eller starta upp en ny inloggningsskärm."
 
-#: ../common/gdm-common.c:1007 ../libgdm/gdm-user-switching.c:541
+#: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "Systemet kan inte starta upp en ny inloggningsskärm."
@@ -62,7 +62,7 @@ msgstr "Systemet kan inte starta upp en ny inloggningsskärm."
 msgid "could not find user \"%s\" on system"
 msgstr "kunde inte hitta användaren \"%s\" i systemet"
 
-#: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1158
+#: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
 msgid "No session available"
 msgstr "Ingen session tillgänglig"
 
@@ -141,36 +141,44 @@ msgstr "Visningsenhet"
 msgid "The display device"
 msgstr "Visningsenheten"
 
-#: ../daemon/gdm-session.c:1176
+#: ../daemon/gdm-session.c:1216
 msgid "Could not create authentication helper process"
 msgstr "Kunde inte skapa en autentiseringshjälpprocess"
 
-#: ../daemon/gdm-session-worker.c:844
+#: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
 msgstr "Ditt konto gavs en tidsgräns som nu har passerats."
 
-#: ../daemon/gdm-session-worker.c:851
+#: ../daemon/gdm-session-worker.c:853
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Ledsen, det fungerade inte.  Försök igen."
 
-#: ../daemon/gdm-session-worker.c:1107
+#: ../daemon/gdm-session-worker.c:1109
 msgid "Username:"
 msgstr "Användarnamn:"
 
+#: ../daemon/gdm-session-worker.c:1240
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
 #: ../daemon/gdm-session-worker.c:1241
+msgid "Password reminder:"
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1293
 msgid "Your password has expired, please change it now."
 msgstr "Ditt lösenord har gått ut, ändra det nu."
 
-#: ../daemon/gdm-session-worker.c:1480 ../daemon/gdm-session-worker.c:1497
+#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
 #, c-format
 msgid "no user account available"
 msgstr "inget användarkonto tillgängligt"
 
-#: ../daemon/gdm-session-worker.c:1524
+#: ../daemon/gdm-session-worker.c:1579
 msgid "Unable to change to user"
 msgstr "Kan inte byta till användaren"
 
-#: ../daemon/gdm-simple-slave.c:871
+#: ../daemon/gdm-simple-slave.c:866
 msgid ""
 "Could not start the X server (your graphical environment) due to an internal "
 "error. Please contact your system administrator or check your syslog to "
@@ -246,10 +254,6 @@ msgstr "Endast root-användaren kan köra GDM"
 msgid "GNOME Display Manager Session Worker"
 msgstr "Sessionsarbetare för GNOME:s Displayhanterare"
 
-#: ../data/applications/gdm-simple-greeter.desktop.in.in.h:1
-msgid "Login Window"
-msgstr "Inloggningsfönster"
-
 #: ../data/applications/gnome-shell.desktop.in.h:1
 msgid "GNOME Shell"
 msgstr "GNOME Shell"
@@ -266,7 +270,9 @@ msgstr "Huruvida fingeravtrycksläsare ska tillåtas för inloggning eller inte"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr "Inloggningsskärmen kan om så önskas tillåta användare som har registrerat sina fingeravtryck att logga in med dessa avtryck."
+msgstr ""
+"Inloggningsskärmen kan om så önskas tillåta användare som har registrerat "
+"sina fingeravtryck att logga in med dessa avtryck."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -288,7 +294,10 @@ msgstr "Huruvida lösenord ska tillåtas för inloggning eller inte"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr "Inloggningsskärmen kan konfigureras att inte tillåta lösenordsautentisering, och tvinga användaren att använda smartkorts- eller fingeravtrycksautentisering."
+msgstr ""
+"Inloggningsskärmen kan konfigureras att inte tillåta lösenordsautentisering, "
+"och tvinga användaren att använda smartkorts- eller "
+"fingeravtrycksautentisering."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -361,7 +370,9 @@ msgstr "Antal tillåtna autentiseringsfel"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr "Antalet gånger en användare får försöka autentisera, innan gdm ger upp och återgår till användarvalet."
+msgstr ""
+"Antalet gånger en användare får försöka autentisera, innan gdm ger upp och "
+"återgår till användarvalet."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -425,3 +436,6 @@ msgstr "Skärmbild tagen"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Ta en bild av skärmen"
+
+#~ msgid "Login Window"
+#~ msgstr "Inloggningsfönster"

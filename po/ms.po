@@ -5,17 +5,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gdm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-05-16 16:24+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-17 09:50-0700\n"
 "PO-Revision-Date: 2014-09-16 15:32+0800\n"
 "Last-Translator: Umarzuki Bin Mochlis Moktar <umar@umarzuki.org>\n"
 "Language-Team: Bahasa Melayu <https://l10n.gnome.org/teams/ms/>\n"
+"Language: Malay\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
-"Language: Malay\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -58,7 +57,6 @@ msgid "could not find user \"%s\" on system"
 msgstr "tidak jumpa pengguna  \"%s\" pada sistem"
 
 #: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
-#| msgid "No screenshot available"
 msgid "No session available"
 msgstr "Tiada sesi yang sedang berlangsung"
 
@@ -74,32 +72,27 @@ msgstr "Tidak dipanggil oleh GDM"
 
 #: ../daemon/gdm-server.c:437
 #, c-format
-#| msgid "%s: Server was to be spawned by uid %d but that user doesn't exist"
 msgid "Server was to be spawned by user %s but that user doesn't exist"
 msgstr ""
 "Servis hendak dimulakan oleh pengguna %s tetapi pengguna tersebut tidak wujud"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
-#| msgid "%s: Couldn't set groupid to %d"
 msgid "Couldn't set groupid to %d"
 msgstr "Gagal metetapkan id kumpulan kepada %d"
 
 #: ../daemon/gdm-server.c:454
 #, c-format
-#| msgid "%s: initgroups() failed for %s"
 msgid "initgroups () failed for %s"
 msgstr "initgroups () gagal untuk kali ke-%s"
 
 #: ../daemon/gdm-server.c:460
 #, c-format
-#| msgid "%s: Couldn't set userid to %d"
 msgid "Couldn't set userid to %d"
 msgstr "Gagal menetapkan id pengguna kepada %d"
 
 #: ../daemon/gdm-server.c:538
 #, c-format
-#| msgid "%s: Could not open logfile for display %s!"
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: Tidak dapat membuka fail log paparan %s!"
 
@@ -111,7 +104,6 @@ msgstr "%s: Ralat menetapkan  %s ke %s"
 
 #: ../daemon/gdm-server.c:591
 #, c-format
-#| msgid "%s: Xserver not found: %s"
 msgid "%s: Server priority couldn't be set to %d: %s"
 msgstr "%s: Tidak dapat menetapkan prioriti pelayan ke %d: %s"
 
@@ -125,12 +117,10 @@ msgid "Username"
 msgstr "Namapengguna"
 
 #: ../daemon/gdm-session-auditor.c:91
-#| msgid "Username"
 msgid "The username"
 msgstr "Nama pengguna"
 
 #: ../daemon/gdm-session-auditor.c:95
-#| msgid "Username"
 msgid "Hostname"
 msgstr "Nama hos"
 
@@ -139,7 +129,6 @@ msgid "The hostname"
 msgstr "Nama hos"
 
 #: ../daemon/gdm-session-auditor.c:101
-#| msgid "Display"
 msgid "Display Device"
 msgstr "Peranti Paparan"
 
@@ -147,50 +136,45 @@ msgstr "Peranti Paparan"
 msgid "The display device"
 msgstr "Peranti paparan"
 
-#: ../daemon/gdm-session.c:1183
-#| msgid "%s: Could not read Authentication Names"
+#: ../daemon/gdm-session.c:1216
 msgid "Could not create authentication helper process"
 msgstr "Tidak dapat mencipta proses pembantu pengesahan"
 
-#: ../daemon/gdm-session-worker.c:844
+#: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
 msgstr "Had masa akaun anda telah berlalu."
 
-#: ../daemon/gdm-session-worker.c:851
+#: ../daemon/gdm-session-worker.c:853
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Tidak berjaya nampaknya. Cuba semula."
 
-#: ../daemon/gdm-session-worker.c:1107
+#: ../daemon/gdm-session-worker.c:1109
 msgid "Username:"
 msgstr "Nama Pengguna:"
 
+#: ../daemon/gdm-session-worker.c:1240
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
 #: ../daemon/gdm-session-worker.c:1241
-#| msgid ""
-#| "Your password has expired.\n"
-#| "Only a system administrator can now change it"
+#, fuzzy
+msgid "Password reminder:"
+msgstr "Katalaluan:"
+
+#: ../daemon/gdm-session-worker.c:1293
 msgid "Your password has expired, please change it now."
 msgstr "Kata laluan anda telah luput. Sila tukarkan sekarang."
 
-#: ../daemon/gdm-session-worker.c:1480 ../daemon/gdm-session-worker.c:1497
+#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
 #, c-format
-#| msgid "No screenshot available"
 msgid "no user account available"
 msgstr "tiada akaun yang tersedia"
 
-#: ../daemon/gdm-session-worker.c:1524
+#: ../daemon/gdm-session-worker.c:1579
 msgid "Unable to change to user"
 msgstr "Tidak dapat menukar pengguna"
 
-#: ../daemon/gdm-simple-slave.c:871
-#| msgid ""
-#| "I could not start the X\n"
-#| "server (your graphical environment)\n"
-#| "due to some internal error.\n"
-#| "Please contact your system administrator\n"
-#| "or check your syslog to diagnose.\n"
-#| "In the meantime this display will be\n"
-#| "disabled.  Please restart gdm when\n"
-#| "the problem is corrected."
+#: ../daemon/gdm-simple-slave.c:866
 msgid ""
 "Could not start the X server (your graphical environment) due to an internal "
 "error. Please contact your system administrator or check your syslog to "
@@ -203,13 +187,11 @@ msgstr ""
 "semula GDM apabila masalah ini telah diselesaikan."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
-#| msgid "%s: Could not create socket!"
 msgid "Could not create socket!"
 msgstr "Tidak dapat mencipta soket!"
 
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
-#| msgid "Cannot write PID file %s, possibly out of diskspace.  Error: %s"
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr ""
 "Tidak dapat mewujudkan fail PID %s: mungkin telah kehabisan ruang cakera: %s"
@@ -221,29 +203,24 @@ msgstr "Gagal mencipta penanda direktori yang dijalankan sekali sahaja %s: %s"
 
 #: ../daemon/main.c:194
 #, c-format
-#| msgid "Failed to restart self"
 msgid "Failed to create LogDir %s: %s"
 msgstr "Gagal untuk mewujudkan LogDir %s: %s"
 
 #: ../daemon/main.c:229
 #, c-format
-#| msgid "%s: Can't find the gdm user (%s). Aborting!"
 msgid "Can't find the GDM user '%s'. Aborting!"
 msgstr "Gagal menjumpai pengguna GDM '%s'. Membatalkan proses!"
 
 #: ../daemon/main.c:235
-#| msgid "%s: The gdm user should not be root. Aborting!"
 msgid "The GDM user should not be root. Aborting!"
 msgstr "Pengguna GDM tidak boleh log masuk sebagai root. Membatalkan proses!"
 
 #: ../daemon/main.c:241
 #, c-format
-#| msgid "%s: Can't find the gdm group (%s). Aborting!"
 msgid "Can't find the GDM group '%s'. Aborting!"
 msgstr "Tidak jumpa kumpulan GDM '%s'. Membatalkan proses!"
 
 #: ../daemon/main.c:247
-#| msgid "%s: The gdm group should not be root. Aborting!"
 msgid "The GDM group should not be root. Aborting!"
 msgstr "Kumpulan GDM adalah root. Membatalkan proses!"
 
@@ -260,7 +237,6 @@ msgid "Print GDM version"
 msgstr "Cetak versi GDM"
 
 #: ../daemon/main.c:339
-#| msgid "GNOME Desktop Manager"
 msgid "GNOME Display Manager"
 msgstr "Pengurus Paparan GNOME"
 
@@ -272,17 +248,10 @@ msgstr "Hanya pengguna root boleh menjalankan GDM"
 #. Translators: worker is a helper process that does the work
 #. of starting up a session
 #: ../daemon/session-worker-main.c:95
-#| msgid "GDM (The GNOME Display Manager) is not running."
 msgid "GNOME Display Manager Session Worker"
 msgstr "Pekerja Sesi Pengurus Paparan GNOME"
 
-#: ../data/applications/gdm-simple-greeter.desktop.in.in.h:1
-#| msgid "Login Photo"
-msgid "Login Window"
-msgstr "Tetingkap Log Masuk"
-
 #: ../data/applications/gnome-shell.desktop.in.h:1
-#| msgid "GNOME"
 msgid "GNOME Shell"
 msgstr "GNOME Shell"
 
@@ -315,7 +284,6 @@ msgstr ""
 "bagi log masuk"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
-#| msgid "User %s not allowed to log in"
 msgid "Whether or not to allow passwords for login"
 msgstr ""
 "Pilih untuk membolehkan penggunaan kata laluan bagi log masuk atau tidak"
@@ -390,7 +358,6 @@ msgstr ""
 "Benarkan untuk tidak menunjukkan butang mula semula pada tetingkap log masuk."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
-#| msgid "Authentication failure!\n"
 msgid "Number of allowed authentication failures"
 msgstr "Had dibenarkan untuk kegagalan pengesahan"
 
@@ -407,17 +374,14 @@ msgid "Select System"
 msgstr "Pilih Sistem"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
-#| msgid "%s: Could not create XDMCP buffer!"
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP: Tidak dapat membaca penimbal XDMCP!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
-#| msgid "%s: Could not read XDMCP header!"
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: Tidak dapat membaca pengepala XDMCP!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-#| msgid "%s: Incorrect XDMCP version!"
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XDMCP: Silap versi untuk XDMCP!"
 
@@ -451,18 +415,15 @@ msgid "Debugging output"
 msgstr "Output nyahpepijat"
 
 #: ../utils/gdmflexiserver.c:52
-#| msgid "How to use this application"
 msgid "Version of this application"
 msgstr "Versi aplikasi ini"
 
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
-#| msgid "New Login"
 msgid "- New GDM login"
 msgstr "- Login GDM baharu"
 
 #: ../utils/gdm-screenshot.c:212
-#| msgid "No screenshot available"
 msgid "Screenshot taken"
 msgstr "Cekupan skrin diambil"
 
@@ -470,6 +431,10 @@ msgstr "Cekupan skrin diambil"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Ambil gambar skrin"
+
+#~| msgid "Login Photo"
+#~ msgid "Login Window"
+#~ msgstr "Tetingkap Log Masuk"
 
 #~ msgid "CDE"
 #~ msgstr "CDE"
@@ -1353,9 +1318,6 @@ msgstr "Ambil gambar skrin"
 
 #~ msgid "Please enter your username"
 #~ msgstr "Sila masukkan nama pengguna anda"
-
-#~ msgid "Password:"
-#~ msgstr "Katalaluan:"
 
 #~ msgid "Couldn't authenticate user \"%s\""
 #~ msgstr "Gagal menentusahkan pengguna \"%s\""

@@ -16,107 +16,109 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm.master.ta\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gdm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-08-28 13:17+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-17 09:50-0700\n"
 "PO-Revision-Date: 2013-08-30 15:42+0530\n"
 "Last-Translator: Shantha kumar <shkumar@redhat.com>\n"
 "Language-Team: American English <>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\\n;\n"
 
-#: ../common/gdm-common.c:518
+#: ../common/gdm-common.c:311
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom ஒரு எழுத்து சாதனம் அல்ல"
+
+#: ../common/gdm-common.c:619 ../common/gdm-common.c:772
+#: ../libgdm/gdm-user-switching.c:344 ../libgdm/gdm-user-switching.c:514
+#, c-format
+msgid "Could not identify the current session."
+msgstr "நடப்பு அமர்வினை கண்டுபிடிக்க முடியவில்லை."
+
+#: ../common/gdm-common.c:626 ../libgdm/gdm-user-switching.c:351
+#, c-format
+msgid "User unable to switch sessions."
+msgstr "பயனர் அமர்வை  மாற்ற முடியவில்லை"
+
+#: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
+#, c-format
+msgid "Could not identify the current seat."
+msgstr "நடப்பு அமர்வினை கண்டுபிடிக்க முடியவில்லை."
+
+#: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
+#, c-format
+msgid ""
+"The system is unable to determine whether to switch to an existing login "
+"screen or start up a new login screen."
+msgstr ""
+"கணினியால் இருப்பில் உள்ள உள்நுழைவு திரைக்கு செல்வதா அல்லது புதிய உள்நுழைவு திரையை "
+"துவக்குவதா என்று நிர்ணயிக்க முடியவில்லை"
+
+#: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
+#, c-format
+msgid "The system is unable to start up a new login screen."
+msgstr "கணினியால் புதிய உள்நுழைவு திரையை துவக்க முடியவில்லை"
 
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user \"%s\" on system"
 msgstr "கணினியில் பயனர் \"%s\" ஐ காண முடியவில்லை"
 
-#: ../daemon/gdm-display.c:1328 ../daemon/gdm-display.c:1362
-#, c-format
-msgid "No session available yet"
-msgstr "அமர்வு ஏதும் இன்னும் கிடைக்கவில்லை"
-
-#: ../daemon/gdm-manager.c:276 ../daemon/gdm-manager.c:383
-#, c-format
-msgid "Unable to look up UID of user %s"
-msgstr "பயனர் %s இன் யூஐடி(UID) ஐ பார்க்க முடியவில்லை"
-
-#: ../daemon/gdm-manager.c:290
-msgid "no sessions available"
-msgstr "அமர்வுகள் ஏதும் கிடைக்கவில்லை"
-
-#: ../daemon/gdm-manager.c:351
-#, c-format
-msgid "No sessions for %s available for reauthentication"
-msgstr "மறு உறுதிப்படுத்தலுக்கு %s க்கு அமர்வு ஏதும் இல்லை"
-
-#: ../daemon/gdm-manager.c:405
-#, c-format
-msgid "Unable to find session for user %s"
-msgstr "பயனர் %s க்கு அமர்வை கண்டுபிடிக்க முடியவில்லை"
-
-#: ../daemon/gdm-manager.c:475
-#, c-format
-msgid "Unable to find appropriate session for user %s"
-msgstr "பயனர் %s க்கு பொருத்தமான அமர்வை கண்டுபிடிக்க முடியவில்லை"
-
-#: ../daemon/gdm-manager.c:670
-msgid "User doesn't own session"
-msgstr "பயனர் அமர்வை சொந்தமாக வைத்திருக்கவில்லை"
-
-#: ../daemon/gdm-manager.c:683 ../daemon/gdm-manager.c:770
+#: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
 msgid "No session available"
 msgstr "அமர்வு இல்லை"
 
-#: ../daemon/gdm-server.c:234
+#: ../daemon/gdm-manager.c:953
 #, c-format
-msgid "%s: failed to connect to parent display '%s'"
-msgstr "%s:பெற்றோர் காட்சியை திறப்பதற்கு இணைக்க முடியவில்லை %s"
+msgid "Can only be called before user is logged in"
+msgstr "பயனர் உள்நுழையும் முன் மட்டுமே அழைக்க முடியும்"
 
-#: ../daemon/gdm-server.c:413
+#: ../daemon/gdm-manager.c:962
+#, c-format
+msgid "Caller not GDM"
+msgstr "அழைப்பாளர் ஜிடிஎம் இல்லை"
+
+#: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
 msgstr "இந்த பயனர் %s சேவையகம் உருவாக்கப்பட்டது ஆனால் அந்த பயனர் இப்போது இல்லை"
 
-#: ../daemon/gdm-server.c:424 ../daemon/gdm-server.c:444
+#: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
 msgid "Couldn't set groupid to %d"
 msgstr "%d க்கு குழுக்குறியீடு அமைக்க முடியவில்லை"
 
-#: ../daemon/gdm-server.c:430
+#: ../daemon/gdm-server.c:454
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups() %sக்கு செயலிழக்கப்பட்டது"
 
-#: ../daemon/gdm-server.c:436
+#: ../daemon/gdm-server.c:460
 #, c-format
 msgid "Couldn't set userid to %d"
 msgstr "%dக்கு பயனர் அடையாளத்தை அமைக்க முடியவில்லை"
 
-#: ../daemon/gdm-server.c:483
+#: ../daemon/gdm-server.c:538
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: இந்த காட்சிக்கான பதிவு கோப்பினை திறக்க முடியவில்லை %s!"
 
-#: ../daemon/gdm-server.c:494 ../daemon/gdm-server.c:500
-#: ../daemon/gdm-server.c:506
+#: ../daemon/gdm-server.c:559 ../daemon/gdm-server.c:565
+#: ../daemon/gdm-server.c:571
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: பிழை %s ஐ %s க்கு அமைக்க"
 
-#: ../daemon/gdm-server.c:526
+#: ../daemon/gdm-server.c:591
 #, c-format
 msgid "%s: Server priority couldn't be set to %d: %s"
 msgstr "%s: X சேவையகத்தின் முன்னுரிமை %dக்கு அமைக்க முடியவில்லை: %s"
 
-#: ../daemon/gdm-server.c:682
+#: ../daemon/gdm-server.c:743
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: காட்சிக்கான வெற்றுசேவையகம் கட்டளை %s"
@@ -145,38 +147,46 @@ msgstr "காட்சி சாதனம்"
 msgid "The display device"
 msgstr "காட்சி சாதனம்"
 
-#: ../daemon/gdm-session.c:1183
+#: ../daemon/gdm-session.c:1216
 msgid "Could not create authentication helper process"
 msgstr " அங்கீகார உதவி  செயலை உருவாக்க முடியவில்லை"
 
-#: ../daemon/gdm-session-worker.c:824
+#: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
 msgstr ""
 "உங்கள் கணக்குக்கு ஒரு கால வரம்பு கொடுக்கப்பட்டிருந்தது, அந்தக் கால வரம்பு இப்போது "
 "கடந்துவிட்டது."
 
-#: ../daemon/gdm-session-worker.c:831
+#: ../daemon/gdm-session-worker.c:853
 msgid "Sorry, that didn't work. Please try again."
 msgstr "வருந்துகிறோம், பயனில்லை. மீண்டும் முயற்சிக்கவும்."
 
-#: ../daemon/gdm-session-worker.c:1063
+#: ../daemon/gdm-session-worker.c:1109
 msgid "Username:"
 msgstr "பயனர் பெயர்:"
 
-#: ../daemon/gdm-session-worker.c:1250
+#: ../daemon/gdm-session-worker.c:1240
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1241
+msgid "Password reminder:"
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1293
 msgid "Your password has expired, please change it now."
 msgstr "உங்கள் கடவுச்சொல் காலாவதியாகிவிட்டது, இப்போது கடவுச்சொல்லை மாற்றவும்."
 
-#: ../daemon/gdm-session-worker.c:1489 ../daemon/gdm-session-worker.c:1506
+#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
 #, c-format
 msgid "no user account available"
 msgstr "பயனர் கணக்கு இல்லை"
 
-#: ../daemon/gdm-session-worker.c:1533
+#: ../daemon/gdm-session-worker.c:1579
 msgid "Unable to change to user"
 msgstr "பயனருக்கு மாற்ற இயவில்லை"
 
-#: ../daemon/gdm-simple-slave.c:1527
+#: ../daemon/gdm-simple-slave.c:866
 msgid ""
 "Could not start the X server (your graphical environment) due to an internal "
 "error. Please contact your system administrator or check your syslog to "
@@ -188,26 +198,7 @@ msgstr ""
 "பரிசோதிக்கவும். நடுவில் இந்த காட்சி செயல் இழக்கப்படும். பிரச்சினை சரியான உடன் GDM ஐ "
 "துவக்குக."
 
-#: ../daemon/gdm-simple-slave.c:1568
-#, c-format
-msgid "Can only be called before user is logged in"
-msgstr "பயனர் உள்நுழையும் முன் மட்டுமே அழைக்க முடியும்"
-
-#: ../daemon/gdm-simple-slave.c:1578
-#, c-format
-msgid "Caller not GDM"
-msgstr "அழைப்பாளர் ஜிடிஎம் இல்லை"
-
-#: ../daemon/gdm-simple-slave.c:1631
-msgid "User not logged in"
-msgstr "பயனர் உள்நுழையவில்லை"
-
-#: ../daemon/gdm-xdmcp-chooser-slave.c:368
-#, c-format
-msgid "Currently, only one client can be connected at once"
-msgstr "தற்போது ஒரே ஒரு சார்ந்தோன் மட்டுமே இணைக்கப்பட முடியும்."
-
-#: ../daemon/gdm-xdmcp-display-factory.c:604
+#: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
 msgstr "சாக்கெட்டை உருவாக்க முடியவில்லை!"
 
@@ -244,48 +235,32 @@ msgstr "GDM குழு '%s' ஐ கண்டுபிடிக்க முட
 msgid "The GDM group should not be root. Aborting!"
 msgstr "GDM குழு 'ரூட்டாக இருக்கக்கூடாது. கைவிடப்படுகிறது!"
 
-#: ../daemon/main.c:327
+#: ../daemon/main.c:324
 msgid "Make all warnings fatal"
 msgstr "அனைத்து எச்சரிக்கைகளையும் முக்கியமானதாக்கு"
 
-#: ../daemon/main.c:328
+#: ../daemon/main.c:325
 msgid "Exit after a time (for debugging)"
 msgstr "(பிழை திருத்த) சிறிய தாமதத்தின் பின் வெளியேறு"
 
-#: ../daemon/main.c:329
+#: ../daemon/main.c:326
 msgid "Print GDM version"
 msgstr "GDM பதிப்பை அச்சிடு"
 
-#: ../daemon/main.c:340
+#: ../daemon/main.c:339
 msgid "GNOME Display Manager"
 msgstr "GNOME காட்சி மேலாளர்"
 
 #. make sure the pid file doesn't get wiped
-#: ../daemon/main.c:388
+#: ../daemon/main.c:387
 msgid "Only the root user can run GDM"
 msgstr "ரூட் பயனர் மட்டுமே GDM இயக்கலாம்."
 
 #. Translators: worker is a helper process that does the work
 #. of starting up a session
-#: ../daemon/session-worker-main.c:101
+#: ../daemon/session-worker-main.c:95
 msgid "GNOME Display Manager Session Worker"
 msgstr "GNOME (க்நோம் காட்சி மேலாளர்) ஓடவில்லை."
-
-#: ../daemon/simple-slave-main.c:125 ../daemon/xdmcp-chooser-slave-main.c:124
-msgid "Display ID"
-msgstr "காட்சி ID"
-
-#: ../daemon/simple-slave-main.c:125 ../daemon/xdmcp-chooser-slave-main.c:124
-msgid "ID"
-msgstr "ஐடி (ID)"
-
-#: ../daemon/simple-slave-main.c:133 ../daemon/xdmcp-chooser-slave-main.c:132
-msgid "GNOME Display Manager Slave"
-msgstr "க்நோம் காட்சி மேலாளர் அடிமை"
-
-#: ../data/applications/gdm-simple-greeter.desktop.in.in.h:1
-msgid "Login Window"
-msgstr "புகுபதிவு சாளரம்"
 
 #: ../data/applications/gnome-shell.desktop.in.h:1
 msgid "GNOME Shell"
@@ -320,7 +295,6 @@ msgstr ""
 "அனுமதிக்கிறது."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
-#| msgid "Whether or not to allow smartcard readers for login"
 msgid "Whether or not to allow passwords for login"
 msgstr "புகுபதிவுக்கு கடவுச்சொற்களை அனுமதிக்க வேண்டுமா வேண்டாமா"
 
@@ -404,46 +378,6 @@ msgstr ""
 "பயனர் அங்கீகாரம் பெற முயற்சிக்கையில், முயற்சியைக் கைவிட்டு மீண்டும் பயனர் தேர்ந்தெடுத்தலுக்குத் "
 "திரும்பும் முன்பு பயனரின் அனுமதிக்கப்படும் அங்கீகார முயற்சிகளின் எண்ணிக்கை."
 
-#: ../gui/libgdm/gdm-user-switching.c:72
-msgid "Unable to create transient display: "
-msgstr "தற்காலிக காட்சியை துவக்க முடியவில்லை:"
-
-#: ../gui/libgdm/gdm-user-switching.c:183
-#: ../gui/libgdm/gdm-user-switching.c:395
-msgid "Unable to activate session: "
-msgstr "அமர்வை  செயலாக்க முடியவில்லை:"
-
-#: ../gui/libgdm/gdm-user-switching.c:344
-#: ../gui/libgdm/gdm-user-switching.c:514 ../utils/gdmflexiserver.c:447
-#: ../utils/gdmflexiserver.c:614
-#, c-format
-msgid "Could not identify the current session."
-msgstr "நடப்பு அமர்வினை கண்டுபிடிக்க முடியவில்லை."
-
-#: ../gui/libgdm/gdm-user-switching.c:351 ../utils/gdmflexiserver.c:454
-#, c-format
-msgid "User unable to switch sessions."
-msgstr "பயனர் அமர்வை  மாற்ற முடியவில்லை"
-
-#: ../gui/libgdm/gdm-user-switching.c:523 ../utils/gdmflexiserver.c:623
-#, c-format
-msgid "Could not identify the current seat."
-msgstr "நடப்பு அமர்வினை கண்டுபிடிக்க முடியவில்லை."
-
-#: ../gui/libgdm/gdm-user-switching.c:533 ../utils/gdmflexiserver.c:633
-#, c-format
-msgid ""
-"The system is unable to determine whether to switch to an existing login "
-"screen or start up a new login screen."
-msgstr ""
-"கணினியால் இருப்பில் உள்ள உள்நுழைவு திரைக்கு செல்வதா அல்லது புதிய உள்நுழைவு திரையை "
-"துவக்குவதா என்று நிர்ணயிக்க முடியவில்லை"
-
-#: ../gui/libgdm/gdm-user-switching.c:541 ../utils/gdmflexiserver.c:641
-#, c-format
-msgid "The system is unable to start up a new login screen."
-msgstr "கணினியால் புதிய உள்நுழைவு திரையை துவக்க முடியவில்லை"
-
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
 msgstr "கணினியைத் தேர்ந்தெடு"
@@ -464,35 +398,39 @@ msgstr "XDMCP: தவறான XDMCP பதிப்பு!"
 msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: முகவரியைப் பாகுபடுத்த முடியவில்லை"
 
-#: ../utils/gdmflexiserver.c:65
+#: ../libgdm/gdm-user-switching.c:72
+msgid "Unable to create transient display: "
+msgstr "தற்காலிக காட்சியை துவக்க முடியவில்லை:"
+
+#: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
+msgid "Unable to activate session: "
+msgstr "அமர்வை  செயலாக்க முடியவில்லை:"
+
+#: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
 msgstr "வெர்ஷன் கட்டளைக்கு மட்டுமே ஆதரவுள்ளது"
 
-#: ../utils/gdmflexiserver.c:65
+#: ../utils/gdmflexiserver.c:45
 msgid "COMMAND"
 msgstr "COMMAND"
 
-#: ../utils/gdmflexiserver.c:66 ../utils/gdmflexiserver.c:67
-#: ../utils/gdmflexiserver.c:69 ../utils/gdmflexiserver.c:70
+#: ../utils/gdmflexiserver.c:46 ../utils/gdmflexiserver.c:47
+#: ../utils/gdmflexiserver.c:49 ../utils/gdmflexiserver.c:50
 msgid "Ignored — retained for compatibility"
 msgstr "உதாசீனிக்கப்பட்டது — ஏற்றத்திற்கு வைத்திருக்கிறது"
 
-#: ../utils/gdmflexiserver.c:68 ../utils/gdm-screenshot.c:43
+#: ../utils/gdmflexiserver.c:48 ../utils/gdm-screenshot.c:43
 msgid "Debugging output"
 msgstr "வெளியீட்டை பிழைநீக்குகிறது"
 
-#: ../utils/gdmflexiserver.c:72
+#: ../utils/gdmflexiserver.c:52
 msgid "Version of this application"
 msgstr "இந்த விண்ணப்பத்தின் பதிப்பு"
 
 #. Option parsing
-#: ../utils/gdmflexiserver.c:707
+#: ../utils/gdmflexiserver.c:137
 msgid "- New GDM login"
 msgstr "- புதிய GDM புகுபதிவு"
-
-#: ../utils/gdmflexiserver.c:763
-msgid "Unable to start new display"
-msgstr "புதிய காட்சியை துவக்க முடியவில்லை"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
@@ -502,6 +440,51 @@ msgstr "திரைப்பிடிப்பு எடுக்கப்ப�
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "திரையை ஒரு படமெடுக்கவும்"
+
+#~ msgid "No session available yet"
+#~ msgstr "அமர்வு ஏதும் இன்னும் கிடைக்கவில்லை"
+
+#~ msgid "Unable to look up UID of user %s"
+#~ msgstr "பயனர் %s இன் யூஐடி(UID) ஐ பார்க்க முடியவில்லை"
+
+#~ msgid "no sessions available"
+#~ msgstr "அமர்வுகள் ஏதும் கிடைக்கவில்லை"
+
+#~ msgid "No sessions for %s available for reauthentication"
+#~ msgstr "மறு உறுதிப்படுத்தலுக்கு %s க்கு அமர்வு ஏதும் இல்லை"
+
+#~ msgid "Unable to find session for user %s"
+#~ msgstr "பயனர் %s க்கு அமர்வை கண்டுபிடிக்க முடியவில்லை"
+
+#~ msgid "Unable to find appropriate session for user %s"
+#~ msgstr "பயனர் %s க்கு பொருத்தமான அமர்வை கண்டுபிடிக்க முடியவில்லை"
+
+#~ msgid "User doesn't own session"
+#~ msgstr "பயனர் அமர்வை சொந்தமாக வைத்திருக்கவில்லை"
+
+#~ msgid "%s: failed to connect to parent display '%s'"
+#~ msgstr "%s:பெற்றோர் காட்சியை திறப்பதற்கு இணைக்க முடியவில்லை %s"
+
+#~ msgid "User not logged in"
+#~ msgstr "பயனர் உள்நுழையவில்லை"
+
+#~ msgid "Currently, only one client can be connected at once"
+#~ msgstr "தற்போது ஒரே ஒரு சார்ந்தோன் மட்டுமே இணைக்கப்பட முடியும்."
+
+#~ msgid "Display ID"
+#~ msgstr "காட்சி ID"
+
+#~ msgid "ID"
+#~ msgstr "ஐடி (ID)"
+
+#~ msgid "GNOME Display Manager Slave"
+#~ msgstr "க்நோம் காட்சி மேலாளர் அடிமை"
+
+#~ msgid "Login Window"
+#~ msgstr "புகுபதிவு சாளரம்"
+
+#~ msgid "Unable to start new display"
+#~ msgstr "புதிய காட்சியை துவக்க முடியவில்லை"
 
 #~ msgid "error initiating conversation with authentication system - %s"
 #~ msgstr "அங்கீகரித்தல் அமைப்புடன் உரையாடலை துவக்குவதில் பிழை: %s"

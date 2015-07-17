@@ -6,9 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: bosnianuniversetranslation\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gdm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-02-27 05:54+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-17 09:50-0700\n"
 "PO-Revision-Date: 2015-02-05 00:23+0000\n"
 "Last-Translator: Goro Faruk <fgoro1@etf.unsa.ba>\n"
 "Language-Team: Bosnian <bs@li.org>\n"
@@ -138,36 +137,44 @@ msgstr "Uređaj za prikaz"
 msgid "The display device"
 msgstr "Uređaj za prikaz"
 
-#: ../daemon/gdm-session.c:1217
+#: ../daemon/gdm-session.c:1216
 msgid "Could not create authentication helper process"
 msgstr "Ne mogu napraviti provjeru autentičnosti za pomoćni proces"
 
-#: ../daemon/gdm-session-worker.c:844
+#: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
 msgstr "Vašem korisničkom računu je dodijeljen vremenski limit koji je prošao."
 
-#: ../daemon/gdm-session-worker.c:851
+#: ../daemon/gdm-session-worker.c:853
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Žao nam je, nije uspjelo. Molimo pokušajte ponovno."
 
-#: ../daemon/gdm-session-worker.c:1107
+#: ../daemon/gdm-session-worker.c:1109
 msgid "Username:"
 msgstr "Korisničko ime:"
 
+#: ../daemon/gdm-session-worker.c:1240
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
 #: ../daemon/gdm-session-worker.c:1241
+msgid "Password reminder:"
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1293
 msgid "Your password has expired, please change it now."
 msgstr "Vaša lozinka je zastarjela, molimo promijenite je."
 
-#: ../daemon/gdm-session-worker.c:1480 ../daemon/gdm-session-worker.c:1497
+#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
 #, c-format
 msgid "no user account available"
 msgstr "nema korisničkih računa na raspolaganju"
 
-#: ../daemon/gdm-session-worker.c:1524
+#: ../daemon/gdm-session-worker.c:1579
 msgid "Unable to change to user"
 msgstr "Nije moguće promijeniti korisnika"
 
-#: ../daemon/gdm-simple-slave.c:871
+#: ../daemon/gdm-simple-slave.c:866
 msgid ""
 "Could not start the X server (your graphical environment) due to an internal "
 "error. Please contact your system administrator or check your syslog to "
@@ -232,7 +239,7 @@ msgstr "Ispiši verziju GDM-a"
 msgid "GNOME Display Manager"
 msgstr "GNOME Upravitelj Prikaza"
 
-#. makije sure the pid file doesn't get wiped
+#. make sure the pid file doesn't get wiped
 #: ../daemon/main.c:387
 msgid "Only the root user can run GDM"
 msgstr "GDM može pokrenuti samo root korisnik"

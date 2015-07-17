@@ -1,45 +1,42 @@
-# translation of gdm.gnome-3-14.is.po to
-# Icelandic translation of gdm2
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# Richard Allen <ra@ra.is>, 2003.
-# Sveinn í Felli <sv1@fellsnet.is>, 2015.
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm.gnome-3-14.is\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2015-04-27 14:58+0000\n"
-"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
-"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
-"Language: is\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
 msgid "/dev/urandom is not a character device"
-msgstr "/dev/urandom er ekki stafatæki"
+msgstr ""
 
 #: ../common/gdm-common.c:619 ../common/gdm-common.c:772
 #: ../libgdm/gdm-user-switching.c:344 ../libgdm/gdm-user-switching.c:514
 #, c-format
 msgid "Could not identify the current session."
-msgstr "Gat ekki skilgreint núverandi setu."
+msgstr ""
 
 #: ../common/gdm-common.c:626 ../libgdm/gdm-user-switching.c:351
 #, c-format
 msgid "User unable to switch sessions."
-msgstr "Notandi getur ekki skipt um setur."
+msgstr ""
 
 #: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
 #, c-format
 msgid "Could not identify the current seat."
-msgstr "Gat ekki skilgreint núverandi setu."
+msgstr ""
 
 #: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
 #, c-format
@@ -47,114 +44,111 @@ msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr ""
-"Kerfið er ófært um að ákvarða hvort ræsa eigi nýjan innskráningarglugga eða "
-"nota þann sem fyrir er."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
 msgid "The system is unable to start up a new login screen."
-msgstr "Kerfið er ófært um að ræsa nýjan innskráningarglugga."
+msgstr ""
 
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user \"%s\" on system"
-msgstr "fann ekki notandann „%s“ á kerfinu"
+msgstr ""
 
 #: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
 msgid "No session available"
-msgstr "Engin seta tiltæk"
+msgstr ""
 
 #: ../daemon/gdm-manager.c:953
 #, c-format
 msgid "Can only be called before user is logged in"
-msgstr "Er aðeins hægt að kalla áður en notandi er skráður inn"
+msgstr ""
 
 #: ../daemon/gdm-manager.c:962
 #, c-format
 msgid "Caller not GDM"
-msgstr "Kallari er ekki GDM"
+msgstr ""
 
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr "Þjóninn átti að ræsa af notandanum %s en sá notandi er ekki til"
+msgstr ""
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
 msgid "Couldn't set groupid to %d"
-msgstr "Gat ekki sett groupid hópauðkenni sem %d"
+msgstr ""
 
 #: ../daemon/gdm-server.c:454
 #, c-format
 msgid "initgroups () failed for %s"
-msgstr "initgroups () brást fyrir %s"
+msgstr ""
 
 #: ../daemon/gdm-server.c:460
 #, c-format
 msgid "Couldn't set userid to %d"
-msgstr "Gat ekki sett userid einstaklingsauðkenni sem %d"
+msgstr ""
 
 #: ../daemon/gdm-server.c:538
 #, c-format
 msgid "%s: Could not open log file for display %s!"
-msgstr "%s: Gat ekki opnað annálsskrá (log) til birtingar %s!"
+msgstr ""
 
 #: ../daemon/gdm-server.c:559 ../daemon/gdm-server.c:565
 #: ../daemon/gdm-server.c:571
 #, c-format
 msgid "%s: Error setting %s to %s"
-msgstr "%s: Villa við að setja %s sem %s"
+msgstr ""
 
 #: ../daemon/gdm-server.c:591
 #, c-format
 msgid "%s: Server priority couldn't be set to %d: %s"
-msgstr "%s: Gat ekki sett forgang þjóns á %d: %s"
+msgstr ""
 
 #: ../daemon/gdm-server.c:743
 #, c-format
 msgid "%s: Empty server command for display %s"
-msgstr "%s: Auð skipun frá þjóni fyrir skjá %s"
+msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:90
 msgid "Username"
-msgstr "Notendanafn"
+msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:91
 msgid "The username"
-msgstr "Notandanafnið"
+msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:95
 msgid "Hostname"
-msgstr "Vélarheiti"
+msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:96
 msgid "The hostname"
-msgstr "Nafn tölvunnar"
+msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:101
 msgid "Display Device"
-msgstr "Skjátæki"
+msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:102
 msgid "The display device"
-msgstr "Tækið sem skjámyndin birtist á"
+msgstr ""
 
 #: ../daemon/gdm-session.c:1216
 msgid "Could not create authentication helper process"
-msgstr "Gat ekki búið til hjálparferli auðkenningar"
+msgstr ""
 
 #: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
-msgstr "Aðgangnum þínum voru gefin tímamörk sem nú eru liðin."
+msgstr ""
 
 #: ../daemon/gdm-session-worker.c:853
 msgid "Sorry, that didn't work. Please try again."
-msgstr "Æ, þetta virkaði ekki. Endilega reyndu aftur."
+msgstr ""
 
-#  login: is whacked always translate to Username:
 #: ../daemon/gdm-session-worker.c:1109
 msgid "Username:"
-msgstr "Notendanafn:"
+msgstr ""
 
 #: ../daemon/gdm-session-worker.c:1240
 msgid "Type a hint or question to help remember your password."
@@ -166,16 +160,16 @@ msgstr ""
 
 #: ../daemon/gdm-session-worker.c:1293
 msgid "Your password has expired, please change it now."
-msgstr "Lykilorðið þitt er útrunnið, endilega breyttu því núna."
+msgstr ""
 
 #: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
 #, c-format
 msgid "no user account available"
-msgstr "enginn notandaaðgangur tiltækur"
+msgstr ""
 
 #: ../daemon/gdm-session-worker.c:1579
 msgid "Unable to change to user"
-msgstr "Það tókst ekki að skipta yfir í notanda"
+msgstr ""
 
 #: ../daemon/gdm-simple-slave.c:866
 msgid ""
@@ -184,125 +178,112 @@ msgid ""
 "diagnose. In the meantime this display will be disabled.  Please restart GDM "
 "when the problem is corrected."
 msgstr ""
-"Gat ekki ræst X-þjóninn (myndræna notandaviðmótið) vegna innri villu. Hafðu "
-"samband við kerfisstjórann eða skoðaðu syslog annálinn til að bilanagreina "
-"þetta. Þangað til hefur þessi skjár verið gerður óvirkur. Endurræstu svo GDM "
-"þegar orsök vandamálsins hefur verið leiðrétt."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
-msgstr "Gat ekki búið til sökkul!"
+msgstr ""
 
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr "Get ekki skrifað PID-skrá %s: hugsanlega er ekki nægt diskpláss: %s"
+msgstr ""
 
 #: ../daemon/main.c:188
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
 msgstr ""
-"Mistókst að búa til merkið \"keyrt einu sinni\" (ran once marker) í möppu "
-"%s: %s"
 
 #: ../daemon/main.c:194
 #, c-format
 msgid "Failed to create LogDir %s: %s"
-msgstr "Mistókst að búa til LogDir %s: %s"
+msgstr ""
 
 #: ../daemon/main.c:229
 #, c-format
 msgid "Can't find the GDM user '%s'. Aborting!"
-msgstr "Finn ekki GDM notandann '%s'. Hætti við!"
+msgstr ""
 
 #: ../daemon/main.c:235
 msgid "The GDM user should not be root. Aborting!"
-msgstr "GDM notandinn ætti ekki að vera root-kerfisstjóri. Hætti við!"
+msgstr ""
 
 #: ../daemon/main.c:241
 #, c-format
 msgid "Can't find the GDM group '%s'. Aborting!"
-msgstr "Finn ekki GDM hópinn '%s'. Hætti við!"
+msgstr ""
 
 #: ../daemon/main.c:247
 msgid "The GDM group should not be root. Aborting!"
-msgstr "GDM hópurinn ætti ekki að vera root-kerfisstjórahópurinn. Hætti við!"
+msgstr ""
 
 #: ../daemon/main.c:324
 msgid "Make all warnings fatal"
-msgstr "Gera allar aðvaranir alvarlegar"
+msgstr ""
 
 #: ../daemon/main.c:325
 msgid "Exit after a time (for debugging)"
-msgstr "Hætti eftir smástund (til villuleitar)"
+msgstr ""
 
 #: ../daemon/main.c:326
 msgid "Print GDM version"
-msgstr "Birta útgáfunúmer GDM"
+msgstr ""
 
 #: ../daemon/main.c:339
 msgid "GNOME Display Manager"
-msgstr "GNOME Skjástjórnun - GDM"
+msgstr ""
 
 #. make sure the pid file doesn't get wiped
 #: ../daemon/main.c:387
 msgid "Only the root user can run GDM"
-msgstr "Einungis kerfisstjóri getur keyrt GDM"
+msgstr ""
 
 #. Translators: worker is a helper process that does the work
 #. of starting up a session
 #: ../daemon/session-worker-main.c:95
 msgid "GNOME Display Manager Session Worker"
-msgstr "GNOME Display Manager Session Worker - Setuvöktun skjástjórnunar"
+msgstr ""
 
 #: ../data/applications/gnome-shell.desktop.in.h:1
 msgid "GNOME Shell"
-msgstr "GNOME skel"
+msgstr ""
 
 #: ../data/applications/gnome-shell.desktop.in.h:2
 msgid "Window management and compositing"
-msgstr "Gluggastjórnun og skjásamsetning"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
-msgstr "Hvort leyfa eigi fingrafaralesara til innskráningar"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:2
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
 msgstr ""
-"Innskráningarglugginn getur mögulega leyft þeim notendum sem skráð hafa "
-"fingraför sín að nota þau til að skrá sig inn."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
-msgstr "Hvort leyfa eigi snjallkortalesara til innskráningar"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:4
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
 msgstr ""
-"Innskráningarglugginn getur mögulega leyft þeim notendum sem eiga skráð "
-"snjallkort að nota þau til að skrá sig inn."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
-msgstr "Hvort leyfa eigi lykilorð til innskráningar"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:6
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
 msgstr ""
-"Hægt er að stilla innskráningargluggann til að hafna innskráningu með "
-"lykilorði, og þvinga þannig notendur til að nota snjallkort eða fingraför "
-"til að skrá sig inn."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
-msgstr "Slóð að lítilli mynd efst á notendalista"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:8
 msgid ""
@@ -310,9 +291,6 @@ msgid ""
 "list to provide site administrators and distributions a way to provide "
 "branding."
 msgstr ""
-"Innskráningarglugginn getur verið með lítilli mynd fyrir ofan "
-"notendalistann, ágæt leið fyrir lénstjóra og hugbúnaðardreifingar til að "
-"auðkenna sig með vörumerki."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
@@ -320,120 +298,110 @@ msgid ""
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
 msgstr ""
-"Vara-innskráningarglugginn getur verið með lítilli mynd fyrir ofan "
-"notendalistann, ágæt leið fyrir lénstjóra og hugbúnaðardreifingar til að "
-"auðkenna sig með vörumerki."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
-msgstr "Forðast að birta notendalista"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
 "The login screen normally shows a list of available users to log in as. This "
 "setting can be toggled to disable showing the user list."
 msgstr ""
-"Innskráningarglugginn birtir venjulega lista með tiltækum notendum, sem nota "
-"má til innskráningar. Hægt er að víxla þessum eiginleika af, þannig að "
-"enginn notendalisti birtist."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
-msgstr "Virkja birtingu skilaboðatexta á borða"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:13
 msgid "Set to true to show the banner message text."
-msgstr "Ef þetta er virkt birtist skilaboðatexti á borða."
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:14
 msgid "Banner message text"
-msgstr "Skilaboðatexti á borða"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:15
 msgid "Text banner message to show in the login window."
-msgstr "Borði með textaskilaboðum  í innskráningarglugganum."
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:16
 msgid "Disable showing the restart buttons"
-msgstr "Koma í veg fyrir birtingu endurræsingarhnappa"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
 msgid "Set to true to disable showing the restart buttons in the login window."
 msgstr ""
-"Ef þetta er virkt, er komið í veg fyrir birtingu endurræsingarhnappa í "
-"innskráningarglugga."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
-msgstr "Leyfilegur fjöldi misheppnaðra innskráninga"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
 msgstr ""
-"Fjöldi tilrauna sem notandi fær til að skrá sig inn, áður en hætt er við og "
-"farið aftur í að velja notanda."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
-msgstr "Veldu kerfi"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
 msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr "XDMCP: Gat ekki búið XDMCP biðminni!"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
 msgid "XDMCP: Could not read XDMCP header!"
-msgstr "XDMCP: Gat ekki lesið XDMCP haus!"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XDMCP: Röng útgáfa XDMCP!"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
 msgid "XDMCP: Unable to parse address"
-msgstr "XDMCP: Ekki gekk að þátta vistfang"
+msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:72
 msgid "Unable to create transient display: "
-msgstr "Gat ekki búið til tímabundinn skjá: "
+msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
 msgid "Unable to activate session: "
-msgstr "Get ekki virkjað setuna: "
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
-msgstr "Einungis VERSION skipunin er studd"
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:45
 msgid "COMMAND"
-msgstr "SKIPUN"
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:46 ../utils/gdmflexiserver.c:47
 #: ../utils/gdmflexiserver.c:49 ../utils/gdmflexiserver.c:50
 msgid "Ignored — retained for compatibility"
-msgstr "Hunsað — haft með fyrir samhæfni"
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:48 ../utils/gdm-screenshot.c:43
 msgid "Debugging output"
-msgstr "Aflúsunarúttak"
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:52
 msgid "Version of this application"
-msgstr "Útgáfa þessa forrits"
+msgstr ""
 
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "- New GDM login"
-msgstr "- Ný innskráning í GDM"
+msgstr ""
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
-msgstr "Skjámynd tekin"
+msgstr ""
 
 #. Option parsing
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
-msgstr "Taktu mynd af skjánum"
+msgstr ""

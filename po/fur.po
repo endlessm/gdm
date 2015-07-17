@@ -6,9 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm2\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gdm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-08-13 17:02+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-17 09:50-0700\n"
 "PO-Revision-Date: 2014-08-14 04:43+0100\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: FRIULIAN <massimo.furlani@libero.it>\n"
@@ -31,7 +30,6 @@ msgstr "Impussibil identificâ la session atuâl."
 
 #: ../common/gdm-common.c:626 ../libgdm/gdm-user-switching.c:351
 #, fuzzy, c-format
-#| msgid "unable to log session"
 msgid "User unable to switch sessions."
 msgstr "Impussibil cambiâ session."
 
@@ -61,7 +59,6 @@ msgstr "Impussibil cjatâ l'utent \"%s\" tal sisteme"
 
 #: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
 #, fuzzy
-#| msgid "no user account available"
 msgid "No session available"
 msgstr "nol è pussibil doprâ nissun account user"
 
@@ -140,38 +137,45 @@ msgstr "Dispositîf Visôr"
 msgid "The display device"
 msgstr "Il dispositîf dal visôr"
 
-#: ../daemon/gdm-session.c:1187
+#: ../daemon/gdm-session.c:1216
 msgid "Could not create authentication helper process"
 msgstr "Impussibil creâ il procès di jutori par l'autenticazion"
 
-#: ../daemon/gdm-session-worker.c:844
+#: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
 msgstr "Il tô account al veve un timp limit che cumò al è passât."
 
-#: ../daemon/gdm-session-worker.c:851
+#: ../daemon/gdm-session-worker.c:853
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Mi displâs, no je lade drete. Prove di gnûf"
 
-#: ../daemon/gdm-session-worker.c:1107
+#: ../daemon/gdm-session-worker.c:1109
 msgid "Username:"
 msgstr "Non utent:"
 
+#: ../daemon/gdm-session-worker.c:1240
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
 #: ../daemon/gdm-session-worker.c:1241
+msgid "Password reminder:"
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1293
 msgid "Your password has expired, please change it now."
 msgstr "La tô password a je scjadude, par plasê tu âs di cambiale cumò."
 
-#: ../daemon/gdm-session-worker.c:1480 ../daemon/gdm-session-worker.c:1497
+#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
 #, c-format
 msgid "no user account available"
 msgstr "Nissun account utent disponibil"
 
-#: ../daemon/gdm-session-worker.c:1524
+#: ../daemon/gdm-session-worker.c:1579
 #, fuzzy
-#| msgid "Unable to authorize user"
 msgid "Unable to change to user"
 msgstr "Impussibil autorizâ l'utent"
 
-#: ../daemon/gdm-simple-slave.c:871
+#: ../daemon/gdm-simple-slave.c:866
 msgid ""
 "Could not start the X server (your graphical environment) due to an internal "
 "error. Please contact your system administrator or check your syslog to "
@@ -249,10 +253,6 @@ msgstr "Dome root al puès inviâ GDM"
 msgid "GNOME Display Manager Session Worker"
 msgstr "Cjamadôr di session dal Gjestôr di visôr di GNOME"
 
-#: ../data/applications/gdm-simple-greeter.desktop.in.in.h:1
-msgid "Login Window"
-msgstr "Barcon di acès"
-
 #: ../data/applications/gnome-shell.desktop.in.h:1
 msgid "GNOME Shell"
 msgstr "GNOME Shell"
@@ -287,7 +287,6 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 #, fuzzy
-#| msgid "Whether or not to allow smartcard readers for login"
 msgid "Whether or not to allow passwords for login"
 msgstr "Specifiche se permeti o no l'acès cun i letôrs di smartcard"
 
@@ -436,6 +435,9 @@ msgstr "Screenshot fat"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Fâs une figure dal visôr"
+
+#~ msgid "Login Window"
+#~ msgstr "Barcon di acès"
 
 #~| msgid "no user account available"
 #~ msgid "No session available yet"

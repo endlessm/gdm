@@ -5,9 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gu\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=gdm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-08-26 05:02+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-17 09:50-0700\n"
 "PO-Revision-Date: 2014-08-26 15:56+0530\n"
 "Last-Translator: \n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -97,7 +96,8 @@ msgstr "કોલર GDM નથી"
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr "સર્વર વપરાશકર્તા %s દ્વારા ઉત્પન્ન કરવાનું હતું પરંતુ તે વપરાશકર્તા અસ્તિત્વ ધરાવતો નથી"
+msgstr ""
+"સર્વર વપરાશકર્તા %s દ્વારા ઉત્પન્ન કરવાનું હતું પરંતુ તે વપરાશકર્તા અસ્તિત્વ ધરાવતો નથી"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
@@ -159,36 +159,44 @@ msgstr "ડિસ્પ્લે ઉપકરણ"
 msgid "The display device"
 msgstr "ડિસ્પ્લે ઉપકરણ"
 
-#: ../daemon/gdm-session.c:1217
+#: ../daemon/gdm-session.c:1216
 msgid "Could not create authentication helper process"
 msgstr "સત્તાધિકરણ મદદકર્તા પ્રક્રિયા બનાવી શક્યા નહિં"
 
-#: ../daemon/gdm-session-worker.c:844
+#: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
 msgstr "તમારું ખાતાને સમય મર્યાદા આપેલ હતી તે હવે પસાર થઇ ગઇ છે."
 
-#: ../daemon/gdm-session-worker.c:851
+#: ../daemon/gdm-session-worker.c:853
 msgid "Sorry, that didn't work. Please try again."
 msgstr "દિલગીર છું, કામ કરતુ નથી. મહેરબાની કરીને ફરીથી પ્રયત્ન કરો."
 
-#: ../daemon/gdm-session-worker.c:1107
+#: ../daemon/gdm-session-worker.c:1109
 msgid "Username:"
 msgstr "વપરાશકર્તાનું નામ:"
 
+#: ../daemon/gdm-session-worker.c:1240
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
 #: ../daemon/gdm-session-worker.c:1241
+msgid "Password reminder:"
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1293
 msgid "Your password has expired, please change it now."
 msgstr "તમારો પાસવર્ડ નિવૃત્ત થયેલ છે, મહેરબાની કરીને હવે તેને બદલો."
 
-#: ../daemon/gdm-session-worker.c:1480 ../daemon/gdm-session-worker.c:1497
+#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
 #, c-format
 msgid "no user account available"
 msgstr "વપરાશકર્તાનું ખાતુ ઉપલબ્ધ નથી"
 
-#: ../daemon/gdm-session-worker.c:1524
+#: ../daemon/gdm-session-worker.c:1579
 msgid "Unable to change to user"
 msgstr "વપરાશકર્તાને બદલવામાં અસમર્થ"
 
-#: ../daemon/gdm-simple-slave.c:871
+#: ../daemon/gdm-simple-slave.c:866
 msgid ""
 "Could not start the X server (your graphical environment) due to an internal "
 "error. Please contact your system administrator or check your syslog to "
@@ -264,10 +272,6 @@ msgstr "માત્ર રુટ વપરાશકર્તા GDM ને ચ�
 msgid "GNOME Display Manager Session Worker"
 msgstr "GNOME ડિસ્પ્લે વ્યવસ્થાપક સત્ર કામ કરનાર ચાલી"
 
-#: ../data/applications/gdm-simple-greeter.desktop.in.in.h:1
-msgid "Login Window"
-msgstr "પ્રવેશ વિન્ડો"
-
 #: ../data/applications/gnome-shell.desktop.in.h:1
 msgid "GNOME Shell"
 msgstr "GNOME Shell"
@@ -301,7 +305,6 @@ msgstr ""
 "મદદથી પ્રવેશવા માટે સ્માર્ટકાર્ડો છે."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
-#| msgid "Whether or not to allow smartcard readers for login"
 msgid "Whether or not to allow passwords for login"
 msgstr "ક્યાંતો પ્રવેશ માટે પાસવર્ડને પરવાનગી આપવી છે કે નહિં"
 
@@ -310,8 +313,8 @@ msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
 msgstr ""
-"પ્રવેશ સ્ક્રીન પાસવર્ડ સત્તાધિકરણને પરવાનગી ન આપવા વાપરી શકાય છે, સ્માર્ટકાર્ડ અને આંગળીછાપન "
-"સત્તાધિકરણને વાપરવા માટે વપરાશકર્તાને દબાણ કરી રહ્યા છે."
+"પ્રવેશ સ્ક્રીન પાસવર્ડ સત્તાધિકરણને પરવાનગી ન આપવા વાપરી શકાય છે, સ્માર્ટકાર્ડ અને "
+"આંગળીછાપન સત્તાધિકરણને વાપરવા માટે વપરાશકર્તાને દબાણ કરી રહ્યા છે."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -446,6 +449,9 @@ msgstr "સ્ક્રીનશોટ લીધેલ છે"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "સ્ક્રીનનું ચિત્ર ને લો"
+
+#~ msgid "Login Window"
+#~ msgstr "પ્રવેશ વિન્ડો"
 
 #~ msgid "No session available yet"
 #~ msgstr "હજુ સત્ર ઉપલબ્ધ નથી"

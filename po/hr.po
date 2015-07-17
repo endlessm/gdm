@@ -5,136 +5,111 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm2 0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-09-08 09:44+0200\n"
+"POT-Creation-Date: 2015-07-17 09:50-0700\n"
 "PO-Revision-Date: 2008-05-21 16:51+0000\n"
 "Last-Translator: Launchpad Translations Administrators <rosetta@launchpad."
 "net>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
+"Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Launchpad-Export-Date: 2008-05-28 05:19+0000\n"
 "X-Generator: Launchpad (build Unknown)\n"
 
-#: ../common/gdm-common.c:437
+#: ../common/gdm-common.c:311
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr ""
 
-#: ../daemon/factory-slave-main.c:170 ../daemon/main.c:516
-#: ../daemon/product-slave-main.c:174 ../daemon/session-worker-main.c:137
-#: ../daemon/simple-slave-main.c:176 ../daemon/xdmcp-chooser-slave-main.c:176
-msgid "Enable debugging code"
+#: ../common/gdm-common.c:619 ../common/gdm-common.c:772
+#: ../libgdm/gdm-user-switching.c:344 ../libgdm/gdm-user-switching.c:514
+#, c-format
+msgid "Could not identify the current session."
 msgstr ""
 
-#: ../daemon/factory-slave-main.c:171 ../daemon/product-slave-main.c:175
-#: ../daemon/simple-slave-main.c:177 ../daemon/xdmcp-chooser-slave-main.c:177
-#, fuzzy
-msgid "Display ID"
-msgstr "Prikaz"
-
-#: ../daemon/factory-slave-main.c:171 ../daemon/product-slave-main.c:175
-#: ../daemon/simple-slave-main.c:177 ../daemon/xdmcp-chooser-slave-main.c:177
-msgid "id"
+#: ../common/gdm-common.c:626 ../libgdm/gdm-user-switching.c:351
+#, c-format
+msgid "User unable to switch sessions."
 msgstr ""
 
-#: ../daemon/factory-slave-main.c:183 ../daemon/product-slave-main.c:187
-#: ../daemon/simple-slave-main.c:189 ../daemon/xdmcp-chooser-slave-main.c:189
-#, fuzzy
-msgid "GNOME Display Manager Slave"
-msgstr "Radno okruženje GNOMEa"
+#: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
+#, fuzzy, c-format
+msgid "Could not identify the current seat."
+msgstr "%s: Ne mogu napraviti vezu ka udaljenom računalu"
 
-#: ../daemon/gdm-display-access-file.c:271
+#: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
+#, c-format
+msgid ""
+"The system is unable to determine whether to switch to an existing login "
+"screen or start up a new login screen."
+msgstr ""
+
+#: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
+#, c-format
+msgid "The system is unable to start up a new login screen."
+msgstr ""
+
+#: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user \"%s\" on system"
 msgstr ""
 
-#: ../daemon/gdm-factory-slave.c:203 ../daemon/gdm-simple-slave.c:207
-msgid "Unable to initialize login system"
+#: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
+msgid "No session available"
 msgstr ""
 
-#: ../daemon/gdm-factory-slave.c:235 ../daemon/gdm-simple-slave.c:240
-#, fuzzy
-msgid "Unable to authenticate user"
-msgstr "Nisam mogao autorizirati korisnika"
-
-#: ../daemon/gdm-factory-slave.c:257 ../daemon/gdm-simple-slave.c:286
-msgid "Unable to authorize user"
-msgstr ""
-
-#: ../daemon/gdm-factory-slave.c:281
-#, fuzzy
-msgid "Unable to establish credentials"
-msgstr "Ne može postaviti uslužni program %s: %s\n"
-
-#: ../daemon/gdm-factory-slave.c:662 ../daemon/gdm-product-slave.c:449
-#: ../daemon/gdm-simple-slave.c:1062
-#, fuzzy
-msgid ""
-"Could not start the X server (your graphical environment) due to some "
-"internal error. Please contact your system administrator or check your "
-"syslog to diagnose. In the meantime this display will be disabled.  Please "
-"restart GDM when the problem is corrected."
-msgstr ""
-"Nisam uspio pokrenuti X\n"
-"poslužitelj (vaše grafičko sučelje)\n"
-"zbog neke interne greške.\n"
-"Molim, kontaktirajte svog administratora\n"
-"ili pogledajte syslog za dijagnozu.\n"
-"U međuvremenu će grafički zaslon biti\n"
-"onemogućen. Molim, ponovo pokrenite GDM\n"
-"kada riješite problem."
-
-#: ../daemon/gdm-server.c:244
+#: ../daemon/gdm-manager.c:953
 #, c-format
-msgid "%s: failed to connect to parent display '%s'"
-msgstr "%s: povezivanje na glavni zaslon '%s' nije uspjelo"
+msgid "Can only be called before user is logged in"
+msgstr ""
 
-#: ../daemon/gdm-server.c:362
+#: ../daemon/gdm-manager.c:962
+#, c-format
+msgid "Caller not GDM"
+msgstr ""
+
+#: ../daemon/gdm-server.c:437
 #, fuzzy, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
 msgstr ""
 "%s: Poslužitelj je se trebao pokrenuti sa uid brojem %d, ali taj korisnik ne "
 "postoji"
 
-#: ../daemon/gdm-server.c:373 ../daemon/gdm-welcome-session.c:415
+#: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, fuzzy, c-format
 msgid "Couldn't set groupid to %d"
 msgstr "%s: Ne mogu postaviti groupid na %d"
 
-#: ../daemon/gdm-server.c:379 ../daemon/gdm-welcome-session.c:421
+#: ../daemon/gdm-server.c:454
 #, fuzzy, c-format
 msgid "initgroups () failed for %s"
 msgstr "%s: initgrouops () nije uspio za %s"
 
-#: ../daemon/gdm-server.c:385 ../daemon/gdm-welcome-session.c:427
+#: ../daemon/gdm-server.c:460
 #, fuzzy, c-format
 msgid "Couldn't set userid to %d"
 msgstr "%s: Ne mogu postaviti userid na %d"
 
-#: ../daemon/gdm-server.c:393 ../daemon/gdm-welcome-session.c:435
-#, fuzzy
-msgid "Couldn't set groupid to 0"
-msgstr "%s: Ne mogu postaviti groupid na 0"
-
-#: ../daemon/gdm-server.c:428
-#, c-format
-msgid "%s: Could not open logfile for display %s!"
+#: ../daemon/gdm-server.c:538
+#, fuzzy, c-format
+msgid "%s: Could not open log file for display %s!"
 msgstr "%s: Ne mogu otvoriti datoteku sa dnevnikom za zaslon %s!"
 
-#: ../daemon/gdm-server.c:439 ../daemon/gdm-server.c:445
-#: ../daemon/gdm-server.c:451
+#: ../daemon/gdm-server.c:559 ../daemon/gdm-server.c:565
+#: ../daemon/gdm-server.c:571
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Greška pri postavljanju %s na %s"
 
-#: ../daemon/gdm-server.c:466
+#: ../daemon/gdm-server.c:591
 #, c-format
 msgid "%s: Server priority couldn't be set to %d: %s"
 msgstr "%s: Prioritet poslužitelja se ne može postaviti na %d: %s"
 
-#: ../daemon/gdm-server.c:618
+#: ../daemon/gdm-server.c:743
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Prazna komanda poslužitelja za zaslon %s"
@@ -166,979 +141,600 @@ msgstr "Prikaz"
 msgid "The display device"
 msgstr ""
 
-#: ../daemon/gdm-session-direct.c:1574 ../daemon/gdm-session-direct.c:1592
-#, c-format
-msgid "worker exited with status %d"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1079
-#, c-format
-msgid "error initiating conversation with authentication system - %s"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1080
-msgid "general failure"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1081
-msgid "out of memory"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1082
-msgid "application programmer error"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1083
+#: ../daemon/gdm-session.c:1216
 #, fuzzy
-msgid "unknown error"
-msgstr "Nepoznata greška"
+msgid "Could not create authentication helper process"
+msgstr "%s: Ne mogu zapisati novi autorizacijski unos: %s"
 
-#: ../daemon/gdm-session-worker.c:1090
+#: ../daemon/gdm-session-worker.c:846
+msgid "Your account was given a time limit that's now passed."
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:853
+msgid "Sorry, that didn't work. Please try again."
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1109
 msgid "Username:"
 msgstr "Korisničko ime:"
 
-#: ../daemon/gdm-session-worker.c:1096
-#, c-format
-msgid "error informing authentication system of preferred username prompt - %s"
+#: ../daemon/gdm-session-worker.c:1240
+msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1110
-#, c-format
-msgid "error informing authentication system of user's hostname - %s"
-msgstr ""
+#: ../daemon/gdm-session-worker.c:1241
+#, fuzzy
+msgid "Password reminder:"
+msgstr "Lozinka:"
 
-#: ../daemon/gdm-session-worker.c:1125
-#, c-format
-msgid "error informing authentication system of user's console - %s"
+#: ../daemon/gdm-session-worker.c:1293
+#, fuzzy
+msgid "Your password has expired, please change it now."
 msgstr ""
+"Vaša lozinka je prestala važiti.\n"
+"Sada ju samo administrator sustava može promijeniti."
 
-#: ../daemon/gdm-session-worker.c:1138
+#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
 #, c-format
-msgid "error informing authentication system of display string - %s"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1153
-#, c-format
-msgid "error informing authentication system of display xauth credentials - %s"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1433 ../daemon/gdm-session-worker.c:1451
 msgid "no user account available"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1478
+#: ../daemon/gdm-session-worker.c:1579
 msgid "Unable to change to user"
 msgstr ""
 
-#: ../daemon/gdm-simple-slave.c:387
+#: ../daemon/gdm-simple-slave.c:866
 #, fuzzy
-msgid "Unable establish credentials"
-msgstr "Ne može postaviti uslužni program %s: %s\n"
+msgid ""
+"Could not start the X server (your graphical environment) due to an internal "
+"error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM "
+"when the problem is corrected."
+msgstr ""
+"Nisam uspio pokrenuti X\n"
+"poslužitelj (vaše grafičko sučelje)\n"
+"zbog neke interne greške.\n"
+"Molim, kontaktirajte svog administratora\n"
+"ili pogledajte syslog za dijagnozu.\n"
+"U međuvremenu će grafički zaslon biti\n"
+"onemogućen. Molim, ponovo pokrenite GDM\n"
+"kada riješite problem."
 
-#: ../daemon/gdm-welcome-session.c:397
-#, fuzzy, c-format
-msgid "User %s doesn't exist"
-msgstr "Xnest ne postoji"
-
-#: ../daemon/gdm-welcome-session.c:404
-#, fuzzy, c-format
-msgid "Group %s doesn't exist"
-msgstr "Xnest ne postoji"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:590
+#: ../daemon/gdm-xdmcp-display-factory.c:609
 #, fuzzy
 msgid "Could not create socket!"
 msgstr "%s: Ne mogu napraviti vezu ka udaljenom računalu"
 
-#: ../daemon/gdm-xdmcp-display-factory.c:856
-#, c-format
-msgid "Denied XDMCP query from host %s"
-msgstr ""
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1013
-#: ../daemon/gdm-xdmcp-display-factory.c:1234
-msgid "Could not extract authlist from packet"
-msgstr ""
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1026
-#: ../daemon/gdm-xdmcp-display-factory.c:1249
-msgid "Error in checksum"
-msgstr ""
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1500
-msgid "Bad address"
-msgstr ""
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1581
+#: ../daemon/main.c:125 ../daemon/main.c:138
 #, fuzzy, c-format
-msgid "%s: Could not read display address"
-msgstr "%s: Ne mogu otvoriti datoteku sa dnevnikom za zaslon %s!"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1589
-#, fuzzy, c-format
-msgid "%s: Could not read display port number"
-msgstr "Nisam mogao pronaći slobodan broj ekrana"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1598
-#, fuzzy, c-format
-msgid "%s: Could not extract authlist from packet"
-msgstr "%s: Ne mogu napraviti vezu ka udaljenom računalu"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1618
-#, fuzzy, c-format
-msgid "%s: Error in checksum"
-msgstr "%s: Greška prilikom otvaranje veze sa procesom: %s"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2120
-#, c-format
-msgid "%s: Got REQUEST from banned host %s"
-msgstr ""
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2130
-#: ../daemon/gdm-xdmcp-display-factory.c:2485
-#: ../daemon/gdm-xdmcp-display-factory.c:2737
-#, fuzzy, c-format
-msgid "%s: Could not read Display Number"
-msgstr "Nisam mogao pronaći slobodan broj ekrana"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2137
-#, fuzzy, c-format
-msgid "%s: Could not read Connection Type"
-msgstr "%s: Ne mogu zapisati kolačić"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2144
-#, fuzzy, c-format
-msgid "%s: Could not read Client Address"
-msgstr "%s: Ne mogu zapisati kolačić"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2152
-#, fuzzy, c-format
-msgid "%s: Could not read Authentication Names"
-msgstr "%s: Ne mogu zapisati novi autorizacijski unos: %s"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2161
-#, fuzzy, c-format
-msgid "%s: Could not read Authentication Data"
-msgstr "%s: Ne mogu zapisati novi autorizacijski unos: %s"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2171
-#, fuzzy, c-format
-msgid "%s: Could not read Authorization List"
-msgstr "%s: Ne mogu zapisati novi autorizacijski unos: %s"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2190
-#, fuzzy, c-format
-msgid "%s: Could not read Manufacturer ID"
-msgstr "%s: Ne mogu zapisati kolačić"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2217
-#, fuzzy, c-format
-msgid "%s: Failed checksum from %s"
-msgstr "%s: Neuspješno izvršavanje: %s"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2469
-#, c-format
-msgid "%s: Got Manage from banned host %s"
-msgstr ""
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2478
-#: ../daemon/gdm-xdmcp-display-factory.c:2744
-#, fuzzy, c-format
-msgid "%s: Could not read Session ID"
-msgstr "%s: Ne mogu otvoriti FIFO"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2492
-#, fuzzy, c-format
-msgid "%s: Could not read Display Class"
-msgstr "%s: Ne mogu otvoriti datoteku sa dnevnikom za zaslon %s!"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2597
-#: ../daemon/gdm-xdmcp-display-factory.c:2647
-#: ../daemon/gdm-xdmcp-display-factory.c:2653
-#, fuzzy, c-format
-msgid "%s: Could not read address"
-msgstr "%s: Ne mogu zapisati kolačić"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2727
-#, c-format
-msgid "%s: Got KEEPALIVE from banned host %s"
-msgstr ""
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2816
-msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-msgstr ""
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2822
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:226
-msgid "XMDCP: Incorrect XDMCP version!"
-msgstr ""
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2828
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:232
-msgid "XMDCP: Unable to parse address"
-msgstr ""
-
-#: ../daemon/gdm-xdmcp-display-factory.c:3226
-#, fuzzy, c-format
-msgid "Could not get server hostname: %s!"
-msgstr "Nisam mogao podesiti masku signala!"
-
-#: ../daemon/main.c:237 ../daemon/main.c:250
-#, fuzzy, c-format
-msgid "Cannot write PID file %s: possibly out of diskspace: %s"
+msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr ""
 "Ne mogu zapisati PID datoteku %s, moguće je da više nema prostora na disku. "
 "Greška: %s"
 
-#: ../daemon/main.c:270
-#, fuzzy, c-format
-msgid "Logdir %s does not exist or isn't a directory."
-msgstr "%s: Logdir %s ne postoji ili nije direktorij. Koristim ServAuthDir %s."
-
-#: ../daemon/main.c:283
-#, fuzzy, c-format
-msgid "Authdir %s does not exist. Aborting."
-msgstr "%s: Authdir %s ne postoji. Obustavljanje."
-
-#: ../daemon/main.c:287
-#, fuzzy, c-format
-msgid "Authdir %s is not a directory. Aborting."
-msgstr "%s: Authdir %s nije direktorij. Obustavljanje."
-
-#: ../daemon/main.c:361
-#, fuzzy, c-format
-msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-msgstr "%s: Authdir %s nije direktorij. Obustavljanje."
-
-#: ../daemon/main.c:368
-#, fuzzy, c-format
-msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
+#: ../daemon/main.c:188
+#, c-format
+msgid "Failed to create ran once marker dir %s: %s"
 msgstr ""
-"%s: Authdir %s ima pogrešna prava %o. Trebala bi biti %o. Obustavljanje."
 
-#: ../daemon/main.c:405
+#: ../daemon/main.c:194
+#, fuzzy, c-format
+msgid "Failed to create LogDir %s: %s"
+msgstr "Nisam se uspio ponovo pokrenuti"
+
+#: ../daemon/main.c:229
 #, fuzzy, c-format
 msgid "Can't find the GDM user '%s'. Aborting!"
 msgstr "%s: Ne mogu pronaći GDM korisnika '%s'. Prekidam!"
 
-#: ../daemon/main.c:411
+#: ../daemon/main.c:235
 #, fuzzy
 msgid "The GDM user should not be root. Aborting!"
 msgstr "%s: GDM korisnik ne može biti root korisnik. Prekidam!"
 
-#: ../daemon/main.c:417
+#: ../daemon/main.c:241
 #, fuzzy, c-format
 msgid "Can't find the GDM group '%s'. Aborting!"
 msgstr "%s: Ne mogu pronaći GDM grupu '%s'. Odustajem!"
 
-#: ../daemon/main.c:423
+#: ../daemon/main.c:247
 #, fuzzy
 msgid "The GDM group should not be root. Aborting!"
 msgstr "%s: GDM grupa nebi smjela biti root. Prekidam!"
 
-#: ../daemon/main.c:517
+#: ../daemon/main.c:324
 msgid "Make all warnings fatal"
 msgstr ""
 
-#: ../daemon/main.c:518
-msgid "Exit after a time - for debugging"
+#: ../daemon/main.c:325
+msgid "Exit after a time (for debugging)"
 msgstr ""
 
-#: ../daemon/main.c:519
+#: ../daemon/main.c:326
 msgid "Print GDM version"
 msgstr "Ispiši inačicu GDM-a"
 
-#: ../daemon/main.c:534
+#: ../daemon/main.c:339
 #, fuzzy
 msgid "GNOME Display Manager"
 msgstr "Radno okruženje GNOMEa"
 
 #. make sure the pid file doesn't get wiped
-#: ../daemon/main.c:595
+#: ../daemon/main.c:387
 #, fuzzy
-msgid "Only root wants to run GDM"
+msgid "Only the root user can run GDM"
 msgstr "Samo root želi pokretati GDM\n"
 
-#: ../daemon/session-worker-main.c:149
+#. Translators: worker is a helper process that does the work
+#. of starting up a session
+#: ../daemon/session-worker-main.c:95
 msgid "GNOME Display Manager Session Worker"
 msgstr ""
 
-#: ../data/greeter-autostart/at-spi-registryd-wrapper.desktop.in.in.h:1
-msgid "AT SPI Registry Wrapper"
-msgstr ""
-
-#: ../data/greeter-autostart/gdm-simple-greeter.desktop.in.in.h:1
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:1962
-msgid "Login Window"
-msgstr "Prozor za prijavu"
-
-#: ../data/greeter-autostart/gnome-power-manager.desktop.in.in.h:1
-msgid "Power Manager"
-msgstr ""
-
-#: ../data/greeter-autostart/gnome-power-manager.desktop.in.in.h:2
-msgid "Power management daemon"
-msgstr ""
-
-#: ../data/greeter-autostart/gnome-settings-daemon.desktop.in.in.h:1
-msgid "GNOME Settings Daemon"
-msgstr ""
-
-#: ../data/greeter-autostart/gnome-mag.desktop.in.h:1
+#: ../data/applications/gnome-shell.desktop.in.h:1
 #, fuzzy
-msgid "GNOME Screen Magnifier"
-msgstr "Radno okruženje GNOMEa"
+msgid "GNOME Shell"
+msgstr "GNOME"
 
-#: ../data/greeter-autostart/gnome-mag.desktop.in.h:2
-msgid "Magnify parts of the screen"
+#: ../data/applications/gnome-shell.desktop.in.h:2
+msgid "Window management and compositing"
 msgstr ""
 
-#: ../data/greeter-autostart/gok.desktop.in.h:1
-msgid "GNOME Onscreen Keyboard"
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:1
+msgid "Whether or not to allow fingerprint readers for login"
 msgstr ""
 
-#: ../data/greeter-autostart/gok.desktop.in.h:2
-msgid "Use an onscreen keyboard"
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:2
+msgid ""
+"The login screen can optionally allow users who have enrolled their "
+"fingerprints to log in using those prints."
 msgstr ""
 
-#: ../data/greeter-autostart/metacity.desktop.in.h:1
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:3
+msgid "Whether or not to allow smartcard readers for login"
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:4
+msgid ""
+"The login screen can optionally allow users who have smartcards to log in "
+"using those smartcards."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:5
+msgid "Whether or not to allow passwords for login"
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:6
+msgid ""
+"The login screen can be configured to disallow password authentication, "
+"forcing the user to use smartcard or fingerprint authentication."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:7
+msgid "Path to small image at top of user list"
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:8
+msgid ""
+"The login screen can optionally show a small image at the top of its user "
+"list to provide site administrators and distributions a way to provide "
+"branding."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:9
+msgid ""
+"The fallback login screen can optionally show a small image at the top of "
+"its user list to provide site administrators and distributions a way to "
+"provide branding."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:10
+msgid "Avoid showing user list"
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:11
+msgid ""
+"The login screen normally shows a list of available users to log in as. This "
+"setting can be toggled to disable showing the user list."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:12
+msgid "Enable showing the banner message"
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:13
+msgid "Set to true to show the banner message text."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:14
+msgid "Banner message text"
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:15
+msgid "Text banner message to show in the login window."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:16
+msgid "Disable showing the restart buttons"
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:17
+msgid "Set to true to disable showing the restart buttons in the login window."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 #, fuzzy
-msgid "Metacity"
-msgstr "Sigurnost"
+msgid "Number of allowed authentication failures"
+msgstr "Greška prilikom autentifikacije!\n"
 
-#: ../data/greeter-autostart/orca-screen-reader.desktop.in.h:1
-msgid "Orca Screen Reader"
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:19
+msgid ""
+"The number of times a user is allowed to attempt authentication, before "
+"giving up and going back to user selection."
 msgstr ""
 
-#: ../data/greeter-autostart/orca-screen-reader.desktop.in.h:2
-msgid "Present on-screen information as speech or braille"
-msgstr ""
-
-#: ../gui/simple-chooser/gdm-host-chooser-dialog.c:148
+#: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 #, fuzzy
 msgid "Select System"
 msgstr "Odaberite sliku korisnika"
 
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:214
-msgid "XMCP: Could not create XDMCP buffer!"
-msgstr ""
+#: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
+#, fuzzy
+msgid "XDMCP: Could not create XDMCP buffer!"
+msgstr "%s: Ne mogu napraviti vezu ka udaljenom računalu"
 
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:220
+#: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr ""
 
-#: ../gui/simple-greeter/gdm-cell-renderer-timer.c:253
-msgid "Value"
+#: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
+msgid "XDMCP: Incorrect XDMCP version!"
 msgstr ""
 
-#: ../gui/simple-greeter/gdm-cell-renderer-timer.c:254
+#: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
+msgid "XDMCP: Unable to parse address"
+msgstr ""
+
+#: ../libgdm/gdm-user-switching.c:72
 #, fuzzy
-msgid "percentage of time complete"
-msgstr "_Hibernacija računala"
+msgid "Unable to create transient display: "
+msgstr "Ne može pokrenuti novi zaslon"
 
-#: ../gui/simple-greeter/gdm-chooser-widget.c:1236
-msgid "Inactive Text"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-chooser-widget.c:1237
-msgid "The text to use in the label if the user hasn't picked an item yet"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-chooser-widget.c:1245
-msgid "Active Text"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-chooser-widget.c:1246
-msgid "The text to use in the label if the user has picked an item"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-clock-widget.c:66
-msgid "%l:%M:%S %p"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-clock-widget.c:66
+#: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
 #, fuzzy
-msgid "%l:%M %p"
-msgstr "%a %b %d, %I:%M %p"
+msgid "Unable to activate session: "
+msgstr "Nisam mogao autorizirati korisnika"
 
-#. translators: replace %e with %d if, when the day of the
-#. *              month as a decimal number is a single digit, it
-#. *              should begin with a 0 in your locale (e.g. "May
-#. *              01" instead of "May  1").
-#.
-#: ../gui/simple-greeter/gdm-clock-widget.c:72
-#, fuzzy
-msgid "%a %b %e"
-msgstr "%a %b %d, %H:%M"
-
-#. translators: reverse the order of these arguments
-#. *              if the time should come before the
-#. *              date on a clock in your locale.
-#.
-#: ../gui/simple-greeter/gdm-clock-widget.c:77
-#, fuzzy, c-format
-msgid "%1$s, %2$s"
-msgstr "%s: %s"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:181
-#, fuzzy
-msgid "You have the Caps Lock key on."
-msgstr "Uključen je Caps Lock (velika slova)."
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:326
-#, fuzzy
-msgid "Automatically logging in..."
-msgstr "Automatsko prijavljivanje (login)"
-
-#. need to wait for response from backend
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:760
-#, fuzzy
-msgid "Cancelling..."
-msgstr "_Odustani"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:1229
-#, fuzzy
-msgid "Failed to restart computer"
-msgstr "Nisam se uspio ponovo pokrenuti"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:1232
-msgid ""
-"You are not allowed to restart the computer because multiple users are "
-"logged in"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:1313
-#, fuzzy
-msgid "Failed to stop computer"
-msgstr "Nisam se uspio ponovo pokrenuti"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:1316
-msgid ""
-"You are not allowed to stop the computer because multiple users are logged in"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:1400
-msgid "Select language and click Log In"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.glade.h:1
-#, fuzzy
-msgid "Authentication Dialog"
-msgstr "Neuspješna identifikacija"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.glade.h:2
-msgid "Computer Name"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.glade.h:3
-#, fuzzy
-msgid "Log In"
-msgstr "Samo se _prijavi"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.glade.h:4
-msgid "Restart"
-msgstr "Pokreni ponovo"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.glade.h:5
-#, fuzzy
-msgid "Shut Down"
-msgstr "_Gašenje"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.glade.h:6
-#, fuzzy
-msgid "Suspend"
-msgstr "_Suspendiranje"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.glade.h:7
-#, fuzzy
-msgid "Version"
-msgstr "Prijave"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.glade.h:8
-msgid "page 5"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-greeter-panel.c:540
-#, fuzzy
-msgid "Panel"
-msgstr "_Odustani"
-
-#: ../gui/simple-greeter/gdm-language-chooser-dialog.c:201
-#, fuzzy
-msgid "Languages"
-msgstr "_Jezik"
-
-#: ../gui/simple-greeter/gdm-language-chooser-widget.c:272
-#, fuzzy
-msgid "_Languages:"
-msgstr "_Jezik"
-
-#: ../gui/simple-greeter/gdm-language-chooser-widget.c:273
-#: ../gui/simple-greeter/gdm-language-option-widget.c:255
-#, fuzzy
-msgid "_Language:"
-msgstr "_Jezik"
-
-#: ../gui/simple-greeter/gdm-language-option-widget.c:224
-#: ../gui/simple-greeter/gdm-layout-option-widget.c:220
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:92
-#: ../gui/user-switch-applet/applet.c:996
-msgid "Other..."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-language-option-widget.c:225
-msgid "Choose a language from the full list of available languages."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-languages.c:587
-msgid "Unspecified"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-layout-chooser-dialog.c:190
-msgid "Keyboard layouts"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-layout-chooser-widget.c:200
-#: ../gui/simple-greeter/gdm-layout-chooser-widget.c:201
-#: ../gui/simple-greeter/gdm-layout-option-widget.c:251
-msgid "_Keyboard:"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-layout-option-widget.c:221
-msgid "Choose a keyboard layout from the full list of available layouts."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-option-widget.c:493
-msgid "Label Text"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-option-widget.c:494
-msgid "The text to use as a label"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-option-widget.c:501
-#, fuzzy
-msgid "Icon name"
-msgstr "Sličica"
-
-#: ../gui/simple-greeter/gdm-option-widget.c:502
-msgid "The icon to use with the label"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-option-widget.c:510
-#, fuzzy
-msgid "Default Item"
-msgstr "_Uobičajeno: \"Dobro došli\""
-
-#: ../gui/simple-greeter/gdm-option-widget.c:511
-msgid "The id of the default item"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-recent-option-widget.c:298
-msgid "Max Item Count"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-recent-option-widget.c:299
-msgid "The maximum number of items to keep around in the list"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-remote-login-window.c:224
-#, fuzzy, c-format
-msgid "Remote Login (Connecting to %s...)"
-msgstr "Udaljena prijava putem _XDMCP-a..."
-
-#: ../gui/simple-greeter/gdm-remote-login-window.c:238
-#, c-format
-msgid "Remote Login (Connected to %s)"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-remote-login-window.c:317
-#, fuzzy
-msgid "Remote Login"
-msgstr "Udaljena prijava putem _XDMCP-a"
-
-#: ../gui/simple-greeter/gdm-session-option-widget.c:162
-#, fuzzy
-msgid "_Sessions:"
-msgstr "Prijave"
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:1
-msgid "Banner message text"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:2
-msgid "Disable showing the restart buttons"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:3
-msgid "Do not show known users in the login window"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:4
-#, fuzzy
-msgid "Enable accessibility keyboard plugin"
-msgstr "_Omoguči dostupnu prijavu"
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:5
-#, fuzzy
-msgid "Enable debugging"
-msgstr "Omogući _tempirane prijave"
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:6
-msgid "Enable debugging mode for the greeter."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:7
-msgid "Enable on-screen keyboard"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:8
-msgid "Enable screen magnifier"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:9
-#, fuzzy
-msgid "Enable screen reader"
-msgstr "_Prijavni zaslon spreman:"
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:10
-msgid "Enable showing the banner message"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:11
-msgid "Icon name to use for greeter logo"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:12
-msgid "Recently selected keyboard layouts"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:13
-msgid "Recently selected languages"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:14
-msgid "Set to TRUE to disable showing known users in the login window."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:15
-msgid "Set to TRUE to disable showing the restart buttons in the login window."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:16
-msgid "Set to True to enable the background settings manager plugin."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:17
-msgid "Set to True to enable the media-keys settings manager plugin."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:18
-msgid "Set to True to enable the on-screen keyboard."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:19
-msgid ""
-"Set to True to enable the plugin to manage the accessibility keyboard "
-"settings."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:20
-msgid "Set to True to enable the screen magnifier."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:21
-msgid "Set to True to enable the screen reader."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:22
-msgid "Set to True to enable the sound settings manager plugin."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:23
-msgid "Set to True to enable the xrandr settings manager plugin."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:24
-msgid "Set to True to enable the xsettings settings manager plugin."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:25
-msgid ""
-"Set to a list of keyboard layouts to be shown by default at the login window."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:26
-msgid "Set to a list of languages to be shown by default at the login window."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:27
-msgid "Set to the themed icon name to use for the greeter logo."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:28
-msgid "Set to true to show the banner message text."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:29
-msgid "Set to true to use compiz as the window manager."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:30
-msgid "Text banner message to show on the login window."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:31
-msgid "True if the background settings manager plugin is enabled."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:32
-msgid "True if the media-keys settings manager plugin is enabled."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:33
-msgid "True if the sound settings manager plugin is enabled."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:34
-msgid "True if the xrandr settings manager plugin is enabled."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:35
-msgid "True if the xsettings settings manager plugin is enabled."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:36
-msgid "Use compiz as the window manager"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-timer.c:149
-msgid "Duration"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-timer.c:150
-msgid "Number of seconds until timer stops"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-timer.c:157
-#, fuzzy
-msgid "Start time"
-msgstr "_Pokreni ponovo"
-
-#: ../gui/simple-greeter/gdm-timer.c:158
-msgid "Time the timer was started"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-timer.c:165
-#, fuzzy
-msgid "Is it Running?"
-msgstr "GDM nije pokrenut"
-
-#: ../gui/simple-greeter/gdm-timer.c:166
-msgid "Whether or not the timer is currently ticking"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-user.c:241
-#, fuzzy
-msgid "Manager"
-msgstr "_Jezik"
-
-#: ../gui/simple-greeter/gdm-user.c:242
-msgid "The user manager object this user is controlled by."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:93
-#, fuzzy
-msgid "Choose a different account"
-msgstr "Odaberite akciju"
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:105
-msgid "Guest"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:106
-msgid "Login as a temporary guest"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:118
-#, fuzzy
-msgid "Automatic Login"
-msgstr "Automatsko prijavljivanje (login)"
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:119
-msgid "Automatically login to the system after selecting options"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:308
-#, fuzzy, c-format
-msgid "Log in as %s"
-msgstr "Ipak se prijavi"
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:647
-#, fuzzy
-msgid "Currently logged in"
-msgstr "Već je prijavljen"
-
-#: ../gui/user-switch-applet/applet.c:147
-msgid ""
-"The User Switch Applet is free software; you can redistribute it and/or "
-"modify it under the terms of the GNU General Public License as published by "
-"the Free Software Foundation; either version 2 of the License, or (at your "
-"option) any later version."
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:151
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-"more details."
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:155
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA "
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:169
-msgid "A menu to quickly switch between users."
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:173
-msgid "translator-credits"
-msgstr ""
-"lokalizacija@linux.hr\n"
-"  Automatski Prijevod <>\n"
-"  Damir Tesanovic <chiro@fbi.hu>\n"
-"  Denis Lackovic <delacko@linux.hr>\n"
-"  Marija Lucevnjak <marija.lucevnjak@inet.hr>\n"
-"  Mato Kutlić <mate@iskraemeco.hr>\n"
-"  Nikola Planinac <>\n"
-"  Robert Sedak <robert.sedak@sk.t-com.hr>\n"
-"  Sasa Poznanovic <sasa.poznanovic@vuka.hr>\n"
-"  Tanja Minarik <tanja@finte.net>\n"
-"  Vedran Vyroubal <vedran.vyroubal@inet.hr>\n"
-"  Vlatko Kosturjak <kost@linux.hr>\n"
-"\n"
-"Launchpad Contributions:\n"
-"  Launchpad Translations Administrators https://launchpad.net/~rosetta-"
-"admins"
-
-#: ../gui/user-switch-applet/applet.c:782
-#, fuzzy, c-format
-msgid "Can't lock screen: %s"
-msgstr "Ne mogu zapisati u %s: %s"
-
-#: ../gui/user-switch-applet/applet.c:804
-#, c-format
-msgid "Can't temporarily set screensaver to blank screen: %s"
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:1101
-msgid "Unknown"
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:1157
-msgid "User Switch Applet"
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:1181
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.server.in.in.h:2
-msgid "User Switcher"
-msgstr ""
-
-#: ../gui/user-switch-applet/gdm-user-menu-item.c:338
-#, fuzzy
-msgid "User"
-msgstr "Korisnici"
-
-#: ../gui/user-switch-applet/gdm-user-menu-item.c:339
-msgid "The user this menu item represents."
-msgstr ""
-
-#: ../gui/user-switch-applet/gdm-user-menu-item.c:346
-#, fuzzy
-msgid "Icon Size"
-msgstr "Sličica"
-
-#: ../gui/user-switch-applet/gdm-user-menu-item.c:347
-msgid "The size of the icon to use."
-msgstr ""
-
-#: ../gui/user-switch-applet/gdm-user-menu-item.c:353
-msgid "Indicator Size"
-msgstr ""
-
-#: ../gui/user-switch-applet/gdm-user-menu-item.c:354
-msgid "Size of check indicator"
-msgstr ""
-
-#: ../gui/user-switch-applet/gdm-user-menu-item.c:359
-msgid "Indicator Spacing"
-msgstr ""
-
-#: ../gui/user-switch-applet/gdm-user-menu-item.c:360
-msgid "Space between the username and the indicator"
-msgstr ""
-
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.server.in.in.h:1
-msgid "A menu to quickly switch between users"
-msgstr ""
-
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.server.in.in.h:3
-msgid "User Switcher Applet Factory"
-msgstr ""
-
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.xml.h:1
-msgid "Edit Personal _Information"
-msgstr ""
-
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.xml.h:2
-msgid "_About"
-msgstr ""
-
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.xml.h:3
-msgid "_Edit Users and Groups"
-msgstr ""
-
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.xml.h:4
-msgid "_Help"
-msgstr ""
-
-#: ../utils/gdmflexiserver.c:60 ../utils/gdmflexiserver.c:61
-#: ../utils/gdmflexiserver.c:62 ../utils/gdmflexiserver.c:64
-#: ../utils/gdmflexiserver.c:65
-msgid "Ignored - retained for compatibility"
+#: ../utils/gdmflexiserver.c:45
+msgid "Only the VERSION command is supported"
 msgstr ""
 
-#: ../utils/gdmflexiserver.c:60
+#: ../utils/gdmflexiserver.c:45
 msgid "COMMAND"
 msgstr "NAREDBA"
 
-#: ../utils/gdmflexiserver.c:63 ../utils/gdm-screenshot.c:41
+#: ../utils/gdmflexiserver.c:46 ../utils/gdmflexiserver.c:47
+#: ../utils/gdmflexiserver.c:49 ../utils/gdmflexiserver.c:50
+msgid "Ignored — retained for compatibility"
+msgstr ""
+
+#: ../utils/gdmflexiserver.c:48 ../utils/gdm-screenshot.c:43
 msgid "Debugging output"
 msgstr "Otklanjaj greške u izlazu"
 
-#: ../utils/gdmflexiserver.c:67
+#: ../utils/gdmflexiserver.c:52
 #, fuzzy
 msgid "Version of this application"
 msgstr "Kako koristiti ovu aplikaciju"
 
-#: ../utils/gdmflexiserver.c:674
-msgid "Could not identify the current session."
+#. Option parsing
+#: ../utils/gdmflexiserver.c:137
+#, fuzzy
+msgid "- New GDM login"
+msgstr "- Ugniježena gdm prijava"
+
+#: ../utils/gdm-screenshot.c:212
+msgid "Screenshot taken"
 msgstr ""
 
-#: ../utils/gdmflexiserver.c:710 ../utils/gdm-screenshot.c:230
-#, fuzzy
-msgid "Main Options"
-msgstr "glavne opcije"
+#. Option parsing
+#: ../utils/gdm-screenshot.c:279
+msgid "Take a picture of the screen"
+msgstr ""
 
-#: ../utils/gdmflexiserver.c:759
 #, fuzzy
-msgid "Unable to start new display"
-msgstr "Ne može pokrenuti novi zaslon"
+#~ msgid "Display ID"
+#~ msgstr "Prikaz"
+
+#, fuzzy
+#~ msgid "GNOME Display Manager Slave"
+#~ msgstr "Radno okruženje GNOMEa"
+
+#, fuzzy
+#~ msgid "Unable to establish credentials"
+#~ msgstr "Ne može postaviti uslužni program %s: %s\n"
+
+#~ msgid "%s: failed to connect to parent display '%s'"
+#~ msgstr "%s: povezivanje na glavni zaslon '%s' nije uspjelo"
+
+#, fuzzy
+#~ msgid "Couldn't set groupid to 0"
+#~ msgstr "%s: Ne mogu postaviti groupid na 0"
+
+#, fuzzy
+#~ msgid "unknown error"
+#~ msgstr "Nepoznata greška"
+
+#, fuzzy
+#~ msgid "Unable establish credentials"
+#~ msgstr "Ne može postaviti uslužni program %s: %s\n"
+
+#, fuzzy
+#~ msgid "User %s doesn't exist"
+#~ msgstr "Xnest ne postoji"
+
+#, fuzzy
+#~ msgid "Group %s doesn't exist"
+#~ msgstr "Xnest ne postoji"
+
+#, fuzzy
+#~ msgid "%s: Could not read display address"
+#~ msgstr "%s: Ne mogu otvoriti datoteku sa dnevnikom za zaslon %s!"
+
+#, fuzzy
+#~ msgid "%s: Could not read display port number"
+#~ msgstr "Nisam mogao pronaći slobodan broj ekrana"
+
+#, fuzzy
+#~ msgid "%s: Could not extract authlist from packet"
+#~ msgstr "%s: Ne mogu napraviti vezu ka udaljenom računalu"
+
+#, fuzzy
+#~ msgid "%s: Error in checksum"
+#~ msgstr "%s: Greška prilikom otvaranje veze sa procesom: %s"
+
+#, fuzzy
+#~ msgid "%s: Could not read Display Number"
+#~ msgstr "Nisam mogao pronaći slobodan broj ekrana"
+
+#, fuzzy
+#~ msgid "%s: Could not read Connection Type"
+#~ msgstr "%s: Ne mogu zapisati kolačić"
+
+#, fuzzy
+#~ msgid "%s: Could not read Client Address"
+#~ msgstr "%s: Ne mogu zapisati kolačić"
+
+#, fuzzy
+#~ msgid "%s: Could not read Authentication Data"
+#~ msgstr "%s: Ne mogu zapisati novi autorizacijski unos: %s"
+
+#, fuzzy
+#~ msgid "%s: Could not read Authorization List"
+#~ msgstr "%s: Ne mogu zapisati novi autorizacijski unos: %s"
+
+#, fuzzy
+#~ msgid "%s: Could not read Manufacturer ID"
+#~ msgstr "%s: Ne mogu zapisati kolačić"
+
+#, fuzzy
+#~ msgid "%s: Failed checksum from %s"
+#~ msgstr "%s: Neuspješno izvršavanje: %s"
+
+#, fuzzy
+#~ msgid "%s: Could not read Session ID"
+#~ msgstr "%s: Ne mogu otvoriti FIFO"
+
+#, fuzzy
+#~ msgid "%s: Could not read Display Class"
+#~ msgstr "%s: Ne mogu otvoriti datoteku sa dnevnikom za zaslon %s!"
+
+#, fuzzy
+#~ msgid "%s: Could not read address"
+#~ msgstr "%s: Ne mogu zapisati kolačić"
+
+#, fuzzy
+#~ msgid "Could not get server hostname: %s!"
+#~ msgstr "Nisam mogao podesiti masku signala!"
+
+#, fuzzy
+#~ msgid "Logdir %s does not exist or isn't a directory."
+#~ msgstr ""
+#~ "%s: Logdir %s ne postoji ili nije direktorij. Koristim ServAuthDir %s."
+
+#, fuzzy
+#~ msgid "Authdir %s does not exist. Aborting."
+#~ msgstr "%s: Authdir %s ne postoji. Obustavljanje."
+
+#, fuzzy
+#~ msgid "Authdir %s is not a directory. Aborting."
+#~ msgstr "%s: Authdir %s nije direktorij. Obustavljanje."
+
+#, fuzzy
+#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
+#~ msgstr "%s: Authdir %s nije direktorij. Obustavljanje."
+
+#, fuzzy
+#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
+#~ msgstr ""
+#~ "%s: Authdir %s ima pogrešna prava %o. Trebala bi biti %o. Obustavljanje."
+
+#~ msgid "Login Window"
+#~ msgstr "Prozor za prijavu"
+
+#, fuzzy
+#~ msgid "GNOME Screen Magnifier"
+#~ msgstr "Radno okruženje GNOMEa"
+
+#, fuzzy
+#~ msgid "Metacity"
+#~ msgstr "Sigurnost"
+
+#, fuzzy
+#~ msgid "percentage of time complete"
+#~ msgstr "_Hibernacija računala"
+
+#, fuzzy
+#~ msgid "%l:%M %p"
+#~ msgstr "%a %b %d, %I:%M %p"
+
+#, fuzzy
+#~ msgid "%a %b %e"
+#~ msgstr "%a %b %d, %H:%M"
+
+#, fuzzy
+#~ msgid "%1$s, %2$s"
+#~ msgstr "%s: %s"
+
+#, fuzzy
+#~ msgid "You have the Caps Lock key on."
+#~ msgstr "Uključen je Caps Lock (velika slova)."
+
+#, fuzzy
+#~ msgid "Automatically logging in..."
+#~ msgstr "Automatsko prijavljivanje (login)"
+
+#, fuzzy
+#~ msgid "Cancelling..."
+#~ msgstr "_Odustani"
+
+#, fuzzy
+#~ msgid "Failed to stop computer"
+#~ msgstr "Nisam se uspio ponovo pokrenuti"
+
+#, fuzzy
+#~ msgid "Authentication Dialog"
+#~ msgstr "Neuspješna identifikacija"
+
+#, fuzzy
+#~ msgid "Log In"
+#~ msgstr "Samo se _prijavi"
+
+#~ msgid "Restart"
+#~ msgstr "Pokreni ponovo"
+
+#, fuzzy
+#~ msgid "Shut Down"
+#~ msgstr "_Gašenje"
+
+#, fuzzy
+#~ msgid "Suspend"
+#~ msgstr "_Suspendiranje"
+
+#, fuzzy
+#~ msgid "Version"
+#~ msgstr "Prijave"
+
+#, fuzzy
+#~ msgid "Panel"
+#~ msgstr "_Odustani"
+
+#, fuzzy
+#~ msgid "Languages"
+#~ msgstr "_Jezik"
+
+#, fuzzy
+#~ msgid "_Languages:"
+#~ msgstr "_Jezik"
+
+#, fuzzy
+#~ msgid "_Language:"
+#~ msgstr "_Jezik"
+
+#, fuzzy
+#~ msgid "Icon name"
+#~ msgstr "Sličica"
+
+#, fuzzy
+#~ msgid "Default Item"
+#~ msgstr "_Uobičajeno: \"Dobro došli\""
+
+#, fuzzy
+#~ msgid "Remote Login (Connecting to %s...)"
+#~ msgstr "Udaljena prijava putem _XDMCP-a..."
+
+#, fuzzy
+#~ msgid "Remote Login"
+#~ msgstr "Udaljena prijava putem _XDMCP-a"
+
+#, fuzzy
+#~ msgid "_Sessions:"
+#~ msgstr "Prijave"
+
+#, fuzzy
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "_Omoguči dostupnu prijavu"
+
+#, fuzzy
+#~ msgid "Enable debugging"
+#~ msgstr "Omogući _tempirane prijave"
+
+#, fuzzy
+#~ msgid "Enable screen reader"
+#~ msgstr "_Prijavni zaslon spreman:"
+
+#, fuzzy
+#~ msgid "Start time"
+#~ msgstr "_Pokreni ponovo"
+
+#, fuzzy
+#~ msgid "Is it Running?"
+#~ msgstr "GDM nije pokrenut"
+
+#, fuzzy
+#~ msgid "Manager"
+#~ msgstr "_Jezik"
+
+#, fuzzy
+#~ msgid "Choose a different account"
+#~ msgstr "Odaberite akciju"
+
+#, fuzzy
+#~ msgid "Automatic Login"
+#~ msgstr "Automatsko prijavljivanje (login)"
+
+#, fuzzy
+#~ msgid "Log in as %s"
+#~ msgstr "Ipak se prijavi"
+
+#, fuzzy
+#~ msgid "Currently logged in"
+#~ msgstr "Već je prijavljen"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "lokalizacija@linux.hr\n"
+#~ "  Automatski Prijevod <>\n"
+#~ "  Damir Tesanovic <chiro@fbi.hu>\n"
+#~ "  Denis Lackovic <delacko@linux.hr>\n"
+#~ "  Marija Lucevnjak <marija.lucevnjak@inet.hr>\n"
+#~ "  Mato Kutlić <mate@iskraemeco.hr>\n"
+#~ "  Nikola Planinac <>\n"
+#~ "  Robert Sedak <robert.sedak@sk.t-com.hr>\n"
+#~ "  Sasa Poznanovic <sasa.poznanovic@vuka.hr>\n"
+#~ "  Tanja Minarik <tanja@finte.net>\n"
+#~ "  Vedran Vyroubal <vedran.vyroubal@inet.hr>\n"
+#~ "  Vlatko Kosturjak <kost@linux.hr>\n"
+#~ "\n"
+#~ "Launchpad Contributions:\n"
+#~ "  Launchpad Translations Administrators https://launchpad.net/~rosetta-"
+#~ "admins"
+
+#, fuzzy
+#~ msgid "Can't lock screen: %s"
+#~ msgstr "Ne mogu zapisati u %s: %s"
+
+#, fuzzy
+#~ msgid "User"
+#~ msgstr "Korisnici"
+
+#, fuzzy
+#~ msgid "Icon Size"
+#~ msgstr "Sličica"
+
+#, fuzzy
+#~ msgid "Main Options"
+#~ msgstr "glavne opcije"
 
 #~ msgid "This session logs you into CDE"
 #~ msgstr "Ova sesija vas prijavljuje na CDE"
@@ -1199,9 +795,6 @@ msgstr "Ne može pokrenuti novi zaslon"
 #~ msgstr ""
 #~ "Želite li pokušati konfigurirati miša? Za tu radnju potrebana vam je "
 #~ "zaporka root korisnika."
-
-#~ msgid "GNOME"
-#~ msgstr "GNOME"
 
 #~ msgid "This session logs you into GNOME"
 #~ msgstr "Ova sesija vas prijavljuje na GNOME"
@@ -1325,8 +918,8 @@ msgstr "Ne može pokrenuti novi zaslon"
 #~ "%s: XDMCP disabled and no static servers defined. Adding %s on :%d to "
 #~ "allow configuration!"
 #~ msgstr ""
-#~ "%s: XDCMP isključen i nema definiranih statičkih X poslužitelja. Dodajem %"
-#~ "s na prikaz: %d kako bih omogućio konfiguraciju!"
+#~ "%s: XDCMP isključen i nema definiranih statičkih X poslužitelja. Dodajem "
+#~ "%s na prikaz: %d kako bih omogućio konfiguraciju!"
 
 #~ msgid ""
 #~ "XDMCP is disabled and GDM cannot find any static server to start.  "
@@ -1873,9 +1466,6 @@ msgstr "Ne može pokrenuti novi zaslon"
 #~ msgid "Please enter your username"
 #~ msgstr "Molim, upišite svoje korisničko ime"
 
-#~ msgid "Password:"
-#~ msgstr "Lozinka:"
-
 #~ msgid "The system administrator is not allowed to login from this screen"
 #~ msgstr "Sistem administrator nije dozvolio da se prijavite sa ovog ekrana"
 
@@ -1918,13 +1508,6 @@ msgstr "Ne može pokrenuti novi zaslon"
 #~ "Vaša lozinka je promijenjena, ali ćete ju možda morati ponovo "
 #~ "promijeniti. Molim, pokušajte ponovo ili kontaktirajte svog "
 #~ "administratora."
-
-#~ msgid ""
-#~ "Your password has expired.\n"
-#~ "Only a system administrator can now change it"
-#~ msgstr ""
-#~ "Vaša lozinka je prestala važiti.\n"
-#~ "Sada ju samo administrator sustava može promijeniti."
 
 #~ msgid ""
 #~ "An internal error occurred. You will not be able to log in.\n"
@@ -2044,8 +1627,8 @@ msgstr "Ne može pokrenuti novi zaslon"
 #~ "%s: Failed to run '%s --display %s --display-authfile %s --to %s --to-"
 #~ "authfile %s': %s"
 #~ msgstr ""
-#~ "%s: Neuspjeh pri pokretanju '%s --display %s --display-authfile %s --to %"
-#~ "s --to-authfile %s': %s"
+#~ "%s: Neuspjeh pri pokretanju '%s --display %s --display-authfile %s --to "
+#~ "%s --to-authfile %s': %s"
 
 #~ msgid "%s: No XDMCP support"
 #~ msgstr "%s: Nema podrške za XDMCP"
@@ -2079,9 +1662,6 @@ msgstr "Ne može pokrenuti novi zaslon"
 
 #~ msgid "- Nested gdm login chooser"
 #~ msgstr "- Ugnježđeni izbornik prijave"
-
-#~ msgid "- Nested gdm login"
-#~ msgstr "- Ugniježena gdm prijava"
 
 #~ msgid "Indirect XDMCP is not enabled"
 #~ msgstr "Nije uključen posredan XDMCP"
@@ -3441,6 +3021,3 @@ msgstr "Ne može pokrenuti novi zaslon"
 
 #~ msgid "gdmaskpass only runs as root\n"
 #~ msgstr "gdmaskpass se može pokrenuti samo kao root\n"
-
-#~ msgid "Authentication failure!\n"
-#~ msgstr "Greška prilikom autentifikacije!\n"

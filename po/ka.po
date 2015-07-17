@@ -9,124 +9,106 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-09-27 00:16+0200\n"
+"POT-Creation-Date: 2015-07-17 09:50-0700\n"
 "PO-Revision-Date: 2008-09-27 00:18+0200\n"
 "Last-Translator: Vladimer Sichinava  ვლადიმერ სიჭინავა <vsichi@gnome.org>\n"
 "Language-Team: Georgian <http://mail.gnome.org/mailman/listinfo/gnome-ge-"
 "list>\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type:  text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 
-#: ../common/gdm-common.c:437
+#: ../common/gdm-common.c:311
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr ""
 
-#: ../daemon/factory-slave-main.c:170 ../daemon/main.c:516
-#: ../daemon/product-slave-main.c:174 ../daemon/session-worker-main.c:137
-#: ../daemon/simple-slave-main.c:176 ../daemon/xdmcp-chooser-slave-main.c:176
-msgid "Enable debugging code"
+#: ../common/gdm-common.c:619 ../common/gdm-common.c:772
+#: ../libgdm/gdm-user-switching.c:344 ../libgdm/gdm-user-switching.c:514
+#, c-format
+msgid "Could not identify the current session."
 msgstr ""
 
-#: ../daemon/factory-slave-main.c:171 ../daemon/product-slave-main.c:175
-#: ../daemon/simple-slave-main.c:177 ../daemon/xdmcp-chooser-slave-main.c:177
-#, fuzzy
-msgid "Display ID"
-msgstr "დისპლეი"
-
-#: ../daemon/factory-slave-main.c:171 ../daemon/product-slave-main.c:175
-#: ../daemon/simple-slave-main.c:177 ../daemon/xdmcp-chooser-slave-main.c:177
-msgid "id"
+#: ../common/gdm-common.c:626 ../libgdm/gdm-user-switching.c:351
+#, c-format
+msgid "User unable to switch sessions."
 msgstr ""
 
-#: ../daemon/factory-slave-main.c:183 ../daemon/product-slave-main.c:187
-#: ../daemon/simple-slave-main.c:189 ../daemon/xdmcp-chooser-slave-main.c:189
-#, fuzzy
-msgid "GNOME Display Manager Slave"
-msgstr "გნომის გრაფიკული ინტერფეისი"
+#: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
+#, fuzzy, c-format
+msgid "Could not identify the current seat."
+msgstr "წმ არა!"
 
-#: ../daemon/gdm-display-access-file.c:271
+#: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
+#, c-format
+msgid ""
+"The system is unable to determine whether to switch to an existing login "
+"screen or start up a new login screen."
+msgstr ""
+
+#: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
+#, c-format
+msgid "The system is unable to start up a new login screen."
+msgstr ""
+
+#: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user \"%s\" on system"
 msgstr ""
 
-#: ../daemon/gdm-factory-slave.c:203 ../daemon/gdm-simple-slave.c:207
-msgid "Unable to initialize login system"
+#: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
+msgid "No session available"
 msgstr ""
 
-#: ../daemon/gdm-factory-slave.c:235 ../daemon/gdm-simple-slave.c:240
-#, fuzzy
-msgid "Unable to authenticate user"
-msgstr "მომხმარებლის დადგენა შეუზლებელია"
-
-#: ../daemon/gdm-factory-slave.c:257 ../daemon/gdm-simple-slave.c:286
-msgid "Unable to authorize user"
+#: ../daemon/gdm-manager.c:953
+#, c-format
+msgid "Can only be called before user is logged in"
 msgstr ""
 
-#: ../daemon/gdm-factory-slave.c:281
-#, fuzzy
-msgid "Unable to establish credentials"
-msgstr "-სკენ წმ წმ n"
+#: ../daemon/gdm-manager.c:962
+#, c-format
+msgid "Caller not GDM"
+msgstr ""
 
-#: ../daemon/gdm-factory-slave.c:662 ../daemon/gdm-product-slave.c:449
-#: ../daemon/gdm-simple-slave.c:1062
-#, fuzzy
-msgid ""
-"Could not start the X server (your graphical environment) due to some "
-"internal error. Please contact your system administrator or check your "
-"syslog to diagnose. In the meantime this display will be disabled.  Please "
-"restart GDM when the problem is corrected."
-msgstr "არა X -სკენ მონაცემები შეცდომა -სკენ."
-
-#: ../daemon/gdm-server.c:246
-#, fuzzy, c-format
-msgid "%s: failed to connect to parent display '%s'"
-msgstr "წმ -სკენ -სკენ წმ"
-
-#: ../daemon/gdm-server.c:361
+#: ../daemon/gdm-server.c:437
 #, fuzzy, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
 msgstr "წმ სერვერი -სკენ"
 
-#: ../daemon/gdm-server.c:372 ../daemon/gdm-welcome-session.c:444
+#: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, fuzzy, c-format
 msgid "Couldn't set groupid to %d"
 msgstr "წმ -სკენ"
 
-#: ../daemon/gdm-server.c:378 ../daemon/gdm-welcome-session.c:450
+#: ../daemon/gdm-server.c:454
 #, fuzzy, c-format
 msgid "initgroups () failed for %s"
 msgstr "წმ წმ"
 
-#: ../daemon/gdm-server.c:384 ../daemon/gdm-welcome-session.c:456
+#: ../daemon/gdm-server.c:460
 #, fuzzy, c-format
 msgid "Couldn't set userid to %d"
 msgstr "წმ -სკენ"
 
-#: ../daemon/gdm-server.c:392 ../daemon/gdm-welcome-session.c:464
-#, fuzzy
-msgid "Couldn't set groupid to 0"
-msgstr "წმ -სკენ 0"
-
-#: ../daemon/gdm-server.c:431
+#: ../daemon/gdm-server.c:538
 #, fuzzy, c-format
-msgid "%s: Could not open logfile for display %s!"
+msgid "%s: Could not open log file for display %s!"
 msgstr "წმ არა გახსნა წმ!"
 
-#: ../daemon/gdm-server.c:442 ../daemon/gdm-server.c:448
-#: ../daemon/gdm-server.c:454
+#: ../daemon/gdm-server.c:559 ../daemon/gdm-server.c:565
+#: ../daemon/gdm-server.c:571
 #, fuzzy, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "წმ შეცდომა წმ -სკენ წმ"
 
-#: ../daemon/gdm-server.c:469
+#: ../daemon/gdm-server.c:591
 #, fuzzy, c-format
 msgid "%s: Server priority couldn't be set to %d: %s"
 msgstr "წმ სერვერი -სკენ წმ"
 
-#: ../daemon/gdm-server.c:621
+#: ../daemon/gdm-server.c:743
 #, fuzzy, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "წმ ცარიელი წმ"
@@ -158,970 +140,604 @@ msgstr "დისპლეი"
 msgid "The display device"
 msgstr ""
 
-#: ../daemon/gdm-session-direct.c:1574 ../daemon/gdm-session-direct.c:1592
-#, c-format
-msgid "worker exited with status %d"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1079
-#, c-format
-msgid "error initiating conversation with authentication system - %s"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1080
-msgid "general failure"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1081
-msgid "out of memory"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1082
-msgid "application programmer error"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1083
+#: ../daemon/gdm-session.c:1216
 #, fuzzy
-msgid "unknown error"
-msgstr "დაიშვა უცნობი შეცდომა."
+msgid "Could not create authentication helper process"
+msgstr "წმ არა აუთენტიფიკაცია"
 
-#: ../daemon/gdm-session-worker.c:1090
+#: ../daemon/gdm-session-worker.c:846
+msgid "Your account was given a time limit that's now passed."
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:853
+msgid "Sorry, that didn't work. Please try again."
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1109
 msgid "Username:"
 msgstr "მომხმარებელი:"
 
-#: ../daemon/gdm-session-worker.c:1096
-#, c-format
-msgid "error informing authentication system of preferred username prompt - %s"
+#: ../daemon/gdm-session-worker.c:1240
+msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1110
-#, c-format
-msgid "error informing authentication system of user's hostname - %s"
-msgstr ""
+#: ../daemon/gdm-session-worker.c:1241
+#, fuzzy
+msgid "Password reminder:"
+msgstr "პაროლი:"
 
-#: ../daemon/gdm-session-worker.c:1125
-#, c-format
-msgid "error informing authentication system of user's console - %s"
-msgstr ""
+#: ../daemon/gdm-session-worker.c:1293
+#, fuzzy
+msgid "Your password has expired, please change it now."
+msgstr "a ახლა"
 
-#: ../daemon/gdm-session-worker.c:1138
-#, c-format
-msgid "error informing authentication system of display string - %s"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1153
-#, c-format
-msgid "error informing authentication system of display xauth credentials - %s"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1433 ../daemon/gdm-session-worker.c:1451
+#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
 #, c-format
 msgid "no user account available"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1478
+#: ../daemon/gdm-session-worker.c:1579
 msgid "Unable to change to user"
 msgstr ""
 
-#: ../daemon/gdm-simple-slave.c:387
+#: ../daemon/gdm-simple-slave.c:866
 #, fuzzy
-msgid "Unable establish credentials"
-msgstr "-სკენ წმ წმ n"
+msgid ""
+"Could not start the X server (your graphical environment) due to an internal "
+"error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM "
+"when the problem is corrected."
+msgstr "არა X -სკენ მონაცემები შეცდომა -სკენ."
 
-#: ../daemon/gdm-welcome-session.c:426
-#, fuzzy, c-format
-msgid "User %s doesn't exist"
-msgstr "ფაილი ’%s’ არ არსებობს."
-
-#: ../daemon/gdm-welcome-session.c:433
-#, fuzzy, c-format
-msgid "Group %s doesn't exist"
-msgstr "ფაილი ’%s’ არ არსებობს."
-
-#: ../daemon/gdm-xdmcp-display-factory.c:590
+#: ../daemon/gdm-xdmcp-display-factory.c:609
 #, fuzzy
 msgid "Could not create socket!"
 msgstr "წმ არა!"
 
-#: ../daemon/gdm-xdmcp-display-factory.c:856
+#: ../daemon/main.c:125 ../daemon/main.c:138
 #, fuzzy, c-format
-msgid "Denied XDMCP query from host %s"
-msgstr "წმ"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1013
-#: ../daemon/gdm-xdmcp-display-factory.c:1234
-#, fuzzy
-msgid "Could not extract authlist from packet"
-msgstr "წმ არა"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1026
-#: ../daemon/gdm-xdmcp-display-factory.c:1249
-#, fuzzy
-msgid "Error in checksum"
-msgstr "წმ შეცდომა -"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1500
-#, fuzzy
-msgid "Bad address"
-msgstr "%s: არასწორი მისამართ"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1581
-#, fuzzy, c-format
-msgid "%s: Could not read display address"
-msgstr "წმ არა"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1589
-#, fuzzy, c-format
-msgid "%s: Could not read display port number"
-msgstr "წმ არა რიცხვი"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1598
-#, fuzzy, c-format
-msgid "%s: Could not extract authlist from packet"
-msgstr "წმ არა"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1618
-#, fuzzy, c-format
-msgid "%s: Error in checksum"
-msgstr "წმ შეცდომა -"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2120
-#, fuzzy, c-format
-msgid "%s: Got REQUEST from banned host %s"
-msgstr "წმ წმ"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2130
-#: ../daemon/gdm-xdmcp-display-factory.c:2485
-#: ../daemon/gdm-xdmcp-display-factory.c:2737
-#, fuzzy, c-format
-msgid "%s: Could not read Display Number"
-msgstr "წმ არა დისპლეი"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2137
-#, fuzzy, c-format
-msgid "%s: Could not read Connection Type"
-msgstr "წმ არა კავშირი ტიპი"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2144
-#, fuzzy, c-format
-msgid "%s: Could not read Client Address"
-msgstr "წმ არა კლიენტი მისამართი"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2152
-#, fuzzy, c-format
-msgid "%s: Could not read Authentication Names"
-msgstr "წმ არა აუთენტიფიკაცია"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2161
-#, fuzzy, c-format
-msgid "%s: Could not read Authentication Data"
-msgstr "წმ არა აუთენტიფიკაცია მონაცემი"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2171
-#, fuzzy, c-format
-msgid "%s: Could not read Authorization List"
-msgstr "წმ არა ავტორიზაცია სია"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2190
-#, fuzzy, c-format
-msgid "%s: Could not read Manufacturer ID"
-msgstr "წმ არა მწარმოებელი ID"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2217
-#, fuzzy, c-format
-msgid "%s: Failed checksum from %s"
-msgstr "წმ ვერ შევასრულე წმ"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2469
-#, fuzzy, c-format
-msgid "%s: Got Manage from banned host %s"
-msgstr "წმ წმ"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2478
-#: ../daemon/gdm-xdmcp-display-factory.c:2744
-#, fuzzy, c-format
-msgid "%s: Could not read Session ID"
-msgstr "წმ არა სესია ID"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2492
-#, fuzzy, c-format
-msgid "%s: Could not read Display Class"
-msgstr "წმ არა დისპლეი კლასი"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2597
-#: ../daemon/gdm-xdmcp-display-factory.c:2647
-#: ../daemon/gdm-xdmcp-display-factory.c:2653
-#, fuzzy, c-format
-msgid "%s: Could not read address"
-msgstr "წმ არა"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2727
-#, fuzzy, c-format
-msgid "%s: Got KEEPALIVE from banned host %s"
-msgstr "წმ წმ"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2816
-#, fuzzy
-msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-msgstr "წმ არა თავსართი!"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2822
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:226
-#, fuzzy
-msgid "XMDCP: Incorrect XDMCP version!"
-msgstr "წმ ვერსია!"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2828
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:232
-msgid "XMDCP: Unable to parse address"
-msgstr ""
-
-#: ../daemon/gdm-xdmcp-display-factory.c:3226
-#, fuzzy, c-format
-msgid "Could not get server hostname: %s!"
-msgstr "წმ არა წმ!"
-
-#: ../daemon/main.c:237 ../daemon/main.c:250
-#, fuzzy, c-format
-msgid "Cannot write PID file %s: possibly out of diskspace: %s"
+msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr "PID ფაილი წმ - შეცდომა წმ"
 
-#: ../daemon/main.c:270
-#, fuzzy, c-format
-msgid "Logdir %s does not exist or isn't a directory."
-msgstr "წმ წმ არა ან a წმ."
+#: ../daemon/main.c:188
+#, c-format
+msgid "Failed to create ran once marker dir %s: %s"
+msgstr ""
 
-#: ../daemon/main.c:283
+#: ../daemon/main.c:194
 #, fuzzy, c-format
-msgid "Authdir %s does not exist. Aborting."
-msgstr "წმ წმ არა."
+msgid "Failed to create LogDir %s: %s"
+msgstr "ვერ შევასრულე -სკენ"
 
-#: ../daemon/main.c:287
-#, fuzzy, c-format
-msgid "Authdir %s is not a directory. Aborting."
-msgstr "წმ წმ არა a."
-
-#: ../daemon/main.c:361
-#, fuzzy, c-format
-msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-msgstr "წმ წმ არა წმ ჯგუფი წმ."
-
-#: ../daemon/main.c:368
-#, fuzzy, c-format
-msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-msgstr "წმ წმ o o."
-
-#: ../daemon/main.c:405
+#: ../daemon/main.c:229
 #, fuzzy, c-format
 msgid "Can't find the GDM user '%s'. Aborting!"
 msgstr "წმ პოვნა წმ!"
 
-#: ../daemon/main.c:411
+#: ../daemon/main.c:235
 #, fuzzy
 msgid "The GDM user should not be root. Aborting!"
 msgstr "წმ არა root!"
 
-#: ../daemon/main.c:417
+#: ../daemon/main.c:241
 #, fuzzy, c-format
 msgid "Can't find the GDM group '%s'. Aborting!"
 msgstr "წმ პოვნა ჯგუფი წმ!"
 
-#: ../daemon/main.c:423
+#: ../daemon/main.c:247
 #, fuzzy
 msgid "The GDM group should not be root. Aborting!"
 msgstr "წმ ჯგუფი არა root!"
 
-#: ../daemon/main.c:517
+#: ../daemon/main.c:324
 msgid "Make all warnings fatal"
 msgstr ""
 
-#: ../daemon/main.c:518
-msgid "Exit after a time - for debugging"
+#: ../daemon/main.c:325
+msgid "Exit after a time (for debugging)"
 msgstr ""
 
-#: ../daemon/main.c:519
+#: ../daemon/main.c:326
 msgid "Print GDM version"
 msgstr "დაბეჭდე GDM ის ვერსია"
 
-#: ../daemon/main.c:534
+#: ../daemon/main.c:339
 #, fuzzy
 msgid "GNOME Display Manager"
 msgstr "გნომის გრაფიკული ინტერფეისი"
 
 #. make sure the pid file doesn't get wiped
-#: ../daemon/main.c:595
+#: ../daemon/main.c:387
 #, fuzzy
-msgid "Only root wants to run GDM"
+msgid "Only the root user can run GDM"
 msgstr "მხოლოდ root -სკენ n"
 
-#: ../daemon/session-worker-main.c:149
+#. Translators: worker is a helper process that does the work
+#. of starting up a session
+#: ../daemon/session-worker-main.c:95
 #, fuzzy
 msgid "GNOME Display Manager Session Worker"
 msgstr "GNOME დისპლეი მმართველი არა."
 
-#: ../data/greeter-autostart/at-spi-registryd-wrapper.desktop.in.in.h:1
-msgid "AT SPI Registry Wrapper"
-msgstr ""
-
-#: ../data/greeter-autostart/gdm-simple-greeter.desktop.in.in.h:1
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:1962
-msgid "Login Window"
-msgstr "შემოსასვლელი სარკმელი"
-
-#: ../data/greeter-autostart/gnome-power-manager.desktop.in.in.h:1
-msgid "Power Manager"
-msgstr ""
-
-#: ../data/greeter-autostart/gnome-power-manager.desktop.in.in.h:2
-msgid "Power management daemon"
-msgstr ""
-
-#: ../data/greeter-autostart/gnome-settings-daemon.desktop.in.in.h:1
-msgid "GNOME Settings Daemon"
-msgstr ""
-
-#: ../data/greeter-autostart/gnome-mag.desktop.in.h:1
+#: ../data/applications/gnome-shell.desktop.in.h:1
 #, fuzzy
-msgid "GNOME Screen Magnifier"
-msgstr "გნომის გრაფიკული ინტერფეისი"
+msgid "GNOME Shell"
+msgstr "გნომი"
 
-#: ../data/greeter-autostart/gnome-mag.desktop.in.h:2
-msgid "Magnify parts of the screen"
+#: ../data/applications/gnome-shell.desktop.in.h:2
+msgid "Window management and compositing"
 msgstr ""
 
-#: ../data/greeter-autostart/gok.desktop.in.h:1
-msgid "GNOME Onscreen Keyboard"
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:1
+msgid "Whether or not to allow fingerprint readers for login"
 msgstr ""
 
-#: ../data/greeter-autostart/gok.desktop.in.h:2
-msgid "Use an onscreen keyboard"
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:2
+msgid ""
+"The login screen can optionally allow users who have enrolled their "
+"fingerprints to log in using those prints."
 msgstr ""
 
-#: ../data/greeter-autostart/metacity.desktop.in.h:1
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:3
+msgid "Whether or not to allow smartcard readers for login"
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:4
+msgid ""
+"The login screen can optionally allow users who have smartcards to log in "
+"using those smartcards."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 #, fuzzy
-msgid "Metacity"
-msgstr "უსაფრთხოება"
+msgid "Whether or not to allow passwords for login"
+msgstr "მომხმარებელი წმ არა -სკენ -"
 
-#: ../data/greeter-autostart/orca-screen-reader.desktop.in.h:1
-msgid "Orca Screen Reader"
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:6
+msgid ""
+"The login screen can be configured to disallow password authentication, "
+"forcing the user to use smartcard or fingerprint authentication."
 msgstr ""
 
-#: ../data/greeter-autostart/orca-screen-reader.desktop.in.h:2
-msgid "Present on-screen information as speech or braille"
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:7
+msgid "Path to small image at top of user list"
 msgstr ""
 
-#: ../gui/simple-chooser/gdm-host-chooser-dialog.c:148
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:8
+msgid ""
+"The login screen can optionally show a small image at the top of its user "
+"list to provide site administrators and distributions a way to provide "
+"branding."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:9
+msgid ""
+"The fallback login screen can optionally show a small image at the top of "
+"its user list to provide site administrators and distributions a way to "
+"provide branding."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:10
+msgid "Avoid showing user list"
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:11
+msgid ""
+"The login screen normally shows a list of available users to log in as. This "
+"setting can be toggled to disable showing the user list."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:12
+msgid "Enable showing the banner message"
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:13
+msgid "Set to true to show the banner message text."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:14
+msgid "Banner message text"
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:15
+msgid "Text banner message to show in the login window."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:16
+msgid "Disable showing the restart buttons"
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:17
+msgid "Set to true to disable showing the restart buttons in the login window."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:18
+#, fuzzy
+msgid "Number of allowed authentication failures"
+msgstr "იდენთიფიკაციამ ჩაიშალა!\n"
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:19
+msgid ""
+"The number of times a user is allowed to attempt authentication, before "
+"giving up and going back to user selection."
+msgstr ""
+
+#: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 #, fuzzy
 msgid "Select System"
 msgstr "ამორჩევა მომხმარებელი გამოსახულება"
 
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:214
+#: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
 #, fuzzy
-msgid "XMCP: Could not create XDMCP buffer!"
+msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "წმ არა!"
 
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:220
+#: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
 #, fuzzy
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "წმ არა თავსართი!"
 
-#: ../gui/simple-greeter/gdm-cell-renderer-timer.c:253
-msgid "Value"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-cell-renderer-timer.c:254
-msgid "percentage of time complete"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-chooser-widget.c:1306
-msgid "Inactive Text"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-chooser-widget.c:1307
-msgid "The text to use in the label if the user hasn't picked an item yet"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-chooser-widget.c:1315
-msgid "Active Text"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-chooser-widget.c:1316
-msgid "The text to use in the label if the user has picked an item"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-clock-widget.c:66
-msgid "%l:%M:%S %p"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-clock-widget.c:66
+#: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
 #, fuzzy
-msgid "%l:%M %p"
-msgstr "%a·%b·%d,·%l:%M·%p"
+msgid "XDMCP: Incorrect XDMCP version!"
+msgstr "წმ ვერსია!"
 
-#. translators: replace %e with %d if, when the day of the
-#. *              month as a decimal number is a single digit, it
-#. *              should begin with a 0 in your locale (e.g. "May
-#. *              01" instead of "May  1").
-#.
-#: ../gui/simple-greeter/gdm-clock-widget.c:72
+#: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
+msgid "XDMCP: Unable to parse address"
+msgstr ""
+
+#: ../libgdm/gdm-user-switching.c:72
 #, fuzzy
-msgid "%a %b %e"
-msgstr "%a·%b·%d,·%H:%M"
+msgid "Unable to create transient display: "
+msgstr "ახალი"
 
-#. translators: reverse the order of these arguments
-#. *              if the time should come before the
-#. *              date on a clock in your locale.
-#.
-#: ../gui/simple-greeter/gdm-clock-widget.c:77
-#, fuzzy, c-format
-msgid "%1$s, %2$s"
-msgstr "%s:·%s"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:181
+#: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
 #, fuzzy
-msgid "You have the Caps Lock key on."
-msgstr "ჩაკეტილი ჩართულია."
+msgid "Unable to activate session: "
+msgstr "მომხმარებლის დადგენა შეუზლებელია"
 
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:326
-#, fuzzy
-msgid "Automatically logging in..."
-msgstr "აუტომატური შესვლა"
-
-#. need to wait for response from backend
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:760
-#, fuzzy
-msgid "Cancelling..."
-msgstr "პირველადი."
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:1229
-#, fuzzy
-msgid "Failed to restart computer"
-msgstr "ვერ შევასრულე -სკენ"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:1232
-msgid ""
-"You are not allowed to restart the computer because multiple users are "
-"logged in"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:1313
-#, fuzzy
-msgid "Failed to stop computer"
-msgstr "ვერ შევასრულე -სკენ"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:1316
-msgid ""
-"You are not allowed to stop the computer because multiple users are logged in"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:1400
-msgid "Select language and click Log In"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.glade.h:1
-#, fuzzy
-msgid "Authentication Dialog"
-msgstr "იდენთიფიკაციამ ჩაიშალა"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.glade.h:2
-msgid "Computer Name"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.glade.h:3
-#, fuzzy
-msgid "Log In"
-msgstr "მხოლოდ _შედი"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.glade.h:4
-msgid "Restart"
-msgstr "გადატვირთე"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.glade.h:5
-#, fuzzy
-msgid "Shut Down"
-msgstr "გამოთიშე"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.glade.h:6
-#, fuzzy
-msgid "Suspend"
-msgstr "_შეაყოვნე"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.glade.h:7
-#, fuzzy
-msgid "Version"
-msgstr "_სესია:"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.glade.h:8
-msgid "page 5"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-greeter-panel.c:540
-#, fuzzy
-msgid "Panel"
-msgstr "_გაუქმება"
-
-#: ../gui/simple-greeter/gdm-language-chooser-dialog.c:201
-#, fuzzy
-msgid "Languages"
-msgstr "_ენა"
-
-#: ../gui/simple-greeter/gdm-language-chooser-widget.c:272
-#, fuzzy
-msgid "_Languages:"
-msgstr "_ენა"
-
-#: ../gui/simple-greeter/gdm-language-chooser-widget.c:273
-#: ../gui/simple-greeter/gdm-language-option-widget.c:255
-#, fuzzy
-msgid "_Language:"
-msgstr "_ენა"
-
-#: ../gui/simple-greeter/gdm-language-option-widget.c:224
-#: ../gui/simple-greeter/gdm-layout-option-widget.c:220
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:131
-#: ../gui/user-switch-applet/applet.c:996
-msgid "Other..."
-msgstr "სხვა..."
-
-#: ../gui/simple-greeter/gdm-language-option-widget.c:225
-msgid "Choose a language from the full list of available languages."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-languages.c:587
-msgid "Unspecified"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-layout-chooser-dialog.c:191
-msgid "Keyboard layouts"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-layout-chooser-widget.c:200
-#: ../gui/simple-greeter/gdm-layout-chooser-widget.c:201
-#: ../gui/simple-greeter/gdm-layout-option-widget.c:251
-msgid "_Keyboard:"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-layout-option-widget.c:221
-msgid "Choose a keyboard layout from the full list of available layouts."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-option-widget.c:493
-msgid "Label Text"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-option-widget.c:494
-msgid "The text to use as a label"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-option-widget.c:501
-#, fuzzy
-msgid "Icon name"
-msgstr "ხატულა"
-
-#: ../gui/simple-greeter/gdm-option-widget.c:502
-msgid "The icon to use with the label"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-option-widget.c:510
-#, fuzzy
-msgid "Default Item"
-msgstr "სისტემის სტანდარტული სესია"
-
-#: ../gui/simple-greeter/gdm-option-widget.c:511
-#, fuzzy
-msgid "The id of the default item"
-msgstr "ეს არის სისტემის სტანდარტული სესია"
-
-#: ../gui/simple-greeter/gdm-recent-option-widget.c:298
-msgid "Max Item Count"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-recent-option-widget.c:299
-msgid "The maximum number of items to keep around in the list"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-remote-login-window.c:224
-#, fuzzy, c-format
-msgid "Remote Login (Connecting to %s...)"
-msgstr "დაშორებული შესვლა."
-
-#: ../gui/simple-greeter/gdm-remote-login-window.c:238
-#, c-format
-msgid "Remote Login (Connected to %s)"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-remote-login-window.c:317
-#, fuzzy
-msgid "Remote Login"
-msgstr "დაშორებული შესვლა"
-
-#: ../gui/simple-greeter/gdm-session-option-widget.c:162
-#, fuzzy
-msgid "_Sessions:"
-msgstr "_სესია:"
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:1
-msgid "Banner message text"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:2
-msgid "Disable showing the restart buttons"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:3
-msgid "Do not show known users in the login window"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:4
-#, fuzzy
-msgid "Enable accessibility keyboard plugin"
-msgstr "ჩართვა"
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:5
-#, fuzzy
-msgid "Enable debugging"
-msgstr "ჩართვა შესვლა"
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:6
-msgid "Enable debugging mode for the greeter."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:7
-msgid "Enable on-screen keyboard"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:8
-msgid "Enable screen magnifier"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:9
-#, fuzzy
-msgid "Enable screen reader"
-msgstr "შესვლა:"
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:10
-msgid "Enable showing the banner message"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:11
-msgid "Icon name to use for greeter logo"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:12
-msgid "Recently selected keyboard layouts"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:13
-msgid "Recently selected languages"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:14
-msgid "Set to TRUE to disable showing known users in the login window."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:15
-msgid "Set to TRUE to disable showing the restart buttons in the login window."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:16
-msgid "Set to True to enable the background settings manager plugin."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:17
-msgid "Set to True to enable the media-keys settings manager plugin."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:18
-msgid "Set to True to enable the on-screen keyboard."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:19
-msgid ""
-"Set to True to enable the plugin to manage the accessibility keyboard "
-"settings."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:20
-msgid "Set to True to enable the screen magnifier."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:21
-msgid "Set to True to enable the screen reader."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:22
-msgid "Set to True to enable the sound settings manager plugin."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:23
-msgid "Set to True to enable the xrandr settings manager plugin."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:24
-msgid "Set to True to enable the xsettings settings manager plugin."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:25
-msgid ""
-"Set to a list of keyboard layouts to be shown by default at the login window."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:26
-msgid "Set to a list of languages to be shown by default at the login window."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:27
-msgid "Set to the themed icon name to use for the greeter logo."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:28
-msgid "Set to true to show the banner message text."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:29
-msgid "Set to true to use compiz as the window manager."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:30
-msgid "Text banner message to show on the login window."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:31
-msgid "True if the background settings manager plugin is enabled."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:32
-msgid "True if the media-keys settings manager plugin is enabled."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:33
-msgid "True if the sound settings manager plugin is enabled."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:34
-msgid "True if the xrandr settings manager plugin is enabled."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:35
-msgid "True if the xsettings settings manager plugin is enabled."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:36
-msgid "Use compiz as the window manager"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-timer.c:149
-msgid "Duration"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-timer.c:150
-msgid "Number of seconds until timer stops"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-timer.c:157
-msgid "Start time"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-timer.c:158
-msgid "Time the timer was started"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-timer.c:165
-#, fuzzy
-msgid "Is it Running?"
-msgstr "GDM არ არის ჩატვირთული"
-
-#: ../gui/simple-greeter/gdm-timer.c:166
-msgid "Whether or not the timer is currently ticking"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-user.c:241
-#, fuzzy
-msgid "Manager"
-msgstr "_ენა"
-
-#: ../gui/simple-greeter/gdm-user.c:242
-msgid "The user manager object this user is controlled by."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:132
-#, fuzzy
-msgid "Choose a different account"
-msgstr "აირჩიე ქმედება"
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:144
-msgid "Guest"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:145
-msgid "Login as a temporary guest"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:157
-#, fuzzy
-msgid "Automatic Login"
-msgstr "აუტომატური შესვლა"
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:158
-msgid "Automatically login to the system after selecting options"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:349
-#, fuzzy, c-format
-msgid "Log in as %s"
-msgstr "მაინც შესვლა"
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:694
-#, fuzzy
-msgid "Currently logged in"
-msgstr "-"
-
-#: ../gui/user-switch-applet/applet.c:147
-msgid ""
-"The User Switch Applet is free software; you can redistribute it and/or "
-"modify it under the terms of the GNU General Public License as published by "
-"the Free Software Foundation; either version 2 of the License, or (at your "
-"option) any later version."
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:151
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-"more details."
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:155
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA "
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:169
-msgid "A menu to quickly switch between users."
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:173
-msgid "translator-credits"
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:782
-#, fuzzy, c-format
-msgid "Can't lock screen: %s"
-msgstr "ვერ ვწერ %s: %s"
-
-#: ../gui/user-switch-applet/applet.c:804
-#, c-format
-msgid "Can't temporarily set screensaver to blank screen: %s"
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:1101
-msgid "Unknown"
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:1157
-msgid "User Switch Applet"
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:1181
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.server.in.in.h:2
-msgid "User Switcher"
-msgstr ""
-
-#: ../gui/user-switch-applet/gdm-user-menu-item.c:338
-#, fuzzy
-msgid "User"
-msgstr "მომხმარებელი"
-
-#: ../gui/user-switch-applet/gdm-user-menu-item.c:339
-msgid "The user this menu item represents."
-msgstr ""
-
-#: ../gui/user-switch-applet/gdm-user-menu-item.c:346
-#, fuzzy
-msgid "Icon Size"
-msgstr "ხატულა"
-
-#: ../gui/user-switch-applet/gdm-user-menu-item.c:347
-msgid "The size of the icon to use."
-msgstr ""
-
-#: ../gui/user-switch-applet/gdm-user-menu-item.c:353
-msgid "Indicator Size"
-msgstr ""
-
-#: ../gui/user-switch-applet/gdm-user-menu-item.c:354
-msgid "Size of check indicator"
-msgstr ""
-
-#: ../gui/user-switch-applet/gdm-user-menu-item.c:359
-msgid "Indicator Spacing"
-msgstr ""
-
-#: ../gui/user-switch-applet/gdm-user-menu-item.c:360
-msgid "Space between the username and the indicator"
-msgstr ""
-
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.server.in.in.h:1
-msgid "A menu to quickly switch between users"
-msgstr ""
-
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.server.in.in.h:3
-msgid "User Switcher Applet Factory"
-msgstr ""
-
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.xml.h:1
-msgid "Edit Personal _Information"
-msgstr ""
-
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.xml.h:2
-msgid "_About"
-msgstr ""
-
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.xml.h:3
-msgid "_Edit Users and Groups"
-msgstr ""
-
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.xml.h:4
-msgid "_Help"
-msgstr ""
-
-#: ../utils/gdmflexiserver.c:60 ../utils/gdmflexiserver.c:61
-#: ../utils/gdmflexiserver.c:62 ../utils/gdmflexiserver.c:64
-#: ../utils/gdmflexiserver.c:65
-msgid "Ignored - retained for compatibility"
+#: ../utils/gdmflexiserver.c:45
+msgid "Only the VERSION command is supported"
 msgstr ""
 
-#: ../utils/gdmflexiserver.c:60
+#: ../utils/gdmflexiserver.c:45
 msgid "COMMAND"
 msgstr "ბრზანება"
 
-#: ../utils/gdmflexiserver.c:63 ../utils/gdm-screenshot.c:41
+#: ../utils/gdmflexiserver.c:46 ../utils/gdmflexiserver.c:47
+#: ../utils/gdmflexiserver.c:49 ../utils/gdmflexiserver.c:50
+msgid "Ignored — retained for compatibility"
+msgstr ""
+
+#: ../utils/gdmflexiserver.c:48 ../utils/gdm-screenshot.c:43
 #, fuzzy
 msgid "Debugging output"
 msgstr "<b>აუდიო გასავალი</b>"
 
-#: ../utils/gdmflexiserver.c:67
+#: ../utils/gdmflexiserver.c:52
 #, fuzzy
 msgid "Version of this application"
 msgstr "-სკენ პროგრამა"
 
-#: ../utils/gdmflexiserver.c:674
-#, c-format
-msgid "Could not identify the current session."
+#. Option parsing
+#: ../utils/gdmflexiserver.c:137
+#, fuzzy
+msgid "- New GDM login"
+msgstr "ახალი შესვლა"
+
+#: ../utils/gdm-screenshot.c:212
+msgid "Screenshot taken"
 msgstr ""
 
-#: ../utils/gdmflexiserver.c:710 ../utils/gdm-screenshot.c:230
-#, fuzzy
-msgid "Main Options"
-msgstr "ოფ_ციები"
+#. Option parsing
+#: ../utils/gdm-screenshot.c:279
+msgid "Take a picture of the screen"
+msgstr ""
 
-#: ../utils/gdmflexiserver.c:759
 #, fuzzy
-msgid "Unable to start new display"
-msgstr "ახალი"
+#~ msgid "Display ID"
+#~ msgstr "დისპლეი"
+
+#, fuzzy
+#~ msgid "GNOME Display Manager Slave"
+#~ msgstr "გნომის გრაფიკული ინტერფეისი"
+
+#, fuzzy
+#~ msgid "Unable to establish credentials"
+#~ msgstr "-სკენ წმ წმ n"
+
+#, fuzzy
+#~ msgid "%s: failed to connect to parent display '%s'"
+#~ msgstr "წმ -სკენ -სკენ წმ"
+
+#, fuzzy
+#~ msgid "Couldn't set groupid to 0"
+#~ msgstr "წმ -სკენ 0"
+
+#, fuzzy
+#~ msgid "unknown error"
+#~ msgstr "დაიშვა უცნობი შეცდომა."
+
+#, fuzzy
+#~ msgid "Unable establish credentials"
+#~ msgstr "-სკენ წმ წმ n"
+
+#, fuzzy
+#~ msgid "User %s doesn't exist"
+#~ msgstr "ფაილი ’%s’ არ არსებობს."
+
+#, fuzzy
+#~ msgid "Group %s doesn't exist"
+#~ msgstr "ფაილი ’%s’ არ არსებობს."
+
+#, fuzzy
+#~ msgid "Denied XDMCP query from host %s"
+#~ msgstr "წმ"
+
+#, fuzzy
+#~ msgid "Could not extract authlist from packet"
+#~ msgstr "წმ არა"
+
+#, fuzzy
+#~ msgid "Error in checksum"
+#~ msgstr "წმ შეცდომა -"
+
+#, fuzzy
+#~ msgid "Bad address"
+#~ msgstr "%s: არასწორი მისამართ"
+
+#, fuzzy
+#~ msgid "%s: Could not read display address"
+#~ msgstr "წმ არა"
+
+#, fuzzy
+#~ msgid "%s: Could not read display port number"
+#~ msgstr "წმ არა რიცხვი"
+
+#, fuzzy
+#~ msgid "%s: Could not extract authlist from packet"
+#~ msgstr "წმ არა"
+
+#, fuzzy
+#~ msgid "%s: Error in checksum"
+#~ msgstr "წმ შეცდომა -"
+
+#, fuzzy
+#~ msgid "%s: Got REQUEST from banned host %s"
+#~ msgstr "წმ წმ"
+
+#, fuzzy
+#~ msgid "%s: Could not read Display Number"
+#~ msgstr "წმ არა დისპლეი"
+
+#, fuzzy
+#~ msgid "%s: Could not read Connection Type"
+#~ msgstr "წმ არა კავშირი ტიპი"
+
+#, fuzzy
+#~ msgid "%s: Could not read Client Address"
+#~ msgstr "წმ არა კლიენტი მისამართი"
+
+#, fuzzy
+#~ msgid "%s: Could not read Authentication Data"
+#~ msgstr "წმ არა აუთენტიფიკაცია მონაცემი"
+
+#, fuzzy
+#~ msgid "%s: Could not read Authorization List"
+#~ msgstr "წმ არა ავტორიზაცია სია"
+
+#, fuzzy
+#~ msgid "%s: Could not read Manufacturer ID"
+#~ msgstr "წმ არა მწარმოებელი ID"
+
+#, fuzzy
+#~ msgid "%s: Failed checksum from %s"
+#~ msgstr "წმ ვერ შევასრულე წმ"
+
+#, fuzzy
+#~ msgid "%s: Got Manage from banned host %s"
+#~ msgstr "წმ წმ"
+
+#, fuzzy
+#~ msgid "%s: Could not read Session ID"
+#~ msgstr "წმ არა სესია ID"
+
+#, fuzzy
+#~ msgid "%s: Could not read Display Class"
+#~ msgstr "წმ არა დისპლეი კლასი"
+
+#, fuzzy
+#~ msgid "%s: Could not read address"
+#~ msgstr "წმ არა"
+
+#, fuzzy
+#~ msgid "%s: Got KEEPALIVE from banned host %s"
+#~ msgstr "წმ წმ"
+
+#, fuzzy
+#~ msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
+#~ msgstr "წმ არა თავსართი!"
+
+#, fuzzy
+#~ msgid "Could not get server hostname: %s!"
+#~ msgstr "წმ არა წმ!"
+
+#, fuzzy
+#~ msgid "Logdir %s does not exist or isn't a directory."
+#~ msgstr "წმ წმ არა ან a წმ."
+
+#, fuzzy
+#~ msgid "Authdir %s does not exist. Aborting."
+#~ msgstr "წმ წმ არა."
+
+#, fuzzy
+#~ msgid "Authdir %s is not a directory. Aborting."
+#~ msgstr "წმ წმ არა a."
+
+#, fuzzy
+#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
+#~ msgstr "წმ წმ არა წმ ჯგუფი წმ."
+
+#, fuzzy
+#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
+#~ msgstr "წმ წმ o o."
+
+#~ msgid "Login Window"
+#~ msgstr "შემოსასვლელი სარკმელი"
+
+#, fuzzy
+#~ msgid "GNOME Screen Magnifier"
+#~ msgstr "გნომის გრაფიკული ინტერფეისი"
+
+#, fuzzy
+#~ msgid "Metacity"
+#~ msgstr "უსაფრთხოება"
+
+#, fuzzy
+#~ msgid "%l:%M %p"
+#~ msgstr "%a·%b·%d,·%l:%M·%p"
+
+#, fuzzy
+#~ msgid "%a %b %e"
+#~ msgstr "%a·%b·%d,·%H:%M"
+
+#, fuzzy
+#~ msgid "%1$s, %2$s"
+#~ msgstr "%s:·%s"
+
+#, fuzzy
+#~ msgid "You have the Caps Lock key on."
+#~ msgstr "ჩაკეტილი ჩართულია."
+
+#, fuzzy
+#~ msgid "Automatically logging in..."
+#~ msgstr "აუტომატური შესვლა"
+
+#, fuzzy
+#~ msgid "Cancelling..."
+#~ msgstr "პირველადი."
+
+#, fuzzy
+#~ msgid "Failed to stop computer"
+#~ msgstr "ვერ შევასრულე -სკენ"
+
+#, fuzzy
+#~ msgid "Authentication Dialog"
+#~ msgstr "იდენთიფიკაციამ ჩაიშალა"
+
+#, fuzzy
+#~ msgid "Log In"
+#~ msgstr "მხოლოდ _შედი"
+
+#~ msgid "Restart"
+#~ msgstr "გადატვირთე"
+
+#, fuzzy
+#~ msgid "Shut Down"
+#~ msgstr "გამოთიშე"
+
+#, fuzzy
+#~ msgid "Suspend"
+#~ msgstr "_შეაყოვნე"
+
+#, fuzzy
+#~ msgid "Version"
+#~ msgstr "_სესია:"
+
+#, fuzzy
+#~ msgid "Panel"
+#~ msgstr "_გაუქმება"
+
+#, fuzzy
+#~ msgid "Languages"
+#~ msgstr "_ენა"
+
+#, fuzzy
+#~ msgid "_Languages:"
+#~ msgstr "_ენა"
+
+#, fuzzy
+#~ msgid "_Language:"
+#~ msgstr "_ენა"
+
+#~ msgid "Other..."
+#~ msgstr "სხვა..."
+
+#, fuzzy
+#~ msgid "Icon name"
+#~ msgstr "ხატულა"
+
+#, fuzzy
+#~ msgid "Default Item"
+#~ msgstr "სისტემის სტანდარტული სესია"
+
+#, fuzzy
+#~ msgid "The id of the default item"
+#~ msgstr "ეს არის სისტემის სტანდარტული სესია"
+
+#, fuzzy
+#~ msgid "Remote Login (Connecting to %s...)"
+#~ msgstr "დაშორებული შესვლა."
+
+#, fuzzy
+#~ msgid "Remote Login"
+#~ msgstr "დაშორებული შესვლა"
+
+#, fuzzy
+#~ msgid "_Sessions:"
+#~ msgstr "_სესია:"
+
+#, fuzzy
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "ჩართვა"
+
+#, fuzzy
+#~ msgid "Enable debugging"
+#~ msgstr "ჩართვა შესვლა"
+
+#, fuzzy
+#~ msgid "Enable screen reader"
+#~ msgstr "შესვლა:"
+
+#, fuzzy
+#~ msgid "Is it Running?"
+#~ msgstr "GDM არ არის ჩატვირთული"
+
+#, fuzzy
+#~ msgid "Manager"
+#~ msgstr "_ენა"
+
+#, fuzzy
+#~ msgid "Choose a different account"
+#~ msgstr "აირჩიე ქმედება"
+
+#, fuzzy
+#~ msgid "Automatic Login"
+#~ msgstr "აუტომატური შესვლა"
+
+#, fuzzy
+#~ msgid "Log in as %s"
+#~ msgstr "მაინც შესვლა"
+
+#, fuzzy
+#~ msgid "Currently logged in"
+#~ msgstr "-"
+
+#, fuzzy
+#~ msgid "Can't lock screen: %s"
+#~ msgstr "ვერ ვწერ %s: %s"
+
+#, fuzzy
+#~ msgid "User"
+#~ msgstr "მომხმარებელი"
+
+#, fuzzy
+#~ msgid "Icon Size"
+#~ msgstr "ხატულა"
+
+#, fuzzy
+#~ msgid "Main Options"
+#~ msgstr "ოფ_ციები"
 
 #~ msgid "CDE"
 #~ msgstr "CDE"
@@ -1193,9 +809,6 @@ msgstr "ახალი"
 #~ "them.  To get out of this mode type 'exit' in the window in the upper "
 #~ "left corner"
 #~ msgstr "I არა და I ფანჯრები ახლა ვის - რეჟიმი - ფანჯარა - მარცხნივ"
-
-#~ msgid "GNOME"
-#~ msgstr "გნომი"
 
 #~ msgid "This session logs you into GNOME"
 #~ msgstr "ეს სესია გნომში შეგიყვანთ"
@@ -1987,9 +1600,6 @@ msgstr "ახალი"
 #~ msgid "Please enter your username"
 #~ msgstr "გთხოვთ მიუთითოთ თქვენი სახელი"
 
-#~ msgid "Password:"
-#~ msgstr "პაროლი:"
-
 #, fuzzy
 #~ msgid "Couldn't authenticate user \"%s\""
 #~ msgstr "წმ"
@@ -2001,10 +1611,6 @@ msgstr "ახალი"
 #, fuzzy
 #~ msgid "The system administrator is not allowed to login from this screen"
 #~ msgstr "არა -სკენ"
-
-#, fuzzy
-#~ msgid "User %s not allowed to log in"
-#~ msgstr "მომხმარებელი წმ არა -სკენ -"
 
 #, fuzzy
 #~ msgid ""
@@ -2045,12 +1651,6 @@ msgstr "ახალი"
 #~ "Your password has been changed but you may have to change it again. "
 #~ "Please try again later or contact your system administrator."
 #~ msgstr "-სკენ ან."
-
-#, fuzzy
-#~ msgid ""
-#~ "Your password has expired.\n"
-#~ "Only a system administrator can now change it"
-#~ msgstr "a ახლა"
 
 #, fuzzy
 #~ msgid "Internal error on passwdexpired"
@@ -2564,9 +2164,6 @@ msgstr "ახალი"
 #, fuzzy
 #~ msgid "Starting a new login only works correctly on the console."
 #~ msgstr "ვრთავ a ახალი ჩართულია."
-
-#~ msgid "New Login"
-#~ msgstr "ახალი შესვლა"
 
 #~ msgid "A-M|Afrikaans"
 #~ msgstr "ა-მ| აფრიკული"
@@ -3725,16 +3322,13 @@ msgstr "ახალი"
 #~ msgid "gdmaskpass only runs as root\n"
 #~ msgstr "root n"
 
-#~ msgid "Authentication failure!\n"
-#~ msgstr "იდენთიფიკაციამ ჩაიშალა!\n"
-
 #~ msgid "(memory buffer)"
 #~ msgstr "(მეხსიერების ბუფერი)"
 
 #, fuzzy
 #~ msgid ""
-#~ "An error occurred while loading user interface element %s%s from file %"
-#~ "s.  Possibly the glade interface description was corrupted.  %s cannot "
+#~ "An error occurred while loading user interface element %s%s from file "
+#~ "%s.  Possibly the glade interface description was corrupted.  %s cannot "
 #~ "continue and will exit now.  You should check your installation of %s or "
 #~ "reinstall %s."
 #~ msgstr "შეცდომა ელემენტი წმ წმ ფაილი წმ აღწერა წმ და ახლა თქვენ - წმ ან წმ."

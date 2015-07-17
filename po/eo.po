@@ -10,9 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gdm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-09-07 17:45+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-17 09:50-0700\n"
 "PO-Revision-Date: 2013-09-21 12:50+0200\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
 "Language-Team: Esperanto <gnome-l10n-eo@lists.launchpad.net>\n"
@@ -26,102 +25,97 @@ msgstr ""
 "X-Poedit-Language: Esperanto\n"
 "X-Project-Style: gnome\n"
 
-#: ../common/gdm-common.c:518
+#: ../common/gdm-common.c:311
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom ne estas signokoda aparato"
+
+#: ../common/gdm-common.c:619 ../common/gdm-common.c:772
+#: ../libgdm/gdm-user-switching.c:344 ../libgdm/gdm-user-switching.c:514
+#, c-format
+msgid "Could not identify the current session."
+msgstr "Ne eblas identigi la aktualan seancon."
+
+#: ../common/gdm-common.c:626 ../libgdm/gdm-user-switching.c:351
+#, c-format
+msgid "User unable to switch sessions."
+msgstr "Uzanto ne povas ŝanĝi seancon."
+
+#: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
+#, c-format
+msgid "Could not identify the current seat."
+msgstr "Ne eblas identigi la aktualan seancon."
+
+#: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
+#, c-format
+msgid ""
+"The system is unable to determine whether to switch to an existing login "
+"screen or start up a new login screen."
+msgstr ""
+"La sistemo ne povas eltrovi ĉu ŝalti al ekzistantan ensalut-ekranon aŭ "
+"startigi novan ensalut-ekranon."
+
+#: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
+#, c-format
+msgid "The system is unable to start up a new login screen."
+msgstr "La sistemo ne povas startigi novan ensalut-ekranon."
 
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user \"%s\" on system"
 msgstr "ne eblis trovi uzanton \"%s\" sur la sistemo"
 
-#: ../daemon/gdm-display.c:1328 ../daemon/gdm-display.c:1362
-#, c-format
-#| msgid "no user account available"
-msgid "No session available yet"
-msgstr "Neniu seanco nun disponeblas"
-
-#: ../daemon/gdm-manager.c:276 ../daemon/gdm-manager.c:383
-#, c-format
-#| msgid "Unable to authorize user"
-msgid "Unable to look up UID of user %s"
-msgstr "Ne eblas elserĉi na UID de uzanto %s"
-
-#: ../daemon/gdm-manager.c:290
-#| msgid "no user account available"
-msgid "no sessions available"
-msgstr "neniu seanco disponeblas"
-
-#: ../daemon/gdm-manager.c:351
-#, c-format
-msgid "No sessions for %s available for reauthentication"
-msgstr "Neniu seanco de %s disponeblas por reaŭtentigo"
-
-#: ../daemon/gdm-manager.c:405
-#, c-format
-#| msgid "Unable to open session"
-msgid "Unable to find session for user %s"
-msgstr "Ne eblas trovi seancon de uzanto %s"
-
-#: ../daemon/gdm-manager.c:475
-#, c-format
-#| msgid "Unable to open session"
-msgid "Unable to find appropriate session for user %s"
-msgstr "Ne eblas trovi adekvatan seancon de uzanto %s"
-
-#: ../daemon/gdm-manager.c:670
-#| msgid "User %s doesn't exist"
-msgid "User doesn't own session"
-msgstr "La uzanto ne posedas la seancon"
-
-#: ../daemon/gdm-manager.c:683 ../daemon/gdm-manager.c:770
-#| msgid "no user account available"
+#: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
 msgid "No session available"
 msgstr "Neniu seanco disponeblas"
 
-#: ../daemon/gdm-server.c:234
+#: ../daemon/gdm-manager.c:953
 #, c-format
-msgid "%s: failed to connect to parent display '%s'"
-msgstr "%s: konekto al la gepatra ekrano '%s' fiaskis"
+msgid "Can only be called before user is logged in"
+msgstr "Nur estas vokeble antaŭ uzanto estas ensalutita"
 
-#: ../daemon/gdm-server.c:413
+#: ../daemon/gdm-manager.c:962
+#, c-format
+msgid "Caller not GDM"
+msgstr ""
+
+#: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
 msgstr "Servilo estis lanĉenda por la uzanto %s, sed tiu uzanto ne ekzistas"
 
-#: ../daemon/gdm-server.c:424 ../daemon/gdm-server.c:444
+#: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
 msgid "Couldn't set groupid to %d"
 msgstr "Ne eblis agordi %d kiel grupidentigo"
 
-#: ../daemon/gdm-server.c:430
+#: ../daemon/gdm-server.c:454
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups () fiaskis por %s"
 
-#: ../daemon/gdm-server.c:436
+#: ../daemon/gdm-server.c:460
 #, c-format
 msgid "Couldn't set userid to %d"
 msgstr "Ne eblis agordi %d kiel uzantoidentigo"
 
-#: ../daemon/gdm-server.c:483
+#: ../daemon/gdm-server.c:538
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: Ne eblis malfermi protokolan dosieron por la ekrano %s!"
 
-#: ../daemon/gdm-server.c:494 ../daemon/gdm-server.c:500
-#: ../daemon/gdm-server.c:506
+#: ../daemon/gdm-server.c:559 ../daemon/gdm-server.c:565
+#: ../daemon/gdm-server.c:571
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Ne eblis agordi %s al %s"
 
-#: ../daemon/gdm-server.c:526
+#: ../daemon/gdm-server.c:591
 #, c-format
 msgid "%s: Server priority couldn't be set to %d: %s"
 msgstr "%s: Ne eblis agordi prioritaton de la servilo al %d: %s"
 
-#: ../daemon/gdm-server.c:682
+#: ../daemon/gdm-server.c:743
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Malplena servilo-komando por ekrano %s"
@@ -150,37 +144,44 @@ msgstr "Vidigilo"
 msgid "The display device"
 msgstr "La vidigilo"
 
-#: ../daemon/gdm-session.c:1183
-#| msgid "%s: Could not read Authentication Names"
+#: ../daemon/gdm-session.c:1216
 msgid "Could not create authentication helper process"
 msgstr "Ne eblis krei aŭtentokontrolilan procezon"
 
-#: ../daemon/gdm-session-worker.c:824
+#: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
 msgstr "Al via konto estis donita tempolimo kiu nun pasis."
 
-#: ../daemon/gdm-session-worker.c:831
+#: ../daemon/gdm-session-worker.c:853
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Pardonu, tio ne funkciis. Bonvole provu denove."
 
-#: ../daemon/gdm-session-worker.c:1063
+#: ../daemon/gdm-session-worker.c:1109
 msgid "Username:"
 msgstr "Uzantonomo:"
 
-#: ../daemon/gdm-session-worker.c:1250
+#: ../daemon/gdm-session-worker.c:1240
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1241
+msgid "Password reminder:"
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1293
 msgid "Your password has expired, please change it now."
 msgstr "Via pasvorto senvalidiĝis, bonvole ŝanĝu ĝin."
 
-#: ../daemon/gdm-session-worker.c:1489 ../daemon/gdm-session-worker.c:1506
+#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
 #, c-format
 msgid "no user account available"
 msgstr "neniu uzanto-konto estas disponebla"
 
-#: ../daemon/gdm-session-worker.c:1533
+#: ../daemon/gdm-session-worker.c:1579
 msgid "Unable to change to user"
 msgstr "Ne eblas ŝanĝi al unzanto"
 
-#: ../daemon/gdm-simple-slave.c:1527
+#: ../daemon/gdm-simple-slave.c:866
 msgid ""
 "Could not start the X server (your graphical environment) due to an internal "
 "error. Please contact your system administrator or check your syslog to "
@@ -192,27 +193,7 @@ msgstr ""
 "sistemprotokolan dosieron por serĉi la problemon. Intertempe la ekrano estos "
 "elŝaltita. Bonvole relanĉu GDM-on se la problemo estas  korektita."
 
-#: ../daemon/gdm-simple-slave.c:1568
-#, c-format
-msgid "Can only be called before user is logged in"
-msgstr "Nur estas vokeble antaŭ uzanto estas ensalutita"
-
-#: ../daemon/gdm-simple-slave.c:1578
-#, c-format
-msgid "Caller not GDM"
-msgstr ""
-
-#: ../daemon/gdm-simple-slave.c:1631
-#| msgid "Currently logged in"
-msgid "User not logged in"
-msgstr "Uzanto ne ensalutis"
-
-#: ../daemon/gdm-xdmcp-chooser-slave.c:368
-#, c-format
-msgid "Currently, only one client can be connected at once"
-msgstr ""
-
-#: ../daemon/gdm-xdmcp-display-factory.c:604
+#: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
 msgstr "Ne eblas kreii kontaktoskatolon!"
 
@@ -249,55 +230,38 @@ msgstr "Ne eblas trovi la GDM-grupon '%s'. Eliras!"
 msgid "The GDM group should not be root. Aborting!"
 msgstr "La GDM-grupo ne estu radiko. Eliras!"
 
-#: ../daemon/main.c:327
+#: ../daemon/main.c:324
 msgid "Make all warnings fatal"
 msgstr "Fari ĉiujn avertojn fatalaj"
 
-#: ../daemon/main.c:328
+#: ../daemon/main.c:325
 msgid "Exit after a time (for debugging)"
 msgstr "Eliri post iom da tempo (por sencimigo)"
 
-#: ../daemon/main.c:329
+#: ../daemon/main.c:326
 msgid "Print GDM version"
 msgstr "Presi GDM-version"
 
-#: ../daemon/main.c:340
+#: ../daemon/main.c:339
 msgid "GNOME Display Manager"
 msgstr "Ekranadministrilo de GNOME"
 
 #. make sure the pid file doesn't get wiped
-#: ../daemon/main.c:388
+#: ../daemon/main.c:387
 msgid "Only the root user can run GDM"
 msgstr "Nur la uzanto \"root\" rajtas lanĉi GDM-on"
 
 #. Translators: worker is a helper process that does the work
 #. of starting up a session
-#: ../daemon/session-worker-main.c:101
+#: ../daemon/session-worker-main.c:95
 msgid "GNOME Display Manager Session Worker"
 msgstr "GDM (Gnome Ekran-mastrumilo) seancolaborilo"
-
-#: ../daemon/simple-slave-main.c:125 ../daemon/xdmcp-chooser-slave-main.c:124
-msgid "Display ID"
-msgstr "Ekrana ID"
-
-#: ../daemon/simple-slave-main.c:125 ../daemon/xdmcp-chooser-slave-main.c:124
-msgid "ID"
-msgstr "ID"
-
-#: ../daemon/simple-slave-main.c:133 ../daemon/xdmcp-chooser-slave-main.c:132
-msgid "GNOME Display Manager Slave"
-msgstr "GNOME ekranoadministra sklavo"
-
-#: ../data/applications/gdm-simple-greeter.desktop.in.in.h:1
-msgid "Login Window"
-msgstr "Ensalutfenestro"
 
 #: ../data/applications/gnome-shell.desktop.in.h:1
 msgid "GNOME Shell"
 msgstr "GNOME-ŝelo"
 
 #: ../data/applications/gnome-shell.desktop.in.h:2
-#| msgid "Power management daemon"
 msgid "Window management and compositing"
 msgstr "Fenestra administrado kaj kunmetado"
 
@@ -386,7 +350,6 @@ msgstr ""
 "ensalutfenestro."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
-#| msgid "%s: Could not read Authentication Names"
 msgid "Number of allowed authentication failures"
 msgstr "Nombro da permesataj aŭtentokontrolaj fiaskoj"
 
@@ -395,50 +358,6 @@ msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
 msgstr ""
-
-#: ../gui/libgdm/gdm-user-switching.c:72
-#| msgid "Unable to start new display"
-msgid "Unable to create transient display: "
-msgstr "Ne eblas krei nedaŭran ekranon:"
-
-#: ../gui/libgdm/gdm-user-switching.c:183
-#: ../gui/libgdm/gdm-user-switching.c:395
-#| msgid "Unable to open session"
-msgid "Unable to activate session: "
-msgstr "Ne eblas aktivigi seancon: "
-
-#: ../gui/libgdm/gdm-user-switching.c:344
-#: ../gui/libgdm/gdm-user-switching.c:514 ../utils/gdmflexiserver.c:447
-#: ../utils/gdmflexiserver.c:614
-#, c-format
-msgid "Could not identify the current session."
-msgstr "Ne eblas identigi la aktualan seancon."
-
-#: ../gui/libgdm/gdm-user-switching.c:351 ../utils/gdmflexiserver.c:454
-#, c-format
-#| msgid "Unable to open session"
-msgid "User unable to switch sessions."
-msgstr "Uzanto ne povas ŝanĝi seancon."
-
-#: ../gui/libgdm/gdm-user-switching.c:523 ../utils/gdmflexiserver.c:623
-#, c-format
-#| msgid "Could not identify the current session."
-msgid "Could not identify the current seat."
-msgstr "Ne eblas identigi la aktualan seancon."
-
-#: ../gui/libgdm/gdm-user-switching.c:533 ../utils/gdmflexiserver.c:633
-#, c-format
-msgid ""
-"The system is unable to determine whether to switch to an existing login "
-"screen or start up a new login screen."
-msgstr ""
-"La sistemo ne povas eltrovi ĉu ŝalti al ekzistantan ensalut-ekranon aŭ "
-"startigi novan ensalut-ekranon."
-
-#: ../gui/libgdm/gdm-user-switching.c:541 ../utils/gdmflexiserver.c:641
-#, c-format
-msgid "The system is unable to start up a new login screen."
-msgstr "La sistemo ne povas startigi novan ensalut-ekranon."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -453,44 +372,46 @@ msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: Ne eblis legi XDMCP-kapon!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-#| msgid "XMDCP: Incorrect XDMCP version!"
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XMDCP: Malĝusta XDMCP-versio!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-#| msgid "XMDCP: Unable to parse address"
 msgid "XDMCP: Unable to parse address"
 msgstr "XMDCP: Ne eblis analizi adreson"
 
-#: ../utils/gdmflexiserver.c:65
+#: ../libgdm/gdm-user-switching.c:72
+msgid "Unable to create transient display: "
+msgstr "Ne eblas krei nedaŭran ekranon:"
+
+#: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
+msgid "Unable to activate session: "
+msgstr "Ne eblas aktivigi seancon: "
+
+#: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
 msgstr "Nur la komando »VERSION« estas subtenata"
 
-#: ../utils/gdmflexiserver.c:65
+#: ../utils/gdmflexiserver.c:45
 msgid "COMMAND"
 msgstr "KOMANDO"
 
-#: ../utils/gdmflexiserver.c:66 ../utils/gdmflexiserver.c:67
-#: ../utils/gdmflexiserver.c:69 ../utils/gdmflexiserver.c:70
+#: ../utils/gdmflexiserver.c:46 ../utils/gdmflexiserver.c:47
+#: ../utils/gdmflexiserver.c:49 ../utils/gdmflexiserver.c:50
 msgid "Ignored — retained for compatibility"
 msgstr "Malatentite — konservita por kongrueco"
 
-#: ../utils/gdmflexiserver.c:68 ../utils/gdm-screenshot.c:43
+#: ../utils/gdmflexiserver.c:48 ../utils/gdm-screenshot.c:43
 msgid "Debugging output"
 msgstr "Sencimigo-eligo"
 
-#: ../utils/gdmflexiserver.c:72
+#: ../utils/gdmflexiserver.c:52
 msgid "Version of this application"
 msgstr "Versio de ĉi tiu aplikaĵo"
 
 #. Option parsing
-#: ../utils/gdmflexiserver.c:707
+#: ../utils/gdmflexiserver.c:137
 msgid "- New GDM login"
 msgstr "- Nova GDM-ensaluto"
-
-#: ../utils/gdmflexiserver.c:763
-msgid "Unable to start new display"
-msgstr "Ne evlis ruli novan ekranon"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
@@ -500,6 +421,55 @@ msgstr "Faris ekrankopion"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Fari bildon de la ekrano"
+
+#~| msgid "no user account available"
+#~ msgid "No session available yet"
+#~ msgstr "Neniu seanco nun disponeblas"
+
+#~| msgid "Unable to authorize user"
+#~ msgid "Unable to look up UID of user %s"
+#~ msgstr "Ne eblas elserĉi na UID de uzanto %s"
+
+#~| msgid "no user account available"
+#~ msgid "no sessions available"
+#~ msgstr "neniu seanco disponeblas"
+
+#~ msgid "No sessions for %s available for reauthentication"
+#~ msgstr "Neniu seanco de %s disponeblas por reaŭtentigo"
+
+#~| msgid "Unable to open session"
+#~ msgid "Unable to find session for user %s"
+#~ msgstr "Ne eblas trovi seancon de uzanto %s"
+
+#~| msgid "Unable to open session"
+#~ msgid "Unable to find appropriate session for user %s"
+#~ msgstr "Ne eblas trovi adekvatan seancon de uzanto %s"
+
+#~| msgid "User %s doesn't exist"
+#~ msgid "User doesn't own session"
+#~ msgstr "La uzanto ne posedas la seancon"
+
+#~ msgid "%s: failed to connect to parent display '%s'"
+#~ msgstr "%s: konekto al la gepatra ekrano '%s' fiaskis"
+
+#~| msgid "Currently logged in"
+#~ msgid "User not logged in"
+#~ msgstr "Uzanto ne ensalutis"
+
+#~ msgid "Display ID"
+#~ msgstr "Ekrana ID"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "GNOME Display Manager Slave"
+#~ msgstr "GNOME ekranoadministra sklavo"
+
+#~ msgid "Login Window"
+#~ msgstr "Ensalutfenestro"
+
+#~ msgid "Unable to start new display"
+#~ msgstr "Ne evlis ruli novan ekranon"
 
 #~ msgid "Unable to initialize login system"
 #~ msgstr "Ne eblis pravalorizi ensalutsistemon"

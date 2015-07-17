@@ -8,84 +8,185 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GDM2 HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gdm&component=general\n"
-"POT-Creation-Date: 2010-04-01 01:14+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-17 09:50-0700\n"
 "PO-Revision-Date: 2010-04-11 18:40+0300\n"
 "Last-Translator: Thierry Randrianiriana <randrianiriana@gmail.com>\n"
 "Language-Team: Malagasy <i18n-malagasy-gnome@gna.org>\n"
+"Language: mg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
 
-#: ../common/gdm-common.c:437
+#: ../common/gdm-common.c:311
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr ""
 
-#: ../daemon/factory-slave-main.c:177 ../daemon/product-slave-main.c:181
-#: ../daemon/simple-slave-main.c:183 ../daemon/xdmcp-chooser-slave-main.c:183
-#| msgid "Display"
-msgid "Display ID"
-msgstr "Seho ID"
+#: ../common/gdm-common.c:619 ../common/gdm-common.c:772
+#: ../libgdm/gdm-user-switching.c:344 ../libgdm/gdm-user-switching.c:514
+#, c-format
+msgid "Could not identify the current session."
+msgstr ""
 
-#: ../daemon/factory-slave-main.c:177 ../daemon/product-slave-main.c:181
-#: ../daemon/simple-slave-main.c:183 ../daemon/xdmcp-chooser-slave-main.c:183
-msgid "ID"
-msgstr "ID"
+#: ../common/gdm-common.c:626 ../libgdm/gdm-user-switching.c:351
+#, fuzzy, c-format
+msgid "User unable to switch sessions."
+msgstr "Tsy afaka manokatra session"
 
-#: ../daemon/factory-slave-main.c:189 ../daemon/product-slave-main.c:193
-#: ../daemon/simple-slave-main.c:195 ../daemon/xdmcp-chooser-slave-main.c:195
-#| msgid "GNOME Desktop Manager"
-msgid "GNOME Display Manager Slave"
-msgstr "Mpandrindra mpanompon'ny sehatrasan'ny GNOME"
+#: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
+#, fuzzy, c-format
+msgid "Could not identify the current seat."
+msgstr "Tsy nahaforona socket!"
+
+#: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
+#, c-format
+msgid ""
+"The system is unable to determine whether to switch to an existing login "
+"screen or start up a new login screen."
+msgstr ""
+
+#: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
+#, c-format
+msgid "The system is unable to start up a new login screen."
+msgstr ""
 
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user \"%s\" on system"
 msgstr "tsy afaka mahitan'ilay mpampiasa \"%s\" ao amin'ny rafitra"
 
-#: ../daemon/gdm-factory-slave.c:203 ../daemon/gdm-simple-slave.c:225
-msgid "Unable to initialize login system"
-msgstr ""
-
-#: ../daemon/gdm-factory-slave.c:235 ../daemon/gdm-simple-slave.c:261
-#| msgid "Couldn't authenticate user"
-msgid "Unable to authenticate user"
-msgstr "Tsy afaka manamarina ny mpampiasa"
-
-#: ../daemon/gdm-factory-slave.c:257 ../daemon/gdm-simple-slave.c:315
-msgid "Unable to authorize user"
-msgstr ""
-
-#: ../daemon/gdm-factory-slave.c:279 ../daemon/gdm-simple-slave.c:443
-#| msgid "Unable to establish service %s: %s\n"
-msgid "Unable to establish credentials"
-msgstr "Tsy afaka mampitahy ny mpanamarina"
-
-#: ../daemon/gdm-factory-slave.c:302 ../daemon/gdm-simple-slave.c:473
-#| msgid "Couldn't open session for %s"
-msgid "Unable to open session"
-msgstr "Tsy afaka manokatra session"
-
-#: ../daemon/gdm-factory-slave.c:683 ../daemon/gdm-product-slave.c:449
-#: ../daemon/gdm-simple-slave.c:1151
+#: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
 #, fuzzy
-#| msgid ""
-#| "Could not start the X\n"
-#| "server (your graphical environment)\n"
-#| "due to some internal error.\n"
-#| "Please contact your system administrator\n"
-#| "or check your syslog to diagnose.\n"
-#| "In the meantime this display will be\n"
-#| "disabled.  Please restart GDM when\n"
-#| "the problem is corrected."
+msgid "No session available"
+msgstr "tsy misy mpampiasa malalaka"
+
+#: ../daemon/gdm-manager.c:953
+#, c-format
+msgid "Can only be called before user is logged in"
+msgstr ""
+
+#: ../daemon/gdm-manager.c:962
+#, c-format
+msgid "Caller not GDM"
+msgstr ""
+
+#: ../daemon/gdm-server.c:437
+#, c-format
+msgid "Server was to be spawned by user %s but that user doesn't exist"
+msgstr ""
+"Ny mpampiasa %s no tokony nandefa ny mpizara, nefa tsy misy io mpampiasa io"
+
+#: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
+#, c-format
+msgid "Couldn't set groupid to %d"
+msgstr "Tsy nahavita namaritra ny groupid ho %d"
+
+#: ../daemon/gdm-server.c:454
+#, c-format
+msgid "initgroups () failed for %s"
+msgstr "initgroups () tsy nety tamin'ny %s"
+
+#: ../daemon/gdm-server.c:460
+#, c-format
+msgid "Couldn't set userid to %d"
+msgstr "Tsy nahavita namaritra ny userid ho %d"
+
+#: ../daemon/gdm-server.c:538
+#, fuzzy, c-format
+msgid "%s: Could not open log file for display %s!"
+msgstr "%s: Tsy nahasokatra ny raki-tatitra ho an'ny seho '%s'!"
+
+#: ../daemon/gdm-server.c:559 ../daemon/gdm-server.c:565
+#: ../daemon/gdm-server.c:571
+#, c-format
+msgid "%s: Error setting %s to %s"
+msgstr "%s: Nisy olana teo am-pamaritana ny %s ho %s"
+
+#: ../daemon/gdm-server.c:591
+#, c-format
+msgid "%s: Server priority couldn't be set to %d: %s"
+msgstr "%s: Tsy mety voafaritra ho %d ny fialohavan'ny mpizara: %s"
+
+#: ../daemon/gdm-server.c:743
+#, c-format
+msgid "%s: Empty server command for display %s"
+msgstr "%s: Baikom-pizara foana ho an'ny seho %s"
+
+#: ../daemon/gdm-session-auditor.c:90
+msgid "Username"
+msgstr "Anaran'ny mpampiasa"
+
+#: ../daemon/gdm-session-auditor.c:91
+msgid "The username"
+msgstr "Ny anaran'ny mpampiasa"
+
+#: ../daemon/gdm-session-auditor.c:95
+msgid "Hostname"
+msgstr "Mpampiantrano"
+
+#: ../daemon/gdm-session-auditor.c:96
+msgid "The hostname"
+msgstr "Ny mpampiantrano"
+
+#: ../daemon/gdm-session-auditor.c:101
+msgid "Display Device"
+msgstr "Seho"
+
+#: ../daemon/gdm-session-auditor.c:102
+msgid "The display device"
+msgstr "Ny seho"
+
+#: ../daemon/gdm-session.c:1216
+#, fuzzy
+msgid "Could not create authentication helper process"
+msgstr "%s: Tsy nahavaky ireo anaran'ny fanamarinana"
+
+#: ../daemon/gdm-session-worker.c:846
+msgid "Your account was given a time limit that's now passed."
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:853
+msgid "Sorry, that didn't work. Please try again."
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1109
+msgid "Username:"
+msgstr "Anaran'ny mpampiasa: "
+
+#: ../daemon/gdm-session-worker.c:1240
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1241
+#, fuzzy
+msgid "Password reminder:"
+msgstr "Teny fanalahidy:"
+
+#: ../daemon/gdm-session-worker.c:1293
+#, fuzzy
+msgid "Your password has expired, please change it now."
+msgstr ""
+"Tapi-potoana ny teny fanalahidinao.\n"
+"Tsy misy afa-tsy ny mpitantana rafitra sisa no afaka manova azy io"
+
+#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#, c-format
+msgid "no user account available"
+msgstr "tsy misy mpampiasa malalaka"
+
+#: ../daemon/gdm-session-worker.c:1579
+msgid "Unable to change to user"
+msgstr "Tsy afaka manova ny mampiasa"
+
+#: ../daemon/gdm-simple-slave.c:866
+#, fuzzy
 msgid ""
-"Could not start the X server (your graphical environment) due to some "
-"internal error. Please contact your system administrator or check your "
-"syslog to diagnose. In the meantime this display will be disabled.  Please "
-"restart GDM when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal "
+"error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM "
+"when the problem is corrected."
 msgstr ""
 "Tsy nahavita nandefa ilay\n"
 "mpizara X (ny tontolo an-tsarinao)\n"
@@ -97,1111 +198,587 @@ msgstr ""
 "aloha ity seho ity. Avereno alefa GDM\n"
 "rehefa voavaha ilay olana."
 
-#: ../daemon/gdm-server.c:246
-#, c-format
-msgid "%s: failed to connect to parent display '%s'"
-msgstr "%s: tsy tafaray tamin'ny seho reny '%s'"
-
-#: ../daemon/gdm-server.c:361
-#, c-format
-#| msgid "%s: Server was to be spawned by uid %d but that user doesn't exist"
-msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr "Ny mpampiasa %s no tokony nandefa ny mpizara, nefa tsy misy io mpampiasa io"
-
-#: ../daemon/gdm-server.c:372 ../daemon/gdm-welcome-session.c:554
-#, c-format
-#| msgid "%s: Couldn't set groupid to %d"
-msgid "Couldn't set groupid to %d"
-msgstr "Tsy nahavita namaritra ny groupid ho %d"
-
-#: ../daemon/gdm-server.c:378 ../daemon/gdm-welcome-session.c:560
-#, c-format
-#| msgid "%s: initgroups () failed for %s"
-msgid "initgroups () failed for %s"
-msgstr "initgroups () tsy nety tamin'ny %s"
-
-#: ../daemon/gdm-server.c:384 ../daemon/gdm-welcome-session.c:566
-#, c-format
-#| msgid "%s: Couldn't set userid to %d"
-msgid "Couldn't set userid to %d"
-msgstr "Tsy nahavita namaritra ny userid ho %d"
-
-#: ../daemon/gdm-server.c:392 ../daemon/gdm-welcome-session.c:574
-#| msgid "%s: Couldn't set groupid to 0"
-msgid "Couldn't set groupid to 0"
-msgstr "Tsy nahavita namaritra ny groupid ho 0"
-
-#: ../daemon/gdm-server.c:431
-#, c-format
-msgid "%s: Could not open logfile for display %s!"
-msgstr "%s: Tsy nahasokatra ny raki-tatitra ho an'ny seho '%s'!"
-
-#: ../daemon/gdm-server.c:442 ../daemon/gdm-server.c:448
-#: ../daemon/gdm-server.c:454
-#, c-format
-msgid "%s: Error setting %s to %s"
-msgstr "%s: Nisy olana teo am-pamaritana ny %s ho %s"
-
-#: ../daemon/gdm-server.c:469
-#, c-format
-msgid "%s: Server priority couldn't be set to %d: %s"
-msgstr "%s: Tsy mety voafaritra ho %d ny fialohavan'ny mpizara: %s"
-
-#: ../daemon/gdm-server.c:621
-#, c-format
-msgid "%s: Empty server command for display %s"
-msgstr "%s: Baikom-pizara foana ho an'ny seho %s"
-
-#: ../daemon/gdm-session-auditor.c:90
-msgid "Username"
-msgstr "Anaran'ny mpampiasa"
-
-#: ../daemon/gdm-session-auditor.c:91
-#| msgid "Username"
-msgid "The username"
-msgstr "Ny anaran'ny mpampiasa"
-
-#: ../daemon/gdm-session-auditor.c:95
-#| msgid "Username"
-msgid "Hostname"
-msgstr "Mpampiantrano"
-
-#: ../daemon/gdm-session-auditor.c:96
-msgid "The hostname"
-msgstr "Ny mpampiantrano"
-
-#: ../daemon/gdm-session-auditor.c:101
-#| msgid "Display"
-msgid "Display Device"
-msgstr "Seho"
-
-#: ../daemon/gdm-session-auditor.c:102
-msgid "The display device"
-msgstr "Ny seho"
-
-#: ../daemon/gdm-session-worker.c:1298
-#, c-format
-msgid "error initiating conversation with authentication system - %s"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1299
-msgid "general failure"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1300
-msgid "out of memory"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1301
-msgid "application programmer error"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1302
-#| msgid "Unknown error occurred."
-msgid "unknown error"
-msgstr "olana tsy fantatra"
-
-#: ../daemon/gdm-session-worker.c:1309
-msgid "Username:"
-msgstr "Anaran'ny mpampiasa: "
-
-#: ../daemon/gdm-session-worker.c:1315
-#, c-format
-msgid "error informing authentication system of preferred username prompt - %s"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1329
-#, c-format
-msgid "error informing authentication system of user's hostname - %s"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1344
-#, c-format
-msgid "error informing authentication system of user's console - %s"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1357
-#, c-format
-msgid "error informing authentication system of display string - %s"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1372
-#, c-format
-msgid "error informing authentication system of display xauth credentials - %s"
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1661 ../daemon/gdm-session-worker.c:1680
-#, c-format
-msgid "no user account available"
-msgstr "tsy misy mpampiasa malalaka"
-
-#: ../daemon/gdm-session-worker.c:1707
-msgid "Unable to change to user"
-msgstr "Tsy afaka manova ny mampiasa"
-
-#: ../daemon/gdm-welcome-session.c:532
-#, c-format
-#| msgid "Xnest doesn't exist."
-msgid "User %s doesn't exist"
-msgstr "Tsy misy mpampiasa %s"
-
-#: ../daemon/gdm-welcome-session.c:539
-#, c-format
-#| msgid "Xnest doesn't exist."
-msgid "Group %s doesn't exist"
-msgstr "Tsy misy vondrona %s"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:596
-#| msgid "%s: Could not create socket!"
+#: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
 msgstr "Tsy nahaforona socket!"
 
-#: ../daemon/gdm-xdmcp-display-factory.c:865
+#: ../daemon/main.c:125 ../daemon/main.c:138
+#, fuzzy, c-format
+msgid "Cannot write PID file %s: possibly out of disk space: %s"
+msgstr ""
+"Tsy mahavita manoratra ny rakitra PID %s: mety tsy misy toerana malalaka "
+"intsony ny kapila : %s"
+
+#: ../daemon/main.c:188
 #, c-format
-msgid "Denied XDMCP query from host %s"
-msgstr "Fangatahana XDMCP avy amin'ny mpampiantrano %s nolavina"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1023
-#: ../daemon/gdm-xdmcp-display-factory.c:1247
-#, fuzzy
-#| msgid "%s: Could not extract authlist from packet"
-msgid "Could not extract authlist from packet"
-msgstr "%s: Tsy nahaala ny authlist tanatin'ilay fehin-javatra"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1036
-#: ../daemon/gdm-xdmcp-display-factory.c:1262
-#| msgid "%s: Error in checksum"
-msgid "Error in checksum"
-msgstr "Tsy fetezana amin'ny isa fanamarinana"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1515
-#| msgid "%s: Bad address"
-msgid "Bad address"
-msgstr "Adiresy diso"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1599
-#, c-format
-msgid "%s: Could not read display address"
-msgstr "%s: Tsy nahavaky ny adiresin'ilay seho"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1607
-#, c-format
-msgid "%s: Could not read display port number"
-msgstr "%s: Tsy nahavaky ny laharan'ny irik'ilay seho"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1616
-#, c-format
-msgid "%s: Could not extract authlist from packet"
-msgstr "%s: Tsy nahaala ny authlist tanatin'ilay fehin-javatra"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:1636
-#, c-format
-msgid "%s: Error in checksum"
-msgstr "%s: Tsy fetezana amin'ny isa fanamarinana"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2155
-#, c-format
-msgid "%s: Got REQUEST from banned host %s"
-msgstr "%s: Nahazo REQUEST avy amin'ny mpampiantrano tsy ekena %s"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2165
-#: ../daemon/gdm-xdmcp-display-factory.c:2521
-#: ../daemon/gdm-xdmcp-display-factory.c:2775
-#, c-format
-msgid "%s: Could not read Display Number"
-msgstr "%s: Tsy nahavaky ny laharan'ilay seho"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2172
-#, c-format
-msgid "%s: Could not read Connection Type"
-msgstr "%s: Tsy nahavaky ny karazan'ny fifandraisana"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2179
-#, c-format
-msgid "%s: Could not read Client Address"
-msgstr "%s: Tsy nahavaky ny adiresin'ny mpivatsy"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2187
-#, c-format
-msgid "%s: Could not read Authentication Names"
-msgstr "%s: Tsy nahavaky ireo anaran'ny fanamarinana"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2196
-#, c-format
-msgid "%s: Could not read Authentication Data"
-msgstr "%s: Tsy nahavaky ny datan'ny fanamarinana"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2206
-#, c-format
-msgid "%s: Could not read Authorization List"
-msgstr "%s: Tsy nahavaky ny lisitry ny fanamarinana"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2225
-#, c-format
-msgid "%s: Could not read Manufacturer ID"
-msgstr "%s: Tsy nahavaky ny ID'ny mpanamboatra"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2252
-#, c-format
-msgid "%s: Failed checksum from %s"
-msgstr "%s: Tsy nety isa fanamarinana ho an'ny %s"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2505
-#, c-format
-msgid "%s: Got Manage from banned host %s"
-msgstr "%s: Nahazo Manage avy amin'ny mpampiantrano tsy ekena %s"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2514
-#: ../daemon/gdm-xdmcp-display-factory.c:2782
-#, c-format
-msgid "%s: Could not read Session ID"
-msgstr "%s: Tsy nahavaky ny ID'ny session"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2528
-#, c-format
-msgid "%s: Could not read Display Class"
-msgstr "%s: Tsy nahavaky ny sokajin'ny seho"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2634
-#: ../daemon/gdm-xdmcp-display-factory.c:2684
-#: ../daemon/gdm-xdmcp-display-factory.c:2690
-#, c-format
-msgid "%s: Could not read address"
-msgstr "%s: Tsy nahavaky ilay adiresy"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2765
-#, c-format
-msgid "%s: Got KEEPALIVE from banned host %s"
-msgstr "%s: Nahazo KEEPALIVE avy amin'ny mpampiantrano tsy ekena %s"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2854
-#| msgid "%s: Could not read XDMCP header!"
-msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-msgstr "GdmXdmcpDisplayFactory : Tsy nahavaky ny lohasoratry ny XDMCP!"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2860
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:226
-#| msgid "%s: Incorrect XDMCP version!"
-msgid "XMDCP: Incorrect XDMCP version!"
-msgstr "XMDCP : Kinovan'ny XDMCP diso!"
-
-#: ../daemon/gdm-xdmcp-display-factory.c:2866
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:232
-msgid "XMDCP: Unable to parse address"
+msgid "Failed to create ran once marker dir %s: %s"
 msgstr ""
 
-#: ../daemon/gdm-xdmcp-display-factory.c:3311
-#, c-format
-#| msgid "%s: Could not get server hostname: %s!"
-msgid "Could not get server hostname: %s!"
-msgstr "Tsy nahazo ny anaran'ny mpampiantrano ny mpizara: %s!"
+#: ../daemon/main.c:194
+#, fuzzy, c-format
+msgid "Failed to create LogDir %s: %s"
+msgstr "Tsy nahomby ny fandefasany ny tenany"
 
-#: ../daemon/main.c:237 ../daemon/main.c:250
+#: ../daemon/main.c:229
 #, c-format
-#| msgid "Cannot write PID file %s: possibly out of diskspace.  Error: %s"
-msgid "Cannot write PID file %s: possibly out of diskspace: %s"
-msgstr "Tsy mahavita manoratra ny rakitra PID %s: mety tsy misy toerana malalaka intsony ny kapila : %s"
-
-#: ../daemon/main.c:271
-#, c-format
-#| msgid ""
-#| "%s: Logdir %s does not exist or isn't a directory.  Using ServAuthDir %s."
-msgid "Logdir %s does not exist or isn't a directory."
-msgstr "Tsy misy na koa tsy laha-tahiry ny Logdir %s."
-
-#: ../daemon/main.c:287
-#, c-format
-#| msgid "%s: Authdir %s does not exist. Aborting."
-msgid "Authdir %s does not exist. Aborting."
-msgstr "Tsy misy ny Authdir %s. Hijanona."
-
-#: ../daemon/main.c:291
-#, c-format
-#| msgid "%s: Authdir %s is not a directory. Aborting."
-msgid "Authdir %s is not a directory. Aborting."
-msgstr "Tsy laha-tahiry ny Authdir %s. Hijanona."
-
-#: ../daemon/main.c:365
-#, c-format
-#| msgid "%s: Authdir %s is not owned by user %s, group %s. Aborting."
-msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-msgstr "Tsy tompon'ny Authdir %s ny mpampiasa %d, vondrona %d. Hijanona."
-
-#: ../daemon/main.c:372
-#, c-format
-#| msgid "%s: Authdir %s has wrong permissions %o. Should be %o. Aborting."
-msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-msgstr "Authdir %s dia diso ny fahazoan-dàlana %o . Tokony ho %o. Hijanona."
-
-#: ../daemon/main.c:409
-#, c-format
-#| msgid "%s: Can't find the GDM user '%s'. Aborting!"
 msgid "Can't find the GDM user '%s'. Aborting!"
 msgstr "Tsy mety mahita ny mpampiasa GDM '%s'. Hijanona!"
 
-#: ../daemon/main.c:415
-#| msgid "%s: The GDM user should not be root. Aborting!"
+#: ../daemon/main.c:235
 msgid "The GDM user should not be root. Aborting!"
 msgstr "Tsy tokony ho root ny mpampiasa GDM. Hijanona!"
 
-#: ../daemon/main.c:421
+#: ../daemon/main.c:241
 #, c-format
-#| msgid "%s: Can't find the GDM group '%s'. Aborting!"
 msgid "Can't find the GDM group '%s'. Aborting!"
 msgstr "Tsy mety hita ny vondrona GDM '%s'. Hijanona!"
 
-#: ../daemon/main.c:427
-#| msgid "%s: The GDM group should not be root. Aborting!"
+#: ../daemon/main.c:247
 msgid "The GDM group should not be root. Aborting!"
 msgstr "Tsy tokony ho root ilay vondrona GDM. Hijanona!"
 
-#: ../daemon/main.c:533
+#: ../daemon/main.c:324
 msgid "Make all warnings fatal"
 msgstr ""
 
-#: ../daemon/main.c:534
-msgid "Exit after a time - for debugging"
+#: ../daemon/main.c:325
+msgid "Exit after a time (for debugging)"
 msgstr ""
 
-#: ../daemon/main.c:535
+#: ../daemon/main.c:326
 msgid "Print GDM version"
 msgstr "Manonta ny kinovan'ny GDM"
 
-#: ../daemon/main.c:550
-#| msgid "GNOME Desktop Manager"
+#: ../daemon/main.c:339
 msgid "GNOME Display Manager"
 msgstr "Mpandrindra sehon'ny GNOME"
 
 #. make sure the pid file doesn't get wiped
-#: ../daemon/main.c:611
-#| msgid "Only root wants to run GDM\n"
+#: ../daemon/main.c:387
 msgid "Only the root user can run GDM"
 msgstr "Ny root ihany to te handefa ny GDM"
 
-#: ../daemon/session-worker-main.c:156
-#| msgid "GDM (The GNOME Display Manager) is not running."
+#. Translators: worker is a helper process that does the work
+#. of starting up a session
+#: ../daemon/session-worker-main.c:95
 msgid "GNOME Display Manager Session Worker"
 msgstr "GNOME Display Manager Session Worker"
 
-#: ../data/greeter-autostart/at-spi-registryd-wrapper.desktop.in.in.h:1
-msgid "AT SPI Registry Wrapper"
-msgstr ""
-
-#: ../data/greeter-autostart/gdm-simple-greeter.desktop.in.in.h:1
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:1434
-msgid "Login Window"
-msgstr "Fikandran'ny fidirana"
-
-#: ../data/greeter-autostart/gnome-power-manager.desktop.in.in.h:1
-msgid "Power Manager"
-msgstr ""
-
-#: ../data/greeter-autostart/gnome-power-manager.desktop.in.in.h:2
-msgid "Power management daemon"
-msgstr ""
-
-#: ../data/greeter-autostart/gnome-settings-daemon.desktop.in.in.h:1
-msgid "GNOME Settings Daemon"
-msgstr ""
-
-#: ../data/greeter-autostart/gnome-mag.desktop.in.h:1
-#| msgid "GNOME Desktop Manager"
-msgid "GNOME Screen Magnifier"
-msgstr "GNOME Screen Magnifier"
-
-#: ../data/greeter-autostart/gnome-mag.desktop.in.h:2
-msgid "Magnify parts of the screen"
-msgstr ""
-
-#: ../data/greeter-autostart/gok.desktop.in.h:1
-msgid "GNOME Onscreen Keyboard"
-msgstr ""
-
-#: ../data/greeter-autostart/gok.desktop.in.h:2
-msgid "Use an onscreen keyboard"
-msgstr ""
-
-#: ../data/greeter-autostart/metacity.desktop.in.h:1
-#| msgid "Security"
-msgid "Metacity"
-msgstr "Metacity"
-
-#: ../data/greeter-autostart/orca-screen-reader.desktop.in.h:1
-msgid "Orca Screen Reader"
-msgstr ""
-
-#: ../data/greeter-autostart/orca-screen-reader.desktop.in.h:2
-msgid "Present on-screen information as speech or braille"
-msgstr ""
-
-#: ../data/greeter-autostart/polkit-gnome-authentication-agent-1.desktop.in.in.h:1
-#| msgid "Authentication failed"
-msgid "PolicyKit Authentication Agent"
-msgstr "Agent d'authentification de PolicyKit"
-
-#: ../gui/simple-chooser/gdm-host-chooser-dialog.c:148
-#| msgid "Select User Image"
-msgid "Select System"
-msgstr "Misafidy rafitra"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:213
-#| msgid "%s: Could not create XDMCP buffer!"
-msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr "XDMCP: Tsy nahaforona buffer ho an'ny XDMCP!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:220
-#| msgid "%s: Could not read XDMCP header!"
-msgid "XDMCP: Could not read XDMCP header!"
-msgstr "XDMCP: Tsy nahavaky ny lohasoratry ny XDMCP!"
-
-#: ../gui/simple-greeter/gdm-cell-renderer-timer.c:244
-msgid "Value"
-msgstr "Sanda"
-
-#: ../gui/simple-greeter/gdm-cell-renderer-timer.c:245
-msgid "percentage of time complete"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-chooser-widget.c:1281
-msgid "Inactive Text"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-chooser-widget.c:1282
-msgid "The text to use in the label if the user hasn't picked an item yet"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-chooser-widget.c:1290
-msgid "Active Text"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-chooser-widget.c:1291
-msgid "The text to use in the label if the user has picked an item"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-chooser-widget.c:1300
-msgid "List Visible"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-chooser-widget.c:1301
-msgid "Whether the chooser list is visible"
-msgstr ""
-
-#. translators: This is the time format to use when both
-#. * the date and time with seconds are being shown together.
-#.
-#: ../gui/simple-greeter/gdm-clock-widget.c:70
-#| msgid "%a %b %d, %l:%M %p"
-msgid "%a %b %e, %l:%M:%S %p"
-msgstr "%a %b %e, %l:%M %S %p"
-
-#. translators: This is the time format to use when both
-#. * the date and time without seconds are being shown together.
-#.
-#: ../gui/simple-greeter/gdm-clock-widget.c:76
-#| msgid "%a %b %d, %l:%M %p"
-msgid "%a %b %e, %l:%M %p"
-msgstr "%a %b %e, %l:%M %p"
-
-#. translators: This is the time format to use when there is
-#. * no date, just weekday and time with seconds.
-#.
-#: ../gui/simple-greeter/gdm-clock-widget.c:83
-#| msgid "%a %b %d, %l:%M %p"
-msgid "%a %l:%M:%S %p"
-msgstr "%a %l:%M:%S %p"
-
-#. translators: This is the time format to use when there is
-#. * no date, just weekday and time without seconds.
-#.
-#: ../gui/simple-greeter/gdm-clock-widget.c:92
-#| msgid "%a %b %d, %l:%M %p"
-msgid "%a %l:%M %p"
-msgstr "%a %l:%M %p"
-
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:278
-#| msgid "Automatic login"
-msgid "Automatically logging in..."
-msgstr "Fidirana hoazy ..."
-
-#. need to wait for response from backend
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:570
+#: ../data/applications/gnome-shell.desktop.in.h:1
 #, fuzzy
-#| msgid "Master halting..."
-msgid "Cancelling..."
-msgstr "Fanajanona ny rafitra manontolo..."
+msgid "GNOME Shell"
+msgstr "GNOME"
 
-#: ../gui/simple-greeter/gdm-greeter-login-window.c:870
-msgid "Select language and click Log In"
+#: ../data/applications/gnome-shell.desktop.in.h:2
+msgid "Window management and compositing"
 msgstr ""
 
-#: ../gui/simple-greeter/gdm-greeter-login-window.ui.h:1
-msgid "Computer Name"
-msgstr "Anaran'ny Solosaina"
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:1
+msgid "Whether or not to allow fingerprint readers for login"
+msgstr ""
 
-#: ../gui/simple-greeter/gdm-greeter-login-window.ui.h:2
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:2
+msgid ""
+"The login screen can optionally allow users who have enrolled their "
+"fingerprints to log in using those prints."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:3
+msgid "Whether or not to allow smartcard readers for login"
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:4
+msgid ""
+"The login screen can optionally allow users who have smartcards to log in "
+"using those smartcards."
+msgstr ""
+
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 #, fuzzy
-#| msgid "Just _Log In"
-msgid "Log In"
-msgstr "Avy dia _hiditra"
+msgid "Whether or not to allow passwords for login"
+msgstr "Tsy mahazo alalana hiditra ny mpampiasa %s"
 
-#: ../gui/simple-greeter/gdm-greeter-login-window.ui.h:3
-msgid "Version"
-msgstr "Kinova"
-
-#: ../gui/simple-greeter/gdm-greeter-panel.c:852
-#| msgid "_Cancel"
-msgid "Panel"
-msgstr "Tontonana"
-
-#: ../gui/simple-greeter/gdm-greeter-panel.c:923
-msgid "Shutdown Options..."
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:6
+msgid ""
+"The login screen can be configured to disallow password authentication, "
+"forcing the user to use smartcard or fingerprint authentication."
 msgstr ""
 
-#: ../gui/simple-greeter/gdm-greeter-panel.c:945
-#, fuzzy
-#| msgid "_Suspend"
-msgid "Suspend"
-msgstr "_Aatoy"
-
-#: ../gui/simple-greeter/gdm-greeter-panel.c:950
-msgid "Restart"
-msgstr "Avereno alefa"
-
-#: ../gui/simple-greeter/gdm-greeter-panel.c:954
-#, fuzzy
-#| msgid "Shut _Down"
-msgid "Shut Down"
-msgstr "_Vonoy"
-
-#: ../gui/simple-greeter/gdm-language-chooser-dialog.c:201
-#| msgid "_Language"
-msgid "Languages"
-msgstr "Teny"
-
-#: ../gui/simple-greeter/gdm-language-chooser-widget.c:274
-#| msgid "_Language"
-msgid "_Languages:"
-msgstr "_Teny:"
-
-#: ../gui/simple-greeter/gdm-language-chooser-widget.c:275
-#: ../gui/simple-greeter/gdm-language-option-widget.c:274
-#| msgid "_Language"
-msgid "_Language:"
-msgstr "_Teny:"
-
-#. translators: This brings up a dialog
-#. * with a list of languages to choose from
-#.
-#: ../gui/simple-greeter/gdm-language-option-widget.c:243
-#| msgid "_Other"
-msgctxt "language"
-msgid "Other..."
-msgstr "Hafa..."
-
-#: ../gui/simple-greeter/gdm-language-option-widget.c:244
-msgid "Choose a language from the full list of available languages."
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:7
+msgid "Path to small image at top of user list"
 msgstr ""
 
-#: ../gui/simple-greeter/gdm-languages.c:698
-msgid "Unspecified"
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:8
+msgid ""
+"The login screen can optionally show a small image at the top of its user "
+"list to provide site administrators and distributions a way to provide "
+"branding."
 msgstr ""
 
-#: ../gui/simple-greeter/gdm-layout-chooser-dialog.c:191
-msgid "Keyboard layouts"
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:9
+msgid ""
+"The fallback login screen can optionally show a small image at the top of "
+"its user list to provide site administrators and distributions a way to "
+"provide branding."
 msgstr ""
 
-#: ../gui/simple-greeter/gdm-layout-chooser-widget.c:200
-#: ../gui/simple-greeter/gdm-layout-chooser-widget.c:201
-#: ../gui/simple-greeter/gdm-layout-option-widget.c:266
-msgid "_Keyboard:"
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:10
+msgid "Avoid showing user list"
 msgstr ""
 
-#. translators: This brings up a dialog of
-#. * available keyboard layouts
-#.
-#: ../gui/simple-greeter/gdm-layout-option-widget.c:235
-#| msgid "_Other"
-msgctxt "keyboard"
-msgid "Other..."
-msgstr "Hafa..."
-
-#: ../gui/simple-greeter/gdm-layout-option-widget.c:236
-msgid "Choose a keyboard layout from the full list of available layouts."
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:11
+msgid ""
+"The login screen normally shows a list of available users to log in as. This "
+"setting can be toggled to disable showing the user list."
 msgstr ""
 
-#: ../gui/simple-greeter/gdm-option-widget.c:507
-msgid "Label Text"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-option-widget.c:508
-msgid "The text to use as a label"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-option-widget.c:515
-#| msgid "Icon"
-msgid "Icon name"
-msgstr "Anaran'ny kisary"
-
-#: ../gui/simple-greeter/gdm-option-widget.c:516
-msgid "The icon to use with the label"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-option-widget.c:524
-#, fuzzy
-msgid "Default Item"
-msgstr "_Tsotra: \"Tongasoa\""
-
-#: ../gui/simple-greeter/gdm-option-widget.c:525
-#, fuzzy
-#| msgid "This is the default system session"
-msgid "The ID of the default item"
-msgstr "Io ny session'ny rafitra tsotra"
-
-#: ../gui/simple-greeter/gdm-recent-option-widget.c:310
-msgid "Max Item Count"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-recent-option-widget.c:311
-msgid "The maximum number of items to keep around in the list"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-remote-login-window.c:188
-#, fuzzy, c-format
-#| msgid "Remote Login via _XDMCP..."
-msgid "Remote Login (Connecting to %s...)"
-msgstr "Fidirana lavi-toerana amin'ny alalan'ny _XDMCP..."
-
-#: ../gui/simple-greeter/gdm-remote-login-window.c:202
-#, c-format
-msgid "Remote Login (Connected to %s)"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-remote-login-window.c:281
-#, fuzzy
-#| msgid "Remote Login via _XDMCP"
-msgid "Remote Login"
-msgstr "Fidirana lavi-toerana amin'ny alalan'ny _XDMCP"
-
-#: ../gui/simple-greeter/gdm-session-option-widget.c:162
-#| msgid "_Session"
-msgid "_Sessions:"
-msgstr "_Sessions:"
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:1
-msgid "Banner message text"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:2
-msgid "Banner message text when chooser is empty"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:3
-msgid "Disable showing the restart buttons"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:4
-msgid "Do not show known users in the login window"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:5
-#, fuzzy
-#| msgid "_Enable accessible login"
-msgid "Enable accessibility keyboard plugin"
-msgstr "_Alefaso ny fahafahana mampiasa ny login"
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:6
-msgid "Enable on-screen keyboard"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:7
-msgid "Enable screen magnifier"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:8
-#, fuzzy
-#| msgid "_Login screen ready:"
-msgid "Enable screen reader"
-msgstr "_Vonona ny efijerin'ny fidirana:"
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:9
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
 msgstr ""
 
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:10
-msgid "Icon name to use for greeter logo"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:11
-msgid "Recently selected keyboard layouts"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:12
-msgid "Recently selected languages"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:13
-msgid ""
-"Set to a list of keyboard layouts to be shown by default at the login window."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:14
-msgid "Set to a list of languages to be shown by default at the login window."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:15
-msgid "Set to the themed icon name to use for the greeter logo."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:16
-msgid "Set to true to disable showing known users in the login window."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:18
-msgid "Set to true to enable the background settings manager plugin."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:19
-msgid "Set to true to enable the media-keys settings manager plugin."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:20
-msgid "Set to true to enable the on-screen keyboard."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:21
-msgid ""
-"Set to true to enable the plugin to manage the accessibility keyboard "
-"settings."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:22
-msgid "Set to true to enable the screen magnifier."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:23
-msgid "Set to true to enable the screen reader."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:24
-msgid "Set to true to enable the sound settings manager plugin."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:25
-msgid "Set to true to enable the xrandr settings manager plugin."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:26
-msgid "Set to true to enable the xsettings settings manager plugin."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:27
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:13
 msgid "Set to true to show the banner message text."
 msgstr ""
 
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:28
-msgid "Set to true to use compiz as the window manager."
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:14
+msgid "Banner message text"
 msgstr ""
 
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:29
-msgid ""
-"Text banner message to show on the login window when the user chooser is "
-"empty, instead of banner_message_text."
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:15
+msgid "Text banner message to show in the login window."
 msgstr ""
 
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:30
-msgid "Text banner message to show on the login window."
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:16
+msgid "Disable showing the restart buttons"
 msgstr ""
 
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:31
-msgid "True if the background settings manager plugin is enabled."
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:17
+msgid "Set to true to disable showing the restart buttons in the login window."
 msgstr ""
 
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:32
-msgid "True if the media-keys settings manager plugin is enabled."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:33
-msgid "True if the sound settings manager plugin is enabled."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:34
-msgid "True if the xrandr settings manager plugin is enabled."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:35
-msgid "True if the xsettings settings manager plugin is enabled."
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-simple-greeter.schemas.in.h:36
-msgid "Use compiz as the window manager"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-timer.c:149
-msgid "Duration"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-timer.c:150
-msgid "Number of seconds until timer stops"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-timer.c:157
-msgid "Start time"
-msgstr "Fotoana niatomboana"
-
-#: ../gui/simple-greeter/gdm-timer.c:158
-msgid "Time the timer was started"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-timer.c:165
-#| msgid "GDM is not running"
-msgid "Is it Running?"
-msgstr "Mandeha ve?"
-
-#: ../gui/simple-greeter/gdm-timer.c:166
-msgid "Whether the timer is currently ticking"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-user.c:245
-#| msgid "_Language"
-msgid "Manager"
-msgstr "Mpandrindra"
-
-#: ../gui/simple-greeter/gdm-user.c:246
-msgid "The user manager object this user is controlled by."
-msgstr ""
-
-#. translators: This option prompts
-#. * the user to type in a username
-#. * manually instead of choosing from
-#. * a list.
-#.
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:166
-#| msgid "_Other"
-msgctxt "user"
-msgid "Other..."
-msgstr "Hafa..."
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:167
-#| msgid "Choose an Action"
-msgid "Choose a different account"
-msgstr "Misafidiana mpampiasa hafa"
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:179
-msgid "Guest"
-msgstr "Vahiny"
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:180
-msgid "Login as a temporary guest"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:193
-#| msgid "Automatic login"
-msgid "Automatic Login"
-msgstr "Fidirana hoazy"
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:194
-msgid "Automatically login to the system after selecting options"
-msgstr ""
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:385
-#, c-format
-#| msgid "Log in anyway"
-msgid "Log in as %s"
-msgstr "Miditra toy %s"
-
-#: ../gui/simple-greeter/gdm-user-chooser-widget.c:738
-#| msgid "Already logged in"
-msgid "Currently logged in"
-msgstr "Efa tafiditra"
-
-#: ../gui/user-switch-applet/applet.c:164
-msgid ""
-"The User Switch Applet is free software; you can redistribute it and/or "
-"modify it under the terms of the GNU General Public License as published by "
-"the Free Software Foundation; either version 2 of the License, or (at your "
-"option) any later version."
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:168
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-"more details."
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:172
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA "
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:186
-msgid "A menu to quickly switch between users."
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:190
-msgid "translator-credits"
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:649
-#: ../gui/user-switch-applet/applet.c:788
-#: ../gui/user-switch-applet/applet.c:827
-#, fuzzy, c-format
-#| msgid "Can't write to %s: %s"
-msgid "Can't lock screen: %s"
-msgstr "Tsy mahasoratra mankany amin'ny %s: %s"
-
-#: ../gui/user-switch-applet/applet.c:671
-#, c-format
-msgid "Can't temporarily set screensaver to blank screen: %s"
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:886
-#, c-format
-#| msgid ""
-#| "Last login:\n"
-#| "%s"
-msgid "Can't logout: %s"
-msgstr "Tsy afaka mivoaka: %s"
-
-#: ../gui/user-switch-applet/applet.c:970
-msgid "Available"
-msgstr "Malalaka"
-
-#: ../gui/user-switch-applet/applet.c:971
-msgid "Invisible"
-msgstr "Miafina"
-
-#: ../gui/user-switch-applet/applet.c:972
-msgid "Busy"
-msgstr "Tsy malalaka"
-
-#: ../gui/user-switch-applet/applet.c:973
-msgid "Away"
-msgstr "Lavitra"
-
-#: ../gui/user-switch-applet/applet.c:1133
-msgid "Account Information"
-msgstr ""
-
-#: ../gui/user-switch-applet/applet.c:1145
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 #, fuzzy
-#| msgid "Login Photo Preferences"
-msgid "System Preferences"
-msgstr "Safidy manokan'ny sarin'ny fidirana"
+msgid "Number of allowed authentication failures"
+msgstr "Tsy nety ny fanamarinana!\n"
 
-#: ../gui/user-switch-applet/applet.c:1161
-msgid "Lock Screen"
-msgstr "Hidio ny Seho"
-
-#. Only show if not locked down
-#: ../gui/user-switch-applet/applet.c:1172
-msgid "Switch User"
-msgstr "Miova Mpampiasa"
-
-#. Only show switch user if there are other users
-#: ../gui/user-switch-applet/applet.c:1183
-#| msgid "_Quit"
-msgid "Quit..."
-msgstr "Miala..."
-
-#: ../gui/user-switch-applet/applet.c:1304
-msgid "Unknown"
-msgstr "Tsy fantatra"
-
-#: ../gui/user-switch-applet/applet.c:1422
-msgid "User Switch Applet"
+#: ../data/org.gnome.login-screen.gschema.xml.in.h:19
+msgid ""
+"The number of times a user is allowed to attempt authentication, before "
+"giving up and going back to user selection."
 msgstr ""
 
-#: ../gui/user-switch-applet/applet.c:1436
-msgid "Change account settings and status"
-msgstr ""
+#: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
+msgid "Select System"
+msgstr "Misafidy rafitra"
 
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.server.in.in.h:1
-msgid "A menu to quickly switch between users"
-msgstr ""
+#: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
+msgid "XDMCP: Could not create XDMCP buffer!"
+msgstr "XDMCP: Tsy nahaforona buffer ho an'ny XDMCP!"
 
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.server.in.in.h:2
-msgid "User Switcher"
-msgstr ""
+#: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
+msgid "XDMCP: Could not read XDMCP header!"
+msgstr "XDMCP: Tsy nahavaky ny lohasoratry ny XDMCP!"
 
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.server.in.in.h:3
-msgid "User Switcher Applet Factory"
-msgstr ""
+#: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
+#, fuzzy
+msgid "XDMCP: Incorrect XDMCP version!"
+msgstr "XMDCP : Kinovan'ny XDMCP diso!"
 
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.xml.h:1
-msgid "Edit Personal _Information"
-msgstr ""
+#: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
+#, fuzzy
+msgid "XDMCP: Unable to parse address"
+msgstr "Tsy afaka manokatra session"
 
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.xml.h:2
-msgid "_About"
-msgstr ""
+#: ../libgdm/gdm-user-switching.c:72
+#, fuzzy
+msgid "Unable to create transient display: "
+msgstr "Tsy nahalefa seho iray vaovao"
 
-#: ../gui/user-switch-applet/GNOME_FastUserSwitchApplet.xml.h:3
-msgid "_Edit Users and Groups"
-msgstr ""
+#: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
+#, fuzzy
+msgid "Unable to activate session: "
+msgstr "Tsy afaka manokatra session"
 
-#: ../utils/gdmflexiserver.c:61
+#: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
 msgstr ""
 
-#: ../utils/gdmflexiserver.c:61
+#: ../utils/gdmflexiserver.c:45
 msgid "COMMAND"
 msgstr "BAIKO"
 
-#: ../utils/gdmflexiserver.c:62 ../utils/gdmflexiserver.c:63
-#: ../utils/gdmflexiserver.c:65 ../utils/gdmflexiserver.c:66
-msgid "Ignored - retained for compatibility"
+#: ../utils/gdmflexiserver.c:46 ../utils/gdmflexiserver.c:47
+#: ../utils/gdmflexiserver.c:49 ../utils/gdmflexiserver.c:50
+msgid "Ignored — retained for compatibility"
 msgstr ""
 
-#: ../utils/gdmflexiserver.c:64 ../utils/gdm-screenshot.c:43
+#: ../utils/gdmflexiserver.c:48 ../utils/gdm-screenshot.c:43
 msgid "Debugging output"
 msgstr "Famoahan'ny debugging"
 
-#: ../utils/gdmflexiserver.c:68
-#| msgid "How to use this application"
+#: ../utils/gdmflexiserver.c:52
 msgid "Version of this application"
 msgstr "Kinovan'ity rindran'asa ity"
 
-#: ../utils/gdmflexiserver.c:675
-#, c-format
-msgid "Could not identify the current session."
-msgstr ""
-
 #. Option parsing
-#: ../utils/gdmflexiserver.c:711
-#| msgid "New Login"
+#: ../utils/gdmflexiserver.c:137
 msgid "- New GDM login"
 msgstr "- Fidirana GDM vaovao"
 
-#: ../utils/gdmflexiserver.c:767
-#| msgid "Cannot start new display"
-msgid "Unable to start new display"
-msgstr "Tsy nahalefa seho iray vaovao"
-
-#: ../utils/gdm-screenshot.c:216
+#: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
 msgstr ""
 
 #. Option parsing
-#: ../utils/gdm-screenshot.c:281
+#: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Maka sary an'io seho io"
+
+#~| msgid "Display"
+#~ msgid "Display ID"
+#~ msgstr "Seho ID"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~| msgid "GNOME Desktop Manager"
+#~ msgid "GNOME Display Manager Slave"
+#~ msgstr "Mpandrindra mpanompon'ny sehatrasan'ny GNOME"
+
+#~| msgid "Couldn't authenticate user"
+#~ msgid "Unable to authenticate user"
+#~ msgstr "Tsy afaka manamarina ny mpampiasa"
+
+#~| msgid "Unable to establish service %s: %s\n"
+#~ msgid "Unable to establish credentials"
+#~ msgstr "Tsy afaka mampitahy ny mpanamarina"
+
+#~ msgid "%s: failed to connect to parent display '%s'"
+#~ msgstr "%s: tsy tafaray tamin'ny seho reny '%s'"
+
+#~| msgid "%s: Couldn't set groupid to 0"
+#~ msgid "Couldn't set groupid to 0"
+#~ msgstr "Tsy nahavita namaritra ny groupid ho 0"
+
+#~| msgid "Unknown error occurred."
+#~ msgid "unknown error"
+#~ msgstr "olana tsy fantatra"
+
+#~| msgid "Xnest doesn't exist."
+#~ msgid "User %s doesn't exist"
+#~ msgstr "Tsy misy mpampiasa %s"
+
+#~| msgid "Xnest doesn't exist."
+#~ msgid "Group %s doesn't exist"
+#~ msgstr "Tsy misy vondrona %s"
+
+#~ msgid "Denied XDMCP query from host %s"
+#~ msgstr "Fangatahana XDMCP avy amin'ny mpampiantrano %s nolavina"
+
+#, fuzzy
+#~| msgid "%s: Could not extract authlist from packet"
+#~ msgid "Could not extract authlist from packet"
+#~ msgstr "%s: Tsy nahaala ny authlist tanatin'ilay fehin-javatra"
+
+#~| msgid "%s: Error in checksum"
+#~ msgid "Error in checksum"
+#~ msgstr "Tsy fetezana amin'ny isa fanamarinana"
+
+#~| msgid "%s: Bad address"
+#~ msgid "Bad address"
+#~ msgstr "Adiresy diso"
+
+#~ msgid "%s: Could not read display address"
+#~ msgstr "%s: Tsy nahavaky ny adiresin'ilay seho"
+
+#~ msgid "%s: Could not read display port number"
+#~ msgstr "%s: Tsy nahavaky ny laharan'ny irik'ilay seho"
+
+#~ msgid "%s: Could not extract authlist from packet"
+#~ msgstr "%s: Tsy nahaala ny authlist tanatin'ilay fehin-javatra"
+
+#~ msgid "%s: Error in checksum"
+#~ msgstr "%s: Tsy fetezana amin'ny isa fanamarinana"
+
+#~ msgid "%s: Got REQUEST from banned host %s"
+#~ msgstr "%s: Nahazo REQUEST avy amin'ny mpampiantrano tsy ekena %s"
+
+#~ msgid "%s: Could not read Display Number"
+#~ msgstr "%s: Tsy nahavaky ny laharan'ilay seho"
+
+#~ msgid "%s: Could not read Connection Type"
+#~ msgstr "%s: Tsy nahavaky ny karazan'ny fifandraisana"
+
+#~ msgid "%s: Could not read Client Address"
+#~ msgstr "%s: Tsy nahavaky ny adiresin'ny mpivatsy"
+
+#~ msgid "%s: Could not read Authentication Data"
+#~ msgstr "%s: Tsy nahavaky ny datan'ny fanamarinana"
+
+#~ msgid "%s: Could not read Authorization List"
+#~ msgstr "%s: Tsy nahavaky ny lisitry ny fanamarinana"
+
+#~ msgid "%s: Could not read Manufacturer ID"
+#~ msgstr "%s: Tsy nahavaky ny ID'ny mpanamboatra"
+
+#~ msgid "%s: Failed checksum from %s"
+#~ msgstr "%s: Tsy nety isa fanamarinana ho an'ny %s"
+
+#~ msgid "%s: Got Manage from banned host %s"
+#~ msgstr "%s: Nahazo Manage avy amin'ny mpampiantrano tsy ekena %s"
+
+#~ msgid "%s: Could not read Session ID"
+#~ msgstr "%s: Tsy nahavaky ny ID'ny session"
+
+#~ msgid "%s: Could not read Display Class"
+#~ msgstr "%s: Tsy nahavaky ny sokajin'ny seho"
+
+#~ msgid "%s: Could not read address"
+#~ msgstr "%s: Tsy nahavaky ilay adiresy"
+
+#~ msgid "%s: Got KEEPALIVE from banned host %s"
+#~ msgstr "%s: Nahazo KEEPALIVE avy amin'ny mpampiantrano tsy ekena %s"
+
+#~| msgid "%s: Could not read XDMCP header!"
+#~ msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
+#~ msgstr "GdmXdmcpDisplayFactory : Tsy nahavaky ny lohasoratry ny XDMCP!"
+
+#~| msgid "%s: Could not get server hostname: %s!"
+#~ msgid "Could not get server hostname: %s!"
+#~ msgstr "Tsy nahazo ny anaran'ny mpampiantrano ny mpizara: %s!"
+
+#~| msgid ""
+#~| "%s: Logdir %s does not exist or isn't a directory.  Using ServAuthDir %s."
+#~ msgid "Logdir %s does not exist or isn't a directory."
+#~ msgstr "Tsy misy na koa tsy laha-tahiry ny Logdir %s."
+
+#~| msgid "%s: Authdir %s does not exist. Aborting."
+#~ msgid "Authdir %s does not exist. Aborting."
+#~ msgstr "Tsy misy ny Authdir %s. Hijanona."
+
+#~| msgid "%s: Authdir %s is not a directory. Aborting."
+#~ msgid "Authdir %s is not a directory. Aborting."
+#~ msgstr "Tsy laha-tahiry ny Authdir %s. Hijanona."
+
+#~| msgid "%s: Authdir %s is not owned by user %s, group %s. Aborting."
+#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
+#~ msgstr "Tsy tompon'ny Authdir %s ny mpampiasa %d, vondrona %d. Hijanona."
+
+#~| msgid "%s: Authdir %s has wrong permissions %o. Should be %o. Aborting."
+#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
+#~ msgstr "Authdir %s dia diso ny fahazoan-dàlana %o . Tokony ho %o. Hijanona."
+
+#~ msgid "Login Window"
+#~ msgstr "Fikandran'ny fidirana"
+
+#~| msgid "GNOME Desktop Manager"
+#~ msgid "GNOME Screen Magnifier"
+#~ msgstr "GNOME Screen Magnifier"
+
+#~| msgid "Security"
+#~ msgid "Metacity"
+#~ msgstr "Metacity"
+
+#~| msgid "Authentication failed"
+#~ msgid "PolicyKit Authentication Agent"
+#~ msgstr "Agent d'authentification de PolicyKit"
+
+#~ msgid "Value"
+#~ msgstr "Sanda"
+
+#~| msgid "%a %b %d, %l:%M %p"
+#~ msgid "%a %b %e, %l:%M:%S %p"
+#~ msgstr "%a %b %e, %l:%M %S %p"
+
+#~| msgid "%a %b %d, %l:%M %p"
+#~ msgid "%a %b %e, %l:%M %p"
+#~ msgstr "%a %b %e, %l:%M %p"
+
+#~| msgid "%a %b %d, %l:%M %p"
+#~ msgid "%a %l:%M:%S %p"
+#~ msgstr "%a %l:%M:%S %p"
+
+#~| msgid "%a %b %d, %l:%M %p"
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %l:%M %p"
+
+#~| msgid "Automatic login"
+#~ msgid "Automatically logging in..."
+#~ msgstr "Fidirana hoazy ..."
+
+#, fuzzy
+#~| msgid "Master halting..."
+#~ msgid "Cancelling..."
+#~ msgstr "Fanajanona ny rafitra manontolo..."
+
+#~ msgid "Computer Name"
+#~ msgstr "Anaran'ny Solosaina"
+
+#, fuzzy
+#~| msgid "Just _Log In"
+#~ msgid "Log In"
+#~ msgstr "Avy dia _hiditra"
+
+#~ msgid "Version"
+#~ msgstr "Kinova"
+
+#~| msgid "_Cancel"
+#~ msgid "Panel"
+#~ msgstr "Tontonana"
+
+#, fuzzy
+#~| msgid "_Suspend"
+#~ msgid "Suspend"
+#~ msgstr "_Aatoy"
+
+#~ msgid "Restart"
+#~ msgstr "Avereno alefa"
+
+#, fuzzy
+#~| msgid "Shut _Down"
+#~ msgid "Shut Down"
+#~ msgstr "_Vonoy"
+
+#~| msgid "_Language"
+#~ msgid "Languages"
+#~ msgstr "Teny"
+
+#~| msgid "_Language"
+#~ msgid "_Languages:"
+#~ msgstr "_Teny:"
+
+#~| msgid "_Language"
+#~ msgid "_Language:"
+#~ msgstr "_Teny:"
+
+#~| msgid "_Other"
+#~ msgctxt "language"
+#~ msgid "Other..."
+#~ msgstr "Hafa..."
+
+#~| msgid "_Other"
+#~ msgctxt "keyboard"
+#~ msgid "Other..."
+#~ msgstr "Hafa..."
+
+#~| msgid "Icon"
+#~ msgid "Icon name"
+#~ msgstr "Anaran'ny kisary"
+
+#, fuzzy
+#~ msgid "Default Item"
+#~ msgstr "_Tsotra: \"Tongasoa\""
+
+#, fuzzy
+#~| msgid "This is the default system session"
+#~ msgid "The ID of the default item"
+#~ msgstr "Io ny session'ny rafitra tsotra"
+
+#, fuzzy
+#~| msgid "Remote Login via _XDMCP..."
+#~ msgid "Remote Login (Connecting to %s...)"
+#~ msgstr "Fidirana lavi-toerana amin'ny alalan'ny _XDMCP..."
+
+#, fuzzy
+#~| msgid "Remote Login via _XDMCP"
+#~ msgid "Remote Login"
+#~ msgstr "Fidirana lavi-toerana amin'ny alalan'ny _XDMCP"
+
+#~| msgid "_Session"
+#~ msgid "_Sessions:"
+#~ msgstr "_Sessions:"
+
+#, fuzzy
+#~| msgid "_Enable accessible login"
+#~ msgid "Enable accessibility keyboard plugin"
+#~ msgstr "_Alefaso ny fahafahana mampiasa ny login"
+
+#, fuzzy
+#~| msgid "_Login screen ready:"
+#~ msgid "Enable screen reader"
+#~ msgstr "_Vonona ny efijerin'ny fidirana:"
+
+#~ msgid "Start time"
+#~ msgstr "Fotoana niatomboana"
+
+#~| msgid "GDM is not running"
+#~ msgid "Is it Running?"
+#~ msgstr "Mandeha ve?"
+
+#~| msgid "_Language"
+#~ msgid "Manager"
+#~ msgstr "Mpandrindra"
+
+#~| msgid "_Other"
+#~ msgctxt "user"
+#~ msgid "Other..."
+#~ msgstr "Hafa..."
+
+#~| msgid "Choose an Action"
+#~ msgid "Choose a different account"
+#~ msgstr "Misafidiana mpampiasa hafa"
+
+#~ msgid "Guest"
+#~ msgstr "Vahiny"
+
+#~| msgid "Automatic login"
+#~ msgid "Automatic Login"
+#~ msgstr "Fidirana hoazy"
+
+#~| msgid "Log in anyway"
+#~ msgid "Log in as %s"
+#~ msgstr "Miditra toy %s"
+
+#~| msgid "Already logged in"
+#~ msgid "Currently logged in"
+#~ msgstr "Efa tafiditra"
+
+#, fuzzy
+#~| msgid "Can't write to %s: %s"
+#~ msgid "Can't lock screen: %s"
+#~ msgstr "Tsy mahasoratra mankany amin'ny %s: %s"
+
+#~| msgid ""
+#~| "Last login:\n"
+#~| "%s"
+#~ msgid "Can't logout: %s"
+#~ msgstr "Tsy afaka mivoaka: %s"
+
+#~ msgid "Available"
+#~ msgstr "Malalaka"
+
+#~ msgid "Invisible"
+#~ msgstr "Miafina"
+
+#~ msgid "Busy"
+#~ msgstr "Tsy malalaka"
+
+#~ msgid "Away"
+#~ msgstr "Lavitra"
+
+#, fuzzy
+#~| msgid "Login Photo Preferences"
+#~ msgid "System Preferences"
+#~ msgstr "Safidy manokan'ny sarin'ny fidirana"
+
+#~ msgid "Lock Screen"
+#~ msgstr "Hidio ny Seho"
+
+#~ msgid "Switch User"
+#~ msgstr "Miova Mpampiasa"
+
+#~| msgid "_Quit"
+#~ msgid "Quit..."
+#~ msgstr "Miala..."
+
+#~ msgid "Unknown"
+#~ msgstr "Tsy fantatra"
 
 #~ msgid "CDE"
 #~ msgstr "CDE"
 
 #~ msgid "This session logs you into CDE"
 #~ msgstr "Mampiditra anao anatin'ny CDE ity session ity"
-
-#~ msgid "GNOME"
-#~ msgstr "GNOME"
 
 #~ msgid "This session logs you into GNOME"
 #~ msgstr "Mampiditra anao anatin'ny GNOME ity session ity"
@@ -1475,9 +1052,6 @@ msgstr "Maka sary an'io seho io"
 #~ msgid "GDM restarting ..."
 #~ msgstr "Averina alefa ny GDM ..."
 
-#~ msgid "Failed to restart self"
-#~ msgstr "Tsy nahomby ny fandefasany ny tenany"
-
 #~ msgid "main daemon: Got SIGABRT. Something went very wrong. Going down!"
 #~ msgstr ""
 #~ "Daemon fototra: tratran'ny SIGABRT. Nisy zavatra tena tsy nanjary tao. "
@@ -1540,8 +1114,8 @@ msgstr "Maka sary an'io seho io"
 #~ "Requested server %s not allowed to be used for flexible servers; using "
 #~ "standard server."
 #~ msgstr ""
-#~ "Tsy azo ampiasaina amin'ny mpizara mora miovaova ny mpizara nangatahana %"
-#~ "s. Ny mpizara tsotra no ampiasaina."
+#~ "Tsy azo ampiasaina amin'ny mpizara mora miovaova ny mpizara nangatahana "
+#~ "%s. Ny mpizara tsotra no ampiasaina."
 
 #~ msgid "%s%d="
 #~ msgstr "%s%d="
@@ -2149,9 +1723,6 @@ msgstr "Maka sary an'io seho io"
 #~ msgid "Please enter your username"
 #~ msgstr "Soraty ny anaran'ny mpampiasa"
 
-#~ msgid "Password:"
-#~ msgstr "Teny fanalahidy:"
-
 #~ msgid "Couldn't authenticate user \"%s\""
 #~ msgstr "Tsy voamarina ny mpampiasa \"%s\""
 
@@ -2160,9 +1731,6 @@ msgstr "Maka sary an'io seho io"
 
 #~ msgid "The system administrator is not allowed to login from this screen"
 #~ msgstr "Tsy afaka miditra avy amin'ity efijery ity ny mpitantana ny rafitra"
-
-#~ msgid "User %s not allowed to log in"
-#~ msgstr "Tsy mahazo alalana hiditra ny mpampiasa %s"
 
 #~ msgid ""
 #~ "\n"
@@ -2208,13 +1776,6 @@ msgstr "Maka sary an'io seho io"
 #~ msgstr ""
 #~ "Voaova ny teny fanalahidinao, saingy mety mila manova azy io indray "
 #~ "ianao. Andramo afaka kelikely na antsoy ny mpitantana ny rafitrao."
-
-#~ msgid ""
-#~ "Your password has expired.\n"
-#~ "Only a system administrator can now change it"
-#~ msgstr ""
-#~ "Tapi-potoana ny teny fanalahidinao.\n"
-#~ "Tsy misy afa-tsy ny mpitantana rafitra sisa no afaka manova azy io"
 
 #~ msgid "Internal error on passwdexpired"
 #~ msgstr "Tsy fetezana anaty mikasika ny passwdexpired"
@@ -2495,9 +2056,9 @@ msgstr "Maka sary an'io seho io"
 #~ "have probably just upgraded GDM.  Please restart the GDM daemon or the "
 #~ "computer."
 #~ msgstr ""
-#~ "Tsy mifanaraka amin'ny kinovan'ny daemon (%s) ny kinovan'ny mpisafidy (%"
-#~ "s). Mety vao navaozinao angamba GDM. Avereno alefa ny daemon'ny GDM na ny "
-#~ "solosaina."
+#~ "Tsy mifanaraka amin'ny kinovan'ny daemon (%s) ny kinovan'ny mpisafidy "
+#~ "(%s). Mety vao navaozinao angamba GDM. Avereno alefa ny daemon'ny GDM na "
+#~ "ny solosaina."
 
 #~ msgid "Cannot run chooser"
 #~ msgstr "Tsy mahalefa ny mpisafidy"
@@ -4139,15 +3700,12 @@ msgstr "Maka sary an'io seho io"
 #~ msgid "gdmaskpass only runs as root\n"
 #~ msgstr "Toy ny faka ihany no mampandeha ny gdmaskpass\n"
 
-#~ msgid "Authentication failure!\n"
-#~ msgstr "Tsy nety ny fanamarinana!\n"
-
 #~ msgid "(memory buffer)"
 #~ msgstr "(buffer'ny arika)"
 
 #~ msgid ""
-#~ "An error occurred while loading user interface element %s%s from file %"
-#~ "s.  Possibly the glade interface description was corrupted.  %s cannot "
+#~ "An error occurred while loading user interface element %s%s from file "
+#~ "%s.  Possibly the glade interface description was corrupted.  %s cannot "
 #~ "continue and will exit now.  You should check your installation of %s or "
 #~ "reinstall %s."
 #~ msgstr ""

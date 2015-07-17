@@ -7,9 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm2 2.6-branch\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gdm&key"
-"words=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-09-23 05:05+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-17 09:50-0700\n"
 "PO-Revision-Date: 2014-09-23 17:45+0200\n"
 "Last-Translator: F Wolff <friedel@translate.org.za>\n"
 "Language-Team: translate-discuss-af@lists.sourceforge.net\n"
@@ -142,36 +141,45 @@ msgstr "Vertoontoestel"
 msgid "The display device"
 msgstr "Die vertoontoestel"
 
-#: ../daemon/gdm-session.c:1217
+#: ../daemon/gdm-session.c:1216
 msgid "Could not create authentication helper process"
 msgstr "Kon nie verifiëring-hulpproses skep nie"
 
-#: ../daemon/gdm-session-worker.c:844
+#: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
 msgstr "U rekening het 'n tydlimiet wat nou verstryk het."
 
-#: ../daemon/gdm-session-worker.c:851
+#: ../daemon/gdm-session-worker.c:853
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Jammer, dit het nie gewerk nie. Probeer gerus weer."
 
-#: ../daemon/gdm-session-worker.c:1107
+#: ../daemon/gdm-session-worker.c:1109
 msgid "Username:"
 msgstr "Gebruikernaam:"
 
+#: ../daemon/gdm-session-worker.c:1240
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
 #: ../daemon/gdm-session-worker.c:1241
+#, fuzzy
+msgid "Password reminder:"
+msgstr "Wagwoord:"
+
+#: ../daemon/gdm-session-worker.c:1293
 msgid "Your password has expired, please change it now."
 msgstr "U wagwoord het verval. Verander dit asb. nou."
 
-#: ../daemon/gdm-session-worker.c:1480 ../daemon/gdm-session-worker.c:1497
+#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
 #, c-format
 msgid "no user account available"
 msgstr "geen gebruikerrekening beskikbaar nie"
 
-#: ../daemon/gdm-session-worker.c:1524
+#: ../daemon/gdm-session-worker.c:1579
 msgid "Unable to change to user"
 msgstr "Kan nie na die gebruiker wissel nie"
 
-#: ../daemon/gdm-simple-slave.c:871
+#: ../daemon/gdm-simple-slave.c:866
 msgid ""
 "Could not start the X server (your graphical environment) due to an internal "
 "error. Please contact your system administrator or check your syslog to "
@@ -246,10 +254,6 @@ msgstr "Slegs root behoort GDM uit te voer"
 #: ../daemon/session-worker-main.c:95
 msgid "GNOME Display Manager Session Worker"
 msgstr "GNOME-vertoonbestuurder werkerproses"
-
-#: ../data/applications/gdm-simple-greeter.desktop.in.in.h:1
-msgid "Login Window"
-msgstr "Aanmeldvenster"
 
 #: ../data/applications/gnome-shell.desktop.in.h:1
 msgid "GNOME Shell"
@@ -430,6 +434,9 @@ msgstr "Skermskoot geneem"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Neem 'n skermskoot"
+
+#~ msgid "Login Window"
+#~ msgstr "Aanmeldvenster"
 
 #~ msgid "No session available yet"
 #~ msgstr "Sessie nog nie beskikbaar nie"
@@ -1939,9 +1946,6 @@ msgstr "Neem 'n skermskoot"
 
 #~ msgid "Please enter your username"
 #~ msgstr "Tik asb. jou gebruikernaam in"
-
-#~ msgid "Password:"
-#~ msgstr "Wagwoord:"
 
 #~ msgid "Couldn't authenticate user \"%s\""
 #~ msgstr "Kon nie gebruiker \"%s\" verifieer nie"
