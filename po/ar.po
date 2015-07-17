@@ -1,28 +1,29 @@
-# translation of gdm.po to Arabic
-# Copyright (C) 2002,2003, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
-# Arafat Medini <lumina@silverpen.de>, 2002, 2004.
-# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
-# Nuriddin Aminagha <nuriddin@haydarlinux.org>, 2002.
-# Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
-# Djihed Afifi <djihed@gmail.com>, 2006, 2007.
-# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013.
-# Usama Akkad <uak@aya.sy>, 2008.
-# M.Hanny Sabbagh <hannysabbagh@hotmail.com>, 2013.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004
+# Arafat Medini <lumina@silverpen.de>, 2002,2004
+# Djihed Afifi <djihed@gmail.com>, 2006-2007
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002
+# Khaled Hosny <khaledhosny@eglug.org>, 2006-2013
+# M.Hanny Sabbagh <hannysabbagh@hotmail.com>, 2013
+# Nuriddin Aminagha <nuriddin@haydarlinux.org>, 2002
+# Usama Akkad <uak@aya.sy>, 2008
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm master\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2013-09-09 21:46+0200\n"
-"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
-"Language-Team: Arabic <doc@arabeyes.org>\n"
-"Language: ar\n"
+"PO-Revision-Date: 2015-07-17 16:57+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Arabic (http://www.transifex.com/p/gdm/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Virtaal 0.7.1-rc1\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -50,9 +51,7 @@ msgstr "تعذّر التعرف على المقعد الحالي."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"تعذر على النظام تحديد ما إذا كان عليه الانتقال إلى شاشة ولوج موجودة أو بدء "
-"واحدة جديدة."
+msgstr "تعذر على النظام تحديد ما إذا كان عليه الانتقال إلى شاشة ولوج موجودة أو بدء واحدة جديدة."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
@@ -161,11 +160,11 @@ msgstr "اسم المستخدم:"
 
 #: ../daemon/gdm-session-worker.c:1240
 msgid "Type a hint or question to help remember your password."
-msgstr ""
+msgstr "أدخل إشارة أو سؤال للمساعدة على تذكر كلمة المرور الخاصة بك."
 
 #: ../daemon/gdm-session-worker.c:1241
 msgid "Password reminder:"
-msgstr ""
+msgstr "تذكرة بكلمة المرور:"
 
 #: ../daemon/gdm-session-worker.c:1293
 msgid "Your password has expired, please change it now."
@@ -182,14 +181,11 @@ msgstr "تعذّر الانتقال للمستخدم"
 
 #: ../daemon/gdm-simple-slave.c:866
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"تعذّر تشغيل الخادوم س (بيئتك الرسومية) بسبب خطأ داخلي. الرجاء الاتصال بمدير "
-"النظام أو مراجعة سجل النظام للتشخيص. سيغلق العرض في هذه الأثناء. الرجاء "
-"إعادة تشغيل م‌ع‌ج عند تصحيح الخطأ."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "تعذّر تشغيل الخادوم س (بيئتك الرسومية) بسبب خطأ داخلي. الرجاء الاتصال بمدير النظام أو مراجعة سجل النظام للتشخيص. سيغلق العرض في هذه الأثناء. الرجاء إعادة تشغيل م‌ع‌ج عند تصحيح الخطأ."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -203,12 +199,12 @@ msgstr "تعذّر كتابة ملف الـ PID‏ %s: ربما لعدم وجو�
 #: ../daemon/main.c:188
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr ""
+msgstr "فشل في إنشاء دليل علامة نُفِذ مرة %s: %s"
 
 #: ../daemon/main.c:194
 #, c-format
 msgid "Failed to create LogDir %s: %s"
-msgstr ""
+msgstr "فشل في إنشاء دليل تسجيل الدخول %s: %s"
 
 #: ../daemon/main.c:229
 #, c-format
@@ -271,9 +267,7 @@ msgstr "السماح أو عدم السماح بالولوج باستخدام ق
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"شاشة الولوج تستطيع اختيارياً السماح للمستخدمين الذين قد ألحقوا بصمات أصابعهم "
-"بالولوج باستخدام تلك البصمات"
+msgstr "شاشة الولوج تستطيع اختيارياً السماح للمستخدمين الذين قد ألحقوا بصمات أصابعهم بالولوج باستخدام تلك البصمات"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -283,9 +277,7 @@ msgstr "السماح أو عدم السماح بالولوج باستخدام ق
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"شاشة الولوج يمكنها اختياريًا تمكين المستخدمين الممتلكين لبطاقات ذكية من "
-"الولوج باستخدام هذه البطاقات الذكية."
+msgstr "شاشة الولوج يمكنها اختياريًا تمكين المستخدمين الممتلكين لبطاقات ذكية من الولوج باستخدام هذه البطاقات الذكية."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -295,7 +287,7 @@ msgstr "السماح أو عدم السماح بالولوج باستخدام ك
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
+msgstr "يمكن تهيئة شاشة تسجيل الدخول لمنع التحقق من كلمة المرور، مما يجبر المستخدم على استعمال التحقق بواسطة بطاقة ذكية أو بصمة الإصبع."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -306,14 +298,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
+msgstr "يمكن لشاشة تسجيل الدخول أن تبين، بشكل اختياري، صورة صغيرة في قمة قائمة مستخدمها لتوفر لمديري الموقع والتوزيع طريقة لتقديم العلامة التجارية."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
+msgstr "يمكن لشاشة تسجيل الدخول الاحتياطية أن تبين، اختياراً، صورة صغيرة في قمة قائمة مستخدمها لتوفر لمديري الموقع والتوزيع طريقة لتقديم العلامة التجارية."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -321,11 +313,9 @@ msgstr "تَجنبّ عرض قائمة المستخدمين"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"شاشة الولوج عادةً تعرض قائمةً للمستخدمين المتوفرين للولوج بهم, هذاالخيار يمكن "
-"تبديله لتعطيل إظهار قائمة المستخدمين."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "شاشة الولوج عادةً تعرض قائمةً للمستخدمين المتوفرين للولوج بهم, هذاالخيار يمكن تبديله لتعطيل إظهار قائمة المستخدمين."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -348,18 +338,19 @@ msgid "Disable showing the restart buttons"
 msgstr "عطّل عرض أزرار إعادة التشغيل"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr "اجعله صحيح لتعطيل عرض أزرار إعادة التشغيل في نافذة الولوج."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
-msgstr ""
+msgstr "عدد مرات فشل الاعتماد المسموح بها"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
+msgstr "عدد المرات التي يسمح بها لمستخدم بمحاولة الاعتماد، قبل الاستسلام والعودة إلى اختيار المستخدم."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -423,682 +414,3 @@ msgstr "أُخِذت لقطة الشاشة"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "خذ صورة للشاشة"
-
-#~ msgid "No session available yet"
-#~ msgstr "لا توجد أي جلسات للآن"
-
-#~ msgid "Unable to look up UID of user %s"
-#~ msgstr "تعذّر إيصاد UID المستخدم %s"
-
-#~ msgid "no sessions available"
-#~ msgstr "لا توجد أي جلسات"
-
-#~ msgid "No sessions for %s available for reauthentication"
-#~ msgstr "لا توجد أي جلسات %s لإعادة الاستيثاق"
-
-#~ msgid "Unable to find session for user %s"
-#~ msgstr "تعذر إيجاد جلسة للمستخدم %s"
-
-#~ msgid "Unable to find appropriate session for user %s"
-#~ msgstr "تعذر إيجاد جلسة مناسبة للمستخدم %s"
-
-#~ msgid "User doesn't own session"
-#~ msgstr "لا يمتلك المستخدم الجلسة"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: فشل الاتصال بالعرض الأب '%s'"
-
-#~ msgid "User not logged in"
-#~ msgstr "المستخدم ليس والِجا"
-
-#~ msgid "Currently, only one client can be connected at once"
-#~ msgstr "لا يمكن حاليا أن يتصّل أكثر من عميل في نفس الوقت"
-
-#~ msgid "Display ID"
-#~ msgstr "رقم معرّف العرض"
-
-#~ msgid "ID"
-#~ msgstr "المعرّف"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "مدير عرض جنوم التابع"
-
-#~ msgid "Login Window"
-#~ msgstr "نافذة الولوج"
-
-#~ msgid "Unable to start new display"
-#~ msgstr "تعذّر بدأ تشغيل العرض الجديد"
-
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr "خطأ أثناء بدء الحوار مع نظام التوثيق - %s"
-
-#~ msgid "general failure"
-#~ msgstr "فشل عام"
-
-#~ msgid "out of memory"
-#~ msgstr "نفذت الذّاكرة"
-
-#~ msgid "application programmer error"
-#~ msgstr "خطأ مُبرمج التّطبيق"
-
-#~ msgid "unknown error"
-#~ msgstr "خطأ مجهول"
-
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt: %s"
-#~ msgstr "خطأ في إخبار نظام التوثيق عن مُحِث اسم المستخدم المفضل: %s"
-
-#~ msgid "error informing authentication system of user's hostname: %s"
-#~ msgstr "خطأ في إخبار نظام التوثيق عن اسم مستضيف المستخدم: %s"
-
-#~ msgid "error informing authentication system of user's console: %s"
-#~ msgstr "خطأ في إخبار نظام التوثيق عن معراض المستخدم: %s"
-
-#~ msgid "error informing authentication system of display string: %s"
-#~ msgstr "خطأ في إعلام نظام الاستيثاق بمقطع العرض: %s"
-
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials: %s"
-#~ msgstr "خطأ في إعلام نظام الاستيثاق باعتمادات xauth للعرض: %s"
-
-#~ msgid "Fingerprint Authentication"
-#~ msgstr "الاستيثاق بالبصمة"
-
-#~ msgid "Log into session with fingerprint"
-#~ msgstr "لِج إلى الجلسة مستخدما بصمتك"
-
-#~ msgid "Password Authentication"
-#~ msgstr "الاستيثاق بكلمة السر"
-
-#~ msgid "Log into session with username and password"
-#~ msgstr "لِج إلى الجلسة مستخدما اسم مستخدم وكلمة سر"
-
-#~ msgid "Log In"
-#~ msgstr "لِج"
-
-#~ msgid "Slot ID"
-#~ msgstr "معرّف الفتحة"
-
-#~ msgid "The slot the card is in"
-#~ msgstr "الفتحة التي بها البطاقة"
-
-#~ msgid "Slot Series"
-#~ msgstr "سلسلة الفتحة"
-
-#~ msgid "per-slot card identifier"
-#~ msgstr "معرف البطاقة الخاص بكل فتحة"
-
-#~ msgid "name"
-#~ msgstr "الاسم"
-
-#~ msgid "Module"
-#~ msgstr "الوحدة"
-
-#~ msgid "smartcard driver"
-#~ msgstr "مشغل البطاقة الذكية"
-
-#~ msgid "Smartcard Authentication"
-#~ msgstr "الاستيثاق بالبطاقة الذكية"
-
-#~ msgid "Log into session with smartcard"
-#~ msgstr "لِج إلى الجلسة مستخدما بطاقة ذكية"
-
-#~ msgid "Module Path"
-#~ msgstr "مسار الوحدة"
-
-#~ msgid "path to smartcard PKCS #11 driver"
-#~ msgstr "مسار مشغل PKCS #11 للبطاقة الذكية"
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "تُلقّيّ خطأً أو تعليق من قبل مصدر الحدث"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "لم يُتمكنّ من تحليل نظام حماية NSS"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "تعذرّ العثور على بطاقة ذكية مناسبة"
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "لا يمكن تحميل تعريف البطاقة الذكية '%s'"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "تعذرّ مراقبة أحداث بطاقة واردة - %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr "حدث خطأ غير متوقع أثناء انتظار أحداث بطاقة ذكية"
-
-#~ msgid "Authentication"
-#~ msgstr "الاستيثاق"
-
-#~ msgid "Log into session"
-#~ msgstr "لِج إلى الجلسة"
-
-#~ msgid "Value"
-#~ msgstr "القيمة"
-
-#~ msgid "percentage of time complete"
-#~ msgstr "نسبة اكتمال الوقت"
-
-#~ msgid "Inactive Text"
-#~ msgstr "النص الخامل"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr "النص الذي سيستخدم في اللصيقة إذا ما لم يختر المستخدم عنصرا بعد"
-
-#~ msgid "Active Text"
-#~ msgstr "النص النشط"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr "النص الذي سيستخدم في اللصيقة إذا ما اختار المستخدم عنصرا "
-
-#~ msgid "List Visible"
-#~ msgstr "القائمة ظاهرة"
-
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "ما إذا كانت قائمة المخير ظاهرة"
-
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%A %e %B، %l:%M:%S %p"
-
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%A %e %B، %l:%M %p"
-
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%A %l:%M:%S %p"
-
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%A %Ol:%OM %p"
-
-#~ msgid "Automatically logging in…"
-#~ msgstr "يلج تلقائيا…"
-
-#~ msgid "Cancelling…"
-#~ msgstr "يلغي…"
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "اختر اللغة ثم انقر \"لِج\""
-
-#~ msgctxt "customsession"
-#~ msgid "Custom"
-#~ msgstr "مخصصة"
-
-#~ msgid "Custom session"
-#~ msgstr "جلسة مخصّصة"
-
-#~ msgid "Computer Name"
-#~ msgstr "اسم الحاسوب"
-
-#~ msgid "Version"
-#~ msgstr "الإصدار"
-
-#~ msgid "Cancel"
-#~ msgstr "ألغِ"
-
-#~ msgid "Unlock"
-#~ msgstr "فك القفل"
-
-#~ msgid "Login"
-#~ msgstr "لِج"
-
-#~ msgid "Suspend"
-#~ msgstr "علّق"
-
-#~ msgid "Restart"
-#~ msgstr "أعِد التشغيل"
-
-#~ msgid "Shut Down"
-#~ msgstr "أطفئ"
-
-#~ msgid "Unknown time remaining"
-#~ msgstr "لا يُعرف كم بقي"
-
-#~ msgid "Panel"
-#~ msgstr "اللوحة"
-
-#~ msgid "Label Text"
-#~ msgstr "نص اللصيقة"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "النص الذي سيُستخدم كلصيقة"
-
-#~ msgid "Icon name"
-#~ msgstr "اسم الأيقونة"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "الأيقونة التي ستستخدم مع اللصيقة"
-
-#~ msgid "Default Item"
-#~ msgstr "العنصر المبدئي"
-
-#~ msgid "The ID of the default item"
-#~ msgstr "معرّف العنصر المبدئي"
-
-#~ msgid "Remote Login (Connecting to %s…)"
-#~ msgstr "ولوج عن بعد (يتَّصل ب‍ %s…)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "ولوج عن بعد (مُتَّصل ب %s)"
-
-#~ msgid "Remote Login"
-#~ msgstr "ولوج عن بعد "
-
-#~ msgid "Session"
-#~ msgstr "الجلسة"
-
-#~ msgid "Duration"
-#~ msgstr "المدّة"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "عدد الثواني قبل أن يتوقف المُؤقِّت"
-
-#~ msgid "Start time"
-#~ msgstr "وقت البدء"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "وقت بدء المُؤقِّت"
-
-#~ msgid "Is it Running?"
-#~ msgstr "هل يغمل؟"
-
-#~ msgid "Whether the timer is currently ticking"
-#~ msgstr "ما إذا كان المُؤقِّت يعمل أم لا"
-
-#~ msgid "Log in as %s"
-#~ msgstr "لِج باسم %s"
-
-#~ msgctxt "user"
-#~ msgid "Other…"
-#~ msgstr "أخرى…"
-
-#~ msgid "Choose a different account"
-#~ msgstr "اختر حسابا مختلفا"
-
-#~ msgid "Guest"
-#~ msgstr "ضيف"
-
-#~ msgid "Log in as a temporary guest"
-#~ msgstr "لِج كضيف مؤقت"
-
-#~ msgid "Automatic Login"
-#~ msgstr "ولوج تلقائي"
-
-#~ msgid "Automatically log into the system after selecting options"
-#~ msgstr "لِج تلقائيا إلى النظام بعد اختيار الخيارات"
-
-#~ msgid "Currently logged in"
-#~ msgstr "والِج حاليا"
-
-#~ msgid "User %s doesn't exist"
-#~ msgstr "المستخدم %s غير موجود"
-
-#~ msgid "Group %s doesn't exist"
-#~ msgstr "المجموعة %s غير موجودة"
-
-#~ msgid "Logdir %s does not exist or isn't a directory."
-#~ msgstr " دليل السجل %s غير موجود أو ليس دليلا. "
-
-#~ msgid "Authdir %s does not exist. Aborting."
-#~ msgstr " Authdir %s غير موجود. إجهاض."
-
-#~ msgid "Authdir %s is not a directory. Aborting."
-#~ msgstr "Authdir %s ليس بالدليل. إجهاض."
-
-#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-#~ msgstr "Authdir·%s ليس ملكا للمستخدم %Id، المجموعة %Id. إجهاض."
-
-#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-#~ msgstr "Authdir·%s له تصاريح خاطئة %o. يجب أن تكون %o. إجهاض."
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "مكبر شاشة جنوم"
-
-#~ msgid "Magnify parts of the screen"
-#~ msgstr "يكبر أجزاء من الشاشة"
-
-#~ msgid "GNOME On-Screen Keyboard"
-#~ msgstr "لوحة مفاتيح الشاشة لجنوم"
-
-#~ msgid "Use an on-screen keyboard"
-#~ msgstr "استخدم لوحة مفاتيح الشاشة"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "قارئ الشاشة أوركا"
-
-#~ msgid "Present on-screen information as speech or braille"
-#~ msgstr "يقدم ما على الشاشة من معلومات منطوقة أو بطريقة برايل"
-
-#~ msgid "Unable to initialize login system"
-#~ msgstr "تعذّر بدأ نظام الولوج"
-
-#~ msgid "Unable to establish credentials"
-#~ msgstr "تعذّر تنصيب الاعتمادات"
-
-#~ msgid "Denied XDMCP query from host %s"
-#~ msgstr "مُنِع طلب XDMCP من المستضيف %s"
-
-#~ msgid "Could not extract authlist from packet"
-#~ msgstr "تعذّر إستخراج قائمة التوثّق من الرزمة"
-
-#~ msgid "Error in checksum"
-#~ msgstr "خطأ في checksum"
-
-#~ msgid "Bad address"
-#~ msgstr "عنوان سيّء"
-
-#~ msgid "%s: Could not read display address"
-#~ msgstr "‏%s: تعذّر قراءة عنوان العرض"
-
-#~ msgid "%s: Could not read display port number"
-#~ msgstr "‏%s: تعذّر قراءة رقم منفذ العرض"
-
-#~ msgid "%s: Could not extract authlist from packet"
-#~ msgstr "‏%s: تعذّر إستخراج قائمة التوثّق من الرزمة"
-
-#~ msgid "%s: Error in checksum"
-#~ msgstr "‏%s: خطأ في checksum"
-
-#~ msgid "%s: Got REQUEST from banned host %s"
-#~ msgstr "‏%s: استلمت REQUEST من مستضيف محظور %s"
-
-#~ msgid "%s: Could not read Display Number"
-#~ msgstr "‏%s: تعذّر قراءة رقم العرض"
-
-#~ msgid "%s: Could not read Connection Type"
-#~ msgstr "‏%s: تعذّر قراءة نوع الاتصال"
-
-#~ msgid "%s: Could not read Client Address"
-#~ msgstr "‏%s: تعذّر قراءة عنوان العميل"
-
-#~ msgid "%s: Could not read Authentication Data"
-#~ msgstr "‏%s: تعذّر قراءة بيانات التوثّق"
-
-#~ msgid "%s: Could not read Authorization List"
-#~ msgstr "‏%s: تعذّر قراءة قائمة التراخيص"
-
-#~ msgid "%s: Could not read Manufacturer ID"
-#~ msgstr "‏%s: تعذّر قراءة معرّف المصنّع"
-
-#~ msgid "%s: Failed checksum from %s"
-#~ msgstr "‏%s: فشل checksum من %s"
-
-#~ msgid "%s: Got Manage from banned host %s"
-#~ msgstr "‏%s: استلمت Manage من المستضيف المحظور %s"
-
-#~ msgid "%s: Could not read Session ID"
-#~ msgstr "‏%s: تعذّر قراءة معرّف الجلسة"
-
-#~ msgid "%s: Could not read Display Class"
-#~ msgstr "‏%s: تعذّر قراءة صنف العرض"
-
-#~ msgid "%s: Could not read address"
-#~ msgstr "‏%s: تعذّر قراءة العنوان"
-
-#~ msgid "%s: Got KEEPALIVE from banned host %s"
-#~ msgstr "‏%s: استلمت KEEPALIVE من مستضيف محظور %s"
-
-#~ msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-#~ msgstr "‏GdmXdmcpDisplayFactory: تعذّر قراءة ترويسة XDMCP!"
-
-#~ msgid "Could not get server hostname: %s!"
-#~ msgstr "تعذّر تلقي اسم مستضيف الخادوم: %s!"
-
-#~ msgid "AT-SPI Registry Wrapper"
-#~ msgstr "غلاف تسجيل AT-SPI"
-
-#~ msgid "Power Manager"
-#~ msgstr "مدير الطاقة"
-
-#~ msgid "GNOME Session Acceleration Checker"
-#~ msgstr "فاحص تسريع جلسة جنوم"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "عفريت إعدادات جنوم"
-
-#~ msgid "Metacity"
-#~ msgstr "ميتاسيتي"
-
-#~ msgid "Languages"
-#~ msgstr "اللغات"
-
-#~ msgid "_Languages:"
-#~ msgstr "الل_غات:"
-
-#~ msgid "_Language:"
-#~ msgstr "ال_لغة:"
-
-#~ msgctxt "language"
-#~ msgid "Other…"
-#~ msgstr "أخرى…"
-
-#~ msgid "Choose a language from the full list of available languages."
-#~ msgstr "اختر لغة من قائمة اللغات المتوفرة."
-
-#~ msgid "Language"
-#~ msgstr "اللّغة"
-
-#~ msgid "Unspecified"
-#~ msgstr "غير محدد"
-
-#~ msgid "Max Item Count"
-#~ msgstr "أقصى عَدٍّ للعناصر"
-
-#~ msgid "The maximum number of items to keep around in the list"
-#~ msgstr "أقصى عدد من العناصر التي سيُحتفظ بها في القائمة"
-
-#~ msgid "Banner message text when chooser is empty"
-#~ msgstr "نص رسالة الملصق إذا كان المخير خاليا"
-
-#~ msgid "Do not show known users in the login window"
-#~ msgstr "لا تعرض المستخدمين في نافذة الولوج"
-
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "فعّل ملحق لوحة مفاتيح الاتاحة"
-
-#~ msgid "Enable on-screen keyboard"
-#~ msgstr "فعّل لوحة المفاتيح الموجودة على الشاشة"
-
-#~ msgid "Enable screen magnifier"
-#~ msgstr "فعّل مكبر الشاشة"
-
-#~ msgid "Enable screen reader"
-#~ msgstr "فعّل قارئ الشاشة"
-
-#~ msgid "Icon name to use for greeter logo"
-#~ msgstr "اسم الأيقونة التي ستستخدم لشعار المُرحّب"
-
-#~ msgid "Recently selected languages"
-#~ msgstr "اللغات المنتقاة مؤخرا"
-
-#~ msgid ""
-#~ "Set to a list of languages to be shown by default in the login window."
-#~ msgstr "عيّن لقائمة من اللغات لتعرض افتراضيا في نافذة الولوج."
-
-#~ msgid "Set to the themed icon name to use for the greeter logo."
-#~ msgstr "اضبطه إلى اسم أيقونة السمة التي ستستخدم لشعار المُرحّب."
-
-#~ msgid "Set to true to disable showing known users in the login window."
-#~ msgstr "اجعله صحيح لتعطيل عرض المستخدمين المعروفين في نافذة الولوج."
-
-#~ msgid "Set to true to enable the XRandR settings manager plugin."
-#~ msgstr "اجعله صحيح لتفعيل ملحق مدير إعدادات XRandR."
-
-#~ msgid "Set to true to enable the background settings manager plugin."
-#~ msgstr "اجعله صحيح حتى يُمَكِّن ملحق مدير إعدادات الخلفية."
-
-#~ msgid "Set to true to enable the media-keys settings manager plugin."
-#~ msgstr "اجعله صحيح لتفعيل ملحق مدير إعداد مفاتيح الوسائط."
-
-#~ msgid "Set to true to enable the on-screen keyboard."
-#~ msgstr "اجعله صحيح حتى يُمَكِّن لوحة المفاتيح الموجودة على الشاشة."
-
-#~ msgid ""
-#~ "Set to true to enable the plugin to manage the accessibility keyboard "
-#~ "settings."
-#~ msgstr "اجعله صحيح حتى يُفَعل الملحق إدارة تهيئة لوحة مفاتيح الإتاحة."
-
-#~ msgid "Set to true to enable the screen magnifier."
-#~ msgstr "اجعله صحيح حتى يُفَعل مكبر الشاشة."
-
-#~ msgid "Set to true to enable the screen reader."
-#~ msgstr "اجعله صحيح حتى يُفَعل قارئ الشاشة."
-
-#~ msgid "Set to true to enable the sound settings manager plugin."
-#~ msgstr "اجعله صحيح لتفعيل ملحق مدير إعداد الأصوات."
-
-#~ msgid "Set to true to enable the xsettings settings manager plugin."
-#~ msgstr "اجعله صحيح حتى يُفَعل ملحق مدير إعدادات xsettings."
-
-#~ msgid "Set to true to use Compiz as the window manager."
-#~ msgstr "اجعله صحيح ليستخدم كُمْبِز كمدير نوافذ"
-
-#~ msgid ""
-#~ "Text banner message to show in the login window when the user chooser is "
-#~ "empty, instead of banner_message_text."
-#~ msgstr ""
-#~ "ملصق الرسائل النصي المعروض في نافذة الولوج عندما يكون المخيِّر خاليا، بدلا "
-#~ "من banner_message_text."
-
-#~ msgid "True if the XRandR settings manager plugin is enabled."
-#~ msgstr "صحيح إذا كان ملحق مدير إعدادات XRandR مفعل."
-
-#~ msgid "True if the background settings manager plugin is enabled."
-#~ msgstr "صحيح إذا كان ملحق مدير التهيئة في الخلفية مُفَعلا."
-
-#~ msgid "True if the media-keys settings manager plugin is enabled."
-#~ msgstr "صحيح إذا كان ملحق مدير إعدادات مفاتيح الوسائط مفعل."
-
-#~ msgid "True if the sound settings manager plugin is enabled."
-#~ msgstr "صحيح إذا كان ملحق مدير إعدادات الصوت مفعل."
-
-#~ msgid "True if the xsettings settings manager plugin is enabled."
-#~ msgstr "صحيح إذا كان ملحق مدير تهيئة xsettings مُفَعلا."
-
-#~ msgid "Use Compiz as the window manager"
-#~ msgstr "استخدم كُمْبِز مديرا للنوافذ"
-
-#~ msgid "Shutdown Options…"
-#~ msgstr "خيارات الإطفاء…"
-
-#~ msgid "Keyboard layouts"
-#~ msgstr "تخطيط لوحة المفاتيح"
-
-#~ msgid "_Keyboard:"
-#~ msgstr "لو_حة المفاتيح:"
-
-#~ msgctxt "keyboard"
-#~ msgid "Other…"
-#~ msgstr "أخرى…"
-
-#~ msgid "Choose a keyboard layout from the full list of available layouts."
-#~ msgstr "اختر تخطيط لوحة مفاتيح من قائمة التخطيطات المتوفرة."
-
-#~ msgid "Keyboard"
-#~ msgstr "لوحة المفاتيح"
-
-#~ msgid "Recently selected keyboard layouts"
-#~ msgstr "أنساق لوحة المفاتيح المنتقاة مؤخرا"
-
-#, fuzzy
-#~ msgid ""
-#~ "Set to a list of keyboard layouts to be shown by default in the login "
-#~ "window."
-#~ msgstr "عيّن لقائمة من أنساق لوحة المفاتيح لتعرض افتراضيا عند نافذة الولوج."
-
-#~ msgid ""
-#~ "The User Switch Applet is free software; you can redistribute it and/or "
-#~ "modify it under the terms of the GNU General Public License as published "
-#~ "by the Free Software Foundation; either version 2 of the License, or (at "
-#~ "your option) any later version."
-#~ msgstr ""
-#~ "بريمج مبدّل المستخدم السريع برمجية حرة؛ بامكانك إعادة توزيعه و/أو تعديله "
-#~ "تحت شروط الرخصة العمومية العامة لجنو والتي نشرتها منظمة البرمجيات الحرة؛ "
-#~ "سواء الإصدارة 2 من الرخصة أو أي إصدارة بعدها (حسب رغبتك)."
-
-#~ msgid ""
-#~ "This program is distributed in the hope that it will be useful, but "
-#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
-#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
-#~ "Public License for more details."
-#~ msgstr ""
-#~ "يوزّع البرنامج على أمل أن يكون مفيدًا لمن يستخدمه دون أدنى مسؤولية؛ ولا حتى "
-#~ "أي ضمان يضمن صلاحية العرض في السوق أو توافقه مع أي استخدام محدد. يمكنك "
-#~ "مراجعة الرخصة العمومية العامة لجنو لمزيد من التفاصيل."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with this program; if not, write to the Free Software Foundation, Inc., "
-#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA "
-#~ msgstr ""
-#~ "من المفترض أن تكون قد استلمت نسخة من رخصة جنو العامة مع هذا البرنامج؛ في "
-#~ "حال عدم استلامك لذلك، يمكنك مكاتبة:\n"
-#~ "Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, "
-#~ "MA 02110-1301 USA"
-
-#~ msgid "A menu to quickly switch between users."
-#~ msgstr "قائمة للتبديل السريع بين المستخدين"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "فريق عربآيز للترجمة http://www.arabeyes.org :\n"
-#~ "جهاد عفيفي\t<djihed@gmail.com>\n"
-#~ "خالد حسني\t<khaledhosny@eglug.org>"
-
-#~ msgid "Can't lock screen: %s"
-#~ msgstr "تعذّر إقفال الشاشة: %s"
-
-#~ msgid "Can't temporarily set screensaver to blank screen: %s"
-#~ msgstr "تعذّر الضبط المؤقت لحافظة الشاشة إلى فراغ: %s"
-
-#~ msgid "Can't log out: %s"
-#~ msgstr "تعذّر الخروج: %s"
-
-#~ msgid "Available"
-#~ msgstr "متاح"
-
-#~ msgid "Invisible"
-#~ msgstr "خفي"
-
-#~ msgid "Busy"
-#~ msgstr "مشغول"
-
-#~ msgid "Away"
-#~ msgstr "بعيد"
-
-#~ msgid "Account Information"
-#~ msgstr "معلومات الحساب"
-
-#~ msgid "System Preferences"
-#~ msgstr "تفضيلات النظام"
-
-#~ msgid "Lock Screen"
-#~ msgstr "أوصِد الشاشة"
-
-#~ msgid "Switch User"
-#~ msgstr "بدّل المستخدم"
-
-#~ msgid "Quit…"
-#~ msgstr "اخرج…"
-
-#~ msgid "User Switch Applet"
-#~ msgstr "بريمج مبدّل المستخدم "
-
-#~ msgid "Change account settings and status"
-#~ msgstr "غيّر إعدادات وحالة الحساب"
-
-#~ msgid "A menu to quickly switch between users"
-#~ msgstr "قائمة للتبديل السريع بين المستخدمين"
-
-#~ msgid "User Switcher"
-#~ msgstr "مبدّل المستخدم"
-
-#~ msgid "User Switcher Applet Factory"
-#~ msgstr "معمل بريمج مبدّل المستخدم"
-
-#~ msgid "Edit Personal _Information"
-#~ msgstr "حرِّر ال_معلومات الشخصية"
-
-#~ msgid "_About"
-#~ msgstr "_عنْ"
-
-#~ msgid "_Edit Users and Groups"
-#~ msgstr "_حرِّر المستخدمين والمجموعات"
