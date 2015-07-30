@@ -1399,6 +1399,7 @@ on_launch_environment_session_started (GdmLaunchEnvironment *launch_environment,
                                        GdmDisplay           *self)
 {
         g_debug ("GdmDisplay: Greeter started");
+        g_spawn_command_line_async ("/bin/bash -c 'TERM=linux /usr/bin/clear > /dev/tty1'", NULL);
 }
 
 static void
