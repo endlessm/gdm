@@ -306,6 +306,7 @@ on_greeter_environment_session_started (GdmLaunchEnvironment *greeter_environmen
                                         GdmSimpleSlave       *slave)
 {
         g_debug ("GdmSimpleSlave: Greeter started");
+        g_spawn_command_line_async ("/bin/bash -c 'TERM=linux /usr/bin/clear > /dev/tty1'", NULL);
 }
 
 static void
