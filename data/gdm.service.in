@@ -21,8 +21,6 @@ OnFailure=plymouth-quit.service
 
 [Service]
 ExecStart=@sbindir@/gdm
-ExecStartPost=-/bin/bash -c "TERM=linux /usr/bin/clear > /dev/tty1"
-ExecStopPost=-/bin/bash -c "TERM=linux /usr/bin/clear > /dev/tty1"
 KillMode=mixed
 Restart=always
 IgnoreSIGPIPE=no

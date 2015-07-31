@@ -25,4 +25,4 @@ EXTRA_DIST = \
 DISTCLEANFILES = \
 	$(NULL)
 
-DISTCHECK_CONFIGURE_FLAGS = --enable-split-authentication --enable-introspection
+AM_DISTCHECK_CONFIGURE_FLAGS = --enable-split-authentication --enable-introspection
