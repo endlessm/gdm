@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-21 03:03+0000\n"
+"POT-Creation-Date: 2015-09-22 20:08+0000\n"
 "PO-Revision-Date: 2015-07-17 16:57+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: French (http://www.transifex.com/endless-mobile-inc/gdm/language/fr/)\n"
@@ -153,32 +153,32 @@ msgstr "Votre compte a une limite de temps qui est maintenant échue."
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Désolé, ça n'a pas fonctionné. Veuillez réessayer."
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Identifiant :"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1260
 msgid "Type a hint or question to help remember your password."
 msgstr "Entrez un indice ou une question pour vous aider à vous souvenir de votre mot de passe."
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1261
 msgid "Password reminder:"
 msgstr "Rappel du mot de passe :"
 
-#: ../daemon/gdm-session-worker.c:1293
+#: ../daemon/gdm-session-worker.c:1313
 msgid "Your password has expired, please change it now."
 msgstr "Votre mot de passe a expiré, veuillez le changer maintenant."
 
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1555 ../daemon/gdm-session-worker.c:1572
 #, c-format
 msgid "no user account available"
 msgstr "aucun compte utilisateur disponible"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1599
 msgid "Unable to change to user"
 msgstr "Impossible de changer vers l'utilisateur"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
 "Could not start the X server (your graphical environment) due to an internal"
 " error. Please contact your system administrator or check your syslog to "
