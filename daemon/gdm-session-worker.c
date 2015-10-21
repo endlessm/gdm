@@ -1251,9 +1251,11 @@ user_loaded_cb (ActUser    *user,
 static gboolean
 set_password_hint (GdmSessionWorker *worker)
 {
-        ActUser *user;
-        ActUserManager *manager;
+        ActUser *user = NULL;
+        ActUserManager *manager = NULL;
+
         char *password_reminder = NULL;
+
         gboolean res = TRUE;
 
         g_debug ("GdmSessionWorker: authenticated user requires new password hint");
@@ -1261,8 +1263,6 @@ set_password_hint (GdmSessionWorker *worker)
         while (res && password_reminder == NULL) {
                 gdm_session_worker_report_problem (worker, _("Type a hint or question to help remember your password."));
                 res = gdm_session_worker_ask_question (worker, _("Password reminder:"), &password_reminder);
-                manager = act_user_manager_get_default ();
-                user = act_user_manager_get_user (manager, worker->priv->username);
                 password_reminder = g_strstrip (password_reminder);
 
                 if (password_reminder && password_reminder[0] == '\0') {
@@ -1274,6 +1274,9 @@ set_password_hint (GdmSessionWorker *worker)
         /* If operation was cancelled we go back to the main screen */
         if (!res)
                 return res;
+
+        manager = act_user_manager_get_default ();
+        user = act_user_manager_get_user (manager, worker->priv->username);
 
         /* We use password_reminder variable in user_loaded_cb() to find out if
            we must set the password hint (password_reminder != NULL) or we need
