@@ -1263,7 +1263,6 @@ set_password_hint (GdmSessionWorker *worker)
         while (res && password_reminder == NULL) {
                 gdm_session_worker_report_problem (worker, _("Type a hint or question to help remember your password."));
                 res = gdm_session_worker_ask_question (worker, _("Password reminder:"), &password_reminder);
-                password_reminder = g_strstrip (password_reminder);
 
                 if (password_reminder && password_reminder[0] == '\0') {
                         g_free (password_reminder);
