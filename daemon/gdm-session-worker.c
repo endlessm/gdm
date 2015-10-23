@@ -1270,8 +1270,15 @@ set_password_hint (GdmSessionWorker *worker)
                 }
         }
 
-        /* If operation was cancelled we go back to the main screen */
-        if (!res)
+        /* If they got past the hint screen with a whitespace, ignore setting the hint */
+        password_reminder = g_strstrip (password_reminder);
+        if (password_reminder[0] == '\0') {
+            g_free (password_reminder);
+            password_reminder = NULL;
+        }
+
+        /* If operation was cancelled, or user doesn't set a reminder, we do nothing */
+        if (!res || password_reminder == NULL)
                 return res;
 
         manager = act_user_manager_get_default ();
