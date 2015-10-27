@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-20 02:37+0000\n"
+"POT-Creation-Date: 2015-10-27 02:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -150,24 +150,24 @@ msgstr ""
 msgid "Username:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1260
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1261
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1313
+#: ../daemon/gdm-session-worker.c:1325
 msgid "Your password has expired, please change it now."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1555 ../daemon/gdm-session-worker.c:1572
+#: ../daemon/gdm-session-worker.c:1567 ../daemon/gdm-session-worker.c:1584
 #, c-format
 msgid "no user account available"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1599
+#: ../daemon/gdm-session-worker.c:1611
 msgid "Unable to change to user"
 msgstr ""
 
