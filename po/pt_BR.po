@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-20 02:37+0000\n"
+"POT-Creation-Date: 2015-10-27 02:37+0000\n"
 "PO-Revision-Date: 2015-07-17 17:31+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/endless-mobile-inc/gdm/language/pt_BR/)\n"
@@ -176,24 +176,24 @@ msgstr "Desculpe, isto não funcionou. Por gentileza, tente novamente."
 msgid "Username:"
 msgstr "Nome de usuário:"
 
-#: ../daemon/gdm-session-worker.c:1260
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr "Digite uma dica ou pergunta para ajudar a lembrar sua senha."
 
-#: ../daemon/gdm-session-worker.c:1261
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr "Lembrete de senha:"
 
-#: ../daemon/gdm-session-worker.c:1313
+#: ../daemon/gdm-session-worker.c:1325
 msgid "Your password has expired, please change it now."
 msgstr "Sua senha expirou, por gentileza altere-a agora."
 
-#: ../daemon/gdm-session-worker.c:1555 ../daemon/gdm-session-worker.c:1572
+#: ../daemon/gdm-session-worker.c:1567 ../daemon/gdm-session-worker.c:1584
 #, c-format
 msgid "no user account available"
 msgstr "nenhuma conta de usuário disponível"
 
-#: ../daemon/gdm-session-worker.c:1599
+#: ../daemon/gdm-session-worker.c:1611
 msgid "Unable to change to user"
 msgstr "Não foi possível mudar para o usuário"
 
