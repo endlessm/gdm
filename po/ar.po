@@ -15,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-10 03:34+0000\n"
-"PO-Revision-Date: 2015-07-17 16:57+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"POT-Creation-Date: 2015-11-17 03:39+0000\n"
+"PO-Revision-Date: 2015-11-17 03:39+0000\n"
+"Last-Translator: endlessmobile_build <philip@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/endless-mobile-inc/gdm/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -166,16 +166,12 @@ msgstr "أدخل إشارة أو سؤال للمساعدة على تذكر كل�
 msgid "Password reminder:"
 msgstr "تذكرة بكلمة المرور:"
 
-#: ../daemon/gdm-session-worker.c:1325
-msgid "Your password has expired, please change it now."
-msgstr "لقد انتهت صلاحية كلمة السر، من فضلك غيرها الآن."
-
-#: ../daemon/gdm-session-worker.c:1567 ../daemon/gdm-session-worker.c:1584
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "لا يُوجد حساب مستخدِم "
 
-#: ../daemon/gdm-session-worker.c:1611
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "تعذّر الانتقال للمستخدم"
 

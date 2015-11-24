@@ -14,9 +14,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-10 03:34+0000\n"
-"PO-Revision-Date: 2015-11-07 01:41+0000\n"
-"Last-Translator: Joel Gil Leon <joel@endlessm.com>\n"
+"POT-Creation-Date: 2015-11-17 03:39+0000\n"
+"PO-Revision-Date: 2015-11-17 03:39+0000\n"
+"Last-Translator: endlessmobile_build <philip@endlessm.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/endless-mobile-inc/gdm/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -165,16 +165,12 @@ msgstr "Escribe una pista o una pregunta que te ayudará a recordar tu contrase�
 msgid "Password reminder:"
 msgstr "Recordatorio de contraseña:"
 
-#: ../daemon/gdm-session-worker.c:1325
-msgid "Your password has expired, please change it now."
-msgstr "Tu contraseña se ha vencido, por favor cámbiala ahora."
-
-#: ../daemon/gdm-session-worker.c:1567 ../daemon/gdm-session-worker.c:1584
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "no hay cuentas de usuario disponibles"
 
-#: ../daemon/gdm-session-worker.c:1611
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "No se pudo cambiar el usuario"
 
