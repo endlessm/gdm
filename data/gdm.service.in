@@ -21,8 +21,10 @@ OnFailure=plymouth-quit.service
 
 [Service]
 ExecStart=@sbindir@/gdm
+ExecReload=/bin/kill -HUP $MAINPID
 KillMode=mixed
 Restart=always
+RestartSec=1s
 IgnoreSIGPIPE=no
 # GDM is killed upon reload if BusName is set, let us forget it for now
 #BusName=org.gnome.DisplayManager
