@@ -48,7 +48,7 @@
 #include "gdm-session-enum-types.h"
 #include "gdm-launch-environment.h"
 
-#define DBUS_LAUNCH_COMMAND BINDIR "/dbus-launch --exit-with-session"
+#define DBUS_LAUNCH_COMMAND DBUS_LAUNCH_BINDIR "/dbus-launch --exit-with-session"
 
 extern char **environ;
 

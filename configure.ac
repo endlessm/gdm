@@ -1143,6 +1143,22 @@ AC_ARG_WITH(check-accelerated-directory,
 CHECK_ACCELERATED_DIR=$with_check_accelerated_directory
 AC_SUBST(CHECK_ACCELERATED_DIR)
 
+AC_ARG_WITH(gnome-session-directory,
+              AC_HELP_STRING([--with-gnome-session-directory],
+                             [Specify the directory of the gnome-session executable @<:@default=bindir@:>@])],,
+                             [with_gnome_session_directory="\${bindir}"])
+
+GNOME_SESSION_BINDIR=$with_gnome_session_directory
+AC_SUBST(GNOME_SESSION_BINDIR)
+
+AC_ARG_WITH(dbus-launch-directory,
+              AC_HELP_STRING([--with-dbus-launch-directory],
+                             [Specify the directory of the dbus-launch executable @<:@default=bindir@:>@])],,
+                             [with_dbus_launch_directory="\${bindir}"])
+
+DBUS_LAUNCH_BINDIR="$with_dbus_launch_directory"
+AC_SUBST(DBUS_LAUNCH_BINDIR)
+
 dnl ---------------------------------------------------------------------------
 dnl - Check for XEvIE extension support
 dnl ---------------------------------------------------------------------------
@@ -1613,6 +1629,8 @@ echo "
 	consolekit location:      ${with_consolekit_directory}
 	gnome-settings-daemon location: ${with_gnome_settings_daemon_directory}
 	gnome-session-check-accel location: ${with_check_accelerated_directory}
+	gnome-session location:	  ${with_gnome_session_directory}
+	dbus-launch location:	  ${with_dbus_launch_directory}
 	source code location:	  ${srcdir}
 	compiler:		  ${CC}
 	cflags:		          ${CFLAGS}
