@@ -2907,9 +2907,7 @@ gdm_session_worker_handle_setup_for_user (GdmDBusWorker         *object,
                                   G_CALLBACK (on_saved_session_name_read),
                                   worker);
 
-        /* Load settings from accounts daemon before continuing
-         * FIXME: need to handle username not loading
-         */
+        /* Load settings from accounts daemon before continuing */
         worker->priv->pending_invocation = invocation;
         if (gdm_session_settings_load (worker->priv->user_settings, username)) {
                 queue_state_change (worker);
