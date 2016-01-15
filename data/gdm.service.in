@@ -24,8 +24,7 @@ ExecStart=@sbindir@/gdm
 KillMode=mixed
 Restart=always
 IgnoreSIGPIPE=no
-# GDM is killed upon reload if BusName is set, let us forget it for now
-#BusName=org.gnome.DisplayManager
+BusName=org.gnome.DisplayManager
 StandardOutput=syslog
 StandardError=inherit
 EnvironmentFile=-@LANG_CONFIG_FILE@
