@@ -62,7 +62,7 @@ else
 endif
 
 
-DEB_DH_INSTALLINIT_ARGS := --noscripts
+DEB_DH_INSTALLINIT_ARGS := --noscripts --no-start
 
 binary-install/gdm3::
 	chmod 755 debian/gdm3/etc/gdm3/Xsession
@@ -81,9 +81,6 @@ INFILES := $(wildcard debian/*.desktop.in)
 OUTFILES := $(INFILES:.desktop.in=.desktop)
 
 build/gdm3:: $(OUTFILES)
-
-binary-post-install/gdm3::
-	dh_systemd_start --no-restart-on-upgrade
 
 MANPAGES := $(patsubst %.pod,%,$(wildcard debian/*.pod))
 common-build-arch:: $(MANPAGES)
