@@ -62,7 +62,7 @@ else
 endif
 
 
-DEB_DH_INSTALLINIT_ARGS := --noscripts
+DEB_DH_INSTALLINIT_ARGS := --noscripts --no-start
 
 binary-install/gdm3::
 	chmod 755 debian/gdm3/etc/gdm3/Xsession
