@@ -82,9 +82,6 @@ OUTFILES := $(INFILES:.desktop.in=.desktop)
 
 build/gdm3:: $(OUTFILES)
 
-binary-post-install/gdm3::
-	dh_systemd_start --no-restart-on-upgrade
-
 MANPAGES := $(patsubst %.pod,%,$(wildcard debian/*.pod))
 common-build-arch:: $(MANPAGES)
 
