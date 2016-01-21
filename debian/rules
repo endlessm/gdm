@@ -64,6 +64,10 @@ endif
 
 DEB_DH_INSTALLINIT_ARGS := --noscripts
 
+# The only time we want the running state of gdm to be touched is to
+# stop on removal
+DEB_DH_SYSTEMD_START_ARGS := --no-start --no-restart-on-upgrade
+
 binary-install/gdm3::
 	chmod 755 debian/gdm3/etc/gdm3/Xsession
 	dh_installpam -pgdm3 --name=gdm-autologin
@@ -81,9 +85,6 @@ INFILES := $(wildcard debian/*.desktop.in)
 OUTFILES := $(INFILES:.desktop.in=.desktop)
 
 build/gdm3:: $(OUTFILES)
-
-binary-post-install/gdm3::
-	dh_systemd_start --no-restart-on-upgrade
 
 MANPAGES := $(patsubst %.pod,%,$(wildcard debian/*.pod))
 common-build-arch:: $(MANPAGES)
