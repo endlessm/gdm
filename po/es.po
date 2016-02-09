@@ -6,7 +6,7 @@
 # c.sanchez <cassandra@endlessm.com>, 2015
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2011-2014
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003-2006
-# Joel Gil Leon <joel@endlessm.com>, 2015
+# Joel Gil <joel@endlessm.com>, 2015
 # Jorge González <jorgegonz@svn.gnome.org>, 2008-2011
 # Lucas Vieites Fariña <lucas@asixinformatica.com>, 2001-2005, 2006
 # Lucas Vieites <lucas@codexion.com>, 2008
@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-26 06:57+0000\n"
+"POT-Creation-Date: 2016-02-02 03:40+0000\n"
 "PO-Revision-Date: 2015-11-17 03:39+0000\n"
 "Last-Translator: endlessmobile_build <philip@endlessm.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/endless-mobile-inc/gdm/language/es/)\n"
