@@ -19,8 +19,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-09 03:35+0000\n"
-"PO-Revision-Date: 2016-02-01 11:26+0000\n"
+"POT-Creation-Date: 2016-02-16 03:31+0000\n"
+"PO-Revision-Date: 2016-02-22 03:43+0000\n"
 "Last-Translator: zhifeng peng <jnufeng@126.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/endless-mobile-inc/gdm/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -120,7 +120,7 @@ msgstr "%s：服务器优先级无法设为 %d：%s"
 #: ../daemon/gdm-server.c:743
 #, c-format
 msgid "%s: Empty server command for display %s"
-msgstr "%s：显示画面 %s 的服务器命令为空"
+msgstr "%s：显示 %s 的服务器命令为空"
 
 #: ../daemon/gdm-session-auditor.c:90
 msgid "Username"
@@ -173,7 +173,7 @@ msgstr "密码提示："
 #: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
-msgstr "无可用用户帐户"
+msgstr "无可用的用户帐户"
 
 #: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
@@ -323,7 +323,7 @@ msgstr "启用横幅信息显示"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:13
 msgid "Set to true to show the banner message text."
-msgstr "设置为“真(true)”以显示横幅信息文字。"
+msgstr "设置为true以显示横幅信息文字。"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:14
 msgid "Banner message text"
