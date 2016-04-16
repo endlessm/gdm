@@ -1,29 +1,29 @@
-# Bengali Translation of the GDM
-# Copyright (C) 1998, 99, 2000, 01, 02, 03, 2005, 2006, 2008, 2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gdm2 package.
-#
-# Progga <abulfazl@juniv.edu>, 2003.
-# Indranil Das Gupta <indradg@bengalinux.org>, 2004.
-# Mahay Alam Khan <makl10n@yahoo.com>, 2005.
-# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
-# Runa Bhattacharjee <runa@bengalinux.org>, 2005.
-# Runa Bhattacharjee <runab@redhat.com>, 2008, 2009.
-# Loba Yeasmeen <loba@ankur.org.bd>, 2009.
-# Sadia Afroz <sadia@ankur.org.bd>, 2010.
-# Israt Jahan <israt@ankur.org.bd>, 2010, 2011.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Indranil Das Gupta <indradg@bengalinux.org>, 2004
+# Israt Jahan <israt@ankur.org.bd>, 2010-2011
+# Loba Yeasmeen <loba@ankur.org.bd>, 2009
+# Mahay Alam Khan <makl10n@yahoo.com>, 2005
+# Progga <abulfazl@juniv.edu>, 2003
+# Runa Bhattacharjee <runa@bengalinux.org>, 2005
+# runab <runab@redhat.com>, 2008-2009
+# Sadia Afroz <sadia@ankur.org.bd>, 2010
+# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005
 msgid ""
 msgstr ""
-"Project-Id-Version: bn\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2011-04-04 16:02+0600\n"
-"Last-Translator: Israt Jahan <israt@ankur.org.bd>\n"
-"Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
-"Language: bn\n"
+"POT-Creation-Date: 2016-04-12 02:26+0000\n"
+"PO-Revision-Date: 2016-04-16 04:57+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Bengali (http://www.transifex.com/endless-mobile-inc/gdm/language/bn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: bn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../common/gdm-common.c:311
@@ -38,14 +38,14 @@ msgid "Could not identify the current session."
 msgstr "বর্তমান সেশান সনাক্ত করা যায়নি।"
 
 #: ../common/gdm-common.c:626 ../libgdm/gdm-user-switching.c:351
-#, fuzzy, c-format
+#, c-format
 msgid "User unable to switch sessions."
-msgstr "সেশন খুলতে ব্যর্থ"
+msgstr ""
 
 #: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
-#, fuzzy, c-format
+#, c-format
 msgid "Could not identify the current seat."
-msgstr "বর্তমান সেশান সনাক্ত করা যায়নি।"
+msgstr ""
 
 #: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
 #, c-format
@@ -65,9 +65,8 @@ msgid "could not find user \"%s\" on system"
 msgstr "সিস্টেমের মধ্যে \"%s\" নামক ব্যবহারকারী পাওয়া যায়নি"
 
 #: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
-#, fuzzy
 msgid "No session available"
-msgstr "কোনো ব্যবহারকারীর অ্যাকাউন্ট বিদ্যমান নেই"
+msgstr ""
 
 #: ../daemon/gdm-manager.c:953
 #, c-format
@@ -79,13 +78,10 @@ msgstr ""
 msgid "Caller not GDM"
 msgstr ""
 
-# spawn: সৃষ্টি হওয়া
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"ব্যবহারকারী %s দ্বারা সার্ভার স্পন হওয়া উচিত, কিন্তু সংশ্লিষ্ট ব্যবহারকারী বর্তমানে "
-"উপস্থিত নেই"
+msgstr "ব্যবহারকারী %s দ্বারা সার্ভার স্পন হওয়া উচিত, কিন্তু সংশ্লিষ্ট ব্যবহারকারী বর্তমানে উপস্থিত নেই"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
@@ -148,9 +144,8 @@ msgid "The display device"
 msgstr "ডিসপ্লে ডিভাইস"
 
 #: ../daemon/gdm-session.c:1216
-#, fuzzy
 msgid "Could not create authentication helper process"
-msgstr "%s: পরিচয় প্রমাণকারী নাম পড়তে ব্যর্থ"
+msgstr ""
 
 #: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
@@ -160,41 +155,34 @@ msgstr ""
 msgid "Sorry, that didn't work. Please try again."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "ব্যবহারকারী নাম:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "কোনো ব্যবহারকারীর অ্যাকাউন্ট বিদ্যমান নেই"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "ব্যবহারকারীর অ্যাকাউন্টে পরিবর্তন করা যায়নি"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"অভ্যন্তরীণ ত্রুটির ফলে X সার্ভার (গ্রাফিকাল পরিবেশ) আরম্ভ করতে ব্যর্থ। সমস্যা সনাক্ত "
-"করার জন্য আপনার সিস্টেম অ্যাডমিনিস্ট্রেটরের সাথে যোগাযোগ করুন অথবা syslog পরীক্ষা "
-"করুন। বর্তমানে এই ডিসপ্লে নিষ্ক্রিয় করা হবে। সমস্যা সমাধান হলে GDM পুনরায় আরম্ভ করুন।"
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "অভ্যন্তরীণ ত্রুটির ফলে X সার্ভার (গ্রাফিকাল পরিবেশ) আরম্ভ করতে ব্যর্থ। সমস্যা সনাক্ত করার জন্য আপনার সিস্টেম অ্যাডমিনিস্ট্রেটরের সাথে যোগাযোগ করুন অথবা syslog পরীক্ষা করুন। বর্তমানে এই ডিসপ্লে নিষ্ক্রিয় করা হবে। সমস্যা সমাধান হলে GDM পুনরায় আরম্ভ করুন।"
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -249,7 +237,6 @@ msgstr "GDM এর সংস্করণ মুদ্রণ করা হবে"
 msgid "GNOME Display Manager"
 msgstr "GNOME ডিসপ্লে ম্যানেজার"
 
-# Translated by sadia
 #. make sure the pid file doesn't get wiped
 #: ../daemon/main.c:387
 msgid "Only the root user can run GDM"
@@ -266,9 +253,8 @@ msgid "GNOME Shell"
 msgstr ""
 
 #: ../data/applications/gnome-shell.desktop.in.h:2
-#, fuzzy
 msgid "Window management and compositing"
-msgstr "পাওয়ার ব্যবস্থাপনার ডেমন"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
@@ -324,8 +310,8 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
@@ -349,14 +335,13 @@ msgid "Disable showing the restart buttons"
 msgstr "পুনরারম্ভ বোতামটির প্রদর্শন নিষ্ক্রিয় করুন"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"লগইন উইন্ডোর মধ্যে পুনরারম্ভ বোতাম প্রদর্শন না করার জন্য মান true নির্ধারণ করুন।"
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "লগইন উইন্ডোর মধ্যে পুনরারম্ভ বোতাম প্রদর্শন না করার জন্য মান true নির্ধারণ করুন।"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
-#, fuzzy
 msgid "Number of allowed authentication failures"
-msgstr "%s: পরিচয় প্রমাণকারী নাম পড়তে ব্যর্থ"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
@@ -377,26 +362,21 @@ msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: XDMCP শীর্ষচরণ পড়তে ব্যর্থ!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-#, fuzzy
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XMDCP: XDMCP সংস্করণ সঠিক নয়!"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-#, fuzzy
 msgid "XDMCP: Unable to parse address"
-msgstr "XMDCP: ঠিকানা পার্স করতে ব্যর্থ"
+msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:72
-#, fuzzy
 msgid "Unable to create transient display: "
-msgstr "নতুন ডিসপ্লে আরম্ভ করতে ব্যর্থ"
+msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
-#, fuzzy
 msgid "Unable to activate session: "
-msgstr "সেশন খুলতে ব্যর্থ"
+msgstr ""
 
-# Translated by sadia
 #: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
 msgstr "শুধুমাত্র ভার্সন কমান্ডটি সমর্থিত"
@@ -431,685 +411,3 @@ msgstr "স্ক্রিনশট গ্রহণ করা হয়েছে"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "পর্দার একটি ছবি নিন"
-
-#~ msgid "Display ID"
-#~ msgstr "ডিসপ্লে ID"
-
-# Translated by sadia
-#~ msgid "ID"
-#~ msgstr "আইডি"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "GNOME ডিসপ্লে ম্যানেজার স্লেভ"
-
-#~ msgid "Unable to initialize login system"
-#~ msgstr "লগইন সিস্টেম আরম্ভ করতে ব্যর্থ"
-
-#~ msgid "Unable to authenticate user"
-#~ msgstr "ব্যবহারকারীর পরিচয় পরীক্ষা করতে ব্যর্থ"
-
-#~ msgid "Unable to authorize user"
-#~ msgstr "ব্যবহারকারীকে অনুমোদন প্রদান করতে ব্যর্থ"
-
-#~ msgid "Unable to establish credentials"
-#~ msgstr "পরিচয় নির্ধারণ করতে ব্যর্থ"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%1s: ঊর্ধ্বতন ডিসপ্লে '%2s' এর সাথে সংযোগ করতে ব্যর্থ"
-
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr "অনুমোদন ব্যবস্থার সাথে কথোপকথন আরম্ভ করতে ত্রুটি - %s"
-
-#~ msgid "general failure"
-#~ msgstr "সাধারণ বিফলতা"
-
-#~ msgid "out of memory"
-#~ msgstr "পর্যাপ্ত মেমরি অনুপস্থিত"
-
-#~ msgid "application programmer error"
-#~ msgstr "অ্যাপ্লিকেশন প্রোগ্রামার সংক্রান্ত ত্রুটি"
-
-#~ msgid "unknown error"
-#~ msgstr "অজানা ত্রুটি"
-
-#~| msgid ""
-#~| "error informing authentication system of preferred username prompt - %s"
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt: %s"
-#~ msgstr ""
-#~ "অনুমোদন ব্যবস্থাকে পছন্দসই ব্যবহারকারীর নামের প্রমপ্ট সংক্রান্ত তথ্য জানাতে ত্রুটি: %s"
-
-#~| msgid "error informing authentication system of user's hostname - %s"
-#~ msgid "error informing authentication system of user's hostname: %s"
-#~ msgstr "অনুমোদন ব্যবস্থাকে ব্যবহারকারীর হোস্ট নাম সংক্রান্ত তথ্য জানাতে ত্রুটি: %s"
-
-#~| msgid "error informing authentication system of user's console - %s"
-#~ msgid "error informing authentication system of user's console: %s"
-#~ msgstr "অনুমোদন ব্যবস্থাকে ব্যবহারকারীর কনসোল সংক্রান্ত তথ্য জানাতে ত্রুটি: %s"
-
-#~| msgid "error informing authentication system of display string - %s"
-#~ msgid "error informing authentication system of display string: %s"
-#~ msgstr "অনুমোদন ব্যবস্থাকে ডিসপ্লে স্ট্রিং সংক্রান্ত তথ্য জানাতে ত্রুটি: %s"
-
-#~| msgid ""
-#~| "error informing authentication system of display xauth credentials - %s"
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials: %s"
-#~ msgstr "অনুমোদন ব্যবস্থাকে ডিসপ্লের xauth পরিচয় সংক্রান্ত তথ্য জানাতে ত্রুটি: %s"
-
-#~ msgid "User %s doesn't exist"
-#~ msgstr "%s নামক ব্যবহারকারী অনুপস্থিত"
-
-#~ msgid "Group %s doesn't exist"
-#~ msgstr "%s নামক দল অনুপস্থিত"
-
-#~ msgid "Denied XDMCP query from host %s"
-#~ msgstr "হোস্ট %s থেকে প্রাপ্ত XDMCP কোয়েরি প্রত্যাখ্যান করা হয়েছে"
-
-#~ msgid "Could not extract authlist from packet"
-#~ msgstr "প্যাকেট থেকে authlist পড়া যায়নি"
-
-#~ msgid "Error in checksum"
-#~ msgstr "checksum এ ত্রুটি"
-
-#~ msgid "Bad address"
-#~ msgstr "ঠিকানা সঠিক নয়"
-
-#~ msgid "%s: Could not read display address"
-#~ msgstr "%s: ডিসপ্লে ঠিকানা পড়তে ব্যর্থ"
-
-#~ msgid "%s: Could not read display port number"
-#~ msgstr "%s: ডিসপ্লের ব্যবহৃত পোর্ট সংখ্যা পড়তে ব্যর্থ"
-
-#~ msgid "%s: Could not extract authlist from packet"
-#~ msgstr "%s: প্যাকেট থেকে authlist পড়া যায়নি"
-
-#~ msgid "%s: Error in checksum"
-#~ msgstr "%s: checksumএ ত্রুটি"
-
-#~ msgid "%s: Got REQUEST from banned host %s"
-#~ msgstr "%1$s: নিষিদ্ধ হোস্ট %2$s থেকে REQUEST পেয়েছে"
-
-#~ msgid "%s: Could not read Display Number"
-#~ msgstr "%s: ডিসপ্লের সংখ্যা পড়তে ব্যর্থ"
-
-#~ msgid "%s: Could not read Connection Type"
-#~ msgstr "%s: সংযোগের ধরণ পড়তে ব্যর্থ"
-
-#~ msgid "%s: Could not read Client Address"
-#~ msgstr "%s: ক্লায়েন্টের ঠিকানা পড়তে ব্যর্থ"
-
-#~ msgid "%s: Could not read Authentication Data"
-#~ msgstr "%s: পরিচয় প্রমাণকারী তথ্য পড়তে ব্যর্থ"
-
-#~ msgid "%s: Could not read Authorization List"
-#~ msgstr "%s: পরিচয় প্রমাণকারী তালিকা পড়তে ব্যর্থ"
-
-#~ msgid "%s: Could not read Manufacturer ID"
-#~ msgstr "%s: প্রস্তুতকারকের ID পড়তে ব্যর্থ"
-
-#~ msgid "%s: Failed checksum from %s"
-#~ msgstr "%1$s: %2$s থেকে প্রাপ্ত checksum সঠিক নয়"
-
-#~ msgid "%s: Got Manage from banned host %s"
-#~ msgstr "%1$s: নিষিদ্ধ হোস্ট %2$s থেকে MANAGE পেয়েছে"
-
-#~ msgid "%s: Could not read Session ID"
-#~ msgstr "%s: সেশন ID পড়তে ব্যর্থ"
-
-#~ msgid "%s: Could not read Display Class"
-#~ msgstr "%s: ডিসপ্লে ক্লাস পড়তে ব্যর্থ"
-
-#~ msgid "%s: Could not read address"
-#~ msgstr "%s: ঠিকানা পড়তে ব্যর্থ"
-
-#~ msgid "%s: Got KEEPALIVE from banned host %s"
-#~ msgstr "%1$s: নিষিদ্ধ হোস্ট %2$s থেকে KEEPALIVE পেয়েছে"
-
-#~ msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-#~ msgstr "GdmXdmcpDisplayFactory: XDMCP হেডার পড়তে ব্যর্থ!"
-
-#~ msgid "Could not get server hostname: %s!"
-#~ msgstr "সার্ভারের হোস্ট নাম পাওয়া যায়নি: %s!"
-
-#~ msgid "Logdir %s does not exist or isn't a directory."
-#~ msgstr "Logdir %s অনুপস্থিত বা ডিরেক্টরি নয়।"
-
-#~ msgid "Authdir %s does not exist. Aborting."
-#~ msgstr "Authdir %s অনুপস্থিত। বাতিল করা হচ্ছে।"
-
-#~ msgid "Authdir %s is not a directory. Aborting."
-#~ msgstr "Authdir %s ডিরেক্টরি নয়। বাতিল করা হচ্ছে।"
-
-#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-#~ msgstr ""
-#~ "Authdir %s, %1d ব্যবহারকারী ও %2d দলের মালিকানাধীন নয়। বাতিল করা হচ্ছে।"
-
-#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-#~ msgstr ""
-#~ "Authdir %s-র জন্য উল্লিখিত অনুমতি %1o সঠিক নয়। %2o হওয়া উচিত। বাতিল করা হচ্ছে।"
-
-#~| msgid "AT SPI Registry Wrapper"
-#~ msgid "AT-SPI Registry Wrapper"
-#~ msgstr "AT-SPI রেজিস্ট্রি র‍্যাপারে"
-
-#~ msgid "Login Window"
-#~ msgstr "লগইন উইন্ডো"
-
-#~ msgid "Power Manager"
-#~ msgstr "পাওয়ার ম্যানেজার"
-
-#~ msgid "GNOME Session Acceleration Checker"
-#~ msgstr "GNOME সেশন এক্সিলারেশন চেকার"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "GNOME বৈশিষ্ট্য সংক্রান্ত ডেমন"
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "GNOME পর্দা বিবর্ধক"
-
-#~ msgid "Magnify parts of the screen"
-#~ msgstr "পর্দার একটি অংশ বিবর্ধন করা হবে"
-
-#~| msgid "GNOME Onscreen Keyboard"
-#~ msgid "GNOME On-Screen Keyboard"
-#~ msgstr "GNOME অন-স্ক্রিন কীবোর্ড"
-
-#~| msgid "Use an onscreen keyboard"
-#~ msgid "Use an on-screen keyboard"
-#~ msgstr "অন-স্ক্রীন কীবোর্ড ব্যবহার করা হবে"
-
-#~ msgid "Metacity"
-#~ msgstr "Metacity"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "Orca পর্দা পাঠক"
-
-#~ msgid "Present on-screen information as speech or braille"
-#~ msgstr "ভাষ্য অথবা ব্রেইলের মাধ্যমে পর্দায় তথ্য উপস্থাপন করা হবে"
-
-#~ msgid "PolicyKit Authentication Agent"
-#~ msgstr "PolicyKit অনুমোদনের এজেন্ট"
-
-#~ msgid "Value"
-#~ msgstr "মান"
-
-#~ msgid "percentage of time complete"
-#~ msgstr "সমাপ্ত সময়ের শতাংশ"
-
-#~ msgid "Inactive Text"
-#~ msgstr "নিষ্ক্রিয় পাঠ্য"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr ""
-#~ "ব্যবহারকারীরা দ্বারা কোনো বস্তু নির্বাচিত না হলে, লেবেলের জন্য ব্যবহারযোগ্য পাঠ্য"
-
-#~ msgid "Active Text"
-#~ msgstr "সক্রিয় পাঠ্য"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr ""
-#~ "ব্যবহারকারীরা দ্বারা কোনো বস্তু নির্বাচিত হলে, লেবেলের জন্য ব্যবহারযোগ্য পাঠ্য"
-
-#~ msgid "List Visible"
-#~ msgstr "দৃশ্যমান তালিকা"
-
-# Translated by sadia
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "নির্বাচনকারীর তালিকা প্রদর্শিত হবে কি না"
-
-# Translated by sadia
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%a %b %e, %l:%M:%S %p"
-
-# Translated by sadia
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%a %b %e, %l:%M %p"
-
-# Translated by sadia
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%a %l:%M:%S %p"
-
-# Translated by sadia
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%a %l:%M %p"
-
-#~| msgid "Automatically logging in..."
-#~ msgid "Automatically logging in…"
-#~ msgstr "স্বয়ংক্রিয় লগইন করছে…"
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "ভাষা নির্বাচন করে লগইন ক্লিক করুন"
-
-#~| msgid "Cancelling..."
-#~ msgid "Cancelling…"
-#~ msgstr "বাতিল করা হচ্ছে…"
-
-#~ msgctxt "customsession"
-#~ msgid "Custom"
-#~ msgstr "পছন্দসই"
-
-#~ msgid "Custom session"
-#~ msgstr "পছন্দসই সেশন"
-
-#~| msgid "Panel"
-#~ msgid "Cancel"
-#~ msgstr "বাতিল"
-
-#~ msgid "Computer Name"
-#~ msgstr "কম্পিউটারের নাম"
-
-#~| msgid "Log In"
-#~ msgid "Login"
-#~ msgstr "লগইন"
-
-#~ msgid "Unlock"
-#~ msgstr "অনবরুদ্ধ"
-
-#~ msgid "Version"
-#~ msgstr "সংস্করণ"
-
-#~ msgid "Suspend"
-#~ msgstr "স্থগিত করুন"
-
-#~ msgid "Restart"
-#~ msgstr "পুনরায় আরম্ভ করুন"
-
-#~ msgid "Shut Down"
-#~ msgstr "বন্ধ করুন"
-
-#~ msgid "Unknown time remaining"
-#~ msgstr "অজানা অবশিষ্ট সময়"
-
-#~ msgid "Panel"
-#~ msgstr "প্যানেল"
-
-#~ msgid "Languages"
-#~ msgstr "ভাষা"
-
-#~ msgid "_Languages:"
-#~ msgstr "ভাষা: (_L)"
-
-#~ msgid "_Language:"
-#~ msgstr "ভাষা: (_L)"
-
-#~| msgctxt "language"
-#~| msgid "Other..."
-#~ msgctxt "language"
-#~ msgid "Other…"
-#~ msgstr "অন্যান্য…"
-
-#~ msgid "Choose a language from the full list of available languages."
-#~ msgstr "বিদ্যমান ভাষার সম্পূর্ণ তালিকা থেকে একটি ভাষা নির্বাচন করুন।"
-
-#~| msgid "Languages"
-#~ msgid "Language"
-#~ msgstr "ভাষা"
-
-#~ msgid "Unspecified"
-#~ msgstr "অনির্দিষ্ট"
-
-#~ msgid "Label Text"
-#~ msgstr "লেবেল পাঠ্য"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "লেবেল হিসেবে ব্যবহৃত টেক্সট"
-
-#~ msgid "Icon name"
-#~ msgstr "আইকনের নাম"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "লেবেলের সাথে ব্যবহারযোগ্য আইকন"
-
-#~ msgid "Default Item"
-#~ msgstr "পূর্বনির্ধারিত উপাদান"
-
-# Translated by sadia
-#~ msgid "The ID of the default item"
-#~ msgstr "পূর্বনির্ধারিত বিষয়টির আইডি"
-
-#~ msgid "Max Item Count"
-#~ msgstr "সর্বাধিক বস্তু সংখ্যা"
-
-#~ msgid "The maximum number of items to keep around in the list"
-#~ msgstr "তালিকার মধ্যে অন্তর্ভুক্ত করার উদ্দেশ্যে সর্বাধিক বস্তু সংখ্যা"
-
-#~| msgid "Remote Login (Connecting to %s...)"
-#~ msgid "Remote Login (Connecting to %s…)"
-#~ msgstr "দূরবর্তী লগইন (%s-র সাথে সংযোগ স্থাপন করা হচ্ছে…)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "দূরবর্তী লগইন (%s-র সাথে সংযুক্ত)"
-
-#~ msgid "Remote Login"
-#~ msgstr "দূরবর্তী লগইন"
-
-#~| msgid "_Sessions:"
-#~ msgid "Session"
-#~ msgstr "সেশন"
-
-#~ msgid "Banner message text when chooser is empty"
-#~ msgstr "নির্বাচন ব্যবস্থা ফাঁকা হলে, ব্যানারের বার্তার পাঠ্য"
-
-#~ msgid "Do not show known users in the login window"
-#~ msgstr "লগইন উইন্ডোর মধ্যে পরিচিত ব্যবহারকারীদের নাম প্রদর্শন করা হবে না"
-
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "অ্যাক্সেসিবিলিটি কীবোর্ড প্লাগ-ইন সক্রিয় করা হবে"
-
-#~ msgid "Enable on-screen keyboard"
-#~ msgstr "পর্দায় স্থাপিত কীবোর্ড সক্রিয় করা হবে"
-
-#~ msgid "Enable screen magnifier"
-#~ msgstr "পর্দা বিবর্ধক সক্রিয় করা হবে"
-
-#~ msgid "Enable screen reader"
-#~ msgstr "পর্দা পাঠক সক্রিয় করা হবে"
-
-#~ msgid "Icon name to use for greeter logo"
-#~ msgstr "অভিবাদনের লোগোর জন্য ব্যবহৃত আইকনের নাম"
-
-#~ msgid "Recently selected languages"
-#~ msgstr "সম্প্রতি নির্বাচিত ভাষা"
-
-#~| msgid ""
-#~| "Set to a list of languages to be shown by default at the login window."
-#~ msgid ""
-#~ "Set to a list of languages to be shown by default in the login window."
-#~ msgstr ""
-#~ "লগইন উইন্ডোর মধ্যে পূর্বনির্ধারিত হিসেবে প্রদর্শিত ভাষার তালিকায় নির্ধারণ করা হবে।"
-
-#~ msgid "Set to the themed icon name to use for the greeter logo."
-#~ msgstr "অভিবাদনের লোগোর জন্য ব্যবহৃত থিমের আইকনের নাম নির্ধারণ করা হবে।"
-
-#~ msgid "Set to true to disable showing known users in the login window."
-#~ msgstr ""
-#~ "লগইন উইন্ডোর মধ্যে পরিচিত ব্যবহারকারীদের নাম প্রদর্শন না করার জন্য মান true "
-#~ "নির্ধারণ করুন।"
-
-#~| msgid "Set to true to enable the xrandr settings manager plugin."
-#~ msgid "Set to true to enable the XRandR settings manager plugin."
-#~ msgstr ""
-#~ "XRandR বৈশিষ্ট্য পরিচালনার প্লাগ-ইন সক্রিয় করার জন্য মান true নির্ধারণ করুন।"
-
-#~ msgid "Set to true to enable the background settings manager plugin."
-#~ msgstr "পটভূমি পরিচালনার প্লাগ-ইন সক্রিয় করার জন্য মান true নির্ধারণ করুন।"
-
-#~ msgid "Set to true to enable the media-keys settings manager plugin."
-#~ msgstr "media-keys পরিচালনার প্লাগ-ইন সক্রিয় করার জন্য মান true নির্ধারণ করুন।"
-
-#~ msgid "Set to true to enable the on-screen keyboard."
-#~ msgstr "পর্দার উপস্থিত কীবোর্ড সক্রিয় করার জন্য মান true নির্ধারণ করুন।"
-
-#~ msgid ""
-#~ "Set to true to enable the plugin to manage the accessibility keyboard "
-#~ "settings."
-#~ msgstr ""
-#~ "অ্যাক্সেসিবিলিটি কীবোর্ড সেটিং ব্যবস্থাপনার জন্য প্লাগ-ইন সক্রিয় করার জন্য মান "
-#~ "true নির্ধারণ করুন।"
-
-#~ msgid "Set to true to enable the screen magnifier."
-#~ msgstr "পর্দা বিবর্ধক সক্রিয় করার জন্য মান true নির্ধারণ করুন।"
-
-#~ msgid "Set to true to enable the screen reader."
-#~ msgstr "পর্দা পাঠক সক্রিয় করার জন্য মান true নির্ধারণ করুন।"
-
-#~ msgid "Set to true to enable the sound settings manager plugin."
-#~ msgstr ""
-#~ "শব্দের বৈশিষ্ট্য পরিচালনার প্লাগ-ইন সক্রিয় করার জন্য মান true নির্ধারণ করুন।"
-
-#~ msgid "Set to true to enable the xsettings settings manager plugin."
-#~ msgstr ""
-#~ "xsettings বৈশিষ্ট্য পরিচালনার প্লাগ-ইন সক্রিয় করার জন্য মান true নির্ধারণ করুন।"
-
-#~| msgid "Set to true to use compiz as the window manager."
-#~ msgid "Set to true to use Compiz as the window manager."
-#~ msgstr ""
-#~ "উইন্ডো পরিচালন ব্যবস্থা রূপে Compiz ব্যবহারের জন্য মান true নির্ধারণ করা হবে।"
-
-#~| msgid ""
-#~| "Text banner message to show on the login window when the user chooser is "
-#~| "empty, instead of banner_message_text."
-#~ msgid ""
-#~ "Text banner message to show in the login window when the user chooser is "
-#~ "empty, instead of banner_message_text."
-#~ msgstr ""
-#~ "ব্যবহারকারী নির্বাচনের তালিকা ফাঁকা হলে banner_message_text এর পরিবর্তে, লগইন "
-#~ "উইন্ডোর মধ্যে প্রদর্শনযোগ্য পাঠ্য ব্যানার বার্তা।"
-
-#~| msgid "True if the xrandr settings manager plugin is enabled."
-#~ msgid "True if the XRandR settings manager plugin is enabled."
-#~ msgstr "XRandR বৈশিষ্ট্য পরিচালনার প্লাগ-ইন সক্রিয় হলে মান True হবে।"
-
-#~ msgid "True if the background settings manager plugin is enabled."
-#~ msgstr "পটভূমির বৈশিষ্ট্য পরিচালনার প্লাগ-ইন সক্রিয় হলে মান True হবে।"
-
-#~ msgid "True if the media-keys settings manager plugin is enabled."
-#~ msgstr "media-keys বৈশিষ্ট্য পরিচালনার প্লাগ-ইন সক্রিয় হলে মান True হবে।"
-
-#~ msgid "True if the sound settings manager plugin is enabled."
-#~ msgstr "শব্দের বৈশিষ্ট্য পরিচালনার প্লাগ-ইন সক্রিয় হলে মান True হবে।"
-
-#~ msgid "True if the xsettings settings manager plugin is enabled."
-#~ msgstr "xsettings বৈশিষ্ট্য পরিচালনার প্লাগ-ইন সক্রিয় হলে মান True হবে।"
-
-#~| msgid "Use compiz as the window manager"
-#~ msgid "Use Compiz as the window manager"
-#~ msgstr "উইন্ডো ম্যানেজার হিসেবে Compiz ব্যবহার করা হবে"
-
-#~ msgid "Duration"
-#~ msgstr "সময়কাল"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "টাইমার বন্ধ হওয়ার পূর্বে অতিবাহিত সেকেন্ড সংখ্যা"
-
-#~ msgid "Start time"
-#~ msgstr "আরম্ভের সময়"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "টাইমার আরম্ভের সময়"
-
-#~ msgid "Is it Running?"
-#~ msgstr "চলছে কি?"
-
-# Translated by sadia
-#~ msgid "Whether the timer is currently ticking"
-#~ msgstr "টাইমার বর্তমানে গণনা করছে কি না"
-
-#~ msgid "Log in as %s"
-#~ msgstr "%s পরিচয়ে লগইন করুন"
-
-#~| msgctxt "user"
-#~| msgid "Other..."
-#~ msgctxt "user"
-#~ msgid "Other…"
-#~ msgstr "অন্যান্য…"
-
-#~ msgid "Choose a different account"
-#~ msgstr "ভিন্ন অ্যাকউন্ট নির্বাচন করুন"
-
-#~ msgid "Guest"
-#~ msgstr "অতিথি"
-
-#~| msgid "Login as a temporary guest"
-#~ msgid "Log in as a temporary guest"
-#~ msgstr "অস্থায়ী অতিথি হিসেবে লগইন"
-
-#~ msgid "Automatic Login"
-#~ msgstr "স্বয়ংক্রিয় লগইন"
-
-#~| msgid "Automatically login to the system after selecting options"
-#~ msgid "Automatically log into the system after selecting options"
-#~ msgstr "বিকল্প নির্বাচনের পরে স্বয়ংক্রিয়রূপে সিস্টেমে লগইন"
-
-#~ msgid "Currently logged in"
-#~ msgstr "বর্তমানে লগইন করা হয়েছে"
-
-#~ msgid "Couldn't set groupid to 0"
-#~ msgstr "groupid এর মান 0 নির্ধারণ করতে ব্যর্থ"
-
-# Translated by sadia
-#~ msgid "%x"
-#~ msgstr "%x"
-
-# Translated by sadia
-#~ msgid "Shutdown Options..."
-#~ msgstr "বন্ধ করার অপশন..."
-
-#~ msgid "Keyboard layouts"
-#~ msgstr "কীবোর্ড বিন্যাস"
-
-#~ msgid "_Keyboard:"
-#~ msgstr "কীবোর্ড: (_K)"
-
-#~ msgctxt "keyboard"
-#~ msgid "Other..."
-#~ msgstr "অন্যান্য..."
-
-#~ msgid "Choose a keyboard layout from the full list of available layouts."
-#~ msgstr ""
-#~ "বিদ্যমান কীবোর্ড বিন্যাসের সম্পূর্ণ তালিকা থেকে একটি কীবোর্ড বিন্যাস নির্বাচন করুন।"
-
-#~ msgid "Recently selected keyboard layouts"
-#~ msgstr "সম্প্রতি নির্বাচিত কীবোর্ড বিন্যাস"
-
-#~ msgid ""
-#~ "Set to a list of keyboard layouts to be shown by default at the login "
-#~ "window."
-#~ msgstr ""
-#~ "লগইন উইন্ডোর মধ্যে পূর্বনির্ধারিত হিসেবে প্রদর্শিত কীবোর্ড বিন্যাসের তালিকায় "
-#~ "নির্ধারণ করা হবে।"
-
-#~ msgid "Manager"
-#~ msgstr "ম্যানেজার"
-
-#~ msgid "The user manager object this user is controlled by."
-#~ msgstr "ব্যবহারকারী নিয়ন্ত্রণ করার জন্য প্রয়োগ হওয়া ব্যবহারকারী ম্যানেজার বস্তু।"
-
-#~ msgid ""
-#~ "The User Switch Applet is free software; you can redistribute it and/or "
-#~ "modify it under the terms of the GNU General Public License as published "
-#~ "by the Free Software Foundation; either version 2 of the License, or (at "
-#~ "your option) any later version."
-#~ msgstr ""
-#~ "ব্যবারকারী পরিবর্তন অ্যাপ্লেট একটি বিনামূল্য সফ্টওয়্যার; Free Software Foundation "
-#~ "দ্বারা প্রকাশিত GNU General Public License-র শর্তানুযায়ী এটি বিতরণ ও পরিবর্তন "
-#~ "করা যাবে; হয় লাইসেন্সের সংস্করণ ২ অথবা (আপনার সুবিধানুযায়ী) সাম্প্রতিক কোনো "
-#~ "সংস্করণ।"
-
-#~ msgid ""
-#~ "This program is distributed in the hope that it will be useful, but "
-#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
-#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
-#~ "Public License for more details."
-#~ msgstr ""
-#~ "এটি বিতরণ করার মূল উদ্দেশ্য হলো ব্যবহারকারী এর দ্বারা উপকৃত হবেন, কিন্তু কোন "
-#~ "ওয়ারেন্টি ছাড়াই; এমনকি বাণিজ্যিক এবং একটি নির্দিষ্ট কাজের উপযোগিতার নিহিত "
-#~ "ওয়ারেন্টি ছাড়াই। আরও অধিক জানতে GNU General Public License দেখুন।"
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with this program; if not, write to the Free Software Foundation, Inc., "
-#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA "
-#~ msgstr ""
-#~ "আপনি এই প্রোগ্রামের সাথে GNU General Public License-র একটি প্রতিলিপি পাবেন; "
-#~ "যদি না থাকে, তাহলে ree Software Foundation, Inc., 51 Franklin Street, "
-#~ "Fifth Floor, Boston, MA 02110-1301, USA লিখে পাঠান।"
-
-#~ msgid "A menu to quickly switch between users."
-#~ msgstr "ব্যবহারকারী অ্যাকাউন্টের মধ্যে দ্রুত পরিবর্তনের জন্য ব্যবহারযোগ্য মেনু।"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "অঙ্কুর প্রকল্পের পক্ষে, প্রজ্ঞা [ abulfazl@juniv.edu ]\n"
-#~ "ইন্দ্রনীল দাশগুপ্ত <indradg@bengalinux.org>\n"
-#~ "মাহে আলম খান <makl10n@yahoo.com>\n"
-#~ "সামিয়া নিয়ামতুল্লাহ <mailsamia2001@yahoo.com>\n"
-#~ "রুণা ভট্টাচার্য্য (runab@redhat.com)\n"
-#~ "লোবা ইয়াসমিন <loba@ankur.org.bd>\n"
-#~ "সাদিয়া আফরোজ <sadia@ankur.org.bd>\n"
-#~ "ইসরাত জাহান <israt@ankur.org.bd>"
-
-#~ msgid "Can't lock screen: %s"
-#~ msgstr "পর্দা লক করতে ব্যর্থ: %s"
-
-#~ msgid "Can't temporarily set screensaver to blank screen: %s"
-#~ msgstr "ফাঁকা পর্দায় অস্থায়িভাবে স্ক্রিনসেভার নির্ধারণ করা যাবে না: %s"
-
-#~ msgid "Can't logout: %s"
-#~ msgstr "লগ-আউট করতে ব্যর্থ: %s"
-
-#~ msgid "Available"
-#~ msgstr "উপস্থিত"
-
-#~ msgid "Invisible"
-#~ msgstr "অদৃশ্য"
-
-#~ msgid "Busy"
-#~ msgstr "ব্যস্ত"
-
-#~ msgid "Away"
-#~ msgstr "অন্যত্র"
-
-#~ msgid "Account Information"
-#~ msgstr "অ্যাকাউন্ট সংক্রান্ত তথ্য"
-
-#~ msgid "System Preferences"
-#~ msgstr "সিস্টেমের পছন্দসমূহ"
-
-#~ msgid "Lock Screen"
-#~ msgstr "পর্দা লক করুন"
-
-#~ msgid "Switch User"
-#~ msgstr "ব্যবহারকারী অ্যাকাউন্ট পরিবর্তন"
-
-#~ msgid "Quit..."
-#~ msgstr "প্রস্থান..."
-
-#~ msgid "Unknown"
-#~ msgstr "অজানা"
-
-#~ msgid "User Switch Applet"
-#~ msgstr "ব্যবহারকারী অ্যাকাউন্ট পরিবর্তনের অ্যাপ্লেট"
-
-#~ msgid "Change account settings and status"
-#~ msgstr "অ্যাকাউন্টের সেটিং ও অবস্থা পরিবর্তন করুন"
-
-#~ msgid "A menu to quickly switch between users"
-#~ msgstr "ভিন্ন ব্যবহারকারী অ্যাকাউন্টে দ্রুত পরিবর্তন করতে ব্যবহৃত একটি মেনু"
-
-#~ msgid "User Switcher"
-#~ msgstr "ব্যবহারকারী অ্যাকাউন্ট পরিবর্তনকারী"
-
-#~ msgid "User Switcher Applet Factory"
-#~ msgstr "ব্যবহারকারী পরিবর্তন কারী অ্যাপলেট ফ্যাক্টরি"
-
-#~ msgid "Edit Personal _Information"
-#~ msgstr "ব্যক্তিগত তথ্য সম্পাদনা (_I)"
-
-#~ msgid "_About"
-#~ msgstr "পরিচিতি (_A)"
-
-#~ msgid "_Edit Users and Groups"
-#~ msgstr "ব্যবহারকারী ও গ্রুপ পরিবর্তন (_E)"
-
-#~ msgid "Enable debugging code"
-#~ msgstr "কোড ডিবাগকরণ সক্রিয় করা হবে"
-
-#~ msgid "id"
-#~ msgstr "id"
-
-#~ msgid "%a %b %e"
-#~ msgstr "%a %b %e"
-
-#~ msgid "%1$s, %2$s"
-#~ msgstr "%1$s, %2$s"
-
-#~ msgid "Authentication Dialog"
-#~ msgstr "প্রমানীকরণ ডায়ালগ"
-
-#~ msgid "Enable debugging"
-#~ msgstr "ডিবাগ ব্যবস্থা সক্রিয় করুন"
-
-#~ msgid "Enable debugging mode for the greeter."
-#~ msgstr "অভিবাদন জন্য ডিবাগ মোড সক্রিয় করা হবে।"
