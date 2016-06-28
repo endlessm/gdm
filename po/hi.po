@@ -7,13 +7,13 @@
 # G Karunakar <karunakar@freedomink.org>, 2003
 # rajesh <rajeshkajha@yahoo.com>, 2012-2014
 # Rajesh Ranjan <rajesh672@gmail.com>, 2009
-# Rajesh Ranjan <rranjan@redhat.com>, 2005-2006,2008-2011
+# Rajesh Ranjan <rajesh672@gmail.com>, 2005-2006,2008-2011
 # Ravishankar Shrivastava <raviratlami@yahoo.com>, 2004
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-05 02:29+0000\n"
+"POT-Creation-Date: 2016-06-21 02:34+0000\n"
 "PO-Revision-Date: 2015-12-01 06:24+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Hindi (http://www.transifex.com/endless-mobile-inc/gdm/language/hi/)\n"

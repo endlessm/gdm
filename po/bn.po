@@ -12,13 +12,14 @@
 # runab <runab@redhat.com>, 2008-2009
 # Sadia Afroz <sadia@ankur.org.bd>, 2010
 # Samia Niamatullah <mailsamia2001@yahoo.com>, 2005
+# Shimon Sharmin <oparthib@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-04-12 02:26+0000\n"
-"PO-Revision-Date: 2016-04-16 04:57+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"POT-Creation-Date: 2016-06-21 02:34+0000\n"
+"PO-Revision-Date: 2016-06-23 07:12+0000\n"
+"Last-Translator: Shimon Sharmin <oparthib@gmail.com>\n"
 "Language-Team: Bengali (http://www.transifex.com/endless-mobile-inc/gdm/language/bn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,24 +41,24 @@ msgstr "বর্তমান সেশান সনাক্ত করা য�
 #: ../common/gdm-common.c:626 ../libgdm/gdm-user-switching.c:351
 #, c-format
 msgid "User unable to switch sessions."
-msgstr ""
+msgstr "ব্যবহারকারী সেশান পরিবর্তন করতে ব্যর্থ।"
 
 #: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
 #, c-format
 msgid "Could not identify the current seat."
-msgstr ""
+msgstr "বর্তমান স্থান সনাক্ত করা যায়নি।"
 
 #: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
+msgstr "বিদ্যমান লগিন পর্দায় যাবে নাকি নতুন লগিন পর্দা শুরু করবে এই সিদ্ধান্ত নিতে সিস্টেম ব্যর্থ।"
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
 msgid "The system is unable to start up a new login screen."
-msgstr ""
+msgstr "নতুন লগিন পর্দা শুরু করতে সিস্টেম ব্যর্থ।"
 
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
@@ -66,17 +67,17 @@ msgstr "সিস্টেমের মধ্যে \"%s\" নামক ব্�
 
 #: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
 msgid "No session available"
-msgstr ""
+msgstr "কোন সেশান পাওয়া যায়নি"
 
 #: ../daemon/gdm-manager.c:953
 #, c-format
 msgid "Can only be called before user is logged in"
-msgstr ""
+msgstr "শুধুমাত্র ব্যবহারকারী লগিন করার আগে আহ্বান করা যাবে"
 
 #: ../daemon/gdm-manager.c:962
 #, c-format
 msgid "Caller not GDM"
-msgstr ""
+msgstr "আহ্বানকারী GDM নয়"
 
 #: ../daemon/gdm-server.c:437
 #, c-format
@@ -145,15 +146,15 @@ msgstr "ডিসপ্লে ডিভাইস"
 
 #: ../daemon/gdm-session.c:1216
 msgid "Could not create authentication helper process"
-msgstr ""
+msgstr "প্রমাণীকরণ সাহায্যকারী প্রক্রিয়া তৈরি করা যায়নি"
 
 #: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
-msgstr ""
+msgstr "আপনার একাউন্টকে প্রদানকৃত সময়সীমা ইতিমধ্যেই শেষ।"
 
 #: ../daemon/gdm-session-worker.c:853
 msgid "Sorry, that didn't work. Please try again."
-msgstr ""
+msgstr "দুঃখিত, কাজ হয়নি। অনুগ্রহ করে আবার চেষ্টা করুন।"
 
 #: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
@@ -161,11 +162,11 @@ msgstr "ব্যবহারকারী নাম:"
 
 #: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
-msgstr ""
+msgstr "একটি সঙ্কেত বা প্রশ্ন লিখুন যা আপনার পাসওয়ার্ড মনে রাখতে সাহায্য করবে।"
 
 #: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
-msgstr ""
+msgstr "পাসওয়ার্ড স্মরণকারী চিহ্ন"
 
 #: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
@@ -196,12 +197,12 @@ msgstr "PID ফাইল লিখতে ব্যর্থ %s : সম্ভব
 #: ../daemon/main.c:188
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr ""
+msgstr "ran once চিহ্নিতকারী dir %s: %s তৈরিতে ব্যর্থ"
 
 #: ../daemon/main.c:194
 #, c-format
 msgid "Failed to create LogDir %s: %s"
-msgstr ""
+msgstr "LogDir %s: %s তৈরিতে ব্যর্থ"
 
 #: ../daemon/main.c:229
 #, c-format
@@ -250,69 +251,69 @@ msgstr "GNOME ডিসপ্লে ম্যানেজার সেশন ক
 
 #: ../data/applications/gnome-shell.desktop.in.h:1
 msgid "GNOME Shell"
-msgstr ""
+msgstr "GNOME শেল"
 
 #: ../data/applications/gnome-shell.desktop.in.h:2
 msgid "Window management and compositing"
-msgstr ""
+msgstr "উইন্ডো ব্যবস্থাপনা এবং সংযুক্তিকরণ"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
-msgstr ""
+msgstr "আঙুলের ছাপ রিডার দিয়ে লগিন করা যাবে কি না"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:2
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
+msgstr "যেসব ব্যবহারকারী তাদের আঙুলের ছাপ তালিকাভুক্ত করেছেন সেসব আঙুলের ছাপ ব্যবহার করে লগিন করার ঐচ্ছিক ব্যবস্থা থাকতে পারে লগিন পর্দায়।"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
-msgstr ""
+msgstr "স্মার্টকার্ড রিডার দিয়ে লগিন করা যাবে কি না"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:4
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
+msgstr "যেসব ব্যবহারকারীর স্মার্টকার্ড রয়েছে তাদের জন্য স্মার্টকার্ড ব্যবহার করে লগিন করার ঐচ্ছিক ব্যবস্থা থাকতে পারে লগিন পর্দায়।"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
-msgstr ""
+msgstr "লগিন করতে পাসওয়ার্ড দরকার হবে কি না"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:6
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
+msgstr "লগিন পর্দাকে এমনভাবে কনফিগার করা যাবে যাতে পাসওয়ার্ডের বদলে ব্যবহারকারী স্মার্টকার্ড অথবা আঙুলের ছাপ ব্যবহার করতে বাধ্য হন।"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
-msgstr ""
+msgstr "ব্যবহারকারী তালিকার ওপরে ছোট্ট ছবির পথ"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:8
 msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
+msgstr "লগিন পর্দায় ঐচ্ছিকভাবে ব্যবহারকারী তালিকার ওপরে একটি ছোট্ট ছবি প্রদর্শনের ব্যবস্থা থাকে পারে যাতে সাইট ব্যবস্থাপক এবং বন্টনের জন্য চিহ্নিত করার একটি উপায় থাকে।"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
+msgstr "জরুরি লগিন পর্দায় ঐচ্ছিকভাবে ব্যবহারকারী তালিকার ওপরে একটি ছোট্ট ছবি প্রদর্শনের ব্যবস্থা থাকে পারে যাতে সাইট ব্যবস্থাপক এবং বন্টনের জন্য চিহ্নিত করার একটি উপায় থাকে।"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
-msgstr ""
+msgstr "ব্যবহারকারী তালিকা প্রদর্শনে বিরত থাকুন"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
 "The login screen normally shows a list of available users to log in as. This"
 " setting can be toggled to disable showing the user list."
-msgstr ""
+msgstr "সাধারণত লগিন পর্দায় ব্যবহারকারীদের তালিকা প্রদর্শিত হয় যেখান থেকে লগিন করা যাবে। এই সেটিংকে বদলে ব্যবহারকারী তালিকা প্রদর্শন অচল করে রাখা যায়।"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -341,13 +342,13 @@ msgstr "লগইন উইন্ডোর মধ্যে পুনরারম
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
-msgstr ""
+msgstr "অনুমোদিত ব্যর্থ প্রমাণীকরণ চেষ্টার সংখ্যা"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
+msgstr "হাল ছেড়ে দিয়ে ব্যবহারকারী বাছাইয়ে ফেরত যাবার আগে একজন ব্যবহারকারীকে যতোবার প্রমাণীকরণের চেষ্টা করতে অনুমোদন দেয়া হবে।"
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -363,19 +364,19 @@ msgstr "XDMCP: XDMCP শীর্ষচরণ পড়তে ব্যর্থ!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr ""
+msgstr "XDMCP: ভুল XDMCP ভার্সন!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
 msgid "XDMCP: Unable to parse address"
-msgstr ""
+msgstr "XDMCP: ঠিকানা বিশ্লেষণ করতে অপারগ"
 
 #: ../libgdm/gdm-user-switching.c:72
 msgid "Unable to create transient display: "
-msgstr ""
+msgstr "ক্ষণস্থায়ী ডিসপ্লে তৈরিতে অপারগ"
 
 #: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
 msgid "Unable to activate session: "
-msgstr ""
+msgstr "সেশান সচল করতে অপারগ"
 
 #: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
