@@ -1,21 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013.
-#
+# 
+# Translators:
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Tajik Gnome\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2013-07-30 22:28-0000\n"
-"Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
-"Language-Team: \n"
-"Language: Tajik\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:14+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Tajik (http://www.transifex.com/endless-mobile-inc/gdm/language/tg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"Language: tg\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -43,9 +44,7 @@ msgstr "Ҷои ҷорӣ муайян нашудааст."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"Система наметавонад муайян кунад, ки ба экрани мавҷудбудаи воридшавӣ табдил "
-"диҳад, ё ки экрани нави воридшавиро оғоз кунад."
+msgstr "Система наметавонад муайян кунад, ки ба экрани мавҷудбудаи воридшавӣ табдил диҳад, ё ки экрани нави воридшавиро оғоз кунад."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
@@ -74,8 +73,7 @@ msgstr "Дархосткунанда GDM намебошад"
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"Сервер бояд бо корбари %s ба вуҷуд меомад, аммо он корбар вуҷуд надорад"
+msgstr "Сервер бояд бо корбари %s ба вуҷуд меомад, аммо он корбар вуҷуд надорад"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
@@ -149,42 +147,34 @@ msgstr "Мӯҳлати ҳисоби шумо ба анҷом расид."
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Мутаассифона, амали шумо иҷро нашуд. Лутфан, амалро такрор кунед."
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Номи корбар:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr "Мӯҳлати пароли шумо ба анҷом расид, лутфан онро тағйир диҳед."
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "ягон ҳисоби корбар дастрас нест"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Тағйир додани корбар имконнопазир аст"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"X-сервер (муҳити графикии шумо) аз сабаби хатогии дохилӣ оғоз карда нашуд. "
-"Лутфан, бо маъмури системаи худ дар тамос шавед, ё ки барои ташхис сабти "
-"рӯйдодҳои системаи худро санҷед. Дар айни ҳол дисплей ғайрифаъол карда "
-"мешавад. Лутфан, баъд аз ислоҳ кардани мушкилӣ GDM-ро бозоғозӣ кунед."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "X-сервер (муҳити графикии шумо) аз сабаби хатогии дохилӣ оғоз карда нашуд. Лутфан, бо маъмури системаи худ дар тамос шавед, ё ки барои ташхис сабти рӯйдодҳои системаи худро санҷед. Дар айни ҳол дисплей ғайрифаъол карда мешавад. Лутфан, баъд аз ислоҳ кардани мушкилӣ GDM-ро бозоғозӣ кунед."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -193,8 +183,7 @@ msgstr "Бастагоҳ эҷод нашудааст!"
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Файли PID-и %s навишта нашуд: Эҳтимол аст, ки фазои диск ба анҷом расид: %s"
+msgstr "Файли PID-и %s навишта нашуд: Эҳтимол аст, ки фазои диск ба анҷом расид: %s"
 
 #: ../daemon/main.c:188
 #, c-format
@@ -267,9 +256,7 @@ msgstr "Иҷозат додан ё надодани хонандагони на�
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Экрани воридшавӣ метавонад ихтиёран ба корбароне, ки нақшҳои ангушти худро "
-"захира кардаанд, иҷозати воридшавиро тавассути он нақшҳо диҳад."
+msgstr "Экрани воридшавӣ метавонад ихтиёран ба корбароне, ки нақшҳои ангушти худро захира кардаанд, иҷозати воридшавиро тавассути он нақшҳо диҳад."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -279,9 +266,7 @@ msgstr "Иҷозат додан ё надодани хонандагони ко�
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Экрани воридшавӣ метавонад ихтиёран ба корбароне, ки корти ҳушманд доранд, "
-"иҷозати воридшавиро тавассути он кортҳои ҳушманд диҳад."
+msgstr "Экрани воридшавӣ метавонад ихтиёран ба корбароне, ки корти ҳушманд доранд, иҷозати воридшавиро тавассути он кортҳои ҳушманд диҳад."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -291,10 +276,7 @@ msgstr "Иҷозат додан ё надодани истифодаи паро�
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Экрани вуруд метавонад барои ғайрифаъол кардани санҷиши ҳаққонияти паролӣ "
-"танзим карда шавад, то ки корбарон тавонанд барои санҷиши ҳаққоният корти "
-"ҳушманд ё нақши ангуштро истифода баранд."
+msgstr "Экрани вуруд метавонад барои ғайрифаъол кардани санҷиши ҳаққонияти паролӣ танзим карда шавад, то ки корбарон тавонанд барои санҷиши ҳаққоният корти ҳушманд ё нақши ангуштро истифода баранд."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -305,20 +287,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"Экрани воридшавӣ метавонад ихтиёран тасвири хурдеро дар болои рӯйхати "
-"корбарон намоиш диҳад, то ин ки ба маъмурон ва пахшкунандагон имконияти "
-"брендингро диҳад."
+msgstr "Экрани воридшавӣ метавонад ихтиёран тасвири хурдеро дар болои рӯйхати корбарон намоиш диҳад, то ин ки ба маъмурон ва пахшкунандагон имконияти брендингро диҳад."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
-"Экрани иловагии воридшавӣ метавонад ихтиёран тасвири хурдеро дар болои "
-"рӯйхати корбарон намоиш диҳад, то ин ки ба маъмурон ва пахшкунандагон "
-"имконияти брендингро диҳад."
+msgstr "Экрани иловагии воридшавӣ метавонад ихтиёран тасвири хурдеро дар болои рӯйхати корбарон намоиш диҳад, то ин ки ба маъмурон ва пахшкунандагон имконияти брендингро диҳад."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -326,12 +302,9 @@ msgstr "Намоиш надодани рӯйхати корбарон"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Одатан экрани воридшавӣ рӯйхати корбарони барои воридшавӣ дастрасро намоиш "
-"медиҳад. Ин танзим метавонад тағйир дода шавад, то ин ки намоишдиҳии рӯйхати "
-"корбаронро ғайрифаъол карда шавад."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Одатан экрани воридшавӣ рӯйхати корбарони барои воридшавӣ дастрасро намоиш медиҳад. Ин танзим метавонад тағйир дода шавад, то ин ки намоишдиҳии рӯйхати корбаронро ғайрифаъол карда шавад."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -354,10 +327,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Ғайрифаъол кардани намоишдиҳии тугмаҳои бозоғозӣ"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Барои ғайрифаъол кардани тугмаҳои бозоғозӣ дар равзанаи воридшавӣ ба \"дуруст"
-"\" таъин карда шудааст."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Барои ғайрифаъол кардани тугмаҳои бозоғозӣ дар равзанаи воридшавӣ ба \"дуруст\" таъин карда шудааст."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -367,9 +339,7 @@ msgstr "Миқдори кӯшишҳои иҷозатшуда барои санҷ
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Миқдори маротибаҳое, ки корбар метавонад санҷиши ҳаққониятро кӯшиш кунад, "
-"пеш аз қатъ кардан ва бозгашт ба интихоби корбар."
+msgstr "Миқдори маротибаҳое, ки корбар метавонад санҷиши ҳаққониятро кӯшиш кунад, пеш аз қатъ кардан ва бозгашт ба интихоби корбар."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -433,331 +403,3 @@ msgstr "Сурати экрани гирифташуда"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Гирифтани сурати экран"
-
-#~ msgid "No session available yet"
-#~ msgstr "Ягон ҷаласа то ҳол дастрас нест"
-
-#~ msgid "Unable to look up UID of user %s"
-#~ msgstr "Намоиш додани UID барои корбари %s имконнопазир аст"
-
-#~ msgid "no sessions available"
-#~ msgstr "ягон ҷаласа дастрас нест"
-
-#~ msgid "No sessions for %s available for reauthentication"
-#~ msgstr "Барои санҷиши ҳаққонияти нави %s ягон ҷаласа дастрас нест"
-
-#~ msgid "Unable to find session for user %s"
-#~ msgstr "Ягон ҷаласа барои корбари %s ёфт нашуд"
-
-#~ msgid "Unable to find appropriate session for user %s"
-#~ msgstr "Ягон ҷаласаи мувофиқ барои корбари %s ёфт нашуд"
-
-#~ msgid "User doesn't own session"
-#~ msgstr "Қорбар соҳиби ин ҷаласа намебошад"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: ба дисплйеи асосии \"%s\" пайваст нашуд"
-
-#~ msgid "Your account was given an expiration date that's now passed."
-#~ msgstr "Мӯҳлати истифодаи ҳисоби шумо ба анҷом расид."
-
-#~ msgid "User not logged in"
-#~ msgstr "Корбар ворид шашудааст"
-
-#~ msgid "Currently, only one client can be connected at once"
-#~ msgstr ""
-#~ "Дар айни ҳол, дар як маротиба танҳо як муштарӣ метавонад пайваст шуда "
-#~ "бошад"
-
-#~ msgid "Failed to create AuthDir %s: %s"
-#~ msgstr "Директорияи санҷиши ҳаққонияти %s эҷод карда нашуд: %s"
-
-#~ msgid "Display ID"
-#~ msgstr "Рамзи дисплей"
-
-#~ msgid "ID"
-#~ msgstr "Рамзи ID"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "Коргари иловагии Мудири дисплейҳои GNOME"
-
-#~ msgid "Login Window"
-#~ msgstr "Равзанаи воридшавӣ"
-
-#~ msgid "Unable to start new display"
-#~ msgstr "Оғоз кардани дисплейи нав имконнопазир аст"
-
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr ""
-#~ "ҳангоми оғоз додани табдилдиҳӣ бо системаи санҷиши ҳаққоният хатогӣ ба "
-#~ "вуҷуд омадааст - %s"
-
-#~ msgid "general failure"
-#~ msgstr "вайронии умумӣ"
-
-#~ msgid "out of memory"
-#~ msgstr "ҳофизаи кофӣ нест"
-
-#~ msgid "application programmer error"
-#~ msgstr "Хатои барномарезии барнома"
-
-#~ msgid "unknown error"
-#~ msgstr "хатогии номаълум"
-
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt: %s"
-#~ msgstr ""
-#~ "ҳангоми маълумот додани системаи санҷиши ҳаққоният оид ба огоҳии лозимии "
-#~ "номи корбар хатогӣ ба вуҷуд омадааст: %s"
-
-#~ msgid "error informing authentication system of user's hostname: %s"
-#~ msgstr ""
-#~ "ҳангоми маълумот додани системаи санҷиши ҳаққоният оид ба номи мизбони "
-#~ "корбар хатогӣ ба вуҷуд омадааст: %s"
-
-#~ msgid "error informing authentication system of user's console: %s"
-#~ msgstr ""
-#~ "ҳангоми маълумот додани системаи санҷиши ҳаққоният оид ба консоли корбар "
-#~ "хатогӣ ба вуҷуд омадааст: %s"
-
-#~ msgid "error informing authentication system of display string: %s"
-#~ msgstr ""
-#~ "ҳангоми маълумот додани системаи санҷиши ҳаққоният оид ба сатри намоишӣ "
-#~ "хатогӣ ба вуҷуд омадааст: %s"
-
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials: %s"
-#~ msgstr ""
-#~ "ҳангоми маълумот додани системаи санҷиши ҳаққоният оид ба маълумоти "
-#~ "корбари xauth-и намоишӣ хатогӣ ба вуҷуд омадааст: %s"
-
-#~ msgid "Fingerprint Authentication"
-#~ msgstr "Санҷиши ҳаққоният тавассути нақши ангушт"
-
-#~ msgid "Log into session with fingerprint"
-#~ msgstr "Ворид шудан ба ҷаласа тавассути нақши ангушт"
-
-#~ msgid "Password Authentication"
-#~ msgstr "Санҷиши ҳаққоният тавассути парол"
-
-#~ msgid "Log into session with username and password"
-#~ msgstr "Ворид шудан ба ҷаласа тавассути корбар ва парол"
-
-#~ msgid "Log In"
-#~ msgstr "Ворид шудан"
-
-#~ msgid "Slot ID"
-#~ msgstr "ID-и ковокӣ"
-
-#~ msgid "The slot the card is in"
-#~ msgstr "Ковоке, ки корт дар дохили он аст"
-
-#~ msgid "Slot Series"
-#~ msgstr "Силсилаи ковокӣ"
-
-#~ msgid "per-slot card identifier"
-#~ msgstr "муайянкунандаи корти як ковокӣ"
-
-#~ msgid "name"
-#~ msgstr "ном"
-
-#~ msgid "Module"
-#~ msgstr "Модул"
-
-#~ msgid "smartcard driver"
-#~ msgstr "драйвери корти ҳушманд"
-
-#~ msgid "Smartcard Authentication"
-#~ msgstr "Санҷиши ҳаққоният тавассути корти ҳушманд"
-
-#~ msgid "Log into session with smartcard"
-#~ msgstr "Ворид шудан ба ҷаласа тавассути корти ҳушманд"
-
-#~ msgid "Module Path"
-#~ msgstr "Масири модул"
-
-#~ msgid "path to smartcard PKCS #11 driver"
-#~ msgstr "масир ба драйвери корти ҳушманди PKCS #11"
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "аз сарчашмаи рӯйдодҳо хатогӣ ё қатъ кардани пайваст қабул карда шуд"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "Системаи амнияти NSS оғоз карда нашуд"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "ягон драйвери корти ҳушманди мувофиқ ёфт нашуд"
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "драйвери корти ҳушманди '%s' бор карда намешавад"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "рӯйдодҳои дохилии кортро тамошо кардан нашуд - %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr ""
-#~ "ҳангоми интизори рӯйдодҳои кортҳои ҳушманд хатогии ногаҳонӣ ба вуҷуд омад"
-
-#~ msgid "Authentication"
-#~ msgstr "Санҷиши ҳаққоният"
-
-#~ msgid "Log into session"
-#~ msgstr "Ворид шудан ба ҷаласа"
-
-#~ msgid "Value"
-#~ msgstr "Қимат"
-
-#~ msgid "percentage of time complete"
-#~ msgstr "фоизи вақти гузашта"
-
-#~ msgid "Inactive Text"
-#~ msgstr "Матни ғаърифаъол"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr ""
-#~ "Матн барои истифода дар барчасп, агар корбар объектеро ҳоло интихоб "
-#~ "накарда бошад"
-
-#~ msgid "Active Text"
-#~ msgstr "Матни фаъол"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr ""
-#~ "Матн барои истифода дар барчасп, агар корбар объектеро интихоб карда бошад"
-
-#~ msgid "List Visible"
-#~ msgstr "Рӯйхати намоёнӣ"
-
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "Намоён ё нонамоён будани рӯйхати интихобкунанда"
-
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%a %b %e, %l:%M:%S %p"
-
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%a %b %e, %l:%M %p"
-
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%a %l:%M:%S %p"
-
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%a %l:%M %p"
-
-#~ msgid "Automatically logging in…"
-#~ msgstr "Ба таври худкор ворид шуда ситодааст..."
-
-#~ msgid "Cancelling…"
-#~ msgstr "Бекор шуда истодааст…"
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "Забонеро интихоб кунед ва варид шавед"
-
-#~ msgctxt "customsession"
-#~ msgid "Custom"
-#~ msgstr "Иловагӣ"
-
-#~ msgid "Custom session"
-#~ msgstr "Ҷаласаи фармоишӣ"
-
-#~ msgid "Computer Name"
-#~ msgstr "Номи компютер"
-
-#~ msgid "Version"
-#~ msgstr "Версия"
-
-#~ msgid "Cancel"
-#~ msgstr "Бекор кардан"
-
-#~ msgid "Unlock"
-#~ msgstr "Кушодан"
-
-#~ msgid "Login"
-#~ msgstr "Воридшавӣ"
-
-#~ msgid "Suspend"
-#~ msgstr "Таваққуф кардан"
-
-#~ msgid "Restart"
-#~ msgstr "Бозоғозӣ"
-
-#~ msgid "Shut Down"
-#~ msgstr "Анҷоми кор"
-
-#~ msgid "Unknown time remaining"
-#~ msgstr "Вақти боқимондаи номаълум"
-
-#~ msgid "Panel"
-#~ msgstr "Лавҳа"
-
-#~ msgid "Label Text"
-#~ msgstr "Матни барчасп"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "Матн барои истифода дар барчасп"
-
-#~ msgid "Icon name"
-#~ msgstr "Номи нишона"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "Нишона барои истифода бо барчасп"
-
-#~ msgid "Default Item"
-#~ msgstr "Объекти пешфарз"
-
-#~ msgid "The ID of the default item"
-#~ msgstr "Рамзи объекти пешфарз"
-
-#~ msgid "Remote Login (Connecting to %s…)"
-#~ msgstr "Воридшавии дурдаст (Ба %s пайваст шуда истодааст)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "Воридшавии дурдаст (Ба %s пайваст шудааст)"
-
-#~ msgid "Remote Login"
-#~ msgstr "Воридшавии дурдаст"
-
-#~ msgid "Session"
-#~ msgstr "Ҷаласа"
-
-#~ msgid "Duration"
-#~ msgstr "Давомнокӣ"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "Шумораи сонияҳо пеш аз истодани вақтсанҷ"
-
-#~ msgid "Start time"
-#~ msgstr "Вақти оғоз"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "Вақти оғози вақтсанҷ"
-
-#~ msgid "Is it Running?"
-#~ msgstr "Оё ин иҷро шуда истодааст?"
-
-#~ msgid "Whether the timer is currently ticking"
-#~ msgstr "Оғоз шудан ё нашудани вақтсанҷ"
-
-#~ msgid "Log in as %s"
-#~ msgstr "Ворид шудан ҳамчун %s"
-
-#~ msgctxt "user"
-#~ msgid "Other…"
-#~ msgstr "Дигар..."
-
-#~ msgid "Choose a different account"
-#~ msgstr "Интихоб кардани ҳисоби дигар"
-
-#~ msgid "Guest"
-#~ msgstr "Меҳмон"
-
-#~ msgid "Log in as a temporary guest"
-#~ msgstr "Ворид шудан ҳамчун меҳмони муваққатӣ"
-
-#~ msgid "Automatic Login"
-#~ msgstr "Воридшавии худкор"
-
-#~ msgid "Automatically log into the system after selecting options"
-#~ msgstr "Воридшавии худкор ба система баъд аз интихоби имконот"
-
-#~ msgid "Currently logged in"
-#~ msgstr "Дар айни ҳол ворид шудааст"

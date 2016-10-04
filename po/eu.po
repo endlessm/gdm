@@ -1,27 +1,25 @@
-# translation of eu.po to Basque
-# Copyright (C) 2001, 2004, 2006, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
-#
-# Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2004, 2005.
-# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2006,2007,2008, 2009, 2010.
-# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2011, 2012, 2013.
-# Julen Ruiz Aizpuru <julenx@gmail.com>, 2011.
-# Asier Sarasua Garmendia <asiersar@yahoo.com>, 2013.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Asier Sarasua Garmendia <asiersar@yahoo.com>, 2013
+# Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2004-2005
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2006-2013,2015-2016
+# julen <julenx@gmail.com>, 2011
 msgid ""
 msgstr ""
-"Project-Id-Version: eu\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2013-09-14 16:27+0200\n"
-"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
-"Language-Team: Basque <librezale@librezale.org>\n"
-"Language: eu\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:10+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Basque (http://www.transifex.com/endless-mobile-inc/gdm/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.4\n"
-"X-Project-Style: gnome\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -49,9 +47,7 @@ msgstr "Ezin izan da uneko saioa identifikatu."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"Sistemak ezin du saioa hasita duen pantaila batera aldatu edo saio-hasierako "
-"pantaila berri bat abiarazi behar duen zehatu."
+msgstr "Sistemak ezin du saioa hasita duen pantaila batera aldatu edo saio-hasierako pantaila berri bat abiarazi behar duen zehatu."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
@@ -80,9 +76,7 @@ msgstr "Deitzailea ez da GDM"
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"Zerbitzaria %s erabiltzaileak abiarazi behar zuen, baina erabiltzaile hori "
-"ez da existitzen"
+msgstr "Zerbitzaria %s erabiltzaileak abiarazi behar zuen, baina erabiltzaile hori ez da existitzen"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
@@ -156,42 +150,34 @@ msgstr "Zure kontuari denbora-muga bat eman zitzaion, orain iraungitu dena."
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Horrek ez du funtzionatzen. Saiatu berriro."
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Erabiltzaile-izena:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr "Zure pasahitza iraungitu da, aldatu ezazu orain."
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "ez dago erabiltzailearen konturik erabilgarri"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Ezin da erabiltzailez aldatu"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Ezin izan da X zerbitzaria (ingurune grafikoa) abiarazi barneko erroreen "
-"ondorioz. Jarri harremanetan sistema-administratzailearekin edo begiratu "
-"syslog-a arazteko. Bitartean pantaila hau desgaitu egingo da.  GDM "
-"berrabiarazi arazoa zuzendutakoan."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Ezin izan da X zerbitzaria (ingurune grafikoa) abiarazi barneko erroreen ondorioz. Jarri harremanetan sistema-administratzailearekin edo begiratu syslog-a arazteko. Bitartean pantaila hau desgaitu egingo da.  GDM berrabiarazi arazoa zuzendutakoan."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -200,14 +186,12 @@ msgstr "Ezin izan da socket-a sortu!"
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Ezin da %s PID fitxategia idatzi, agian ez da lekurik egongo diskoan: %s"
+msgstr "Ezin da %s PID fitxategia idatzi, agian ez da lekurik egongo diskoan: %s"
 
 #: ../daemon/main.c:188
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr ""
-"Huts egin du 'behin exekutatutako' markaren '%s' direktorioa sortzean: %s"
+msgstr "Huts egin du 'behin exekutatutako' markaren '%s' direktorioa sortzean: %s"
 
 #: ../daemon/main.c:194
 #, c-format
@@ -221,9 +205,7 @@ msgstr "Ezin da GDMren %s erabiltzailea aurkitu. Abortatu egingo da!"
 
 #: ../daemon/main.c:235
 msgid "The GDM user should not be root. Aborting!"
-msgstr ""
-"GDM erabiltzaileak ez luke root izan behar. Abortatu egingo da! Abortatu "
-"egingo da!"
+msgstr "GDM erabiltzaileak ez luke root izan behar. Abortatu egingo da! Abortatu egingo da!"
 
 #: ../daemon/main.c:241
 #, c-format
@@ -255,7 +237,6 @@ msgstr "GNOMEren mahaigainaren kudeatzailea"
 msgid "Only the root user can run GDM"
 msgstr "Root-ek soilik exekuta dezake GDM"
 
-#
 #. Translators: worker is a helper process that does the work
 #. of starting up a session
 #: ../daemon/session-worker-main.c:95
@@ -278,9 +259,7 @@ msgstr "Saioa hasteko hatz-marken irakurgailuak onartuko diren ala ez"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Hatz-markak erregistratu dituzten erabiltzaileei saioa hatz-marken bidez "
-"hasteko aukera eman diezaioke saioa hasteko pantailak."
+msgstr "Hatz-markak erregistratu dituzten erabiltzaileei saioa hatz-marken bidez hasteko aukera eman diezaioke saioa hasteko pantailak."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -290,9 +269,7 @@ msgstr "Saioa hasteko txartelen irakurgailuak onartuko diren ala ez"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Txartela duten erabiltzaileei saioa txartelen irakurgailuaren bidez hasteko "
-"aukera eman diezaioke saioa hasteko pantailak."
+msgstr "Txartela duten erabiltzaileei saioa txartelen irakurgailuaren bidez hasteko aukera eman diezaioke saioa hasteko pantailak."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -302,10 +279,7 @@ msgstr "Saioa hasteko pasahitzak baimenduko diren edo ez"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Saio-hasierako pantaila pasahitzen autentifikazioa desgaitzeko konfigura "
-"daiteke, autentifikatzeko hatz-marka edo smartcard-a erabiltzera behartuko "
-"da erabiltzailea."
+msgstr "Saio-hasierako pantaila pasahitzen autentifikazioa desgaitzeko konfigura daiteke, autentifikatzeko hatz-marka edo smartcard-a erabiltzera behartuko da erabiltzailea."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -316,18 +290,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"Erabiltzaileen zerrendaren goian iruditxo bat erakuts dezake saioa hasteko "
-"pantailak, guneen kudeatzaileei eta banaketei marka ezartzeko aukera emateko."
+msgstr "Erabiltzaileen zerrendaren goian iruditxo bat erakuts dezake saioa hasteko pantailak, guneen kudeatzaileei eta banaketei marka ezartzeko aukera emateko."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
-"Erabiltzaileen zerrendaren goian iruditxo bat erakuts dezake saioa hasteko "
-"pantailak, guneen kudeatzaileei eta banaketei marka ezartzeko aukera emateko."
+msgstr "Erabiltzaileen zerrendaren goian iruditxo bat erakuts dezake saioa hasteko pantailak, guneen kudeatzaileei eta banaketei marka ezartzeko aukera emateko."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -335,12 +305,9 @@ msgstr "Saihestu erabiltzaileen zerrenda erakustea"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Saio-hasierako pantailak erabiltzaile erabilgarrien zerrenda erakutsi ohi du "
-"saioa hasteko. Ezarpen hau alda daiteke erabiltzaileen zerrenda erakustea "
-"desgaitzeko."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Saio-hasierako pantailak erabiltzaile erabilgarrien zerrenda erakutsi ohi du saioa hasteko. Ezarpen hau alda daiteke erabiltzaileen zerrenda erakustea desgaitzeko."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -363,10 +330,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Desgaitu berrabiarazteko botoiak erakustea"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Ezarri TRUE (egia) gisa berrabiarazteko botoiak erakustea desgaitzeko saio-"
-"hasierako leihoan."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Ezarri TRUE (egia) gisa berrabiarazteko botoiak erakustea desgaitzeko saio-hasierako leihoan."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -376,9 +342,7 @@ msgstr "Onartutako autentifikazio-hutsegiteen kopurua"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Erabiltzaile bat autentifikatzen saia daitekeen aldiak, bertan behera geratu "
-"eta erabiltzaile-hautapenera itzuli baino lehen."
+msgstr "Erabiltzaile bat autentifikatzen saia daitekeen aldiak, bertan behera geratu eta erabiltzaile-hautapenera itzuli baino lehen."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -442,611 +406,3 @@ msgstr "Hartutako pantaila-argazkia"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Egin pantailaren argazkia"
-
-#~ msgid "No session available yet"
-#~ msgstr "Ez dago saiorik erabilgarri"
-
-#~ msgid "Unable to look up UID of user %s"
-#~ msgstr "Ezin da %s erabiltzailearen UIDa bilatu"
-
-#~ msgid "no sessions available"
-#~ msgstr "ez dago saiorik erabilgarri"
-
-#~ msgid "No sessions for %s available for reauthentication"
-#~ msgstr "Saiorik ez %s erabiltzailea berriro autentifikatzeko"
-
-#~ msgid "Unable to find session for user %s"
-#~ msgstr "Ezin da saioa aurkitu %s erabiltzailerako"
-
-#~ msgid "Unable to find appropriate session for user %s"
-#~ msgstr "Ezin da saioa egokia aurkitu %s erabiltzailerako"
-
-#
-#~ msgid "User doesn't own session"
-#~ msgstr "Erabiltzailea ez da saioaren jabea"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: huts egin du '%s' pantaila gurasoarekin konektatzean"
-
-#~ msgid "User not logged in"
-#~ msgstr "Erabiltzaileak ez du saioa hasi"
-
-#~ msgid "Currently, only one client can be connected at once"
-#~ msgstr "Momentuz, bezero bakarra konekta daiteke aldi berean"
-
-#~ msgid "Display ID"
-#~ msgstr "Pantailaren IDa"
-
-#~ msgid "ID"
-#~ msgstr "IDa"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "GNOMEren mahaigain-kudeatzailearen morroia"
-
-#~ msgid "Login Window"
-#~ msgstr "Saio-hasieraren leihoa"
-
-#~ msgid "Unable to start new display"
-#~ msgstr "Ezin da pantaila berria hasi"
-
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr "errorea autentifikazio-sistemarekin harremanetan jartzean: %s"
-
-#~ msgid "general failure"
-#~ msgstr "hutsegite orokorra"
-
-#~ msgid "out of memory"
-#~ msgstr "memoriarik ez"
-
-#~ msgid "application programmer error"
-#~ msgstr "aplikazioaren programazioko errorea"
-
-#~ msgid "unknown error"
-#~ msgstr "errore ezezaguna"
-
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt: %s"
-#~ msgstr ""
-#~ "errorea erabiltzaile-izenaren galdera hobetsiaren autentifikazio-sistema "
-#~ "informatzean: %s"
-
-#~ msgid "error informing authentication system of user's hostname: %s"
-#~ msgstr ""
-#~ "errorea erabiltzailearen ostalari-izenaren autentifikazio-sistema "
-#~ "informatzean: %s"
-
-#~ msgid "error informing authentication system of user's console: %s"
-#~ msgstr ""
-#~ "errorea erabiltzailearen kontsolaren autentifikazio-sistema informatzean: "
-#~ "%s"
-
-#~ msgid "error informing authentication system of display string: %s"
-#~ msgstr ""
-#~ "errorea pantailaren katearen autentifikazio-sistema informatzean: %s"
-
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials: %s"
-#~ msgstr ""
-#~ "errorea pantailaren xauth kredentzialen autentifikazio-sistema "
-#~ "informatzean: %s"
-
-#~ msgid "Failed to create AuthDir %s: %s"
-#~ msgstr "Huts egin du %s AuthDir sortzeak: %s"
-
-#~ msgid "Fingerprint Authentication"
-#~ msgstr "Hartz-marken bidezko autentifikazioa"
-
-#~ msgid "Log into session with fingerprint"
-#~ msgstr "Hasi saioa hatz-marken bidez"
-
-#~ msgid "Password Authentication"
-#~ msgstr "Pasahitz bidezko autentifikazioa"
-
-#~ msgid "Log into session with username and password"
-#~ msgstr "Hasi saioa erabiltzaile-izen eta pasahitz bidez"
-
-#~ msgid "Log In"
-#~ msgstr "Hasi saioa"
-
-#~ msgid "Slot ID"
-#~ msgstr "Erretenaren IDa"
-
-#~ msgid "The slot the card is in"
-#~ msgstr "Txartela jarrita dagoen erretena"
-
-#~ msgid "Slot Series"
-#~ msgstr "Erretenaren serieak"
-
-#~ msgid "per-slot card identifier"
-#~ msgstr "txartelaren identifikatzailea erreteneko"
-
-#~ msgid "name"
-#~ msgstr "izena"
-
-#~ msgid "Module"
-#~ msgstr "Modulua"
-
-#~ msgid "smartcard driver"
-#~ msgstr "txartelaren kontrolatzailea"
-
-#~ msgid "Smartcard Authentication"
-#~ msgstr "Txartel bidezko autentifikazioa"
-
-#~ msgid "Log into session with smartcard"
-#~ msgstr "Hasi saioa txartel bidez"
-
-#~ msgid "Module Path"
-#~ msgstr "Moduluaren bide-izena"
-
-#~ msgid "path to smartcard PKCS #11 driver"
-#~ msgstr "PKCS #11 txartelaren kontrolatzailearentzako bide-izena"
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "errorea edo esekitze bat jaso da gertaeraren iturburutik"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "ezin izan da NSS segurtasun-sistema hasieratu"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "ezin izan da txartelaren kontrolatzaile egokirik aurkitu"
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "ezin izan da txartelaren '%s' kontrolatzailea kargatu"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "ezin izan da sarrerako txartelaren gertaerarik behatu - %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr "ustekabeko errorea aurkitu da txartelaren gertaeren zain"
-
-#~ msgid "Authentication"
-#~ msgstr "Autentifikazioa"
-
-#~ msgid "Log into session"
-#~ msgstr "Hasi saioa"
-
-#~ msgid "Value"
-#~ msgstr "Balioa"
-
-#~ msgid "percentage of time complete"
-#~ msgstr "osatutako denboraren ehunekoa"
-
-#~ msgid "Inactive Text"
-#~ msgstr "Testu inaktiboa"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr ""
-#~ "Etiketan erabiliko den testua, erabiltzaileak ez badu elementu bat "
-#~ "hautatu oraindik"
-
-#~ msgid "Active Text"
-#~ msgstr "Testu aktiboa"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr ""
-#~ "Etiketan erabiliko den testua, erabiltzaileak elementu bat hautatu duenean"
-
-#~ msgid "List Visible"
-#~ msgstr "Zerrenda ikusgai"
-
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "Hautatzailea ikusgai dagoen edo ez adierazten du"
-
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%a %b %e, %l:%M:%S %p"
-
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%a %b %e, %l:%M %p"
-
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%a %l:%M:%S %p"
-
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%a %l:%M %p"
-
-#~ msgid "Automatically logging in…"
-#~ msgstr "Saioa automatikoki hasten…"
-
-#~ msgid "Cancelling…"
-#~ msgstr "Bertan behera uzten…"
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "Hautatu hizkuntza eta egin klik 'Saioa-hasi'n"
-
-#~ msgctxt "customsession"
-#~ msgid "Custom"
-#~ msgstr "Pertsonalizatua"
-
-#~ msgid "Custom session"
-#~ msgstr "Saio pertsonalizatua"
-
-#~ msgid "Computer Name"
-#~ msgstr "Ordenagailuaren izena"
-
-#
-#~ msgid "Version"
-#~ msgstr "Bertsioa"
-
-#~ msgid "Cancel"
-#~ msgstr "Utzi"
-
-#~ msgid "Unlock"
-#~ msgstr "Desblokeatu"
-
-#~ msgid "Login"
-#~ msgstr "Sartu saioan"
-
-#
-#~ msgid "Suspend"
-#~ msgstr "Eseki"
-
-#~ msgid "Restart"
-#~ msgstr "Berrabiarazi"
-
-#
-#~ msgid "Shut Down"
-#~ msgstr "Itzali"
-
-#~ msgid "Unknown time remaining"
-#~ msgstr "Falta den denbora ezezaguna"
-
-#~ msgid "Panel"
-#~ msgstr "Panela"
-
-#~ msgid "Label Text"
-#~ msgstr "Etiketaren testua"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "Testua etiketa gisa erabiltzeko"
-
-#~ msgid "Icon name"
-#~ msgstr "Ikono-izena"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "Ikonoa etiketarekin erabiltzeko"
-
-#~ msgid "Default Item"
-#~ msgstr "Elementu lehenetsia"
-
-#~ msgid "The ID of the default item"
-#~ msgstr "Elementu lehenetsiaren IDa"
-
-#~ msgid "Remote Login (Connecting to %s…)"
-#~ msgstr "Urruneko saioa (%s(e)ra konektatzen...)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "Urruneko saioa (%s-(r)a konektatuta)"
-
-#~ msgid "Remote Login"
-#~ msgstr "Urruneko saioa"
-
-#
-#~ msgid "Session"
-#~ msgstr "Saioa"
-
-#~ msgid "Duration"
-#~ msgstr "Iraupena"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "Segundo kopurua tenporizadorea gelditu arte"
-
-#~ msgid "Start time"
-#~ msgstr "Hasierako ordua"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "Tenporizadorea hasi den ordua"
-
-#~ msgid "Is it Running?"
-#~ msgstr "Exekutatzen ari da?"
-
-#~ msgid "Whether the timer is currently ticking"
-#~ msgstr "Tenporizadorea exekutatzen ari den edo ez"
-
-#~ msgid "Log in as %s"
-#~ msgstr "Hasi saioa %s gisa"
-
-#~ msgctxt "user"
-#~ msgid "Other…"
-#~ msgstr "Bestelakoa…"
-
-#
-#~ msgid "Choose a different account"
-#~ msgstr "Aukeratu beste kontu bat"
-
-#~ msgid "Guest"
-#~ msgstr "Gonbidatua"
-
-#~ msgid "Log in as a temporary guest"
-#~ msgstr "Hasi saioa aldi bateko gonbidatu gisa"
-
-#~ msgid "Automatic Login"
-#~ msgstr "Saio-hasiera automatikoa"
-
-#~ msgid "Automatically log into the system after selecting options"
-#~ msgstr "Hasi sistemako saioa automatikoki aukerak hautatu ondoren"
-
-#~ msgid "Currently logged in"
-#~ msgstr "Jadanik saio hasita"
-
-#~ msgid "Unable to initialize login system"
-#~ msgstr "Ezin da sistemako saio-hasiera hasieratu"
-
-#~ msgid "Unable to authenticate user"
-#~ msgstr "Ezin da erabiltzailea autentifikatu"
-
-#~ msgid "Unable to establish credentials"
-#~ msgstr "Ezin dira kredentzialak ezarri"
-
-#
-#~ msgid "Group %s doesn't exist"
-#~ msgstr "%s taldea ez da existitzen"
-
-#~ msgid "Logdir %s does not exist or isn't a directory."
-#~ msgstr "Logdir %s ez da existitzen edo ez da direktorioa."
-
-#~ msgid "Authdir %s does not exist. Aborting."
-#~ msgstr "Authdir %s ez dago. Abortatu egingo da."
-
-#~ msgid "Authdir %s is not a directory. Aborting."
-#~ msgstr "Authdir %s ez da direktorioa. Abortatu egingo da."
-
-#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-#~ msgstr ""
-#~ "Authdir %s ez da %d erabiltzailearena, ez %d taldearena. Abortatu egingo "
-#~ "da."
-
-#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-#~ msgstr ""
-#~ "Authdir %s(r)ek %o baimen okerrak ditu. %o izan behar luke. Abortatu "
-#~ "egingo da."
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "GNOMEren pantailaren lupa"
-
-#~ msgid "Magnify parts of the screen"
-#~ msgstr "Pantailaren zatiak handiagotzen ditu"
-
-#~ msgid "GNOME On-Screen Keyboard"
-#~ msgstr "GNOMEren pantailako teklatua"
-
-#~ msgid "Use an on-screen keyboard"
-#~ msgstr "Erabili pantailako teklatua"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "Orca pantaila-irakurlea"
-
-#~ msgid "Present on-screen information as speech or braille"
-#~ msgstr "Azaldu pantailako informazioa hitzeginez edo Braille gisa"
-
-#~ msgid "Max Item Count"
-#~ msgstr "Gehien. elementu-kopurua"
-
-#~ msgid "The maximum number of items to keep around in the list"
-#~ msgstr "Elementuen gehienezko kopurua zerrendaren inguruan mantentzeko"
-
-#~ msgid "Banner message text when chooser is empty"
-#~ msgstr "Harrerako mezuaren testua hautatzailea hutsik dagoenean"
-
-#~ msgid "Do not show known users in the login window"
-#~ msgstr "Ez erakutsi erabiltzaileak saio-hasierako leihoan"
-
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "Gaitu erabilerraztasuneko teklatuaren plugina"
-
-#~ msgid "Enable on-screen keyboard"
-#~ msgstr "Gaitu pantailako teklatua"
-
-#~ msgid "Enable screen magnifier"
-#~ msgstr "Gaitu pantailaren lupa"
-
-#~ msgid "Enable screen reader"
-#~ msgstr "Gaitu pantailaren irakurlea"
-
-#~ msgid "Icon name to use for greeter logo"
-#~ msgstr "Ikonoaren izena ongi etorriko logotipoan erabiltzeko"
-
-#~ msgid "Recently selected languages"
-#~ msgstr "Hautatutako azken hizkuntzak"
-
-#~ msgid ""
-#~ "Set to a list of languages to be shown by default in the login window."
-#~ msgstr ""
-#~ "Ezarri hizkuntzen zerrenda lehenetsi gisa erakusteko saio-hasierako "
-#~ "leihoan."
-
-#~ msgid "Set to the themed icon name to use for the greeter logo."
-#~ msgstr ""
-#~ "Ezarri gaiaren ikonoaren izena ongi etorriko logotipoan erabiltzeko."
-
-#~ msgid "Set to true to disable showing known users in the login window."
-#~ msgstr ""
-#~ "Ezarri TRUE (egia) gisa erabiltzaile ezagunak erakustea desgaitzeko saio-"
-#~ "hasierako leihoan."
-
-#~ msgid "Set to true to enable the XRandR settings manager plugin."
-#~ msgstr ""
-#~ "Ezarri TRUE (egia) gisa xrandr-ren ezarpenen kudeatzailearen plugina "
-#~ "gaitzeko."
-
-#~ msgid "Set to true to enable the background settings manager plugin."
-#~ msgstr ""
-#~ "Ezarri TRUE (egia) gisa atzeko planoaren ezarpenen kudeatzailearen "
-#~ "plugina gaitzeko."
-
-#~ msgid "Set to true to enable the media-keys settings manager plugin."
-#~ msgstr ""
-#~ "Ezarri TRUE (egia) gisa multimediako teklen ezarpenen kudeatzailearen "
-#~ "plugina gaitzeko."
-
-#~ msgid "Set to true to enable the on-screen keyboard."
-#~ msgstr "Ezarri TRUE (egia) gisa pantailako teklatua gaitzeko."
-
-#~ msgid ""
-#~ "Set to true to enable the plugin to manage the accessibility keyboard "
-#~ "settings."
-#~ msgstr ""
-#~ "Ezarri TRUE (egia) gisa erabilerraztasuneko teklatuaren ezarpenak "
-#~ "kudeatzeko plugina gaitzeko."
-
-#~ msgid "Set to true to enable the screen magnifier."
-#~ msgstr "Ezarri TRUE (egia) gisa pantailako lupa gaitzeko."
-
-#~ msgid "Set to true to enable the screen reader."
-#~ msgstr "Ezarri TRUE (egia) gisa pantailaren irakurlea gaitzeko."
-
-#~ msgid "Set to true to enable the sound settings manager plugin."
-#~ msgstr ""
-#~ "Ezarri TRUE (egia) gisa soinuaren ezarpenen kudeatzailearen plugina "
-#~ "gaitzeko."
-
-#~ msgid "Set to true to enable the xsettings settings manager plugin."
-#~ msgstr ""
-#~ "Ezarri TRUE (egia) gisa xsettings-en ezarpenen kudeatzailearen plugina "
-#~ "gaitzeko."
-
-#~ msgid "Set to true to use Compiz as the window manager."
-#~ msgstr "Ezarri TRUE (egia) gisa Compiz erabiltzeko leiho-kudeatzaile gisa."
-
-#~ msgid ""
-#~ "Text banner message to show in the login window when the user chooser is "
-#~ "empty, instead of banner_message_text."
-#~ msgstr ""
-#~ "Harrerako mezuaren testua saio-hasierako leihoan erakusteko, erabiltzaile-"
-#~ "hautatzailea hutsik dagoenean banner_message_text ordez."
-
-#~ msgid "True if the XRandR settings manager plugin is enabled."
-#~ msgstr ""
-#~ "True (egia) XRandR-ren ezarpenen kudeatzailearen plugina gaituta badago."
-
-#~ msgid "True if the background settings manager plugin is enabled."
-#~ msgstr ""
-#~ "True (egia) atzeko planoaren ezarpenen kudeatzailearen plugina gaituta "
-#~ "badago."
-
-#~ msgid "True if the media-keys settings manager plugin is enabled."
-#~ msgstr ""
-#~ "True (egia) multimediako teklen ezarpenen kudeatzailearen plugina gaituta "
-#~ "badago."
-
-#~ msgid "True if the sound settings manager plugin is enabled."
-#~ msgstr ""
-#~ "True (egia) soinuaren ezarpenen kudeatzailearen plugina gaituta badago."
-
-#~ msgid "True if the xsettings settings manager plugin is enabled."
-#~ msgstr ""
-#~ "True (egia) xsettings-en ezarpenen kudeatzailearen plugina gaituta badago."
-
-#~ msgid "Use Compiz as the window manager"
-#~ msgstr "Erabili Compiz leiho-kudeatzaile gisa"
-
-#~ msgid "The system is unable to find a login screen to switch to."
-#~ msgstr "Sistemak ezin du saio-hasierako pantaila aurkitu hara aldatzeko."
-
-#~ msgid "Denied XDMCP query from host %s"
-#~ msgstr "%s ostalariak XDMCPren kontsulta ukatu du"
-
-#~ msgid "Could not extract authlist from packet"
-#~ msgstr "Ezin izan da paketeko authlist atera"
-
-#~ msgid "Error in checksum"
-#~ msgstr "Errorea kontrol-baturan"
-
-#~ msgid "Bad address"
-#~ msgstr "Helbide okerra"
-
-#~ msgid "%s: Could not read display address"
-#~ msgstr "%s: Ezin izan da pantailako helbidea irakurri"
-
-#~ msgid "%s: Could not read display port number"
-#~ msgstr "%s: Ezin izan da pantailako ataka-zenbakia irakurri"
-
-#~ msgid "%s: Could not extract authlist from packet"
-#~ msgstr "%s: Ezin izan da paketeko authlist atera"
-
-#~ msgid "%s: Error in checksum"
-#~ msgstr "%s: Errorea kontrol-baturan"
-
-#~ msgid "%s: Got REQUEST from banned host %s"
-#~ msgstr "%s: Baimenik ez duen %s ostalariaren REQUEST jaso da"
-
-#~ msgid "%s: Could not read Display Number"
-#~ msgstr "%s: Ezin izan da pantailako zenbakia irakurri"
-
-#~ msgid "%s: Could not read Connection Type"
-#~ msgstr "%s: Ezin izan da konexio-mota irakurri"
-
-#~ msgid "%s: Could not read Client Address"
-#~ msgstr "%s: Ezin izan da bezeroaren helbidea irakurri"
-
-#~ msgid "%s: Could not read Authentication Data"
-#~ msgstr "%s: Ezin izan da autentifikazio-informazioa irakurri"
-
-#~ msgid "%s: Could not read Authorization List"
-#~ msgstr "%s: Ezin izan da autentifikazio-zerrenda irakurri"
-
-#~ msgid "%s: Could not read Manufacturer ID"
-#~ msgstr "%s: Ezin izan da fabrikatzailearen IDa irakurri"
-
-#~ msgid "%s: Failed checksum from %s"
-#~ msgstr "%s: %s(r)en kontrol-baturak huts egin du"
-
-#~ msgid "%s: Got Manage from banned host %s"
-#~ msgstr "%s: Baimenik ez duen %s ostalariaren MANAGE mezua jaso da"
-
-#~ msgid "%s: Could not read Session ID"
-#~ msgstr "%s: Ezin izan da saioaren IDa irakurri"
-
-#~ msgid "%s: Could not read Display Class"
-#~ msgstr "%s: Ezin izan da pantailaren klasea irakurri"
-
-#~ msgid "%s: Could not read address"
-#~ msgstr "%s: Ezin izan da helbidea irakurri"
-
-#~ msgid "%s: Got KEEPALIVE from banned host %s"
-#~ msgstr "%s: Baimenik ez duen %s ostalariaren KEEPALIVE mezua jaso da"
-
-#~ msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-#~ msgstr "GdmXdmcpDisplayFactory: ezin izan da XDMCPren goiburua irakurri!"
-
-#~ msgid "Could not get server hostname: %s!"
-#~ msgstr "Ezin izan da zerbitzariaren ostalari-izenik lortu: %s!"
-
-#~ msgid "AT-SPI Registry Wrapper"
-#~ msgstr "AT SPI erregistroaren bildukia"
-
-#
-#~ msgid "Power Manager"
-#~ msgstr "Energia-kudeatzailea"
-
-#~ msgid "GNOME Session Acceleration Checker"
-#~ msgstr "GNOMEren saioaren bizkortzailearen egiaztatzailea"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "GNOMEren ezarpenen daemon-a"
-
-#~ msgid "Metacity"
-#~ msgstr "Metacity"
-
-#
-#~ msgid "Languages"
-#~ msgstr "Hizkuntzak"
-
-#~ msgid "_Languages:"
-#~ msgstr "_Hizkuntzak:"
-
-#~ msgid "_Language:"
-#~ msgstr "_Hizkuntza:"
-
-#~ msgctxt "language"
-#~ msgid "Other…"
-#~ msgstr "Bestelakoa..."
-
-#~ msgid "Choose a language from the full list of available languages."
-#~ msgstr "Hizkuntza erabilgarrien zerrenda osotik aukeratu hizkuntza."
-
-#
-#~ msgid "Language"
-#~ msgstr "Hizkuntza"
-
-#~ msgid "Unspecified"
-#~ msgstr "Zehaztu gabea"

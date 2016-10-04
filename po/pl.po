@@ -1,33 +1,22 @@
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# Aviary.pl
-# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
-# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
-# gnomepl@aviary.pl
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# Zbigniew Chyla <chyla@alice.ci.pwr.wroc.pl>, 1999-2003.
-# Artur Flinta <aflinta@at.kernel.pl>, 2003-2006.
-# Wojciech Kapusta <wkapusta@aviary.pl>, 2006-2007.
-# Wadim Dziedzic <wdziedzic@aviary.pl>, 2007-2008.
-# Tomasz Dominikowski <dominikowski@gmail.com>, 2008-2009.
-# Piotr Drąg <piotrdrag@gmail.com>, 2009-2013.
-# Wojciech Szczęsny <wszczesny@aviary.pl>, 2013.
-# Aviary.pl <gnomepl@aviary.pl>, 2006-2013.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Wojciech Szczęsny <wszczesny@aviary.pl>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2013-08-20 21:28+0200\n"
-"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <gnomepl@aviary.pl>\n"
-"Language: pl\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:57+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Polish (http://www.transifex.com/endless-mobile-inc/gdm/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
-"X-Poedit-Language: Polish\n"
-"X-Poedit-Country: Poland\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -55,9 +44,7 @@ msgstr "Nie można zidentyfikować bieżącego stanowiska."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"System nie może ustalić, czy przełączyć do istniejącego ekranu logowania, "
-"czy uruchomić nowy."
+msgstr "System nie może ustalić, czy przełączyć do istniejącego ekranu logowania, czy uruchomić nowy."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
@@ -67,7 +54,7 @@ msgstr "System nie może uruchomić nowego ekranu logowania."
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user \"%s\" on system"
-msgstr "nie można odnaleźć użytkownika \"%s\" w systemie"
+msgstr "nie można odnaleźć użytkownika „%s” w systemie"
 
 #: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
 msgid "No session available"
@@ -86,9 +73,7 @@ msgstr "Program wywołujący to nie GDM"
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"Serwer powinien zostać uruchomiony przez użytkownika %s, ale taki użytkownik "
-"nie istnieje"
+msgstr "Serwer powinien zostać uruchomiony przez użytkownika %s, ale taki użytkownik nie istnieje"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
@@ -156,49 +141,40 @@ msgstr "Nie można utworzyć pomocniczego procesu uwierzytelniania"
 
 #: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
-msgstr "Konto posiada ograniczenie czasowe, które już minęło."
+msgstr "Konto ma ograniczenie czasowe, które już minęło."
 
 #: ../daemon/gdm-session-worker.c:853
 msgid "Sorry, that didn't work. Please try again."
 msgstr "To nie zadziałało. Proszę spróbować ponownie."
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Nazwa użytkownika:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr "Hasło wygasło, proszę je teraz zmienić."
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
-msgstr "brak konta użytkownika"
+msgstr "brak dostępnego konta użytkownika"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Nie można zmienić użytkownika"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Z powodu wewnętrznego błędu nie można uruchomić serwera X (odpowiedzialnego "
-"za interfejs graficzny). Proszę zwrócić się do administratora systemu lub "
-"zdiagnozować problem na podstawie zawartości dzienników systemu. Ekran "
-"zostanie tymczasowo wyłączony. Po naprawieniu problemu proszę ponownie "
-"uruchomić GDM."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Z powodu wewnętrznego błędu nie można uruchomić serwera X (odpowiedzialnego za interfejs graficzny). Proszę zwrócić się do administratora systemu lub zdiagnozować problem na podstawie zawartości dzienników systemu. Ekran zostanie tymczasowo wyłączony. Po naprawieniu problemu proszę ponownie uruchomić GDM."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -207,8 +183,7 @@ msgstr "Nie można utworzyć gniazda."
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Nie można zapisać pliku PID %s: prawdopodobnie brak miejsca na dysku: %s"
+msgstr "Nie można zapisać pliku PID %s: prawdopodobnie brak miejsca na dysku: %s"
 
 #: ../daemon/main.c:188
 #, c-format
@@ -223,7 +198,7 @@ msgstr "Utworzenie katalogu logowania %s się nie powiodło: %s"
 #: ../daemon/main.c:229
 #, c-format
 msgid "Can't find the GDM user '%s'. Aborting!"
-msgstr "Nie można odnaleźć użytkownika GDM \"%s\". Przerywanie."
+msgstr "Nie można odnaleźć użytkownika GDM „%s”. Przerywanie."
 
 #: ../daemon/main.c:235
 msgid "The GDM user should not be root. Aborting!"
@@ -232,7 +207,7 @@ msgstr "Użytkownik GDM nie powinien być użytkownikiem root. Przerywanie."
 #: ../daemon/main.c:241
 #, c-format
 msgid "Can't find the GDM group '%s'. Aborting!"
-msgstr "Nie można odnaleźć grupy GDM \"%s\". Przerywanie."
+msgstr "Nie można odnaleźć grupy GDM „%s”. Przerywanie."
 
 #: ../daemon/main.c:247
 msgid "The GDM group should not be root. Aborting!"
@@ -281,9 +256,7 @@ msgstr "Określa, czy umożliwiać logowanie za pomocą czytników odcisków pal
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Ekran logowania może opcjonalnie umożliwiać użytkownikom, którzy "
-"zarejestrowali swoje odciski palców, logowanie za ich pomocą."
+msgstr "Ekran logowania może opcjonalnie umożliwiać użytkownikom, którzy zarejestrowali swoje odciski palców, logowanie za ich pomocą."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -293,9 +266,7 @@ msgstr "Określa, czy umożliwiać logowanie za pomocą czytników kart smartcar
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Ekran logowania może opcjonalnie umożliwiać użytkownikom posiadającym karty "
-"smartcard logowanie za ich pomocą."
+msgstr "Ekran logowania może opcjonalnie umożliwiać użytkownikom mającym karty smartcard logowanie za ich pomocą."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -305,10 +276,7 @@ msgstr "Określa, czy umożliwiać logowanie za pomocą hasła"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Ekran logowania może zostać opcjonalnie skonfigurowany tak, aby nie zezwalać "
-"na uwierzytelnianie za pomocą hasła, wymuszając uwierzytelnianie za pomocą "
-"karty smartcard lub odcisków palców."
+msgstr "Ekran logowania może zostać opcjonalnie skonfigurowany tak, aby nie zezwalać na uwierzytelnianie za pomocą hasła, wymuszając uwierzytelnianie za pomocą karty smartcard lub odcisków palców."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -319,19 +287,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"Ekran logowania może opcjonalnie wyświetlać mały obraz na górze listy "
-"użytkowników, aby administratorzy i dystrybucje mogły użyć swoich marek."
+msgstr "Ekran logowania może opcjonalnie wyświetlać mały obraz na górze listy użytkowników, aby administratorzy i dystrybucje mogły użyć swoich marek."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
-"Zastępczy ekran logowania może opcjonalnie wyświetlać mały obraz na górze "
-"listy użytkowników, aby administratorzy i dystrybucje mogły użyć swoich "
-"marek."
+msgstr "Zastępczy ekran logowania może opcjonalnie wyświetlać mały obraz na górze listy użytkowników, aby administratorzy i dystrybucje mogły użyć swoich marek."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -339,11 +302,9 @@ msgstr "Bez wyświetlania listy użytkowników"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Ekran logowania zwykle wyświetla listę dostępnych użytkowników. To "
-"ustawienie może być używane, aby wyłączyć jej wyświetlanie."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Ekran logowania zwykle wyświetla listę dostępnych użytkowników. To ustawienie może być używane, aby wyłączyć jej wyświetlanie."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -351,7 +312,7 @@ msgstr "Włączenie wyświetlania komunikatu bannera"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:13
 msgid "Set to true to show the banner message text."
-msgstr "Wartość \"true\" włącza wyświetlanie komunikatu bannera."
+msgstr "Wartość „true” włącza wyświetlanie komunikatu bannera."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:14
 msgid "Banner message text"
@@ -366,10 +327,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Wyłączenie wyświetlania przycisków ponownego uruchomienia"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Wartość \"true\" wyłącza wyświetlanie przycisków ponownego uruchamiania na "
-"ekranie logowania."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Wartość „true” wyłącza wyświetlanie przycisków ponownego uruchamiania na ekranie logowania."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -379,9 +339,7 @@ msgstr "Liczba dozwolonych niepowodzeń uwierzytelnienia"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Określa, ile razy użytkownik może próbować się uwierzytelnić przed powrotem "
-"do ekranu wyboru użytkownika."
+msgstr "Określa, ile razy użytkownik może próbować się uwierzytelnić przed powrotem do ekranu wyboru użytkownika."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -445,51 +403,3 @@ msgstr "Pobrano zrzut ekranu"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Pobiera zrzut ekranu"
-
-#~ msgid "No session available yet"
-#~ msgstr "Sesja nie jest jeszcze dostępna"
-
-#~ msgid "Unable to look up UID of user %s"
-#~ msgstr "Nie można wyszukać UID użytkownika %s"
-
-#~ msgid "no sessions available"
-#~ msgstr "brak dostępnych sesji"
-
-#~ msgid "No sessions for %s available for reauthentication"
-#~ msgstr "Brak sesji dla %s dostępnych do ponownego uwierzytelnienia"
-
-#~ msgid "Unable to find session for user %s"
-#~ msgstr "Nie można odnaleźć sesji dla użytkownika %s"
-
-#~ msgid "Unable to find appropriate session for user %s"
-#~ msgstr "Nie można odnaleźć odpowiedniej sesji dla użytkownika %s"
-
-#~ msgid "User doesn't own session"
-#~ msgstr "Użytkownik nie posiada sesji"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: nie można połączyć się do nadrzędnego ekranu \"%s\""
-
-#~ msgid "User not logged in"
-#~ msgstr "Użytkownik nie jest zalogowany"
-
-#~ msgid "Currently, only one client can be connected at once"
-#~ msgstr "Obecnie tylko jeden klient może być połączony w jednym momencie"
-
-#~ msgid "Failed to create AuthDir %s: %s"
-#~ msgstr "Utworzenie katalogu upoważnienia %s się nie powiodło: %s"
-
-#~ msgid "Display ID"
-#~ msgstr "Identyfikator ekranu"
-
-#~ msgid "ID"
-#~ msgstr "Identyfikator"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "Proces podrzędny menedżera wyświetlania GNOME"
-
-#~ msgid "Login Window"
-#~ msgstr "Okno logowania"
-
-#~ msgid "Unable to start new display"
-#~ msgstr "Nie można utworzyć nowego ekranu"

@@ -1,24 +1,23 @@
-# Frisian translation for gdm
-#
-# This file is distributed under the same license as the gdm package.
-# Dooitze de Jong <dooitzedejong@gmail.com>, 2010.
-# Sense Hofstede <sense@ubuntu.com>, 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# mafvisje <dooitzedejong@gmail.com>, 2010
+# Sense Hofstede <sense@ubuntu.com>, 2010
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2010-07-17 18:13+0200\n"
-"Last-Translator: Sense Hofstede <sense@ubuntu.com>\n"
-"Language-Team: Frisian <gnome-fy-list@gnome.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:10+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Western Frisian (http://www.transifex.com/endless-mobile-inc/gdm/language/fy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2010-07-17 16:08+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\\n\n"
+"Language: fy\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -32,14 +31,14 @@ msgid "Could not identify the current session."
 msgstr ""
 
 #: ../common/gdm-common.c:626 ../libgdm/gdm-user-switching.c:351
-#, fuzzy, c-format
+#, c-format
 msgid "User unable to switch sessions."
-msgstr "Kin sesje net starte"
+msgstr ""
 
 #: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
-#, fuzzy, c-format
+#, c-format
 msgid "Could not identify the current seat."
-msgstr "Koe hâlder net meitsje"
+msgstr ""
 
 #: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
 #, c-format
@@ -59,9 +58,8 @@ msgid "could not find user \"%s\" on system"
 msgstr "Koe brûker \"%s\" net fine op systeem"
 
 #: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
-#, fuzzy
 msgid "No session available"
-msgstr "gjin brûkersakkount beskikber"
+msgstr ""
 
 #: ../daemon/gdm-manager.c:953
 #, c-format
@@ -139,9 +137,8 @@ msgid "The display device"
 msgstr "It skermapparaat"
 
 #: ../daemon/gdm-session.c:1216
-#, fuzzy
 msgid "Could not create authentication helper process"
-msgstr "%s: Koe Ferifikaasjenammen net lêze"
+msgstr ""
 
 #: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
@@ -151,37 +148,33 @@ msgstr ""
 msgid "Sorry, that didn't work. Please try again."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Brûkersnamme:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "gjin brûkersakkount beskikber"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Koe brûker net oanpasse"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
 msgstr ""
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
@@ -253,9 +246,8 @@ msgid "GNOME Shell"
 msgstr ""
 
 #: ../data/applications/gnome-shell.desktop.in.h:2
-#, fuzzy
 msgid "Window management and compositing"
-msgstr "Enerzjybeheardaemon"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
@@ -311,8 +303,8 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
@@ -336,13 +328,13 @@ msgid "Disable showing the restart buttons"
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
-#, fuzzy
 msgid "Number of allowed authentication failures"
-msgstr "%s: Koe Ferifikaasjenammen net lêze"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
@@ -363,23 +355,20 @@ msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: Koe XDMCP-koptekst net lêze!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-#, fuzzy
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XMDCP: Ferkearde XDMCP-ferzje!"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-#, fuzzy
 msgid "XDMCP: Unable to parse address"
-msgstr "XMDCP: Kin adres net ûntlede"
+msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:72
 msgid "Unable to create transient display: "
 msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
-#, fuzzy
 msgid "Unable to activate session: "
-msgstr "Kin sesje net starte"
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
@@ -415,186 +404,3 @@ msgstr ""
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr ""
-
-#~ msgid "Display ID"
-#~ msgstr "Skerm-ID"
-
-#~ msgid "ID"
-#~ msgstr "YD"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "Gnome Oanmeldbehearder"
-
-#~ msgid "Unable to initialize login system"
-#~ msgstr "Kin oanmeld programma net oansette"
-
-#~ msgid "Unable to authenticate user"
-#~ msgstr "Kin net ynloggen"
-
-#~ msgid "Unable to authorize user"
-#~ msgstr "Kin brûker net oanmelden"
-
-#~ msgid "Unable to establish credentials"
-#~ msgstr "Kin credentials net bepale"
-
-#~ msgid "general failure"
-#~ msgstr "Algemiene flater"
-
-#~ msgid "unknown error"
-#~ msgstr "ûnbekende flater"
-
-#~ msgid "User %s doesn't exist"
-#~ msgstr "Brûker %s bestiet net"
-
-#~ msgid "Group %s doesn't exist"
-#~ msgstr "Groep %s bestiet net"
-
-#~ msgid "Error in checksum"
-#~ msgstr "Flater yn checksum"
-
-#~ msgid "Bad address"
-#~ msgstr "Ferkeard adres"
-
-#~ msgid "%s: Could not read display address"
-#~ msgstr "%s: Koe skermadres net lêze"
-
-#~ msgid "%s: Could not read display port number"
-#~ msgstr "%s: Koe skermpoartesifer net sjen litte"
-
-#~ msgid "%s: Error in checksum"
-#~ msgstr "%s: Flater yn checksum"
-
-#~ msgid "%s: Got REQUEST from banned host %s"
-#~ msgstr "%s: REQUEST ûntfangen fan ferbean host %s"
-
-#~ msgid "%s: Could not read Display Number"
-#~ msgstr "%s: Koe Skermsifer net lêze"
-
-#~ msgid "%s: Could not read Connection Type"
-#~ msgstr "%s: Koe Ferbiningsoart net lêze"
-
-#~ msgid "%s: Could not read Client Address"
-#~ msgstr "%s: Koe Klantadres net lêze"
-
-#~ msgid "%s: Could not read Authentication Data"
-#~ msgstr "%s: Koe Ferifikaasjendata net lêze"
-
-#~ msgid "%s: Could not read Authorization List"
-#~ msgstr "%s: Koe Ferifikaasjelist net lêze"
-
-#~ msgid "%s: Could not read Manufacturer ID"
-#~ msgstr "%s: Koe Fabrikant-ID net lêze"
-
-#~ msgid "%s: Failed checksum from %s"
-#~ msgstr "%s: Misleare checksum fan %s"
-
-#~ msgid "%s: Could not read Session ID"
-#~ msgstr "%s: Koe sesje-ID net lêze"
-
-#~ msgid "%s: Could not read Display Class"
-#~ msgstr "%s: Koe Skermklasse net lêze"
-
-#~ msgid "%s: Could not read address"
-#~ msgstr "%s: Koe adres net lêze"
-
-#~ msgid "%s: Got KEEPALIVE from banned host %s"
-#~ msgstr "%s: Got KEEPALIVE from banned host %s"
-
-#~ msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-#~ msgstr "GdmXdmcpDisplayFactory: Koe XDMCP-koptekst net lêze!"
-
-#~ msgid "Could not get server hostname: %s!"
-#~ msgstr "Koe tsjinnerkompjûternamme net ûntfange: %s!"
-
-#~ msgid "Login Window"
-#~ msgstr "Oanmeldfinster"
-
-#~ msgid "Power Manager"
-#~ msgstr "Enerzjybehear"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "GNOME Ynstellingsdaemon"
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "GNOME Skermfergrutter"
-
-#~ msgid "Magnify parts of the screen"
-#~ msgstr "Fergrut parten fan it skerm"
-
-#~ msgid "GNOME On-Screen Keyboard"
-#~ msgstr "GNOME Kaaiboerd-op-it-Skerm"
-
-#~ msgid "Use an on-screen keyboard"
-#~ msgstr "Brûk in kaaiboerd-op-it-skerm"
-
-#~ msgid "Metacity"
-#~ msgstr "Metacity"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "Orca Skermlêzer"
-
-#~ msgid "PolicyKit Authentication Agent"
-#~ msgstr "PolicyKit Ferifikaasjeagint"
-
-#~ msgid "Value"
-#~ msgstr "Wearde"
-
-#~ msgid "percentage of time complete"
-#~ msgstr "persintaazje fan tiid kompleet"
-
-#~ msgid "Inactive Text"
-#~ msgstr "Net-aktive tekst"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr "De tekst foar brûk yn it label wannear de brûker gjin kar makke hat"
-
-#~ msgid "Active Text"
-#~ msgstr "Aktive tekst"
-
-#~ msgid "List Visible"
-#~ msgstr "List Sichtber"
-
-#, fuzzy
-#~ msgid "Unlock"
-#~ msgstr "Helje van it slot"
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Launchpad Contributions:\n"
-#~ "  Dooitze de Jong https://launchpad.net/~dooitze-de-jong\n"
-#~ "  Sense Hofstede https://launchpad.net/~qense"
-
-#~ msgid "name"
-#~ msgstr "namme"
-
-#~ msgid "Change login screen configuration"
-#~ msgstr "Bewurkje oanmeldskermkonfiguraasje"
-
-#~ msgid "Privileges are required to change the login screen configuration."
-#~ msgstr ""
-#~ "Privileezjes binne nedich foar it feroarje fan de "
-#~ "oanmeldskermkonfiguraasje"
-
-#~ msgid "Configure login screen behavior"
-#~ msgstr "Stel oanmeldskermgedrach yn"
-
-#~ msgid "Login Screen"
-#~ msgstr "Oanmeldskerm"
-
-#~ msgid "Log in as %s automatically"
-#~ msgstr "Meld automatysk oan as %s"
-
-#~ msgid "Select %s as default session"
-#~ msgstr "Selektearje %s as de standert sessje"
-
-#~ msgid "Login Screen Settings"
-#~ msgstr "Oanmeldynstellings"
-
-#~ msgid "Play login sound"
-#~ msgstr "Spylje oanmeldlûd ôf"
-
-#~ msgid "Show list of users"
-#~ msgstr "Lit list mei brûkers sjen"
-
-#~ msgid "When the computer starts up:"
-#~ msgstr "Wannear de kompjûter opstartet:"

@@ -1,19 +1,24 @@
-# Vital Khilko <dojlid@mova.org>, 2002, 2003.
-# Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2003, 2004, 2009.
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011, 2012, 2013.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2003-2004,2009
+# booxter <ihar.hrachyshka@gmail.com>, 2011-2013
+# Vital Khilko <dojlid@mova.org>, 2002-2003
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm.master\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2012-09-07 19:07+0300\n"
-"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
-"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
-"Language: be\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:09+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Belarusian (http://www.transifex.com/endless-mobile-inc/gdm/language/be/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0.2\n"
+"Language: be\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -41,9 +46,7 @@ msgstr "Не ўдалося апазнаць бягучае працоўнае �
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"Сістэма не здолела вызначыць, ці трэба пераключыцца на наяўны экран уваходу "
-"або запусціць новы."
+msgstr "Сістэма не здолела вызначыць, ці трэба пераключыцца на наяўны экран уваходу або запусціць новы."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
@@ -72,9 +75,7 @@ msgstr "Запуск не ад GDM"
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"Сервер мусіў запусціцца ад імя карыстальніка %s, але такога карыстальніка не "
-"існуе"
+msgstr "Сервер мусіў запусціцца ад імя карыстальніка %s, але такога карыстальніка не існуе"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
@@ -148,42 +149,34 @@ msgstr "Вашаму конту быў выдзелены прамежак ча�
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Прабачце, але спроба была няўдалай. Паспрабуйце яшчэ раз."
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Імя карыстальніка:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr "Ваш пароль састарэў. Калі ласка, зараз жа змяніце яго."
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "конт карыстальніка не азначаны"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Не ўдалося пераключыць карыстальніка"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Не ўдалося запусціць X-сервер (графічнае асяроддзе) з прычыны ўнутранай "
-"памылкі. Звярніцеся да вашага сістэмнага адміністратара або праверце "
-"сістэмны журнал. Тым часам гэты дысплей будзе выключаны. Калі праблема будзе "
-"вырашана, перазапусціце GDM."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Не ўдалося запусціць X-сервер (графічнае асяроддзе) з прычыны ўнутранай памылкі. Звярніцеся да вашага сістэмнага адміністратара або праверце сістэмны журнал. Тым часам гэты дысплей будзе выключаны. Калі праблема будзе вырашана, перазапусціце GDM."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -192,8 +185,7 @@ msgstr "Не ўдалося стварыць сокет."
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Не ўдалося запісаць PID-файл %s: магчыма, не хапае дыскавай прасторы: %s"
+msgstr "Не ўдалося запісаць PID-файл %s: магчыма, не хапае дыскавай прасторы: %s"
 
 #: ../daemon/main.c:188
 #, c-format
@@ -208,14 +200,11 @@ msgstr "Не ўдалося стварыць LogDir %s: %s"
 #: ../daemon/main.c:229
 #, c-format
 msgid "Can't find the GDM user '%s'. Aborting!"
-msgstr ""
-"Не ўдалося адшукаць карыстальніка GDM \"%s\". Аварыйнае заканчэнне працы."
+msgstr "Не ўдалося адшукаць карыстальніка GDM \"%s\". Аварыйнае заканчэнне працы."
 
 #: ../daemon/main.c:235
 msgid "The GDM user should not be root. Aborting!"
-msgstr ""
-"Карыстальнік GDM не можа быць root-карыстальнікам. Аварыйнае заканчэнне "
-"працы."
+msgstr "Карыстальнік GDM не можа быць root-карыстальнікам. Аварыйнае заканчэнне працы."
 
 #: ../daemon/main.c:241
 #, c-format
@@ -269,9 +258,7 @@ msgstr "Ці трэба дазваляць уваход з дапамогай ч
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Экран уваходу таксама можа дазволіць карыстальнікам, якія пакінулі адбіткі "
-"сваіх пальцаў, уваходзіць у сеанс з іх дапамогай."
+msgstr "Экран уваходу таксама можа дазволіць карыстальнікам, якія пакінулі адбіткі сваіх пальцаў, уваходзіць у сеанс з іх дапамогай."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -281,9 +268,7 @@ msgstr "Ці трэба дазваляць уваход з дапамогай ч
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Экран уваходу таксама можа дазволіць карыстальнікам, якія маюць смарт-карты, "
-"уваходзіць у сеанс з іх дапамогай."
+msgstr "Экран уваходу таксама можа дазволіць карыстальнікам, якія маюць смарт-карты, уваходзіць у сеанс з іх дапамогай."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -293,35 +278,25 @@ msgstr "Ці трэба дазваляць уваход з дапамогай п
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Экран уваходу можа быць настроены такім чынам, што ідэнтыфікацыя з дапамогай "
-"пароля будзе забаронена. Такім чынам можна змусіць карыстальніка да "
-"выкарыстання для гэтай мэты смарт-карт ці адбіткаў пальцаў."
+msgstr "Экран уваходу можа быць настроены такім чынам, што ідэнтыфікацыя з дапамогай пароля будзе забаронена. Такім чынам можна змусіць карыстальніка да выкарыстання для гэтай мэты смарт-карт ці адбіткаў пальцаў."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
-msgstr ""
-"Сцежка файла з невялікай выявай для змяшчэння над спісам карыстальнікаў"
+msgstr "Сцежка файла з невялікай выявай для змяшчэння над спісам карыстальнікаў"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:8
 msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"Экран уваходу таксама можа паказваць невялікую выяву над спісам "
-"карыстальнікаў, што можа прыдацца сістэмным адміністратарам і дыстрыбутывам "
-"у справе брэндынгу."
+msgstr "Экран уваходу таксама можа паказваць невялікую выяву над спісам карыстальнікаў, што можа прыдацца сістэмным адміністратарам і дыстрыбутывам у справе брэндынгу."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
-"Запасны экран уваходу таксама можа паказваць невялікую выяву над спісам "
-"карыстальнікаў, што можа прыдацца сістэмным адміністратарам і дыстрыбутывам "
-"у справе брэндынгу."
+msgstr "Запасны экран уваходу таксама можа паказваць невялікую выяву над спісам карыстальнікаў, што можа прыдацца сістэмным адміністратарам і дыстрыбутывам у справе брэндынгу."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -329,11 +304,9 @@ msgstr "Не паказваць спіса карыстальнікаў"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Звычайна экран уваходу паказвае спіс наяўных карыстальнікаў. З дапамогай "
-"гэтай настройкі можна выключыць паказ гэтага спіса."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Звычайна экран уваходу паказвае спіс наяўных карыстальнікаў. З дапамогай гэтай настройкі можна выключыць паказ гэтага спіса."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -356,9 +329,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Схаваць кнопкі перазапуску камп'ютара"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Калі ўключана, не паказваць кнопкі перазапуску камп'ютара ў акне ўваходу."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Калі ўключана, не паказваць кнопкі перазапуску камп'ютара ў акне ўваходу."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -368,9 +341,7 @@ msgstr "Колькасць дазволеных няўдалых спроб ід
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Колькасць няўдалых спроб ідэнтыфікацыі, дазволеных карыстальніку, да "
-"вяртання на экран выбару карыстальніка."
+msgstr "Колькасць няўдалых спроб ідэнтыфікацыі, дазволеных карыстальніку, да вяртання на экран выбару карыстальніка."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -434,48 +405,3 @@ msgstr "Зроблены экранны здымак"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Зрабіць экранны здымак"
-
-#~ msgid "No session available yet"
-#~ msgstr "Сеанс яшчэ недаступны"
-
-#~ msgid "Unable to look up UID of user %s"
-#~ msgstr "Не ўдалося адшукаць UID карыстальніка %s"
-
-#~ msgid "no sessions available"
-#~ msgstr "сеанс яшчэ недаступны"
-
-#~ msgid "No sessions for %s available for reauthentication"
-#~ msgstr "Для %s адсутнічаюць сеансы для паўторнай ідэнтыфікацыі"
-
-#~ msgid "Unable to find session for user %s"
-#~ msgstr "Не ўдалося адшукаць сеанс для карыстальніка %s"
-
-#~ msgid "Unable to find appropriate session for user %s"
-#~ msgstr "Не ўдалося адшукаць адпаведны сеанс для карыстальніка %s"
-
-#~ msgid "User doesn't own session"
-#~ msgstr "Карыстальнік не валодае сеансам"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: не ўдалося злучыцца з бацькоўскім дысплеем \"%s\""
-
-#~ msgid "User not logged in"
-#~ msgstr "Карыстальнік не ўвайшоў у сістэму"
-
-#~ msgid "Currently, only one client can be connected at once"
-#~ msgstr "Пакуль толькі адзін кліент можа быць падключаны ў любы момант часу"
-
-#~ msgid "Display ID"
-#~ msgstr "Ідэнтыфікатар дысплея"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "Падначалены модуль кіраўніка дысплеяў GNOME"
-
-#~ msgid "Login Window"
-#~ msgstr "Акно ўваходу"
-
-#~ msgid "Unable to start new display"
-#~ msgstr "Не ўдалося запусціць новы дысплей"

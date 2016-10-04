@@ -1,21 +1,23 @@
-# Uighur translation for gdm.
-# Copyright (C) 2010 gdm's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gdm package.
-# Gheyret Kenji <gheyret@yahoo.com>, 2010.
-# Sahran <sahran@live.com>, 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Gheyret Kenji, 2010
+# Sahran <sahran@live.com>, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm gnome-2-32\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2010-07-30 07:44+0000\n"
-"Last-Translator: Sahran <sahran@live.com>\n"
-"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
-"Language: \n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:14+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Uighur (http://www.transifex.com/endless-mobile-inc/gdm/language/ug/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ug\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -43,9 +45,7 @@ msgstr "ھازىرقى ئورۇننى بىلگىلى بولمىدى."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"سىستېما نۆۋەتتىكى كىرىش ئېكرانىنى ئالماشتۇرۇش ياكى يېڭى كىرىش ئېكرانىنى "
-"قوزغىتىشنى بىلەلمىدى."
+msgstr "سىستېما نۆۋەتتىكى كىرىش ئېكرانىنى ئالماشتۇرۇش ياكى يېڭى كىرىش ئېكرانىنى قوزغىتىشنى بىلەلمىدى."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
@@ -74,8 +74,7 @@ msgstr "چاقىرغۇچى GDM ئەمەس"
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"مۇلازىمېتىرنى ئىشلەتكۈچى %s قوزغىتىپتۇ. بىراق بۇنداق ئىشلەتكۈچى مەۋجۇت ئەمەس"
+msgstr "مۇلازىمېتىرنى ئىشلەتكۈچى %s قوزغىتىپتۇ. بىراق بۇنداق ئىشلەتكۈچى مەۋجۇت ئەمەس"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
@@ -149,42 +148,34 @@ msgstr ""
 msgid "Sorry, that didn't work. Please try again."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "ئىشلەتكۈچى ئاتى:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "ئىشلەتكۈچى ھېسابى يوق"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "ئىشلەتكۈچى ئالماشتۇرغىلى بولمىدى"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"ئىچكى خاتالىق تۈپەيلى X مۇلازىمېتىرى(گرافىكىلىق مەشغۇلات مۇھىتى)نى باشلىغىلى "
-"بولمىدى. سىستېما باشقۇرغۇچىسى بىلەن ئالاقە قىلىڭ ياكى سىستېما "
-"خاتىرىسى(syslog) نى ئېچىپ تەكشۈرۈپ كۆرۈڭ. ھازىرچە مەزكۇر ئېكران چەكلىنىدۇ. "
-"مەسىلىنى ھەل قىلغاندا GDM نى قايتا قوزغاتسىڭىز بولىدۇ."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "ئىچكى خاتالىق تۈپەيلى X مۇلازىمېتىرى(گرافىكىلىق مەشغۇلات مۇھىتى)نى باشلىغىلى بولمىدى. سىستېما باشقۇرغۇچىسى بىلەن ئالاقە قىلىڭ ياكى سىستېما خاتىرىسى(syslog) نى ئېچىپ تەكشۈرۈپ كۆرۈڭ. ھازىرچە مەزكۇر ئېكران چەكلىنىدۇ. مەسىلىنى ھەل قىلغاندا GDM نى قايتا قوزغاتسىڭىز بولىدۇ."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -193,8 +184,7 @@ msgstr "socket نى قۇرغىلى بولمىدى!"
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"PID ھۆججىتىنى %s  غا يازالمىدى: دىسكا بوشلۇقى يېتىشمىگەن بولۇشى مۇمكىن:  %s"
+msgstr "PID ھۆججىتىنى %s  غا يازالمىدى: دىسكا بوشلۇقى يېتىشمىگەن بولۇشى مۇمكىن:  %s"
 
 #: ../daemon/main.c:188
 #, c-format
@@ -267,9 +257,7 @@ msgstr "كىرىشتە بارماق ئىزى ئوقۇغۇچقا ئىجازەتم
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"كىرىش ئېكرانىدا، بارماق ئىزىنى خەتلەتكەن ئىشلەتكۈچىگە بارماق ئىزىنى ئىشلىتىپ "
-"كىرىشكە رۇخسەت قىلىشقىمۇ بولىدۇ."
+msgstr "كىرىش ئېكرانىدا، بارماق ئىزىنى خەتلەتكەن ئىشلەتكۈچىگە بارماق ئىزىنى ئىشلىتىپ كىرىشكە رۇخسەت قىلىشقىمۇ بولىدۇ."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -279,14 +267,11 @@ msgstr "كىرىشتە smartcard ئوقۇغۇچقا ئىجازەتمۇ"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"كىرىش ئېكرانىدا، smartcards  بار ئىشلەتكۈچىگە smartcards ئىشلىتىپ كىرىشكە "
-"رۇخسەت قىلىشقىمۇ بولىدۇ."
+msgstr "كىرىش ئېكرانىدا، smartcards  بار ئىشلەتكۈچىگە smartcards ئىشلىتىپ كىرىشكە رۇخسەت قىلىشقىمۇ بولىدۇ."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
-#, fuzzy
 msgid "Whether or not to allow passwords for login"
-msgstr "كىرىشتە smartcard ئوقۇغۇچقا ئىجازەتمۇ"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:6
 msgid ""
@@ -303,20 +288,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"كىرىش ئېكرانىدا ئىشلەتكۈچى تىزىمىنىڭ ئەڭ ئۈستىدە كىچىك سۈرەتنى كۆرسىتىشكىمۇ "
-"بولىدۇ. بۇ ئارقىلىق باشقۇرغۇچىنىڭ ئالاھىدە تۇغنى كۆرسىتىشىگە ئىمكانىيەت "
-"يارىتىدۇ."
+msgstr "كىرىش ئېكرانىدا ئىشلەتكۈچى تىزىمىنىڭ ئەڭ ئۈستىدە كىچىك سۈرەتنى كۆرسىتىشكىمۇ بولىدۇ. بۇ ئارقىلىق باشقۇرغۇچىنىڭ ئالاھىدە تۇغنى كۆرسىتىشىگە ئىمكانىيەت يارىتىدۇ."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
-"fallback كىرىش ئېكرانىدا ئىشلەتكۈچى تىزىمىنىڭ ئەڭ ئۈستىدە كىچىك سۈرەتنى "
-"كۆرسىتىشكىمۇ بولىدۇ. بۇ ئارقىلىق باشقۇرغۇچىنىڭ ئالاھىدە تۇغنى كۆرسىتىشىگە "
-"ئىمكانىيەت يارىتىدۇ."
+msgstr "fallback كىرىش ئېكرانىدا ئىشلەتكۈچى تىزىمىنىڭ ئەڭ ئۈستىدە كىچىك سۈرەتنى كۆرسىتىشكىمۇ بولىدۇ. بۇ ئارقىلىق باشقۇرغۇچىنىڭ ئالاھىدە تۇغنى كۆرسىتىشىگە ئىمكانىيەت يارىتىدۇ."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -324,12 +303,9 @@ msgstr "ئىشلەتكۈچى تىزىمىنى كۆرسىتىشتىن ساقلا�
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"ئادەتتە كىرىش ئېكرانىدا مەۋجۇت ئىشلەتكۈچىلەرنىڭ تىزىمى كۆرۈنۈپ تۇرىدۇ. بۇ "
-"ئارقىلىق ئىشلەتكۈچىلەر تىزىمىنى كۆرسىتىش ياكى كۆرسەتمەسلىكنى بەلگىلىگىلى "
-"بولىدۇ."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "ئادەتتە كىرىش ئېكرانىدا مەۋجۇت ئىشلەتكۈچىلەرنىڭ تىزىمى كۆرۈنۈپ تۇرىدۇ. بۇ ئارقىلىق ئىشلەتكۈچىلەر تىزىمىنى كۆرسىتىش ياكى كۆرسەتمەسلىكنى بەلگىلىگىلى بولىدۇ."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -352,10 +328,9 @@ msgid "Disable showing the restart buttons"
 msgstr "قايتا قوزغات توپچىلىرىنى چەكلە"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"تىزىمغا كىرىش كۆزنىكىدە قايتا قوزغات توپچىسىنى كۆرسەتمەسلىك ئۈچۈن true قىلىپ "
-"تەڭشىلىدۇ."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "تىزىمغا كىرىش كۆزنىكىدە قايتا قوزغات توپچىسىنى كۆرسەتمەسلىك ئۈچۈن true قىلىپ تەڭشىلىدۇ."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -365,9 +340,7 @@ msgstr "كىملىك دەلىللەشتە رۇخسەت قىلىنغان خاتا
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"كىملىك دەلىللەشتە خاتالىشىشقا رۇخسەت قىلىنغان قېتىم سانى. خاتالاشقان سانى "
-"بۇنىڭدىن ئېشىپ كەتسە، ئىشلەتكۈچى تاللاش كۆزنىكىگە قايتىدۇ."
+msgstr "كىملىك دەلىللەشتە خاتالىشىشقا رۇخسەت قىلىنغان قېتىم سانى. خاتالاشقان سانى بۇنىڭدىن ئېشىپ كەتسە، ئىشلەتكۈچى تاللاش كۆزنىكىگە قايتىدۇ."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -431,779 +404,3 @@ msgstr "ئېكران كۆرۈنۈشى تۇتۇلدى"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "ئېكراننى رەسىمگە تۇت"
-
-#~| msgid "no user account available"
-#~ msgid "No session available yet"
-#~ msgstr "تېخى ئەڭگىمە يوق"
-
-#~| msgid "Unable to authorize user"
-#~ msgid "Unable to look up UID of user %s"
-#~ msgstr "ئىشلەتكۈچى %s نىڭ كىملىكىنى تاپقىلى بولمىدى"
-
-#~| msgid "no user account available"
-#~ msgid "no sessions available"
-#~ msgstr "ئەڭگىمەلەر يوق"
-
-#~ msgid "No sessions for %s available for reauthentication"
-#~ msgstr "قايتا كىملىك دەلىللەش ئۈچۈن %s نىڭ ئەڭگىمەسى يوق"
-
-#~| msgid "Unable to open session"
-#~ msgid "Unable to find session for user %s"
-#~ msgstr "ئىشلەتكۈچى %s ئۈچۈن ئەڭگىمە تاپقىلى بولمىدى"
-
-#~| msgid "Unable to open session"
-#~ msgid "Unable to find appropriate session for user %s"
-#~ msgstr "ئىشلەتكۈچى %s ئۈچۈن مۇۋاپىق ئەڭگىمە تاپقىلى بولمىدى"
-
-#~| msgid "User %s doesn't exist"
-#~ msgid "User doesn't own session"
-#~ msgstr "ئىشلەتكۈچىنىڭ ئەڭگىمەسى يوق"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: ئاتا ئېكران ‹%s› نىڭغا باغلىنىش مەغلۇپ بولدى"
-
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr ""
-#~ "دەلىللەش سىستېمىسى بىلەن كۆرۈشۈشتە دەسلەپلەشتۈرۈش خاتالىقى يۈز بەردى - %s"
-
-#~ msgid "general failure"
-#~ msgstr "ئادەتتىكى مەغلۇبىيەت"
-
-#~ msgid "out of memory"
-#~ msgstr "ئەسلەك يېتىشمىدى"
-
-#~ msgid "application programmer error"
-#~ msgstr "پروگراممىدىكى كەمتۈك"
-
-#~ msgid "unknown error"
-#~ msgstr "نامەلۇم خاتالىق"
-
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt: %s"
-#~ msgstr ""
-#~ "دەلىللەش سىستېمىسىدا ئىشلەتكۈچى ئاتىنى بىر تەرەپ قىلىشتا خاتالىق كۆرۈلدى: "
-#~ "%s"
-
-#~ msgid "error informing authentication system of user's hostname: %s"
-#~ msgstr ""
-#~ "دەلىللەش سىستېمىسىدا كومپيۇتېر ئاتىنى بىر تەرەپ قىلىشتا خاتالىق كۆرۈلدى: "
-#~ "%s"
-
-#~ msgid "error informing authentication system of user's console: %s"
-#~ msgstr ""
-#~ "ئىشلەتكۈچى تىزگىن سۇپىسىنى دەلىللەش سىستېمىسىغا ئۇقتۇرغاندا خاتالىق "
-#~ "كۆرۈلدى: %s"
-
-#~ msgid "error informing authentication system of display string: %s"
-#~ msgstr ""
-#~ "ھەرپ تىزمىسىنى كۆرسىتىپ دەلىللەش سىستېمىسىغا ئۇقتۇرغاندا خاتالىق كۆرۈلدى: "
-#~ "%s"
-
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials: %s"
-#~ msgstr ""
-#~ "xauth ئىسپاتنامىنى كۆرسىتىپ دەلىللەش سىستېمىسىغا ئۇقتۇرغاندا خاتالىق "
-#~ "كۆرۈلدى: %s"
-
-#~| msgid "Currently logged in"
-#~ msgid "User not logged in"
-#~ msgstr "ئىشلەتكۈچى كىرمىدى"
-
-#~ msgid "Currently, only one client can be connected at once"
-#~ msgstr "نۆۋەتتە، بىر قېتىمدا پەقەت بىرلا خېرىدار باغلىنالايدۇ"
-
-#~ msgid "Failed to create AuthDir %s: %s"
-#~ msgstr "AuthDir %s نى قۇرۇش مەغلۇپ بولدى: %s"
-
-#~ msgid "Display ID"
-#~ msgstr "ئېكران كىملىكى"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "گىنوم ئېكران باشقۇرغۇ(ئەگەشكۈچى)"
-
-#~ msgid "Login Window"
-#~ msgstr "كىرىش كۆزنىكى"
-
-#~| msgid "PolicyKit Authentication Agent"
-#~ msgid "Fingerprint Authentication"
-#~ msgstr "بارماق ئىزى بىلەن كىملىك دەلىللەش"
-
-#~ msgid "Log into session with fingerprint"
-#~ msgstr "ئەڭگىمەگە بارماق ئىزى بىلەن كىر"
-
-#~| msgid "PolicyKit Authentication Agent"
-#~ msgid "Password Authentication"
-#~ msgstr "ئىم بىلەن كىملىك دەلىللەش"
-
-#~ msgid "Log into session with username and password"
-#~ msgstr "ئەڭگىمەگە ئىشلەتكۈچى ئاتى ۋە ئىم بىلەن كىر"
-
-#~ msgid "Log In"
-#~ msgstr "تىزىمغا كىر"
-
-#~ msgid "Slot ID"
-#~ msgstr "ئوقۇر ID"
-
-#~ msgid "The slot the card is in"
-#~ msgstr "كارتا بار ئوقۇر"
-
-#~ msgid "Slot Series"
-#~ msgstr "ئوقۇر قاتارى"
-
-#~ msgid "per-slot card identifier"
-#~ msgstr "ھەر بىر ئوقۇردىكى كارتىنىڭ پەرقلەندۈرگۈچىسى"
-
-#~ msgid "name"
-#~ msgstr "ئاتى"
-
-#~ msgid "Module"
-#~ msgstr "بۆلەك"
-
-#~ msgid "smartcard driver"
-#~ msgstr "smartcard قوزغاتقۇسى"
-
-#~ msgid "Smartcard Authentication"
-#~ msgstr "smartcard بىلەن كىملىك دەلىللەش"
-
-#~ msgid "Log into session with smartcard"
-#~ msgstr "ئەڭگىمەگە smartcard بىلەن كىر"
-
-#~ msgid "Module Path"
-#~ msgstr "بۆلەك يولى"
-
-#~ msgid "path to smartcard PKCS #11 driver"
-#~ msgstr "smartcard PKCS #11 قوزغاتقۇسىنىڭ يولى"
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "ھادىسە مەنبەسىدىن خاتالىق ياكى ئېسىپ قويۇشنى تاپشۇرۇۋالدى"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "NSS بىخەتەرلىك سىستېمىسىنى دەسلەپلەشتۈرگىلى بولمىدى"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "مۇۋاپىق smartcard قوزغاتقۇسى تېپىلمىدى"
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "smartcard قوزغاتقۇسى «%s» نى ئوقۇغىلى بولمىدى"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "كىرگەن كارتا ھادىسىسىنى كۆزىتەلمەيدۇ - %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr "ئىدراكلىق كارتا ھادىسىسىنى كۈتۈۋاتقاندا تاسادىپىي خاتالىققا يولۇقتى"
-
-#~| msgid "PolicyKit Authentication Agent"
-#~ msgid "Authentication"
-#~ msgstr "سالاھىيەت دەلىللەش"
-
-#~| msgid "Custom session"
-#~ msgid "Log into session"
-#~ msgstr "ئەڭگىمەگە كىر"
-
-#~ msgid "Value"
-#~ msgstr "قىممەت"
-
-#~ msgid "percentage of time complete"
-#~ msgstr "تاماملانغان ۋاقىتنىڭ پىرسەنتى"
-
-#~ msgid "Inactive Text"
-#~ msgstr "پاسسىپ تېكىست"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr ""
-#~ "ئىشلەتكۈچى تېزى ھېچقانداق تۇرنى تاللىمىغان ۋاقىتتا ئەندە كۆرسىتىلىدىغان "
-#~ "تېكىست"
-
-#~ msgid "Active Text"
-#~ msgstr "ئاكتىپ تېكىست"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr "ئىشلەتكۈچى بىرەر تۇرنى تاللىغان ۋاقىتتا ئەندە كۆرسىتىلىدىغان تېكىست"
-
-#~ msgid "List Visible"
-#~ msgstr "تىزىملىك كۆرۈنسۇن"
-
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "تىزىملىك كۆرۈنەمدۇ تاللايدۇ"
-
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%a %b %e، %l:%M:%S %p"
-
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%a %b %e، %l:%M %p"
-
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%a %l:%M:%S %p"
-
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%p%l:%M (%a)"
-
-#~ msgid "Automatically logging in…"
-#~ msgstr "ئۆزلۈكىدىن كىرىۋاتىدۇ…"
-
-#~ msgid "Cancelling…"
-#~ msgstr "ۋاز كېچىۋاتىدۇ…"
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "تىل تاللاپ «تىزىمغا كىر» نى چېكىڭ"
-
-#~ msgctxt "customsession"
-#~ msgid "Custom"
-#~ msgstr "ئىختىيارى"
-
-#~ msgid "Custom session"
-#~ msgstr "ئىختىيارى ئەڭگىمە"
-
-#~ msgid "Computer Name"
-#~ msgstr "كومپيۇتېر ئاتى"
-
-#~ msgid "Version"
-#~ msgstr "نەشرى"
-
-#~ msgid "Cancel"
-#~ msgstr "ئەمەلدىن قالدۇر"
-
-#~ msgid "Unlock"
-#~ msgstr "قۇلۇپ ئاچ"
-
-#~ msgid "Login"
-#~ msgstr "كىرىش"
-
-#~ msgid "Suspend"
-#~ msgstr "توڭلات"
-
-#~ msgid "Restart"
-#~ msgstr "قايتا قوزغات"
-
-#~ msgid "Shut Down"
-#~ msgstr "تاقاش"
-
-#~ msgid "Unknown time remaining"
-#~ msgstr "ئېشىپ قالغان ۋاقىت نامەلۇم"
-
-#~ msgid "Panel"
-#~ msgstr "تاختا"
-
-#~ msgid "Label Text"
-#~ msgstr "ئەن تېكىستى"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "بۇ تېكىست ئەن قىلىپ ئىشلىتىلىدۇ"
-
-#~ msgid "Icon name"
-#~ msgstr "سىنبەلگە ئاتى"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "ئەن بىلەن بىرگە ئىشلىتىلىدىغان سىنبەلگە"
-
-#~ msgid "Default Item"
-#~ msgstr "كۆڭۈلدىكى تۇر"
-
-#~ msgid "The ID of the default item"
-#~ msgstr "بۇ كۆڭۈلدىكى تۇرنىڭ ID سىدۇر"
-
-#~ msgid "Remote Login (Connecting to %s…)"
-#~ msgstr "يىراقتىن تىزىمغا كىر(%s غا باغلىنىۋاتىدۇ…)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "يىراقتىن تىزىمغا كىر(%s غا باغلاندى)"
-
-#~ msgid "Remote Login"
-#~ msgstr "يىراقتىن كىرىش"
-
-#~ msgid "Session"
-#~ msgstr "ئەڭگىمە"
-
-#~ msgid "Duration"
-#~ msgstr "ۋاقتى"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "ۋاقىت خاتىرىلىگۈچ توختىغۇچە بولغان سېكۇنت"
-
-#~ msgid "Start time"
-#~ msgstr "باشلاش ۋاقتى"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "ۋاقىت خاتىرىلىگۈچ باشلىنىدىغان ۋاقىت"
-
-#~ msgid "Is it Running?"
-#~ msgstr "ئىجرا بولۇۋاتامدۇ؟"
-
-#~ msgid "Whether the timer is currently ticking"
-#~ msgstr "ۋاقىت خاتىرىلىگۈچ ئۆزگىرىۋاتامدۇ يوق"
-
-#~ msgid "Log in as %s"
-#~ msgstr "%s ئىشلەتكۈچى سۈپىتىدە كىرىدۇ"
-
-#~ msgctxt "user"
-#~ msgid "Other…"
-#~ msgstr "باشقا…"
-
-#~ msgid "Choose a different account"
-#~ msgstr "باشقا ھېساب تاللاڭ"
-
-#~ msgid "Guest"
-#~ msgstr "مېھمان"
-
-#~ msgid "Log in as a temporary guest"
-#~ msgstr "ۋاقىتلىق مېھمان سۈپىتىدە كىرىدۇ"
-
-#~ msgid "Automatic Login"
-#~ msgstr "ئۆزلۈكىدىن تىزىمغا كىر"
-
-#~ msgid "Automatically log into the system after selecting options"
-#~ msgstr "تاللانمىلار تاللانغاندىن كېيىن سىستېمىغا ئۆزلۈكىدىن كىرىدۇ"
-
-#~ msgid "Currently logged in"
-#~ msgstr "كىرىپ بولغان"
-
-#~ msgid "Unable to start new display"
-#~ msgstr "يېڭى ئېكراننى باشلىغىلى بولمىدى"
-
-#~ msgid "Unable to initialize login system"
-#~ msgstr "كىرىش سىستېمىسىنى دەسلەپلەشتۈرگىلى بولمىدى"
-
-#~ msgid "Unable to authenticate user"
-#~ msgstr "ئىشلەتكۈچىنى تونۇيالمىدى"
-
-#~ msgid "Unable to establish credentials"
-#~ msgstr "ئىشەنچلىك ئىشلەتكۈچى دەپ قاراشقا بولمىدى"
-
-#~ msgid "Group %s doesn't exist"
-#~ msgstr "گۇرۇپپا %s مەۋجۇت ئەمەس"
-
-#~ msgid "Denied XDMCP query from host %s"
-#~ msgstr "كومپيۇتېر %s دىن كەلگەن XDMCP سۈرۈشتۈرۈش تەلىپى رەت قىلىندى"
-
-#~ msgid "Could not extract authlist from packet"
-#~ msgstr "بوغچىدىن دەلىللەش تىزىملىكىنى يېيىپ چىقارغىلى بولمىدى"
-
-#~ msgid "Error in checksum"
-#~ msgstr "تەكشۈرۈش خاتالىقى"
-
-#~ msgid "Bad address"
-#~ msgstr "ئادرېس توغرا ئەمەس"
-
-#~ msgid "%s: Could not read display address"
-#~ msgstr "%s: ئېكران ئادرېسىنى ئوقۇغىلى بولمىدى"
-
-#~ msgid "%s: Could not read display port number"
-#~ msgstr "%s: ئېكران ئېغىزىنى ئوقۇغىلى بولمىدى"
-
-#~ msgid "%s: Could not extract authlist from packet"
-#~ msgstr "%s: بوغچىدىن دەلىللەش تىزىملىكىنى يېيىپ چىقارغىلى بولمىدى"
-
-#~ msgid "%s: Error in checksum"
-#~ msgstr "%s: تەكشۈرۈشتە خاتالىق كۆرۈلدى"
-
-#~ msgid "%s: Got REQUEST from banned host %s"
-#~ msgstr "%s: چەكلەنگەن باش ئاپپارات %s دىن ئىلتىماس تاپشۇرۇۋالدى"
-
-#~ msgid "%s: Could not read Display Number"
-#~ msgstr "%s: ئېكران نومۇرىنى ئوقۇغىلى بولمىدى"
-
-#~ msgid "%s: Could not read Connection Type"
-#~ msgstr "%s: باغلىنىش تىپىنى ئوقۇغىلى بولمىدى"
-
-#~ msgid "%s: Could not read Client Address"
-#~ msgstr "%s: خېرىدار ئادرېسىنى ئوقۇغىلى بولمىدى"
-
-#~ msgid "%s: Could not read Authentication Data"
-#~ msgstr "%s: دەلىللەش سانلىق-ئاساسلىرىنى ئوقۇپ چىققىلى بولمىدى"
-
-#~ msgid "%s: Could not read Authorization List"
-#~ msgstr "%s: دەلىللەش تىزىملىكىنى ئوقۇغىلى بولمىدى"
-
-#~ msgid "%s: Could not read Manufacturer ID"
-#~ msgstr "%s: ئىشلەپچىقارغۇچى ID سىنى ئوقۇغىلى بولمىدى"
-
-#~ msgid "%s: Failed checksum from %s"
-#~ msgstr "%s: %s نى تەكشۈرۈش مەغلۇپ بولدى."
-
-#~ msgid "%s: Got Manage from banned host %s"
-#~ msgstr "%s: چەكلەنگەن باش ئاپپارات %s دىن Manage تاپشۇرۇۋالدى"
-
-#~ msgid "%s: Could not read Session ID"
-#~ msgstr "%s: ئەڭگىمە ID سىنى ئوقۇغىلى بولمىدى"
-
-#~ msgid "%s: Could not read Display Class"
-#~ msgstr "%s: كۆرسىتىش دەرىجىسىنى ئوقۇغىلى بولمىدى"
-
-#~ msgid "%s: Could not read address"
-#~ msgstr "%s: ئادرېسنى ئوقۇغىلى بولمىدى"
-
-#~ msgid "%s: Got KEEPALIVE from banned host %s"
-#~ msgstr "%s: چەكلەنگەن كومپيۇتېر %s دىن KEEPALIVE تاپشۇرۇۋالدى"
-
-#~ msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-#~ msgstr "GdmXdmcpDisplayFactory: XDMCP قېشىنى ئوقۇغىلى بولمىدى"
-
-#~ msgid "Could not get server hostname: %s!"
-#~ msgstr "مۇلازىمېتىر كومپيۇتېرىنىڭ ئاتىنى ئوقۇيالمىدى: %s!"
-
-#~ msgid "Logdir %s does not exist or isn't a directory."
-#~ msgstr "%s خاتىرە مۇندەرىجە(Logdir) مەۋجۇت ئەمەس ياكى مۇندەرىجە ئەمەس."
-
-#~ msgid "Authdir %s does not exist. Aborting."
-#~ msgstr "%s دەلىللەش مۇندەرىجە(Authdir) مەۋجۇت ئەمەس. توختىتىۋاتىدۇ."
-
-#~ msgid "Authdir %s is not a directory. Aborting."
-#~ msgstr "%s دەلىللەش مۇندەرىجە(Authdir) مۇندەرىجە ئەمەس. توختىتىۋاتىدۇ."
-
-#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-#~ msgstr ""
-#~ "Authdir %s نىڭ ئىگىسى ئىشلەتكۈچى %d، گۇرۇپپا %d ئەمەس. توختىتىۋاتىدۇ."
-
-#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-#~ msgstr ""
-#~ "Authdir %s نىڭ ھوقۇقى %o توغرا ئەمەس. %o بولۇشى كېرەك ئىدى. توختىتىۋاتىدۇ."
-
-#~ msgid "AT-SPI Registry Wrapper"
-#~ msgstr "AT-SPI رويخەت تۈرى"
-
-#~ msgid "Power Manager"
-#~ msgstr "توك مەنبە باشقۇرغۇچ"
-
-#~ msgid "GNOME Session Acceleration Checker"
-#~ msgstr "GNOME ئەڭگىمە تېزلەتكۈچنى تەكشۈرگۈچ"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "GNOME تەڭشەك نازارەتچىسى"
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "GNOME ئېكران چوڭايتقۇ"
-
-#~ msgid "Magnify parts of the screen"
-#~ msgstr "ئېكراننىڭ مەلۇم بۆلىكىنى چوڭايتىدۇ"
-
-#~ msgid "GNOME On-Screen Keyboard"
-#~ msgstr "GNOME ئېكران ھەرپتاختا"
-
-#~ msgid "Use an on-screen keyboard"
-#~ msgstr "ئېكران ھەرپتاختىسىنى ئىشلىتىدۇ"
-
-#~ msgid "Metacity"
-#~ msgstr "Metacity"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "Orca ئېكران ئوقۇغۇ"
-
-#~ msgid "Present on-screen information as speech or braille"
-#~ msgstr "ئېكراندىكى ئۇچۇرلارنى ئۇن ياكى ئەمالار يېزىقى شەكلىدە كۆرسىتىدۇ"
-
-#~ msgid "Languages"
-#~ msgstr "تىللار"
-
-#~ msgid "_Languages:"
-#~ msgstr "تىللار(_L):"
-
-#~ msgid "_Language:"
-#~ msgstr "تىل(_L):"
-
-#~ msgctxt "language"
-#~ msgid "Other…"
-#~ msgstr "باشقا…"
-
-#~ msgid "Choose a language from the full list of available languages."
-#~ msgstr "تىل تىزىملىكىدىن تىل تاللايدۇ."
-
-#~ msgid "Language"
-#~ msgstr "تىل"
-
-#~ msgid "Unspecified"
-#~ msgstr "بەلگىلەنمىگەن"
-
-#~ msgid "Max Item Count"
-#~ msgstr "تۇرنىڭ ئەڭ كوپ سانى"
-
-#~ msgid "The maximum number of items to keep around in the list"
-#~ msgstr "تىزىملىكتە ساقلىنىدىغان تۈرلەرنىڭ ئەڭ كوپ سانىنى بىلدۈرىدۇ"
-
-#~ msgid "Banner message text when chooser is empty"
-#~ msgstr "تاللىغۇ قۇرۇق ۋاقىتتا چىقىدىغان لەۋھە ئۇچۇرىنىڭ تېكىستى"
-
-#~ msgid "Do not show known users in the login window"
-#~ msgstr "تىزىمغا كىرىش كۆزنىكىدە ئىشلەتكۈچىلەرنىڭ ئاتىنى كۆرسەتمە"
-
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "ھەرپتاختا قىستۇرمىسىنىڭ ياردەمچى ئىقتىدارىنى ئىشلەت"
-
-#~ msgid "Enable on-screen keyboard"
-#~ msgstr "ئېكران ھەرپتاختىسىنى ئىشلەت"
-
-#~ msgid "Enable screen magnifier"
-#~ msgstr "ئېكران چوڭايتىشنى ئىشلەت"
-
-#~ msgid "Enable screen reader"
-#~ msgstr "ئېكران ئوقۇغۇنى ئىشلەت"
-
-#~ msgid "Icon name to use for greeter logo"
-#~ msgstr "سالام تۇغى ئۈچۈن ئىشلىتىلىدىغان سىنبەلگە ئاتى"
-
-#~ msgid "Recently selected languages"
-#~ msgstr "ئالدىنقى قېتىم تاللانغان تىل"
-
-#~ msgid ""
-#~ "Set to a list of languages to be shown by default in the login window."
-#~ msgstr "تىزىمغا كىرىش كۆزنىكىدە كۆرسىتىلىدىغان كۆڭۈلدىكى تىللار تەڭشىكى."
-
-#~ msgid "Set to the themed icon name to use for the greeter logo."
-#~ msgstr "سالام تۇغى ئۈچۈن ئىشلىتىلىدىغان سىنبەلگىنىڭ ئات تەڭشىكى."
-
-#~ msgid "Set to true to disable showing known users in the login window."
-#~ msgstr ""
-#~ "تىزىمغا كىرىش كۆزنىكىدە ئىشلەتكۈچى ئاتىنى كۆرسەتمەسلىك ئۈچۈن true قىلىپ "
-#~ "تەڭشىلىدۇ."
-
-#~ msgid "Set to true to enable the XRandR settings manager plugin."
-#~ msgstr ""
-#~ "xrandr تەڭشەك باشقۇرغۇ قىستۇرمىسىنى ئىشلىتىش ئۈچۈن true قىلىپ تەڭشىلىدۇ."
-
-#~ msgid "Set to true to enable the background settings manager plugin."
-#~ msgstr ""
-#~ "تەگلىك تەڭشەك باشقۇرغۇ قىستۇرمىسىنى ئىشلىتىش ئۈچۈن true قىلىپ تەڭشىلىدۇ."
-
-#~ msgid "Set to true to enable the media-keys settings manager plugin."
-#~ msgstr ""
-#~ "media-keys تەڭشەك باشقۇرغۇ قىستۇرمىسىنى ئىشلىتىش ئۈچۈن true قىلىپ "
-#~ "تەڭشىلىدۇ."
-
-#~ msgid "Set to true to enable the on-screen keyboard."
-#~ msgstr "ئېكران ھەرپتاختىسىنى ئىشلىتىش ئۈچۈن true قىلىپ تەڭشىلىدۇ."
-
-#~ msgid ""
-#~ "Set to true to enable the plugin to manage the accessibility keyboard "
-#~ "settings."
-#~ msgstr ""
-#~ "قوشۇمچە ئىقتىدارلىق ھەرپتاختا تەڭشەك قىستۇرمىسى ئىشلىتىش ئۈچۈن true قىلىپ "
-#~ "تەڭشىلىدۇ."
-
-#~ msgid "Set to true to enable the screen magnifier."
-#~ msgstr "ئېكران چوڭايتقۇنى ئىشلىتىش ئۈچۈن true قىلىپ تەڭشىلىدۇ."
-
-#~ msgid "Set to true to enable the screen reader."
-#~ msgstr "ئېكران ئوقۇغۇنى ئىشلىتىش ئۈچۈن true قىلىپ تەڭشىلىدۇ."
-
-#~ msgid "Set to true to enable the sound settings manager plugin."
-#~ msgstr ""
-#~ "ئۈن تەڭشەك باشقۇرغۇ قىستۇرمىسىنى ئىشلىتىش ئۈچۈن true قىلىپ تەڭشىلىدۇ."
-
-#~ msgid "Set to true to enable the xsettings settings manager plugin."
-#~ msgstr ""
-#~ "xsettings تەڭشەك باشقۇرغۇ قىستۇرمىسىنى ئىشلىتىش ئۈچۈن true قىلىپ "
-#~ "تەڭشىلىدۇ."
-
-#~ msgid "Set to true to use Compiz as the window manager."
-#~ msgstr ""
-#~ "compiz نى ئېكران باشقۇرغۇ قىلىپ ئىشلىتىش ئۈچۈن true  قىلىپ تەڭشىلىدۇ."
-
-#~ msgid ""
-#~ "Text banner message to show in the login window when the user chooser is "
-#~ "empty, instead of banner_message_text."
-#~ msgstr ""
-#~ "ئىشلەتكۈچى لەۋھە ئۇچۇرى تېكىستنى تاللىمىغاندا banner_message_text نىڭ "
-#~ "ئورنىغا كۆرسىتىلىدىغان تېكىست."
-
-#~ msgid "True if the XRandR settings manager plugin is enabled."
-#~ msgstr "xrandr تەڭشەك باشقۇرغۇ قىستۇرمىسى ئىشلىتىلسە true بولىدۇ."
-
-#~ msgid "True if the background settings manager plugin is enabled."
-#~ msgstr "تەگلىك تەڭشەك باشقۇرغۇ قىستۇرمىسى ئىشلىتىلسە true بولىدۇ."
-
-#~ msgid "True if the media-keys settings manager plugin is enabled."
-#~ msgstr "media-keys تەڭشەك باشقۇرغۇ قىستۇرمىسى ئىشلىتىلسە true بولىدۇ."
-
-#~ msgid "True if the sound settings manager plugin is enabled."
-#~ msgstr "ئۈن تەڭشەك باشقۇرغۇ قىستۇرمىسى ئىشلىتىلسە true بولىدۇ."
-
-#~ msgid "True if the xsettings settings manager plugin is enabled."
-#~ msgstr "xsettings تەڭشەك باشقۇرغۇ قىستۇرمىسى ئىشلىتىلسە true بولىدۇ."
-
-#~ msgid "Use Compiz as the window manager"
-#~ msgstr "compiz نى كۆزنەك باشقۇرغۇ قىلىپ ئىشلەت"
-
-#~ msgid "Shutdown Options…"
-#~ msgstr "تاقاش تاللانما…"
-
-#~ msgid "Keyboard layouts"
-#~ msgstr "ھەرپتاختا ئورۇنلاشتۇرۇلۇشى"
-
-#~ msgid "_Keyboard:"
-#~ msgstr "ھەرپتاختا(_K):"
-
-#~ msgctxt "keyboard"
-#~ msgid "Other…"
-#~ msgstr "باشقا…"
-
-#~ msgid "Choose a keyboard layout from the full list of available layouts."
-#~ msgstr "ھەرپتاختا تىزىملىكىدىن ھەرپتاختا تاللاڭ."
-
-#~ msgid "Keyboard"
-#~ msgstr "ھەرپتاختا"
-
-#~ msgid "Recently selected keyboard layouts"
-#~ msgstr "ئالدىنقى قېتىم تاللانغان ھەرپتاختا ئورۇنلاشتۇرۇلۇشى"
-
-#~ msgid ""
-#~ "Set to a list of keyboard layouts to be shown by default in the login "
-#~ "window."
-#~ msgstr ""
-#~ "تىزىمغا كىرىش كۆزنىكىدە كۆرسىتىلىدىغان كۆڭۈلدىكى ھەرپتاختا ئورۇنلاشتۇرۇش "
-#~ "تەڭشىكى."
-
-#~ msgid ""
-#~ "The User Switch Applet is free software; you can redistribute it and/or "
-#~ "modify it under the terms of the GNU General Public License as published "
-#~ "by the Free Software Foundation; either version 2 of the License, or (at "
-#~ "your option) any later version."
-#~ msgstr ""
-#~ "مەزكۇر ئىشلەتكۈچى ئالماشتۇرۇش قوللانچىقى ھەقسىز دېتالدۇر. سىز ئەركىن "
-#~ "يۇمشاق دېتال ۋەخپىسى تارقاتقان GNU ئادەتتىكى ئاممىۋى ئىجازەتنامە بويىچە "
-#~ "ئۇنى قايتا تارقىتىپ ياكى ئۆزگەرتەلەيسىز؛ سىز شۇ ئىجازەت كېلىشىمىنىڭ "
-#~ "ئىككىنچى نەشرى ياكى يۇقىرى نەشرىنى ئىشلەتسىڭىز بولىدۇ."
-
-#~ msgid ""
-#~ "This program is distributed in the hope that it will be useful, but "
-#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
-#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
-#~ "Public License for more details."
-#~ msgstr ""
-#~ "بۇ پروگراممىنى تارقىتىشتىكى مەقسەت سىزگە قۇلايلىق ئېلىپ كېلىش، ئەمما سودا "
-#~ "ياكى باشقا ئالاھىدە قوللىنىشقا نىسبەتەن ھېچقانداق كاپالەت يوق.  GNU "
-#~ "ئادەتتىكى ئاممىۋى ئىجازەت كېلىشىمىنى كۆرۈپ تېخىمۇ كۆپ تەپسىلاتقا ئېرىشىڭ."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with this program; if not, write to the Free Software Foundation, Inc., "
-#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA "
-#~ msgstr ""
-#~ "مەزكۇر پروگرامما بىلەن بىرگە GNU ئادەتتىكى ئاممىۋى ئىجازەت كېلىشىمىدىن "
-#~ "بىر نۇسخا تاپشۇرۇۋالىسىز؛ ئۇنداق بولمىسا Free Software Foundation, Inc., "
-#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA  بىلەن ئالاقە "
-#~ "قىلىڭ. "
-
-#~ msgid "A menu to quickly switch between users."
-#~ msgstr "ئىشلەتكۈچىلەرنى تېز ئالماشتۇرۇش ئۈچۈن ئىشلىتىلىدىغان تىزىملىك."
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Gheyret Kenji <gheyret@gmail.com>\n"
-#~ "Sahran<sahran@live.com>"
-
-#~ msgid "Can't lock screen: %s"
-#~ msgstr "ئېكراننى قۇلۇپلىغىلى بولمىدى:  %s"
-
-#~ msgid "Can't temporarily set screensaver to blank screen: %s"
-#~ msgstr ""
-#~ "ئېكران قوغدىغۇچنى ۋاقىتلىق قۇرۇق ئېكران قىلىپ تەڭشىگىلى بولمىدى:  %s"
-
-#~ msgid "Can't log out: %s"
-#~ msgstr "تىزىمدىن چىقالمىدى: %s"
-
-#~ msgid "Available"
-#~ msgstr "بار"
-
-#~ msgid "Invisible"
-#~ msgstr "يوشۇرۇن"
-
-#~ msgid "Busy"
-#~ msgstr "ئالدىراش"
-
-#~ msgid "Away"
-#~ msgstr "يوق"
-
-#~ msgid "Account Information"
-#~ msgstr "ھېساب ئۇچۇرى"
-
-#~ msgid "System Preferences"
-#~ msgstr "سىستېما مايىللىقى"
-
-#~ msgid "Lock Screen"
-#~ msgstr "ئېكراننى قۇلۇپلاش"
-
-#~ msgid "Switch User"
-#~ msgstr "ئىشلەتكۈچى ئالماشتۇرۇش"
-
-#~ msgid "Quit…"
-#~ msgstr "چېكىن…"
-
-#~ msgid "User Switch Applet"
-#~ msgstr "ئىشلەتكۈچى ئالماشتۇرۇش قوللانچاق پروگراممىسى"
-
-#~ msgid "Change account settings and status"
-#~ msgstr "ھېساب تەڭشەكلىرى ۋە ھالەتنى ئۆزگەرت"
-
-#~ msgid "A menu to quickly switch between users"
-#~ msgstr "ئىشلەتكۈچىلەرنى چاپسان ئالماشتۇرۇش تىزىملىكى"
-
-#~ msgid "User Switcher"
-#~ msgstr "ئىشلەتكۈچى ئالماشتۇرغۇ"
-
-#~ msgid "User Switcher Applet Factory"
-#~ msgstr "ئىشلەتكۈچى ئالماشتۇرغۇ قوللانچاق زاۋۇتى"
-
-#~ msgid "Edit Personal _Information"
-#~ msgstr "شەخسىي ئۇچۇرلارنى تەھرىرلە(_I)"
-
-#~ msgid "_About"
-#~ msgstr "ھەققىدە(_A)"
-
-#~ msgid "_Edit Users and Groups"
-#~ msgstr "ئىشلەتكۈچى ۋە گۇرۇپپا تەھرىرلە(_E)"
-
-#~ msgid "Unknown"
-#~ msgstr "نامەلۇم"
-
-#~ msgid "Quit..."
-#~ msgstr "چېكىن..."
-
-#~ msgid "Couldn't set groupid to 0"
-#~ msgstr "گۇرۇپپا ID  سىنى 0 گە تەڭشىگىلى بولمىدى"
-
-#~ msgid "Change login screen configuration"
-#~ msgstr "كىرىش ئېكرانىنىڭ تەڭشىكىنى ئۆزگەرت"
-
-#~ msgid "Privileges are required to change the login screen configuration."
-#~ msgstr "كىرىش ئېكرانىنىڭ تەڭشىكىنى ئۆزگەرتىش ئۈچۈن ئىمتىياز بولۇشى كېرەك."
-
-#~ msgid "Configure login screen behavior"
-#~ msgstr "كىرىش ئېكرانىنىڭ ئىش-ھەرىكەتلىرىنى تەڭشە"
-
-#~ msgid "Login Screen"
-#~ msgstr "كىرىش ئېكرانى"
-
-#~ msgid "Log in as %s automatically"
-#~ msgstr "ئىشلەتكۈچى %s ئۆزلۈكىدىن كىرسۇن"
-
-#~ msgid "Allow %s seconds for anyone else to log in first"
-#~ msgstr "باشقىلارنىڭ ئالدىن كىرىۋېلىشى ئۈچۈن %s سېكۇنت ساقلىسۇن"
-
-#~ msgid "Select %s as default session"
-#~ msgstr "%s كۆڭۈلدىكى ئەڭگىمە بولسۇن"
-
-#~ msgid "Login Screen Settings"
-#~ msgstr "كىرىش ئېكرانى تەڭشىكى"
-
-#~ msgid "Play login sound"
-#~ msgstr "ئۈن چالسۇن"
-
-#~ msgid "Show list of users"
-#~ msgstr "ئىشلەتكۈچى تىزىملىكىنى كۆرسەت"
-
-#~ msgid "When the computer starts up:"
-#~ msgstr "كومپيۇتېر قوزغالغاندا: "
-
-#~ msgid "_Show the screen for choosing who will log in"
-#~ msgstr "كىرىدىغان ئىشلەتكۈچىلەرنى تاللاش ئېكرانىنى كۆرسەتسۇن(_S)"
-
-#~ msgid "%x"
-#~ msgstr "%x"
-
-#~ msgid "Manager"
-#~ msgstr "باشقۇرغۇ"
-
-#~ msgid "The user manager this user is controlled by."
-#~ msgstr "بۇ ئىشلەتكۈچىنى باشقۇرۇۋاتقان ئىشلەتكۈچى باشقۇرغۇ جىسمى"
