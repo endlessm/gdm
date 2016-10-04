@@ -1,24 +1,23 @@
-# translation of gdm.gnome-3-14.is.po to
-# Icelandic translation of gdm2
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
-# Richard Allen <ra@ra.is>, 2003.
-# Sveinn í Felli <sv1@fellsnet.is>, 2015.
+# 
+# Translators:
+# Richard Allen <ra@ra.is>, 2003
+# Sveinn í Felli <sv1@fellsnet.is>, 2015-2016
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm.gnome-3-14.is\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2015-04-27 14:58+0000\n"
-"Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
-"Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
-"Language: is\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:52+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Icelandic (http://www.transifex.com/endless-mobile-inc/gdm/language/is/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: is\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -46,9 +45,7 @@ msgstr "Gat ekki skilgreint núverandi setu."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"Kerfið er ófært um að ákvarða hvort ræsa eigi nýjan innskráningarglugga eða "
-"nota þann sem fyrir er."
+msgstr "Kerfið er ófært um að ákvarða hvort ræsa eigi nýjan innskráningarglugga eða nota þann sem fyrir er."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
@@ -117,7 +114,7 @@ msgstr "%s: Auð skipun frá þjóni fyrir skjá %s"
 
 #: ../daemon/gdm-session-auditor.c:90
 msgid "Username"
-msgstr "Notendanafn"
+msgstr "Notandanafn"
 
 #: ../daemon/gdm-session-auditor.c:91
 msgid "The username"
@@ -151,43 +148,34 @@ msgstr "Aðgangnum þínum voru gefin tímamörk sem nú eru liðin."
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Æ, þetta virkaði ekki. Endilega reyndu aftur."
 
-#  login: is whacked always translate to Username:
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
-msgstr "Notendanafn:"
+msgstr "Notandanafn:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr "Lykilorðið þitt er útrunnið, endilega breyttu því núna."
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "enginn notandaaðgangur tiltækur"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Það tókst ekki að skipta yfir í notanda"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Gat ekki ræst X-þjóninn (myndræna notandaviðmótið) vegna innri villu. Hafðu "
-"samband við kerfisstjórann eða skoðaðu syslog annálinn til að bilanagreina "
-"þetta. Þangað til hefur þessi skjár verið gerður óvirkur. Endurræstu svo GDM "
-"þegar orsök vandamálsins hefur verið leiðrétt."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Gat ekki ræst X-þjóninn (myndræna notandaviðmótið) vegna innri villu. Hafðu samband við kerfisstjórann eða skoðaðu syslog annálinn til að bilanagreina þetta. Þangað til hefur þessi skjár verið gerður óvirkur. Endurræstu svo GDM þegar orsök vandamálsins hefur verið leiðrétt."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -201,9 +189,7 @@ msgstr "Get ekki skrifað PID-skrá %s: hugsanlega er ekki nægt diskpláss: %s"
 #: ../daemon/main.c:188
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr ""
-"Mistókst að búa til merkið \"keyrt einu sinni\" (ran once marker) í möppu "
-"%s: %s"
+msgstr "Mistókst að búa til merkið \"keyrt einu sinni\" (ran once marker) í möppu %s: %s"
 
 #: ../daemon/main.c:194
 #, c-format
@@ -271,9 +257,7 @@ msgstr "Hvort leyfa eigi fingrafaralesara til innskráningar"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Innskráningarglugginn getur mögulega leyft þeim notendum sem skráð hafa "
-"fingraför sín að nota þau til að skrá sig inn."
+msgstr "Innskráningarglugginn getur mögulega leyft þeim notendum sem skráð hafa fingraför sín að nota þau til að skrá sig inn."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -283,9 +267,7 @@ msgstr "Hvort leyfa eigi snjallkortalesara til innskráningar"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Innskráningarglugginn getur mögulega leyft þeim notendum sem eiga skráð "
-"snjallkort að nota þau til að skrá sig inn."
+msgstr "Innskráningarglugginn getur mögulega leyft þeim notendum sem eiga skráð snjallkort að nota þau til að skrá sig inn."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -295,10 +277,7 @@ msgstr "Hvort leyfa eigi lykilorð til innskráningar"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Hægt er að stilla innskráningargluggann til að hafna innskráningu með "
-"lykilorði, og þvinga þannig notendur til að nota snjallkort eða fingraför "
-"til að skrá sig inn."
+msgstr "Hægt er að stilla innskráningargluggann til að hafna innskráningu með lykilorði, og þvinga þannig notendur til að nota snjallkort eða fingraför til að skrá sig inn."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -309,20 +288,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"Innskráningarglugginn getur verið með lítilli mynd fyrir ofan "
-"notendalistann, ágæt leið fyrir lénstjóra og hugbúnaðardreifingar til að "
-"auðkenna sig með vörumerki."
+msgstr "Innskráningarglugginn getur verið með lítilli mynd fyrir ofan notendalistann, ágæt leið fyrir lénstjóra og hugbúnaðardreifingar til að auðkenna sig með vörumerki."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
-"Vara-innskráningarglugginn getur verið með lítilli mynd fyrir ofan "
-"notendalistann, ágæt leið fyrir lénstjóra og hugbúnaðardreifingar til að "
-"auðkenna sig með vörumerki."
+msgstr "Vara-innskráningarglugginn getur verið með lítilli mynd fyrir ofan notendalistann, ágæt leið fyrir lénstjóra og hugbúnaðardreifingar til að auðkenna sig með vörumerki."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -330,12 +303,9 @@ msgstr "Forðast að birta notendalista"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Innskráningarglugginn birtir venjulega lista með tiltækum notendum, sem nota "
-"má til innskráningar. Hægt er að víxla þessum eiginleika af, þannig að "
-"enginn notendalisti birtist."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Innskráningarglugginn birtir venjulega lista með tiltækum notendum, sem nota má til innskráningar. Hægt er að víxla þessum eiginleika af, þannig að enginn notendalisti birtist."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -358,10 +328,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Koma í veg fyrir birtingu endurræsingarhnappa"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Ef þetta er virkt, er komið í veg fyrir birtingu endurræsingarhnappa í "
-"innskráningarglugga."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Ef þetta er virkt, er komið í veg fyrir birtingu endurræsingarhnappa í innskráningarglugga."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -371,9 +340,7 @@ msgstr "Leyfilegur fjöldi misheppnaðra innskráninga"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Fjöldi tilrauna sem notandi fær til að skrá sig inn, áður en hætt er við og "
-"farið aftur í að velja notanda."
+msgstr "Fjöldi tilrauna sem notandi fær til að skrá sig inn, áður en hætt er við og farið aftur í að velja notanda."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"

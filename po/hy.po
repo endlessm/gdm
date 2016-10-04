@@ -1,21 +1,22 @@
-# gdm2 armenian translation
-# Copyright (C) 2006 Norayr Chilingaryan
-# This file is distributed under the same license as the gdm package.
-# Norayr Chilingaryan <norik@freenet.am>, 2006.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Norayr Chilingaryan <norik@freenet.am>, 2006
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm2.HEAD\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2006-03-03 14:59+0000\n"
-"Last-Translator: Norayr Chilingaryan <norik@freenet.am>\n"
-"Language-Team: Armenian <norik@freenet.am>\n"
-"Language: hy\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:11+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Armenian (http://www.transifex.com/endless-mobile-inc/gdm/language/hy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 16bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hy\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -85,14 +86,14 @@ msgid "initgroups () failed for %s"
 msgstr ""
 
 #: ../daemon/gdm-server.c:460
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn't set userid to %d"
-msgstr "Չի հաջողվում սեսիա բացել %s-ի համար"
+msgstr ""
 
 #: ../daemon/gdm-server.c:538
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Could not open log file for display %s!"
-msgstr "%s՝ Չի հաջողվել կարդալ էկրանի հասցեն"
+msgstr ""
 
 #: ../daemon/gdm-server.c:559 ../daemon/gdm-server.c:565
 #: ../daemon/gdm-server.c:571
@@ -115,9 +116,8 @@ msgid "Username"
 msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:91
-#, fuzzy
 msgid "The username"
-msgstr "Անուն"
+msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:95
 msgid "Hostname"
@@ -147,38 +147,33 @@ msgstr ""
 msgid "Sorry, that didn't work. Please try again."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Անուն"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
-#, fuzzy
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
-msgstr "Ծածկագիր"
-
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr ""
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
 msgstr ""
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
@@ -231,9 +226,8 @@ msgid "Print GDM version"
 msgstr ""
 
 #: ../daemon/main.c:339
-#, fuzzy
 msgid "GNOME Display Manager"
-msgstr "ԳՆՈՄ Աշխատասեղանի Կառավարիչ"
+msgstr ""
 
 #. make sure the pid file doesn't get wiped
 #: ../daemon/main.c:387
@@ -247,9 +241,8 @@ msgid "GNOME Display Manager Session Worker"
 msgstr ""
 
 #: ../data/applications/gnome-shell.desktop.in.h:1
-#, fuzzy
 msgid "GNOME Shell"
-msgstr "ԳՆՈՄ"
+msgstr ""
 
 #: ../data/applications/gnome-shell.desktop.in.h:2
 msgid "Window management and compositing"
@@ -276,9 +269,8 @@ msgid ""
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
-#, fuzzy
 msgid "Whether or not to allow passwords for login"
-msgstr "%s գործածողը մուտքի իրավունք չունի"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:6
 msgid ""
@@ -310,8 +302,8 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
@@ -335,7 +327,8 @@ msgid "Disable showing the restart buttons"
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
@@ -349,18 +342,16 @@ msgid ""
 msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
-#, fuzzy
 msgid "Select System"
-msgstr "Ընտրեք գործածողի նկարը"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
-#, fuzzy
 msgid "XDMCP: Could not read XDMCP header!"
-msgstr "%s՝ Չի հաջողվել կարդալ էկրանի հասցեն"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
 msgid "XDMCP: Incorrect XDMCP version!"
@@ -401,9 +392,8 @@ msgstr ""
 
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
-#, fuzzy
 msgid "- New GDM login"
-msgstr "Նոր մուտք"
+msgstr ""
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
@@ -413,389 +403,3 @@ msgstr ""
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr ""
-
-#~ msgid "This session logs you into GNOME"
-#~ msgstr "ԳՆՈՄ միջավայր մտնելու համար"
-
-#~ msgid "Log in anyway"
-#~ msgstr "Այնուամենայնիվ մտնել միջավայր"
-
-#~ msgid "Abort login"
-#~ msgstr "Ընդհատել մուտքը"
-
-#~ msgid "%s: User not allowed to log in"
-#~ msgstr "%s՝ գործածողը մուտքի իրավունք չունի "
-
-#~ msgid "The system administrator has disabled your account."
-#~ msgstr "Համակարգի ադմինիստրատորը անջատել է հաշիվը"
-
-#~ msgid "Root login disallowed on display '%s'"
-#~ msgstr "Root-ի մուտքը արգելված է '%s' էկրանին"
-
-#~ msgid "The system administrator is not allowed to login from this screen"
-#~ msgstr "Համակարգի ադմինիստրատորին աթույլ տրված չէ մտնել այս էկրան"
-
-#~ msgid ""
-#~ "\n"
-#~ "The system administrator has disabled your account."
-#~ msgstr ""
-#~ "\n"
-#~ "Համակարգի ադմինիստրատորը անջատել է հաշիվը"
-
-#~ msgid "Password of %s has expired"
-#~ msgstr "%s - ի գաղտնագրի ժամկետը լրացել է"
-
-#~ msgid "Your account has expired; please contact your system administrator"
-#~ msgstr "Ձեր հաշվի ժամկետը լրացել է, կապնվեք համակարգի ադմինիստրատորի հետ"
-
-#~ msgid "Retype new UNIX password:"
-#~ msgstr "Կրկին ներմուծեք նոր UNIX ծածկագիրը"
-
-#~ msgid "Enter new UNIX password:"
-#~ msgstr "Ներմուծեք նոր UNIX ծածկագիրը"
-
-#~ msgid "(current) UNIX password:"
-#~ msgstr "(ընթացիկ) UNIX ծածկագիրը"
-
-#~ msgid "You must choose a longer password"
-#~ msgstr "Ընտրեք ավելի երկար ծածկագիր"
-
-#~ msgid "Password has been already used. Choose another."
-#~ msgstr "Ծածկագիրը արդեն կիրառվում է։ Ընտրեք այլ բառ"
-
-#~ msgid "Sorry, passwords do not match"
-#~ msgstr "Կներեք, բայց գաղտնագրերը չէն համընկնում"
-
-#~ msgid ""
-#~ "\n"
-#~ "The system administrator is not allowed to login from this screen"
-#~ msgstr ""
-#~ "\n"
-#~ "Համակարգի ադմինիստրատորը չի կարող մտնել այս էկրանից"
-
-#~ msgid "User %s no longer permitted to access the system"
-#~ msgstr "%s այլեվս համակարգ մտնելու իրավունք չունի"
-
-#~ msgid "User %s not permitted to gain access at this time"
-#~ msgstr "%s –ի մուտքը արգելված է ներկա ժամանակ"
-
-#~ msgid ""
-#~ "\n"
-#~ "The system administrator has disabled access to the system temporarily."
-#~ msgstr ""
-#~ "\n"
-#~ "Համակարգի ադմինիստրատորը ժամանակավոր անջատել է Ձեր հաշիվը"
-
-#~ msgid "Automatic login"
-#~ msgstr "Ավտոմատ մուտք"
-
-#~ msgid ""
-#~ "\n"
-#~ "The system administrator has disabled your access to the system "
-#~ "temporarily."
-#~ msgstr ""
-#~ "\n"
-#~ "Համակարգի ադմինիստրատորը ժամանակավոր անջատել է Ձեր հաշիվը"
-
-#~ msgid "%s: Could not read display port number"
-#~ msgstr "%s՝ Չի հաջողվում կարդալ էկրանի պորտի համարը"
-
-#~ msgid "%s: Bad address"
-#~ msgstr "%s՝ Սխալ հասցե"
-
-#~ msgid "Denied XDMCP query from host %s"
-#~ msgstr "%s մեքենայից XDMCP հարցումը չի բավարարվել"
-
-#~ msgid "A-M|Albanian"
-#~ msgstr "Ալբաներեն"
-
-#~ msgid "A-M|Arabic (Egypt)"
-#~ msgstr "Արաբերեն"
-
-#~ msgid "A-M|Arabic (Lebanon)"
-#~ msgstr "Արաբերեն (Լեբանան)"
-
-#~ msgid "A-M|Armenian"
-#~ msgstr "Հայերեն"
-
-#~ msgid "A-M|Azerbaijani"
-#~ msgstr "Ադրբեջաներեն"
-
-#~ msgid "A-M|Chinese (China Mainland)"
-#~ msgstr "Չինարեն (China Mainland)"
-
-#~ msgid "A-M|Chinese (Hong Kong)"
-#~ msgstr "Չինարեն (Հոնգ Կոնգ)"
-
-#~ msgid "A-M|Chinese (Singapore)"
-#~ msgstr "Չինարեն (Սինգապուր)"
-
-#~ msgid "A-M|Chinese (Taiwan)"
-#~ msgstr "Չինարեն (Թայվան)"
-
-#~ msgid "A-M|English (USA)"
-#~ msgstr "Անգլերեն (ԱՄՆ)"
-
-#~ msgid "A-M|English (Australia)"
-#~ msgstr "Անգլերեն (Ավստրալիա)"
-
-#~ msgid "A-M|English (UK)"
-#~ msgstr "Անգլերեն (ՄԹ)"
-
-#~ msgid "A-M|English (Canada)"
-#~ msgstr "Անգլերեն (Կանադա)"
-
-#~ msgid "A-M|English (Ireland)"
-#~ msgstr "Անգլերեն (Իրլանդիա)"
-
-#~ msgid "A-M|English (Denmark)"
-#~ msgstr "Անգլերեն (Դանիա)"
-
-#~ msgid "A-M|English (South Africa)"
-#~ msgstr "Անգլերեն (Հարավային Աֆրիկա)"
-
-#~ msgid "A-M|Estonian"
-#~ msgstr "Էստոներեն"
-
-#~ msgid "A-M|Finnish"
-#~ msgstr "Ֆիններեն"
-
-#~ msgid "A-M|French"
-#~ msgstr "Ֆրանսերեն"
-
-#~ msgid "A-M|French (Belgium)"
-#~ msgstr "Ֆրանսերեն (Բելգիա)"
-
-#~ msgid "A-M|French (Switzerland)"
-#~ msgstr "Ֆրանսերեն (Շվեյցարիա)"
-
-#~ msgid "A-M|German"
-#~ msgstr "Գերմաներեն"
-
-#~ msgid "A-M|German (Austria)"
-#~ msgstr "Գերմաներեն (Ավստրիա)"
-
-#~ msgid "A-M|German (Switzerland)"
-#~ msgstr "Գերմաներեն (Շվեյցարիա)"
-
-#~ msgid "A-M|Greek"
-#~ msgstr "Հունարեն"
-
-#~ msgid "A-M|Hebrew"
-#~ msgstr "Եբրաերեն"
-
-#~ msgid "A-M|Hindi"
-#~ msgstr "Հինդի"
-
-#~ msgid "A-M|Italian"
-#~ msgstr "Իտալերեն"
-
-#~ msgid "Are you sure you want to restart the computer?"
-#~ msgstr "Իրո՞ք ցանկցանում եք վերաբեռնել համակարգիչը"
-
-#~ msgid "_Restart"
-#~ msgstr "Վերաբեռնել"
-
-#~ msgid "Are you sure you want to Shut Down the computer?"
-#~ msgstr "Իրո՞ք ցանկանում եք անջատել համակարգիչը"
-
-#~ msgid "Shut _Down"
-#~ msgstr "Անջատել"
-
-#~ msgid "Are you sure you want to suspend the computer?"
-#~ msgstr "Իրո՞ք ցանկանում եք հապաղել համակարգիչը"
-
-#~ msgid "_Suspend"
-#~ msgstr "Համաղում"
-
-#~ msgid "Do you wish to make %s the default for future sessions?"
-#~ msgstr "Ցանկանու՞մ եք ընդունել %s-ը հիմնական ապագա նիստերի համար"
-
-#~ msgid "Make _Default"
-#~ msgstr "հիմնական"
-
-#~ msgid "Just _Log In"
-#~ msgstr "Պարզապես Մուտք"
-
-#~ msgid "You have chosen %s for this session, but your default setting is %s."
-#~ msgstr "Դուք ընտրել եք %s այս նիստի համար, բայց հիմնական նախընտրանքը %s է"
-
-#~ msgid "Just For _This Session"
-#~ msgstr "Այս նիստի համար"
-
-#~ msgid "You have chosen %s for this session."
-#~ msgstr "Ընտրել եք %s այն նիստի համար"
-
-#~ msgid "System Default"
-#~ msgstr "Համակարգի հիմնական"
-
-#~ msgid "_Username:"
-#~ msgstr "Անուն"
-
-#~ msgid "%s session selected"
-#~ msgstr "Ընտրված է %s նիստը"
-
-#~ msgid "_Last"
-#~ msgstr "Նախորդը"
-
-#~ msgid "%s language selected"
-#~ msgstr "ընտրված է %s լեզուն"
-
-#~ msgid "_System Default"
-#~ msgstr "Համակարգի հիմնական"
-
-#~ msgid "_Other"
-#~ msgstr "Այլ"
-
-#~ msgid "_Password:"
-#~ msgstr "Ծածկագիր"
-
-#~ msgid "Please insert 25 cents to log in."
-#~ msgstr "Ներմուծեք 25 ցենթ մուտքի համար"
-
-#~ msgid "GDM Login"
-#~ msgstr "GDM մուտք"
-
-#~ msgid "_Session"
-#~ msgstr "Նիստ"
-
-#~ msgid "_Language"
-#~ msgstr "Լեզու"
-
-#~ msgid "_Configure Login Manager..."
-#~ msgstr "Հատկություններ"
-
-#~ msgid "_Actions"
-#~ msgstr "Գործողություններ"
-
-#~ msgid "_Theme"
-#~ msgstr "Թեմաներ"
-
-#~ msgid "_Quit"
-#~ msgstr "Ելք"
-
-#~ msgid "Icon"
-#~ msgstr "Պատկերակ"
-
-#~ msgid "Restart"
-#~ msgstr "Վերաբեռնել"
-
-#~ msgid "Restart GDM"
-#~ msgstr "Վերաբեռնել GDM - ը"
-
-#~ msgid "Restart computer"
-#~ msgstr "Վերաբեռնել համակարգիչը"
-
-#~ msgid "Images"
-#~ msgstr "Նկարներ"
-
-#~ msgid "All Files"
-#~ msgstr "Բոլոր Ֆայլերը"
-
-#~ msgid "Login Photo"
-#~ msgstr "Մուտքի Նկար"
-
-#~ msgid "<b>User Image</b>"
-#~ msgstr "<b>Գործածողի նկարը</b>"
-
-#~ msgid "Login Photo Preferences"
-#~ msgstr "Մուտքի Նկարի հատկությունները"
-
-#~ msgid "Failsafe _GNOME"
-#~ msgstr "Անվտանգ ԳՆՕՄ"
-
-#~ msgid "Failsafe _Terminal"
-#~ msgstr "Անվտանգ Տերմինալ"
-
-#~ msgid "Sounds"
-#~ msgstr "Ձայներ"
-
-#~ msgid "Select Theme Archive"
-#~ msgstr "Ընտրեք Թեմայի Արխիվը"
-
-#~ msgid "_Install"
-#~ msgstr "Տեղակայել"
-
-#~ msgid "Author:"
-#~ msgstr "Հեղինակ՝"
-
-#~ msgid "Background"
-#~ msgstr "Նախադրյալ"
-
-#~ msgid "C_ommand:"
-#~ msgstr "Հրաման՝"
-
-#~ msgid "C_ustom:"
-#~ msgstr "Այլ՝"
-
-#~ msgid "Co_lor:"
-#~ msgstr "Գույն՝"
-
-#~ msgid "Color depth:"
-#~ msgstr "Գույնի խորություն՝"
-
-#~ msgid "I_mage:"
-#~ msgstr "Նկար՝"
-
-#~ msgid "Logo"
-#~ msgstr "Լոգո"
-
-#~ msgid "Themes"
-#~ msgstr "Թեմաներ"
-
-#~ msgid "Already logged in"
-#~ msgstr "Արդեն մուտք գործել եք միջավայր"
-
-#~ msgid "Sus_pend"
-#~ msgstr "Համաղում"
-
-#~ msgid "Remote Login via _XDMCP"
-#~ msgstr "Հեռակա Մուտք XDMCP -ի միջոցով"
-
-#~ msgid "Confi_gure"
-#~ msgstr "Կարգավորել"
-
-#~ msgid "Op_tions"
-#~ msgstr "Հատկություններ"
-
-#~ msgid "_OK"
-#~ msgstr "ՕԿ"
-
-#~ msgid "_Cancel"
-#~ msgstr "Հրաժարվել"
-
-#~ msgid "You have chosen %s for this session"
-#~ msgstr "Ընտրել եք %s այս նիստի համար"
-
-#~ msgid "Change _Session"
-#~ msgstr "Փոխել Նիստը"
-
-#~ msgid "Sessions"
-#~ msgstr "Նիստերը"
-
-#~ msgid "_Last session"
-#~ msgstr "Նախորդ Նիստը"
-
-#~ msgid "Log in using the session that you have used last time you logged in"
-#~ msgstr "Մտնել նախորդ ընտրված նիստ"
-
-#~ msgid "Choose an Action"
-#~ msgstr "Ընտրել գործողություն"
-
-#~ msgid "Shut _down the computer"
-#~ msgstr "Անջատել համակարգիչը"
-
-#~ msgid "Shut Down your computer so that you may turn it off."
-#~ msgstr "Անջատել համակարգը "
-
-#~ msgid "_Restart the computer"
-#~ msgstr "Վերաբեռնել համակարգը"
-
-#~ msgid "Restart your computer"
-#~ msgstr "Վերաբեռնել համակարգիչը"
-
-#~ msgid "Sus_pend the computer"
-#~ msgstr "Համաղել համակարգիչը"
-
-#~ msgid "Suspend your computer"
-#~ msgstr "Հապաղել համակարգիչը"

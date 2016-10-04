@@ -1,78 +1,78 @@
-# Romanian translation of gdm
-# Copyright (C) 2000 - 2009 Free Software Foundation, Inc.
-# Marius Andreiana <marius galuna.ro>, 2000, 2002.
-# Dan Damian <dand@gnome.ro>, 2001.
-# Mișu Moldovan <dumol@gnome.ro>, 2003 - 2009.
-# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009, 2010, 2011.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Adi Roiban <adi@roiban.ro>, 2009
+# Dan Damian <dand@gnome.ro>, 2001
+# Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2014-2015
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009-2011
+# Marius Andreiana <marius galuna.ro>, 2000,2002
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2011-03-16 23:26+0200\n"
-"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
-"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
-"Language: ro\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:57+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Romanian (http://www.transifex.com/endless-mobile-inc/gdm/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);;\n"
-"X-Generator: Virtaal 0.6.1\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
 msgid "/dev/urandom is not a character device"
-msgstr "/dev/urandom nu este un dispozitiv de tip caracter"
+msgstr "/dev/urandom nu este un dispozitiv de semne grafice"
 
 #: ../common/gdm-common.c:619 ../common/gdm-common.c:772
 #: ../libgdm/gdm-user-switching.c:344 ../libgdm/gdm-user-switching.c:514
 #, c-format
 msgid "Could not identify the current session."
-msgstr "Nu s-a putut identifica sesiunea curentă."
+msgstr "Sesiunea actuală nu a putut fi identificată."
 
 #: ../common/gdm-common.c:626 ../libgdm/gdm-user-switching.c:351
-#, fuzzy, c-format
+#, c-format
 msgid "User unable to switch sessions."
-msgstr "Nu s-a putut deschide sesiunea"
+msgstr ""
 
 #: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
-#, fuzzy, c-format
+#, c-format
 msgid "Could not identify the current seat."
-msgstr "Nu s-a putut identifica sesiunea curentă."
+msgstr "Sesiunea actuală nu a putut fi identificată."
 
 #: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
+msgstr "Sistemul nu poate determina dacă să comute la un ecran de autentificare existent sau să pornească unul nou."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
 msgid "The system is unable to start up a new login screen."
-msgstr ""
+msgstr "Sistemul nu poate porni un ecran de autentificare nou."
 
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user \"%s\" on system"
-msgstr "nu s-a putut găsi „%s” în sistem"
+msgstr "Utilizatorul „%s” nu a putut fi găsit în sistem"
 
 #: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
-#, fuzzy
 msgid "No session available"
-msgstr "nici un cont disponibil de utilizator"
+msgstr "Nicio sesiune disponibilă"
 
 #: ../daemon/gdm-manager.c:953
 #, c-format
 msgid "Can only be called before user is logged in"
-msgstr ""
+msgstr "Poate fi executat doar înainte ca utilizatorul să fie autentificat"
 
 #: ../daemon/gdm-manager.c:962
 #, c-format
 msgid "Caller not GDM"
-msgstr ""
+msgstr "Apelantul nu este GDM"
 
 #: ../daemon/gdm-server.c:437
 #, c-format
@@ -82,7 +82,7 @@ msgstr "Serverul trebuia pornit de utilizatorul %s, dar acesta nu există"
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
 msgid "Couldn't set groupid to %d"
-msgstr "Nu s-a putut seta „groupid” ca fiind %d"
+msgstr "groupid nu a putut fi stabilit ca fiind %d"
 
 #: ../daemon/gdm-server.c:454
 #, c-format
@@ -92,38 +92,36 @@ msgstr "initgroups () a eșuat pentru %s"
 #: ../daemon/gdm-server.c:460
 #, c-format
 msgid "Couldn't set userid to %d"
-msgstr "Nu s-a putut seta „userid” ca fiind %d"
+msgstr "userid nu a putut fi stabilit ca fiind %d"
 
 #: ../daemon/gdm-server.c:538
 #, c-format
 msgid "%s: Could not open log file for display %s!"
-msgstr "%s: Nu s-a putut deschide fișierul log pentru displayul %s!"
+msgstr "%s: Nu s-a putut deschide fișierul jurnal pentru afișajul %s!"
 
 #: ../daemon/gdm-server.c:559 ../daemon/gdm-server.c:565
 #: ../daemon/gdm-server.c:571
 #, c-format
 msgid "%s: Error setting %s to %s"
-msgstr ""
-"%s: A apărut o eroare în timp ce se definea opțiunea de configurare %s la "
-"valoarea %s"
+msgstr "%s: Eroare în stabilirea a „%s” ca fiind %s"
 
 #: ../daemon/gdm-server.c:591
 #, c-format
 msgid "%s: Server priority couldn't be set to %d: %s"
-msgstr "%s: Prioritatea serverului nu a putut fi setată la valoarea %d: %s"
+msgstr "%s: Prioritatea serverului nu a putut fi stabilită ca fiind %d: %s"
 
 #: ../daemon/gdm-server.c:743
 #, c-format
 msgid "%s: Empty server command for display %s"
-msgstr "%s: Comandă de server nulă pentru ecranul %s"
+msgstr "%s: Comandă de server nulă pentru afișajul %s"
 
 #: ../daemon/gdm-session-auditor.c:90
 msgid "Username"
-msgstr "Nume utilizator"
+msgstr "Nume de utilizator"
 
 #: ../daemon/gdm-session-auditor.c:91
 msgid "The username"
-msgstr "Numele utilizatorului"
+msgstr "Numele de utilizator"
 
 #: ../daemon/gdm-session-auditor.c:95
 msgid "Hostname"
@@ -135,61 +133,52 @@ msgstr "Numele calculatorului"
 
 #: ../daemon/gdm-session-auditor.c:101
 msgid "Display Device"
-msgstr "Dispozitiv tip display"
+msgstr "Dispozitiv de tip afișaj"
 
 #: ../daemon/gdm-session-auditor.c:102
 msgid "The display device"
-msgstr "Dispozitivul de tip display"
+msgstr "Dispozitivul de tip afișaj"
 
 #: ../daemon/gdm-session.c:1216
-#, fuzzy
 msgid "Could not create authentication helper process"
-msgstr "%s: Nu s-a putut citi numele de autentificare"
+msgstr "Nu s-a putut crea procesul ajutător de autentificare"
 
 #: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
-msgstr ""
+msgstr "Contul dumneavoastră a primit o limită de timp care acum a expirat."
 
 #: ../daemon/gdm-session-worker.c:853
 msgid "Sorry, that didn't work. Please try again."
-msgstr ""
+msgstr "Nu a funcționat. Încercați din nou."
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
-msgstr "Nume utilizator:"
+msgstr "Nume de utilizator:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
-msgstr "nici un cont disponibil de utilizator"
+msgstr "niciun cont de utilizator disponibil"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Nu se poate schimba utilizatorul"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Nu s-a putut porni serverul X (mediul grafic) datorită unei erori interne. "
-"Contactați administratorul sistemului sau citiți mesajele din logurile de "
-"sistem pentru diagnosticare. Între timp acest ecran va fi dezactivat. "
-"Reinițializați GDM după ce remediați problema apărută."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Serverul X (mediul dumneavoastră grafic) nu a putut porni din cauza unei erori interne. Contactați administratorul de sistem sau verificați syslog pentru diagnoză. Între timp acest afișaj va fi dezactivat. Reporniți GDM când problema este corectată."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -198,37 +187,35 @@ msgstr "Nu s-a putut crea un socket!"
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Nu s-a putut scrie fișierul PID %s, probabil din lipsă de spațiu pe disc: %s"
+msgstr "Nu s-a putut scrie fișierul PID %s, probabil din lipsă de spațiu pe disc: %s"
 
 #: ../daemon/main.c:188
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr ""
+msgstr "Nu s-a putut crea dosarul %s al fișierului PID: %s"
 
 #: ../daemon/main.c:194
 #, c-format
 msgid "Failed to create LogDir %s: %s"
-msgstr ""
+msgstr "Crearea dosarului jurnal %s a eșuat: %s"
 
 #: ../daemon/main.c:229
 #, c-format
 msgid "Can't find the GDM user '%s'. Aborting!"
-msgstr "Nu s-a găsit utilizatorul GDM „%s”. Se abandonează!"
+msgstr "Utilizatorul GDM „%s” nu a fost găsit. Se renunță!"
 
 #: ../daemon/main.c:235
 msgid "The GDM user should not be root. Aborting!"
-msgstr ""
-"Utilizatorul GDM n-ar trebui să fie administrator (root). Se abandonează!"
+msgstr "Utilizatorul GDM nu trebuie să fie root. Se renunță!"
 
 #: ../daemon/main.c:241
 #, c-format
 msgid "Can't find the GDM group '%s'. Aborting!"
-msgstr "Nu s-a găsit grupul GDM „%s”. Se abandonează!"
+msgstr "Grupul GDM „%s” nu a fost găsit. Se renunță!"
 
 #: ../daemon/main.c:247
 msgid "The GDM group should not be root. Aborting!"
-msgstr "Grupul GDM n-ar trebui să fie administrator (root). Se abandonează!"
+msgstr "Grupul GDM nu trebuie să fie root. Se renunță!"
 
 #: ../daemon/main.c:324
 msgid "Make all warnings fatal"
@@ -244,7 +231,7 @@ msgstr "Arată versiunea GDM"
 
 #: ../daemon/main.c:339
 msgid "GNOME Display Manager"
-msgstr "Administrator display GNOME"
+msgstr "Administrator afișaje GNOME"
 
 #. make sure the pid file doesn't get wiped
 #: ../daemon/main.c:387
@@ -255,78 +242,77 @@ msgstr "Doar administratorul (root) poate porni GDM"
 #. of starting up a session
 #: ../daemon/session-worker-main.c:95
 msgid "GNOME Display Manager Session Worker"
-msgstr "Worker de sesiune al administratorului de display GNOME"
+msgstr "Proces ajutător al sesiunii administratorului de afișaje GNOME"
 
 #: ../data/applications/gnome-shell.desktop.in.h:1
 msgid "GNOME Shell"
-msgstr ""
+msgstr "Interfața GNOME"
 
 #: ../data/applications/gnome-shell.desktop.in.h:2
-#, fuzzy
 msgid "Window management and compositing"
-msgstr "Demon al administratorului de consum"
+msgstr "Administrarea și compunerea ferestrelor"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
-msgstr ""
+msgstr "Permite sau nu folosirea cititoarelor de amprente pentru autentificare"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:2
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
+msgstr "Ecranul de autentificare poate permite utilizatorilor care și-au înregistrat amprentele să se autentifice folosindu-le."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
-msgstr ""
+msgstr "Permite sau nu folosirea cititoarelor de smartcarduri pentru autentificare"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:4
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
+msgstr "Ecranul de autentificare poate permite utilizatorilor care și-au înregistrat smartcarduri să se autentifice folosindu-le."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
-msgstr ""
+msgstr "Permite sau nu folosirea parolelor pentru autentificare"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:6
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
+msgstr "Ecranul de autentificare poate fi configurat să nu permită autentificarea cu parolă, obligând utilizatorul să folosească autentificarea cu smartcard sau amprentă."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
-msgstr ""
+msgstr "Locația imaginii din vârful listei de utilizatori"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:8
 msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
+msgstr "Ecranul de autentificare poate afișa o imagine mică în vârful listei sale de utilizatori pentru ca distribuitorii și administratorii să poată marca un brand."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
+msgstr "Ecranul de autentificare de rezervă poate afișa o imagine mică în vârful listei sale de utilizatori pentru ca distribuitorii și administratorii să poată marca un brand."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
-msgstr ""
+msgstr "Evită afișarea listei de utilizatori"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Ecranul de autentificare în mod normal afișează o listă cu utilizatorii disponibili. Această opțiune poate fi dezactivată."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
-msgstr "Activare afișare mesaj de banner"
+msgstr "Activează afișarea mesajelor banner"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:13
 msgid "Set to true to show the banner message text."
@@ -345,21 +331,19 @@ msgid "Disable showing the restart buttons"
 msgstr "Dezactivează afișarea butoanelor de repornire"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Alegeți TRUE pentru a dezactiva afișarea butoanelor de repornire în "
-"fereastra de autentificare."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Alegeți TRUE pentru a dezactiva afișarea butoanelor de repornire în fereastra de autentificare."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
-#, fuzzy
 msgid "Number of allowed authentication failures"
-msgstr "%s: Nu s-a putut citi numele de autentificare"
+msgstr "Numărul de autentificări eșuate permise"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
+msgstr "De câte ori unui utilizator îi este permis să încerce autentificarea înainte de a reveni la selecția utilizatorilor"
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -374,24 +358,20 @@ msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: Nu s-a putut citi antetul XDMCP!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-#, fuzzy
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XDMCP: Versiune XDMCP incorectă!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-#, fuzzy
 msgid "XDMCP: Unable to parse address"
-msgstr "XMDCP: Nu s-a putut prelucra adresa"
+msgstr "XDMCP: Nu s-a putut prelucra adresa"
 
 #: ../libgdm/gdm-user-switching.c:72
-#, fuzzy
 msgid "Unable to create transient display: "
-msgstr "Nu s-a putut porni un nou display"
+msgstr "Nu s-a putut porni afișajul temporar: "
 
 #: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
-#, fuzzy
 msgid "Unable to activate session: "
-msgstr "Nu s-a putut deschide sesiunea"
+msgstr "Nu s-a putut deschide sesiunea: "
 
 #: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
@@ -412,7 +392,7 @@ msgstr "Mesaje detaliate pentru depanare"
 
 #: ../utils/gdmflexiserver.c:52
 msgid "Version of this application"
-msgstr "Versiune aplicație"
+msgstr "Versiunea acestei aplicații"
 
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
@@ -427,671 +407,3 @@ msgstr "S-a capturat ecranul"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Capturează imaginea ecranului"
-
-#~ msgid "Display ID"
-#~ msgstr "ID display"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "Copil al administratorului de display GNOME"
-
-#~ msgid "Unable to initialize login system"
-#~ msgstr "Nu s-a putut inițializa sistemul de autentificare"
-
-#~ msgid "Unable to authenticate user"
-#~ msgstr "Nu s-a putut autentifica utilizatorul"
-
-#~ msgid "Unable to authorize user"
-#~ msgstr "Nu s-a putut autoriza utilizatorul"
-
-#~ msgid "Unable to establish credentials"
-#~ msgstr "Nu s-au putut verifica credențialele"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: nu s-a reușit conectarea la ecranul părinte „%s”"
-
-#~| msgid "error initiating conversation with authentication system: %s"
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr "eroare la inițierea conversației cu sistemul de autentificare - %s"
-
-#~ msgid "general failure"
-#~ msgstr "eșec total"
-
-#~ msgid "out of memory"
-#~ msgstr "memorie insuficientă"
-
-#~ msgid "application programmer error"
-#~ msgstr "eroare de programare a aplicației"
-
-#~ msgid "unknown error"
-#~ msgstr "eroare necunoscută"
-
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt: %s"
-#~ msgstr ""
-#~ "eroare la informarea sistemului de autentificare cu privire la promptul "
-#~ "preferat pentru numele de utilizator: %s"
-
-#~ msgid "error informing authentication system of user's hostname: %s"
-#~ msgstr ""
-#~ "eroare la informarea sistemului de autentificare cu privire la numele "
-#~ "calculatorului utilizatorului: %s"
-
-#~ msgid "error informing authentication system of user's console: %s"
-#~ msgstr ""
-#~ "eroare la informarea sistemului de autentificare cu privire la consola "
-#~ "utilizatorului: %s"
-
-#~ msgid "error informing authentication system of display string: %s"
-#~ msgstr ""
-#~ "eroare la informarea sistemului de autentificare cu privire la variabila "
-#~ "DISPLAY: %s"
-
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials: %s"
-#~ msgstr ""
-#~ "eroare la informarea sistemului de autentificare cu privire la "
-#~ "credențialele xauth: %s"
-
-#~ msgid "User %s doesn't exist"
-#~ msgstr "Utilizatorul %s nu există"
-
-#~ msgid "Group %s doesn't exist"
-#~ msgstr "Grupul %s nu există"
-
-#~ msgid "Denied XDMCP query from host %s"
-#~ msgstr "Cererea XDMCP de la %s a fost refuzată"
-
-#~ msgid "Could not extract authlist from packet"
-#~ msgstr "Nu s-a putut extrage „authlist” din acest pachet"
-
-#~ msgid "Error in checksum"
-#~ msgstr "Eroare în suma de verificare"
-
-#~ msgid "Bad address"
-#~ msgstr "Adresă greșită"
-
-#~ msgid "%s: Could not read display address"
-#~ msgstr "%s: Nu s-a putut citi adresa displayului"
-
-#~ msgid "%s: Could not read display port number"
-#~ msgstr "%s: Nu s-a putut citi numărul portului displayului"
-
-#~ msgid "%s: Could not extract authlist from packet"
-#~ msgstr "%s: Nu s-a putut extrage „authlist” din acest pachet"
-
-#~ msgid "%s: Error in checksum"
-#~ msgstr "%s: Eroare în suma de verificare"
-
-#~ msgid "%s: Got REQUEST from banned host %s"
-#~ msgstr "%s: S-a primit un REQUEST de la calculatorul blocat %s"
-
-#~ msgid "%s: Could not read Display Number"
-#~ msgstr "%s: Nu s-a putut citi numărul displayului"
-
-#~ msgid "%s: Could not read Connection Type"
-#~ msgstr "%s: Nu s-a putut citi tipul conexiunii"
-
-#~ msgid "%s: Could not read Client Address"
-#~ msgstr "%s: Nu s-a putut citi adresa clientului"
-
-#~ msgid "%s: Could not read Authentication Data"
-#~ msgstr "%s: Nu s-au putut citi datele de autentificare"
-
-#~ msgid "%s: Could not read Authorization List"
-#~ msgstr "%s: Nu s-a putut citi lista de autorizare"
-
-#~ msgid "%s: Could not read Manufacturer ID"
-#~ msgstr "%s: Nu s-a putut citi identificatorul producătorului"
-
-#~ msgid "%s: Failed checksum from %s"
-#~ msgstr "%s: Verificarea sumei de control de la %s a eșuat"
-
-#~ msgid "%s: Got Manage from banned host %s"
-#~ msgstr "%s: S-a primit o cerere MANAGE de la calculatorul blocat %s"
-
-#~ msgid "%s: Could not read Session ID"
-#~ msgstr "%s: Nu s-a putut citi ID-ul de sesiune"
-
-#~ msgid "%s: Could not read Display Class"
-#~ msgstr "%s: Nu s-a putut citi clasa displayului"
-
-#~ msgid "%s: Could not read address"
-#~ msgstr "%s: Nu s-a putut citi adresa"
-
-#~ msgid "%s: Got KEEPALIVE from banned host %s"
-#~ msgstr "%s: S-a primit KEEPALIVE de la calculatorul interzis %s"
-
-#~ msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-#~ msgstr "GdmXdmcpDisplayFactory: Nu s-a putut citi antetul XDMCP!"
-
-#~ msgid "Could not get server hostname: %s!"
-#~ msgstr "Nu s-a putut obține numele serverului: %s!"
-
-#~ msgid "Logdir %s does not exist or isn't a directory."
-#~ msgstr "Logdir %s nu există sau nu este un dosar."
-
-#~ msgid "Authdir %s does not exist. Aborting."
-#~ msgstr "Authdir %s nu există. Se abandonează."
-
-#~ msgid "Authdir %s is not a directory. Aborting."
-#~ msgstr "Authdir %s nu este un dosar. Se abandonează."
-
-#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-#~ msgstr ""
-#~ "Authdir %s nu este deținut de utilizatorul „%d“, grupul „%d“. Se "
-#~ "abandonează."
-
-#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-#~ msgstr ""
-#~ "Authdir %s are drepturi de acces greșite %o. Ar trebui să fie %o. Se "
-#~ "abandonează."
-
-#~ msgid "AT-SPI Registry Wrapper"
-#~ msgstr "Wrapper al registrului AT-SPI"
-
-#~ msgid "Login Window"
-#~ msgstr "Fereastră de autentificare"
-
-#~ msgid "Power Manager"
-#~ msgstr "Administrator de consum"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "Demon al preferințelor GNOME"
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "Lupă de ecran GNOME"
-
-#~ msgid "Magnify parts of the screen"
-#~ msgstr "Mărește anumite porțiuni din ecran"
-
-#~ msgid "GNOME On-Screen Keyboard"
-#~ msgstr "Tastatură pe ecran GNOME"
-
-#~ msgid "Use an on-screen keyboard"
-#~ msgstr "Utilizează o tastatură pe ecran"
-
-#~ msgid "Metacity"
-#~ msgstr "Metacity"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "Cititorul de ecran Orca"
-
-#~ msgid "Present on-screen information as speech or braille"
-#~ msgstr ""
-#~ "Prezintă informațiile de pe ecran prin sinteză vocală ori în sistem "
-#~ "Braille"
-
-#~ msgid "PolicyKit Authentication Agent"
-#~ msgstr "Agent de autentificare PolicyKit"
-
-#~ msgid "Value"
-#~ msgstr "Valoare"
-
-#~ msgid "percentage of time complete"
-#~ msgstr "procentaj din timpul total"
-
-#~ msgid "Inactive Text"
-#~ msgstr "Text inactiv"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr ""
-#~ "Textul de utilizat în etichetă, dacă utilizatorul nu a ales un element"
-
-#~ msgid "Active Text"
-#~ msgstr "Text activ"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr "Textul de utilizat în etichetă, dacă utilizatorul a ales un element"
-
-#~ msgid "List Visible"
-#~ msgstr "Listă vizibilă"
-
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "Specifică dacă lista de utilizatori este vizibilă"
-
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%a %e %b, %k:%M:%S"
-
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%a %e %b, %k:%M"
-
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%a %k:%M:%S"
-
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%a %k:%M"
-
-#~ msgid "Automatically logging in…"
-#~ msgstr "Autentificare automată în…"
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "Selectați limba și autentificați-vă"
-
-#~ msgid "Cancelling…"
-#~ msgstr "Se renunță…"
-
-#~ msgctxt "customsession"
-#~ msgid "Custom"
-#~ msgstr "Personalizat"
-
-#~ msgid "Custom session"
-#~ msgstr "Sesiune personalizată"
-
-#~| msgid "Panel"
-#~ msgid "Cancel"
-#~ msgstr "Anulează"
-
-#~ msgid "Computer Name"
-#~ msgstr "Nume calculator"
-
-#~ msgid "Login"
-#~ msgstr "Autentificare"
-
-#~ msgid "Unlock"
-#~ msgstr "Deblochează"
-
-#~ msgid "Version"
-#~ msgstr "Versiune"
-
-#~ msgid "Suspend"
-#~ msgstr "Suspendare"
-
-#~ msgid "Restart"
-#~ msgstr "Repornire"
-
-#~ msgid "Shut Down"
-#~ msgstr "Oprire"
-
-#~ msgid "Unknown time remaining"
-#~ msgstr "Timp rămas necunoscut"
-
-#~ msgid "Panel"
-#~ msgstr "Panou"
-
-#~ msgid "Languages"
-#~ msgstr "Limbi"
-
-#~ msgid "_Languages:"
-#~ msgstr "_Limbi:"
-
-#~ msgid "_Language:"
-#~ msgstr "_Limbă:"
-
-#~ msgctxt "language"
-#~ msgid "Other…"
-#~ msgstr "Alta…"
-
-#~ msgid "Choose a language from the full list of available languages."
-#~ msgstr "Alegeți o limbă din lista celor disponibile"
-
-#~ msgid "Language"
-#~ msgstr "Limbă"
-
-#~ msgid "Unspecified"
-#~ msgstr "Nu s-a specificat"
-
-#~ msgid "Label Text"
-#~ msgstr "Etichetă text"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "Textul de utilizat ca etichetă"
-
-#~ msgid "Icon name"
-#~ msgstr "Nume iconiță"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "Iconiță de utilizat cu această etichetă"
-
-#~ msgid "Default Item"
-#~ msgstr "Element implicit"
-
-#~ msgid "The ID of the default item"
-#~ msgstr "Identificatorul elementului implicit"
-
-#~ msgid "Max Item Count"
-#~ msgstr "Contor pentru numărul maxim de elemente"
-
-#~ msgid "The maximum number of items to keep around in the list"
-#~ msgstr "Numărul maxim de elemente de păstrat în listă"
-
-#~ msgid "Remote Login (Connecting to %s…)"
-#~ msgstr "Autentificare la distanță (Conectare la %s…)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "Autentificare la distanță (Conectat la %s)"
-
-#~ msgid "Remote Login"
-#~ msgstr "Autentificare la distanță"
-
-#~ msgid "Session"
-#~ msgstr "Sesiune"
-
-#~ msgid "Banner message text when chooser is empty"
-#~ msgstr "Textul mesajului banner când lista de utilizatori este goală"
-
-#~ msgid "Do not show known users in the login window"
-#~ msgstr "Nu arăta lista utilizatorilor în fereastra de autentificare"
-
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "Activare module de accesibilitate"
-
-#~ msgid "Enable on-screen keyboard"
-#~ msgstr "Activare tastatură pe ecran"
-
-#~ msgid "Enable screen magnifier"
-#~ msgstr "Activare lupă de ecran"
-
-#~ msgid "Enable screen reader"
-#~ msgstr "Activare cititor ecran"
-
-#~ msgid "Icon name to use for greeter logo"
-#~ msgstr "Nume de iconiță de folosit pentru logoul greeter"
-
-#~ msgid "Recently selected languages"
-#~ msgstr "Limbi recent selectate"
-
-#~ msgid ""
-#~ "Set to a list of languages to be shown by default in the login window."
-#~ msgstr ""
-#~ "Precizați o listă de limbi de afișat implicit în fereastra de "
-#~ "autentificare"
-
-#~ msgid "Set to the themed icon name to use for the greeter logo."
-#~ msgstr "Precizați numele temei de iconițe de utilizat pentru logoul greeter"
-
-#~ msgid "Set to true to disable showing known users in the login window."
-#~ msgstr ""
-#~ "Alegeți TRUE pentru a dezactiva afișarea utilizatorilor cunoscuți în "
-#~ "fereastra de autentificare."
-
-#~ msgid "Set to true to enable the XRandR settings manager plugin."
-#~ msgstr ""
-#~ "Alegeți TRUE pentru a activa modulul pentru gestionarea opțiunilor XRandR."
-
-#~ msgid "Set to true to enable the background settings manager plugin."
-#~ msgstr ""
-#~ "Alegeți TRUE pentru a activa modului pentru gestionarea opțiunilor "
-#~ "fundalului."
-
-#~ msgid "Set to true to enable the media-keys settings manager plugin."
-#~ msgstr ""
-#~ "Alegeți TRUE pentru a activa modului pentru gestionarea opțiunilor "
-#~ "tastelor multimedia."
-
-#~ msgid "Set to true to enable the on-screen keyboard."
-#~ msgstr ""
-#~ "Alegeți TRUE pentru a activa afișarea pe ecran a tastaturii pe ecran."
-
-#~ msgid ""
-#~ "Set to true to enable the plugin to manage the accessibility keyboard "
-#~ "settings."
-#~ msgstr ""
-#~ "Alegeți TRUE pentru a activa modulul pentru gestionarea opțiunilor de "
-#~ "accesibilitate a tastaturii."
-
-#~ msgid "Set to true to enable the screen magnifier."
-#~ msgstr "Alegeți TRUE pentru a activa lupa de ecran."
-
-#~ msgid "Set to true to enable the screen reader."
-#~ msgstr "Alegeți TRUE pentru a activa citirea ecranului."
-
-#~ msgid "Set to true to enable the sound settings manager plugin."
-#~ msgstr ""
-#~ "Alegeți TRUE pentru a activa modulul pentru gestionarea opțiunilor de "
-#~ "sunet."
-
-#~ msgid "Set to true to enable the xsettings settings manager plugin."
-#~ msgstr ""
-#~ "Alegeți TRUE pentru a activa modulul pentru gestionarea opțiunilor "
-#~ "xsettings."
-
-#~ msgid "Set to true to use Compiz as the window manager."
-#~ msgstr "Alegeți TRUE pentru a utiliza Compiz ca administrator de ferestre."
-
-#~ msgid ""
-#~ "Text banner message to show in the login window when the user chooser is "
-#~ "empty, instead of banner_message_text."
-#~ msgstr ""
-#~ "Textul mesajului banner de afișat în fereastra de autentificare când "
-#~ "lista de utilizatori este goală în locul textului banner_message_text."
-
-#~ msgid "True if the XRandR settings manager plugin is enabled."
-#~ msgstr ""
-#~ "TRUE atunci când modulul de gestionare a opțiunilor XRandR este activat."
-
-#~ msgid "True if the background settings manager plugin is enabled."
-#~ msgstr ""
-#~ "TRUE atunci când modulul de gestionare a opțiunilor fundalului este "
-#~ "activat"
-
-#~ msgid "True if the media-keys settings manager plugin is enabled."
-#~ msgstr ""
-#~ "TRUE atunci când modulul de gestionare a opțiunilor tastelor multimedia "
-#~ "este activat"
-
-#~ msgid "True if the sound settings manager plugin is enabled."
-#~ msgstr ""
-#~ "TRUE atunci când modulul de gestionare a opțiunilor de sunet este activat"
-
-#~ msgid "True if the xsettings settings manager plugin is enabled."
-#~ msgstr ""
-#~ "TRUE atunci când modulul de gestionare a opțiunilor xsettings este activat"
-
-#~ msgid "Use Compiz as the window manager"
-#~ msgstr "Utilizează Compiz ca administrator de ferestre"
-
-#~ msgid "Duration"
-#~ msgstr "Durată"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "Număr de secunde până la oprirea cronometrului"
-
-#~ msgid "Start time"
-#~ msgstr "Momentul pornirii"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "Momentul în care cronometrul a fost pornit"
-
-#~ msgid "Is it Running?"
-#~ msgstr "E pornit?"
-
-#~ msgid "Whether the timer is currently ticking"
-#~ msgstr "Specifică dacă cronometrul este pornit"
-
-#~ msgid "Log in as %s"
-#~ msgstr "Autentificare drept „%s”"
-
-#~ msgctxt "user"
-#~ msgid "Other…"
-#~ msgstr "Altul…"
-
-#~ msgid "Choose a different account"
-#~ msgstr "Alegeți un alt cont"
-
-#~ msgid "Guest"
-#~ msgstr "Musafir"
-
-#~ msgid "Log in as a temporary guest"
-#~ msgstr "Autentificare ca musafir ocazional"
-
-#~ msgid "Automatic Login"
-#~ msgstr "Autentificare automată"
-
-#~ msgid "Automatically log into the system after selecting options"
-#~ msgstr "Autentificare automată în sistem după alegerea opțiunilor"
-
-#~ msgid "Currently logged in"
-#~ msgstr "Autentificat deja"
-
-#~ msgid "Shutdown Options…"
-#~ msgstr "Opțiuni de oprire…"
-
-#~ msgid "Keyboard layouts"
-#~ msgstr "Aranjamente de tastatură"
-
-#~ msgid "_Keyboard:"
-#~ msgstr "_Tastatură:"
-
-#~ msgctxt "keyboard"
-#~ msgid "Other…"
-#~ msgstr "Alta…"
-
-#~ msgid "Choose a keyboard layout from the full list of available layouts."
-#~ msgstr ""
-#~ "Alegeți un aranjament de tastatură din lista aranjamentelor disponibile."
-
-#~ msgid "Keyboard"
-#~ msgstr "Tastatură"
-
-#~ msgid "Recently selected keyboard layouts"
-#~ msgstr "Aranjamente de tastatură recent utilizate"
-
-#~ msgid ""
-#~ "Set to a list of keyboard layouts to be shown by default in the login "
-#~ "window."
-#~ msgstr ""
-#~ "Precizați o listă a aranjamentelor de tastatură de afișat implicit în "
-#~ "fereastra de autentificare"
-
-#~ msgid ""
-#~ "The User Switch Applet is free software; you can redistribute it and/or "
-#~ "modify it under the terms of the GNU General Public License as published "
-#~ "by the Free Software Foundation; either version 2 of the License, or (at "
-#~ "your option) any later version."
-#~ msgstr ""
-#~ "Miniaplicația de schimbare a utilizatorului este „free software”. Poate "
-#~ "fi redistribuită și/sau modificată în termenii licenței GNU General "
-#~ "Public License în forma publicată de Free Software Foundation, versiunea "
-#~ "2 sau (dacă preferați) orice altă versiune ulterioară."
-
-#~ msgid ""
-#~ "This program is distributed in the hope that it will be useful, but "
-#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
-#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
-#~ "Public License for more details."
-#~ msgstr ""
-#~ "Acest program este distribuit în speranța că vă va fi util, dar FĂRĂ NICI "
-#~ "O GARANȚIE, nici măcar garanția unei posibile COMERCIALIZĂRI ori a "
-#~ "UTILIZĂRII PENTRU UN ANUME SCOP. Consultați licența GNU General Public "
-#~ "License pentru mai multe detalii."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with this program; if not, write to the Free Software Foundation, Inc., "
-#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA "
-#~ msgstr ""
-#~ "Ar fi trebuit să primiți o copie a licenței GNU General Public License "
-#~ "împreună cu acest program. În caz contrar, scrieți la Free Software "
-#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-#~ "USA"
-
-#~ msgid "A menu to quickly switch between users."
-#~ msgstr "Un meniu pentru schimbarea utilizatorului curent."
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Marius Andreiana <marius galuna.ro>\n"
-#~ "Dan Damian <dand@gnome.ro\n"
-#~ "Mișu Moldovan <dumol@gnome.ro>"
-
-#~ msgid "Can't lock screen: %s"
-#~ msgstr "Nu se poate bloca ecranul: %s"
-
-#~ msgid "Can't temporarily set screensaver to blank screen: %s"
-#~ msgstr ""
-#~ "Nu s-a putut inițializa temporar economizorul de ecran pentru înnegrirea "
-#~ "ecranului: %s"
-
-#~ msgid "Can't log out: %s"
-#~ msgstr "Nu se poate ieși din sesiune: %s"
-
-#~ msgid "Available"
-#~ msgstr "Disponibil"
-
-#~ msgid "Invisible"
-#~ msgstr "Invizibil"
-
-#~ msgid "Busy"
-#~ msgstr "Ocupat "
-
-#~ msgid "Away"
-#~ msgstr "Absent"
-
-#~ msgid "Account Information"
-#~ msgstr "Informații cont"
-
-#~ msgid "System Preferences"
-#~ msgstr "Preferințe de sistem"
-
-#~ msgid "Lock Screen"
-#~ msgstr "Blocare ecran"
-
-#~ msgid "Switch User"
-#~ msgstr "Schimbare utilizator"
-
-#~ msgid "Quit…"
-#~ msgstr "Ieșire…"
-
-#~ msgid "Unknown"
-#~ msgstr "Nu se cunoaște"
-
-#~ msgid "User Switch Applet"
-#~ msgstr "Miniaplicație pentru schimbarea utilizatorului"
-
-#~ msgid "Change account settings and status"
-#~ msgstr "Modificare opțiuni cont și stare"
-
-#~ msgid "A menu to quickly switch between users"
-#~ msgstr "Un meniu pentru schimbarea utilizatorului"
-
-#~ msgid "User Switcher"
-#~ msgstr "Schimbare utilizator"
-
-#~ msgid "User Switcher Applet Factory"
-#~ msgstr "Șablon miniaplicație"
-
-#~ msgid "Edit Personal _Information"
-#~ msgstr "Editare _detalii personale"
-
-#~ msgid "_About"
-#~ msgstr "_Despre"
-
-#~ msgid "_Edit Users and Groups"
-#~ msgstr "_Editare utilizatori și grupuri"
-
-#~ msgid "Couldn't set groupid to 0"
-#~ msgstr "Nu s-a putut seta „groupid” ca fiind 0"
-
-#~ msgid "%x"
-#~ msgstr "%x"
-
-#~ msgid "Manager"
-#~ msgstr "Administrator"
-
-#~ msgid "The user manager object this user is controlled by."
-#~ msgstr ""
-#~ "Obiectul administratorului de utilizatori ce controlează acest utilizator"
-
-#~ msgid "Authentication Dialog"
-#~ msgstr "Dialog de autentificare"
-
-#~ msgid "Enable debugging code"
-#~ msgstr "Activare a codului de depanare"
-
-#~ msgid "id"
-#~ msgstr "id"
-
-#~ msgid "%a %b %e"
-#~ msgstr "%a %e %b"
-
-#~ msgid "%1$s, %2$s"
-#~ msgstr "%2$s, %1$s"
-
-#~ msgid "Enable debugging"
-#~ msgstr "Activare depanare"
-
-#~ msgid "Enable debugging mode for the greeter."
-#~ msgstr "Activare a modului de depanare pentru greeter"

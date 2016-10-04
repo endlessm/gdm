@@ -1,21 +1,22 @@
-# Translations into the Amharic Language.
-# Copyright (C) 2002 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gdm2 package.
-# Ge'ez Frontier Foundation <locales@geez.org>, 2002.
-#
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Ge'ez Frontier Foundation <locales@geez.org>, 2002
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm2\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2003-01-08 19:19+EDT\n"
-"Last-Translator: Ge'ez Frontier Foundation <locales@geez.org>\n"
-"Language-Team: Amharic <locales@geez.org>\n"
-"Language: am\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:09+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Amharic (http://www.transifex.com/endless-mobile-inc/gdm/language/am/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: am\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -111,19 +112,16 @@ msgid "%s: Empty server command for display %s"
 msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:90
-#, fuzzy
 msgid "Username"
-msgstr "የተጠቃሚ ስም፦"
+msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:91
-#, fuzzy
 msgid "The username"
-msgstr "የተጠቃሚ ስም፦"
+msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:95
-#, fuzzy
 msgid "Hostname"
-msgstr "የተጠቃሚ ስም፦"
+msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:96
 msgid "The hostname"
@@ -149,38 +147,33 @@ msgstr ""
 msgid "Sorry, that didn't work. Please try again."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "የተጠቃሚ ስም፦"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
-#, fuzzy
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
-msgstr "ሚስጢራዊ ቃል፦ "
-
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr ""
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
 msgstr ""
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
@@ -309,8 +302,8 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
@@ -334,7 +327,8 @@ msgid "Disable showing the restart buttons"
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
@@ -348,9 +342,8 @@ msgid ""
 msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
-#, fuzzy
 msgid "Select System"
-msgstr "ሲስተም (_Y)"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
 msgid "XDMCP: Could not create XDMCP buffer!"
@@ -399,9 +392,8 @@ msgstr ""
 
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
-#, fuzzy
 msgid "- New GDM login"
-msgstr "አዲስ ዝምብሎ ይግባ"
+msgstr ""
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
@@ -411,516 +403,3 @@ msgstr ""
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr ""
-
-#, fuzzy
-#~ msgid "CDE"
-#~ msgstr "ኬዲኢ"
-
-#~ msgid "y = Yes or n = No? >"
-#~ msgstr "y = አዎ ወይስ n = አይ? >"
-
-#, fuzzy
-#~ msgid "Abort login"
-#~ msgstr "አዲስ ዝምብሎ ይግባ"
-
-#, fuzzy
-#~ msgid "Password unchanged"
-#~ msgstr "ሚስጢራዊ ቃል፦ "
-
-#~ msgid "STRING"
-#~ msgstr "ሐረግ"
-
-#~ msgid "OPTIONS"
-#~ msgstr "ምርጫዎች"
-
-#~ msgid "C_onnect"
-#~ msgstr "አገናኝ (_O)"
-
-#~ msgid "Status"
-#~ msgstr "ሁኔታ"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "ADDRESS"
-#~ msgstr "አድራሻ"
-
-#~ msgid "TYPE"
-#~ msgstr "ዓይነት"
-
-#, fuzzy
-#~ msgid "A-M|Albanian"
-#~ msgstr "ሀ-አ|አዜርባይጃንኛ"
-
-#~ msgid "A-M|Amharic"
-#~ msgstr "ሀ-አ|አማርኛ"
-
-#~ msgid "A-M|Arabic (Egypt)"
-#~ msgstr "ሀ-አ|ዐርቢኛ (የግብጽ)"
-
-#~ msgid "A-M|Arabic (Lebanon)"
-#~ msgstr "ሀ-አ|ዐርቢኛ (የሊባኖስ)"
-
-#~ msgid "A-M|Azerbaijani"
-#~ msgstr "ሀ-አ|አዜርባይጃንኛ"
-
-#~ msgid "A-M|Basque"
-#~ msgstr "ሀ-አ|ባስክኛ"
-
-#, fuzzy
-#~ msgid "A-M|Belarusian"
-#~ msgstr "ሀ-አ|ቡልጋሪኛ"
-
-#, fuzzy
-#~ msgid "A-M|Bengali"
-#~ msgstr "ሀ-አ|እንግሊዘኛ"
-
-#, fuzzy
-#~ msgid "A-M|Bengali (India)"
-#~ msgstr "ሀ-አ|እንግሊዘኛ (የአየርላንድ)"
-
-#~ msgid "A-M|Bulgarian"
-#~ msgstr "ሀ-አ|ቡልጋሪኛ"
-
-#, fuzzy
-#~ msgid "A-M|Bosnian"
-#~ msgstr "ሀ-አ|ኤስቶኒአን"
-
-#~ msgid "A-M|Catalan"
-#~ msgstr "ሀ-አ|ካታላን"
-
-#~ msgid "A-M|Chinese (simplified)"
-#~ msgstr "ሀ-አ|ቻይንኛ (ቀላል)"
-
-#~ msgid "A-M|Chinese (traditional)"
-#~ msgstr "ሀ-አ|ቻይንኛ (ባሕላዊው)"
-
-#~ msgid "A-M|Croatian"
-#~ msgstr "ሀ-አ|ክሮሽያንኛ"
-
-#~ msgid "A-M|Czech"
-#~ msgstr "ሀ-አ|ቼክኛ"
-
-#~ msgid "A-M|Danish"
-#~ msgstr "ሀ-አ|ዴኒሽ"
-
-#~ msgid "A-M|Dutch"
-#~ msgstr "ሀ-አ|ደች"
-
-#~ msgid "A-M|English"
-#~ msgstr "ሀ-አ|እንግሊዘኛ"
-
-#~ msgid "A-M|English (American)"
-#~ msgstr "ሀ-አ|ኢንግልዝኛ (የአሜሪካ)"
-
-#~ msgid "A-M|English (Australian)"
-#~ msgstr "ሀ-አ|እንግሊዘኛ (የአውስትሬሊያ)"
-
-#~ msgid "A-M|English (British)"
-#~ msgstr "ሀ-አ|እንግሊዘኛ (የብሪታን)"
-
-#~ msgid "A-M|English (Ireland)"
-#~ msgstr "ሀ-አ|እንግሊዘኛ (የአየርላንድ)"
-
-#~ msgid "A-M|Estonian"
-#~ msgstr "ሀ-አ|ኤስቶኒአን"
-
-#~ msgid "A-M|Finnish"
-#~ msgstr "ሀ-አ|ፊኒሽ"
-
-#~ msgid "A-M|French"
-#~ msgstr "ሀ-አ|ፈረንሳይኛ"
-
-#~ msgid "A-M|Galician"
-#~ msgstr "ሀ-አ|ጋሊሺኛ"
-
-#~ msgid "A-M|German"
-#~ msgstr "ሀ-አ|ጀርመን"
-
-#~ msgid "A-M|Greek"
-#~ msgstr "ሀ-አ|ግሪክኛ"
-
-#, fuzzy
-#~ msgid "A-M|Gujarati"
-#~ msgstr "ሀ-አ|ክሮሽያንኛ"
-
-#~ msgid "A-M|Hebrew"
-#~ msgstr "ሀ-አ|ዕብራስጥ"
-
-#, fuzzy
-#~ msgid "A-M|Hindi"
-#~ msgstr "ሀ-አ|ፊኒሽ"
-
-#~ msgid "A-M|Hungarian"
-#~ msgstr "ሀ-አ|ሀንጋሪኛ"
-
-#~ msgid "A-M|Icelandic"
-#~ msgstr "ሀ-አ|አይስላንድኛ"
-
-#, fuzzy
-#~ msgid "A-M|Indonesian"
-#~ msgstr "ሀ-አ|ማከዶኒኛ"
-
-#, fuzzy
-#~ msgid "A-M|Interlingua"
-#~ msgstr "ሀ-አ|ጣሊያንኛ"
-
-#~ msgid "A-M|Irish"
-#~ msgstr "ሀ-አ|አይሪሽ"
-
-#~ msgid "A-M|Italian"
-#~ msgstr "ሀ-አ|ጣሊያንኛ"
-
-#~ msgid "A-M|Japanese"
-#~ msgstr "ሀ-አ|ጃፓንኛ"
-
-#, fuzzy
-#~ msgid "A-M|Kannada"
-#~ msgstr "ሀ-አ|ኮሪያኛ"
-
-#~ msgid "A-M|Korean"
-#~ msgstr "ሀ-አ|ኮሪያኛ"
-
-#~ msgid "A-M|Latvian"
-#~ msgstr "ሀ-አ|ላትቪያን"
-
-#~ msgid "A-M|Lithuanian"
-#~ msgstr "ሀ-አ|ሊቱአኒያን"
-
-#~ msgid "A-M|Macedonian"
-#~ msgstr "ሀ-አ|ማከዶኒኛ"
-
-#~ msgid "A-M|Malay"
-#~ msgstr "ሀ-አ|ማላይኛ"
-
-#, fuzzy
-#~ msgid "A-M|Malayalam"
-#~ msgstr "ሀ-አ|ማላይኛ"
-
-#, fuzzy
-#~ msgid "A-M|Marathi"
-#~ msgstr "ሀ-አ|ማላይኛ"
-
-#, fuzzy
-#~ msgid "A-M|Mongolian"
-#~ msgstr "ሀ-አ|ማከዶኒኛ"
-
-#~ msgid "N-Z|Norwegian (bokmal)"
-#~ msgstr "ከ-ፐ|ኖርዌይኛ (የቦክማል)"
-
-#~ msgid "N-Z|Norwegian (nynorsk)"
-#~ msgstr "ከ-ፐ|ኖርዌይኛ (የኝኖርስክ)"
-
-#, fuzzy
-#~ msgid "N-Z|Oriya"
-#~ msgstr "ከ-ፐ|ዩክረኒኛ"
-
-#, fuzzy
-#~ msgid "N-Z|Panjabi"
-#~ msgstr "ከ-ፐ|ስፓኒሽ"
-
-#, fuzzy
-#~ msgid "N-Z|Persian"
-#~ msgstr "ከ-ፐ|ራሽኛ"
-
-#~ msgid "N-Z|Polish"
-#~ msgstr "ከ-ፐ|ፖሊሽ"
-
-#~ msgid "N-Z|Portuguese"
-#~ msgstr "ከ-ፐ|ፖርቱጋልኛ"
-
-#~ msgid "N-Z|Portuguese (Brazilian)"
-#~ msgstr "ከ-ፐ|ፖርቱጋልኛ (የብራዚል)"
-
-#~ msgid "N-Z|Romanian"
-#~ msgstr "ከ-ፐ|ሮማኒያን"
-
-#~ msgid "N-Z|Russian"
-#~ msgstr "ከ-ፐ|ራሽኛ"
-
-#, fuzzy
-#~ msgid "N-Z|Serbian"
-#~ msgstr "ከ-ፐ|ስሎቪኛ"
-
-#~ msgid "N-Z|Slovak"
-#~ msgstr "ከ-ፐ|ስሎቫክኛ"
-
-#~ msgid "N-Z|Slovenian"
-#~ msgstr "ከ-ፐ|ስሎቪኛ"
-
-#~ msgid "N-Z|Spanish"
-#~ msgstr "ከ-ፐ|ስፓኒሽ"
-
-#~ msgid "N-Z|Spanish (Mexico)"
-#~ msgstr "ከ-ፐ|ስፓኒሽ (የሜክሲኮ)"
-
-#~ msgid "N-Z|Swedish"
-#~ msgstr "ከ-ፐ|ስዊድንኛ"
-
-#~ msgid "N-Z|Swedish (Finland)"
-#~ msgstr "ከ-ፐ|ስዊድንኛ (የፊንላንድ)"
-
-#~ msgid "N-Z|Tamil"
-#~ msgstr "ከ-ፐ|ታሚልኛ"
-
-#, fuzzy
-#~ msgid "N-Z|Telugu"
-#~ msgstr "ከ-ፐ|ታሚልኛ"
-
-#, fuzzy
-#~ msgid "N-Z|Thai"
-#~ msgstr "ከ-ፐ|ታሚልኛ"
-
-#~ msgid "N-Z|Turkish"
-#~ msgstr "ከ-ፐ|ቱርክኛ"
-
-#~ msgid "N-Z|Ukrainian"
-#~ msgstr "ከ-ፐ|ዩክረኒኛ"
-
-#~ msgid "N-Z|Vietnamese"
-#~ msgstr "ከ-ፐ|ቪትናምኛ"
-
-#~ msgid "N-Z|Walloon"
-#~ msgstr "ከ-ፐ|ዋሉንኛ"
-
-#, fuzzy
-#~ msgid "N-Z|Welsh"
-#~ msgstr "ከ-ፐ|ፖሊሽ"
-
-#, fuzzy
-#~ msgid "N-Z|Yiddish"
-#~ msgstr "ከ-ፐ|ስዊድንኛ"
-
-#~ msgid "Other|POSIX/C English"
-#~ msgstr "ሌላ|POSIX/C እንግሊዘኛ"
-
-#~ msgid "A-M"
-#~ msgstr "ሀ-አ"
-
-#~ msgid "N-Z"
-#~ msgstr "ከ-ፐ"
-
-#~ msgid "Are you sure you want to reboot the machine?"
-#~ msgstr "ኮምፒውተሩን እንደገና ማስጀመር እንደሚፈልጉ እርግጠኛ ነውት?"
-
-#, fuzzy
-#~ msgid "_Reboot"
-#~ msgstr "እንደገና አስጀምሩ"
-
-#~ msgid "Are you sure you want to shut down the machine?"
-#~ msgstr "ኮምፒውተሩን ዝጋ እንደሚፈልጉ እርግጠኛ ነውት?"
-
-#, fuzzy
-#~ msgid "Shut _Down"
-#~ msgstr "አጥፉ... (_D)"
-
-#, fuzzy
-#~ msgid "Make _Default"
-#~ msgstr "የነበረው"
-
-#, fuzzy
-#~ msgid "System Default"
-#~ msgstr "የነበረው"
-
-#, fuzzy
-#~ msgid "_Username:"
-#~ msgstr "የተጠቃሚ ስም፦"
-
-#, fuzzy
-#~ msgid "_Last"
-#~ msgstr "መጨረሻ"
-
-#, fuzzy
-#~ msgid "_System Default"
-#~ msgstr "የነበረው"
-
-#, fuzzy
-#~ msgid "_Other"
-#~ msgstr "ሌላ"
-
-#, fuzzy
-#~ msgid "_Password:"
-#~ msgstr "ሚስጢራዊ ቃል፦ "
-
-#~ msgid "%a %b %d, %H:%M"
-#~ msgstr "%a %b %d, %H:%M"
-
-#~ msgid "%a %b %d, %I:%M %p"
-#~ msgstr "%a %b %d, %I:%M %p"
-
-#~ msgid "GDM Login"
-#~ msgstr "የGDM ዝምብሎ ይግባ"
-
-#~ msgid "_Session"
-#~ msgstr "ክፍለ ጊዜ (_S)"
-
-#~ msgid "_Language"
-#~ msgstr "ቋንቋ (_L)"
-
-#, fuzzy
-#~ msgid "_Configure Login Manager..."
-#~ msgstr "ለውጡ... (_C)"
-
-#~ msgid "Reboot your computer"
-#~ msgstr "ኮምፒውተሩን እንደገና አስጀምር"
-
-#, fuzzy
-#~ msgid "Shut_down"
-#~ msgstr "አጥፉ... (_D)"
-
-#, fuzzy
-#~ msgid "_Actions"
-#~ msgstr "ምርጫዎች"
-
-#~ msgid "_Quit"
-#~ msgstr "ውጣ (_Q)"
-
-#~ msgid "D_isconnect"
-#~ msgstr "ግንኙነት አቋርጥ (_I)"
-
-#~ msgid "Reboot"
-#~ msgstr "እንደገና አስጀምሩ"
-
-#~ msgid "Restart"
-#~ msgstr "እንደገና አስጀምሩ"
-
-#~ msgid "Login Photo"
-#~ msgstr "የዝምብለህ ይግባ ፎቶ"
-
-#~ msgid "Browse"
-#~ msgstr "ቃኝ"
-
-#~ msgid "L_ocal: "
-#~ msgstr "ቅርብ፦ (_O)"
-
-#~ msgid "_Remote: "
-#~ msgstr "የራቀ፦ (_R)"
-
-#, fuzzy
-#~ msgid "Timed Login"
-#~ msgstr "የGDM ዝምብሎ ይግባ"
-
-#~ msgid "General"
-#~ msgstr "አጠቃላይ"
-
-#~ msgid "Logo"
-#~ msgstr "አርማ"
-
-#~ msgid "Miscellaneous"
-#~ msgstr "የተለያየ"
-
-#~ msgid "Background"
-#~ msgstr "መደቡ"
-
-#~ msgid "_No background"
-#~ msgstr "መደቡ የለም (_N)"
-
-#~ msgid "_Image"
-#~ msgstr "ምስል (_I)"
-
-#~ msgid "Co_lor"
-#~ msgstr "ቀለም (_L)"
-
-#~ msgid "_Background color: "
-#~ msgstr "የመደቡ ቀለም፦ (_B)"
-
-#~ msgid "Pick a color"
-#~ msgstr "ቀለም ምረጡ"
-
-#, fuzzy
-#~ msgid "Preview:"
-#~ msgstr "<b>ቅድመ ዕይታ፦</b>"
-
-#, fuzzy
-#~ msgid "Description:"
-#~ msgstr "<b>መግለጫ፦</b>"
-
-#, fuzzy
-#~ msgid "Copyright:"
-#~ msgstr "የቅጂው መብት"
-
-#, fuzzy
-#~ msgid "Author:"
-#~ msgstr "ደራሲ"
-
-#~ msgid "author"
-#~ msgstr "ደራሲ"
-
-#~ msgid "copyright"
-#~ msgstr "የቅጂው መብት"
-
-#~ msgid "Options"
-#~ msgstr "ምርጫዎች"
-
-#, fuzzy
-#~ msgid "Show _actions menu"
-#~ msgstr "የሲስተም ሜኑ አሳይ (_S)"
-
-#~ msgid "Security"
-#~ msgstr "ደህነት"
-
-#~ msgid "XDMCP"
-#~ msgstr "XDMCP"
-
-#~ msgid "Last"
-#~ msgstr "መጨረሻ"
-
-#~ msgid "Select a language"
-#~ msgstr "ቋንቋ ምረጡ"
-
-#, fuzzy
-#~ msgid "Select _Language..."
-#~ msgstr "ቋንቋ ምረጡ"
-
-#, fuzzy
-#~ msgid "Select _Session..."
-#~ msgstr "ክፍለ ጊዜ (_S)"
-
-#, fuzzy
-#~ msgid "_Configure"
-#~ msgstr "ለውጡ"
-
-#, fuzzy
-#~ msgid "Shut _down the computer"
-#~ msgstr "ኮምፒውተሩን ዝጋ"
-
-#, fuzzy
-#~ msgid "_Reboot the computer"
-#~ msgstr "ኮምፒውተሩን እንደገና አስጀምር"
-
-#, fuzzy
-#~ msgid "Sus_pend the computer"
-#~ msgstr "ኮምፒውተሩን ዝጋ"
-
-#~ msgid "(c) 2002 Bond, James Bond"
-#~ msgstr "(ም) 2002 Bond, James Bond"
-
-#~ msgid "Bond, James Bond"
-#~ msgstr "Bond, James Bond"
-
-#~ msgid "(c) 2002 GNOME"
-#~ msgstr "(ም) 2002 ኖም"
-
-#~ msgid "Information"
-#~ msgstr "መረጃ"
-
-#~ msgid "AnotherLevel"
-#~ msgstr "AnotherLevel"
-
-#~ msgid "Gnome"
-#~ msgstr "ኖም"
-
-#~ msgid "Name: "
-#~ msgstr "ስም፦ "
-
-#~ msgid "_Reboot..."
-#~ msgstr "እንደገና አስጀምሩ... (_R)"
-
-#~ msgid "GDM Setup"
-#~ msgstr "የGDM ቅንጅት"
-
-#~ msgid "<b>Author:</b>"
-#~ msgstr "<b>ደራሲ፦</b>"
-
-#~ msgid "<b>Copyright:</b>"
-#~ msgstr "<b>የቅጂው መብት፦</b>"

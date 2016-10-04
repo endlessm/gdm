@@ -1,28 +1,23 @@
-# translation of wa.po to Walon
-# Translation into the walloon language.
-#
-# Si vos voloz donner on côp di spale pol ratoûrnaedje di Gnome (ou des
-# ôtes libes programes) sicrijhoz-mu a l' adresse emile
-# <srtxg@chanae.alphanet.ch>; nos avans co bråmint di l' ovraedje a fé.
-#
-# Copyright (C) 2003 Free Software Foundation, Inc.
-# Pablo Saratxaga <srtxg@chanae.alphanet.ch> 2003
-# Pablo Saratxaga <pablo@mandrakesoft.com>, 2003.
-# Pablo Saratxaga <pablo@walon.org>, 2003.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Pablo Saratxaga <pablo@mandrakesoft.com>, 2003
+# Pablo Saratxaga <pablo@walon.org>, 2003
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm2\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2003-09-10 02:25+0200\n"
-"Last-Translator: Pablo Saratxaga <srtxg@chanae.alphanet.ch>\n"
-"Language-Team: walon <linux-wa@chanae.alphanet.ch>\n"
-"Language: \n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:15+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Walloon (http://www.transifex.com/endless-mobile-inc/gdm/language/wa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0.2\n"
+"Language: wa\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -92,14 +87,14 @@ msgid "initgroups () failed for %s"
 msgstr ""
 
 #: ../daemon/gdm-server.c:460
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn't set userid to %d"
-msgstr "Dji n' a savou otintifyî l' uzeu «%s»"
+msgstr ""
 
 #: ../daemon/gdm-server.c:538
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Could not open log file for display %s!"
-msgstr "%s: Dji n' a savou drovi l' fitchî djournå pol håynaedje %s!"
+msgstr ""
 
 #: ../daemon/gdm-server.c:559 ../daemon/gdm-server.c:565
 #: ../daemon/gdm-server.c:571
@@ -122,14 +117,12 @@ msgid "Username"
 msgstr "No d' uzeu"
 
 #: ../daemon/gdm-session-auditor.c:91
-#, fuzzy
 msgid "The username"
-msgstr "No d' uzeu"
+msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:95
-#, fuzzy
 msgid "Hostname"
-msgstr "No d' uzeu"
+msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:96
 msgid "The hostname"
@@ -144,9 +137,8 @@ msgid "The display device"
 msgstr ""
 
 #: ../daemon/gdm-session.c:1216
-#, fuzzy
 msgid "Could not create authentication helper process"
-msgstr "Dji n' a savou otintifyî l' uzeu «%s»"
+msgstr ""
 
 #: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
@@ -156,44 +148,38 @@ msgstr ""
 msgid "Sorry, that didn't work. Please try again."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "No d' uzeu:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
-#, fuzzy
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
-msgstr "Sicret:"
-
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr ""
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
 msgstr ""
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
-#, fuzzy
 msgid "Could not create socket!"
-msgstr "%s: Dji n' a savou ahiver l' soket!"
+msgstr ""
 
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
@@ -211,18 +197,18 @@ msgid "Failed to create LogDir %s: %s"
 msgstr ""
 
 #: ../daemon/main.c:229
-#, fuzzy, c-format
+#, c-format
 msgid "Can't find the GDM user '%s'. Aborting!"
-msgstr "%s: Dji n' trove nén l' uzeu gdm (%s). Dji rsaye avou «nobody»!"
+msgstr ""
 
 #: ../daemon/main.c:235
 msgid "The GDM user should not be root. Aborting!"
 msgstr ""
 
 #: ../daemon/main.c:241
-#, fuzzy, c-format
+#, c-format
 msgid "Can't find the GDM group '%s'. Aborting!"
-msgstr "%s: Dji n' trove nén l' uzeu gdm (%s). Dji rsaye avou «nobody»!"
+msgstr ""
 
 #: ../daemon/main.c:247
 msgid "The GDM group should not be root. Aborting!"
@@ -241,9 +227,8 @@ msgid "Print GDM version"
 msgstr ""
 
 #: ../daemon/main.c:339
-#, fuzzy
 msgid "GNOME Display Manager"
-msgstr "Manaedjeu di scribannes di Gnome"
+msgstr ""
 
 #. make sure the pid file doesn't get wiped
 #: ../daemon/main.c:387
@@ -257,9 +242,8 @@ msgid "GNOME Display Manager Session Worker"
 msgstr ""
 
 #: ../data/applications/gnome-shell.desktop.in.h:1
-#, fuzzy
 msgid "GNOME Shell"
-msgstr "GNOME"
+msgstr ""
 
 #: ../data/applications/gnome-shell.desktop.in.h:2
 msgid "Window management and compositing"
@@ -286,9 +270,8 @@ msgid ""
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
-#, fuzzy
 msgid "Whether or not to allow passwords for login"
-msgstr "L' uzeu %s n' est nén otorijhî a s' elodjî"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:6
 msgid ""
@@ -320,8 +303,8 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
@@ -345,13 +328,13 @@ msgid "Disable showing the restart buttons"
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
-#, fuzzy
 msgid "Number of allowed authentication failures"
-msgstr "L' otintifiaedje a fwait berwete"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
@@ -360,14 +343,12 @@ msgid ""
 msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
-#, fuzzy
 msgid "Select System"
-msgstr "_Sistinme"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
-#, fuzzy
 msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr "%s: Dji n' a savou ahiver l' soket!"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
 msgid "XDMCP: Could not read XDMCP header!"
@@ -407,15 +388,13 @@ msgid "Debugging output"
 msgstr ""
 
 #: ../utils/gdmflexiserver.c:52
-#, fuzzy
 msgid "Version of this application"
-msgstr "Moussî foû do programe"
+msgstr ""
 
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
-#, fuzzy
 msgid "- New GDM login"
-msgstr "Novea elodjaedje"
+msgstr ""
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
@@ -425,764 +404,3 @@ msgstr ""
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr ""
-
-#~ msgid "CDE"
-#~ msgstr "CDE"
-
-#~ msgid "Default System Session"
-#~ msgstr "Prémetowe session do sistinme"
-
-#~ msgid "This is the default system session"
-#~ msgstr ""
-#~ "Çouci est li prémetowe session do sistinme, po s' elodjî tot-z eployant "
-#~ "li lingaedje defini dins les prémetowès valixhances do sistinme"
-
-#~ msgid "%s: Could not open cookie file %s"
-#~ msgstr "%s: Dji n' a savou drovi l' fitchî coûke %s"
-
-#~ msgid "%s: Could not lock cookie file %s"
-#~ msgstr "%s: Dji n' a savou serer li fitchî coûke %s"
-
-#~ msgid "%s: Could not write cookie"
-#~ msgstr "%s: Dji n' a savou scrire li coûke"
-
-#~ msgid "%s: Cannot create pipe"
-#~ msgstr "%s: Dji n' a savou askepyî l' buze"
-
-#~ msgid "%s could not be opened"
-#~ msgstr "%s ni s' a nén polou drovi"
-
-#~ msgid "%s: Directory %s does not exist."
-#~ msgstr "%s: Li ridant %s n' egzistêye nén"
-
-#~ msgid "%s: %s does not exist but must exist."
-#~ msgstr "%s: %s n' egzistêye nén, mins i dvreut egzister."
-
-#~ msgid "%s: No configuration file: %s. Using defaults."
-#~ msgstr ""
-#~ "%s: Nou fitchî d' apontiaedje: %s. Eployant les prémetowès valixhances."
-
-#~ msgid "%s: fork() failed!"
-#~ msgstr "%s: li fork() a fwait berwete!"
-
-#~ msgid "%s: setsid() failed: %s!"
-#~ msgstr "%s: li setsid() a fwait berwete: %s!"
-
-#~ msgid "%s: Reboot failed: %s"
-#~ msgstr "%s: li renondaedje a fwait berwete: %s"
-
-#~ msgid "%s: Halt failed: %s"
-#~ msgstr "%s: li distindaedje a fwait berwete: %s"
-
-#~ msgid "GDM restarting ..."
-#~ msgstr "Renondant GDM..."
-
-#~ msgid "Preserve LD_* variables"
-#~ msgstr "Wårder les variåves LD_*"
-
-#~ msgid ""
-#~ "Error on option %s: %s.\n"
-#~ "Run '%s --help' to see a full list of available command line options.\n"
-#~ msgstr ""
-#~ "Aroke avou l' tchuze %s: %s.\n"
-#~ "Enondez «%s --help» po vey li djivêye etire des tchuzes k' i gn a pol "
-#~ "roye di comande.\n"
-
-#~ msgid "Only root wants to run gdm\n"
-#~ msgstr "Seulmint root vôreut enonder gdm\n"
-
-#~ msgid "gdm already running. Aborting!"
-#~ msgstr "gdm est ddja en alaedje! Dj' abandone!"
-
-#~ msgid "y = Yes or n = No? >"
-#~ msgstr "y = Oyi oudonbén n = Neni ? >"
-
-#~ msgid "Invalid server command '%s'"
-#~ msgstr "Comande «%s» pol sierveu nén valide"
-
-#~ msgid "Server name '%s' not found, using standard server"
-#~ msgstr ""
-#~ "Li sierveu lomé «%s» n' a nén stî trové, eployant li sierveu standård"
-
-#~ msgid "Abort login"
-#~ msgstr "Leyî ouve l' elodjaedje"
-
-#~ msgid "%s: Could not open ~/.xsession-errors"
-#~ msgstr "%s: Dji n' a savou drovi ~/.xsession-errors"
-
-#~ msgid "Language %s does not exist, using %s"
-#~ msgstr "Li lingaedje %s n' egzistêye nén, eployant %s"
-
-#~ msgid "System default"
-#~ msgstr "Prémetowès valixhances do sistinme"
-
-#~ msgid "%s: User not allowed to log in"
-#~ msgstr "%s: L' uzeu n' est nén otorijhî a s' elodjî"
-
-#~ msgid "The system administrator has disabled your account."
-#~ msgstr "Li manaedjeu do sistinme a dismetou vosse conte."
-
-#~ msgid ""
-#~ "Your home directory is listed as:\n"
-#~ "'%s'\n"
-#~ "but it does not appear to exist.  Do you want to log in with the / (root) "
-#~ "directory as your home directory?\n"
-#~ "\n"
-#~ "It is unlikely anything will work unless you use a failsafe session."
-#~ msgstr ""
-#~ "Vosse ridant måjhon est metou come:\n"
-#~ "«%s»\n"
-#~ "mins i shonne k' i n' egzistêye nén.\n"
-#~ "Voloz vs vos elodjî avou l' ridant raecene ( / ) come ridant måjhon?\n"
-#~ "\n"
-#~ "Probåblumint k' i gn åreut nén grand tchoi po roter a môde di djin, a "
-#~ "moens ki vos n' vos elodjîxhe e môde «failsafe»"
-
-#~ msgid "%s: Home directory for %s: '%s' does not exist!"
-#~ msgstr "%s: Ridant måjhon da %s: «%s» n' egzistêye nén!"
-
-#~ msgid "View details (~/.xsession-errors file)"
-#~ msgstr "Vey les detays (fitchî ~/.xsession-errors)"
-
-#~ msgid "%s: Failed creating pipe"
-#~ msgstr "%s: Dji n' a savou askepyî l' buze"
-
-#~ msgid "%s: Failed executing: %s"
-#~ msgstr "%s: Dji n' a savou enonder: %s"
-
-#~ msgid "Please enter your username"
-#~ msgstr "Tapez vosse no d' uzeu s' i vs plait"
-
-#~ msgid "Root login disallowed on display '%s'"
-#~ msgstr "L' elodjaedje di root n' est nén otorijhî sol waitroûle «%s»"
-
-#~ msgid "Password unchanged"
-#~ msgstr "Sicret nén candjî"
-
-#~ msgid "Couldn't authenticate user"
-#~ msgstr "Dji n' a savou otintifyî l' uzeu"
-
-#~ msgid "Automatic login"
-#~ msgstr "Elodjaedje otomatike"
-
-#~ msgid "STRING"
-#~ msgstr "TCHINNE"
-
-#~ msgid "OPTIONS"
-#~ msgstr "TCHUZES"
-
-#~ msgid "Xnest doesn't exist."
-#~ msgstr "Xnest n' egzistêye nén."
-
-#~ msgid "Probe the network"
-#~ msgstr "Sayî l' rantoele"
-
-#~ msgid "C_onnect"
-#~ msgstr "Si ralo_yî"
-
-#~ msgid "Status"
-#~ msgstr "Estat"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "_Add"
-#~ msgstr "_Radjouter"
-
-#~ msgid "Unknown error occured."
-#~ msgstr "I gn a-st avou ene aroke nén cnoxhowe"
-
-#~ msgid "Choose the X server to start"
-#~ msgstr "Tchoezi li sierveu X a-z enonder"
-
-#~ msgid "Standard server"
-#~ msgstr "Sierveu standård"
-
-#~ msgid "Log in as another user without logging out"
-#~ msgstr "S' elodjî come èn ôte uzeu sins s' dislodjî"
-
-#~ msgid "A-M|Albanian"
-#~ msgstr "A-M|Albanyin"
-
-#~ msgid "A-M|Amharic"
-#~ msgstr "A-M|Amharic"
-
-#~ msgid "A-M|Arabic (Egypt)"
-#~ msgstr "A-M|Arabe (Edjipe)"
-
-#~ msgid "A-M|Arabic (Lebanon)"
-#~ msgstr "A-M|Arabe (Liban)"
-
-#~ msgid "A-M|Azerbaijani"
-#~ msgstr "A-M|Azeri"
-
-#~ msgid "A-M|Basque"
-#~ msgstr "A-M|Basse"
-
-#~ msgid "A-M|Belarusian"
-#~ msgstr "A-M|Belarûsse"
-
-#~ msgid "A-M|Bengali"
-#~ msgstr "A-M|Bengali"
-
-#~ msgid "A-M|Bengali (India)"
-#~ msgstr "A-M|Bengali (Inde)"
-
-#~ msgid "A-M|Bulgarian"
-#~ msgstr "A-M|Bulgåre"
-
-#~ msgid "A-M|Bosnian"
-#~ msgstr "A-M|Bosnyin"
-
-#~ msgid "A-M|Catalan"
-#~ msgstr "A-M|Catalan"
-
-#~ msgid "A-M|Chinese (simplified)"
-#~ msgstr "A-M|Chinwès (simplifyî)"
-
-#~ msgid "A-M|Chinese (traditional)"
-#~ msgstr "A-M|Chinwès (tradicionel)"
-
-#~ msgid "A-M|Croatian"
-#~ msgstr "A-M|Crowåte"
-
-#~ msgid "A-M|Czech"
-#~ msgstr "N-Z|Tcheke"
-
-#~ msgid "A-M|Danish"
-#~ msgstr "A-M|Daenwès"
-
-#~ msgid "A-M|Dutch"
-#~ msgstr "N-Z|Neyerlandès"
-
-#~ msgid "A-M|English"
-#~ msgstr "A-M|Inglès"
-
-#~ msgid "A-M|English (American)"
-#~ msgstr "A-M|Inglès (USA)"
-
-#~ msgid "A-M|English (Australian)"
-#~ msgstr "A-M|Inglès (Ostraleye)"
-
-#~ msgid "A-M|English (British)"
-#~ msgstr "A-M|Inglès (GB)"
-
-#~ msgid "A-M|English (Ireland)"
-#~ msgstr "A-M|Inglès (Irlande)"
-
-#~ msgid "A-M|Estonian"
-#~ msgstr "A-M|Estonyin"
-
-#~ msgid "A-M|Finnish"
-#~ msgstr "A-M|Finwès"
-
-#~ msgid "A-M|French"
-#~ msgstr "A-M|Francès"
-
-#~ msgid "A-M|Galician"
-#~ msgstr "A-M|Galicyin"
-
-#~ msgid "A-M|German"
-#~ msgstr "A-M|Almand"
-
-#~ msgid "A-M|Greek"
-#~ msgstr "A-M|Grek"
-
-#~ msgid "A-M|Gujarati"
-#~ msgstr "A-M|Gujarati"
-
-#~ msgid "A-M|Hebrew"
-#~ msgstr "A-M|Ebreu"
-
-#~ msgid "A-M|Hindi"
-#~ msgstr "A-M|Hindi"
-
-#~ msgid "A-M|Hungarian"
-#~ msgstr "A-M|Hongrwès"
-
-#~ msgid "A-M|Icelandic"
-#~ msgstr "A-M|Izlandès"
-
-#~ msgid "A-M|Indonesian"
-#~ msgstr "A-M|Indonezyin"
-
-#~ msgid "A-M|Interlingua"
-#~ msgstr "A-M|Interlingua"
-
-#~ msgid "A-M|Irish"
-#~ msgstr "A-M|Irlandès"
-
-#~ msgid "A-M|Italian"
-#~ msgstr "A-M|Itålyin"
-
-#~ msgid "A-M|Japanese"
-#~ msgstr "A-M|Djaponès"
-
-#~ msgid "A-M|Kannada"
-#~ msgstr "A-M|Kannada"
-
-#~ msgid "A-M|Korean"
-#~ msgstr "A-M|Coreyin"
-
-#~ msgid "A-M|Macedonian"
-#~ msgstr "A-M|Macedonyin"
-
-#~ msgid "A-M|Malay"
-#~ msgstr "A-M|Malay"
-
-#~ msgid "A-M|Malayalam"
-#~ msgstr "A-M|Malayalam"
-
-#~ msgid "A-M|Mongolian"
-#~ msgstr "A-M|Mongol"
-
-#~ msgid "N-Z|Norwegian (bokmal)"
-#~ msgstr "N-Z|Norvedjin (Bokmål)"
-
-#~ msgid "N-Z|Norwegian (nynorsk)"
-#~ msgstr "N-Z|Noû Norvedjin (Nynorsk)"
-
-#~ msgid "N-Z|Oriya"
-#~ msgstr "N-Z|Oriya"
-
-#~ msgid "N-Z|Persian"
-#~ msgstr "A-M|Farsi"
-
-#~ msgid "N-Z|Polish"
-#~ msgstr "N-Z|Polonès"
-
-#~ msgid "N-Z|Portuguese"
-#~ msgstr "N-Z|Portuguès"
-
-#~ msgid "N-Z|Portuguese (Brazilian)"
-#~ msgstr "N-Z|Portuguès do Braezi"
-
-#~ msgid "N-Z|Romanian"
-#~ msgstr "N-Z|Roumin"
-
-#~ msgid "N-Z|Russian"
-#~ msgstr "N-Z|Rûsse"
-
-#~ msgid "N-Z|Spanish"
-#~ msgstr "A-M|Espagnol"
-
-#~ msgid "N-Z|Spanish (Mexico)"
-#~ msgstr "A-M|Espagnol (Mecsike)"
-
-#~ msgid "N-Z|Swedish"
-#~ msgstr "N-Z|Suwedwès"
-
-#~ msgid "N-Z|Swedish (Finland)"
-#~ msgstr "N-Z|Suwedwès (Finlande)"
-
-#~ msgid "N-Z|Thai"
-#~ msgstr "N-Z|Taylandès"
-
-#~ msgid "N-Z|Turkish"
-#~ msgstr "N-Z|Turk"
-
-#~ msgid "N-Z|Ukrainian"
-#~ msgstr "N-Z|Oucrinnyin"
-
-#~ msgid "N-Z|Vietnamese"
-#~ msgstr "N-Z|Vietnamyin"
-
-#~ msgid "N-Z|Walloon"
-#~ msgstr "N-Z|Walon"
-
-#~ msgid "N-Z|Welsh"
-#~ msgstr "N-Z|Walès"
-
-#~ msgid "N-Z|Yiddish"
-#~ msgstr "N-Z|Yidish"
-
-#~ msgid "Other|POSIX/C English"
-#~ msgstr "Ôte|POSIX/C (inglès sins accints)"
-
-#~ msgid "A-M"
-#~ msgstr "A-M"
-
-#~ msgid "N-Z"
-#~ msgstr "N-Z"
-
-#~ msgid "User %s will login in %d seconds"
-#~ msgstr "L' uzeu %s s' elodjrè dins %d segondes"
-
-#~ msgid "Are you sure you want to reboot the machine?"
-#~ msgstr "Estoz vs seur di voleur renonder l' éndjole?"
-
-#~ msgid "_Reboot"
-#~ msgstr "_Renonder l' éndjole"
-
-#~ msgid "Are you sure you want to shut down the machine?"
-#~ msgstr "Estoz vs seur di voleur distinde l' éndjole?"
-
-#~ msgid "Shut _Down"
-#~ msgstr "_Distinde l' éndjole"
-
-#~ msgid "Are you sure you want to suspend the machine?"
-#~ msgstr "Estoz vs seur di voleur mete l' éndjole e môde ibernåcion?"
-
-#~ msgid "_Suspend"
-#~ msgstr "_Ibernåcion"
-
-#~ msgid "Welcome"
-#~ msgstr "Bénvnowe"
-
-#~ msgid "Welcome to %n"
-#~ msgstr "Bénvnowe a %n"
-
-#~ msgid "Make _Default"
-#~ msgstr "Mete come _prémetou"
-
-#~ msgid "System Default"
-#~ msgstr "Prémetowès valixhances do sistinme"
-
-#~ msgid "_Username:"
-#~ msgstr "No d' _uzeu:"
-
-#~ msgid "_Last"
-#~ msgstr "_Dierin"
-
-#~ msgid "%s language selected"
-#~ msgstr "lingaedje %s tchoezi"
-
-#~ msgid "Log in using the language that you have used last time you logged in"
-#~ msgstr ""
-#~ "S' elodjî tot-z eployant l' minme lingaedje ki pol dierin elodjaedje"
-
-#~ msgid "_System Default"
-#~ msgstr "_Prémetowès valixhances do sistinme"
-
-#~ msgid "Log in using the default system language"
-#~ msgstr ""
-#~ "S' elodjî tot-z eployant li lingaedje defini dins les prémetowès "
-#~ "valixhances do sistinme"
-
-#~ msgid "_Other"
-#~ msgstr "_Ôtes"
-
-#~ msgid "_Password:"
-#~ msgstr "_Sicret:"
-
-#~ msgid "%a %b %d, %H:%M"
-#~ msgstr "%a %d di %b, %H:%M"
-
-#~ msgid "%a %b %d, %I:%M %p"
-#~ msgstr "%a %d di %b, %I:%M %p"
-
-#~ msgid "_Session"
-#~ msgstr "_Session"
-
-#~ msgid "_Language"
-#~ msgstr "_Lingaedje"
-
-#~ msgid "_Configure Login Manager..."
-#~ msgstr "A_pontyî li manaedjeu d' elodjaedjes..."
-
-#~ msgid ""
-#~ "Configure GDM (this login manager). This will require the root password."
-#~ msgstr ""
-#~ "Apontyî GDM (ci manaedjeu d' elodjaedje chal). I vs fåt dner l' sicret "
-#~ "d' root po çoula."
-
-#~ msgid "Reboot your computer"
-#~ msgstr "Renonder vosse copiutrece"
-
-#~ msgid "Shut_down"
-#~ msgstr "_Distinde..."
-
-#~ msgid "Shut down the system so that you may safely turn off the computer."
-#~ msgstr "Distinde li copiutrece."
-
-#~ msgid "_Actions"
-#~ msgstr "_Accions"
-
-#~ msgid "_Quit"
-#~ msgstr "Moussî _foû"
-
-#~ msgid "D_isconnect"
-#~ msgstr "D_israloyî"
-
-#~ msgid "Icon"
-#~ msgstr "Imådjete"
-
-#~ msgid "Reboot"
-#~ msgstr "Renonder l' éndjole"
-
-#~ msgid "Restart"
-#~ msgstr "Rataker"
-
-#~ msgid ""
-#~ "The configuration was not found.  GDM is using defaults to run this "
-#~ "session.  You should log in and create a configuration file with the GDM "
-#~ "configuration program."
-#~ msgstr ""
-#~ "L' apontiaedje n' a nén stî trové. GDM eploye les prémetowès valixhances "
-#~ "po cisse session chal. Vos dvrîz vs elodjî eyet fé on fitchî "
-#~ "d' apontiaedje avou li programe d' apontiaedje di GDM."
-
-#~ msgid "Login Photo"
-#~ msgstr "Foto d' elodjaedje"
-
-#~ msgid "Select a photograph to show in the facebrowser:"
-#~ msgstr "Tchoezixhoz ene foto ki srè håynêye dins l' foyteuse"
-
-#~ msgid "Browse"
-#~ msgstr "Foyter"
-
-#~ msgid "No picture selected."
-#~ msgstr "Nole imådje di tchoezeye"
-
-#~ msgid ""
-#~ "The system administrator disallowed pictures larger than %d bytes to show "
-#~ "in the face browser"
-#~ msgstr ""
-#~ "L' imådje est trop pezante eyet l' manaedjeu do sistinme ni permete nén "
-#~ "les imådjes ki fjhèt di pus ki %d octets po-z esse eployeyes dins "
-#~ "l' foyteuse "
-
-#~ msgid "Cannot open file"
-#~ msgstr "Dji n' a savou drovi l' fitchî"
-
-#~ msgid ""
-#~ "File %s cannot be open for reading\n"
-#~ "Error: %s"
-#~ msgstr ""
-#~ "Li fitchî %s èn pout nén esse drovou po lére\n"
-#~ "Aroke: %s"
-
-#~ msgid ""
-#~ "File %s cannot be open for writing\n"
-#~ "Error: %s"
-#~ msgstr ""
-#~ "Li fitchî %s èn pout nén esse drovou po scrire\n"
-#~ "Aroke: %s"
-
-#~ msgid ""
-#~ "Change the picture that will show in the GDM (login manager) face browser"
-#~ msgstr ""
-#~ "Candjî l' imådje ki srè håynêye dins l' foyteuse di GDM (manaedjeu "
-#~ "d' elodjaedje)"
-
-#~ msgid "    "
-#~ msgstr "    "
-
-#~ msgid "L_ocal: "
-#~ msgstr "L_ocå: "
-
-#~ msgid "_Remote: "
-#~ msgstr "Å _lon:"
-
-#~ msgid "_Welcome string: "
-#~ msgstr "Tchinne di _bénvnowe:"
-
-#~ msgid "Re_mote welcome string: "
-#~ msgstr "Tchinne di bénvnowe då _lon:"
-
-#~ msgid "Automatic Login"
-#~ msgstr "Elodjaedje otomatike"
-
-#~ msgid "_Automatic login username:"
-#~ msgstr "No d' uzeu po l' elodjaedje _otomatike:"
-
-#~ msgid "_Login a user automatically on first bootup"
-#~ msgstr "_Elodjî èn uzeu otomaticmint a l' enondaedje"
-
-#~ msgid "Timed Login"
-#~ msgstr "Elodjaedje après on tins dné"
-
-#~ msgid "Timed login us_ername:"
-#~ msgstr "No d' _uzeu po l' elodjaedje après on tins dné:"
-
-#~ msgid "_Seconds before login:"
-#~ msgstr "_Segondes divant d' fé l' elodjaedje:"
-
-#~ msgid "Login a user automa_tically after a specified number of seconds"
-#~ msgstr "Elodjî èn uzeu otomaticmint après on nombe diné di _sgondes"
-
-#~ msgid "General"
-#~ msgstr "Djenerå"
-
-#~ msgid "Logo"
-#~ msgstr "Imådjete logo"
-
-#~ msgid "Miscellaneous"
-#~ msgstr "Totes sôres"
-
-#~ msgid "Background"
-#~ msgstr "Fond"
-
-#~ msgid "_Image"
-#~ msgstr "_Imådje"
-
-#~ msgid "_Background color: "
-#~ msgstr "Coleur di _fond:"
-
-#~ msgid "Pick a color"
-#~ msgstr "Tchoezixhoz ene coleur"
-
-#~ msgid "Preview:"
-#~ msgstr "Vey divant:"
-
-#~ msgid "Description:"
-#~ msgstr "Discrijhaedje:"
-
-#~ msgid "Copyright:"
-#~ msgstr "Copyright:"
-
-#~ msgid "Author:"
-#~ msgstr "Oteur:"
-
-#~ msgid ""
-#~ "description\n"
-#~ "widget"
-#~ msgstr ""
-#~ "discrijhaedje\n"
-#~ "di l' ahesse"
-
-#~ msgid "_Install new theme"
-#~ msgstr "_Astaler on novea tinme"
-
-#~ msgid "Options"
-#~ msgstr "Tchuzes"
-
-#~ msgid "Show _actions menu"
-#~ msgstr "Mostrer li menu des _accions"
-
-#~ msgid "Retry _delay (seconds) :"
-#~ msgstr "Rissayî a_près (e sgondes):"
-
-#~ msgid "Security"
-#~ msgstr "Såvrité"
-
-#~ msgid "File does not exist"
-#~ msgstr "Li fitchî n' egzistêye nén"
-
-#~ msgid "No file selected"
-#~ msgstr "Nou fitchî di tchoezi"
-
-#~ msgid ""
-#~ "A graphical application for configuring the GNOME Display Manager (GDM)"
-#~ msgstr ""
-#~ "On programe grafike po-z apontyî li manaedjeu di håynaedje GNOME (GDM)"
-
-#~ msgid "Last"
-#~ msgstr "Dierinne"
-
-#~ msgid "Select a language"
-#~ msgstr "Tchoezi on lingaedje"
-
-#~ msgid "Select a language for your session to use:"
-#~ msgstr "Tchoezixhoz on lingaedje po-z eployî dins vosse session:"
-
-#~ msgid "Select _Language..."
-#~ msgstr "Tchoezi on _lingaedje..."
-
-#~ msgid "Select _Session..."
-#~ msgstr "Tchoezi ene _session..."
-
-#~ msgid "_Configure"
-#~ msgstr "A_pontyî"
-
-#~ msgid "Choose a Session"
-#~ msgstr "Tchoezi ene session"
-
-#~ msgid "Choose an Action"
-#~ msgstr "Tchoezi ene accion"
-
-#~ msgid "Shut _down the computer"
-#~ msgstr "_Distinde li copiutrece"
-
-#~ msgid "Shut down your computer so that you may turn it off."
-#~ msgstr "Distinde li copiutrece."
-
-#~ msgid "_Reboot the computer"
-#~ msgstr "_Renonder l' copiutrece"
-
-#~ msgid "Sus_pend the computer"
-#~ msgstr "Mete li copiutrece e môde _ibernåcion"
-
-#~ msgid "Run _XDMCP chooser"
-#~ msgstr "Enonder l' tchoezixheu _XDMCP"
-
-#~ msgid "_Configure the login manager"
-#~ msgstr "A_pontyî l' manaedjeu d' elodjaedjes"
-
-#~ msgid "(c) 2002 Bond, James Bond"
-#~ msgstr "© 2002 Bond, James Bond"
-
-#~ msgid "Bond, James Bond"
-#~ msgstr "Bond, James Bond"
-
-#~ msgid "Circles"
-#~ msgstr "Cekes"
-
-#~ msgid "Theme with blue circles"
-#~ msgstr "Tinme avou des bleus cekes"
-
-#~ msgid "(c) 2002 GNOME"
-#~ msgstr "© 2002 GNOME"
-
-#~ msgid "GNOME Art variation of Circles with a Face Browser"
-#~ msgstr ""
-#~ "Variåcion årtistike des cekes di Gnome avou ene foyteuse di vizaedjes"
-
-#~ msgid "GNOME Artists"
-#~ msgstr "Årtisses di Gnome"
-
-#~ msgid "Happy GNOME with Browser"
-#~ msgstr "Djoyeus Gnome avou foyteuse"
-
-#~ msgid "GNOME Art variation of Circles"
-#~ msgstr "Variåcion årtistike des cekes di Gnome"
-
-#~ msgid "Happy GNOME"
-#~ msgstr "Djoyeus Gnome"
-
-#~ msgid "(memory buffer)"
-#~ msgstr "(tampon memwere)"
-
-#~ msgid "(memory buffer"
-#~ msgstr "(tampon memwere"
-
-#~ msgid "No interface could be loaded, BAD! (file: %s)"
-#~ msgstr "Nole eterface n' a polou esse tcherdjeye, MÅVA! (fitchî: %s)"
-
-#~ msgid "Too many alias levels for a locale, may indicate a loop"
-#~ msgstr ""
-#~ "Pår trop di liveas d' alias po ene locåle; çoula pout esse cåze d' on "
-#~ "betchfessî loyén"
-
-#~ msgid "gdm_child_action: Reboot failed: %s"
-#~ msgstr "gdm_child_action: Li renondaedje di l' éndjole a fwait berwete: %s"
-
-#~ msgid "gdm_child_action: Halt failed: %s"
-#~ msgstr "gdm_child_action: L' arestaedje di l' éndjole a fwait berwete: %s"
-
-#~ msgid "Can't find /etc/pam.d/%s!"
-#~ msgstr "Dji n' sai trover /etc/pam.d/%s!"
-
-#~ msgid "Information"
-#~ msgstr "Informåcion"
-
-#~ msgid "XSession"
-#~ msgstr "XSession"
-
-#~ msgid "Name: "
-#~ msgstr "No: "
-
-#~ msgid "Remember this setting"
-#~ msgstr "Si rmimbrer di cist apontiaedje chal"
-
-#~ msgid "_Reboot..."
-#~ msgstr "_Renonder l' éndjole..."
-
-#~ msgid "Select a photo"
-#~ msgstr "Tchoezixhoz ene foto"
-
-#~ msgid "GDM Setup"
-#~ msgstr "Apontiaedje di GDM"
-
-#~ msgid "Welcome string: "
-#~ msgstr "Tchinne di bénvnowe: "

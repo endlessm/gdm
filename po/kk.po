@@ -1,17 +1,21 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm to kazakh\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
-"Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
-"Language: kk\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:11+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Kazakh (http://www.transifex.com/endless-mobile-inc/gdm/language/kk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: kk\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.4\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -39,9 +43,7 @@ msgstr "Ағымдағы отыру орнын анықтау мүмкін ем�
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"Жүйе бар болып тұрған жүйеге кіру экранын қолдану немесе жаңа жүйеге кіру "
-"экраның жасау керектігін анықтай алмады."
+msgstr "Жүйе бар болып тұрған жүйеге кіру экранын қолдану немесе жаңа жүйеге кіру экраның жасау керектігін анықтай алмады."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
@@ -144,42 +146,34 @@ msgstr "Тіркелгіңіз үшін берілген уақыт мерзім
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Кешіріңіз, бұл дұрыс емес болды. Қайтадан көріңіз."
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Пайдаланушы:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr "Пароліңіздің мерзімі аяқталды, оны қазір ауыстырыңыз."
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "қолжетерлік пайдаланушы тіркелгілер жоқ"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Пайдаланушыға ауысу мүмкін емес"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"X серверін іске қосу мүмкін емес (сіздің графикалық қоршамыңыз), себебі ішкі "
-"қатеде. Жүйелік администраторыңызға хабарласыңыз немесе өзіңіздің syslog "
-"шығысын тексеріңіз. Бұл экран уақытша сөндіріледі. Мәселе шешілген кезде GDM "
-"қызметін қайта қосыңыз."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "X серверін іске қосу мүмкін емес (сіздің графикалық қоршамыңыз), себебі ішкі қатеде. Жүйелік администраторыңызға хабарласыңыз немесе өзіңіздің syslog шығысын тексеріңіз. Бұл экран уақытша сөндіріледі. Мәселе шешілген кезде GDM қызметін қайта қосыңыз."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -261,9 +255,7 @@ msgstr "Жүйеге кіру үшін саусақ оқитын құрылғы�
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Жүйеге кіру экраны пайдаланушылар үшін саусақты өткізіп, ол арқылы жүйеге "
-"кіруге рұқсат ете алады."
+msgstr "Жүйеге кіру экраны пайдаланушылар үшін саусақты өткізіп, ол арқылы жүйеге кіруге рұқсат ете алады."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -273,9 +265,7 @@ msgstr "Жүйеге кіру үшін смарткарта құрылғылар
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Жүйеге кіру экраны пайдаланушылар үшін смарткарталарды қолданып, ол арқылы "
-"жүйеге кіруге рұқсат ете алады."
+msgstr "Жүйеге кіру экраны пайдаланушылар үшін смарткарталарды қолданып, ол арқылы жүйеге кіруге рұқсат ете алады."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -285,10 +275,7 @@ msgstr "Жүйеге парольмен кіруді рұқсат ету ма, �
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Жүйеге кіру экраны үшін парольмен кіру мүмкіндігін сөндіруге болады, "
-"пайдаланушы смарткарта немесе саусақ аутентификациясын қолдануға мәжбүр "
-"болады."
+msgstr "Жүйеге кіру экраны үшін парольмен кіру мүмкіндігін сөндіруге болады, пайдаланушы смарткарта немесе саусақ аутентификациясын қолдануға мәжбүр болады."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -299,18 +286,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"Жүйеге кіру экраны әкімшілер және өндірушілер үшін ұйымды анықтауды мүмкін "
-"қылатын, пайдаланушылар тізімінің үстінде кіші бейнені көрсете алады."
+msgstr "Жүйеге кіру экраны әкімшілер және өндірушілер үшін ұйымды анықтауды мүмкін қылатын, пайдаланушылар тізімінің үстінде кіші бейнені көрсете алады."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
-"Жүйеге кіру қосымша экраны әкімшілер және өндірушілер үшін ұйымды анықтауды "
-"мүмкін қылатын, пайдаланушылар тізімінің үстінде кіші бейнені көрсете алады."
+msgstr "Жүйеге кіру қосымша экраны әкімшілер және өндірушілер үшін ұйымды анықтауды мүмкін қылатын, пайдаланушылар тізімінің үстінде кіші бейнені көрсете алады."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -318,11 +301,9 @@ msgstr "Пайдаланушылар тізімін көрсетпеу"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Жүйеге кіру экраны әдетте жүйеге кіре алатын пайдаланушылар тізімін "
-"көрсетеді. Бұл баптау арқылы ол мүмкіндікті сөндіруге болады."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Жүйеге кіру экраны әдетте жүйеге кіре алатын пайдаланушылар тізімін көрсетеді. Бұл баптау арқылы ол мүмкіндікті сөндіруге болады."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -345,10 +326,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Қайта қосу батырмасын көрсетпеу"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"АҚИҚАТ мәніне орнатыңыз, жүйеге кіру терезесінде қайта қосу батырмасын "
-"көрсетпеу үшін."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "АҚИҚАТ мәніне орнатыңыз, жүйеге кіру терезесінде қайта қосу батырмасын көрсетпеу үшін."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -358,9 +338,7 @@ msgstr "Рұқсат етілген аутентификация қателер�
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Пайдаланушыны таңдау сұхбатына қайта оралуға дейінгі пайдаланушы үшін қанша "
-"жүйеге кіру талабы рұқсат етіледі."
+msgstr "Пайдаланушыны таңдау сұхбатына қайта оралуға дейінгі пайдаланушы үшін қанша жүйеге кіру талабы рұқсат етіледі."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -424,98 +402,3 @@ msgstr "Скриншот алынды"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Экранның сурет көшірмесін сақтау"
-
-#~ msgid "No session available yet"
-#~ msgstr "қолжетерлік сессиялар әлі жоқ"
-
-#~ msgid "Unable to look up UID of user %s"
-#~ msgstr "%s пайдаланушысы үшін UID табу мүмкін емес"
-
-#~ msgid "no sessions available"
-#~ msgstr "қолжетерлік сессиялар жоқ"
-
-#~ msgid "No sessions for %s available for reauthentication"
-#~ msgstr "%s үшін қайта аутентификация үшін бірде-бір сессия жоқ"
-
-#~ msgid "Unable to find session for user %s"
-#~ msgstr "%s пайдаланушысы үшін сессияны табу мүмкін емес"
-
-#~ msgid "Unable to find appropriate session for user %s"
-#~ msgstr "%s пайдаланушысы үшін жарайтын сессияны табу мүмкін емес"
-
-#~ msgid "User doesn't own session"
-#~ msgstr "Пайдаланушы сессияға ие емес"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: аталық экранға '%s' байланыс орнату қатесі"
-
-#~ msgid "User not logged in"
-#~ msgstr "Пайдаланушы жүйеге кіріп тұрған жоқ"
-
-#~ msgid "Currently, only one client can be connected at once"
-#~ msgstr "Қазір, бір уақытта тек бір клиент қосулы тұра алады"
-
-#~ msgid "Failed to create AuthDir %s: %s"
-#~ msgstr "AuthDir %s жасау сәтсіз: %s"
-
-#~ msgid "Display ID"
-#~ msgstr "Дисплей ID"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "GNOME Display Manager Slave"
-
-#~ msgid "Login Window"
-#~ msgstr "Кіру терезесі"
-
-#~ msgid "Unable to start new display"
-#~ msgstr "Жаңа экранды бастау мүмкін емес"
-
-#~| msgid "error initiating conversation with authentication system: %s"
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr "аутентификация жүйесімен сөйлесуді бастау қатесі - %s"
-
-#~ msgid "general failure"
-#~ msgstr "жалпы қате"
-
-#~ msgid "out of memory"
-#~ msgstr "жады жеткіліксіз"
-
-#~ msgid "application programmer error"
-#~ msgstr "бағдарламалаушы қатесі"
-
-#~ msgid "unknown error"
-#~ msgstr "белгісіз қате"
-
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt: %s"
-#~ msgstr ""
-#~ "аутентификация жүйесіне тандалған пайдаланушы жөнінде хабарлау қатесі: %s"
-
-#~ msgid "error informing authentication system of user's hostname: %s"
-#~ msgstr ""
-#~ "аутентификация жүйесіне пайдаланушының хост аты жөнінде хабарлау қатесі: "
-#~ "%s"
-
-#~ msgid "error informing authentication system of user's console: %s"
-#~ msgstr ""
-#~ "аутентификация жүйесіне пайдаланушының консолі жөнінде хабарлау қатесі: %s"
-
-#~ msgid "error informing authentication system of display string: %s"
-#~ msgstr "аутентификация жүйесіне экран жолы жөнінде хабарлау қатесі: %s"
-
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials: %s"
-#~ msgstr ""
-#~ "аутентификация жүйесіне экран xauth credentials жөнінде хабарлау қатесі: "
-#~ "%s"
-
-#~| msgid "PolicyKit Authentication Agent"
-#~ msgid "Fingerprint Authentication"
-#~ msgstr "PolicyKit аутентификация агенті"
-
-#, fuzzy
-#~ msgid "Log into session with fingerprint"
-#~ msgstr "Сессияға саусақты оқу"

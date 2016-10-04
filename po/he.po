@@ -1,23 +1,23 @@
-# translation of gdm2.HEAD.he.po to Hebrew
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
-# Gil Osher <dolfin@rpg.org.il>, 2002
+# 
+# Translators:
 # Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2003
-#
+# Gil Osher <dolfin@rpg.org.il>, 2002
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm2.HEAD.he\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2013-07-31 10:31+0200\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <he@li.org>\n"
-"Language: he\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:11+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Hebrew (http://www.transifex.com/endless-mobile-inc/gdm/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -45,8 +45,7 @@ msgstr "לא ניתן לזהות את המושב הנוכחי."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"המערכת לא הצליחה לוודא האם לעבור למסך כניסה קיים או להפעיל מסך כניסה חדש."
+msgstr "המערכת לא הצליחה לוודא האם לעבור למסך כניסה קיים או להפעיל מסך כניסה חדש."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
@@ -149,42 +148,34 @@ msgstr "לחשבון שלך ניתנה מגבלת זמן שנכון לעכשיו
 msgid "Sorry, that didn't work. Please try again."
 msgstr "פעולה זו לא צלחה. נא לנסות שוב, עמך הסליחה."
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "שם משתמש:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr "תוקף הססמה שלך פג, נא לשנות אותה כעת."
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "אין חשבון משתמש זמין"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "לא ניתן להחליף משתמש"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Could not start the X server (your graphical environment) due to an internal error. Please contact your system administrator or check your syslog to diagnose. In the meantime this display will be disabled.  Please restart GDM when the problem is corrected."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -266,9 +257,7 @@ msgstr "Whether or not to allow fingerprint readers for login"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"The login screen can optionally allow users who have enrolled their "
-"fingerprints to log in using those prints."
+msgstr "The login screen can optionally allow users who have enrolled their fingerprints to log in using those prints."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -278,9 +267,7 @@ msgstr "Whether or not to allow smartcard readers for login"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"The login screen can optionally allow users who have smartcards to log in "
-"using those smartcards."
+msgstr "The login screen can optionally allow users who have smartcards to log in using those smartcards."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -290,9 +277,7 @@ msgstr "Whether or not to allow passwords for login"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"The login screen can be configured to disallow password authentication, "
-"forcing the user to use smartcard or fingerprint authentication."
+msgstr "The login screen can be configured to disallow password authentication, forcing the user to use smartcard or fingerprint authentication."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -303,20 +288,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"The login screen can optionally show a small image at the top of its user "
-"list to provide site administrators and distributions a way to provide "
-"branding."
+msgstr "The login screen can optionally show a small image at the top of its user list to provide site administrators and distributions a way to provide branding."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
-"The fallback login screen can optionally show a small image at the top of "
-"its user list to provide site administrators and distributions a way to "
-"provide branding."
+msgstr "The fallback login screen can optionally show a small image at the top of its user list to provide site administrators and distributions a way to provide branding."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -324,11 +303,9 @@ msgstr "Avoid showing user list"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "The login screen normally shows a list of available users to log in as. This setting can be toggled to disable showing the user list."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -351,9 +328,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Disable showing the restart buttons"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
+msgid ""
 "Set to true to disable showing the restart buttons in the login window."
+msgstr "Set to true to disable showing the restart buttons in the login window."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -363,9 +340,7 @@ msgstr "Number of allowed authentication failures"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"The number of times a user is allowed to attempt authentication, before "
-"giving up and going back to user selection."
+msgstr "The number of times a user is allowed to attempt authentication, before giving up and going back to user selection."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -429,946 +404,3 @@ msgstr "המסך צולם"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "צילום המסך"
-
-#~ msgid "No session available yet"
-#~ msgstr "אין עדיין הפעלות זמינות"
-
-#~ msgid "Unable to look up UID of user %s"
-#~ msgstr "לא ניתן לחפש את מזהה המשתמש %s"
-
-#~ msgid "no sessions available"
-#~ msgstr "אין הפעלות זמינות"
-
-#~ msgid "No sessions for %s available for reauthentication"
-#~ msgstr "אין הפעלות עבור %s הזמינות לאימות מחדש"
-
-#~ msgid "Unable to find session for user %s"
-#~ msgstr "לא ניתן למצוא את ההפעלה של המשתמש %s"
-
-#~ msgid "Unable to find appropriate session for user %s"
-#~ msgstr "לא ניתן למצוא את ההפעלה המתאימה עבור המשתמש %s"
-
-#~ msgid "User doesn't own session"
-#~ msgstr "למשתמש אין בעלות על הפעלה"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: failed to connect to parent display '%s'"
-
-#~ msgid "Your account was given an expiration date that's now passed."
-#~ msgstr "לחשבון שלך ניתן תאריך תפוגה שנכון לעכשיו חלף."
-
-#~ msgid "User not logged in"
-#~ msgstr "המשתמש לא נכנס"
-
-#~ msgid "Currently, only one client can be connected at once"
-#~ msgstr "נכון לעכשיו, ניתן לחבר לקוח אחד בלבד בכל פעם"
-
-#~ msgid "Failed to create AuthDir %s: %s"
-#~ msgstr "יצירת ה־AuthDir %s נכשלה: %s"
-
-#~ msgid "Display ID"
-#~ msgstr "Display ID"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "GNOME Display Manager Slave"
-
-#~ msgid "Login Window"
-#~ msgstr "חלון התחברות"
-
-#~ msgid "Unable to start new display"
-#~ msgstr "לא ניתן להתחיל תצוגה חדשה"
-
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr "error initiating conversation with authentication system - %s"
-
-#~ msgid "general failure"
-#~ msgstr "general failure"
-
-#~ msgid "out of memory"
-#~ msgstr "out of memory"
-
-#~ msgid "application programmer error"
-#~ msgstr "application programmer error"
-
-#~ msgid "unknown error"
-#~ msgstr "שגיאה לא ידועה"
-
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt: %s"
-#~ msgstr ""
-#~ "error informing authentication system of preferred username prompt: %s"
-
-#~ msgid "error informing authentication system of user's hostname: %s"
-#~ msgstr "error informing authentication system of user's hostname: %s"
-
-#~ msgid "error informing authentication system of user's console: %s"
-#~ msgstr "error informing authentication system of user's console: %s"
-
-#~ msgid "error informing authentication system of display string: %s"
-#~ msgstr "error informing authentication system of display string: %s"
-
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials: %s"
-#~ msgstr ""
-#~ "error informing authentication system of display xauth credentials: %s"
-
-#~ msgid "Fingerprint Authentication"
-#~ msgstr "אימות בטביעת אצבע"
-
-#~ msgid "Log into session with fingerprint"
-#~ msgstr "כניסה להפעלה עם טביעת אצבע"
-
-#~ msgid "Password Authentication"
-#~ msgstr "אימות בססמה"
-
-#~ msgid "Log into session with username and password"
-#~ msgstr "כניסה להפעלה עם שם משתמש וססמה"
-
-#~ msgid "Log In"
-#~ msgstr "כניסה"
-
-#~ msgid "Slot ID"
-#~ msgstr "מזהה החריץ"
-
-#~ msgid "The slot the card is in"
-#~ msgstr "החריץ בו נמצא הכרטיס"
-
-#~ msgid "Slot Series"
-#~ msgstr "סדרת החריץ"
-
-#~ msgid "per-slot card identifier"
-#~ msgstr "מזהה לפי חריץ"
-
-#~ msgid "name"
-#~ msgstr "שם"
-
-#~ msgid "Module"
-#~ msgstr "מודול"
-
-#~ msgid "smartcard driver"
-#~ msgstr "מנהל התקן כרטיס חכם"
-
-#~ msgid "Smartcard Authentication"
-#~ msgstr "אימות בכרטיס חכם"
-
-#~ msgid "Log into session with smartcard"
-#~ msgstr "כניסה להפעלה עם כרטיס חכם"
-
-#~ msgid "Module Path"
-#~ msgstr "נתיב המודול"
-
-#~ msgid "path to smartcard PKCS #11 driver"
-#~ msgstr "נתיב אל מנהל התקן הכרטיס החכם מסוג PKCS #11"
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "התקבלה שגיאה או ניתוק ממקור אירוע"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "לא ניתן להפעיל את מערכת האבטחה NSS"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "לא נמצאו מנהלי התקנים הולמים לכרטיס החכם"
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "לא ניתן לטעון את מנהל ההתקן '%s' של הכרטיס החכם"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "לא ניתן לעקוב אחר אירועי כרטיסים נכנסים – %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr "אירעה שגיאה בלתי צפויה בעת ההמתנה לשירותי כרטיס חכם"
-
-#~ msgid "Authentication"
-#~ msgstr "אימות"
-
-#~ msgid "Log into session"
-#~ msgstr "כניסה להפעלה"
-
-#~ msgid "Value"
-#~ msgstr "ערך"
-
-#~ msgid "percentage of time complete"
-#~ msgstr "אחוז הזמן שהסתיים"
-
-#~ msgid "Inactive Text"
-#~ msgstr "Inactive Text"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr "The text to use in the label if the user hasn't picked an item yet"
-
-#~ msgid "Active Text"
-#~ msgstr "Active Text"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr "The text to use in the label if the user has picked an item"
-
-#~ msgid "List Visible"
-#~ msgstr "הרשימה גלויה"
-
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "האם רשימת הבחירה גלויה "
-
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%a %e c%b, %H:%M:%S"
-
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%a %e ב%b, %H:%M"
-
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%a %H:%M:%S"
-
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%a %H:%M"
-
-#~ msgid "Automatically logging in…"
-#~ msgstr "מתבצעת התחברות אוטומטית..."
-
-#~ msgid "Cancelling…"
-#~ msgstr "בהליכי ביטול..."
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "יש לבחור שפה וללחוץ להתחברות"
-
-#~ msgctxt "customsession"
-#~ msgid "Custom"
-#~ msgstr "התאמה אישית"
-
-#~ msgid "Custom session"
-#~ msgstr "הפעלה מותאמת אישית"
-
-#~ msgid "Computer Name"
-#~ msgstr "שם מחשב"
-
-#~ msgid "Version"
-#~ msgstr "גרסה"
-
-#~ msgid "Cancel"
-#~ msgstr "ביטול"
-
-#~ msgid "Unlock"
-#~ msgstr "שחרור"
-
-#~ msgid "Login"
-#~ msgstr "כניסה"
-
-#~ msgid "Suspend"
-#~ msgstr "השהה"
-
-#~ msgid "Restart"
-#~ msgstr "הפעל מחדש"
-
-#~ msgid "Shut Down"
-#~ msgstr "כיבוי"
-
-#~ msgid "Unknown time remaining"
-#~ msgstr "הזמן שנותר בלתי ידוע"
-
-#~ msgid "Panel"
-#~ msgstr "לוח"
-
-#~ msgid "Label Text"
-#~ msgstr "טקסט התווית"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "הטקסט לשימוש כתווית"
-
-#~ msgid "Icon name"
-#~ msgstr "שם הסמל"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "הסמל לשימוש עם התווית"
-
-#~ msgid "Default Item"
-#~ msgstr "פריט בררת המחדל"
-
-#~ msgid "The ID of the default item"
-#~ msgstr "המזהה של פריט ברירת המחדל"
-
-#~ msgid "Remote Login (Connecting to %s…)"
-#~ msgstr "התחברות מרוחקת (התחברות אל %s...)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "התחברות מרוחקת (מחובר אל %s...)"
-
-#~ msgid "Remote Login"
-#~ msgstr "התחברות מרוחקת"
-
-#~ msgid "Session"
-#~ msgstr "הפעלה"
-
-#~ msgid "Duration"
-#~ msgstr "משך"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "מספר השניות עד שקוצב הזמן יעצור"
-
-#~ msgid "Start time"
-#~ msgstr "שעת התחלה"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "השעה בה קוצב הזמן התחיל"
-
-#~ msgid "Is it Running?"
-#~ msgstr "האם הקוצב רץ?"
-
-#~ msgid "Whether the timer is currently ticking"
-#~ msgstr "האם קוצב הזמן מתקתק"
-
-#~ msgid "Log in as %s"
-#~ msgstr "התחברות כ־%s"
-
-#~ msgctxt "user"
-#~ msgid "Other…"
-#~ msgstr "אחר..."
-
-#~ msgid "Choose a different account"
-#~ msgstr "בחירה בחשבון אחר"
-
-#~ msgid "Guest"
-#~ msgstr "אורח"
-
-#~ msgid "Log in as a temporary guest"
-#~ msgstr "התחברות כאורח זמני"
-
-#~ msgid "Automatic Login"
-#~ msgstr "התחברות אוטומטית"
-
-#~ msgid "Automatically log into the system after selecting options"
-#~ msgstr "התחברות אוטומטית למערכת לאחר בחירת אפשרויות"
-
-#~ msgid "Currently logged in"
-#~ msgstr "כבר מחובר"
-
-#~ msgid "User %s doesn't exist"
-#~ msgstr "User %s doesn't exist"
-
-#~ msgid "Group %s doesn't exist"
-#~ msgstr "Group %s doesn't exist"
-
-#~ msgid "Logdir %s does not exist or isn't a directory."
-#~ msgstr "Logdir %s does not exist or isn't a directory."
-
-#~ msgid "Authdir %s does not exist. Aborting."
-#~ msgstr "Authdir %s does not exist. Aborting."
-
-#~ msgid "Authdir %s is not a directory. Aborting."
-#~ msgstr "Authdir %s is not a directory. Aborting."
-
-#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-#~ msgstr "Authdir %s is not owned by user %d, group %d. Aborting."
-
-#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-#~ msgstr "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "מגדיל המסך של GNOME"
-
-#~ msgid "Magnify parts of the screen"
-#~ msgstr "מגדיל חלקים מהמסך"
-
-#~ msgid "GNOME On-Screen Keyboard"
-#~ msgstr "מקלדת על המסך של GNOME"
-
-#~ msgid "Use an on-screen keyboard"
-#~ msgstr "שימוש במקלדת על המסך"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "קורא המסך Orca"
-
-#~ msgid "Present on-screen information as speech or braille"
-#~ msgstr "מציג מידע על גבי המסך כגון דיבור או כתב ברייל"
-
-#~ msgid "Unable to initialize login system"
-#~ msgstr "לא ניתן לאתחל את מערכת הכניסה"
-
-#~ msgid "Unable to establish credentials"
-#~ msgstr "לא ניתן להקים את פרטי הזיהוי"
-
-#~ msgid "Max Item Count"
-#~ msgstr "מספר פריטים מרבי"
-
-#~ msgid "The maximum number of items to keep around in the list"
-#~ msgstr "המספר המקסימלי של פריטים ברשימה"
-
-#~ msgid "Banner message text when chooser is empty"
-#~ msgstr "Banner message text when chooser is empty"
-
-#~ msgid "Do not show known users in the login window"
-#~ msgstr "Do not show known users in the login window"
-
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "Enable accessibility keyboard plugin"
-
-#~ msgid "Enable on-screen keyboard"
-#~ msgstr "Enable on-screen keyboard"
-
-#~ msgid "Enable screen magnifier"
-#~ msgstr "Enable screen magnifier"
-
-#~ msgid "Enable screen reader"
-#~ msgstr "Enable screen reader"
-
-#~ msgid "Icon name to use for greeter logo"
-#~ msgstr "Icon name to use for greeter logo"
-
-#~ msgid "Recently selected languages"
-#~ msgstr "Recently selected languages"
-
-#~ msgid ""
-#~ "Set to a list of languages to be shown by default in the login window."
-#~ msgstr ""
-#~ "Set to a list of languages to be shown by default in the login window."
-
-#~ msgid "Set to the themed icon name to use for the greeter logo."
-#~ msgstr "Set to the themed icon name to use for the greeter logo."
-
-#~ msgid "Set to true to disable showing known users in the login window."
-#~ msgstr "Set to true to disable showing known users in the login window."
-
-#~ msgid "Set to true to enable the XRandR settings manager plugin."
-#~ msgstr "Set to true to enable the XRandR settings manager plugin."
-
-#~ msgid "Set to true to enable the background settings manager plugin."
-#~ msgstr "Set to true to enable the background settings manager plugin."
-
-#~ msgid "Set to true to enable the media-keys settings manager plugin."
-#~ msgstr "Set to true to enable the media-keys settings manager plugin."
-
-#~ msgid "Set to true to enable the on-screen keyboard."
-#~ msgstr "Set to true to enable the on-screen keyboard."
-
-#~ msgid ""
-#~ "Set to true to enable the plugin to manage the accessibility keyboard "
-#~ "settings."
-#~ msgstr ""
-#~ "Set to true to enable the plugin to manage the accessibility keyboard "
-#~ "settings."
-
-#~ msgid "Set to true to enable the screen magnifier."
-#~ msgstr "Set to true to enable the screen magnifier."
-
-#~ msgid "Set to true to enable the screen reader."
-#~ msgstr "Set to true to enable the screen reader."
-
-#~ msgid "Set to true to enable the sound settings manager plugin."
-#~ msgstr "Set to true to enable the sound settings manager plugin."
-
-#~ msgid "Set to true to enable the xsettings settings manager plugin."
-#~ msgstr "Set to true to enable the xsettings settings manager plugin."
-
-#~ msgid "Set to true to use Compiz as the window manager."
-#~ msgstr "Set to true to use Compiz as the window manager."
-
-#~ msgid ""
-#~ "Text banner message to show in the login window when the user chooser is "
-#~ "empty, instead of banner_message_text."
-#~ msgstr ""
-#~ "Text banner message to show in the login window when the user chooser is "
-#~ "empty, instead of banner_message_text."
-
-#~ msgid "True if the XRandR settings manager plugin is enabled."
-#~ msgstr "True if the XRandR settings manager plugin is enabled."
-
-#~ msgid "True if the background settings manager plugin is enabled."
-#~ msgstr "True if the background settings manager plugin is enabled."
-
-#~ msgid "True if the media-keys settings manager plugin is enabled."
-#~ msgstr "True if the media-keys settings manager plugin is enabled."
-
-#~ msgid "True if the sound settings manager plugin is enabled."
-#~ msgstr "True if the sound settings manager plugin is enabled."
-
-#~ msgid "True if the xsettings settings manager plugin is enabled."
-#~ msgstr "True if the xsettings settings manager plugin is enabled."
-
-#~ msgid "Use Compiz as the window manager"
-#~ msgstr "Use Compiz as the window manager"
-
-#~ msgid "The system is unable to find a login screen to switch to."
-#~ msgstr "המערכת לא הצליחה למצוא מסך כניסה לעבור אליו."
-
-#~ msgid "Denied XDMCP query from host %s"
-#~ msgstr "Denied XDMCP query from host %s"
-
-#~ msgid "Could not extract authlist from packet"
-#~ msgstr "Could not extract authlist from packet"
-
-#~ msgid "Error in checksum"
-#~ msgstr "Error in checksum"
-
-#~ msgid "Bad address"
-#~ msgstr "Bad address"
-
-#~ msgid "%s: Could not read display address"
-#~ msgstr "%s: Could not read display address"
-
-#~ msgid "%s: Could not read display port number"
-#~ msgstr "%s: Could not read display port number"
-
-#~ msgid "%s: Could not extract authlist from packet"
-#~ msgstr "%s: Could not extract authlist from packet"
-
-#~ msgid "%s: Error in checksum"
-#~ msgstr "%s: Error in checksum"
-
-#~ msgid "%s: Got REQUEST from banned host %s"
-#~ msgstr "%s: Got REQUEST from banned host %s"
-
-#~ msgid "%s: Could not read Display Number"
-#~ msgstr "%s: Could not read Display Number"
-
-#~ msgid "%s: Could not read Connection Type"
-#~ msgstr "%s: Could not read Connection Type"
-
-#~ msgid "%s: Could not read Client Address"
-#~ msgstr "%s: Could not read Client Address"
-
-#~ msgid "%s: Could not read Authentication Data"
-#~ msgstr "%s: Could not read Authentication Data"
-
-#~ msgid "%s: Could not read Authorization List"
-#~ msgstr "%s: Could not read Authorization List"
-
-#~ msgid "%s: Could not read Manufacturer ID"
-#~ msgstr "%s: Could not read Manufacturer ID"
-
-#~ msgid "%s: Failed checksum from %s"
-#~ msgstr "%s: Failed checksum from %s"
-
-#~ msgid "%s: Got Manage from banned host %s"
-#~ msgstr "%s: Got Manage from banned host %s"
-
-#~ msgid "%s: Could not read Session ID"
-#~ msgstr "%s: Could not read Session ID"
-
-#~ msgid "%s: Could not read Display Class"
-#~ msgstr "%s: Could not read Display Class"
-
-#~ msgid "%s: Could not read address"
-#~ msgstr "%s: Could not read address"
-
-#~ msgid "%s: Got KEEPALIVE from banned host %s"
-#~ msgstr "%s: Got KEEPALIVE from banned host %s"
-
-#~ msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-#~ msgstr "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-
-#~ msgid "Could not get server hostname: %s!"
-#~ msgstr "Could not get server hostname: %s!"
-
-#~ msgid "Activation of this plugin"
-#~ msgstr "Activation of this plugin"
-
-#~ msgid "Whether this plugin would be activated or not"
-#~ msgstr "Whether this plugin would be activated or not"
-
-#~ msgid "Log into session with username and unified"
-#~ msgstr "כניסה להפעלה עם שם משתמש ובאופן אחיד"
-
-#~ msgid "AT-SPI Registry Wrapper"
-#~ msgstr "עוטף רישום AT SPI"
-
-#~ msgid "Power Manager"
-#~ msgstr "מנהל צריכת החשמל"
-
-#~ msgid "GNOME Session Acceleration Checker"
-#~ msgstr "בודק האצת ההפעלה של GNOME"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "מנוע ההגדרות של GNOME"
-
-#~ msgid "Metacity"
-#~ msgstr "Metacity"
-
-#~ msgid "Languages"
-#~ msgstr "שפות"
-
-#~ msgid "_Languages:"
-#~ msgstr "_שפות:"
-
-#~ msgid "_Language:"
-#~ msgstr "_שפה:"
-
-#~ msgctxt "language"
-#~ msgid "Other…"
-#~ msgstr "אחר..."
-
-#~ msgid "Choose a language from the full list of available languages."
-#~ msgstr "נא לבחור שפה מתוך רשימת השפות הזמינות המלאה."
-
-#~ msgid "Language"
-#~ msgstr "שפה"
-
-#~ msgid "Unspecified"
-#~ msgstr "לא מצוין"
-
-#~ msgid "Keyboard layouts"
-#~ msgstr "פריסות מקלדת"
-
-#~ msgid "_Keyboard:"
-#~ msgstr "_מקלדת:"
-
-#~ msgctxt "keyboard"
-#~ msgid "Other…"
-#~ msgstr "אחר..."
-
-#~ msgid "Choose a keyboard layout from the full list of available layouts."
-#~ msgstr "נא לבחור פריסת מקלדת מתוך הרשימה המלאה של הפריסות הזמינות."
-
-#~ msgid "Keyboard"
-#~ msgstr "מקלדת"
-
-#~ msgid "Recently selected keyboard layouts"
-#~ msgstr "Recently selected keyboard layouts"
-
-#~ msgid ""
-#~ "Set to a list of keyboard layouts to be shown by default in the login "
-#~ "window."
-#~ msgstr ""
-#~ "Set to a list of keyboard layouts to be shown by default in the login "
-#~ "window."
-
-#~ msgid "Shutdown Options…"
-#~ msgstr "אפשרויות כיבוי..."
-
-#~ msgid ""
-#~ "The User Switch Applet is free software; you can redistribute it and/or "
-#~ "modify it under the terms of the GNU General Public License as published "
-#~ "by the Free Software Foundation; either version 2 of the License, or (at "
-#~ "your option) any later version."
-#~ msgstr ""
-#~ "The User Switch Applet is free software; you can redistribute it and/or "
-#~ "modify it under the terms of the GNU General Public License as published "
-#~ "by the Free Software Foundation; either version 2 of the License, or (at "
-#~ "your option) any later version."
-
-#~ msgid ""
-#~ "This program is distributed in the hope that it will be useful, but "
-#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
-#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
-#~ "Public License for more details."
-#~ msgstr ""
-#~ "This program is distributed in the hope that it will be useful, but "
-#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
-#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
-#~ "Public License for more details."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with this program; if not, write to the Free Software Foundation, Inc., "
-#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA "
-#~ msgstr ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with this program; if not, write to the Free Software Foundation, Inc., "
-#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA "
-
-#~ msgid "A menu to quickly switch between users."
-#~ msgstr "תפריט להחלפה מהירה בין המשתמשים."
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Yaron Shahrabani <sh.yaron@gmail.com>\n"
-#~ "פרויקט תרגום GNOME לעברית\n"
-#~ "‏http://gnome-il.brelios.de"
-
-#~ msgid "Can't lock screen: %s"
-#~ msgstr "לא ניתן לנעול את המסך: %s"
-
-#~ msgid "Can't temporarily set screensaver to blank screen: %s"
-#~ msgstr "לא ניתן להגדיר את שומר המסך באופן זמני למסך ריק: %s"
-
-#~ msgid "Can't log out: %s"
-#~ msgstr "לא ניתן לנתק: %s"
-
-#~ msgid "Available"
-#~ msgstr "זמין"
-
-#~ msgid "Invisible"
-#~ msgstr "בלתי נראה"
-
-#~ msgid "Busy"
-#~ msgstr "עסוק"
-
-#~ msgid "Away"
-#~ msgstr "מרוחק"
-
-#~ msgid "Account Information"
-#~ msgstr "פרטי החשבון"
-
-#~ msgid "System Preferences"
-#~ msgstr "העדפות המערכת"
-
-#~ msgid "Lock Screen"
-#~ msgstr "נעילת המסך"
-
-#~ msgid "Switch User"
-#~ msgstr "החלפת משתמש"
-
-#~ msgid "Quit…"
-#~ msgstr "יציאה..."
-
-#~ msgid "User Switch Applet"
-#~ msgstr "יישומון החלפת משתמשים"
-
-#~ msgid "Change account settings and status"
-#~ msgstr "שינוי הגדרות המצב והחשבון"
-
-#~ msgid "A menu to quickly switch between users"
-#~ msgstr "תפריט להחלפה מהירה בין המשתמשים"
-
-#~ msgid "User Switcher"
-#~ msgstr "מחליף משתמשים"
-
-#~ msgid "User Switcher Applet Factory"
-#~ msgstr "User Switcher Applet Factory"
-
-#~ msgid "Edit Personal _Information"
-#~ msgstr "עריכת _פרטים אישיים"
-
-#~ msgid "_About"
-#~ msgstr "על _אודות"
-
-#~ msgid "_Edit Users and Groups"
-#~ msgstr "_עריכת משתמשים וקבוצות"
-
-#~ msgid "Unknown"
-#~ msgstr "לא ידוע"
-
-#~ msgid "Manager"
-#~ msgstr "מנהל"
-
-#~ msgid "The user manager object this user is controlled by."
-#~ msgstr "אובייקט מנהל המשתמש ששולט במשתמש זה."
-
-#~ msgid "_Sessions:"
-#~ msgstr "_תצורות הפעלה:"
-
-#~ msgid "Couldn't set groupid to 0"
-#~ msgstr "Couldn't set groupid to 0"
-
-#~ msgid "%x"
-#~ msgstr "%x"
-
-#~ msgctxt "language"
-#~ msgid "Other..."
-#~ msgstr "אחר..."
-
-#~ msgctxt "keyboard"
-#~ msgid "Other..."
-#~ msgstr "אחר..."
-
-#~ msgctxt "user"
-#~ msgid "Other..."
-#~ msgstr "אחר..."
-
-#~ msgid "Quit..."
-#~ msgstr "יציאה..."
-
-#~ msgid "Enable debugging code"
-#~ msgstr "Enable debugging code"
-
-#~ msgid "id"
-#~ msgstr "id"
-
-#~ msgid "%a %b %e"
-#~ msgstr "%a %b %e"
-
-#~ msgid "%1$s, %2$s"
-#~ msgstr "%1$s, %2$s"
-
-#~ msgid "Enable debugging"
-#~ msgstr "Enable debugging"
-
-#~ msgid "Enable debugging mode for the greeter."
-#~ msgstr "Enable debugging mode for the greeter."
-
-#~ msgid "Unable establish credentials"
-#~ msgstr "לא ניתן להקים פרטי זיהוי"
-
-#~ msgid "worker exited with status %d"
-#~ msgstr "worker exited with status %d"
-
-#~ msgid ""
-#~ "You are not allowed to restart the computer because multiple users are "
-#~ "logged in"
-#~ msgstr "אינך רשאי לשתחל את המחשב מכיוון שמחוברים אליו משתמשים נוספים"
-
-#~ msgid "Failed to stop computer"
-#~ msgstr "נכשל בעצירת המחשב"
-
-#~ msgid ""
-#~ "You are not allowed to stop the computer because multiple users are "
-#~ "logged in"
-#~ msgstr "אינך רשאי לעצור את המחשב מכיוון שמחוברים אליו משתמשים נוספים"
-
-#~ msgid "page 5"
-#~ msgstr "עמוד 5"
-
-#~ msgid "Accessibility Preferences"
-#~ msgstr "העדפות נגישות"
-
-#~ msgid "<b>Enable features that make your computer easier to use:</b>"
-#~ msgstr "<b>אפשר תכונות שיקלו על השימוש במחשב:</b>"
-
-#~ msgid "Assistive Technology Preferences"
-#~ msgstr "העדפות טכנולוגיה מסייעת"
-
-#~ msgid "_Make items larger (Magnifier)"
-#~ msgstr "_הגדל את הפריטים (זכוכית מגדלת)"
-
-#~ msgid "_Type without the keyboard (On-screen Keyboard)"
-#~ msgstr "ה_קש ללא מקלדת (מקלדת על המסך)"
-
-#~ msgid "_Use a larger font size (Large Print)"
-#~ msgstr "ה_שתמש בגופן גדול יותר (הדפסה גדולה)"
-
-#~ msgid "You have the Caps Lock key on."
-#~ msgstr "מקש ה-Caps Lock מופעל."
-
-#~ msgid "Disable showing the accessibility button"
-#~ msgstr "Disable showing the accessibility button"
-
-#~ msgid ""
-#~ "Set to TRUE to disable showing the accessibility button in the login "
-#~ "window."
-#~ msgstr ""
-#~ "Set to TRUE to disable showing the accessibility button in the login "
-#~ "window."
-
-#~ msgid "User"
-#~ msgstr "משתמש"
-
-#~ msgid "The user this menu item represents."
-#~ msgstr "המשתמש אשר מיוצג על ידי פריט זה."
-
-#~ msgid "Icon Size"
-#~ msgstr "גודל איקון"
-
-#~ msgid "The size of the icon to use."
-#~ msgstr "גודל האיקון לשימוש."
-
-#~ msgid "_Help"
-#~ msgstr "_עזרה"
-
-#~ msgid "Main Options"
-#~ msgstr "Main Options"
-
-#~ msgid "Send the specified protocol command to GDM"
-#~ msgstr "Send the specified protocol command to GDM"
-
-#~ msgid "Xnest mode"
-#~ msgstr "Xnest mode"
-
-#~ msgid "Do not lock current screen"
-#~ msgstr "Do not lock current screen"
-
-#~ msgid "Authenticate before running --command"
-#~ msgstr "Authenticate before running --command"
-
-#~ msgid "Start new flexible session; do not show popup"
-#~ msgstr "Start new flexible session; do not show popup"
-
-#~ msgid "gtk-close"
-#~ msgstr "gtk-close"
-
-#~ msgid "gtk-disconnect"
-#~ msgstr "gtk-disconnect"
-
-#~ msgid "_Users:"
-#~ msgstr "_משתמשים:"
-
-#~ msgid "_User:"
-#~ msgstr "_משתמש:"
-
-#~ msgid "Alternative GDM System Defaults configuration file"
-#~ msgstr "Alternative GDM System Defaults configuration file"
-
-#~ msgid "CONFIGFILE"
-#~ msgstr "CONFIGFILE"
-
-#~ msgid "Don't become a daemon"
-#~ msgstr "Don't become a daemon"
-
-#~ msgid "No console (static) servers to be run"
-#~ msgstr "No console (static) servers to be run"
-
-#, fuzzy
-#~ msgid "_Setup Login Screen"
-#~ msgstr "לא ניתן לנעול צג"
-
-#~ msgid "Users"
-#~ msgstr "משתמשים"
-
-#~ msgid "Appearance"
-#~ msgstr "מראה"
-
-#~ msgid "Continue"
-#~ msgstr "המשך"
-
-#~ msgid "Details"
-#~ msgstr "פרטים"
-
-#~ msgid "Options"
-#~ msgstr "אפשרויות"
-
-#~ msgid "Display Style"
-#~ msgstr "Display Style"
-
-#~ msgid "Show \"Login Window\" Menuitem"
-#~ msgstr "Show \"Login Window\" Menuitem"
-
-#~ msgid "Show \"Other\" Menuitem"
-#~ msgstr "Show \"Other\" Menuitem"
-
-#~ msgid "Show Active Users Only"
-#~ msgstr "Show Active Users Only"
-
-#~ msgid ""
-#~ "Specifies how to display the applet in the panel. Use \"username\" to "
-#~ "display the current user's name, \"icon\" to show the people icon, or "
-#~ "\"text\" to use the word `Users.'"
-#~ msgstr ""
-#~ "Specifies how to display the applet in the panel. Use \"username\" to "
-#~ "display the current user's name, \"icon\" to show the people icon, or "
-#~ "\"text\" to use the word `Users.'"
-
-#~ msgid "Use Xnest"
-#~ msgstr "Use Xnest"
-
-#~ msgid ""
-#~ "When to show the \"Login Window\" item. Possible values include: \"always"
-#~ "\" to always show the item, \"never\" to never show the item, and \"auto"
-#~ "\" (the default) to show the item when the applet is in Xnest mode."
-#~ msgstr ""
-#~ "When to show the \"Login Window\" item. Possible values include: \"always"
-#~ "\" to always show the item, \"never\" to never show the item, and \"auto"
-#~ "\" (the default) to show the item when the applet is in Xnest mode."
-
-#~ msgid ""
-#~ "When to show the \"Other\" item. Possible values include: \"always\" to "
-#~ "always show the item, \"never\" to never show the item, and \"auto\" (the "
-#~ "default) to show the item when the applet is in console (not Xnest) mode."
-#~ msgstr ""
-#~ "When to show the \"Other\" item. Possible values include: \"always\" to "
-#~ "always show the item, \"never\" to never show the item, and \"auto\" (the "
-#~ "default) to show the item when the applet is in console (not Xnest) mode."
-
-#~ msgid ""
-#~ "Whether or not to create new Xnest windows instead of spawning new "
-#~ "consoles when switching users."
-#~ msgstr ""
-#~ "Whether or not to create new Xnest windows instead of spawning new "
-#~ "consoles when switching users."
-
-#~ msgid ""
-#~ "Whether or not to lock the screen after switching to a different console."
-#~ msgstr ""
-#~ "Whether or not to lock the screen after switching to a different console."
-
-#~ msgid ""
-#~ "Whether to show only users who are currently logged in, or all users."
-#~ msgstr ""
-#~ "Whether to show only users who are currently logged in, or all users."

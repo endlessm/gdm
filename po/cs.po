@@ -1,34 +1,29 @@
-# Czech translation of gdm.
-# Copyright (C) 2002, 2003, 2007, 2008, 2009, 2010, 2011 the author(s) of gdm.
-# Copyright (C) 2003, 2004, 2005, 2006 Miloslav Trmac <mitr@volny.cz>.
-# Copyright (C) 2006 Lukas Novotny <lukasnov@cvs.gnome.org>.
-# Copyright (C) 2006 Petr Tomeš <ptomes@gmail.com>.
-# This file is distributed under the same license as the gdm package.
-#
-# George Lebl <jirka@5z.com>, 2000.
-# Michal Bukovjan <bukm@centrum.cz>, 2002, 2003.
-# Miloslav Trmac <mitr@volny.cz>, 2003, 2004, 2005, 2006.
-# Lukas Novotny <lukasnov@cvs.gnome.org>, 2006.
-# Petr Tomeš <ptomes@gmail.com>, 2006.
-# Jakub Friedl <jfriedl@suse.cz>, 2007.
-# Petr Kovar <pknbe@volny.cz>, 2008, 2009, 2010, 2011, 2012.
-# Marek Černocký <marek@manet.cz>, 2013.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# George Lebl <jirka@5z.com>, 2000
+# Jakub Friedl <jfriedl@suse.cz>, 2007
+# Lukas Novotny <lukasnov@cvs.gnome.org>, 2006
+# Marek Černocký <marek@manet.cz>, 2013,2015-2016
+# Michal Bukovjan <bukm@centrum.cz>, 2002-2003
+# Miloslav Trmač <mitr@volny.cz>, 2003-2006
+# Petr Kovar <pknbe@volny.cz>, 2008-2012
+# Petr Tomeš <ptomes@gmail.com>, 2006
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2013-08-02 20:47+0200\n"
-"Last-Translator: Marek Černocký <marek@manet.cz>\n"
-"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
-"Language: cs\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:10+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Czech (http://www.transifex.com/endless-mobile-inc/gdm/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Gtranslator 2.91.6\n"
-"X-Project-Style: gnome\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -56,9 +51,7 @@ msgstr "Nezdařilo se určit aktuální stanici."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"Systém není schopen určit, zda má přepnout na existující přihlašovací "
-"obrazovku, nebo spustit novou přihlašovací obrazovku."
+msgstr "Systém není schopen určit, zda má přepnout na existující přihlašovací obrazovku, nebo spustit novou přihlašovací obrazovku."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
@@ -161,42 +154,34 @@ msgstr "Váš účet měl omezenou časovou platnost, která nyní vypršela."
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Bohužel, ale nefunguje to. Zkuste to prosím znovu."
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Uživatel:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr "Vašemu heslu vypršela platnost. Proveďte prosím nyní jeho změnu."
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "není dostupný žádný uživatelský účet"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Nelze změnit uživatele"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Nelze spustit server X (vaše grafické prostředí) kvůli jisté vnitřní chybě. "
-"Kontaktujte prosím svého správce systému, nebo se podívejte do souborů se "
-"systémovými záznamy. Mezitím bude tento displej zakázán. Až bude problém "
-"vyřešen, spusťte prosím GDM znovu."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Nelze spustit server X (vaše grafické prostředí) kvůli jisté vnitřní chybě. Kontaktujte prosím svého správce systému, nebo se podívejte do souborů se systémovými záznamy. Mezitím bude tento displej zakázán. Až bude problém vyřešen, spusťte prosím GDM znovu."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -278,9 +263,7 @@ msgstr "Zda povolit čtečkám otisků prstů přihlášení"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Přihlašovací obrazovka může uživatelům s dostupnými otisky prstů volitelně "
-"nabídnout přihlášení s těmito otisky."
+msgstr "Přihlašovací obrazovka může uživatelům s dostupnými otisky prstů volitelně nabídnout přihlášení s těmito otisky."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -290,9 +273,7 @@ msgstr "Zda povolit čtečkám čipových karet přihlášení"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Přihlašovací obrazovka může uživatelům s dostupnými čipovými kartami "
-"volitelně nabídnout přihlášení s těmito kartami."
+msgstr "Přihlašovací obrazovka může uživatelům s dostupnými čipovými kartami volitelně nabídnout přihlášení s těmito kartami."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -302,9 +283,7 @@ msgstr "Zda povolit či nepovolit přihlašování heslem"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Přihlašovací obrazovku lze nastavit tak, aby neumožňovala přihlášení heslem "
-"a uživatel byl nucen použít ověření čipovou kartou nebo otiskem prstu."
+msgstr "Přihlašovací obrazovku lze nastavit tak, aby neumožňovala přihlášení heslem a uživatel byl nucen použít ověření čipovou kartou nebo otiskem prstu."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -315,20 +294,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"Přihlašovací obrazovka může volitelně zobrazit malý obrázek na horní straně "
-"seznamu uživatelů, který nabízí správcům systému a distributorům možnost "
-"přidat ikonu s logem."
+msgstr "Přihlašovací obrazovka může volitelně zobrazit malý obrázek na horní straně seznamu uživatelů, který nabízí správcům systému a distributorům možnost přidat ikonu s logem."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
-"Záložní přihlašovací obrazovka může volitelně zobrazit malý obrázek na horní "
-"straně seznamu uživatelů, který nabízí správcům systému a distributorům "
-"možnost přidat ikonu s logem."
+msgstr "Záložní přihlašovací obrazovka může volitelně zobrazit malý obrázek na horní straně seznamu uživatelů, který nabízí správcům systému a distributorům možnost přidat ikonu s logem."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -336,11 +309,9 @@ msgstr "Zamezit zobrazení seznamu uživatelů"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Přihlašovací obrazovka normálně zobrazuje seznam dostupných uživatelů, kteří "
-"se mohou přihlásit. Tímto nastavením lze zobrazení seznamu uživatelů zakázat."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Přihlašovací obrazovka normálně zobrazuje seznam dostupných uživatelů, kteří se mohou přihlásit. Tímto nastavením lze zobrazení seznamu uživatelů zakázat."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -363,10 +334,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Vypnout zobrazování tlačítek restartu"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Nastavte na zapnuto, má-li být vypnuto zobrazování tlačítek restartu v okně "
-"přihlášení."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Nastavte na zapnuto, má-li být vypnuto zobrazování tlačítek restartu v okně přihlášení."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -376,9 +346,7 @@ msgstr "Počet povolených selhání ověření"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Kolikrát je uživateli povoleno pokusit se o ověření, než dojde k návratu do "
-"výběru uživatelů."
+msgstr "Kolikrát je uživateli povoleno pokusit se o ověření, než dojde k návratu do výběru uživatelů."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -442,54 +410,3 @@ msgstr "Vytvořen snímek obrazovky"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Pořídit snímek obrazovky"
-
-#~ msgid "No session available yet"
-#~ msgstr "Zatím není dostupné žádné sezení"
-
-#~ msgid "Unable to look up UID of user %s"
-#~ msgstr "Nelze vyhledat UID uživatele %s"
-
-#~ msgid "no sessions available"
-#~ msgstr "nejsou dostupná žádná sezení"
-
-#~ msgid "No sessions for %s available for reauthentication"
-#~ msgstr "Pro %s nejsou dostupná žádná sezení pro účely opětovného ověření"
-
-#~ msgid "Unable to find session for user %s"
-#~ msgstr "Nelze nalézt sezení pro uživatele %s"
-
-#~ msgid "Unable to find appropriate session for user %s"
-#~ msgstr "Nelze nalézt vhodné sezení pro uživatele %s"
-
-#~ msgid "User doesn't own session"
-#~ msgstr "Uživatel není vlastníkem sezení"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: nelze se připojit k rodičovskému displeji „%s“"
-
-#~ msgid "Your account was given an expiration date that's now passed."
-#~ msgstr "Váš účet měl omezenou platnost do data, které nyní nastalo."
-
-#~ msgid "User not logged in"
-#~ msgstr "Uživatel není přihlášen"
-
-#~ msgid "Currently, only one client can be connected at once"
-#~ msgstr "V současnosti lze najednou připojit pouze jednoho klienta"
-
-#~ msgid "Failed to create AuthDir %s: %s"
-#~ msgstr "Selhalo vytvoření složky %s pro autentizaci: %s"
-
-#~ msgid "Display ID"
-#~ msgstr "ID displeje"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "Pomocný správce displeje GNOME"
-
-#~ msgid "Login Window"
-#~ msgstr "Přihlašovací okno"
-
-#~ msgid "Unable to start new display"
-#~ msgstr "Nelze spustit nový displej"

@@ -1,22 +1,23 @@
-# Translation of oc.po to Occitan
-# Occitan translation of gdm2.
-# Copyright (C) 2007 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gdm2 package.
-#
-#
-# Yannig Marchegay (Kokoyaya)  <yannig@marchegay.org>, 2007.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Cédric Valmary <cvalmary@yahoo.fr>, 2015
+# Cédric Valmary <cvalmary@yahoo.fr>, 2016
+# Yannig Marchegay (Kokoyaya)  <yannig@marchegay.org>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: oc\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2010-04-14 15:03+0200\n"
-"Last-Translator: Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
-"Language-Team: Occitan <ubuntu-l10n-oci@lists.ubuntu.com>\n"
-"Language: oc\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:57+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Occitan (post 1500) (http://www.transifex.com/endless-mobile-inc/gdm/language/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: oc\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../common/gdm-common.c:311
@@ -28,56 +29,53 @@ msgstr "/dev/urandom es pas un periferic de caractèrs"
 #: ../libgdm/gdm-user-switching.c:344 ../libgdm/gdm-user-switching.c:514
 #, c-format
 msgid "Could not identify the current session."
-msgstr "Impossible d'identificar la sesilha actuala."
+msgstr "Impossible d'identificar la session actuala."
 
 #: ../common/gdm-common.c:626 ../libgdm/gdm-user-switching.c:351
-#, fuzzy, c-format
+#, c-format
 msgid "User unable to switch sessions."
-msgstr "Impossible de dobrir una sesilha"
+msgstr ""
 
 #: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
-#, fuzzy, c-format
+#, c-format
 msgid "Could not identify the current seat."
-msgstr "Impossible d'identificar la sesilha actuala."
+msgstr "Impossible d'identificar lo pòste actual."
 
 #: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
+msgstr "Lo sistèma es incapable de determinar se deu bascular cap a un ecran de connexion existent o aviar un novèl ecran de connexion."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
 msgid "The system is unable to start up a new login screen."
-msgstr ""
+msgstr "Lo sistèma es incapable d'aviar un novèl ecran de connexion."
 
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user \"%s\" on system"
-msgstr "impossible de trobar l'utilizaire « %s » sul sistèma"
+msgstr "impossible de trobar l'utilizaire « %s » sul sistèma"
 
 #: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
-#, fuzzy
 msgid "No session available"
-msgstr "cap de compte d'utilizaire pas disponible"
+msgstr "Cap de session pas disponibla"
 
 #: ../daemon/gdm-manager.c:953
 #, c-format
 msgid "Can only be called before user is logged in"
-msgstr ""
+msgstr "Pòt solament èsser apelat abans que l'utilizaire siá connectat"
 
 #: ../daemon/gdm-manager.c:962
 #, c-format
 msgid "Caller not GDM"
-msgstr ""
+msgstr "L'apelant es pas GDM"
 
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"Lo servidor deviá èsser aviat per l'utilizaire %s mas aqueste utilizaire "
-"existís pas"
+msgstr "Lo servidor deviá èsser aviat per l'utilizaire %s mas aqueste utilizaire existís pas"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
@@ -87,7 +85,7 @@ msgstr "Impossible de definir l'identificador del grop a %d"
 #: ../daemon/gdm-server.c:454
 #, c-format
 msgid "initgroups () failed for %s"
-msgstr "initgroups () a fracassat per %s"
+msgstr "initgroups () a fracassat per %s"
 
 #: ../daemon/gdm-server.c:460
 #, c-format
@@ -95,34 +93,33 @@ msgid "Couldn't set userid to %d"
 msgstr "Impossible de definir l'identificador de l'utilizaire a %d"
 
 #: ../daemon/gdm-server.c:538
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Could not open log file for display %s!"
-msgstr ""
-"%s : impossible de dobrir lo fichièr de jornalizacion per l'afichatge %s !"
+msgstr "%s : impossible de dobrir lo fichièr de jornalizacion per l'afichatge %s !"
 
 #: ../daemon/gdm-server.c:559 ../daemon/gdm-server.c:565
 #: ../daemon/gdm-server.c:571
 #, c-format
 msgid "%s: Error setting %s to %s"
-msgstr "%s : error al moment de la definicion de %s a %s"
+msgstr "%s : error al moment de la definicion de %s a %s"
 
 #: ../daemon/gdm-server.c:591
 #, c-format
 msgid "%s: Server priority couldn't be set to %d: %s"
-msgstr "%s : la prioritat del servidor pòt pas èsser fixada a %d : %s"
+msgstr "%s : la prioritat del servidor pòt pas èsser fixada a %d : %s"
 
 #: ../daemon/gdm-server.c:743
 #, c-format
 msgid "%s: Empty server command for display %s"
-msgstr "%s : comanda de servidor void per l'afichatge %s"
+msgstr "%s : comanda de servidor voida per l'afichatge %s"
 
 #: ../daemon/gdm-session-auditor.c:90
 msgid "Username"
-msgstr "Nom d'utilizaire"
+msgstr "Identificant"
 
 #: ../daemon/gdm-session-auditor.c:91
 msgid "The username"
-msgstr "Lo nom d'utilizaire"
+msgstr "L'identificant"
 
 #: ../daemon/gdm-session-auditor.c:95
 msgid "Hostname"
@@ -141,107 +138,94 @@ msgid "The display device"
 msgstr "Lo periferic d'afichatge"
 
 #: ../daemon/gdm-session.c:1216
-#, fuzzy
 msgid "Could not create authentication helper process"
-msgstr "%s : impossible de legir los noms de l'autentificacion"
+msgstr "Impossible de crear un processus assistent d'autentificacion"
 
 #: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
-msgstr ""
+msgstr "Vòstre compte a un limit de temps qu'es ara escasut."
 
 #: ../daemon/gdm-session-worker.c:853
 msgid "Sorry, that didn't work. Please try again."
-msgstr ""
+msgstr "O planhèm, aquò a pas foncionat. Ensajatz tornamai."
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
-msgstr "Nom d'utilizaire :"
+msgstr "Identificant :"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "cap de compte d'utilizaire pas disponible"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
-msgstr "Impossible de cambiar cap a aqueste utilizaire"
+msgstr "Impossible de cambiar cap a* l'utilizaire"
 
-#: ../daemon/gdm-simple-slave.c:866
-#, fuzzy
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Impossible d'aviar lo servidor X (l'interfàcia grafica) a causa d'una error "
-"intèrna. Contactatz vòstre administrator del sistèma o verificatz los "
-"jornals del sistèma per diagnosticar lo problèma. En esperant, aqueste "
-"afichatge serà desactivat. Reaviatz GDM quand lo problèma serà resolgut."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Impossible d'aviar lo servidor X (l'interfàcia grafica) a causa d'una error intèrna. Contactatz vòstre administrator del sistèma o verificatz los jornals sistèma per diagnosticar lo problèma. En esperant, aqueste afichatge es desactivat. Reaviar GDM quand lo problèma serà resolgut."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
-msgstr "Impossible de crear lo connectador"
+msgstr "Impossible de crear lo connector."
 
 #: ../daemon/main.c:125 ../daemon/main.c:138
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Impossible d'escriure lo fichièr PID %s : probablament per manca d'espaci de "
-"disc : %s"
+msgstr "Impossible d'escriure lo fichièr PID %s : probablament per manca d'espaci de disc : %s"
 
 #: ../daemon/main.c:188
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr ""
+msgstr "Impossible de crear un marcador « es estat aviat un còp » sul repertòri %s : %s"
 
 #: ../daemon/main.c:194
 #, c-format
 msgid "Failed to create LogDir %s: %s"
-msgstr ""
+msgstr "Impossible de crear lo repertòri de connexion %s : %s"
 
 #: ../daemon/main.c:229
 #, c-format
 msgid "Can't find the GDM user '%s'. Aborting!"
-msgstr "Impossible de trobar l'utilizaire GDM « %s ». Abandon !"
+msgstr "Impossible de trobar l'utilizaire GDM « %s ». Abandon !"
 
 #: ../daemon/main.c:235
 msgid "The GDM user should not be root. Aborting!"
-msgstr "L'utilizaire GDM deu pas èsser root. Abandon !"
+msgstr "L'utilizaire GDM deu pas èsser root. Abandon !"
 
 #: ../daemon/main.c:241
 #, c-format
 msgid "Can't find the GDM group '%s'. Aborting!"
-msgstr "Impossible de trobar lo grop GDM « %s ». Abandon !"
+msgstr "Impossible de trobar lo grop GDM « %s ». Abandon !"
 
 #: ../daemon/main.c:247
 msgid "The GDM group should not be root. Aborting!"
-msgstr "Lo grop GDM deu pas èsser root. Abandon !"
+msgstr "Lo grop GDM deu pas èsser root. Abandon !"
 
 #: ../daemon/main.c:324
 msgid "Make all warnings fatal"
-msgstr "Fa los avertiments coma critics"
+msgstr "Fa totes los avertiments fatals"
 
 #: ../daemon/main.c:325
-#, fuzzy
 msgid "Exit after a time (for debugging)"
-msgstr "Quita aprèp un relambi - per desbugatge"
+msgstr "Quita aprèp un relambi (per desbugatge)"
 
 #: ../daemon/main.c:326
 msgid "Print GDM version"
-msgstr "Visualizar la version de GDM"
+msgstr "Aficha la version de GDM"
 
 #: ../daemon/main.c:339
 msgid "GNOME Display Manager"
@@ -256,50 +240,49 @@ msgstr "Sol l'utilizaire root pòt aviar GDM"
 #. of starting up a session
 #: ../daemon/session-worker-main.c:95
 msgid "GNOME Display Manager Session Worker"
-msgstr "Assistent de sesilha del gestionari de connexions GNOME"
+msgstr "Assistent de session del gestionari de connexions GNOME"
 
 #: ../data/applications/gnome-shell.desktop.in.h:1
 msgid "GNOME Shell"
 msgstr ""
 
 #: ../data/applications/gnome-shell.desktop.in.h:2
-#, fuzzy
 msgid "Window management and compositing"
-msgstr "Monitor del gestionari d'energia"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
-msgstr ""
+msgstr "Indica se cal autorizar o pas los lectors d'emprentas digitalas per la connexion"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:2
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
+msgstr "L'ecran de connexion pòt, en opcion, permetre als utilizaires qu'an enregistrat lors emprentas digitalas de se connectar en utilizant aquelas."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
-msgstr ""
+msgstr "Indica se cal autorizar o pas los lectors de cartas de piuse per la connexion"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:4
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
+msgstr "L'ecran de connexion pòt, en opcion, permetre als utilizaires que possedisson de cartas de piuse de se connectar en utilizant aquelas."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
-msgstr ""
+msgstr "Indica se cal autorizar o pas los senhals per la connexion"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:6
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
+msgstr "L'ecran de connexion pòt èsser configurat per empachar l'autentificacion per senhal, en obligant l'utilizaire d'utilizar l'autentificacion per carta de piuse o per emprenta digitala."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
-msgstr ""
+msgstr "Camin cap al pichon imatge en naut de la lista d'utilizaires"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:8
 msgid ""
@@ -317,13 +300,13 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
-msgstr ""
+msgstr "Evitar d'afichar la lista dels utilizaires"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Normalament l'ecran de connexion aficha la lista dels utilizaires que se pòdon connectar. Aqueste reglatge pòt èsser modificat per desactivar l'afichatge d'aquesta lista."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -338,31 +321,27 @@ msgid "Banner message text"
 msgstr "Tèxte del messatge de la bandièra"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:15
-#, fuzzy
 msgid "Text banner message to show in the login window."
-msgstr ""
-"Tèxte del messatge de la bandièra d'afichar dins la fenèstra de connexion."
+msgstr "Tèxte del messatge de la bandièra d'afichar dins la fenèstra de connexion."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:16
 msgid "Disable showing the restart buttons"
 msgstr "Desactivar l'afichatge dels botons de reaviada"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Se verai, desactiva l'afichatge dels botons de reaviada dins la fenèstra de "
-"connexion."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Se verai, desactiva l'afichatge dels botons de reaviada dins la fenèstra de connexion."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
-#, fuzzy
 msgid "Number of allowed authentication failures"
-msgstr "%s : impossible de legir los noms de l'autentificacion"
+msgstr "Nombre de fracasses d'autentificacion autorizats"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
+msgstr "Lo nombre de còps qu'un utilizaire es autorizat a ensajar de s'autentificar abans l'abandon e lo retorn a la seleccion de l'utilizaire."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -370,31 +349,27 @@ msgstr "Seleccionatz un sistèma"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
 msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr "XDMCP : impossible de crear lo tampon XDMCP"
+msgstr "XDMCP : impossible de crear lo tampon XDMCP."
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
 msgid "XDMCP: Could not read XDMCP header!"
-msgstr "XDMCP : impossible de legir l'entèsta XDMCP"
+msgstr "XDMCP : impossible de legir l'entèsta XDMCP."
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-#, fuzzy
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XMDCP : version incorrècta de XDMCP"
+msgstr "XDMCP : version incorrècta de XDMCP."
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-#, fuzzy
 msgid "XDMCP: Unable to parse address"
-msgstr "XMDCP : impossible d'analisar l'adreça"
+msgstr "XDMCP : impossible d'analisar l'adreça"
 
 #: ../libgdm/gdm-user-switching.c:72
-#, fuzzy
 msgid "Unable to create transient display: "
-msgstr "Impossible d'aviar un afichatge novèl"
+msgstr "Impossible de crear un afichatge provisòri : "
 
 #: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
-#, fuzzy
 msgid "Unable to activate session: "
-msgstr "Impossible de dobrir una sesilha"
+msgstr "Impossible d'activar la session : "
 
 #: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
@@ -406,9 +381,8 @@ msgstr "COMANDA"
 
 #: ../utils/gdmflexiserver.c:46 ../utils/gdmflexiserver.c:47
 #: ../utils/gdmflexiserver.c:49 ../utils/gdmflexiserver.c:50
-#, fuzzy
 msgid "Ignored — retained for compatibility"
-msgstr "Ignorat - mantengut per compatibilitat"
+msgstr "Ignorat - conservat per compatibilitat"
 
 #: ../utils/gdmflexiserver.c:48 ../utils/gdm-screenshot.c:43
 msgid "Debugging output"
@@ -416,670 +390,18 @@ msgstr "Sortida de desbugatge"
 
 #: ../utils/gdmflexiserver.c:52
 msgid "Version of this application"
-msgstr "A prepaus del logicial"
+msgstr "Version d'aquesta aplicacion"
 
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "- New GDM login"
-msgstr "- Connexion novèla per GDM"
+msgstr "- novèla connexion GDM"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
-msgstr "Captura.png"
+msgstr "Captura d'ecran efectuada"
 
 #. Option parsing
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Efectua una captura de l'ecran"
-
-#~ msgid "Display ID"
-#~ msgstr "Identificador de l'afichatge"
-
-#~ msgid "ID"
-#~ msgstr "Identificant (ID)"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "Esclau del gestionari de connexions GNOME"
-
-#~ msgid "Unable to initialize login system"
-#~ msgstr "Impossible d'inicializar lo sistèma de connexion"
-
-#~ msgid "Unable to authenticate user"
-#~ msgstr "Impossible d'autentificar l'utilizaire"
-
-#~ msgid "Unable to authorize user"
-#~ msgstr "Impossible d'autorizar l'utilizaire"
-
-#~ msgid "Unable to establish credentials"
-#~ msgstr "Impossible d'establir las informacions d'identificacion"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s : la connexion a l'afichatge parent « %s » a fracassat"
-
-#~ msgid "Couldn't set groupid to 0"
-#~ msgstr "Impossible de definir l'identificador del grop a 0"
-
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr ""
-#~ "error al moment de l'inicializacion de la conversacion amb lo sistèma "
-#~ "d'autentificacion - %s"
-
-#~ msgid "general failure"
-#~ msgstr "fracàs global"
-
-#~ msgid "out of memory"
-#~ msgstr "memòria insufisenta"
-
-#~ msgid "application programmer error"
-#~ msgstr "error de programacion de l'aplicacion"
-
-#~ msgid "unknown error"
-#~ msgstr "error desconeguda"
-
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt - %s"
-#~ msgstr ""
-#~ "error al moment de la notificacion al sistèma d'autentificacion del "
-#~ "convit favorit de l'utilizaire - %s"
-
-#~ msgid "error informing authentication system of user's hostname - %s"
-#~ msgstr ""
-#~ "error al moment de la notificacion al sistèma d'autentificacion del nom "
-#~ "d'òste de l'utilizaire - %s"
-
-#~ msgid "error informing authentication system of user's console - %s"
-#~ msgstr ""
-#~ "error al moment de la notificacion al sistèma d'autentificacion de la "
-#~ "consòla de l'utilizaire - %s"
-
-#~ msgid "error informing authentication system of display string - %s"
-#~ msgstr ""
-#~ "error al moment de la notificacion al sistèma d'autentificacion de la "
-#~ "cadena d'afichatge - %s"
-
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials - %s"
-#~ msgstr ""
-#~ "error al moment de la notificacion al sistèma d'autentificacion de las "
-#~ "informacions d'identificacion xauth de l'afichatge - %s"
-
-#~ msgid "User %s doesn't exist"
-#~ msgstr "L'utilizaire %s existís pas"
-
-#~ msgid "Group %s doesn't exist"
-#~ msgstr "Lo grop %s existís pas"
-
-#~ msgid "Denied XDMCP query from host %s"
-#~ msgstr "Requèsta XDMCP refusada dempuèi l'òste %s"
-
-#~ msgid "Could not extract authlist from packet"
-#~ msgstr ""
-#~ "Impossible d'extraire la lista de las autorizacions dempuèi lo paquet"
-
-#~ msgid "Error in checksum"
-#~ msgstr "Error dins la soma de contraròtle"
-
-#~ msgid "Bad address"
-#~ msgstr "Adreça incorrècta"
-
-#~ msgid "%s: Could not read display address"
-#~ msgstr "%s : impossible de legir l'adreça de l'afichatge"
-
-#~ msgid "%s: Could not read display port number"
-#~ msgstr "%s : impossible de legir lo numèro de pòrt de l'afichatge"
-
-#~ msgid "%s: Could not extract authlist from packet"
-#~ msgstr ""
-#~ "%s : impossible d'extraire la lista de las autorizacions dempuèi lo paquet"
-
-#~ msgid "%s: Error in checksum"
-#~ msgstr "%s : error dins la soma de contraròtle"
-
-#~ msgid "%s: Got REQUEST from banned host %s"
-#~ msgstr "%s : recepcion de REQUEST de l'òste exclut %s"
-
-#~ msgid "%s: Could not read Display Number"
-#~ msgstr "%s : impossible de legir lo numèro de l'afichatge"
-
-#~ msgid "%s: Could not read Connection Type"
-#~ msgstr "%s : impossible de legir lo tipe de connexion"
-
-#~ msgid "%s: Could not read Client Address"
-#~ msgstr "%s : impossible de legir l'adreça del client"
-
-#~ msgid "%s: Could not read Authentication Data"
-#~ msgstr "%s : impossible de legir las donadas de l'autentificacion"
-
-#~ msgid "%s: Could not read Authorization List"
-#~ msgstr "%s : impossible de legir la lista d'autorizacions"
-
-#~ msgid "%s: Could not read Manufacturer ID"
-#~ msgstr "%s : impossible de legir l'identificador del fabricant"
-
-#~ msgid "%s: Failed checksum from %s"
-#~ msgstr "%s : la soma de contraròtle a fracassat per %s"
-
-#~ msgid "%s: Got Manage from banned host %s"
-#~ msgstr "%s : recepcion de « Manage » de l'òste exclut %s"
-
-#~ msgid "%s: Could not read Session ID"
-#~ msgstr "%s : impossible de legir l'identificador de sesilha"
-
-#~ msgid "%s: Could not read Display Class"
-#~ msgstr "%s : impossible de legir la classa d'afichatge"
-
-#~ msgid "%s: Could not read address"
-#~ msgstr "%s : impossible de legir l'adreça"
-
-#~ msgid "%s: Got KEEPALIVE from banned host %s"
-#~ msgstr "%s : recepcion de KEEPALIVE de l'òste exclut %s"
-
-#~ msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-#~ msgstr "GdmXdmcpDisplayFactory : impossible de legir l'entèsta XDMCP"
-
-#~ msgid "Could not get server hostname: %s!"
-#~ msgstr "Impossible d'obténer lo nom d'òste del servidor : %s"
-
-#~ msgid "Logdir %s does not exist or isn't a directory."
-#~ msgstr "Logdir %s existís pas o es pas un repertòri."
-
-#~ msgid "Authdir %s does not exist. Aborting."
-#~ msgstr "Lo repertòri Authdir %s existís pas. Abandon."
-
-#~ msgid "Authdir %s is not a directory. Aborting."
-#~ msgstr "Authdir %s es pas un repertòri. Abandon."
-
-#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-#~ msgstr ""
-#~ "Lo repertòri Authdir %s aparten pas a l'utilizaire %d del grop %d. "
-#~ "Abandon."
-
-#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-#~ msgstr ""
-#~ "Lo repertòri Authdir %s possedís de dreches d'accès incorrèctes %o. Las "
-#~ "permissions deurián èsser definidas a %o. Abandon."
-
-#~ msgid "AT SPI Registry Wrapper"
-#~ msgstr "Assistent de registre AT SPI"
-
-#~ msgid "Login Window"
-#~ msgstr "Fenèstra de connexion"
-
-#~ msgid "Power Manager"
-#~ msgstr "Gestionari d'energia"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "Servici dels paramètres GNOME"
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "Lópia d'ecran GNOME"
-
-#~ msgid "Magnify parts of the screen"
-#~ msgstr "Agrandís de partidas de l'ecran"
-
-#~ msgid "GNOME Onscreen Keyboard"
-#~ msgstr "Clavièr visual GNOME"
-
-#~ msgid "Use an onscreen keyboard"
-#~ msgstr "Utiliza un clavièr afichat a l'ecran"
-
-#~ msgid "Metacity"
-#~ msgstr "Metacity"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "Lector d'ecran Orca"
-
-#~ msgid "Present on-screen information as speech or braille"
-#~ msgstr "Presenta las informacions de l'ecran jos forma vocala o en braille"
-
-#~ msgid "PolicyKit Authentication Agent"
-#~ msgstr "Agent d'autentificacion de PolicyKit"
-
-#~ msgid "Value"
-#~ msgstr "Valor"
-
-#~ msgid "percentage of time complete"
-#~ msgstr "percentatge del temps efectuat"
-
-#~ msgid "Inactive Text"
-#~ msgstr "Tèxte inactiu"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr ""
-#~ "Lo tèxte d'utilizar dins l'etiqueta se l'utilizaire a pas causit ja un "
-#~ "element"
-
-#~ msgid "Active Text"
-#~ msgstr "Tèxte actiu"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr ""
-#~ "Lo tèxte d'utilizar dins l'etiqueta se l'utilizaire a causit un element"
-
-#~ msgid "List Visible"
-#~ msgstr "Lista visibla"
-
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "Indica se lo selector es visible"
-
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%a %b %e, %l:%M:%S %p"
-
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%l:%M %p"
-
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%a %H:%M:%S"
-
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%l:%M %p"
-
-#~ msgid "Automatically logging in..."
-#~ msgstr "Connexion automatica en cors..."
-
-#~ msgid "Cancelling..."
-#~ msgstr "Anullacion..."
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "Causissètz la lenga e clicatz sus Se connectar"
-
-#~ msgid "Computer Name"
-#~ msgstr "Nom de l'ordenador"
-
-#~ msgid "Log In"
-#~ msgstr "Connexion"
-
-#~ msgid "Version"
-#~ msgstr "Version"
-
-#~ msgid "Panel"
-#~ msgstr "Panèl"
-
-#~ msgid "Shutdown Options..."
-#~ msgstr "Opcions d'atudament..."
-
-#~ msgid "Suspend"
-#~ msgstr "Suspendre"
-
-#~ msgid "Restart"
-#~ msgstr "Tornar lançar"
-
-#~ msgid "Shut Down"
-#~ msgstr "Atudar l'ordenador"
-
-#~ msgid "Languages"
-#~ msgstr "Lengas"
-
-#~ msgid "_Languages:"
-#~ msgstr "_Lengas :"
-
-#~ msgid "_Language:"
-#~ msgstr "_Lenga :"
-
-#~ msgctxt "language"
-#~ msgid "Other..."
-#~ msgstr "Autre... "
-
-#~ msgid "Choose a language from the full list of available languages."
-#~ msgstr ""
-#~ "Causissètz una lenga a partir de la lista completa de las lengas "
-#~ "disponiblas."
-
-#~ msgid "Unspecified"
-#~ msgstr "Pas especificat"
-
-#~ msgid "Keyboard layouts"
-#~ msgstr "Agençaments de clavièr"
-
-#~ msgid "_Keyboard:"
-#~ msgstr "_Clavièr :"
-
-#~ msgctxt "keyboard"
-#~ msgid "Other..."
-#~ msgstr "Autre..."
-
-#~ msgid "Choose a keyboard layout from the full list of available layouts."
-#~ msgstr ""
-#~ "Causissètz un agençament de clavièr a partir de la lista completa dels "
-#~ "agençaments disponibles."
-
-#~ msgid "Label Text"
-#~ msgstr "Tèxte de l'etiqueta"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "Lo texte d'utilizar en tant qu'etiqueta"
-
-#~ msgid "Icon name"
-#~ msgstr "Nom de l'icòna"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "L'icòna d'utilizar amb l'etiqueta"
-
-#
-#~ msgid "Default Item"
-#~ msgstr "Element per defaut"
-
-#~ msgid "The ID of the default item"
-#~ msgstr "L'identificador de l'element per defaut"
-
-#~ msgid "Max Item Count"
-#~ msgstr "Nombre maximum d'elements"
-
-#~ msgid "The maximum number of items to keep around in the list"
-#~ msgstr "Lo nombre maximum d'elements de conservar dins la lista"
-
-#~ msgid "Remote Login (Connecting to %s...)"
-#~ msgstr "Connexion distanta (connexion a %s...)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "Connexion distanta (connectat a %s)"
-
-#~ msgid "Remote Login"
-#~ msgstr "Connexion distanta"
-
-#~ msgid "_Sessions:"
-#~ msgstr "_Sesilhas :"
-
-#~ msgid "Banner message text when chooser is empty"
-#~ msgstr "Messatge tèxte de la bandièra quand lo selector es void"
-
-#~ msgid "Do not show known users in the login window"
-#~ msgstr "Afichar pas los utilizaires coneguts dins la fenèstra de connexion"
-
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "Activar l'ensèrt d'accessibilitat del clavièr"
-
-#~ msgid "Enable on-screen keyboard"
-#~ msgstr "Activar lo clavièr a l'ecran"
-
-#~ msgid "Enable screen magnifier"
-#~ msgstr "Activar la lópia d'ecran"
-
-#~ msgid "Enable screen reader"
-#~ msgstr "Activar lo lector d'ecran"
-
-#~ msgid "Icon name to use for greeter logo"
-#~ msgstr "Nom d'icòna d'utilizar pel lògo de la bandièra d'acuèlh"
-
-#~ msgid "Recently selected keyboard layouts"
-#~ msgstr "Agençaments de clavièr seleccionats recentament"
-
-#~ msgid "Recently selected languages"
-#~ msgstr "Lengas seleccionadas recentament"
-
-#~ msgid ""
-#~ "Set to a list of keyboard layouts to be shown by default at the login "
-#~ "window."
-#~ msgstr ""
-#~ "Definís una lista dels agençament de clavièr d'afichar per defaut dins la "
-#~ "fenèstra de connexion."
-
-#~ msgid ""
-#~ "Set to a list of languages to be shown by default at the login window."
-#~ msgstr ""
-#~ "Definís una lista de las lengas d'afichar per defaut dins la fenèstra de "
-#~ "connexion."
-
-#~ msgid "Set to the themed icon name to use for the greeter logo."
-#~ msgstr ""
-#~ "Definís lo nom d'icòna (dins un tèma) d'utilizar pel lògo de la bandièra "
-#~ "d'acuèlh."
-
-#~ msgid "Set to true to disable showing known users in the login window."
-#~ msgstr ""
-#~ "Se verai, desactiva l'afichatge dels utilizaires coneguts dins la "
-#~ "fenèstra de connexion."
-
-#~ msgid "Set to true to enable the background settings manager plugin."
-#~ msgstr "Se verai, activa l'ensèrt de gestion dels paramètres de rèire plan."
-
-#~ msgid "Set to true to enable the media-keys settings manager plugin."
-#~ msgstr ""
-#~ "Se verai, activa l'ensèrt de gestion dels paramètres de las tòcas "
-#~ "multimèdias."
-
-#~ msgid "Set to true to enable the on-screen keyboard."
-#~ msgstr "Se verai, activa lo clavièr a l'ecran."
-
-#~ msgid ""
-#~ "Set to true to enable the plugin to manage the accessibility keyboard "
-#~ "settings."
-#~ msgstr ""
-#~ "Se verai, activa l'ensèrt de gestion dels paramètres d'accessibilitat del "
-#~ "clavièr."
-
-#~ msgid "Set to true to enable the screen magnifier."
-#~ msgstr "Se verai, activa la lópia d'ecran."
-
-#~ msgid "Set to true to enable the screen reader."
-#~ msgstr "Se verai, activa lo lector d'ecran."
-
-#~ msgid "Set to true to enable the sound settings manager plugin."
-#~ msgstr "Se verai, activa l'ensèrt de gestion dels paramètres de son."
-
-#~ msgid "Set to true to enable the xrandr settings manager plugin."
-#~ msgstr "Se verai, activa l'ensèrt de gestion dels paramètres de xrandr."
-
-#~ msgid "Set to true to enable the xsettings settings manager plugin."
-#~ msgstr "Se verai, activa l'ensèrt de gestion dels paramètres xsettings."
-
-#~ msgid "Set to true to use compiz as the window manager."
-#~ msgstr "Se verai, activa Compiz coma gestionari de fenèstras."
-
-#~ msgid ""
-#~ "Text banner message to show on the login window when the user chooser is "
-#~ "empty, instead of banner_message_text."
-#~ msgstr ""
-#~ "Messatge tèxte de la bandièra d'afichar dins la fenèstra de connexion "
-#~ "quand lo selector d'utilizaire es void, a la plaça de banner_message_text."
-
-#~ msgid "True if the background settings manager plugin is enabled."
-#~ msgstr ""
-#~ "Verai se l'ensèrt de gestion dels paramètres de rèire plan es activat."
-
-#~ msgid "True if the media-keys settings manager plugin is enabled."
-#~ msgstr ""
-#~ "Verai se l'ensèrt de gestion dels paramètres de las tòcas multimèdia es "
-#~ "activat."
-
-#~ msgid "True if the sound settings manager plugin is enabled."
-#~ msgstr "Verai se l'ensèrt de gestion dels paramètres de son es activat."
-
-#~ msgid "True if the xrandr settings manager plugin is enabled."
-#~ msgstr "Verai se l'ensèrt de gestion dels paramètres de xrandr es activat."
-
-#~ msgid "True if the xsettings settings manager plugin is enabled."
-#~ msgstr ""
-#~ "Verai se l'ensèrt de gestion dels paramètres de xsettings es activat."
-
-#~ msgid "Use compiz as the window manager"
-#~ msgstr "Utilizar Compiz coma gestionari de fenèstras"
-
-#~ msgid "Duration"
-#~ msgstr "Durada"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "Nombre de segondas abans l'arrèst del compte a rebors"
-
-#~ msgid "Start time"
-#~ msgstr "Ora de debuta"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "Ora a la quala lo compte a rebors es estat aviat"
-
-#~ msgid "Is it Running?"
-#~ msgstr "Es aviat ?"
-
-#~ msgid "Whether the timer is currently ticking"
-#~ msgstr "Indica se lo compte a rebors es actiu"
-
-#~ msgid "Manager"
-#~ msgstr "Gestionari"
-
-#~ msgid "The user manager object this user is controlled by."
-#~ msgstr ""
-#~ "L'objècte del gestionari d'utilizaires que contraròtle aqueste utilizaire."
-
-#~ msgctxt "user"
-#~ msgid "Other..."
-#~ msgstr "Autre..."
-
-#~ msgid "Choose a different account"
-#~ msgstr "Causissètz un compte diferent"
-
-#~ msgid "Guest"
-#~ msgstr "Invitat"
-
-#~ msgid "Login as a temporary guest"
-#~ msgstr "Se connectar en tant que convidat temporari"
-
-#~ msgid "Automatic Login"
-#~ msgstr "Connexion automatica"
-
-#~ msgid "Automatically login to the system after selecting options"
-#~ msgstr "Se connectar automaticament al sistèma aprèp aver causit d'opcions"
-
-#~ msgid "Log in as %s"
-#~ msgstr "Se connectar en tant que %s"
-
-#~ msgid "Currently logged in"
-#~ msgstr "Ja connectat"
-
-#~ msgid ""
-#~ "The User Switch Applet is free software; you can redistribute it and/or "
-#~ "modify it under the terms of the GNU General Public License as published "
-#~ "by the Free Software Foundation; either version 2 of the License, or (at "
-#~ "your option) any later version."
-#~ msgstr ""
-#~ "L'applet de cambiament d'utilizaire es un logicial liure ; lo podètz "
-#~ "redistribuir e/o lo modificar al títol de las clausas de la Licéncia "
-#~ "Publica Generala GNU, tala coma publicada per la Free Software "
-#~ "Foundation ; siá la version 2 de la Licéncia, o (a vòstra discrecion) una "
-#~ "version ulteriora quina que siá."
-
-#~ msgid ""
-#~ "This program is distributed in the hope that it will be useful, but "
-#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
-#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
-#~ "Public License for more details."
-#~ msgstr ""
-#~ "Aqueste programa es difusit dins l'esper que serà util, mas SENS CAP DE "
-#~ "GARANTIA ; sens quitament una garantia implicita de COMERCIALIZACION o "
-#~ "d'ADEQÜACION A UN USATGE PARTICULAR. Vejatz la Licéncia Publica Generala "
-#~ "GNU pour plus de détails."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with this program; if not, write to the Free Software Foundation, Inc., "
-#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA "
-#~ msgstr ""
-#~ "Vos caldriá aver recebut una còpia de la Licéncia Publica Generala GNU "
-#~ "amb aqueste programa ; siquenon, escrivètz a la Free Software Foundation, "
-#~ "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, Estats "
-#~ "Units. "
-
-#~ msgid "A menu to quickly switch between users."
-#~ msgstr "Un menut per bascuolar rapidament entre los utilizaires."
-
-#~ msgid "translator-credits"
-#~ msgstr "Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>"
-
-#~ msgid "Can't lock screen: %s"
-#~ msgstr "Impossible de varrolhar l'ecran : %s"
-
-#~ msgid "Can't temporarily set screensaver to blank screen: %s"
-#~ msgstr ""
-#~ "Impossible de reglar temporàriament l'ecran de velha sus un ecran void : "
-#~ "%s"
-
-#~ msgid "Can't logout: %s"
-#~ msgstr "Impossible de se desconnectar : %s"
-
-#~ msgid "Available"
-#~ msgstr "Disponible"
-
-#~ msgid "Invisible"
-#~ msgstr "Invisible"
-
-#~ msgid "Busy"
-#~ msgstr "Ocupat(ada)"
-
-#~ msgid "Away"
-#~ msgstr "Absent(a)"
-
-#~ msgid "Account Information"
-#~ msgstr "Informacions sul compte"
-
-#~ msgid "System Preferences"
-#~ msgstr "Preferéncias del sistèma"
-
-#~ msgid "Lock Screen"
-#~ msgstr "Varrolhar l'ecran"
-
-#~ msgid "Switch User"
-#~ msgstr "Cambiar d'utilizaire"
-
-#~ msgid "Quit..."
-#~ msgstr "Quitar..."
-
-#~ msgid "Unknown"
-#~ msgstr "Desconegut"
-
-#~ msgid "User Switch Applet"
-#~ msgstr "Applet de cambiament d'utilizaire"
-
-#~ msgid "Change account settings and status"
-#~ msgstr "Modificar los paramètres e l'estat del compte"
-
-#~ msgid "A menu to quickly switch between users"
-#~ msgstr ""
-#~ "Un menut que vos permet de bascuolar rapidemant entre los utilizaires"
-
-#~ msgid "User Switcher"
-#~ msgstr "Esplech de cambiament d'utilizaire"
-
-#~ msgid "User Switcher Applet Factory"
-#~ msgstr "Fabrica d'applet pel cambiament d'utilizaire"
-
-#~ msgid "Edit Personal _Information"
-#~ msgstr "Modificar vòstras _entresenhas personalas"
-
-#~ msgid "_About"
-#~ msgstr "_A prepaus"
-
-#~ msgid "_Edit Users and Groups"
-#~ msgstr "_Modificar los utilizaires e los grops"
-
-#~ msgid "%a %b %e"
-#~ msgstr "%a %e de %b"
-
-#~ msgid "%1$s, %2$s"
-#~ msgstr "%1$s, %2$s"
-
-#~ msgid "User"
-#~ msgstr "Utilizaire"
-
-#~ msgid "Xnest mode"
-#~ msgstr "Mòde Xnest"
-
-#~ msgid "Do not lock current screen"
-#~ msgstr "Varrolhar pas l'ecran actiu"
-
-#~ msgid "CONFIGFILE"
-#~ msgstr "CONFIGFILE"
-
-#
-#~ msgid "gtk-disconnect"
-#~ msgstr "gtk-disconnect"
-
-#~ msgid "_Users:"
-#~ msgstr "_Utilizaires :"
-
-#~ msgid "_User:"
-#~ msgstr "_Utilizaire :"
-
-#~ msgid "Users"
-#~ msgstr "Utilizaires"
-
-#~ msgid "Other"
-#~ msgstr "Autre"
