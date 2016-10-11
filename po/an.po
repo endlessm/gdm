@@ -1,22 +1,23 @@
-# Aragonese translation for gdm.
-# Copyright (C) 2010 gdm's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gdm package.
-# Daniel Martinez <entaltoaragon@gmail.com>, 2010, 2011, 2013.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Daniel Martinez <entaltoaragon@gmail.com>, 2010-2011,2013-2015
+# Jorge Pérez Pérez <jorgtum@gmail.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm master\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2013-09-22 21:09+0200\n"
-"Last-Translator: Daniel Martinez <entaltoaragon@gmail.com>\n"
-"Language-Team: Aragonés <softaragones@googlegroups.com>\n"
-"Language: an\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 22:27+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Aragonese (http://www.transifex.com/endless-mobile-inc/gdm/language/an/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: an\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 2.91.6\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -44,9 +45,7 @@ msgstr "No se podió identificar a sesión actual."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"O sistema no puede determinar si cambiar a una pantalla d'inicio de sesión "
-"existent u encetar una pantalla d'inicio de sesión nueva."
+msgstr "O sistema no puede determinar si cambiar a una pantalla d'inicio de sesión existent u encetar una pantalla d'inicio de sesión nueva."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
@@ -75,9 +74,7 @@ msgstr "O solicitante no ye GDM"
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"O servidor teneba que estar lanzau por l'usuario %s pero ixe usuario no "
-"existe pas"
+msgstr "O servidor teneba que estar lanzau por l'usuario %s pero ixe usuario no existe pas"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
@@ -117,7 +114,7 @@ msgstr "%s: Comando de servidor vuedo ta la pantalla %s"
 
 #: ../daemon/gdm-session-auditor.c:90
 msgid "Username"
-msgstr "Nome d'usuario"
+msgstr "Nombre d'usuario"
 
 #: ../daemon/gdm-session-auditor.c:91
 msgid "The username"
@@ -151,42 +148,34 @@ msgstr "A suya cuenta tiene un tiempo limite, y l'ha superau."
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Ixo no ha funcionau. Prebe atra vegada."
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Nombre d'usuario:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr "A suya clau ha caducado, cambee-la agora por favor."
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "no i hai cuentas d'usuario disponibles"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "No s'ha puesto cambear l'usuario"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"No se podió encetar o servidor X (o suyo entorno grafico) a causa d'una "
-"error interna. Contacte con l'administrador d'o suyo sistema u comprebe o "
-"rechistro d'o sistema ta obtener un diagnostico. Entremistanto ista pantalla "
-"se desactivará. Reinicie GDM quan se i haiga solucionado o problema."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "No se podió encetar o servidor X (o suyo entorno grafico) a causa d'una error interna. Contacte con l'administrador d'o suyo sistema u comprebe o rechistro d'o sistema ta obtener un diagnostico. Entremistanto ista pantalla se desactivará. Reinicie GDM quan se i haiga solucionado o problema."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -195,9 +184,7 @@ msgstr "No s'ha puesto creyar o socket!"
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"No se puede escribir o fichero con PID %s: posiblement no i hai espacio en o "
-"disco: %s"
+msgstr "No se puede escribir o fichero con PID %s: posiblement no i hai espacio en o disco: %s"
 
 #: ../daemon/main.c:188
 #, c-format
@@ -270,9 +257,7 @@ msgstr "Indica si permitir lectors de sinyals ta encetar sesión"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"A pantalla d'inicio de sesión permite opcionalment a os usuarios que haigan "
-"alzau a suya ditalada fer-la servir ta encetar sesión."
+msgstr "A pantalla d'inicio de sesión permite opcionalment a os usuarios que haigan alzau a suya ditalada fer-la servir ta encetar sesión."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -282,9 +267,7 @@ msgstr "Indica si permitir lectors de tarchetas intelichents ta encetar sesión"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"A pantalla d'inicio de sesión permite opcionalment a os usuarios que tienen "
-"tarchetas ineligentes usar-las ta encetar sesión."
+msgstr "A pantalla d'inicio de sesión permite opcionalment a os usuarios que tienen tarchetas ineligentes usar-las ta encetar sesión."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -294,10 +277,7 @@ msgstr "Indica si permitir lectors de tarchetas intelichents ta encetar sesión"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"A pantalla d'inicio de sesión se puede configurar ta que no permita "
-"l'autenticación con clau, forzando a os usuarios a usar una tarcheta "
-"intelichent u a suya ditalada ta autenticarse."
+msgstr "A pantalla d'inicio de sesión se puede configurar ta que no permita l'autenticación con clau, forzando a os usuarios a usar una tarcheta intelichent u a suya ditalada ta autenticarse."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -308,20 +288,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"A pantalla d'inicio de sesión permite opcionalment amostrar una chicota "
-"imachen en a lista superior d'usuarios ta proporcionar a os administradors y "
-"distribuidors una forma d'estilo y marca."
+msgstr "A pantalla d'inicio de sesión permite opcionalment amostrar una chicota imachen en a lista superior d'usuarios ta proporcionar a os administradors y distribuidors una forma d'estilo y marca."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
-"A pantalla d'inicio de sesión alternativo permite opcionalment amostrar una "
-"chicota imachen en a lista superior d'usuarios ta proporcionar a os "
-"administradors y distribuidors d'o puesto una marca."
+msgstr "A pantalla d'inicio de sesión alternativo permite opcionalment amostrar una chicota imachen en a lista superior d'usuarios ta proporcionar a os administradors y distribuidors d'o puesto una marca."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -329,12 +303,9 @@ msgstr "Privar que s'amuestre a lista d'usuarios"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Normalment, a pantalla d'inicio amuestra una lista d'os usuarios disponibles "
-"ta encetar sesión. Ista configuración se puede cambiar ta privar que "
-"s'amuestre a lista d'usuarios."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Normalment, a pantalla d'inicio amuestra una lista d'os usuarios disponibles ta encetar sesión. Ista configuración se puede cambiar ta privar que s'amuestre a lista d'usuarios."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -357,10 +328,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Desactivar l'amostrau d'os botons de reinicio"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Establir a verdadero ta desactivar l'amostrau d'os botons de reinicio en a "
-"finestra d'inicio de sesión."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Establir a verdadero ta desactivar l'amostrau d'os botons de reinicio en a finestra d'inicio de sesión."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -370,9 +340,7 @@ msgstr "Numero de fallos d'autenticación permitius"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"O numero de vegadas que se permite a un usuario intentar l'autenticación, "
-"antes d'abandonar y tornar a la selección d'usuarios."
+msgstr "O numero de vegadas que se permite a un usuario intentar l'autenticación, antes d'abandonar y tornar a la selección d'usuarios."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -436,366 +404,3 @@ msgstr "Captura de pantalla obtenida"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Prener una captura d'a pantalla"
-
-#~ msgid "No session available yet"
-#~ msgstr "Encara no i hai disponible garra sesión"
-
-#~ msgid "Unable to look up UID of user %s"
-#~ msgstr "No s'ha puesto cambear l'usuario %s"
-
-#~ msgid "no sessions available"
-#~ msgstr "no i hai sesions disponibles"
-
-#~ msgid "No sessions for %s available for reauthentication"
-#~ msgstr "No i hai sesions disponibles ta %s ta autenticar de nuevo"
-
-#~ msgid "Unable to find session for user %s"
-#~ msgstr "No s'ha puesto trobar a sesion ta l'usuario %s"
-
-#~ msgid "Unable to find appropriate session for user %s"
-#~ msgstr "No s'ha puesto trobar a sesion apropiada ta l'usuario %s"
-
-#~ msgid "User doesn't own session"
-#~ msgstr "L'usuario %s no ye lo propietario d'a sesion"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: falló en connectar con a pantalla mai '%s'"
-
-#~ msgid "User not logged in"
-#~ msgstr "Actualment con a sesion encetada"
-
-#~ msgid "Currently, only one client can be connected at once"
-#~ msgstr "Actualment, solament puede haber un client connectau de vez"
-
-#~ msgid "Display ID"
-#~ msgstr "ID de pantalla"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "Esclau d'o chestor de pantallas de GNOME"
-
-#~ msgid "Login Window"
-#~ msgstr "Finestra d'encetar sesion"
-
-#~ msgid "Unable to start new display"
-#~ msgstr "No puede encetar una pantalla nueva"
-
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr "error en encetar a conversación con o sistema d'autenticación: %s"
-
-#~ msgid "general failure"
-#~ msgstr "error cheneral"
-
-#~ msgid "out of memory"
-#~ msgstr "sin memoria"
-
-#~ msgid "application programmer error"
-#~ msgstr "error d'o programador de l'aplicación"
-
-#~ msgid "unknown error"
-#~ msgstr "error desconoxida"
-
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt: %s"
-#~ msgstr ""
-#~ "error en informar a o sistema d'autenticación d'o dialogo d'o nombre "
-#~ "d'usuario preferiu: %s"
-
-#~ msgid "error informing authentication system of user's hostname: %s"
-#~ msgstr ""
-#~ "error en informar a o sistema d'autenticación d'o nombre de l'equipo de "
-#~ "l'usuario: %s"
-
-#~ msgid "error informing authentication system of user's console: %s"
-#~ msgstr ""
-#~ "error en informar a o sistema d'autenticación sobre a consola de "
-#~ "l'usuario: %s"
-
-#~ msgid "error informing authentication system of display string: %s"
-#~ msgstr ""
-#~ "error en informar a o sistema d'autenticación d'a cadena de pantalla: %s"
-
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials: %s"
-#~ msgstr ""
-#~ "error en informar a o sistema d'autenticación d'as credenciales xauth d'a "
-#~ "pantalla: %s"
-
-#~ msgid "Failed to create AuthDir %s: %s"
-#~ msgstr "Falló en creyar AuthDir %s: %s"
-
-#~ msgid "Fingerprint Authentication"
-#~ msgstr "Autenticación por ditalada"
-
-#~ msgid "Log into session with fingerprint"
-#~ msgstr "Encetar sesión con ditalada"
-
-#~ msgid "Password Authentication"
-#~ msgstr "Autenticación por clau"
-
-#~ msgid "Log into session with username and password"
-#~ msgstr "Encetar sesión con nombre d'usuario y clau"
-
-#~ msgid "Log In"
-#~ msgstr "Encetar sesión"
-
-#~ msgid "Slot ID"
-#~ msgstr "ID d'a ranura"
-
-#~ msgid "The slot the card is in"
-#~ msgstr "A ranura en a quala ye a tarcheta"
-
-#~ msgid "Slot Series"
-#~ msgstr "Serie d'a ranura"
-
-#~ msgid "per-slot card identifier"
-#~ msgstr "identificador de tarchetas por ranura"
-
-#~| msgid "Username"
-#~ msgid "name"
-#~ msgstr "Nome d'usuario"
-
-#~ msgid "Module"
-#~ msgstr "Módulo"
-
-#~ msgid "smartcard driver"
-#~ msgstr "controlador de tarcheta intelichent"
-
-#~ msgid "Smartcard Authentication"
-#~ msgstr "Autenticación por tarcheta intelichent"
-
-#~ msgid "Log into session with smartcard"
-#~ msgstr "Encetar sesión con tarcheta intelichent"
-
-#~ msgid "Module Path"
-#~ msgstr "Rota d'o módulo"
-
-#~ msgid "path to smartcard PKCS #11 driver"
-#~ msgstr "rota a o controlador de tarchetas intelichents PKCS #11"
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "se recibió una error u un penche dende l'orichen d'eventos"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "No se podió inicializar o sistema de seguranza NSS"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "no se podió trobar un controlador de tarcheta intelichent adequau"
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "no se podió cargar o controlador de tarcheta intelichent '%s'"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "no se podioron cosirar os eventos dentrants d'a tarcheta: %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr ""
-#~ "s'encontró una error inasperada en asperar os eventos d'a tarcheta "
-#~ "intelichent"
-
-#~ msgid "Authentication"
-#~ msgstr "Autenticación"
-
-#~| msgid "Custom session"
-#~ msgid "Log into session"
-#~ msgstr "Sesion presonalizada"
-
-#~ msgid "Value"
-#~ msgstr "Valura"
-
-#~ msgid "percentage of time complete"
-#~ msgstr "porcentache de tiempo rematau"
-
-#~ msgid "Inactive Text"
-#~ msgstr "Texto inactivo"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr ""
-#~ "O texto que s'usará en a etiqueta si l'usuario encara no ha trigau un "
-#~ "elemento"
-
-#~ msgid "Active Text"
-#~ msgstr "Texto activo"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr ""
-#~ "O texto que s'usará en a etiqueta si l'usuario ha trigau un elemento"
-
-#~ msgid "List Visible"
-#~ msgstr "Listar visibles"
-
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "Indica si a lista d'o selector ye visible"
-
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%a %b %e, %H:%M:%S"
-
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%a %b %e, %H:%M"
-
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%a %H:%M:%S"
-
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%a %H:%M"
-
-#~ msgid "Automatically logging in…"
-#~ msgstr "Encetar sesion automaticament…"
-
-#~ msgid "Cancelling…"
-#~ msgstr "Cancelando…"
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "Seleccione un idioma y prete Encetar sesión"
-
-#~ msgctxt "customsession"
-#~ msgid "Custom"
-#~ msgstr "Presonalizada"
-
-#~ msgid "Custom session"
-#~ msgstr "Sesion presonalizada"
-
-#~ msgid "Computer Name"
-#~ msgstr "Nome d'o ordinador"
-
-#~ msgid "Version"
-#~ msgstr "Version"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancelar"
-
-#~ msgid "Unlock"
-#~ msgstr "Desbloquear"
-
-#~ msgid "Login"
-#~ msgstr "Encetar sesion"
-
-#~ msgid "Suspend"
-#~ msgstr "Suspender"
-
-#~ msgid "Restart"
-#~ msgstr "Reiniciar"
-
-#~ msgid "Shut Down"
-#~ msgstr "Amortar"
-
-#~ msgid "Unknown time remaining"
-#~ msgstr "Tiempo restante desconoixiu"
-
-#~ msgid "Panel"
-#~ msgstr "Panel"
-
-#~ msgid "Label Text"
-#~ msgstr "Texto d'a etiqueta"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "O texto que usar como etiqueta"
-
-#~ msgid "Icon name"
-#~ msgstr "Nome d'o icono"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "L'icono que usar con a etiqueta"
-
-#~ msgid "Default Item"
-#~ msgstr "Elemento predeterminau"
-
-#~ msgid "The ID of the default item"
-#~ msgstr "L'ID de l'elemento predeterminau"
-
-#~ msgid "Remote Login (Connecting to %s…)"
-#~ msgstr "Encieto de sesión remoto (connectando-se a %s…)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "Encieto de sesión (connectau a %s…)"
-
-#~ msgid "Remote Login"
-#~ msgstr "Encieto de sesión remoto"
-
-#~ msgid "Session"
-#~ msgstr "Sesión"
-
-#~ msgid "Duration"
-#~ msgstr "Duración"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "Numero de segundos dica que se pare o contador"
-
-#~ msgid "Start time"
-#~ msgstr "Hora d'inicio"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "Hora en a quala s'encetó o contador"
-
-#~ msgid "Is it Running?"
-#~ msgstr "Ye echecutando-se?"
-
-#~ msgid "Whether the timer is currently ticking"
-#~ msgstr "Indica si o contador ye executando-se actualment"
-
-#~ msgid "Log in as %s"
-#~ msgstr "Dentrar-ie como %s"
-
-#~ msgctxt "user"
-#~ msgid "Other…"
-#~ msgstr "Atro…"
-
-#~ msgid "Choose a different account"
-#~ msgstr "Trie una cuenta diferent"
-
-#~ msgid "Guest"
-#~ msgstr "Convidau"
-
-#~ msgid "Log in as a temporary guest"
-#~ msgstr "Dentrar-ie como un convidau temporal"
-
-#~ msgid "Automatic Login"
-#~ msgstr "Dentrada automatica"
-
-#~ msgid "Automatically log into the system after selecting options"
-#~ msgstr ""
-#~ "Encetar sesion en o sistema automaticament dimpues de trigar as opcions"
-
-#~ msgid "Currently logged in"
-#~ msgstr "Actualment con a sesion encetada"
-
-#~ msgid "Group %s doesn't exist"
-#~ msgstr "A colla %s no existe"
-
-#~ msgid "Error in checksum"
-#~ msgstr "Error en a suma de comprebacion"
-
-#~ msgid "Bad address"
-#~ msgstr "Adreza erronea"
-
-#~ msgid "%s: Error in checksum"
-#~ msgstr "%s: Error en a suma de comprebacion"
-
-#~ msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-#~ msgstr "GdmXdmcpDisplayFactory: No s'ha puesto leyer a cabecera XDMCP."
-
-#~ msgid "Logdir %s does not exist or isn't a directory."
-#~ msgstr "O directorio de rechistro %s no existe u no ye un directorio."
-
-#~ msgid "Power Manager"
-#~ msgstr "Chestor d'enerchia"
-
-#~ msgid "GNOME On-Screen Keyboard"
-#~ msgstr "Teclau en pantalla de GNOME"
-
-#~ msgid "Use an on-screen keyboard"
-#~ msgstr "Fer servir o teclau en pantalla"
-
-#~ msgid "Metacity"
-#~ msgstr "Metacity"
-
-#~ msgid "Languages"
-#~ msgstr "Luengas"
-
-#~ msgid "_Languages:"
-#~ msgstr "_Luengas:"
-
-#~ msgid "_Language:"
-#~ msgstr "_Luenga:"

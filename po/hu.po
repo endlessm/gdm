@@ -1,33 +1,35 @@
-# Hungarian translation of gdm.
-# Copyright (C) 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gdm package.
-#
-# Szabolcs Ban <shooby at gnome dot hu>, 1999.
-# Krisztian Czako <slapic at linux dot co dot hu>, 2000.
-# Emese Kovacs <emese at gnome dot hu>, 2001.
-# Andras Timar <timar at gnome dot hu>, 2001, 2002, 2003.
-# Gabor Sari <saga at gnome dot hu>, 2003, 2004.
-# Laszlo Dvornik <dvornik at gnome dot hu>, 2004, 2005.
-# Gabor Kelemen <kelemeng at gnome dot hu>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013.
-# Attila Szervác as sas-guest see : <sas-guest at haydn dot debian dot org>, 2006.
-# Kováts Dóra <dorcssa at gmail dot com>, 2008.
-# Balázs Úr <urbalazs at gmail dot com>, 2012.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Andras Timar <timar at gnome dot hu>, 2001-2003
+# Attila Szervác as sas-guest see : <sas-guest at haydn dot debian dot org>, 2006
+# Balázs Úr <urbalazs at gmail dot com>, 2012-2016
+# Emese Kovacs <emese at gnome dot hu>, 2001
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2004-2013,2015-2016
+# Gabor Sari <saga at gnome dot hu>, 2003-2004
+# Kováts Dóra <dorcssa at gmail dot com>, 2008
+# Krisztian Czako <slapic at linux dot co dot hu>, 2000
+# Laszlo Dvornik <dvornik at gnome dot hu>, 2004-2005
+# Mate ORY <orymate at gmail d0t com>, 2006
+# Peter Doma <zelin at pointernet dot hu>, 2002
+# Peter Trombitas <trombipeti at gmail dot com>, 2012
+# Richard Somloi <ricsipontaz at gmail dot com>, 2011-2012
+# Szabolcs Ban <shooby at gnome dot hu>, 1998-2000
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm master\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2013-09-12 13:49+0200\n"
-"Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
-"Language-Team: Hungarian <openscope at googlegroups dot com>\n"
-"Language: hu\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:11+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/endless-mobile-inc/gdm/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
-"X-Poedit-Language: Hungarian\n"
-"X-Poedit-Country: HUNGARY\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -55,9 +57,7 @@ msgstr "A jelenlegi hely nem azonosítható."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"A rendszer nem képes megállapítani, hogy át kell-e váltani egy meglévő "
-"bejelentkezési képernyőre, vagy újat kell-e indítani."
+msgstr "A rendszer nem képes megállapítani, hogy át kell-e váltani egy meglévő bejelentkezési képernyőre, vagy újat kell-e indítani."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
@@ -86,9 +86,7 @@ msgstr "A hívó nem a GDM"
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"A kiszolgálót a(z) %s felhasználónak kellene indítania, de ez a felhasználó "
-"nem létezik"
+msgstr "A kiszolgálót a(z) %s felhasználónak kellene indítania, de ez a felhasználó nem létezik"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
@@ -162,41 +160,34 @@ msgstr "A fiók időkorlátja letelt."
 msgid "Sorry, that didn't work. Please try again."
 msgstr "A hitelesítés sikertelen. Próbálja újra."
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Felhasználónév:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr "A jelszava lejárt, változtassa meg most."
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "nem létezik felhasználói fiók"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Nem lehet a felhasználóra váltani"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Belső hiba miatt nem indítható el az X kiszolgáló (a grafikus felület). "
-"Értesítse a rendszergazdát, vagy ellenőrizze a rendszernaplót. Addig ez a "
-"képernyő ki lesz kapcsolva. Indítsa újra a GDM-et, ha a probléma megoldódott."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Belső hiba miatt nem indítható el az X kiszolgáló (a grafikus felület). Értesítse a rendszergazdát, vagy ellenőrizze a rendszernaplót. Addig ez a képernyő ki lesz kapcsolva. Indítsa újra a GDM-et, ha a probléma megoldódott."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -205,8 +196,7 @@ msgstr "Nem hozható létre a foglalat!"
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Nem írható a(z) %s PID fájl: lehetséges, hogy elfogyott a lemezterület: %s"
+msgstr "Nem írható a(z) %s PID fájl: lehetséges, hogy elfogyott a lemezterület: %s"
 
 #: ../daemon/main.c:188
 #, c-format
@@ -279,9 +269,7 @@ msgstr "Ujjlenyomat-olvasók használatának engedélyezése bejelentkezéshez"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"A bejelentkezési képernyő lehetővé teheti az ujjlenyomatukat regisztrált "
-"felhasználóknak a bejelentkezést ujjlenyomattal."
+msgstr "A bejelentkezési képernyő lehetővé teheti az ujjlenyomatukat regisztrált felhasználóknak a bejelentkezést ujjlenyomattal."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -291,9 +279,7 @@ msgstr "Intelligenskártya-olvasók használatának engedélyezése bejelentkez�
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"A bejelentkezési képernyő lehetővé teheti az intelligenskártyát birtokló "
-"felhasználóknak a bejelentkezést a kártyával."
+msgstr "A bejelentkezési képernyő lehetővé teheti az intelligenskártyát birtokló felhasználóknak a bejelentkezést a kártyával."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -303,10 +289,7 @@ msgstr "Jelszavak használatának engedélyezése bejelentkezéshez"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"A bejelentkezési képernyő beállítható a jelszavas hitelesítés tiltására, "
-"ezzel a felhasználót intelligenskártyás vagy ujjlenyomatos hitelesítés "
-"használatára kényszerítve."
+msgstr "A bejelentkezési képernyő beállítható a jelszavas hitelesítés tiltására, ezzel a felhasználót intelligenskártyás vagy ujjlenyomatos hitelesítés használatára kényszerítve."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -317,19 +300,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"A bejelentkezési képernyő megjeleníthet egy kis képet a felhasználólista "
-"tetején, ezzel a rendszergazdák és disztribúciók márkajelzést tehetnek oda."
+msgstr "A bejelentkezési képernyő megjeleníthet egy kis képet a felhasználólista tetején, ezzel a rendszergazdák és disztribúciók márkajelzést tehetnek oda."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
-"A tartalék bejelentkezési képernyő megjeleníthet egy kis képet a "
-"felhasználólista tetején, ezzel a rendszergazdák és disztribúciók "
-"márkajelzést tehetnek oda."
+msgstr "A tartalék bejelentkezési képernyő megjeleníthet egy kis képet a felhasználólista tetején, ezzel a rendszergazdák és disztribúciók márkajelzést tehetnek oda."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -337,12 +315,9 @@ msgstr "Felhasználólista megjelenítésének tiltása"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"A bejelentkezési képernyő általában megjeleníti a felhasználók listáját, "
-"akik nevében be lehet jelentkezni. Ezzel a beállítással letiltható a "
-"felhasználólista megjelenítése."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "A bejelentkezési képernyő általában megjeleníti a felhasználók listáját, akik nevében be lehet jelentkezni. Ezzel a beállítással letiltható a felhasználólista megjelenítése."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -352,7 +327,6 @@ msgstr "Hiba a fejlécüzenet megjelenítésekor"
 msgid "Set to true to show the banner message text."
 msgstr "Állítsa igazra a fejléc szövegének megjelenítéséhez."
 
-# fixme
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:14
 msgid "Banner message text"
 msgstr "Fejlécüzenet szövege"
@@ -366,10 +340,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Az újraindítása gombok megjelenítésének letiltása"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Állítsa igazra az újraindítás gombok megjelenítésének letiltásához a "
-"bejelentkezési ablakban."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Állítsa igazra az újraindítás gombok megjelenítésének letiltásához a bejelentkezési ablakban."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -379,9 +352,7 @@ msgstr "Engedélyezett hitelesítési hibák száma"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"A felhasználó ennyiszer próbálkozhat a hitelesítéssel, mielőtt visszatér a "
-"felhasználóválasztáshoz."
+msgstr "A felhasználó ennyiszer próbálkozhat a hitelesítéssel, mielőtt visszatér a felhasználóválasztáshoz."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -445,362 +416,3 @@ msgstr "A képernyőkép elkészült"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Kép készítése a képernyőről"
-
-#~ msgid "No session available yet"
-#~ msgstr "Még nem érhető el munkamenet"
-
-#~ msgid "Unable to look up UID of user %s"
-#~ msgstr "%s felhasználó azonosítója nem kereshető ki"
-
-#~ msgid "no sessions available"
-#~ msgstr "nem érhetők el munkamenetek"
-
-#~ msgid "No sessions for %s available for reauthentication"
-#~ msgstr "Nem érhetők el munkamenetek %s újrahitelesítéséhez"
-
-#~ msgid "Unable to find session for user %s"
-#~ msgstr "Nem található munkamenet %s felhasználóhoz"
-
-#~ msgid "Unable to find appropriate session for user %s"
-#~ msgstr "Nem található megfelelő munkamenet %s felhasználóhoz"
-
-#~ msgid "User doesn't own session"
-#~ msgstr "A felhasználó nem birtokol munkamenetet"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: nem sikerült csatlakozni a(z) „%s” szülőképernyőhöz"
-
-#~ msgid "User not logged in"
-#~ msgstr "A felhasználó nincs bejelentkezve"
-
-#~ msgid "Currently, only one client can be connected at once"
-#~ msgstr "Jelenleg egyszerre csak egy kliens kapcsolódhat"
-
-#~ msgid "Display ID"
-#~ msgstr "Képernyő-azonosító"
-
-#~ msgid "ID"
-#~ msgstr "Azonosító"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "GNOME bejelentkezéskezelő szolga"
-
-#~ msgid "Login Window"
-#~ msgstr "Bejelentkezési ablak"
-
-#~ msgid "Unable to start new display"
-#~ msgstr "Nem indítható új képernyő"
-
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr ""
-#~ "hiba a hitelesítő rendszerrel való kommunikáció indítása közben – %s"
-
-#~ msgid "general failure"
-#~ msgstr "általános hiba"
-
-#~ msgid "out of memory"
-#~ msgstr "elfogyott a memória"
-
-#~ msgid "application programmer error"
-#~ msgstr "alkalmazásprogramozási hiba"
-
-#~ msgid "unknown error"
-#~ msgstr "Ismeretlen hiba"
-
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt: %s"
-#~ msgstr ""
-#~ "hiba a hitelesítő rendszer értesítésekor a felhasználó által választott "
-#~ "parancsorról: %s"
-
-#~ msgid "error informing authentication system of user's hostname: %s"
-#~ msgstr ""
-#~ "hiba a hitelesítő rendszer értesítésekor a felhasználó gépnevéről: %s"
-
-#~ msgid "error informing authentication system of user's console: %s"
-#~ msgstr ""
-#~ "hiba a hitelesítő rendszer értesítésekor a felhasználó termináljáról: %s"
-
-#~ msgid "error informing authentication system of display string: %s"
-#~ msgstr ""
-#~ "hiba a hitelesítő rendszer értesítésekor a megjelenítő-karakterláncról: %s"
-
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials: %s"
-#~ msgstr ""
-#~ "hiba a hitelesítő rendszer értesítésekor a kijelző xauth hitelesítési "
-#~ "adatairól: %s"
-
-#~ msgid "Failed to create AuthDir %s: %s"
-#~ msgstr "Nem sikerült az AuthDir (%s) létrehozása: %s"
-
-#~ msgid "Fingerprint Authentication"
-#~ msgstr "Ujjlenyomatos hitelesítés"
-
-#~ msgid "Log into session with fingerprint"
-#~ msgstr "Bejelentkezés a munkamenetbe ujjlenyomattal"
-
-#~ msgid "Password Authentication"
-#~ msgstr "Jelszavas hitelesítés"
-
-#~ msgid "Log into session with username and password"
-#~ msgstr "Bejelentkezés a munkamenetbe felhasználónévvel és jelszóval"
-
-#~ msgid "Log In"
-#~ msgstr "Bejelentkezés"
-
-#~ msgid "Slot ID"
-#~ msgstr "Nyílásazonosító"
-
-#~ msgid "The slot the card is in"
-#~ msgstr "A kártyát tartalmazó nyílás"
-
-#~ msgid "Slot Series"
-#~ msgstr "Nyílássorozat"
-
-#~ msgid "per-slot card identifier"
-#~ msgstr "nyílásonkénti kártyaazonosító"
-
-#~ msgid "name"
-#~ msgstr "név"
-
-#~ msgid "Module"
-#~ msgstr "Modul"
-
-#~ msgid "smartcard driver"
-#~ msgstr "intelligenskártya-illesztőprogram"
-
-#~ msgid "Smartcard Authentication"
-#~ msgstr "Intelligenskártyás hitelesítés"
-
-#~ msgid "Log into session with smartcard"
-#~ msgstr "Bejelentkezés a munkamenetbe intelligens kártyával"
-
-#~ msgid "Module Path"
-#~ msgstr "Modulútvonal"
-
-#~ msgid "path to smartcard PKCS #11 driver"
-#~ msgstr "Az intelligens kártya PKCS #11 illesztőprogramjának útvonala"
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "Hiba vagy bontás érkezett az eseményforrásból"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "Az NSS biztonsági rendszer nem készíthető elő"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "Nem található megfelelő intelligenskártya-illesztőprogram"
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "A(z) „%s” intelligenskártya-illesztőprogram nem tölthető be"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "Nem figyelhetők a bejövő kártyaesemények - %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr ""
-#~ "Váratlan hiba történt az intelligenskártya-eseményekre várakozás közben"
-
-#~ msgid "Authentication"
-#~ msgstr "Hitelesítés"
-
-#~ msgid "Log into session"
-#~ msgstr "Bejelentkezés a munkamenetbe"
-
-#~ msgid "Value"
-#~ msgstr "Érték"
-
-# fixme
-#~ msgid "percentage of time complete"
-#~ msgstr "eltelt idő százaléka"
-
-#~ msgid "Inactive Text"
-#~ msgstr "Inaktív szöveg"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr ""
-#~ "A címkében használandó szöveg, ha a felhasználó még nem választott ki "
-#~ "elemet"
-
-#~ msgid "Active Text"
-#~ msgstr "Aktív szöveg"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr ""
-#~ "A címkében használandó szöveg, ha a felhasználó már kiválasztott egy "
-#~ "elemet"
-
-#~ msgid "List Visible"
-#~ msgstr "A lista látható"
-
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "A választólista látható-e?"
-
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%b %e. %a, %k.%M.%S"
-
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%b %e. %a, %k.%M"
-
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%a %k.%M.%S"
-
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%a %k.%M"
-
-#~ msgid "Automatically logging in…"
-#~ msgstr "Automatikus bejelentkezés…"
-
-#~ msgid "Cancelling…"
-#~ msgstr "Megszakítás…"
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "Válasszon nyelvet, és nyomja meg a Bejelentkezés gombot"
-
-#~ msgctxt "customsession"
-#~ msgid "Custom"
-#~ msgstr "Egyéni"
-
-#~ msgid "Custom session"
-#~ msgstr "Egyéni környezet"
-
-#~ msgid "Computer Name"
-#~ msgstr "Számítógép neve"
-
-#~ msgid "Version"
-#~ msgstr "Verzió"
-
-#~ msgid "Cancel"
-#~ msgstr "Mégse"
-
-#~ msgid "Unlock"
-#~ msgstr "Feloldás"
-
-#~ msgid "Login"
-#~ msgstr "Bejelentkezés"
-
-#~ msgid "Suspend"
-#~ msgstr "Felfüggesztés"
-
-#~ msgid "Restart"
-#~ msgstr "Újraindítás"
-
-#~ msgid "Shut Down"
-#~ msgstr "Leállítás"
-
-#~ msgid "Unknown time remaining"
-#~ msgstr "Ismeretlen idő van hátra"
-
-#~ msgid "Panel"
-#~ msgstr "Panel"
-
-#~ msgid "Label Text"
-#~ msgstr "Szöveg címkéje"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "Címkeként használandó szöveg"
-
-#~ msgid "Icon name"
-#~ msgstr "Ikonnév"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "A címkével használandó szöveg"
-
-#~ msgid "Default Item"
-#~ msgstr "Alapértelmezett elem"
-
-#~ msgid "The ID of the default item"
-#~ msgstr "Az alapértelmezett elem azonosítója"
-
-#~ msgid "Remote Login (Connecting to %s…)"
-#~ msgstr "Távoli bejelentkezés (Kapcsolódás a következőhöz: %s…)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "Távoli bejelentkezés (Kapcsolódva a következőhöz: %s)"
-
-#~ msgid "Remote Login"
-#~ msgstr "Távoli bejelentkezés"
-
-#~ msgid "Session"
-#~ msgstr "Környezet"
-
-#~ msgid "Duration"
-#~ msgstr "Időtartam"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "Az időzítő megállásáig eltelő másodpercek száma"
-
-#~ msgid "Start time"
-#~ msgstr "Kezdési idő"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "Az időzítő indításának ideje"
-
-#~ msgid "Is it Running?"
-#~ msgstr "Fut?"
-
-#~ msgid "Whether the timer is currently ticking"
-#~ msgstr "Az időzítő visszaszámol-e?"
-
-#~ msgid "Log in as %s"
-#~ msgstr "Bejelentkezés mint %s"
-
-#~ msgctxt "user"
-#~ msgid "Other…"
-#~ msgstr "Más…"
-
-#~ msgid "Choose a different account"
-#~ msgstr "Válasszon másik felhasználói fiókot"
-
-#~ msgid "Guest"
-#~ msgstr "Vendég"
-
-#~ msgid "Log in as a temporary guest"
-#~ msgstr "Bejelentkezés ideiglenes vendégként"
-
-#~ msgid "Automatic Login"
-#~ msgstr "Automatikus bejelentkezés"
-
-#~ msgid "Automatically log into the system after selecting options"
-#~ msgstr ""
-#~ "Automatikus bejelentkezés a rendszerbe a beállítások kiválasztása után"
-
-#~ msgid "Currently logged in"
-#~ msgstr "Be van jelentkezve"
-
-#~ msgid "Logdir %s does not exist or isn't a directory."
-#~ msgstr "A(z) %s Logdir nem létezik, vagy nem könyvtár. "
-
-#~ msgid "Authdir %s does not exist. Aborting."
-#~ msgstr "A(z) %s authdir nem létezik. A művelet megszakítva."
-
-#~ msgid "Authdir %s is not a directory. Aborting."
-#~ msgstr "A(z) %s authdir nem könyvtár. A művelet megszakítva."
-
-#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-#~ msgstr ""
-#~ "A(z) %s authdir nem a(z) %d felhasználó és %d csoport tulajdonában van. A "
-#~ "művelet megszakítva."
-
-#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-#~ msgstr ""
-#~ "A(z) %s Authdir jogosultságai rosszak (%o). %o kellene legyen. A művelet "
-#~ "megszakítva."
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "GNOME képernyő-nagyító"
-
-#~ msgid "Magnify parts of the screen"
-#~ msgstr "A képernyő részeinek nagyítása"
-
-#~ msgid "GNOME On-Screen Keyboard"
-#~ msgstr "GNOME képernyő-billentyűzet"
-
-#~ msgid "Use an on-screen keyboard"
-#~ msgstr "Képernyő-billentyűzet használata"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "Orka képernyő-felolvasó"
-
-#~ msgid "Present on-screen information as speech or braille"
-#~ msgstr "A megjelenő információk átalakítása beszéddé vagy braille-kimenetté"

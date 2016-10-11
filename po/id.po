@@ -4,6 +4,7 @@
 # 
 # Translators:
 # ahmad riza h nst <rizahnst@eriagempita.co.id>, 2005-2006
+# Ahmad Riza H Nst  <rizahnst@gnome.org>, 2006
 # Andika Triwidada <andika@gmail.com>, 2009-2014
 # Dicky Wahyu Purnomo <dicky.wahyu@massaint.or.id>, 2004
 # dirgita <dirgitadevina@yahoo.co.id>, 2010-2012,2014
@@ -12,9 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-05 02:35+0000\n"
-"PO-Revision-Date: 2016-01-24 21:25+0000\n"
-"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-08-31 21:39+0000\n"
+"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/endless-mobile-inc/gdm/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

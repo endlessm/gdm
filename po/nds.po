@@ -1,20 +1,23 @@
-# Low German translation for gdm.
-# Copyright (C) 2009 gdm's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gdm package.
-# Nils-Christoph Fiedler <linux@medienkompanie.de>, 2009.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Nils-Christoph Fiedler <fiedler@medienkompanie.de>, 2009
+# Nils-Christoph Fiedler <linux@medienkompanie.de>, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm gnome-2-28\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2010-03-15 12:29+0100\n"
-"Last-Translator: Nils-Christoph Fiedler <fiedler@medienkompanie.de>\n"
-"Language-Team: Low German <nds-lowgerman@lists.sourceforge.net>\n"
-"Language: \n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:13+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Low German (http://www.transifex.com/endless-mobile-inc/gdm/language/nds/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nds\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -55,9 +58,8 @@ msgid "could not find user \"%s\" on system"
 msgstr "künn de Bruker \"%s\" op düssem System nich finnen"
 
 #: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
-#, fuzzy
 msgid "No session available"
-msgstr "Keen Brukerkonto verfögbar"
+msgstr ""
 
 #: ../daemon/gdm-manager.c:953
 #, c-format
@@ -146,37 +148,33 @@ msgstr ""
 msgid "Sorry, that didn't work. Please try again."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Brukernaam:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "Keen Brukerkonto verfögbar"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Nich möglich, de Bruker to wesseln"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
 msgstr ""
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
@@ -248,9 +246,8 @@ msgid "GNOME Shell"
 msgstr ""
 
 #: ../data/applications/gnome-shell.desktop.in.h:2
-#, fuzzy
 msgid "Window management and compositing"
-msgstr "Stromoppassen daemon"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
@@ -306,8 +303,8 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
@@ -331,7 +328,8 @@ msgid "Disable showing the restart buttons"
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
@@ -369,9 +367,8 @@ msgid "Unable to create transient display: "
 msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
-#, fuzzy
 msgid "Unable to activate session: "
-msgstr "Künn de Bruker nich tolaten"
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
@@ -407,327 +404,3 @@ msgstr "Billschirmbill makt"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Bill vu'm Billschirm maken"
-
-#~ msgid "Display ID"
-#~ msgstr "Billschirm ID"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "GNOME Billschirmoppasser Slave"
-
-#~ msgid "Unable to initialize login system"
-#~ msgstr "Künn dat Anmellensystem nich akerat starten"
-
-#~ msgid "Unable to authorize user"
-#~ msgstr "Künn de Bruker nich tolaten"
-
-#~ msgid "general failure"
-#~ msgstr "allgemeener Fehler"
-
-#~ msgid "out of memory"
-#~ msgstr "Keen Spieker"
-
-#~ msgid "unknown error"
-#~ msgstr "unbekannter Fehler"
-
-#~ msgid "User %s doesn't exist"
-#~ msgstr "De Bruker %s givt dat nich"
-
-#~ msgid "Group %s doesn't exist"
-#~ msgstr "De Grupp %s givt dat nich"
-
-#~ msgid "Error in checksum"
-#~ msgstr "Fehler in checksum"
-
-#~ msgid "Bad address"
-#~ msgstr "Nich akerate Anskrivt"
-
-#~ msgid "%s: Error in checksum"
-#~ msgstr "%s: Fehler in checksum"
-
-#~ msgid "AT SPI Registry Wrapper"
-#~ msgstr "AT SPI Registdatenbanktosammenfater"
-
-#~ msgid "Login Window"
-#~ msgstr "Anmellenfinster"
-
-#~ msgid "Power Manager"
-#~ msgstr "Stromoppasser"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "GNOME Instellen daemon"
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "GNOME Billschirmvergröterer"
-
-#~ msgid "Magnify parts of the screen"
-#~ msgstr "Deele vun de Billschirm gröter maken"
-
-#~ msgid "GNOME Onscreen Keyboard"
-#~ msgstr "GNOME Billschirmknöppboord"
-
-#~ msgid "Use an onscreen keyboard"
-#~ msgstr "Billschirmknöpppboord bruken"
-
-#~ msgid "Metacity"
-#~ msgstr "Metacity"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "Orca Billschirmleser"
-
-#~ msgid "Value"
-#~ msgstr "Wert"
-
-#~ msgid "Inactive Text"
-#~ msgstr "Inaktiver Text"
-
-#~ msgid "Active Text"
-#~ msgstr "Aktiver text"
-
-#~ msgid "List Visible"
-#~ msgstr "List sichtbar"
-
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "Wenn de Wähllist sichtbar is"
-
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%a %b %e, %l:%M:%S %p"
-
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%a %b %e, %l:%M %p"
-
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%a %l:%M:%S %p"
-
-#~ msgid "%x"
-#~ msgstr "%x"
-
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%a %l:%M %p"
-
-#~ msgid "Automatically logging in..."
-#~ msgstr "Vun alleen anmellen..."
-
-#~ msgid "Cancelling..."
-#~ msgstr "Avbreken..."
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "Sprak utwählen un anmellen"
-
-#~ msgid "Authentication Dialog"
-#~ msgstr "Togripdialog"
-
-#~ msgid "Computer Name"
-#~ msgstr "Reknernaam"
-
-#~ msgid "Log In"
-#~ msgstr "Anmellen"
-
-#~ msgid "Version"
-#~ msgstr "Verschoon"
-
-#~ msgid "Panel"
-#~ msgstr "Balken"
-
-#~ msgid "Shutdown Options..."
-#~ msgstr "Daalfahrenoptschoonen..."
-
-#~ msgid "Suspend"
-#~ msgstr "Slopen gahn"
-
-#~ msgid "Restart"
-#~ msgstr "Nejstarten"
-
-#~ msgid "Shut Down"
-#~ msgstr "Daalfahren"
-
-#~ msgid "Languages"
-#~ msgstr "Spraken"
-
-#~ msgid "_Languages:"
-#~ msgstr "_Spraken:"
-
-#~ msgid "_Language:"
-#~ msgstr "_Sprak:"
-
-#~ msgctxt "language"
-#~ msgid "Other..."
-#~ msgstr "Annere..."
-
-#~ msgid "Choose a language from the full list of available languages."
-#~ msgstr "Wähl een Sprak vun de ut, de verfögbar sünd."
-
-#~ msgid "Unspecified"
-#~ msgstr "Nich spezifizert"
-
-#~ msgid "Keyboard layouts"
-#~ msgstr "Knöppboordutsehn"
-
-#~ msgid "_Keyboard:"
-#~ msgstr "_Knöppboord:"
-
-#~ msgctxt "keyboard"
-#~ msgid "Other..."
-#~ msgstr "Annere:"
-
-#~ msgid "Choose a keyboard layout from the full list of available layouts."
-#~ msgstr "Wähl een Knöppboordutsehn ut de List vun verfögbaren Utsehns."
-
-#~ msgid "Label Text"
-#~ msgstr "Labeltext"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "De Text, de as Label brukt werrn schall"
-
-#~ msgid "Icon name"
-#~ msgstr "Symbolnaam"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "Dat lütte Bill, dat mit de Label brukt werrn schall"
-
-#~ msgid "Default Item"
-#~ msgstr "Standardelement"
-
-#~ msgid "The ID of the default item"
-#~ msgstr "De Standardbill ID"
-
-#~ msgid "Remote Login (Connecting to %s...)"
-#~ msgstr "Remote-Anmellen (Verbinnen to %s...)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "Remote-Anmellen (Verbinnt to %s...)"
-
-#~ msgid "Remote Login"
-#~ msgstr "Remote-Anmellen"
-
-#~ msgid "_Sessions:"
-#~ msgstr "_Törns:"
-
-#~ msgid "Banner message text when chooser is empty"
-#~ msgstr "Bannernahrichtentext wenn de Wähler leer is"
-
-#~ msgid "Enable on-screen keyboard"
-#~ msgstr "Billschirmknöppboord aktiveren"
-
-#~ msgid "Enable screen magnifier"
-#~ msgstr "Billschirmvergröterer aktiveren"
-
-#~ msgid "Enable screen reader"
-#~ msgstr "Billschirmleser aktiveren"
-
-#~ msgid "Icon name to use for greeter logo"
-#~ msgstr "Billnaam, de för dat Begrötenbill brukt werrn schall"
-
-#~ msgid "Recently selected keyboard layouts"
-#~ msgstr "Tolest brukt Knöppboordutsehns"
-
-#~ msgid "Recently selected languages"
-#~ msgstr "Tolest wählte Spraken"
-
-#~ msgid "Use compiz as the window manager"
-#~ msgstr "Compiz as Finsteroppasser bruken"
-
-#~ msgid "Duration"
-#~ msgstr "Düer"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "Sekunnen bit de Timer stoppt"
-
-#~ msgid "Start time"
-#~ msgstr "Starttied"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "Time de Timer weur startet"
-
-#~ msgid "Is it Running?"
-#~ msgstr "Lööpt dat?"
-
-#~ msgid "Manager"
-#~ msgstr "Oppasser"
-
-#~ msgctxt "user"
-#~ msgid "Other..."
-#~ msgstr "Annere..."
-
-#~ msgid "Choose a different account"
-#~ msgstr "Wähl een anneres Konto"
-
-#~ msgid "Guest"
-#~ msgstr "Gast"
-
-#~ msgid "Login as a temporary guest"
-#~ msgstr "As Gast anmellen"
-
-#~ msgid "Automatic Login"
-#~ msgstr "Vun alleen anmellen"
-
-#~ msgid "Log in as %s"
-#~ msgstr "Anmellen as %s"
-
-#~ msgid "Currently logged in"
-#~ msgstr "Gerade anmellt"
-
-#~ msgid "translator-credits"
-#~ msgstr "Nils-Christoph Fiedler <linux@medienkompanie.de>"
-
-#~ msgid "Can't lock screen: %s"
-#~ msgstr "Künn de Billschirm nich avsluten: %s"
-
-#~ msgid "Can't logout: %s"
-#~ msgstr "Künn nich avmellen: %s"
-
-#~ msgid "Available"
-#~ msgstr "Verfögbar"
-
-#~ msgid "Invisible"
-#~ msgstr "Nich to sehn"
-
-#~ msgid "Busy"
-#~ msgstr "Wat to doon"
-
-#~ msgid "Away"
-#~ msgstr "Weg"
-
-#~ msgid "Account Information..."
-#~ msgstr "Kontoinformatschoon..."
-
-#~ msgid "System Preferences..."
-#~ msgstr "Systeminstellens"
-
-#~ msgid "Lock Screen"
-#~ msgstr "Billschirm avsluten"
-
-#~ msgid "Switch User"
-#~ msgstr "Bruker wesseln"
-
-#~ msgid "Quit..."
-#~ msgstr "Avmellen..."
-
-#~ msgid "Unknown"
-#~ msgstr "Unbekannt"
-
-#~ msgid "User Switch Applet"
-#~ msgstr "Brukerwesselprogramm"
-
-#~ msgid "User Switcher"
-#~ msgstr "Brukerwessler"
-
-#~ msgid "Edit Personal _Information"
-#~ msgstr "Persönliche _Informatschoonen bewarken"
-
-#~ msgid "_About"
-#~ msgstr "_Över"
-
-#~ msgid "_Edit Users and Groups"
-#~ msgstr "Bruker un Gruppen _bewarken"
-
-#~ msgid "id"
-#~ msgstr "id"
-
-#~ msgid "%a %b %e"
-#~ msgstr "%a %b %e"
-
-#~ msgid "%1$s, %2$s"
-#~ msgstr "%1$s, %2$s"

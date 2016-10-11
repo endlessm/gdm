@@ -1,28 +1,32 @@
-# Italian translation of gdm
-# Copyright (C) 2000 -2013 Free Software Foundation, Inc.
-# This file is distributed under the same license as the GDM package.
-# Daniele Medri <madrid@linux.it>, 2000.
-# Salvo Isaja <salvois@it.gnome.org>, 2001.
-# Lapo Calamandrei <lapo@it.gnome.org>, 2003.
-# Alessio Frusciante <algol@firenze.linux.it>, 2003.
-# Francesco Marletta <francesco.marletta@tiscali.it>, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
-# Milo Casagrande <milo@ubuntu.com>, 2010, 2011, 2012.
-# Claudio Arseni <claudio.arseni@ubuntu.com>, 2011, 2012, 2013.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Alessio Dessì <alkex@inwind.it>, 2003-2007
+# Alessio Frusciante <algol@firenze.linux.it>, 2003
+# Christopher R. Gabriel, 2001-2002
+# Claudio Arseni <claudio.arseni@ubuntu.com>, 2011-2013
+# Daniele Medri <madrid@linux.it>, 2000
+# Francesco Marletta <francesco.marletta@tiscali.it>, 2004-2010
+# Lapo Calamandrei <lapo@it.gnome.org>, 2003
+# Luca Ferretti <elle.uca@infinito.it>, 2003-2014
+# Milo Casagrande <milo@milo.name>, 2009,2012-2016
+# Milo Casagrande <milo@ubuntu.com>, 2010-2012
+# Salvo Isaja <salvois@it.gnome.org>, 2001
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2013-08-10 17:45+0200\n"
-"Last-Translator: Claudio Arseni <claudio.arseni@ubuntu.com>\n"
-"Language-Team: Italian <tp@lists.linux.it>\n"
-"Language: it\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:11+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Italian (http://www.transifex.com/endless-mobile-inc/gdm/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Gtranslator 2.91.6\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -50,9 +54,7 @@ msgstr "Impossibile identificare la postazione attuale."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"Il sistema non è in grado di determinare se passare a una schermata di "
-"accesso esistente o crearne una nuova."
+msgstr "Il sistema non è in grado di determinare se passare a una schermata di accesso esistente o crearne una nuova."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
@@ -81,8 +83,7 @@ msgstr "Chiamante non GDM"
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"Il server doveva essere lanciato dall'utente %s ma questo utente non esiste"
+msgstr "Il server doveva essere lanciato dall'utente %s ma questo utente non esiste"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
@@ -144,7 +145,6 @@ msgstr "Dispositivo display"
 msgid "The display device"
 msgstr "Il dispositivo del display"
 
-# [NdT] la traduco la parte tra ""?
 #: ../daemon/gdm-session.c:1216
 msgid "Could not create authentication helper process"
 msgstr "Impossibile creare il processo di aiuto per l'autenticazione"
@@ -157,42 +157,34 @@ msgstr "È stata superata la scadenza impostata per l'account."
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Non funziona. Provare nuovamente."
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Utente:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr "La password è scaduta, modificarla ora."
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "nessun account utente disponibile"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Impossibile cambiare utente"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Impossibile avviare il server X (l'interfaccia grafica) a causa di qualche "
-"errore interno. Contattare l'amministratore di sistema o controllare il "
-"registro di sistema (syslog) per la diagnosi del problema: per adesso il "
-"display verrà disabilitato. Una volta risolto il problema, riavviare GDM."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Impossibile avviare il server X (l'interfaccia grafica) a causa di qualche errore interno. Contattare l'amministratore di sistema o controllare il registro di sistema (syslog) per la diagnosi del problema: per adesso il display verrà disabilitato. Una volta risolto il problema, riavviare GDM."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -201,15 +193,12 @@ msgstr "Impossibile creare il socket."
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Impossibile scrivere il file PID %s, forse per mancanza di spazio su disco: "
-"%s"
+msgstr "Impossibile scrivere il file PID %s, forse per mancanza di spazio su disco: %s"
 
 #: ../daemon/main.c:188
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr ""
-"Creazione simbolo della directoy eseguito una volta non riuscita %s: %s"
+msgstr "Creazione simbolo della directoy eseguito una volta non riuscita %s: %s"
 
 #: ../daemon/main.c:194
 #, c-format
@@ -255,7 +244,6 @@ msgstr "Gestore schermo di GNOME"
 msgid "Only the root user can run GDM"
 msgstr "Solo l'utente root può avviare GDM"
 
-# NdT: ho lasciato worker perché non mi veniva niente di meglio
 #. Translators: worker is a helper process that does the work
 #. of starting up a session
 #: ../daemon/session-worker-main.c:95
@@ -272,16 +260,13 @@ msgstr "Gestisce e compone le finestre"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
-msgstr ""
-"Indica se consentire o meno i lettori di impronte digitali per l'accesso"
+msgstr "Indica se consentire o meno i lettori di impronte digitali per l'accesso"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:2
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"La schermata di accesso può opzionalmente consentire agli utenti che hanno "
-"registrato le proprie impronte digitali di usarle per accedere."
+msgstr "La schermata di accesso può opzionalmente consentire agli utenti che hanno registrato le proprie impronte digitali di usarle per accedere."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -291,9 +276,7 @@ msgstr "Indica se consentire o meno i lettori di smartcard per l'accesso"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"La schermata di accesso può opzionalmente consentire agli utenti che "
-"possiedono smartcard di usarle per accedere."
+msgstr "La schermata di accesso può opzionalmente consentire agli utenti che possiedono smartcard di usarle per accedere."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -303,10 +286,7 @@ msgstr "Indica se consentire o meno le password per l'accesso"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"La schermata di accesso può essere configurata per non consentire "
-"l'autenticazione con password, costringendo l'utente a usare la smartcard o "
-"l'impronta digitale per accedere."
+msgstr "La schermata di accesso può essere configurata per non consentire l'autenticazione con password, costringendo l'utente a usare la smartcard o l'impronta digitale per accedere."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -317,20 +297,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"La schermata di accesso può opzionalmente mostrare una piccola immagine in "
-"cima all'elenco degli utenti per fornire agli amministratori e alle "
-"distribuzioni un metodo per applicare il loro brand."
+msgstr "La schermata di accesso può opzionalmente mostrare una piccola immagine in cima all'elenco degli utenti per fornire agli amministratori e alle distribuzioni un metodo per applicare il loro brand."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
-"La schermata di accesso di ripiego può opzionalmente mostrare una piccola "
-"immagine in cima all'elenco degli utenti per fornire agli amministratori e "
-"alle distribuzioni un metodo per applicare il loro brand."
+msgstr "La schermata di accesso di ripiego può opzionalmente mostrare una piccola immagine in cima all'elenco degli utenti per fornire agli amministratori e alle distribuzioni un metodo per applicare il loro brand."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -338,14 +312,10 @@ msgstr "Evitare di mostrare l'elenco utenti"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Normalmente la schermata di accesso mostra un elenco degli utenti che "
-"possono accedere al sistema. Questa impostazione può essere commutata per "
-"disabilitare l'elenco utenti."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Normalmente la schermata di accesso mostra un elenco degli utenti che possono accedere al sistema. Questa impostazione può essere commutata per disabilitare l'elenco utenti."
 
-# NdT: non è fedele come traduzione ma rende l'idea?
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
 msgstr "Abilita la visualizzazione del messaggio di intestazione"
@@ -360,20 +330,17 @@ msgstr "Testo del messaggio di intestazione"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:15
 msgid "Text banner message to show in the login window."
-msgstr ""
-"Testo del messaggio di intestazione da mostrare nella finestra di accesso."
+msgstr "Testo del messaggio di intestazione da mostrare nella finestra di accesso."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:16
 msgid "Disable showing the restart buttons"
 msgstr "Disabilita la visualizzazione dei pulsanti di riavvio"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Impostare a VERO per disabilitare la visualizzazione dei pulsanti di riavvio "
-"nella finestra di accesso."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Impostare a VERO per disabilitare la visualizzazione dei pulsanti di riavvio nella finestra di accesso."
 
-# [NdT] la traduco la parte tra ""?
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
 msgstr "Numero consentito di autenticazioni non riuscite"
@@ -382,16 +349,12 @@ msgstr "Numero consentito di autenticazioni non riuscite"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Quante volte un utente può tentare di autenticarsi prima di ritornare alla "
-"selezione del"
+msgstr "Quante volte un utente può tentare di autenticarsi prima di ritornare alla selezione del"
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
 msgstr "Seleziona sistema"
 
-# NdT: la stringa originale è chiaramente errata
-#      PS: finalmente l'hanno corretta
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP: impossibile creare un buffer per XDMCP."
@@ -450,371 +413,3 @@ msgstr "Schermata catturata"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Cattura una immagine dello schermo"
-
-#~ msgid "No session available yet"
-#~ msgstr "Nessuna sessione disponibile"
-
-#~ msgid "Unable to look up UID of user %s"
-#~ msgstr "Impossibile trovare lo UID dell'utente %s"
-
-#~ msgid "no sessions available"
-#~ msgstr "nessuna sessione disponibile"
-
-#~ msgid "No sessions for %s available for reauthentication"
-#~ msgstr "Nessuna sessione di ri-autenticazione disponibile per %s"
-
-#~ msgid "Unable to find session for user %s"
-#~ msgstr "Impossibile trovare la sessione per l'utente %s"
-
-#~ msgid "Unable to find appropriate session for user %s"
-#~ msgstr "Impossibile trovare la sessione corretta per l'utente %s"
-
-#~ msgid "User doesn't own session"
-#~ msgstr "L'utente non è il proprietario di questa sessione"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: connessione al display padre \"%s\" non riuscita"
-
-#~ msgid "User not logged in"
-#~ msgstr "L'utente non ha eseguito l'accesso"
-
-#~ msgid "Currently, only one client can be connected at once"
-#~ msgstr "Attualmente solo un client alla volta può essere collegato"
-
-#~ msgid "Failed to create AuthDir %s: %s"
-#~ msgstr "Creazione di AuthDir non riuscita %s: %s"
-
-#~ msgid "Display ID"
-#~ msgstr "ID display"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "Slave del gestore schermo GNOME"
-
-#~ msgid "Login Window"
-#~ msgstr "Finestra di accesso"
-
-#~ msgid "Unable to start new display"
-#~ msgstr "Impossibile avviare il nuovo display"
-
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr ""
-#~ "errore nell'avvio della conversazione con il sistema di autenticazione: %s"
-
-#~ msgid "general failure"
-#~ msgstr "errore generico"
-
-#~ msgid "out of memory"
-#~ msgstr "memoria esaurita"
-
-#~ msgid "application programmer error"
-#~ msgstr "errore del programmatore"
-
-#~ msgid "unknown error"
-#~ msgstr "errore sconosciuto"
-
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt: %s"
-#~ msgstr ""
-#~ "errore nell'informare il sistema di autenticazione del prompt preferito "
-#~ "dall'utente: %s"
-
-#~ msgid "error informing authentication system of user's hostname: %s"
-#~ msgstr ""
-#~ "errore nell'informare il sistema di autenticazione del nome dell'host "
-#~ "dell'utente: %s"
-
-#~ msgid "error informing authentication system of user's console: %s"
-#~ msgstr ""
-#~ "errore nell'informare il sistema di autenticazione della console "
-#~ "dell'utente: %s"
-
-#~ msgid "error informing authentication system of display string: %s"
-#~ msgstr ""
-#~ "errore nell'informare il sistema di autenticazione della stringa del "
-#~ "display: %s"
-
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials: %s"
-#~ msgstr ""
-#~ "errore nell'informare il sistema di autenticazione delle credenziali "
-#~ "xauth del display: %s"
-
-#~ msgid "Fingerprint Authentication"
-#~ msgstr "Autenticazione con impronta digitale"
-
-#~ msgid "Log into session with fingerprint"
-#~ msgstr "Accedere al sistema con impronta digitale"
-
-#~ msgid "Password Authentication"
-#~ msgstr "Autenticazione con password"
-
-#~ msgid "Log into session with username and password"
-#~ msgstr "Accedere al sistema con nome utente e password"
-
-#~ msgid "Log In"
-#~ msgstr "Accesso"
-
-#~ msgid "Slot ID"
-#~ msgstr "ID dello slot"
-
-#~ msgid "The slot the card is in"
-#~ msgstr "Lo slot in cui è inserita la carta"
-
-#~ msgid "Slot Series"
-#~ msgstr "Serie dello slot"
-
-#~ msgid "per-slot card identifier"
-#~ msgstr "identificatore della carta per slot"
-
-#~ msgid "name"
-#~ msgstr "nome"
-
-#~ msgid "Module"
-#~ msgstr "Modulo"
-
-#~ msgid "smartcard driver"
-#~ msgstr "driver smartcard"
-
-#~ msgid "Smartcard Authentication"
-#~ msgstr "Autenticazione con smartcard"
-
-#~ msgid "Log into session with smartcard"
-#~ msgstr "Accedere al sistema con smartcard"
-
-#~ msgid "Module Path"
-#~ msgstr "Percorso del modulo"
-
-#~ msgid "path to smartcard PKCS #11 driver"
-#~ msgstr "percorso del driver della smartcard PKCS #11"
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "ricevuto errore o chiusura dalla sorgente dell'evento"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "il sistema di sicurezza NSS non può essere inizializzato"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "non è stato trovato alcun driver adatto alla smartcard"
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "il driver della smartcard \"%s\" non può essere caricato"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "impossibile controllare gli eventi in arrivo della carta - %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr ""
-#~ "riscontrato errore inatteso nell'attesa degli eventi della smartcard"
-
-#~ msgid "Authentication"
-#~ msgstr "Autenticazione"
-
-#~ msgid "Log into session"
-#~ msgstr "Accedere al sistema"
-
-#~ msgid "Value"
-#~ msgstr "Valore"
-
-#~ msgid "percentage of time complete"
-#~ msgstr "percentuale di tempo completata"
-
-#~ msgid "Inactive Text"
-#~ msgstr "Testo inattivo"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr ""
-#~ "Il testo da usare nell'etichetta se l'utente non ha ancora scelto un "
-#~ "elemento"
-
-#~ msgid "Active Text"
-#~ msgstr "Testo attivo"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr "Il testo da usare nell'etichetta se l'utente ha scelto un elemento"
-
-#~ msgid "List Visible"
-#~ msgstr "Elenco visibile"
-
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "Indica se l'elenco del chooser è visibile"
-
-# [NdT] vedere man strftime e http://tp.linux.it/data_ora_valuta.html
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%a %b %e, %k.%M.%S"
-
-# [NdT] vedere man strftime e http://tp.linux.it/data_ora_valuta.html
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%a %b %e, %k.%M"
-
-# [NdT] vedere man strftime e http://tp.linux.it/data_ora_valuta.html
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%a %k.%M.%S"
-
-# [NdT] vedere man strftime e http://tp.linux.it/data_ora_valuta.html
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%a %k.%M"
-
-#~ msgid "Automatically logging in…"
-#~ msgstr "Accesso automatico…"
-
-#~ msgid "Cancelling…"
-#~ msgstr "Annullamento…"
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "Selezionare la lingua e fare clic su «Accedi»"
-
-#~ msgctxt "customsession"
-#~ msgid "Custom"
-#~ msgstr "Personalizzata"
-
-#~ msgid "Custom session"
-#~ msgstr "Sessione personalizzata"
-
-#~ msgid "Computer Name"
-#~ msgstr "Nome del computer"
-
-#~ msgid "Version"
-#~ msgstr "Versione"
-
-#~ msgid "Cancel"
-#~ msgstr "Annulla"
-
-#~ msgid "Unlock"
-#~ msgstr "Sblocca"
-
-#~ msgid "Login"
-#~ msgstr "Accedi"
-
-#~ msgid "Suspend"
-#~ msgstr "Sospendi"
-
-#~ msgid "Restart"
-#~ msgstr "Riavvia"
-
-#~ msgid "Shut Down"
-#~ msgstr "Arresta"
-
-#~ msgid "Unknown time remaining"
-#~ msgstr "Tempo rimanente sconosciuto"
-
-#~ msgid "Panel"
-#~ msgstr "Pannello"
-
-#~ msgid "Label Text"
-#~ msgstr "Testo etichetta"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "Il testo da usare come etichetta"
-
-#~ msgid "Icon name"
-#~ msgstr "Nome icona"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "L'icona da usare con l'etichetta"
-
-#~ msgid "Default Item"
-#~ msgstr "Elemento predefinito"
-
-#~ msgid "The ID of the default item"
-#~ msgstr "L'ID dell'elemento predefinito"
-
-#~ msgid "Remote Login (Connecting to %s…)"
-#~ msgstr "Accesso remoto (connessione a %s…)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "Accesso remoto (connessi a %s)"
-
-#~ msgid "Remote Login"
-#~ msgstr "Accesso remoto"
-
-#~ msgid "Session"
-#~ msgstr "Sessione"
-
-#~ msgid "Duration"
-#~ msgstr "Durata"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "Numero di secondi prima che il timer finisca"
-
-#~ msgid "Start time"
-#~ msgstr "Istante di avvio"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "Istante in cui il timer è stato avviato"
-
-#~ msgid "Is it Running?"
-#~ msgstr "È in esecuzione?"
-
-#~ msgid "Whether the timer is currently ticking"
-#~ msgstr "Indica se il timer sta attualmente progredendo"
-
-#~ msgid "Log in as %s"
-#~ msgstr "Accesso come %s"
-
-#~ msgctxt "user"
-#~ msgid "Other…"
-#~ msgstr "Altri…"
-
-#~ msgid "Choose a different account"
-#~ msgstr "Scegliere un account diverso"
-
-#~ msgid "Guest"
-#~ msgstr "Ospite"
-
-#~ msgid "Log in as a temporary guest"
-#~ msgstr "Accesso come ospite temporaneo"
-
-#~ msgid "Automatic Login"
-#~ msgstr "Accesso automatico"
-
-#~ msgid "Automatically log into the system after selecting options"
-#~ msgstr ""
-#~ "Accedere automaticamente al sistema dopo aver selezionato le opzioni"
-
-#~ msgid "Currently logged in"
-#~ msgstr "Accesso già effettuato"
-
-#~ msgid "User %s doesn't exist"
-#~ msgstr "L'utente %s non esiste"
-
-#~ msgid "Group %s doesn't exist"
-#~ msgstr "Il gruppo %s non esiste"
-
-#~ msgid "Logdir %s does not exist or isn't a directory."
-#~ msgstr "La logdir %s non esiste o non è una directory."
-
-#~ msgid "Authdir %s does not exist. Aborting."
-#~ msgstr "La authdir %s non esiste. Chiusura in corso."
-
-#~ msgid "Authdir %s is not a directory. Aborting."
-#~ msgstr "La authdir %s non è una directory. Chiusura in corso."
-
-#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-#~ msgstr ""
-#~ "La authdir %s non appartiene all'utente %d, gruppo %d. Chiusura in corso."
-
-#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-#~ msgstr ""
-#~ "La authdir %s ha permessi errati %o, dovrebbero essere %o. Chiusura in "
-#~ "corso."
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "Ingranditore schermo di GNOME"
-
-#~ msgid "Magnify parts of the screen"
-#~ msgstr "Ingrandisce parti dello schermo"
-
-#~ msgid "GNOME On-Screen Keyboard"
-#~ msgstr "Tastiera a schermo di GNOME"
-
-#~ msgid "Use an on-screen keyboard"
-#~ msgstr "Usa una tastiera a schermo"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "Lettore dello schermo Orca"
-
-#~ msgid "Present on-screen information as speech or braille"
-#~ msgstr "Fornisce le informazioni sullo schermo come parlato o braille"

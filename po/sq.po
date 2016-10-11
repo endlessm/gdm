@@ -1,19 +1,22 @@
-# Përkthimi i mesazheve të gdm në shqip.
-# Copyright (C) 2003-2006, 2008 Free Software Foundation. Inc.
-# This file is distributed under the same license as the gdm package.
-# Laurent Dhima <laurenti@alblinux.net>, 2003-2006, 2008.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Laurent Dhima <laurenti@alblinux.net>, 2008
+# Laurent Dhima <laurenti@alblinux.net>, 2003-2006, 2008
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm HEAD\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2008-09-06 19:51+0200\n"
-"Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
-"Language-Team: Albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
-"Language: sq\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:14+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Albanian (http://www.transifex.com/endless-mobile-inc/gdm/language/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../common/gdm-common.c:311
@@ -33,9 +36,9 @@ msgid "User unable to switch sessions."
 msgstr ""
 
 #: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
-#, fuzzy, c-format
+#, c-format
 msgid "Could not identify the current seat."
-msgstr "I pamundur identifikimi i seancës aktuale."
+msgstr ""
 
 #: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
 #, c-format
@@ -55,9 +58,8 @@ msgid "could not find user \"%s\" on system"
 msgstr "e pamundur gjetja e përdoruesit «%s» në sistem"
 
 #: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
-#, fuzzy
 msgid "No session available"
-msgstr "profil përdoruesi jo në dispozicion"
+msgstr ""
 
 #: ../daemon/gdm-manager.c:953
 #, c-format
@@ -90,9 +92,9 @@ msgid "Couldn't set userid to %d"
 msgstr "I pamundur caktimi i id së përdoruesit në %d"
 
 #: ../daemon/gdm-server.c:538
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Could not open log file for display %s!"
-msgstr "%s: E pamundur hapja e file të log për display %s!"
+msgstr ""
 
 #: ../daemon/gdm-server.c:559 ../daemon/gdm-server.c:565
 #: ../daemon/gdm-server.c:571
@@ -135,9 +137,8 @@ msgid "The display device"
 msgstr "Ekrani"
 
 #: ../daemon/gdm-session.c:1216
-#, fuzzy
 msgid "Could not create authentication helper process"
-msgstr "%s: I pamundur leximi i emrave të identifikimit"
+msgstr ""
 
 #: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
@@ -147,53 +148,43 @@ msgstr ""
 msgid "Sorry, that didn't work. Please try again."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Përdoruesi:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "profil përdoruesi jo në dispozicion"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "I pamundur shkëmbimi i përdoruesit"
 
-#: ../daemon/gdm-simple-slave.c:866
-#, fuzzy
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
 msgstr ""
-"E pamundur nisja e serverit X (mjedisi juaj grafik) për shkak të ndonjë "
-"gabimi të brendshëm. Vihu në kontakt me administratorin e sistemit ose "
-"kontrollo mesazhet e sistemit (syslog) për të zbuluar problemin. Ndërkohë ky "
-"ekran do të çaktivizohet. Rinis GDM mbasi të jetë zgjidhur problemi."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
 msgstr "I pamundur krijimi i socket!"
 
 #: ../daemon/main.c:125 ../daemon/main.c:138
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr ""
-"I pamundur shkrimi i file PID %s: ndoshta nuk ka më hapësirë në disk: %s"
 
 #: ../daemon/main.c:188
 #, c-format
@@ -201,9 +192,9 @@ msgid "Failed to create ran once marker dir %s: %s"
 msgstr ""
 
 #: ../daemon/main.c:194
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to create LogDir %s: %s"
-msgstr "Dështoi rinisja e kompjuterit"
+msgstr ""
 
 #: ../daemon/main.c:229
 #, c-format
@@ -228,9 +219,8 @@ msgid "Make all warnings fatal"
 msgstr "Bëj që të gjithë paralajmërimet të jenë fatale"
 
 #: ../daemon/main.c:325
-#, fuzzy
 msgid "Exit after a time (for debugging)"
-msgstr "Dil mbas një periudhë kohe - për debug"
+msgstr ""
 
 #: ../daemon/main.c:326
 msgid "Print GDM version"
@@ -242,9 +232,8 @@ msgstr "Menazhuesi i hyrjes së GNOME"
 
 #. make sure the pid file doesn't get wiped
 #: ../daemon/main.c:387
-#, fuzzy
 msgid "Only the root user can run GDM"
-msgstr "Vetëm administratorët mund të ekzekutojnë GDM"
+msgstr ""
 
 #. Translators: worker is a helper process that does the work
 #. of starting up a session
@@ -257,9 +246,8 @@ msgid "GNOME Shell"
 msgstr ""
 
 #: ../data/applications/gnome-shell.desktop.in.h:2
-#, fuzzy
 msgid "Window management and compositing"
-msgstr "Demoni i menazhuesit të energjisë"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
@@ -315,8 +303,8 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
@@ -332,25 +320,21 @@ msgid "Banner message text"
 msgstr "Mesazhi i tekstit të hyrjes"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:15
-#, fuzzy
 msgid "Text banner message to show in the login window."
-msgstr "Teksti i mesazhit të hyrjes për tu shfaqur në interfaqen e hyrjes."
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:16
 msgid "Disable showing the restart buttons"
 msgstr "Çaktivizo shfaqjen e butonëve të rinisjes"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-#, fuzzy
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr ""
-"Vendose në TRUE për të çaktivizuar shfaqjen e butonëve të rinisjes në "
-"dritaren e nisjes së seancës."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
-#, fuzzy
 msgid "Number of allowed authentication failures"
-msgstr "%s: I pamundur leximi i emrave të identifikimit"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
@@ -363,33 +347,28 @@ msgid "Select System"
 msgstr "Zgjidh sistemin"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
-#, fuzzy
 msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr "XMCP: I pamundur krijimi i buffer XDMCP!"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: I pamundur leximi i header XDMCP!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-#, fuzzy
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XMDCP: Version i pasaktë i XDMCP!"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-#, fuzzy
 msgid "XDMCP: Unable to parse address"
-msgstr "XMDCP: I pamundur analizimi i adresës"
+msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:72
-#, fuzzy
 msgid "Unable to create transient display: "
-msgstr "E pamundur nisja e një ekrani të ri"
+msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
-#, fuzzy
 msgid "Unable to activate session: "
-msgstr "I pamundur autentifikimi i përdoruesit"
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
@@ -401,9 +380,8 @@ msgstr "KOMANDA"
 
 #: ../utils/gdmflexiserver.c:46 ../utils/gdmflexiserver.c:47
 #: ../utils/gdmflexiserver.c:49 ../utils/gdmflexiserver.c:50
-#, fuzzy
 msgid "Ignored — retained for compatibility"
-msgstr "Shpërfillur - mbajtur për kompatibilitet"
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:48 ../utils/gdm-screenshot.c:43
 msgid "Debugging output"
@@ -424,630 +402,5 @@ msgstr ""
 
 #. Option parsing
 #: ../utils/gdm-screenshot.c:279
-#, fuzzy
 msgid "Take a picture of the screen"
-msgstr "Zmadhon pjesë të ekranit"
-
-#~ msgid "Enable debugging code"
-#~ msgstr "Aktivizo kodin e debug"
-
-#~ msgid "Display ID"
-#~ msgstr "ID e ekranit"
-
-#~ msgid "id"
-#~ msgstr "id"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "Dytësori i menazhuesit të ekraneve të GNOME"
-
-#~ msgid "Unable to initialize login system"
-#~ msgstr "E pamundur nisja e sistemit të hyrjes"
-
-#~ msgid "Unable to authorize user"
-#~ msgstr "I pamundur autorizimi i përdoruesit"
-
-#~ msgid "Unable to establish credentials"
-#~ msgstr "I pamundur përcaktimi i kredencialeve"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: dështoi lidhja me dispaly prind '%s'"
-
-#~ msgid "Couldn't set groupid to 0"
-#~ msgstr "I pamundur caktimi i id së grupit në 0"
-
-#~ msgid "worker exited with status %d"
-#~ msgstr "worker doli me kodin e gjëndjes %d"
-
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr "gabim gjatë nisjes së shkëmbimeve me sistemin e autentifikimit - %s"
-
-#~ msgid "general failure"
-#~ msgstr "dështim i përgjithshëm"
-
-#~ msgid "out of memory"
-#~ msgstr "mbi memorje"
-
-#~ msgid "application programmer error"
-#~ msgstr "gabim i programuesit të aplikativit"
-
-#~ msgid "unknown error"
-#~ msgstr "gabim i panjohur"
-
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt - %s"
-#~ msgstr ""
-#~ "gabim gjatë informimit të sistemit të autentifikimit në lidhje me "
-#~ "dialogun e emrit të përdoruesit të preferuar - %s"
-
-#~ msgid "error informing authentication system of user's hostname - %s"
-#~ msgstr ""
-#~ "gabim gjatë informimit të sistemit të autentifikimit në lidhje me emrin e "
-#~ "host të përdoruesit - %s"
-
-#~ msgid "error informing authentication system of user's console - %s"
-#~ msgstr ""
-#~ "gabim gjatë informimit të sistemit të autentifikimit në lidhje me "
-#~ "konsolën e përdoruesit - %s"
-
-#~ msgid "error informing authentication system of display string - %s"
-#~ msgstr ""
-#~ "gabim gjatë informimit të sistemit të autentifikimit në lidhje me vargun "
-#~ "e ekranit - %s"
-
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials - %s"
-#~ msgstr ""
-#~ "gabim gjatë informimit të sistemit të autentifikimit në lidhje me "
-#~ "kredencialet xauth të ekranit - %s"
-
-#~ msgid "Unable establish credentials"
-#~ msgstr "I pamundur përcaktimi i kredencialeve"
-
-#~ msgid "User %s doesn't exist"
-#~ msgstr "Përdoruesi %s nuk ekziston"
-
-#~ msgid "Group %s doesn't exist"
-#~ msgstr "Grupi %s nuk ekziston"
-
-#~ msgid "Denied XDMCP query from host %s"
-#~ msgstr "Kërkesat XDMCP janë të ndaluar nga host %s"
-
-#~ msgid "Could not extract authlist from packet"
-#~ msgstr "E pamundur nxjerrja e listës së autorizimeve nga paketi"
-
-#~ msgid "Error in checksum"
-#~ msgstr "Gabim në checksum"
-
-#~ msgid "Bad address"
-#~ msgstr "Adresë e gabuar"
-
-#~ msgid "%s: Could not read display address"
-#~ msgstr "%s: I pamundur leximi i adresës"
-
-#~ msgid "%s: Could not read display port number"
-#~ msgstr "%s: I pamundur leximi i numrit të portës së ekranit"
-
-#~ msgid "%s: Could not extract authlist from packet"
-#~ msgstr "%s: e pamundur nxjerrja e listës së autorizimeve nga paketi"
-
-#~ msgid "%s: Error in checksum"
-#~ msgstr "%s: Gabim në checksum"
-
-#~ msgid "%s: Got REQUEST from banned host %s"
-#~ msgstr "%s: Mora REQUEST nga host i bllokuar %s"
-
-#~ msgid "%s: Could not read Display Number"
-#~ msgstr "%s: I pamundur leximi i numrit të ekranit"
-
-#~ msgid "%s: Could not read Connection Type"
-#~ msgstr "%s: I pamundur leximi i llojit të lidhjes"
-
-#~ msgid "%s: Could not read Client Address"
-#~ msgstr "%s: I pamundur leximi i adresës së klientit"
-
-#~ msgid "%s: Could not read Authentication Data"
-#~ msgstr "%s: I pamundur leximi i të dhënave të autentifikimit"
-
-#~ msgid "%s: Could not read Authorization List"
-#~ msgstr "%s: I pamundur leximi i listës së autorizimit"
-
-#~ msgid "%s: Could not read Manufacturer ID"
-#~ msgstr "%s: I pamundur leximi i ID së prodhuesit"
-
-#~ msgid "%s: Failed checksum from %s"
-#~ msgstr "%s: Dështoi checksum nga %s"
-
-#~ msgid "%s: Got Manage from banned host %s"
-#~ msgstr "%s: Mora \"Manage\" nga host i bllokuar %s"
-
-#~ msgid "%s: Could not read Session ID"
-#~ msgstr "%s: I pamundur leximi i ID së seancës"
-
-#~ msgid "%s: Could not read Display Class"
-#~ msgstr "%s: I pamundur leximi i klasës së ekranit"
-
-#~ msgid "%s: Could not read address"
-#~ msgstr "%s: i pamundur leximi i adresës"
-
-#~ msgid "%s: Got KEEPALIVE from banned host %s"
-#~ msgstr "%s: Mora \"KEEPALIVE\" nga host bllokuar %s"
-
-#~ msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-#~ msgstr "GdmXdmcpDisplayFactory: I pamundur leximi i header XDMCP!"
-
-#~ msgid "Could not get server hostname: %s!"
-#~ msgstr "E pamundur marrja e emrit të host të serverit: %s!"
-
-#~ msgid "Logdir %s does not exist or isn't a directory."
-#~ msgstr "Directory e regjistrit %s nuk ekziston ose nuk është një directory."
-
-#~ msgid "Authdir %s does not exist. Aborting."
-#~ msgstr "Directory e autorizimit %s nuk ekziston. Abortohet."
-
-#~ msgid "Authdir %s is not a directory. Aborting."
-#~ msgstr "Directory e autorizimit %s nuk është një directory. Abortohet."
-
-#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-#~ msgstr ""
-#~ "Directory e autorizimit %s nuk i përket përdoruesit %d, grupi %d. "
-#~ "Abortohet."
-
-#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-#~ msgstr ""
-#~ "Directory e autorizimit %s ka të drejta të gabuara %o. Duhet të jetë %o. "
-#~ "Abortohet."
-
-#~ msgid "AT SPI Registry Wrapper"
-#~ msgstr "Përshtatësi i regjistrit AT SPI"
-
-#~ msgid "Login Window"
-#~ msgstr "Dritarja e hyrjes"
-
-#~ msgid "Power Manager"
-#~ msgstr "Menazhuesi i energjisë"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "Administratori i rregullimeve të GNOME"
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "Zmadhuesi i ekranit të GNOME"
-
-#~ msgid "GNOME Onscreen Keyboard"
-#~ msgstr "Tastiera në ekran për GNOME"
-
-#~ msgid "Use an onscreen keyboard"
-#~ msgstr "Përdor një tastierë në ekran"
-
-#~ msgid "Metacity"
-#~ msgstr "Metacity"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "Orca - lexuesi i ekranit"
-
-#~ msgid "Present on-screen information as speech or braille"
-#~ msgstr "Paraqet informacione në ekran si shqiptimi ose braille"
-
-#~ msgid "Value"
-#~ msgstr "Vlera"
-
-#~ msgid "percentage of time complete"
-#~ msgstr "përqindja e kohës së plotësuar"
-
-#~ msgid "Inactive Text"
-#~ msgstr "Teksti jo aktiv"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr ""
-#~ "Teksti për tu përdorur në etiketë nëse përdoruesi nuk ka zgjedhur akoma "
-#~ "një element"
-
-#~ msgid "Active Text"
-#~ msgstr "Teksti aktiv"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr ""
-#~ "Teksti për tu përdorur në etiketë nëse përdoruesi ka zgjedhur një element"
-
-#~ msgid "%l:%M:%S %p"
-#~ msgstr "%H:%M:%S"
-
-#~ msgid "%l:%M %p"
-#~ msgstr "%H:%M"
-
-#~ msgid "%a %b %e"
-#~ msgstr "%a %b %e"
-
-#~ msgid "%1$s, %2$s"
-#~ msgstr "%1$s, %2$s"
-
-#~ msgid "You have the Caps Lock key on."
-#~ msgstr "Butoni Caps Lock është i aktivizuar."
-
-#~ msgid "Automatically logging in..."
-#~ msgstr "Duke kryer hyrjen automatikisht..."
-
-#~ msgid "Cancelling..."
-#~ msgstr "Duke anulluar..."
-
-#~ msgid ""
-#~ "You are not allowed to restart the computer because multiple users are "
-#~ "logged in"
-#~ msgstr ""
-#~ "Nuk ju lejohet rinisja e komjuterit sepse disa përdorues kanë filluar "
-#~ "seancën"
-
-#~ msgid "Failed to stop computer"
-#~ msgstr "Dështoi ndalimi i kompjuterit"
-
-#~ msgid ""
-#~ "You are not allowed to stop the computer because multiple users are "
-#~ "logged in"
-#~ msgstr ""
-#~ "Nuk ju lejohet ndalimi i komjuterit sepse disa përdorues kanë filluar "
-#~ "seancën"
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "Zgjidh gjuhën dhe kliko Fillo seancën"
-
-#~ msgid "Authentication Dialog"
-#~ msgstr "Dialogu i identifikimit"
-
-#~ msgid "Computer Name"
-#~ msgstr "Emri i kompjuterit"
-
-#~ msgid "Log In"
-#~ msgstr "Fillo seancën"
-
-#~ msgid "Restart"
-#~ msgstr "Rinis"
-
-#~ msgid "Shut Down"
-#~ msgstr "Shuaj"
-
-#~ msgid "Suspend"
-#~ msgstr "Pezullo"
-
-#~ msgid "Version"
-#~ msgstr "Versioni"
-
-#~ msgid "page 5"
-#~ msgstr "faqja 5"
-
-#~ msgid "Panel"
-#~ msgstr "Paneli"
-
-#~ msgid "Languages"
-#~ msgstr "Gjuhët"
-
-#~ msgid "_Languages:"
-#~ msgstr "_Gjuhët:"
-
-#~ msgid "_Language:"
-#~ msgstr "_Gjuha:"
-
-#~ msgid "Other..."
-#~ msgstr "Tjetër..."
-
-#~ msgid "Choose a language from the full list of available languages."
-#~ msgstr "Zgjidh një gjuhë nga lista e plotë e gjuhëve në dispozicion."
-
-#~ msgid "Unspecified"
-#~ msgstr "E papërcaktuar"
-
-#~ msgid "Keyboard layouts"
-#~ msgstr "Planimetritë e tastierës"
-
-#~ msgid "_Keyboard:"
-#~ msgstr "_Tastiera:"
-
-#~ msgid "Choose a keyboard layout from the full list of available layouts."
-#~ msgstr ""
-#~ "Zgjidh një planimetri tastiere nga lista e plotë e planimetrive në "
-#~ "dispozicion."
-
-#~ msgid "Label Text"
-#~ msgstr "Teksti i etiketës"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "Teksti për tu përdorur si etiketë"
-
-#~ msgid "Icon name"
-#~ msgstr "Emri i ikonës"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "Ikona për tu përdorur me etiketën"
-
-#~ msgid "Default Item"
-#~ msgstr "Elementi i paracaktuar"
-
-#~ msgid "The id of the default item"
-#~ msgstr "Id e elementit të paracaktuar"
-
-#~ msgid "Max Item Count"
-#~ msgstr "Numri maksimum i elementëve"
-
-#~ msgid "The maximum number of items to keep around in the list"
-#~ msgstr "Numri maksimum i elementëve për tu mbajtur në listë"
-
-#~ msgid "Remote Login (Connecting to %s...)"
-#~ msgstr "Nisja e seancës në distancë (Duke u lidhur me %s...)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "Nisja e seancës në distancë (Lidhur me %s)"
-
-#~ msgid "Remote Login"
-#~ msgstr "Fillimi i seancës në distancë"
-
-#~ msgid "_Sessions:"
-#~ msgstr "_Seancat:"
-
-#~ msgid "Do not show known users in the login window"
-#~ msgstr "Mos shfaq përdoruesit në dritaren e nisjes së seancës"
-
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "Aktivizo plugin e tastierës së açesibilitetit"
-
-#~ msgid "Enable debugging"
-#~ msgstr "Aktivizo debug"
-
-#~ msgid "Enable debugging mode for the greeter."
-#~ msgstr "Aktivizo modalitetin e debug për interfaqen e hyrjes."
-
-#~ msgid "Enable on-screen keyboard"
-#~ msgstr "Aktivizo tastierën në ekran"
-
-#~ msgid "Enable screen magnifier"
-#~ msgstr "Aktivizo zmadhuesin e ekranit"
-
-#~ msgid "Enable screen reader"
-#~ msgstr "Aktivizo lexuesin e ekranit"
-
-#~ msgid "Icon name to use for greeter logo"
-#~ msgstr "Emri i ikona për tu përdorur si stemë e interfaqes së hyrjes"
-
-#~ msgid "Recently selected keyboard layouts"
-#~ msgstr "Planimetritë e fundit të zgjedhura të tastierës"
-
-#~ msgid "Recently selected languages"
-#~ msgstr "Gjuhët e fundit të zgjedhura"
-
-#~ msgid "Set to TRUE to disable showing known users in the login window."
-#~ msgstr ""
-#~ "Vendose në TRUE për të çaktivizuar shfaqjen e përdoruesve në dritaren e "
-#~ "nisjes së seancës."
-
-#~ msgid "Set to True to enable the background settings manager plugin."
-#~ msgstr ""
-#~ "Vendose në TRUE për të aktivizuar plugin e manazhuesit të rregullimeve të "
-#~ "sfondit të ekranit."
-
-#~ msgid "Set to True to enable the media-keys settings manager plugin."
-#~ msgstr ""
-#~ "Vendose në TRUE për të aktivizuar plugin e manazhuesit të rregullimeve të "
-#~ "pulsantëve multimedialë."
-
-#~ msgid "Set to True to enable the on-screen keyboard."
-#~ msgstr "Vendose në TRUE për të aktivizuar tastierën në ekran."
-
-#~ msgid ""
-#~ "Set to True to enable the plugin to manage the accessibility keyboard "
-#~ "settings."
-#~ msgstr ""
-#~ "Vendose në TRUE për të aktivizuar plugin për të manazhuar rregullimet e "
-#~ "açesibilitetit të tastierës."
-
-#~ msgid "Set to True to enable the screen magnifier."
-#~ msgstr "Vendose në TRUE për të aktivizuar zmadhuesin e ekranit."
-
-#~ msgid "Set to True to enable the screen reader."
-#~ msgstr "Vendose në TRUE për të aktivizuar lexuesin e ekranit."
-
-#~ msgid "Set to True to enable the sound settings manager plugin."
-#~ msgstr ""
-#~ "Vendose në TRUE për të aktivizuar plugin e manazhuesit të rregullimeve të "
-#~ "zërit."
-
-#~ msgid "Set to True to enable the xrandr settings manager plugin."
-#~ msgstr ""
-#~ "Vendose në TRUE për të aktivizuar plugin e manazhuesit të rregullimeve të "
-#~ "xrandr."
-
-#~ msgid "Set to True to enable the xsettings settings manager plugin."
-#~ msgstr ""
-#~ "Vendose në TRUE për të aktivizuar plugin e manazhuesit të rregullimeve të "
-#~ "xsettings."
-
-#~ msgid ""
-#~ "Set to a list of keyboard layouts to be shown by default at the login "
-#~ "window."
-#~ msgstr ""
-#~ "Përcakto një listë me planimetri tastierash për tu shfaqur në menyrë të "
-#~ "përcaktuar në dritaren e nisjes së seancës."
-
-#~ msgid ""
-#~ "Set to a list of languages to be shown by default at the login window."
-#~ msgstr ""
-#~ "Përcakto një listë me gjuhët për tu shfaqur në menyrë të përcaktuar në "
-#~ "dritaren e nisjes së seancës."
-
-#~ msgid "Set to the themed icon name to use for the greeter logo."
-#~ msgstr ""
-#~ "Përcakto emrin e temës së ikonave për tu përdorur për stemën e interfaqes "
-#~ "së hyrjes."
-
-#~ msgid "Set to true to use compiz as the window manager."
-#~ msgstr "Vendose në «TRUE» për të përdorur compiz si menazhues dritaresh."
-
-#~ msgid "True if the background settings manager plugin is enabled."
-#~ msgstr ""
-#~ "E vërtetë nëse plugin e menazhuesit të rregullimeve të sfondit është "
-#~ "aktivizuar."
-
-#~ msgid "True if the media-keys settings manager plugin is enabled."
-#~ msgstr ""
-#~ "E vërtetë nëse plugin i menazhuesit të rregullimeve të pulsantëve "
-#~ "multimedialë është aktivizuar."
-
-#~ msgid "True if the sound settings manager plugin is enabled."
-#~ msgstr ""
-#~ "E vërtetë nëse plugin i menazhuesit të rregullimeve të zërit është "
-#~ "aktivizuar."
-
-#~ msgid "True if the xrandr settings manager plugin is enabled."
-#~ msgstr ""
-#~ "E vërtetë nëse plugin i menazhuesit të rregullimeve të xrand është "
-#~ "aktivizuar."
-
-#~ msgid "True if the xsettings settings manager plugin is enabled."
-#~ msgstr ""
-#~ "E vërtetë nëse plugin i menazhuesit të rregullimeve të xsettings është "
-#~ "aktivizuar."
-
-#~ msgid "Use compiz as the window manager"
-#~ msgstr "Përdor compiz si menazhues dritaresh"
-
-#~ msgid "Duration"
-#~ msgstr "Kohëzgjatja"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "Numri i sekondave mbas të cilit kronometri ndalon"
-
-#~ msgid "Start time"
-#~ msgstr "Ora e nisjes"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "Ora e nisjes së kronometrit"
-
-#~ msgid "Is it Running?"
-#~ msgstr "Është duke u ekzekutuar?"
-
-#~ msgid "Whether or not the timer is currently ticking"
-#~ msgstr "Tregon nëse kronometri është apo jo duke u pëdorur"
-
-#~ msgid "Manager"
-#~ msgstr "Menazhuesi"
-
-#~ msgid "The user manager object this user is controlled by."
-#~ msgstr ""
-#~ "Menazhuesi i objektit përdorues nga i cili kontrollohet ky përdorues."
-
-#~ msgid "Choose a different account"
-#~ msgstr "Zgjidh një profil tjetër"
-
-#~ msgid "Guest"
-#~ msgstr "Vizitues"
-
-#~ msgid "Login as a temporary guest"
-#~ msgstr "Hap një seancë të përkohëshme si vizitues"
-
-#~ msgid "Automatic Login"
-#~ msgstr "Fillim automatik i seancës"
-
-#~ msgid "Automatically login to the system after selecting options"
-#~ msgstr ""
-#~ "Fillon automatikisht një seancë në sistem mbasi të jenë zgjedhur opsionet"
-
-#~ msgid "Log in as %s"
-#~ msgstr "Fillo një seancë si %s"
-
-#~ msgid "Currently logged in"
-#~ msgstr "Seanca është nisur"
-
-#~ msgid ""
-#~ "The User Switch Applet is free software; you can redistribute it and/or "
-#~ "modify it under the terms of the GNU General Public License as published "
-#~ "by the Free Software Foundation; either version 2 of the License, or (at "
-#~ "your option) any later version."
-#~ msgstr ""
-#~ "Miniaplikativi i shkëmbimit të përdoruesve është software i lirë; mund ta "
-#~ "rishpërndani apo/dhe ndryshoni nën kushtet e Liçencës Publike të "
-#~ "Përgjithshme GNU sikurse publikuar nga Fondacioni Free Software; duke "
-#~ "zgjedhur midis versionit 2 të Liçencës, ose (sipas dëshirës suaj) çdo "
-#~ "versioni tjetër më të përditësuar."
-
-#~ msgid ""
-#~ "This program is distributed in the hope that it will be useful, but "
-#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
-#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
-#~ "Public License for more details."
-#~ msgstr ""
-#~ "Ky program shpërndahet me dëshirën që të jetë i vlefshëm për ju, por PA "
-#~ "ASNJË LLOJ GARANCIE; bile as pa garancinë e TREGTIMIT apo PËRDORIMIT PËR "
-#~ "QËLLIME TË VEÇANTA.  Shiko Liçencën Publike të Përgjithshme GNU për "
-#~ "hollësi të mëtejshme."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with this program; if not, write to the Free Software Foundation, Inc., "
-#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA "
-#~ msgstr ""
-#~ "Së bashku me këtë program duhet të keni marrë edhe një kopje të Liçencës "
-#~ "Publike të Përgjithshme GNU; nëse jo, shkruaj tek Free Software "
-#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-#~ "USA "
-
-#~ msgid "A menu to quickly switch between users."
-#~ msgstr "Një menu për të kaluar me lehtësi nga një përdorues tek tjetri."
-
-#~ msgid "translator-credits"
-#~ msgstr "Laurent Dhima <laurenti@alblinux.net>"
-
-#~ msgid "Can't lock screen: %s"
-#~ msgstr "I pamundur bllokimi i ekranit: %s"
-
-#~ msgid "Can't temporarily set screensaver to blank screen: %s"
-#~ msgstr "E pamundur vendosja e përkohshme e screensaver tek ekrani bosh: %s"
-
-#~ msgid "Unknown"
-#~ msgstr "Nuk njihet"
-
-#~ msgid "User Switch Applet"
-#~ msgstr "Miniaplikativi për shkëmbimin e përdoruesit"
-
-#~ msgid "User Switcher"
-#~ msgstr "Shkëmbyes përdoruesish"
-
-#~ msgid "User"
-#~ msgstr "Përdoruesi"
-
-#~ msgid "The user this menu item represents."
-#~ msgstr "Përdoruesi që përfaqsohet nga ky zë menuje."
-
-#~ msgid "Icon Size"
-#~ msgstr "Madhësia e ikonës"
-
-#~ msgid "The size of the icon to use."
-#~ msgstr "Madhësia e ikonës së përdorur."
-
-#~ msgid "Indicator Size"
-#~ msgstr "Madhësia e treguesit"
-
-#~ msgid "Size of check indicator"
-#~ msgstr "Madhësia e treguesit të kontrollit"
-
-#~ msgid "Indicator Spacing"
-#~ msgstr "Hapësira e treguesit"
-
-#~ msgid "Space between the username and the indicator"
-#~ msgstr "Hapësira midis emrit të përdoruesit dhe treguesit"
-
-#~ msgid "A menu to quickly switch between users"
-#~ msgstr "Një menu për të kaluar me lehtësi nga një përdorues tek tjetri"
-
-#~ msgid "User Switcher Applet Factory"
-#~ msgstr "Fabrika e miniaplikativit të shkëmbimit të përdoruesëve"
-
-#~ msgid "Edit Personal _Information"
-#~ msgstr "Ndrysho _informacionet personale"
-
-#~ msgid "_About"
-#~ msgstr "_Informacione"
-
-#~ msgid "_Edit Users and Groups"
-#~ msgstr "_Ndrysho përdoruesit dhe grupet"
-
-#~ msgid "_Help"
-#~ msgstr "_Ndihmë"
-
-#~ msgid "Main Options"
-#~ msgstr "Opsionet bazë"
+msgstr ""

@@ -1,21 +1,22 @@
-# Qırımtatarca gdm.
-# This file is distributed under the same license as the gdm package.
-# Reşat SABIQ <tilde.birlik@gmail.com>, 2009, 2010, 2011, 2012, 2013.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Reşat SABIQ <tilde.birlik@gmail.com>, 2009-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2013-03-25 01:10-0500\n"
-"Last-Translator: Reşat SABIQ <tilde.birlik@gmail.com>\n"
-"Language-Team: QIRIMTATARCA (Qırım Türkçesi) <tilde-birlik-meydan@lists."
-"sourceforge.net>\n"
-"Language: \n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 22:29+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Crimean Turkish (http://www.transifex.com/endless-mobile-inc/gdm/language/crh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: UTF-8\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: crh\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -43,9 +44,7 @@ msgstr "Ağımdaki oturaq kimliklenamadı."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"Sistem mevcut bir içeri imzalanma ekranına almaşacağınımı yoqsa yañı bir "
-"içeri imzalanma ekranını başlatacağınımı tesbit etalmay."
+msgstr "Sistem mevcut bir içeri imzalanma ekranına almaşacağınımı yoqsa yañı bir içeri imzalanma ekranını başlatacağınımı tesbit etalmay."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
@@ -74,9 +73,7 @@ msgstr "Çağırıcı GDM degil"
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"Sunucı qullanıcı %s tarafından yavrulanacaq edi faqat böyle bir qullanıcı "
-"yoqtır"
+msgstr "Sunucı qullanıcı %s tarafından yavrulanacaq edi faqat böyle bir qullanıcı yoqtır"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
@@ -116,7 +113,7 @@ msgstr "%s: %s kösterimi içün boş sunucı buyruğı"
 
 #: ../daemon/gdm-session-auditor.c:90
 msgid "Username"
-msgstr "Qullanıcı adı"
+msgstr "Qullanıcı Adı"
 
 #: ../daemon/gdm-session-auditor.c:91
 msgid "The username"
@@ -150,42 +147,34 @@ msgstr ""
 msgid "Sorry, that didn't work. Please try again."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Qullanıcı adı:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "faydalanışlı qullanıcı hesabı yoq"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Qullanıcığa deñiştiramadım"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"X sunucısını (siziñ grafikiy çevreñizni) dahiliy bir hata yüzünden "
-"başlatamadım. Lütfen sistem memurıñıznen temasqa keçiñiz yaki teşhislemek "
-"içün sistem kütügiñizni teşkeriñiz. Bu arada bu kösterim ğayrı "
-"qabilleştirilecek.  Lütfen mesele tüzetilgen soñ GDM'ni kene başlatıñız."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "X sunucısını (siziñ grafikiy çevreñizni) dahiliy bir hata yüzünden başlatamadım. Lütfen sistem memurıñıznen temasqa keçiñiz yaki teşhislemek içün sistem kütügiñizni teşkeriñiz. Bu arada bu kösterim ğayrı qabilleştirilecek.  Lütfen mesele tüzetilgen soñ GDM'ni kene başlatıñız."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -196,7 +185,6 @@ msgstr "Oyuq (Soket) icat etilamadı!"
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr "PID dosyesi %s yazılalmay: belki disk tolu: %s"
 
-# tüklü
 #: ../daemon/main.c:188
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
@@ -268,28 +256,21 @@ msgstr "İçeri imzalanuv içün parmaqizi oquyıcılarına izin berilip berilme
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"İçeri imzalanma ekranı parmaqizlerini qayd ettirgen qullanıcılarğa o "
-"izlerini qullanaraq oturım açmağa ihtiyariy olaraq izin berebilir."
+msgstr "İçeri imzalanma ekranı parmaqizlerini qayd ettirgen qullanıcılarğa o izlerini qullanaraq oturım açmağa ihtiyariy olaraq izin berebilir."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
-msgstr ""
-"İçeri imzalanuv içün aqıllı-kart oquyıcılarına izin berilip berilmeycegi"
+msgstr "İçeri imzalanuv içün aqıllı-kart oquyıcılarına izin berilip berilmeycegi"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:4
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"İçeri imzalanma ekranı aqıllı-kartlı qullanıcılarğa o aqıllı-kartlarını "
-"qullanaraq oturım açmağa ihtiyariy olaraq izin berebilir."
+msgstr "İçeri imzalanma ekranı aqıllı-kartlı qullanıcılarğa o aqıllı-kartlarını qullanaraq oturım açmağa ihtiyariy olaraq izin berebilir."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
-#, fuzzy
 msgid "Whether or not to allow passwords for login"
 msgstr ""
-"İçeri imzalanuv içün aqıllı-kart oquyıcılarına izin berilip berilmeycegi"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:6
 msgid ""
@@ -306,20 +287,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"Sayt memurlarına ve dağıtımlarğa bir markalama yolunı temin içün, içeri "
-"imzalanma ekranı ihtiyariy olaraq onıñ qullanıcı listesiniñ töpesinde küçük "
-"bir suret kösterebilir."
+msgstr "Sayt memurlarına ve dağıtımlarğa bir markalama yolunı temin içün, içeri imzalanma ekranı ihtiyariy olaraq onıñ qullanıcı listesiniñ töpesinde küçük bir suret kösterebilir."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
-"Sayt memurlarına ve dağıtımlarğa bir markalama yolunı temin içün, ricat "
-"içeri imzalanma ekranı ihtiyariy olaraq onıñ qullanıcı listesiniñ töpesinde "
-"küçük bir suret kösterebilir."
+msgstr "Sayt memurlarına ve dağıtımlarğa bir markalama yolunı temin içün, ricat içeri imzalanma ekranı ihtiyariy olaraq onıñ qullanıcı listesiniñ töpesinde küçük bir suret kösterebilir."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -327,12 +302,9 @@ msgstr "Qullanıcı listesini köstermekten qaçın"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"İçeri imzalanma ekranı adetince biri olaraq içeri imzalanmaq üzre bir mevcut "
-"qullanıcılar listesini kösterir. Bu ayar qullanıcılar listesini köstermekni "
-"ğayrıqabilleştirmek içün tönterilebilir."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "İçeri imzalanma ekranı adetince biri olaraq içeri imzalanmaq üzre bir mevcut qullanıcılar listesini kösterir. Bu ayar qullanıcılar listesini köstermekni ğayrıqabilleştirmek içün tönterilebilir."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -342,7 +314,6 @@ msgstr "Afiş risalesiniñ kösterilüvini qabilleştir"
 msgid "Set to true to show the banner message text."
 msgstr "Afiş risalesi metnini köstermek içün doğruğa tesbit etiñiz."
 
-# tüklü
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:14
 msgid "Banner message text"
 msgstr "Afiş risalesi metni"
@@ -356,10 +327,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Kene başlatuv dögmeleriniñ kösterilüvini ğayrı qabilleştir"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"İçeri imzalanuv penceresinde kene başlatuv dögmeleriniñ kösterilüvini ğayrı "
-"qabilleştirmek içün doğruğa ayarlañız."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "İçeri imzalanuv penceresinde kene başlatuv dögmeleriniñ kösterilüvini ğayrı qabilleştirmek içün doğruğa ayarlañız."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -369,9 +339,7 @@ msgstr "Sahihlenim muvaffaqiyetsizlikleriniñ caiz sayısı"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Bir qullanıcığa, pes etip qullanıcı saylamına keri barmazdan evvel, qaç kere "
-"sahihlenmege talpınmağa izin berilgeni."
+msgstr "Bir qullanıcığa, pes etip qullanıcı saylamına keri barmazdan evvel, qaç kere sahihlenmege talpınmağa izin berilgeni."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -389,7 +357,6 @@ msgstr "XMCP: XDMCP başlığı oqulamadı!"
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XMDCP: Yañlış XDMCP sürümi!"
 
-# tüklü
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
 msgid "XDMCP: Unable to parse address"
 msgstr "XMDCP: adres ayırıştırılalmay"
@@ -410,7 +377,6 @@ msgstr "Faqat VERSION buyruğı desteklene"
 msgid "COMMAND"
 msgstr "BUYRUQ"
 
-# tüklü
 #: ../utils/gdmflexiserver.c:46 ../utils/gdmflexiserver.c:47
 #: ../utils/gdmflexiserver.c:49 ../utils/gdmflexiserver.c:50
 msgid "Ignored — retained for compatibility"
@@ -437,981 +403,3 @@ msgstr "Ekran körüntisi alındı"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Ekrannıñ bir resmini al"
-
-#~ msgid "No session available yet"
-#~ msgstr "Faydalanışlı oturım şimdilik yoq"
-
-#~ msgid "Unable to look up UID of user %s"
-#~ msgstr "%s qullanıcısınıñ kimligi (UID) tapıştırılamadı"
-
-#~ msgid "no sessions available"
-#~ msgstr "faydalanışlı oturımlar yoq"
-
-#~ msgid "No sessions for %s available for reauthentication"
-#~ msgstr "%s içün kene sahihlenim içün faydalanışlı oturımlar yoq"
-
-#~ msgid "Unable to find session for user %s"
-#~ msgstr "%s qullanıcısı içün oturım tapılalmay"
-
-#~ msgid "Unable to find appropriate session for user %s"
-#~ msgstr "Qullanıcı %s içün münasip oturım tapılalmay"
-
-#~ msgid "User doesn't own session"
-#~ msgstr "Qullanıcı oturımnıñ sahibi degil"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: ana kösterim olğan '%s' bağlanılamadı"
-
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr "sahihleme sistemi ile laf başlatqanda hata - %s"
-
-#~ msgid "general failure"
-#~ msgstr "umumiy muvafaqiyetsizlik"
-
-#~ msgid "out of memory"
-#~ msgstr "hafiza bitken"
-
-#~ msgid "application programmer error"
-#~ msgstr "uyğulama programcısı hatası"
-
-#~ msgid "unknown error"
-#~ msgstr "bilinmegen hata"
-
-# tüklü
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt: %s"
-#~ msgstr ""
-#~ "sahihleme sistemini tercih etilgen qullanıcı adı indemesi haqqında "
-#~ "malümatlandırğanda hata: %s"
-
-#~ msgid "error informing authentication system of user's hostname: %s"
-#~ msgstr ""
-#~ "sahihleme sistemini qullanıcınıñ qonaqbayı haqqında malümatlandırğanda "
-#~ "hata: %s"
-
-#~ msgid "error informing authentication system of user's console: %s"
-#~ msgstr ""
-#~ "sahihleme sistemini qullanıcınıñ konsolı haqqında malümatlandırğanda "
-#~ "hata: %s"
-
-#~ msgid "error informing authentication system of display string: %s"
-#~ msgstr ""
-#~ "sahihleme sistemini kösterim tizgisi haqqında malümatlandırğanda hata: %s"
-
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials: %s"
-#~ msgstr ""
-#~ "sahihleme sistemini kösterim xauth itimatnameleri haqqında "
-#~ "malümatlandırğanda hata: %s"
-
-#~ msgid "User not logged in"
-#~ msgstr "Qullanıcı içeri imzalanmağan"
-
-#~ msgid "Currently, only one client can be connected at once"
-#~ msgstr "Hal-hazırda, birden ancaq bir müşteri bağlanğan olabilir"
-
-#~ msgid "Failed to create AuthDir %s: %s"
-#~ msgstr "Sahihlenim fihristi (AuthDir) %s icat etilamadı: %s"
-
-#~ msgid "Display ID"
-#~ msgstr "Kösterim Kimligi"
-
-#~ msgid "ID"
-#~ msgstr "Kimlik"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "GNOME Kösterim İdarecisi Qulu"
-
-#~ msgid "Login Window"
-#~ msgstr "İçeri İmzalanuv Penceresi"
-
-# tüklü
-#~ msgid "Fingerprint Authentication"
-#~ msgstr "Parmaqizi Sahihlenmesi"
-
-#~ msgid "Log into session with fingerprint"
-#~ msgstr "Parmaqizi ile oturım aç"
-
-# tüklü
-#~ msgid "Password Authentication"
-#~ msgstr "Parol Sahihlenmesi"
-
-#~ msgid "Log into session with username and password"
-#~ msgstr "Qullanıcı adı ve sır-söz ile oturım aç"
-
-#~ msgid "Log In"
-#~ msgstr "İçeri İmzalan"
-
-#~ msgid "Slot ID"
-#~ msgstr "Yuva Kimligi"
-
-#~ msgid "The slot the card is in"
-#~ msgstr "Kartnıñ bulunğanı yuva"
-
-#~ msgid "Slot Series"
-#~ msgstr "Yuva Silsilesi"
-
-#~ msgid "per-slot card identifier"
-#~ msgstr "yuvağa-mahsus kart kimligi"
-
-#~ msgid "name"
-#~ msgstr "ad"
-
-#~ msgid "Module"
-#~ msgstr "Modül"
-
-# tüklü
-#~ msgid "smartcard driver"
-#~ msgstr "aqıllı-kart sürücisi"
-
-#~ msgid "Smartcard Authentication"
-#~ msgstr "Aqıllı-kart Sahihlenmesi"
-
-#~ msgid "Log into session with smartcard"
-#~ msgstr "Aqıllı-kart ile oturım aç"
-
-#~ msgid "Module Path"
-#~ msgstr "Modül Yolağı"
-
-#~ msgid "path to smartcard PKCS #11 driver"
-#~ msgstr "aqıllı-kart PKCS #11 sürücisine yolaq"
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "vaqia menbasından hata yaki qapama alındı"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "NSS emniyet sistemi başlanğıçlandırılamadı"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "uyğun bir aqıllı-kart sürücisi tapılamadı"
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "aqıllı-kart sürücisi '%s' yüklenamadı"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "kelici kart vaqiaları içün seyretilamadı - %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr "aqıllı-kart vaqialarını beklegende beklenmegen hata rastkeldi"
-
-#~ msgid "Authentication"
-#~ msgstr "Sahihlenme"
-
-#~ msgid "Log into session"
-#~ msgstr "Oturımğa içeri imzalan"
-
-#~ msgid "Value"
-#~ msgstr "Qıymet"
-
-# tüklü
-#~ msgid "percentage of time complete"
-#~ msgstr "tamamlanğan vaqıtnıñ faizi"
-
-#~ msgid "Inactive Text"
-#~ msgstr "Ğayrı Faal Metin"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr "Qullanıcı bir unsurnı saylağance etikette qullanılacaq metin"
-
-#~ msgid "Active Text"
-#~ msgstr "Faal Metin"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr "Qullanıcı bir unsurnı saylağan olsa etikette qullanılacaq metin"
-
-#~ msgid "List Visible"
-#~ msgstr "Liste Körünir"
-
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "Seçici listesiniñ körünir olıp olmağanı"
-
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%a %e %b, %l:%M:%S %p"
-
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%a %e %b, %l:%M %p"
-
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%a %l:%M:%S %p"
-
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%a %l:%M %p"
-
-#~ msgid "Automatically logging in…"
-#~ msgstr "Avtomatiḱ olaraq içeri imzalanıla…"
-
-#~ msgid "Cancelling…"
-#~ msgstr "Vazgeçile…"
-
-# tüklü
-#~ msgid "Select language and click Log In"
-#~ msgstr "Tilni saylap İçeri İmzalan'ğa çertiñiz"
-
-#~ msgctxt "customsession"
-#~ msgid "Custom"
-#~ msgstr "Şahsiyleştirilgen"
-
-#~ msgid "Custom session"
-#~ msgstr "Şahsiyleştirilgen oturım"
-
-#~ msgid "Computer Name"
-#~ msgstr "Bilgisayar İsmi"
-
-#~ msgid "Version"
-#~ msgstr "Sürüm"
-
-#~ msgid "Cancel"
-#~ msgstr "Vazgeç"
-
-#~ msgid "Unlock"
-#~ msgstr "Kilitsizle"
-
-#~ msgid "Login"
-#~ msgstr "İçeri İmzalan"
-
-#~ msgid "Suspend"
-#~ msgstr "Sarqıt"
-
-#~ msgid "Restart"
-#~ msgstr "Kene başlat"
-
-#~ msgid "Shut Down"
-#~ msgstr "Qapat"
-
-#~ msgid "Unknown time remaining"
-#~ msgstr "Bilinmegen zaman qala"
-
-#~ msgid "Panel"
-#~ msgstr "Panel"
-
-#~ msgid "Label Text"
-#~ msgstr "Etiket Metni"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "Bir etiket olaraq qullanılacaq metin"
-
-#~ msgid "Icon name"
-#~ msgstr "İşaretçik adı"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "Etiket ile qullanılacaq işaretçik"
-
-#~ msgid "Default Item"
-#~ msgstr "Ög-belgilengen Unsur"
-
-#~ msgid "The ID of the default item"
-#~ msgstr "Ög-belgilengen unsurnıñ kimligi"
-
-# tüklü
-#~ msgid "Remote Login (Connecting to %s…)"
-#~ msgstr "Uzaqtan İçeri İmzalanuv (%s bağlanıla…)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "Uzaqtan İçeri İmzalanuv (Bağlanıldı: %s)"
-
-#~ msgid "Remote Login"
-#~ msgstr "Uzaqtan İçeri İmzalanuv"
-
-#~ msgid "Session"
-#~ msgstr "Oturım"
-
-# tüklü
-#~ msgid "Duration"
-#~ msgstr "Devamlılıq"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "Vaqıt-ölçer toqtağance saniye sayısı"
-
-#~ msgid "Start time"
-#~ msgstr "Başlanış vaqtı"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "Vaqıt-ölçerniñ başlatılğanı vaqıt"
-
-#~ msgid "Is it Running?"
-#~ msgstr "Çapamı?"
-
-#~ msgid "Whether the timer is currently ticking"
-#~ msgstr "Vaqıt-ölçerniñ hal-hazırda tıq-tıq eteyatıp yatmağanı"
-
-#~ msgid "Log in as %s"
-#~ msgstr "%s olaraq içeri imzalan"
-
-#~ msgctxt "user"
-#~ msgid "Other…"
-#~ msgstr "Diger…"
-
-#~ msgid "Choose a different account"
-#~ msgstr "Başqa bir hesap saylañız"
-
-#~ msgid "Guest"
-#~ msgstr "Musafir"
-
-#~ msgid "Log in as a temporary guest"
-#~ msgstr "Muvaqqat bir musafir olaraq içeri imzalan"
-
-#~ msgid "Automatic Login"
-#~ msgstr "Avtomatik İçeri İmzalanuv"
-
-#~ msgid "Automatically log into the system after selecting options"
-#~ msgstr "İhtiyariyatnı saylağan soñ sistemge öz-özünden içeri imzalan"
-
-#~ msgid "Currently logged in"
-#~ msgstr "Hal-hazırda içeri imzalanğan"
-
-#~ msgid "Unable to start new display"
-#~ msgstr "Yañı kösterim başlatılamadı"
-
-# tüklü
-#~ msgid "Unable to initialize login system"
-#~ msgstr "İçeri imzalanuv sistemi başlanğıçlandırılalmay"
-
-# tüklü
-#~ msgid "Unable to authenticate user"
-#~ msgstr "Qullanıcı sahihlenamadı"
-
-#~ msgid "Unable to establish credentials"
-#~ msgstr "İtimatname belgilenamadı"
-
-#~ msgid "Group %s doesn't exist"
-#~ msgstr "Zümre %s mevcut degil"
-
-#~ msgid "Logdir %s does not exist or isn't a directory."
-#~ msgstr "Kütük cilbenti %s mevcut degil yaki bir cilbent degildir."
-
-# tüklü
-#~ msgid "Authdir %s does not exist. Aborting."
-#~ msgstr "%s sahihleme cilbenti mevcut degil. Abortlana."
-
-#~ msgid "Authdir %s is not a directory. Aborting."
-#~ msgstr "%s sahihleme cilbenti bir cilbent degildir. Abortlana."
-
-#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-#~ msgstr ""
-#~ "%s sahihleme cilbenti %d qullanıcı ve %d zümresine ait degildir. "
-#~ "Abortlana."
-
-#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-#~ msgstr ""
-#~ "%s sahihleme cilbentiniñ %o ruhsetleri yañlıştır. %o olması lâzim. "
-#~ "Abortlana."
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "GNOME Ekran Büyüticisi"
-
-#~ msgid "Magnify parts of the screen"
-#~ msgstr "Ekrannıñ qısımlarını büyüt"
-
-# tüklü
-#~ msgid "GNOME On-Screen Keyboard"
-#~ msgstr "GNOME Ekran-üstü Klavyesi"
-
-#~ msgid "Use an on-screen keyboard"
-#~ msgstr "Bir ekran-üstü klavye qullan"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "Orca Ekran Oquyıcısı"
-
-# tüklü
-#~ msgid "Present on-screen information as speech or braille"
-#~ msgstr "Ekran-üstü malümatnı nutuq yaki qabartma yazı olaraq taqdim et"
-
-#~ msgid "The system is unable to find a login screen to switch to."
-#~ msgstr "Sistem oña almaşmaq içün bir içeri imzalanma ekranını tapalmay."
-
-#~ msgid "Couldn't set groupid to 0"
-#~ msgstr "Zümre nomerası 0 olaraq tesbit etilamadı"
-
-# tüklü
-#~ msgid "Denied XDMCP query from host %s"
-#~ msgstr "%s qonaqbayından XDMCP soramı red etildi"
-
-# tüklü
-#~ msgid "Could not extract authlist from packet"
-#~ msgstr "Sahihleme cedveli paketten çıqarılamadı"
-
-#~ msgid "Error in checksum"
-#~ msgstr "Teşkerme cemisinde (checksum) hata"
-
-#~ msgid "Bad address"
-#~ msgstr "Fena adres"
-
-#~ msgid "%s: Could not read display address"
-#~ msgstr "%s: Kösterim adresi oqulamadı"
-
-#~ msgid "%s: Could not read display port number"
-#~ msgstr "%s: Kösterim liman nomerası oqulamadı"
-
-#~ msgid "%s: Could not extract authlist from packet"
-#~ msgstr "%s: Sahihleme cedveli paketten çıqarılamadı"
-
-#~ msgid "%s: Error in checksum"
-#~ msgstr "%s: Teşkerme cemisinde hata"
-
-#~ msgid "%s: Got REQUEST from banned host %s"
-#~ msgstr "%s: Yasaqlanğan %s sunucısından İSTEM (REQUEST) alındı"
-
-#~ msgid "%s: Could not read Display Number"
-#~ msgstr "%s: KÖSTERİM Numarası oqulamadı"
-
-#~ msgid "%s: Could not read Connection Type"
-#~ msgstr "%s: Bağlantı Türü oqulamadı"
-
-#~ msgid "%s: Could not read Client Address"
-#~ msgstr "%s: Müşteri Adresi oqulamadı."
-
-#~ msgid "%s: Could not read Authentication Data"
-#~ msgstr "%s: Sahihleme Verileri oqulamadı"
-
-#~ msgid "%s: Could not read Authorization List"
-#~ msgstr "%s: Sahihleme Cedveli oqulamadı"
-
-#~ msgid "%s: Could not read Manufacturer ID"
-#~ msgstr "%s: İmalatçı Kimligi oqulamadı"
-
-#~ msgid "%s: Failed checksum from %s"
-#~ msgstr "%s: %s'ten teşkerme cemisi (checksum) muvafaqiyetsiz"
-
-#~ msgid "%s: Got Manage from banned host %s"
-#~ msgstr "%s: Yasaqlanğan %s qonaqbayından İdare Et (Manage) alındı"
-
-#~ msgid "%s: Could not read Session ID"
-#~ msgstr "%s: Oturum Kimligi oqulamadı"
-
-#~ msgid "%s: Could not read Display Class"
-#~ msgstr "%s: Kösterim sınfı oqulamadı"
-
-#~ msgid "%s: Could not read address"
-#~ msgstr "%s: Adres oqulamadı"
-
-#~ msgid "%s: Got KEEPALIVE from banned host %s"
-#~ msgstr "%s: Yasaqlanğan %s qonaqbayından YAŞAT (KEEPALIVE) alındı"
-
-#~ msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-#~ msgstr "GdmXdmcpDisplayFactory: XDMCP başlığı oqulamadı!"
-
-#~ msgid "Could not get server hostname: %s!"
-#~ msgstr "Sunucı qonaqbay adı alınamadı: %s!"
-
-#~ msgid "AT SPI Registry Wrapper"
-#~ msgstr "AT SPI Sicili Sarıcısı"
-
-#~ msgid "Power Manager"
-#~ msgstr "Qudret İdarecisi"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "GNOME Tesbitleri Cını"
-
-# tüklü
-#~ msgid "Metacity"
-#~ msgstr "Metacity"
-
-#~ msgid "%x"
-#~ msgstr "%x"
-
-# tüklü
-#~ msgid "Shutdown Options..."
-#~ msgstr "Söndürüv İhtiyariyatı..."
-
-#~ msgid "Languages"
-#~ msgstr "Tiller"
-
-#~ msgid "_Languages:"
-#~ msgstr "_Tiller"
-
-#~ msgid "_Language:"
-#~ msgstr "_Til:"
-
-#~ msgctxt "language"
-#~ msgid "Other..."
-#~ msgstr "Diger..."
-
-#~ msgid "Choose a language from the full list of available languages."
-#~ msgstr "Faydalanılışlı tillerniñ tolu cedvelinden bir til saylañız."
-
-#~ msgid "Unspecified"
-#~ msgstr "Belirtilmegen"
-
-#~ msgid "Keyboard layouts"
-#~ msgstr "Klavye serimleri"
-
-#~ msgid "_Keyboard:"
-#~ msgstr "_Klavye:"
-
-#~ msgctxt "keyboard"
-#~ msgid "Other..."
-#~ msgstr "Diger..."
-
-#~ msgid "Choose a keyboard layout from the full list of available layouts."
-#~ msgstr "Faydalanılışlı klavyelerniñ tolu cedvelinden bir klavye saylañız."
-
-#~ msgid "Max Item Count"
-#~ msgstr "Azamiy Unsur Sayısı"
-
-#~ msgid "The maximum number of items to keep around in the list"
-#~ msgstr "Cedvelde tutulacaq unsurlarnıñ azamiy sayısı"
-
-# tüklü
-#~ msgid "Banner message text when chooser is empty"
-#~ msgstr "Seçici boş olğanda afiş risalesi metni"
-
-#~ msgid "Do not show known users in the login window"
-#~ msgstr "İçeri imzalanuv penceresinde bilingen qullanıcılarnı kösterme"
-
-# tüklü
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "İrişilebilirlik klavyesi plaginini qabilleştir"
-
-#~ msgid "Enable on-screen keyboard"
-#~ msgstr "Ekran-üstü klavyeni qabilleştir"
-
-#~ msgid "Enable screen magnifier"
-#~ msgstr "Ekran büyüticisini qabilleştir"
-
-#~ msgid "Enable screen reader"
-#~ msgstr "Ekran oquyıcısını qabilleştir"
-
-#~ msgid "Icon name to use for greeter logo"
-#~ msgstr "Selâmlayıcı logosı içün qullanılacaq işaretçik ismi"
-
-#~ msgid "Recently selected keyboard layouts"
-#~ msgstr "Demi saylanğan klavye serimleri"
-
-#~ msgid "Recently selected languages"
-#~ msgstr "Demi saylanğan tiller"
-
-# tüklü
-#~ msgid ""
-#~ "Set to a list of keyboard layouts to be shown by default at the login "
-#~ "window."
-#~ msgstr ""
-#~ "İçeri imzalanuv penceresinde ög-belgilengen olaraq kösterilecek bir "
-#~ "klavye serimleri cedveline tesbit etiñiz."
-
-#~ msgid ""
-#~ "Set to a list of languages to be shown by default at the login window."
-#~ msgstr ""
-#~ "İçeri imzalanuv penceresinde ög-belgilengen olaraq kösterilecek bir "
-#~ "tiller cedveline tesbit etiñiz."
-
-#~ msgid "Set to the themed icon name to use for the greeter logo."
-#~ msgstr ""
-#~ "Selâmlayıcı logosı içün qullanılacaq temalı işaretçik ismine tesbit "
-#~ "etiñiz."
-
-#~ msgid "Set to true to disable showing known users in the login window."
-#~ msgstr ""
-#~ "İçeri imzalanuv penceresinde bilingen qullanıcılarnıñ kösterilüvini ğayrı "
-#~ "qabilleştirmek içün doğruğa ayarlañız."
-
-#~ msgid "Set to true to enable the background settings manager plugin."
-#~ msgstr ""
-#~ "Arqa-zemin ayarları idarecisi plaginini qabilleştirmek içün doğruğa "
-#~ "ayarlañız."
-
-# tüklü
-#~ msgid "Set to true to enable the media-keys settings manager plugin."
-#~ msgstr ""
-#~ "Vasat-tuşları ayarları idarecisi plaginini qabilleştirmek içün doğruğa "
-#~ "ayarlañız."
-
-#~ msgid "Set to true to enable the on-screen keyboard."
-#~ msgstr "Ekran-üstü klavyeni qabilleştirmek içün doğruğa ayarlañız."
-
-#~ msgid ""
-#~ "Set to true to enable the plugin to manage the accessibility keyboard "
-#~ "settings."
-#~ msgstr ""
-#~ "İrişilebilirlik klavyesi ayarlarını idare etecek plaginni qabilleştirmek "
-#~ "içün doğruğa ayarlañız."
-
-#~ msgid "Set to true to enable the screen magnifier."
-#~ msgstr "Ekran büyüticisini qabilleştirmek içün doğruğa ayarlañız."
-
-#~ msgid "Set to true to enable the screen reader."
-#~ msgstr "Ekran oquyıcısını qabilleştirmek içün doğruğa ayarlañız."
-
-#~ msgid "Set to true to enable the sound settings manager plugin."
-#~ msgstr ""
-#~ "Davuş ayarları idarecisi plaginini qabilleştirmek içün doğruğa ayarlañız."
-
-#~ msgid "Set to true to enable the xrandr settings manager plugin."
-#~ msgstr ""
-#~ "Xrandr ayarları idarecisi plaginini qabilleştirmek içün doğruğa ayarlañız."
-
-#~ msgid "Set to true to enable the xsettings settings manager plugin."
-#~ msgstr ""
-#~ "Xsettings ayarları idarecisi plaginini qabilleştirmek içün doğruğa "
-#~ "ayarlañız."
-
-#~ msgid "Set to true to use compiz as the window manager."
-#~ msgstr ""
-#~ "Pencere idarecisi olaraq compiz'ni qullanmaq içün doğruğa tesbit etiñiz."
-
-#~ msgid ""
-#~ "Text banner message to show on the login window when the user chooser is "
-#~ "empty, instead of banner_message_text."
-#~ msgstr ""
-#~ "Qullanıcı seçicisi boş olğanda, içeri imzalanuv penceresinde, "
-#~ "banner_message_text yerine, kösterilecek metin afişi mesajı."
-
-#~ msgid "True if the background settings manager plugin is enabled."
-#~ msgstr ""
-#~ "Arqa-zemin tesbitleri idarecisi plagini qabilleştirilgen ise, doğru."
-
-#~ msgid "True if the media-keys settings manager plugin is enabled."
-#~ msgstr ""
-#~ "Vasat-tuşları ayarları idarecisi plagini qabilleştirilgen ise, doğru."
-
-#~ msgid "True if the sound settings manager plugin is enabled."
-#~ msgstr "Ses tesbitleri idarecisi plagini qabilleştirilgen ise, doğru."
-
-#~ msgid "True if the xrandr settings manager plugin is enabled."
-#~ msgstr "xrandr tesbitleri idarecisi plagini qabilleştirilgen ise, doğru."
-
-#~ msgid "True if the xsettings settings manager plugin is enabled."
-#~ msgstr "xsettings tesbitleri idarecisi plagini qabilleştirilgen ise, doğru."
-
-#~ msgid "Use compiz as the window manager"
-#~ msgstr "Pencere idarecisi olaraq compiz'ni qullan"
-
-#~ msgid "Manager"
-#~ msgstr "İdareci"
-
-#~ msgid "The user manager object this user is controlled by."
-#~ msgstr "Bu qullanıcını muraqabe etken qullanıcı idarecisi nesnesi."
-
-# tüklü
-#~ msgid ""
-#~ "The User Switch Applet is free software; you can redistribute it and/or "
-#~ "modify it under the terms of the GNU General Public License as published "
-#~ "by the Free Software Foundation; either version 2 of the License, or (at "
-#~ "your option) any later version."
-#~ msgstr ""
-#~ "Qullanıcı Almaştıruv Uyğulamaçığı serbest yazılımdır; onı Serbest Yazılım "
-#~ "Vaqfı (FSF) tarafından neşir etilgeni kibi GNU Umumiy Aleniy Litsenziyası "
-#~ "şartları altında kene dağıtabilir ve/yaki deñiştirebilirsiñiz; ya "
-#~ "Litsenziyanıñ 2-nci sürümi, ya da (ihtiyarıñızğa köre) her hangi soñraki "
-#~ "sürümi."
-
-#~ msgid ""
-#~ "This program is distributed in the hope that it will be useful, but "
-#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
-#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
-#~ "Public License for more details."
-#~ msgstr ""
-#~ "Bu program faydalı olacağı ümüti ile, lâkin HER HANGİ KEFALET OLMADAN "
-#~ "dağıtıla; hatta zımniy ALIP-VERİLEBİLİRLİK yaki BELLİ MURATQA LİYAQAT "
-#~ "kefaleti olmadan. Daha çoq tafsilât içün GNU Umumiy Aleniy Litsenziyasını "
-#~ "körüñiz."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with this program; if not, write to the Free Software Foundation, Inc., "
-#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA "
-#~ msgstr ""
-#~ "Bu program ile beraber bir GNU Umumiy Aleniy Litsenziyası kopiyasını "
-#~ "berilgen olmañız lâzim; aksi taqdirde, Serbest Yazılım Vaqfı'na yazıñız: "
-#~ "Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, "
-#~ "MA 02110-1301, USA "
-
-#~ msgid "A menu to quickly switch between users."
-#~ msgstr "Qullanıcılar arasında çabik almaşmaq içün bir menü"
-
-#~ msgid "translator-credits"
-#~ msgstr "Reşat SABIQ <tilde.birlik@gmail.com>, 2009, 2011"
-
-#~ msgid "Can't lock screen: %s"
-#~ msgstr "Ekran kilitlenamadı: %s"
-
-# tüklü
-#~ msgid "Can't temporarily set screensaver to blank screen: %s"
-#~ msgstr "Ekran-qoruyıcı boş ekranğa muvaqqat olaraq tesbit etilalmay: %s"
-
-#~ msgid "Can't logout: %s"
-#~ msgstr "Tışarı imzalanalmayım: %s"
-
-#~ msgid "Available"
-#~ msgstr "Faydalanılışlı"
-
-#~ msgid "Invisible"
-#~ msgstr "Körünmez"
-
-#~ msgid "Busy"
-#~ msgstr "Meşğul"
-
-#~ msgid "Away"
-#~ msgstr "Uzaqta"
-
-#~ msgid "Account Information"
-#~ msgstr "Hesap Malümatı"
-
-#~ msgid "System Preferences"
-#~ msgstr "Sistem Tercihleri"
-
-#~ msgid "Lock Screen"
-#~ msgstr "Ekrannı Kilitle"
-
-#~ msgid "Switch User"
-#~ msgstr "Qullanıcını Almaştır"
-
-#~ msgid "Quit..."
-#~ msgstr "Terk Et..."
-
-#~ msgid "Unknown"
-#~ msgstr "Namalüm"
-
-#~ msgid "User Switch Applet"
-#~ msgstr "Qullanıcı Almaştıruv Uyğulamaçığı"
-
-#~ msgid "Change account settings and status"
-#~ msgstr "Hesap tesbitleri ve durumını deñiştir"
-
-#~ msgid "A menu to quickly switch between users"
-#~ msgstr "Qullanıcılar arasında çabik almaşmaq içün bir menü"
-
-#~ msgid "User Switcher"
-#~ msgstr "Qullanıcı Almaştırıcı"
-
-#~ msgid "User Switcher Applet Factory"
-#~ msgstr "Qullanıcı Almaştırıcı Uyğulamaçıq Fabrikası"
-
-#~ msgid "Edit Personal _Information"
-#~ msgstr "Şahsiy _Malümatnı Tahrir Et"
-
-#~ msgid "_About"
-#~ msgstr "_Haqqında"
-
-#~ msgid "_Edit Users and Groups"
-#~ msgstr "Qullanıcılarnı ve Zümrelerni _Tahrir Et"
-
-# tüklü
-#~ msgid "Enable debugging code"
-#~ msgstr "Arızasızlandıruv kodunı qabilleştir"
-
-#~ msgid "id"
-#~ msgstr "kimlik"
-
-#~ msgid "%a %b %e"
-#~ msgstr "%a %e %b"
-
-#~ msgid "%1$s, %2$s"
-#~ msgstr "%1$s, %2$s"
-
-#~ msgid "Enable debugging"
-#~ msgstr "Arızasızlandıruvnı qabilleştir"
-
-# tüklü
-#~ msgid "Enable debugging mode for the greeter."
-#~ msgstr "Selâmlayıcı içün arızasızlandıruv kelişini qabilleştir."
-
-#~ msgid "worker exited with status %d"
-#~ msgstr "işçi %d durumı ile çıqqan"
-
-#~ msgid "Unable establish credentials"
-#~ msgstr "İtimatname tesbit etilamadı"
-
-#~ msgid ""
-#~ "You are not allowed to restart the computer because multiple users are "
-#~ "logged in"
-#~ msgstr ""
-#~ "Birden fazla qullanıcınıñ içeri imzalanğan oluvından dolayı bilgisayarnı "
-#~ "kene başlatuvıñız caiz degildir"
-
-#~ msgid "Failed to stop computer"
-#~ msgstr "Bilgisayar toqtatılamadı"
-
-#~ msgid ""
-#~ "You are not allowed to stop the computer because multiple users are "
-#~ "logged in"
-#~ msgstr ""
-#~ "Birden fazla qullanıcınıñ içeri imzalanğan oluvından dolayı bilgisayarnı "
-#~ "toqtatuvıñız caiz degildir"
-
-#~ msgid "page 5"
-#~ msgstr "saife 5"
-
-#~ msgid "error initiating conversation with authentication system: %s"
-#~ msgstr "sahihleme sistemi ile laf başlatqanda hata: %s"
-
-#~ msgid "Change login screen configuration"
-#~ msgstr "İçeri imzalanuv yapılandırışını deñiştir"
-
-#~ msgid "Privileges are required to change the login screen configuration."
-#~ msgstr ""
-#~ "İçeri imzalanuv yapılandırışını deñiştirmek içün imtiyazlar şarttır."
-
-#~ msgid "AT-SPI Registry Wrapper"
-#~ msgstr "AT-SPI Sicili Sarıcısı"
-
-#~ msgid "Configure login screen behavior"
-#~ msgstr "İçeri imzalanma ekranı davranışını yapılandır"
-
-#~ msgid "Login Screen"
-#~ msgstr "İçeri İmzalanma Ekranı"
-
-#~ msgid "Log in as %s automatically"
-#~ msgstr "%s olaraq öz-özünden içeri imzalan"
-
-#~ msgid "Allow %s seconds for anyone else to log in first"
-#~ msgstr "Evelâ başqa biriniñ içeri imzalanması içün %s saniye izin ber"
-
-#~ msgid "Select %s as default session"
-#~ msgstr "%s ögbelgilengen oturım olsun"
-
-#~ msgid "Login Screen Settings"
-#~ msgstr "İçeri İmzalanma Ekranı Ayarları"
-
-#~ msgid "Play login sound"
-#~ msgstr "İçeri imzalanma davuşını çal"
-
-#~ msgid "Show list of users"
-#~ msgstr "Qullanıcılar listesini köster"
-
-#~ msgid "When the computer starts up:"
-#~ msgstr "Bilgisayar başlağanda:"
-
-#~ msgid "_Show the screen for choosing who will log in"
-#~ msgstr "_Kimniñ içeri imzalanacağınıñ saylanacağı ekrannı köster"
-
-#~ msgid "_Unlock"
-#~ msgstr "_Kilitsizle"
-
-# tüklü
-#~ msgid "Shutdown Options…"
-#~ msgstr "Söndürüv İhtiyariyatı…"
-
-#~ msgctxt "language"
-#~ msgid "Other…"
-#~ msgstr "Diger…"
-
-#~ msgid "Language"
-#~ msgstr "Til"
-
-#~ msgctxt "keyboard"
-#~ msgid "Other…"
-#~ msgstr "Diger…"
-
-#~ msgid "Keyboard"
-#~ msgstr "Klavye"
-
-# tüklü
-#~ msgid ""
-#~ "Set to a list of keyboard layouts to be shown by default in the login "
-#~ "window."
-#~ msgstr ""
-#~ "İçeri imzalanuv penceresinde ögbelgilengen olaraq kösterilecek bir klavye "
-#~ "tizilimleri cedveline tesbit etiñiz."
-
-#~ msgid ""
-#~ "Set to a list of languages to be shown by default in the login window."
-#~ msgstr ""
-#~ "İçeri imzalanuv penceresinde ögbelgilengen olaraq kösterilecek bir tiller "
-#~ "cedveline tesbit etiñiz."
-
-#~ msgid "Set to true to enable the XRandR settings manager plugin."
-#~ msgstr ""
-#~ "XRandR ayarları idarecisi plaginini qabilleştirmek içün doğruğa ayarlañız."
-
-#~ msgid "Set to true to use Compiz as the window manager."
-#~ msgstr ""
-#~ "Pencere idarecisi olaraq Compiz'ni qullanmaq içün doğruğa tesbit etiñiz."
-
-#~ msgid ""
-#~ "Text banner message to show in the login window when the user chooser is "
-#~ "empty, instead of banner_message_text."
-#~ msgstr ""
-#~ "Qullanıcı seçicisi boş olğanda, içeri imzalanuv penceresinde, "
-#~ "banner_message_text yerine, kösterilecek metin afişi mesajı."
-
-#~ msgid "True if the XRandR settings manager plugin is enabled."
-#~ msgstr "XRandR ayarları idarecisi plagini qabilleştirilgen ise, doğru."
-
-#~ msgid "Use Compiz as the window manager"
-#~ msgstr "Pencere idarecisi olaraq Compiz'ni qullan"
-
-#~ msgid "Can't log out: %s"
-#~ msgstr "Tışarı imzalanalmayım: %s"
-
-#~ msgid "Quit…"
-#~ msgstr "Terk Et…"
-
-#~ msgid "%s: Could not open logfile for display %s!"
-#~ msgstr "%s: %s kösterimi içün kütük dosyesi açılamadı!"
-
-#~ msgid "error informing authentication system of user's hostname - %s"
-#~ msgstr ""
-#~ "sahihleme sistemini qullanıcınıñ qonaqbayı haqqında malümatlandırğanda "
-#~ "hata - %s"
-
-#~ msgid "error informing authentication system of user's console - %s"
-#~ msgstr ""
-#~ "sahihleme sistemini qullanıcınıñ konsolı haqqında malümatlandırğanda hata "
-#~ "- %s"
-
-#~ msgid "error informing authentication system of display string - %s"
-#~ msgstr ""
-#~ "sahihleme sistemini kösterim tizgisi haqqında malümatlandırğanda hata - %s"
-
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials - %s"
-#~ msgstr ""
-#~ "sahihleme sistemini kösterim xauth itimatnamesi haqqında "
-#~ "malümatlandırğanda hata - %s"
-
-#~ msgid "Cannot write PID file %s: possibly out of diskspace: %s"
-#~ msgstr "PID dosyesi %s yazılamadı: belki disk tolu: %s"
-
-#~ msgid "Exit after a time - for debugging"
-#~ msgstr "Birazdan soñ çıq - arızasızlandıruv içün"
-
-# tüklü
-#~ msgid "GNOME Onscreen Keyboard"
-#~ msgstr "Ekran-üstü GNOME Klavyesi"
-
-#~ msgid "Use an onscreen keyboard"
-#~ msgstr "Bir ekran-üstü klavye qullan"
-
-#~ msgid "Automatically logging in..."
-#~ msgstr "Avtomatḱ olaraq içeri imzalanıla..."
-
-#~ msgid "Cancelling..."
-#~ msgstr "Vazgeçile..."
-
-#~ msgid "Remote Login (Connecting to %s...)"
-#~ msgstr "Uzaqtan İçeri İmzalanuv (Bağlanıla: %s...)"
-
-#~ msgid "Text banner message to show on the login window."
-#~ msgstr "İçeri imzalanuv penceresinde kösterilecek metin afişi risalesi."
-
-#~ msgctxt "user"
-#~ msgid "Other..."
-#~ msgstr "Diger..."
-
-#~ msgid "Login as a temporary guest"
-#~ msgstr "Muvaqqat musafir olaraq içeri imzalan"
-
-#~ msgid "Automatically login to the system after selecting options"
-#~ msgstr "İhtiyariyatnı saylağan soñ sistemge öz-özünden içeri imzalan"
-
-# tüklü
-#~ msgid "Ignored - retained for compatibility"
-#~ msgstr "İhmal etildi - telif qabiliyeti içün alıqoyuldı"
-
-#~ msgid ""
-#~ "Could not start the X server (your graphical environment) due to some "
-#~ "internal error. Please contact your system administrator or check your "
-#~ "syslog to diagnose. In the meantime this display will be disabled.  "
-#~ "Please restart GDM when the problem is corrected."
-#~ msgstr ""
-#~ "X sunucısını (siziñ grafikiy çevreñizni) dahiliy bir hata yüzünden "
-#~ "başlatamadım. Lütfen sistem memurıñıznen temasqa keçiñiz yaki teşhislemek "
-#~ "içün sistem kütügiñizni teşkeriñiz. Bu arada bu kösterim ğayrı "
-#~ "qabilleştirilecek.  Lütfen hata tüzetilgen soñ GDM'ni kene başlatıñız."
-
-# tüklü
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt - %s"
-#~ msgstr ""
-#~ "sahihleme sistemini tercih etilgen qullanıcı adı indemesi haqqında "
-#~ "malümatlandırğanda hata - %s"

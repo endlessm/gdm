@@ -1,23 +1,22 @@
-# Kyrgyz translation for gdm.
-# Copyright (C) 2012 gdm authors
-# This file is distributed under the same license as the gdm package.
-#
-#
-# Timur Zhamakeev <ztimur@gmail.com>, 2012.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Timur Zhamakeev <ztimur@gmail.com>, 2012
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm master\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2012-09-25 15:35+0600\n"
-"Last-Translator: Timur Zhamakeev <ztimur@gmail.com>\n"
-"Language-Team: Kirghiz <gnome-i18n@gnome.org>\n"
-"Language: ky\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 22:31+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Kyrgyz (http://www.transifex.com/endless-mobile-inc/gdm/language/ky/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ky\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 1.4\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -114,7 +113,7 @@ msgstr "%s: %s дисплейи үчүн бош сервер командасы"
 
 #: ../daemon/gdm-session-auditor.c:90
 msgid "Username"
-msgstr "Колдонуучу"
+msgstr "Наама"
 
 #: ../daemon/gdm-session-auditor.c:91
 msgid "The username"
@@ -148,42 +147,34 @@ msgstr ""
 msgid "Sorry, that didn't work. Please try again."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Колдонуучу:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "колдонуучунун каттоо жазымы жеткиликсиз"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Колдонуучуну алмаштырууга болбоду"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Ички катага байланыштуу X серверин (сиздин графикалык чөйрөңүз) иштетүүгө "
-"болбоду. Системанын администратору менен байланышыңыз же болбосо, көйгөй "
-"жөнүндө маалымат үчүн, системанын журналын караңыз. Азыр бул дисплей "
-"өчүрүлөт. Көйгөй чечилген соң GDM ди кайра иштетиңиз."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Ички катага байланыштуу X серверин (сиздин графикалык чөйрөңүз) иштетүүгө болбоду. Системанын администратору менен байланышыңыз же болбосо, көйгөй жөнүндө маалымат үчүн, системанын журналын караңыз. Азыр бул дисплей өчүрүлөт. Көйгөй чечилген соң GDM ди кайра иштетиңиз."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -195,9 +186,9 @@ msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr "PID файлын жазууга болбоду %s: дискте бош  орун жок болушу мүмкүн: %s"
 
 #: ../daemon/main.c:188
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr "Өткөөл экранды түзүүгө болбоду: "
+msgstr ""
 
 #: ../daemon/main.c:194
 #, c-format
@@ -265,9 +256,7 @@ msgstr "Системага кирүү үчүн манжанын изин оку�
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Системага кирүү терезеси колдонуучулар үчүн манжа изин окуучу түзүлүштү "
-"колдонууга шарт түзөт."
+msgstr "Системага кирүү терезеси колдонуучулар үчүн манжа изин окуучу түзүлүштү колдонууга шарт түзөт."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -277,14 +266,11 @@ msgstr "Системага кирүү үчүн смарт-кард окуучу 
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Системага кирүү терезеси колдонуучулар үчүн смарт-кард окуучу түзүлүштү "
-"колдонууга шарт түзөт."
+msgstr "Системага кирүү терезеси колдонуучулар үчүн смарт-кард окуучу түзүлүштү колдонууга шарт түзөт."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
-#, fuzzy
 msgid "Whether or not to allow passwords for login"
-msgstr "Системага кирүү үчүн смарт-кард окуучу түзүмдү иштетүү уруксаты"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:6
 msgid ""
@@ -301,20 +287,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"Системага кирүү терезеси колдонуучулар тизмесинин башында анча чоң эмес "
-"сүрөттү чагылдыра алат. Ал администраторлорго жана дистрибюторлорго фирмалык "
-"белги катары колдонууга мүмкүндүк берет."
+msgstr "Системага кирүү терезеси колдонуучулар тизмесинин башында анча чоң эмес сүрөттү чагылдыра алат. Ал администраторлорго жана дистрибюторлорго фирмалык белги катары колдонууга мүмкүндүк берет."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
-"Системага кайра кирүү терезеси колдонуучулар тизмесинин башында анча чоң "
-"эмес сүрөттү чагылдыра алат. Ал администраторлорго жана дистрибюторлорго "
-"фирмалык белги катары колдонууга мүмкүндүк берет."
+msgstr "Системага кайра кирүү терезеси колдонуучулар тизмесинин башында анча чоң эмес сүрөттү чагылдыра алат. Ал администраторлорго жана дистрибюторлорго фирмалык белги катары колдонууга мүмкүндүк берет."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -322,11 +302,9 @@ msgstr "Колдонуучулар тизмесин көрсөтпөө"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Демейде, системага кирүү терезеси колдонуучулардын тизмесин чагылдырат. Бул "
-"параметр менен тизмени чыгарууну башкарууга болот."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Демейде, системага кирүү терезеси колдонуучулардын тизмесин чагылдырат. Бул параметр менен тизмени чыгарууну башкарууга болот."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -349,10 +327,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Системаны кайра иштетүү баскычын өчүрүү"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Эгер орнотулса, системага кирүү терезесинде \"Кайра иштетүү\" баскычы "
-"болбойт."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Эгер орнотулса, системага кирүү терезесинде \"Кайра иштетүү\" баскычы болбойт."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -362,9 +339,7 @@ msgstr "Ийгиликсиз аутентификациянын саны"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Колдонуучуну тандоо аракетине өтүү алдында, аутентификация аракеттеринин "
-"саны."
+msgstr "Колдонуучуну тандоо аракетине өтүү алдында, аутентификация аракеттеринин саны."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -379,14 +354,12 @@ msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: XDMCP баш параметрлерин окууга болбоду! "
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-#, fuzzy
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XMDCP: XDMCP дал келбеген версиясы!"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-#, fuzzy
 msgid "XDMCP: Unable to parse address"
-msgstr "XMDCP: дарек ажыратылган жок"
+msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:72
 msgid "Unable to create transient display: "
@@ -415,7 +388,7 @@ msgstr "Ката издөө үчүн маалымат чыгаруу"
 
 #: ../utils/gdmflexiserver.c:52
 msgid "Version of this application"
-msgstr ""
+msgstr "Бул иштеменени версиясы"
 
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
@@ -430,350 +403,3 @@ msgstr "Экрандын сүрөтү алынды"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Экрандын сүрөтүн алуу"
-
-#~ msgid "No session available yet"
-#~ msgstr "Сессия ачыла элек"
-
-#~ msgid "Unable to look up UID of user %s"
-#~ msgstr "%s колдонуучусунун UID ин табууга болбоду"
-
-#~ msgid "no sessions available"
-#~ msgstr "сессия жок"
-
-#~ msgid "No sessions for %s available for reauthentication"
-#~ msgstr "кайра аутентификацияга, %s үчүн сессия жок"
-
-#~ msgid "Unable to find session for user %s"
-#~ msgstr "%s колдонуучусу үчүн сессия табылбады"
-
-#~ msgid "Unable to find appropriate session for user %s"
-#~ msgstr "%s колдонуучусунун тийиштүү сессиясы табылган жок"
-
-#~ msgid "User doesn't own session"
-#~ msgstr "Колдонуучу сессиянын ээси эмес"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: '%s' дисплейине туташуу ишке ашпады"
-
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr "%s - аутентификациялоо системасы менен байланышуу катасы"
-
-#~ msgid "general failure"
-#~ msgstr "жалпы ката"
-
-#~ msgid "out of memory"
-#~ msgstr "эс жетишсиз"
-
-#~ msgid "application programmer error"
-#~ msgstr "программалык ката"
-
-#~ msgid "unknown error"
-#~ msgstr "белгисиз ката"
-
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt: %s"
-#~ msgstr ""
-#~ "колдонуучунун атынын форматы жөнүндө аутентификациялоо системасын "
-#~ "кабарлоо катасы: %s"
-
-#~ msgid "error informing authentication system of user's hostname: %s"
-#~ msgstr ""
-#~ "колдонуучунун түйүнү жөнүндө аутентификациялоо системасын кабарлоо "
-#~ "катасы: %s"
-
-#~ msgid "error informing authentication system of user's console: %s"
-#~ msgstr ""
-#~ "колдонуучунун консолу жөнүндө аутентификациялоо системасын кабарлоо "
-#~ "катасы: %s"
-
-#~ msgid "error informing authentication system of display string: %s"
-#~ msgstr ""
-#~ "дисплей сабы жөнүндө аутентификациялоо системасын кабарлоо катасы: %s"
-
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials: %s"
-#~ msgstr ""
-#~ "дисплейдин xauth укуктары жөнүндө аутентификациялоо системасын кабарлоо "
-#~ "катасы: %s"
-
-#~ msgid "User not logged in"
-#~ msgstr "Колдонуучу системага кирген эмес"
-
-#~ msgid "Currently, only one client can be connected at once"
-#~ msgstr "Учурда бир гана клиент туташууга болот"
-
-#~ msgid "Logdir %s does not exist or isn't a directory."
-#~ msgstr "%s - журнал каталогу жок же ал каталог эмес."
-
-#~ msgid "Authdir %s does not exist. Aborting."
-#~ msgstr "%s - аутентификация каталогу жок. Кескин токтотулду."
-
-#~ msgid "Authdir %s is not a directory. Aborting."
-#~ msgstr "%s - аутентификация каталогу эмес. Кескин токтотулду."
-
-#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-#~ msgstr ""
-#~ "%1$s - аутентификация каталогуна %3$d группасындагы %2$d колднуучу ээ "
-#~ "эмес. Кескин токтотулду."
-
-#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-#~ msgstr ""
-#~ "%s - аутентификация каталогунун укугу %o - ката. %o болуусу шарт. Кескин "
-#~ "токтотулду."
-
-#~ msgid "Display ID"
-#~ msgstr "Дисплей идентификатору"
-
-#~ msgid "ID"
-#~ msgstr "Идентификатор"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "Баш ийген GNOME дисплей менеджери"
-
-#~ msgid "Login Window"
-#~ msgstr "Системага кирүү терезеси"
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "GNOME экран лупасы"
-
-#~ msgid "Magnify parts of the screen"
-#~ msgstr "Экрандын бөлүктөрүн чоңойтуу"
-
-#~ msgid "GNOME On-Screen Keyboard"
-#~ msgstr "GNOME экран алиптактасы"
-
-#~ msgid "Use an on-screen keyboard"
-#~ msgstr "Экран алиптактасын колдонуу"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "Orca экранды окуу программасы"
-
-#~ msgid "Present on-screen information as speech or braille"
-#~ msgstr "Экрандагы маалыматты үндөштүрөт же Брайл экранын чыгарат"
-
-#~ msgid "Fingerprint Authentication"
-#~ msgstr "Манжа изи аркылуу аутентификация"
-
-#~ msgid "Log into session with fingerprint"
-#~ msgstr "Манжа изин окуу аркылуу кирүү"
-
-#~ msgid "Password Authentication"
-#~ msgstr "Сырзөз киргизүү аркылуу кирүү"
-
-#~ msgid "Log into session with username and password"
-#~ msgstr "Системага колдонуучунун аты жана  сырсөзү аркылуу кирүү"
-
-#~ msgid "Log In"
-#~ msgstr "Кирүү"
-
-#~ msgid "Slot ID"
-#~ msgstr "Слоттун идентификатору"
-
-#~ msgid "The slot the card is in"
-#~ msgstr "Картанын слоту:"
-
-#~ msgid "Slot Series"
-#~ msgstr "Слот тобу"
-
-#~ msgid "per-slot card identifier"
-#~ msgstr "слотко карата картанын идентификатору"
-
-#~ msgid "name"
-#~ msgstr "аты"
-
-#~ msgid "Module"
-#~ msgstr "Модул"
-
-#~ msgid "smartcard driver"
-#~ msgstr "смарт-картанын драйвери"
-
-#~ msgid "Smartcard Authentication"
-#~ msgstr "Смар-карта аутентификациясы"
-
-#~ msgid "Log into session with smartcard"
-#~ msgstr "Системага смарт-картанын жардамы менен кирүү"
-
-#~ msgid "Module Path"
-#~ msgstr "Модулдун жолу"
-
-#~ msgid "path to smartcard PKCS #11 driver"
-#~ msgstr "PKCS #11 смарт-картасынын драйверини жолу"
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "маалымат булагынан ката же баш тартуу кабары алынды"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "NSS коопсуздук системасы инициализация болбоду"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "жарактуу смарт-карта драйвери табылган жок"
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "'%s' смарт-карта драйверин жүктөөгө болбоду"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "картадан келген кабарларды байкоого болбоду - %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr "смарт-картадан кабар алуу убагында күтүүсүз ката пайда болду"
-
-#~ msgid "Authentication"
-#~ msgstr "Аутентификация"
-
-#~ msgid "Log into session"
-#~ msgstr "Сессияга кирүү"
-
-#~ msgid "Value"
-#~ msgstr "Маани"
-
-#~ msgid "percentage of time complete"
-#~ msgstr "проценти аяктады"
-
-#~ msgid "Inactive Text"
-#~ msgstr "Пассивдүү текст"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr "Колдонуучу элемент тандай элек учурдагы белгинин тексти"
-
-#~ msgid "Active Text"
-#~ msgstr "Активдүү текст"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr "Колдонуучу элемент тандаган учурдагы белгинин тексти"
-
-#~ msgid "List Visible"
-#~ msgstr "Тизмени көрсөтүү"
-
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "Тандоо тизмесин көрсөтүү"
-
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%a %b %e, %l:%M:%S %p"
-
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%a %b %e, %l:%M %p"
-
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%a %l:%M:%S %p"
-
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%a %l:%M %p"
-
-#~ msgid "Automatically logging in…"
-#~ msgstr "Системага автоматтык түрдө кирүү…"
-
-#~ msgid "Cancelling…"
-#~ msgstr "Токтотуу..."
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "Тилди тандап \"Системага кирүү\" баскычын тандаңыз"
-
-#~ msgctxt "customsession"
-#~ msgid "Custom"
-#~ msgstr "Башка"
-
-#~ msgid "Custom session"
-#~ msgstr "Башка сессия"
-
-#~ msgid "Computer Name"
-#~ msgstr "Компьютердин аты"
-
-#~ msgid "Version"
-#~ msgstr "Версиясы"
-
-#~ msgid "Cancel"
-#~ msgstr "Айынуу"
-
-#~ msgid "Unlock"
-#~ msgstr "Блоктон чыгаруу"
-
-#~ msgid "Login"
-#~ msgstr "Кирүү"
-
-#~ msgid "Suspend"
-#~ msgstr "Уктоо режими"
-
-#~ msgid "Restart"
-#~ msgstr "Кайра иштетүү"
-
-#~ msgid "Shut Down"
-#~ msgstr "Өчүрүү"
-
-#~ msgid "Unknown time remaining"
-#~ msgstr "Калган убакыт белгисиз"
-
-#~ msgid "Panel"
-#~ msgstr "Панель"
-
-#~ msgid "Label Text"
-#~ msgstr "Белгинин тексти"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "Белги катары колдонулуучу текст"
-
-#~ msgid "Icon name"
-#~ msgstr "Сүрөттүн аты"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "Белги менен кошо колдонулуучу сүрөт"
-
-#~ msgid "Default Item"
-#~ msgstr "Абалкы тандалган элемент"
-
-#~ msgid "The ID of the default item"
-#~ msgstr "Абалкы элементтин идентификатору"
-
-#~ msgid "Remote Login (Connecting to %s…)"
-#~ msgstr "Аралыктан кирүү (%s менен туташуу…)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "Аралыктан кирүү (%s менен туташылды)"
-
-#~ msgid "Remote Login"
-#~ msgstr "Аралыктан кирүү"
-
-#~ msgid "Session"
-#~ msgstr "Сессия"
-
-#~ msgid "Duration"
-#~ msgstr "Узактыгы"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "Таймердин токтошунун секунду"
-
-#~ msgid "Start time"
-#~ msgstr "Баштоо убактысы"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "Таймердин убактысы башталды"
-
-#~ msgid "Is it Running?"
-#~ msgstr "Иштеп жатабы?"
-
-#~ msgid "Whether the timer is currently ticking"
-#~ msgstr "Учурда таймер иштеп жатабы"
-
-#~ msgid "Log in as %s"
-#~ msgstr "%s катары кирүү"
-
-#~ msgctxt "user"
-#~ msgid "Other…"
-#~ msgstr "Башка колдонуучу..."
-
-#~ msgid "Choose a different account"
-#~ msgstr "Башка нааманы тандоо"
-
-#~ msgid "Guest"
-#~ msgstr "Конок"
-
-#~ msgid "Log in as a temporary guest"
-#~ msgstr "Убактылуу конок катары кирүү"
-
-#~ msgid "Automatic Login"
-#~ msgstr "Автоматтык кирүү"
-
-#~ msgid "Automatically log into the system after selecting options"
-#~ msgstr "Параметрлер тандалган соң системага автоматтык кирүү"
-
-#~ msgid "Currently logged in"
-#~ msgstr "Системада катталган"

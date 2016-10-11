@@ -3,21 +3,27 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# abderrahim <a.kitouni@gmail.com>, 2011-2012
 # Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004
-# Arafat Medini <lumina@silverpen.de>, 2002,2004
+# Anas El Husseini <linux.anas@gmail.com>, 2007
+# Arafat Medini <lumina@silverpen.de>, 2002-2004
 # Djihed Afifi <djihed@gmail.com>, 2006-2007
+# Ibrahim Saed <ibraheem5000@gmail.com>, 2012
 # Isam Bayazidi <bayazidi@arabeyes.org>, 2002
-# Khaled Hosny <khaledhosny@eglug.org>, 2006-2013
+# Khaled Hosny <khaledhosny@eglug.org>, 2006-2016
 # M.Hanny Sabbagh <hannysabbagh@hotmail.com>, 2013
+# Muhannad Alrusayni <muhannad.alrusayni@gmail.com>, 2016
 # Nuriddin Aminagha <nuriddin@haydarlinux.org>, 2002
+# safa1996alfulaij <safa1996alfulaij@gmail.com>, 2016
+# Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002
 # Usama Akkad <uak@aya.sy>, 2008
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-05 02:35+0000\n"
-"PO-Revision-Date: 2015-11-17 03:39+0000\n"
-"Last-Translator: endlessmobile_build <philip@endlessm.com>\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:36+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/endless-mobile-inc/gdm/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -200,7 +206,7 @@ msgstr "فشل في إنشاء دليل علامة نُفِذ مرة %s: %s"
 #: ../daemon/main.c:194
 #, c-format
 msgid "Failed to create LogDir %s: %s"
-msgstr "فشل في إنشاء دليل تسجيل الدخول %s: %s"
+msgstr "فشل إنشاء LogDir ‏%s: ‏%s"
 
 #: ../daemon/main.c:229
 #, c-format
@@ -283,7 +289,7 @@ msgstr "السماح أو عدم السماح بالولوج باستخدام ك
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr "يمكن تهيئة شاشة تسجيل الدخول لمنع التحقق من كلمة المرور، مما يجبر المستخدم على استعمال التحقق بواسطة بطاقة ذكية أو بصمة الإصبع."
+msgstr "يمكن إعداد شاشة الولوج لترفض الاستيثاق بكلمة السر، لإجبار المستخدم باستخدام بطاقته الذكية أو بصمة إصبعه للاستيثاق."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -340,13 +346,13 @@ msgstr "اجعله صحيح لتعطيل عرض أزرار إعادة التشغ
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
-msgstr "عدد مرات فشل الاعتماد المسموح بها"
+msgstr "العدد المسموح لمرات فشل الاستيثاق"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr "عدد المرات التي يسمح بها لمستخدم بمحاولة الاعتماد، قبل الاستسلام والعودة إلى اختيار المستخدم."
+msgstr "عدد مرات التي يُسمح فيها للمستخدم محاولة الاستيثاق، وذلك قبل ترك الأمر والعودة إلى صفحة اختيار المستخدمة."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"

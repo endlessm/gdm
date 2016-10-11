@@ -1,24 +1,25 @@
-# Breton translation for gdm
-# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006-2010
-# This file is distributed under the same license as the gdm package.
-#
-# Giulia <oublieuse@gmail.com>, 2006.
-# Denis <denisarnuad@yahoo.fr>, 2008-2009.
-# Jamy <jamybzh@free.fr>, 2009.
-# Alan Monfort <alan.monfort@free.fr>, 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Alan Monfort <alan.monfort@free.fr>, 2010
+# Denis Arnaud <denisarnuad@yahoo.fr>, 2014
+# Giulia <oublieuse@gmail.com>, 2006
+# Jérémy, 2009
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2010-06-11 17:34+0100\n"
-"Last-Translator: Alan Monfort <alan.monfort@free.fr>\n"
-"Language-Team: Brenux <brenux@free.fr>\n"
-"Language: \n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:09+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Breton (http://www.transifex.com/endless-mobile-inc/gdm/language/br/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: br\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -32,14 +33,14 @@ msgid "Could not identify the current session."
 msgstr "N'hall ket hennadiñ an estez bremanel."
 
 #: ../common/gdm-common.c:626 ../libgdm/gdm-user-switching.c:351
-#, fuzzy, c-format
+#, c-format
 msgid "User unable to switch sessions."
-msgstr "N'eo ket gouest da zigeriñ an estez"
+msgstr ""
 
 #: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
-#, fuzzy, c-format
+#, c-format
 msgid "Could not identify the current seat."
-msgstr "N'hall ket hennadiñ an estez bremanel."
+msgstr ""
 
 #: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
 #, c-format
@@ -59,9 +60,8 @@ msgid "could not find user \"%s\" on system"
 msgstr "n'hall ket kavout an arveriad \"%s\" war ar reizhiad"
 
 #: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
-#, fuzzy
 msgid "No session available"
-msgstr "N'eus kont arveriad hegerz ebet"
+msgstr ""
 
 #: ../daemon/gdm-manager.c:953
 #, c-format
@@ -76,9 +76,7 @@ msgstr ""
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"Ret eo d'an dafariad bezañ delusket gant an arveriad %s met an arveriad-mañ "
-"n'eus ket anezhañ"
+msgstr "Ret eo d'an dafariad bezañ delusket gant an arveriad %s met an arveriad-mañ n'eus ket anezhañ"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
@@ -96,9 +94,9 @@ msgid "Couldn't set userid to %d"
 msgstr "N'haller ket arventennañ naoudi an arveriad %d"
 
 #: ../daemon/gdm-server.c:538
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Could not open log file for display %s!"
-msgstr "%s : N'hall ket digeriñ restr ar c'herzhlevr a-benn skrammañ %s !"
+msgstr ""
 
 #: ../daemon/gdm-server.c:559 ../daemon/gdm-server.c:565
 #: ../daemon/gdm-server.c:571
@@ -141,9 +139,8 @@ msgid "The display device"
 msgstr "An drobarzhell skrammañ"
 
 #: ../daemon/gdm-session.c:1216
-#, fuzzy
 msgid "Could not create authentication helper process"
-msgstr "%s : Ne oa ket tu da lenn an anvioù dilesa"
+msgstr ""
 
 #: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
@@ -153,54 +150,43 @@ msgstr ""
 msgid "Sorry, that didn't work. Please try again."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Anv arveriad :"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "N'eus kont arveriad hegerz ebet"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "N'eo ket gouest da gemmañ an arveriad"
 
-#: ../daemon/gdm-simple-slave.c:866
-#, fuzzy
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
 msgstr ""
-"N'hall ket loc'hañ an dafariad X (hoc'h endro kevregañ) en abeg d'ur fazi "
-"diabarzh. Mar plij, kit e darempred gant ardoer ho reizhiad pe gwiriit ho "
-"kerzhlevr ar reizhiad a-benn deznaouiñ. Da c'hortoz e vo diweredekaet an "
-"skrammañ. Mar plij, adloc'hit GDM pa vo reizhet ar gudenn."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
 msgstr "N'hall ket krouiñ ar giez !"
 
 #: ../daemon/main.c:125 ../daemon/main.c:138
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr ""
-"N'hall ket skrivañ ar restr mod PID %s : moarvat rak n'eus ket plas a-walc'h "
-"war ar gantenn : %s"
 
 #: ../daemon/main.c:188
 #, c-format
@@ -235,9 +221,8 @@ msgid "Make all warnings fatal"
 msgstr "Lakaat an holl evezhioù da vezañ lazhus"
 
 #: ../daemon/main.c:325
-#, fuzzy
 msgid "Exit after a time (for debugging)"
-msgstr "Mont kuit goude ur pred - a-benn diveugañ"
+msgstr ""
 
 #: ../daemon/main.c:326
 msgid "Print GDM version"
@@ -263,9 +248,8 @@ msgid "GNOME Shell"
 msgstr ""
 
 #: ../data/applications/gnome-shell.desktop.in.h:2
-#, fuzzy
 msgid "Window management and compositing"
-msgstr "Gwazerezh ardeiñ an tredan"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
@@ -321,8 +305,8 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
@@ -338,24 +322,21 @@ msgid "Banner message text"
 msgstr "Testenn kemennadenn ar banniel"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:15
-#, fuzzy
 msgid "Text banner message to show in the login window."
-msgstr "Kemennadenn war ar banniel da ziskouez war ar prenestr kennaskañ."
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:16
 msgid "Disable showing the restart buttons"
 msgstr "Diweredekaat diskouez an afelloù adloc'hañ"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Lakaat da wir a-benn diweredekaat diskouez an afelloù adloc'hañ war ar "
-"prenestr kennaskañ."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Lakaat da wir a-benn diweredekaat diskouez an afelloù adloc'hañ war ar prenestr kennaskañ."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
-#, fuzzy
 msgid "Number of allowed authentication failures"
-msgstr "%s : Ne oa ket tu da lenn an anvioù dilesa"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
@@ -376,24 +357,20 @@ msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP : N'hall ket lenn talbenn ar skurzer XDMCP !"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-#, fuzzy
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XMDCP : Handelv XDMCP dizereat !"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-#, fuzzy
 msgid "XDMCP: Unable to parse address"
-msgstr "XMDCP : N'eo ket gouest da zielfennañ ar chomlec'h"
+msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:72
-#, fuzzy
 msgid "Unable to create transient display: "
-msgstr "N'eo ket gouest da loc'hañ ar skrammañ nevez"
+msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
-#, fuzzy
 msgid "Unable to activate session: "
-msgstr "N'eo ket gouest da zigeriñ an estez"
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
@@ -405,9 +382,8 @@ msgstr "ARC'HAD"
 
 #: ../utils/gdmflexiserver.c:46 ../utils/gdmflexiserver.c:47
 #: ../utils/gdmflexiserver.c:49 ../utils/gdmflexiserver.c:50
-#, fuzzy
 msgid "Ignored — retained for compatibility"
-msgstr "Laosket a-gostez - miret evit keverlec'hded"
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:48 ../utils/gdm-screenshot.c:43
 msgid "Debugging output"
@@ -417,7 +393,6 @@ msgstr "Ec'hankad diveugañ"
 msgid "Version of this application"
 msgstr "Handelv an arload-mañ"
 
-# GDM : GNOME Display Manager
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "- New GDM login"
@@ -431,724 +406,3 @@ msgstr "skrammad tennet"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Tennañ ur skeudenn diouz ar skramm"
-
-#~ msgid "Display ID"
-#~ msgstr "Skrammañ an ID"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "Slav ardoer skrammañ GNOME"
-
-#~ msgid "Unable to initialize login system"
-#~ msgstr "N'eo ket gouest da zeraouekaat ar reizhiad kennaskañ"
-
-#~ msgid "Unable to authenticate user"
-#~ msgstr "N'eo ket gouest da zilesa an arveriad"
-
-#~ msgid "Unable to authorize user"
-#~ msgstr "N'eo ket gouest da reiñ an aotre d'an arveriad"
-
-#~ msgid "Unable to establish credentials"
-#~ msgstr "N'eo ket gouest da sevel an testenioù a-fet dilesa"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s : c'hwitadenn war kennaskañ ouzh ar skrammañ kar '%s'"
-
-#, fuzzy
-#~ msgid "error initiating conversation with authentication system: %s"
-#~ msgstr ""
-#~ "fazi e-pad ma oa o teraouekaat ar c'hendiviz gant ar reizhiad dilesa - %s"
-
-#~ msgid "general failure"
-#~ msgstr "falladur hollek"
-
-#~ msgid "out of memory"
-#~ msgstr "n'eus ket memor a-walc'h"
-
-#~ msgid "application programmer error"
-#~ msgstr "fazi gant gouleviñ an arload"
-
-#~ msgid "unknown error"
-#~ msgstr "fazi dianav"
-
-#, fuzzy
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt: %s"
-#~ msgstr ""
-#~ "fazi e-pad ma oa o kas titouroù d'ar reizhiad dilesa evit kemenn an anv "
-#~ "arveriad gwell gantañ - %s"
-
-#, fuzzy
-#~ msgid "error informing authentication system of user's hostname: %s"
-#~ msgstr ""
-#~ "fazi e-pad ma oa o kas titouroù d'ar reizhiad dilesa evit anv ostiz an "
-#~ "arveriad - %s"
-
-#, fuzzy
-#~ msgid "error informing authentication system of user's console: %s"
-#~ msgstr ""
-#~ "fazi e-pad ma oa o kas titouroù d'ar reizhiad dilesa evit penel an "
-#~ "arveriad - %s"
-
-#, fuzzy
-#~ msgid "error informing authentication system of display string: %s"
-#~ msgstr ""
-#~ "fazi e-pad ma oa o kas titouroù d'ar reizhiad dilesa evit an hedad "
-#~ "skrammañ - %s"
-
-#, fuzzy
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials: %s"
-#~ msgstr ""
-#~ "fazi e-pad ma oa o kas titouroù d'ar reizhiad dilesa evit skrammañ an "
-#~ "testenioù a-fet dilesa - %s"
-
-#~ msgid "User %s doesn't exist"
-#~ msgstr "An arveriad %s n'eus ket anezhañ"
-
-#~ msgid "Group %s doesn't exist"
-#~ msgstr "Ar strollad %s n'eus ket anezhañ"
-
-#~ msgid "Denied XDMCP query from host %s"
-#~ msgstr "Nac'het eo bet an azgoulenn XDMCP diouzh an ostiz %s"
-
-#~ msgid "Could not extract authlist from packet"
-#~ msgstr "N'hall ket eztennañ roll an aotreoù diouzh ar pakad"
-
-#~ msgid "Error in checksum"
-#~ msgstr "Fazi gant ar sammad gwiriañ"
-
-#~ msgid "Bad address"
-#~ msgstr "Chomlec'h fall"
-
-#~ msgid "%s: Could not read display address"
-#~ msgstr "%s : N'hall ket lenn chomlec'h ar skrammañ"
-
-#~ msgid "%s: Could not read display port number"
-#~ msgstr "%s : N'hall ket lenn niverenn porzh ar skrammañ"
-
-#~ msgid "%s: Could not extract authlist from packet"
-#~ msgstr "%s : N'hall ket eztennañ roll an aotreoù diouzh ar pakad"
-
-#~ msgid "%s: Error in checksum"
-#~ msgstr "%s : Fazi gant ar sammad gwiriañ"
-
-#~ msgid "%s: Got REQUEST from banned host %s"
-#~ msgstr "%s : REQUEST bet degemeret a-berzh an ostiz harluet %s"
-
-#~ msgid "%s: Could not read Display Number"
-#~ msgstr "%s : N'hall ket lenn niverenn ar skrammañ"
-
-#~ msgid "%s: Could not read Connection Type"
-#~ msgstr "%s : Ne oa ket tu da lenn rizh ar c'hennaskañ"
-
-#~ msgid "%s: Could not read Client Address"
-#~ msgstr "%s : Ne oa ket tu da lenn chomlec'h an arval"
-
-#~ msgid "%s: Could not read Authentication Data"
-#~ msgstr "%s : Ne oa ket tu da lenn ar roadennoù dilesa"
-
-#~ msgid "%s: Could not read Authorization List"
-#~ msgstr "%s : N'hall ket lenn roll an aotren"
-
-#~ msgid "%s: Could not read Manufacturer ID"
-#~ msgstr "%s : N'hall ket lenn naoudi (ID) an oberour"
-
-#~ msgid "%s: Failed checksum from %s"
-#~ msgstr "%s : C'hwitadenn war ar sammad gwiriañ diouzh %s"
-
-#~ msgid "%s: Got Manage from banned host %s"
-#~ msgstr "%s : Manage bet degemeret a-berzh an ostiz harluet %s"
-
-#~ msgid "%s: Could not read Session ID"
-#~ msgstr "%s : Ne oa ket tu da lenn ID an estez"
-
-#~ msgid "%s: Could not read Display Class"
-#~ msgstr "%s : N'hall ket lenn rummad ar skrammañ"
-
-#~ msgid "%s: Could not read address"
-#~ msgstr "%s : Ne oa ket tu da lenn chomlec'hioù"
-
-#~ msgid "%s: Got KEEPALIVE from banned host %s"
-#~ msgstr "%s : KEEPALIVE bet degemeret a-berzh an ostiz harluet %s"
-
-#~ msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-#~ msgstr "GdmXdmcpDisplayFactory : N'hall ket lenn talbenn XDMCP !"
-
-#~ msgid "Could not get server hostname: %s!"
-#~ msgstr "N'hall ket kaout anv ostiz an dafariad : %s !"
-
-#~ msgid "Logdir %s does not exist or isn't a directory."
-#~ msgstr "Logdir %s n'eus ket anezhañ pe n'eo ket ur c'havlec'hiad."
-
-#~ msgid "Authdir %s does not exist. Aborting."
-#~ msgstr "Authdir %s n'eus ket anezhañ. O tilezel."
-
-#~ msgid "Authdir %s is not a directory. Aborting."
-#~ msgstr "Authdir %s n'eo ket ur c'havlec'hiad. O tilezel."
-
-#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-#~ msgstr "Authdir %s n'eo ket d'un arveriad %d, strollad %d. O tilezel."
-
-#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-#~ msgstr "Authdir %s zo fall e aotreoù %o. %o a zlefe bezañ. O tilezel."
-
-#, fuzzy
-#~ msgid "AT-SPI Registry Wrapper"
-#~ msgstr "Wrapper ar marilh AT SPI"
-
-#~ msgid "Login Window"
-#~ msgstr "Prenestr kennaskañ"
-
-#~ msgid "Power Manager"
-#~ msgstr "Ardoer an tredan"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "Gwazerezh arventennoù GNOME"
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "Kreskwerenn evit skramm GNOME"
-
-#~ msgid "Magnify parts of the screen"
-#~ msgstr "Brasaat lodennoù eus ar skramm"
-
-#, fuzzy
-#~ msgid "GNOME On-Screen Keyboard"
-#~ msgstr "Klavier war ar skramm GNOME"
-
-#, fuzzy
-#~ msgid "Use an on-screen keyboard"
-#~ msgstr "Arverañ ur c'hlavier war ar skramm"
-
-#~ msgid "Metacity"
-#~ msgstr "Metacity"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "Lenner skramm Orca"
-
-#~ msgid "Present on-screen information as speech or braille"
-#~ msgstr "Kinnig an titouroù war ar skramm dre gomzoù pe braille"
-
-#~ msgid "PolicyKit Authentication Agent"
-#~ msgstr "Gwezhour dilesa PolicyKit"
-
-#~ msgid "Value"
-#~ msgstr "Gwerzh"
-
-#~ msgid "percentage of time complete"
-#~ msgstr "dregantad an amzer echu"
-
-#~ msgid "Inactive Text"
-#~ msgstr "Testenn dizoberiant"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr ""
-#~ "An destenn da arverañ war ar skritell ma n'eo ket bet tapet c'hoazh un "
-#~ "elfenn gant an arveriad"
-
-#~ msgid "Active Text"
-#~ msgstr "Testenn oberiant"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr ""
-#~ "An destenn da arverañ war ar skritell mard eo ket tapet un elfenn gant an "
-#~ "arveriad"
-
-#~ msgid "List Visible"
-#~ msgstr "Roll hewel"
-
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "Menegiñ a ra mard eo hewel roll an dibaber"
-
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%a %b %e, %l:%M:%S %p"
-
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%a %b %e, %l:%M %p"
-
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%a %l:%M:%S %p"
-
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%a %l:%M %p"
-
-#, fuzzy
-#~ msgid "Automatically logging in…"
-#~ msgstr "O kennaskañ ent emgefreek..."
-
-#~ msgid "Cancelling…"
-#~ msgstr "O nullañ..."
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "Diuzañ ur yezh ha klikañ war Kennaskañ"
-
-#~ msgid "Computer Name"
-#~ msgstr "Anv an urzhiataer"
-
-#~ msgid "Log In"
-#~ msgstr "Kennaskañ"
-
-#~ msgid "Version"
-#~ msgstr "Handelv"
-
-#~ msgid "Panel"
-#~ msgstr "Penel lankañ"
-
-#~ msgid "Shutdown Options…"
-#~ msgstr "Dibarzhioù al lazhañ..."
-
-#~ msgid "Suspend"
-#~ msgstr "Lakaat da gousket"
-
-#~ msgid "Restart"
-#~ msgstr "Adloc'hañ"
-
-#~ msgid "Shut Down"
-#~ msgstr "Lazhañ"
-
-#~ msgctxt "customsession"
-#~ msgid "Custom"
-#~ msgstr "Personalaat"
-
-#~ msgid "Custom session"
-#~ msgstr "Estez personalaet"
-
-#~ msgid "Languages"
-#~ msgstr "Yezhoù"
-
-#~ msgid "_Languages:"
-#~ msgstr "_Yezhoù :"
-
-#~ msgid "_Language:"
-#~ msgstr "_Yezh :"
-
-#~ msgctxt "language"
-#~ msgid "Other…"
-#~ msgstr "Yezhoù all_"
-
-#~ msgid "Choose a language from the full list of available languages."
-#~ msgstr "Dibab ur yezh diwar roll klok ar yezhoù hegerz."
-
-#~ msgid "Language"
-#~ msgstr "Yezh"
-
-#~ msgid "Unspecified"
-#~ msgstr "Anerspizet"
-
-#~ msgid "Keyboard layouts"
-#~ msgstr "Kenaozadurioù ar c'havier"
-
-#~ msgid "_Keyboard:"
-#~ msgstr "_Klavier :"
-
-#~ msgctxt "keyboard"
-#~ msgid "Other…"
-#~ msgstr "All..."
-
-#~ msgid "Choose a keyboard layout from the full list of available layouts."
-#~ msgstr ""
-#~ "Dibab ur c'henaozadur evit ar c'hlavier diwar roll klok ar "
-#~ "c'henaozadurioù hegerz."
-
-#~ msgid "Keyboard"
-#~ msgstr "Klavier"
-
-#~ msgid "Label Text"
-#~ msgstr "Testenn ar skritellig"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "An destenn da arverañ evit skridell"
-
-#~ msgid "Icon name"
-#~ msgstr "Anv an arlun"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "An arlun da arverañ gant ar skritell"
-
-#~ msgid "Default Item"
-#~ msgstr "Ergorenn dre-ziouer :"
-
-#~ msgid "The ID of the default item"
-#~ msgstr "ID an elfenn dre ziouer"
-
-#~ msgid "Max Item Count"
-#~ msgstr "Niver uc'hek a elfennoù"
-
-#~ msgid "The maximum number of items to keep around in the list"
-#~ msgstr "An niver uc'hek a elfennoù da virout war ar roll"
-
-#~ msgid "Remote Login (Connecting to %s…)"
-#~ msgstr "Kennaskañ a-bell (kennaskañ ouzh %s...)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "Kennaskañ a-bell (kennasket ouzh %s)"
-
-#~ msgid "Remote Login"
-#~ msgstr "Kennask a-bell"
-
-#~ msgid "Session"
-#~ msgstr "Estez"
-
-#~ msgid "Banner message text when chooser is empty"
-#~ msgstr "Testenn kemennadenn ar banniel pa vez goullo an dibaber"
-
-#~ msgid "Do not show known users in the login window"
-#~ msgstr "Arabat diskouez an arveriaded anavezet war ar prenestr kennaskañ"
-
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "Gweredekaat an enlugellad evit haeziñ ar c'hlavier"
-
-#~ msgid "Enable on-screen keyboard"
-#~ msgstr "Gweredekaat ar c'hlavier war ar skramm"
-
-#~ msgid "Enable screen magnifier"
-#~ msgstr "Gweredekaat ar greskwerenn evit ar skramm"
-
-#~ msgid "Enable screen reader"
-#~ msgstr "Gweredekaat al lenner skramm"
-
-#~ msgid "Icon name to use for greeter logo"
-#~ msgstr "Anv an arlun da arverañ evit siell ar banniel degemer"
-
-#~ msgid "Recently selected keyboard layouts"
-#~ msgstr "Kenaozadurioù klavier bet diuzet nevez zo"
-
-#~ msgid "Recently selected languages"
-#~ msgstr "Yezhoù bet diuzet nevez zo"
-
-#, fuzzy
-#~ msgid ""
-#~ "Set to a list of keyboard layouts to be shown by default in the login "
-#~ "window."
-#~ msgstr ""
-#~ "Despizañ ur roll kenaozadurioù klavieroù da ziskouez dre ziouer war ar "
-#~ "prenestr kennaskañ."
-
-#, fuzzy
-#~ msgid ""
-#~ "Set to a list of languages to be shown by default in the login window."
-#~ msgstr ""
-#~ "Despizañ ur roll yezhoù da ziskouez dre ziouer war ar prenestr kennaskañ."
-
-#~ msgid "Set to the themed icon name to use for the greeter logo."
-#~ msgstr ""
-#~ "Despizañ anv un arlun eus un neuz da arverañ evit siell ar banniel "
-#~ "degemer."
-
-#~ msgid "Set to true to disable showing known users in the login window."
-#~ msgstr ""
-#~ "Lakaat da wir a-benn diweredekaat diskouez an arveriaded anavezet war ar "
-#~ "prenestr kennaskañ."
-
-#, fuzzy
-#~ msgid "Set to true to enable the XRandR settings manager plugin."
-#~ msgstr ""
-#~ "Lakaat da wir a-benn gweredekaat enlugellad ardeiñ an arventennoù evit "
-#~ "xrandr."
-
-#~ msgid "Set to true to enable the background settings manager plugin."
-#~ msgstr ""
-#~ "Lakaat da wir a-benn gweredekaat enlugellad ardeiñ an arventennoù evit an "
-#~ "drekleur."
-
-#~ msgid "Set to true to enable the media-keys settings manager plugin."
-#~ msgstr ""
-#~ "Lakaat da wir a-benn gweredekaat enlugellad ardeiñ an arventennoù evit ar "
-#~ "stokelloù media."
-
-#~ msgid "Set to true to enable the on-screen keyboard."
-#~ msgstr "Lakaat da wir a-benn gweredekaat ar c'hlavier war ar skramm."
-
-#~ msgid ""
-#~ "Set to true to enable the plugin to manage the accessibility keyboard "
-#~ "settings."
-#~ msgstr ""
-#~ "Lakaat da wir a-benn gweredekaat enlugellad ardeiñ an arventennoù evit "
-#~ "haeziñ ar c'hlavier."
-
-#~ msgid "Set to true to enable the screen magnifier."
-#~ msgstr "Lakaat da wir a-benn gweredekaat kreskwerenn ar skramm."
-
-#~ msgid "Set to true to enable the screen reader."
-#~ msgstr "Lakaat da wir a-benn gweredekaat al lenner skramm."
-
-#~ msgid "Set to true to enable the sound settings manager plugin."
-#~ msgstr ""
-#~ "Lakaat da wir a-benn gweredekaat enlugellad ardeiñ an arventennoù evit ar "
-#~ "son."
-
-#~ msgid "Set to true to enable the xsettings settings manager plugin."
-#~ msgstr ""
-#~ "Lakaat da wir a-benn gweredekaat enlugellad ardeiñ an arventennoù evit "
-#~ "xsettings."
-
-#, fuzzy
-#~ msgid "Set to true to use Compiz as the window manager."
-#~ msgstr ""
-#~ "Lakaat da wir a-benn arverañ compiz evit an ardoer prenestroù dre ziouer."
-
-#, fuzzy
-#~ msgid ""
-#~ "Text banner message to show in the login window when the user chooser is "
-#~ "empty, instead of banner_message_text."
-#~ msgstr ""
-#~ "Testenn war ar banniel da ziskouez war ar prenestr kennaskañ mard eo "
-#~ "goullo an dibaber arveriad, e-lec'h banner_message_text."
-
-#, fuzzy
-#~ msgid "True if the XRandR settings manager plugin is enabled."
-#~ msgstr ""
-#~ "Gwir mard eo bet gweredekaet enlugellad ardeiñ an arventennoù evit xrandr."
-
-#~ msgid "True if the background settings manager plugin is enabled."
-#~ msgstr ""
-#~ "Gwir mard eo bet gweredekaet enlugellad ardeiñ an arventennoù evit an "
-#~ "drekleur."
-
-#~ msgid "True if the media-keys settings manager plugin is enabled."
-#~ msgstr ""
-#~ "Gwir mard eo bet gweredekaet enlugellad ardeiñ an arventennoù evit ar "
-#~ "stokelloù media."
-
-#~ msgid "True if the sound settings manager plugin is enabled."
-#~ msgstr ""
-#~ "Gwir mard eo bet gweredekaet enlugellad ardeiñ an arventennoù evit ar son."
-
-#~ msgid "True if the xsettings settings manager plugin is enabled."
-#~ msgstr ""
-#~ "Gwir mard eo bet gweredekaet enlugellad ardeiñ an arventennoù evit "
-#~ "xsetting."
-
-#, fuzzy
-#~ msgid "Use Compiz as the window manager"
-#~ msgstr "Arverañ compiz evit ardoer prenestroù"
-
-#~ msgid "Duration"
-#~ msgstr "Pad"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "An niver a eilennoù a chom kent ma arsavo ar vutunerez"
-
-#~ msgid "Start time"
-#~ msgstr "Eur al loc'hañ"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "Eur loc'h ar vunuterez"
-
-#~ msgid "Is it Running?"
-#~ msgstr "Emañ o vont en-dro ?"
-
-#~ msgid "Whether the timer is currently ticking"
-#~ msgstr "Menegiñ a ra mard emañ ar vunuterez o vont en-dro"
-
-#~ msgid "Log in as %s"
-#~ msgstr "Kennaskañ evel %s"
-
-#~ msgctxt "user"
-#~ msgid "Other…"
-#~ msgstr "All..."
-
-#~ msgid "Choose a different account"
-#~ msgstr "Dibab ur gont disheñvel"
-
-#~ msgid "Guest"
-#~ msgstr "Kouviad"
-
-#, fuzzy
-#~ msgid "Log in as a temporary guest"
-#~ msgstr "En em gennaskañ evit un arveriad pedet padennek"
-
-#~ msgid "Automatic Login"
-#~ msgstr "Kennaskañ emgefreek"
-
-#, fuzzy
-#~ msgid "Automatically log into the system after selecting options"
-#~ msgstr ""
-#~ "Kennaskañ emgefreek ouzh ar reizhiad goude bezañ diuzet an dibarzhioù"
-
-#~ msgid "Currently logged in"
-#~ msgstr "Kennasket er mare-mañ"
-
-#~ msgid ""
-#~ "The User Switch Applet is free software; you can redistribute it and/or "
-#~ "modify it under the terms of the GNU General Public License as published "
-#~ "by the Free Software Foundation; either version 2 of the License, or (at "
-#~ "your option) any later version."
-#~ msgstr ""
-#~ "Ur meziant digor eo an arload da gemmañ an arveriad ; dasparzhet pe/ha "
-#~ "daskemmet e vez dindan termenoù al Lañvaz Foran Hollek GNU evel ma'z eo "
-#~ "bet embannet gant Diazezadenn ar Meziantoù Digor ; da lâret eo handelv 2 "
-#~ "eus al lañvaz pe (evel ma plij deoc'h) ne vern pe handelv nevesoc'h."
-
-#~ msgid ""
-#~ "This program is distributed in the hope that it will be useful, but "
-#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
-#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
-#~ "Public License for more details."
-#~ msgstr ""
-#~ "Dasparzhet eo ar meziant-mañ gant ar spi e vo talvoudus met GANT GWARANT "
-#~ "EBET ; hep ar gwarant enpleg a-fet TALVOUDEGEZH KENWERZHEL pe VARREGEZH "
-#~ "EVIT UR PAL PERSONEL. Taolit ur sell war Lañvaz Foran Hollek GNU evit "
-#~ "gouzout hiroc'h."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with this program; if not, write to the Free Software Foundation, Inc., "
-#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA "
-#~ msgstr ""
-#~ "Moarvat hoc'h eus bet un eilad eus al Lañvaz Foran Hollek GNU gant File-"
-#~ "Roller ; ma n'hoc'h eus ket bet,skrivit da : the Free Software "
-#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-#~ "USA "
-
-#~ msgid "A menu to quickly switch between users."
-#~ msgstr "Ul lañser evit kemmañ buan an arveriaded."
-
-#~ msgid "translator-credits"
-#~ msgstr ""
-#~ "Breizh https://launchpad.net/~jamybzh-free\n"
-#~ "  Denis https://launchpad.net/~bibar\n"
-#~ "\n"
-#~ "Launchpad Contributions:\n"
-#~ "  Alan https://launchpad.net/~alan-monfort\n"
-#~ "  Denis https://launchpad.net/~bibar\n"
-#~ "  Robert Ancell https://launchpad.net/~robert-ancell"
-
-#~ msgid "Can't lock screen: %s"
-#~ msgstr "N'haller ket prennañ ar skramm : %s"
-
-#~ msgid "Can't temporarily set screensaver to blank screen: %s"
-#~ msgstr ""
-#~ "Evit poent n'hall ket arventennañ an damanter skramm da skramm goullo : %s"
-
-#, fuzzy
-#~ msgid "Can't log out: %s"
-#~ msgstr "N'hall ket digennaskañ : %s"
-
-#~ msgid "Available"
-#~ msgstr "Hegerz"
-
-#~ msgid "Invisible"
-#~ msgstr "Dihewel"
-
-#~ msgid "Busy"
-#~ msgstr "Ac'hubet"
-
-#~ msgid "Away"
-#~ msgstr "Aet kuit"
-
-#~ msgid "Account Information"
-#~ msgstr "Titouroù diwar-benn ar gont"
-
-#~ msgid "System Preferences"
-#~ msgstr "Gwellvezioù ar reizhiad"
-
-#~ msgid "Lock Screen"
-#~ msgstr "Prennañ ar skramm"
-
-#~ msgid "Switch User"
-#~ msgstr "Kemmañ an arveriad"
-
-#~ msgid "Quit…"
-#~ msgstr "Kuitaat..."
-
-#~ msgid "Unknown"
-#~ msgstr "Dianav"
-
-#~ msgid "User Switch Applet"
-#~ msgstr "Arloadig trec'haoliñ arveriad"
-
-#~ msgid "Change account settings and status"
-#~ msgstr "Kemmañ arventennoù ha stad ar gont"
-
-#~ msgid "A menu to quickly switch between users"
-#~ msgstr "Ul lañser evit kemmañ buan etre an arveriaded"
-
-#~ msgid "User Switcher"
-#~ msgstr "Trec'haoler arveriad"
-
-#~ msgid "User Switcher Applet Factory"
-#~ msgstr "Labouradeg an arloadig da gemmañ an arveriad"
-
-#~ msgid "Edit Personal _Information"
-#~ msgstr "Embann an titouroù personel"
-
-#~ msgid "_About"
-#~ msgstr "Diw_ar-benn"
-
-#~ msgid "_Edit Users and Groups"
-#~ msgstr "_Embann arveriaded ha strolladoù"
-
-#~ msgid "Couldn't set groupid to 0"
-#~ msgstr "N'hall ket arventennañ naoudi ar strollad da 0"
-
-#~ msgid "name"
-#~ msgstr "anv"
-
-#~ msgid "Change login screen configuration"
-#~ msgstr "Kemmañ kefluniadur ar skrammad kennaskañ"
-
-#~ msgid "Privileges are required to change the login screen configuration."
-#~ msgstr ""
-#~ "Azgoulennet e vez brientoù a-benn kemmañ kefluniadur ar skrammad kennaskañ"
-
-#~ msgid "Configure login screen behavior"
-#~ msgstr "Kefluniañ emzalc'h ar skrammad kennaskañ"
-
-#~ msgid "Login Screen"
-#~ msgstr "Skrammad kennaskañ"
-
-#~ msgid "Log in as %s automatically"
-#~ msgstr "Kennaskañ evit %s emgefreek"
-
-#~ msgid "Allow %s seconds for anyone else to log in first"
-#~ msgstr ""
-#~ "Gortoz e-pad %s eilenn a-benn leuskel unan bennak all d'en em gennaskañ"
-
-#~ msgid "Select %s as default session"
-#~ msgstr "Diuzañ %s evit an estez dre ziouer"
-
-#~ msgid "Login Screen Settings"
-#~ msgstr "Arventennoù ar skramm kennaskañ"
-
-#~ msgid "Play login sound"
-#~ msgstr "Seniñ son ar c'hennaskañ"
-
-#~ msgid "Show list of users"
-#~ msgstr "Diskouez roll an arveriaded"
-
-#~ msgid "When the computer starts up:"
-#~ msgstr "Pa loc'h an urzhiataer :"
-
-#~ msgid "_Show the screen for choosing who will log in"
-#~ msgstr "_Diskouez ar skramm a-benn dibab piv a gennasko"
-
-#~ msgid "_Unlock"
-#~ msgstr "_Dibrennañ"
-
-#~ msgid "%x"
-#~ msgstr "%x"
-
-#~ msgid "Manager"
-#~ msgstr "Ardoer"
-
-#~ msgid "The user manager object this user is controlled by."
-#~ msgstr ""
-#~ "Ergorenn ardoer an arveriaded ma 'z eo gwiriet an arveriad-mañ drezi"
-
-#~ msgid "Quit..."
-#~ msgstr "Kuitaat..."
-
-#~ msgid "Account Information..."
-#~ msgstr "Titouroù ar gont..."
-
-#~ msgid "System Preferences..."
-#~ msgstr "Gwellvezioù ar reizhiad..."
-
-#~ msgid "Enable debugging code"
-#~ msgstr "Gweredekaat ar c'hod diveugañ"
-
-#~ msgid "id"
-#~ msgstr "hennader (id)"

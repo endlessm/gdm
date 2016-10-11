@@ -1,26 +1,24 @@
-# translation of gdm.po to Asturian
-# Asturian translation for gdm
-# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
-# This file is distributed under the same license as the gdm package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
-# Xose S. Puente <xspuente@gmail.com>, 2007.
-# Xandru Armesto <xandru@softastur.org>, 2011.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007
+# Xandru <xandru@softastur.org>, 2010-2011
+# Xose S. Puente <xspuente@gmail.com>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm-1\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2011-10-08 08:35+0200\n"
-"Last-Translator: Xandru Armesto <xandru@softastur.org>\n"
-"Language-Team: Softastur <alministradores@softastur.org>\n"
-"Language: ast\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 22:27+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Asturian (http://www.transifex.com/endless-mobile-inc/gdm/language/ast/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Virtaal 0.5.2\n"
-"X-Launchpad-Export-Date: 2009-02-09 14:28+0000\n"
-"X-Poedit-Language: Asturian\n"
+"Language: ast\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -39,9 +37,9 @@ msgid "User unable to switch sessions."
 msgstr "L'usuariu nun pue cambiar ente sesiones."
 
 #: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
-#, fuzzy, c-format
+#, c-format
 msgid "Could not identify the current seat."
-msgstr "Nun pudo identificase la sesión actual."
+msgstr ""
 
 #: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
 #, c-format
@@ -61,9 +59,8 @@ msgid "could not find user \"%s\" on system"
 msgstr "nun pudo alcontrase l'usuariu «%s» nel sistema"
 
 #: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
-#, fuzzy
 msgid "No session available"
-msgstr "nun hai cuentes d'usuariu disponibles"
+msgstr ""
 
 #: ../daemon/gdm-manager.c:953
 #, c-format
@@ -78,8 +75,7 @@ msgstr ""
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"El sirvidor tenía de llanzase pol usuariu %s pero esi usuariu nun esiste"
+msgstr "El sirvidor tenía de llanzase pol usuariu %s pero esi usuariu nun esiste"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
@@ -119,7 +115,7 @@ msgstr "%s: Comandu de servidor vacíu pala pantalla %s"
 
 #: ../daemon/gdm-session-auditor.c:90
 msgid "Username"
-msgstr "Nome d'Usuariu"
+msgstr "Nome d'usuariu/a"
 
 #: ../daemon/gdm-session-auditor.c:91
 msgid "The username"
@@ -142,9 +138,8 @@ msgid "The display device"
 msgstr "La pantalla"
 
 #: ../daemon/gdm-session.c:1216
-#, fuzzy
 msgid "Could not create authentication helper process"
-msgstr "%s: nun pudieron lleese los nomes d'autenticación"
+msgstr ""
 
 #: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
@@ -154,42 +149,34 @@ msgstr ""
 msgid "Sorry, that didn't work. Please try again."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Usuariu:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "nun hai cuentes d'usuariu disponibles"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Nun pudo camudase l'usuariu"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Nun se pudo arrancar el sirvidor X (el so entornu gráficu) por un fallu "
-"internu. Contacta col alministrador del to sistema o comprueba'l rexistru "
-"del sistema pa obtener un diagnósticu. Mentes tanto, esta pantalla va "
-"desactivase. Reanicia GDM en solucionando'l problema."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Nun se pudo arrancar el sirvidor X (el so entornu gráficu) por un fallu internu. Contacta col alministrador del to sistema o comprueba'l rexistru del sistema pa obtener un diagnósticu. Mentes tanto, esta pantalla va desactivase. Reanicia GDM en solucionando'l problema."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -198,9 +185,7 @@ msgstr "Nun pudo crease'l socket."
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Nun se puede escribir el ficheru con PID %s: seique nun heba espaciu nel "
-"discu: %s"
+msgstr "Nun se puede escribir el ficheru con PID %s: seique nun heba espaciu nel discu: %s"
 
 #: ../daemon/main.c:188
 #, c-format
@@ -273,9 +258,7 @@ msgstr "Indica si permitir llectores de buelgues p'aniciar sesión"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"La pantalla d'aniciu de sesión permite opcionalmente a los usuarios que "
-"tengan guardao la so buelga dactilar, usala p'aniciar sesión."
+msgstr "La pantalla d'aniciu de sesión permite opcionalmente a los usuarios que tengan guardao la so buelga dactilar, usala p'aniciar sesión."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -285,14 +268,11 @@ msgstr "Indica si permitir llectores de tarxetes intelixentes p'aniciar sesión"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"La pantalla d'aniciu de sesión permite opcionalmente a los usuarios que "
-"tienen tarxetes intelixentes usales p'aniciar sesión."
+msgstr "La pantalla d'aniciu de sesión permite opcionalmente a los usuarios que tienen tarxetes intelixentes usales p'aniciar sesión."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
-#, fuzzy
 msgid "Whether or not to allow passwords for login"
-msgstr "Indica si permitir llectores de tarxetes intelixentes p'aniciar sesión"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:6
 msgid ""
@@ -309,21 +289,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"La pantalla d'aniciu de sesión permite opcionalmente amosar una pequeña "
-"imaxe na llista superior d'usuarios pa proporcionar a los alministradores y "
-"distribuidores una forma d'estilu y marca."
+msgstr "La pantalla d'aniciu de sesión permite opcionalmente amosar una pequeña imaxe na llista superior d'usuarios pa proporcionar a los alministradores y distribuidores una forma d'estilu y marca."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
-#, fuzzy
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
 msgstr ""
-"La pantalla d'aniciu de sesión permite opcionalmente amosar una pequeña "
-"imaxe na llista superior d'usuarios pa proporcionar a los alministradores y "
-"distribuidores una forma d'estilu y marca."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -331,8 +304,8 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
@@ -356,15 +329,13 @@ msgid "Disable showing the restart buttons"
 msgstr "Desactivar l'amosáu de los botones de reaniciu"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Afitar a braero pa desactivar l'amosáu de los usuarios conocíos na ventana "
-"d'aniciu de sesión."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Afitar a braero pa desactivar l'amosáu de los usuarios conocíos na ventana d'aniciu de sesión."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
-#, fuzzy
 msgid "Number of allowed authentication failures"
-msgstr "%s: nun pudieron lleese los nomes d'autenticación"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
@@ -385,24 +356,20 @@ msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: Nun pudo lleese la cabecera XDMCP."
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-#, fuzzy
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XDMCP: La versión de XDMCP ye incorreuta!"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-#, fuzzy
 msgid "XDMCP: Unable to parse address"
-msgstr "XMDCP: Nun puede analizase la direición"
+msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:72
-#, fuzzy
 msgid "Unable to create transient display: "
-msgstr "Nun pudo aniciase la pantalla nueva"
+msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
-#, fuzzy
 msgid "Unable to activate session: "
-msgstr "Nun pudo abrise la sesión"
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
@@ -438,531 +405,3 @@ msgstr "Sacóse la semeya de pantalla"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Capturar una imaxe de la pantalla"
-
-#~ msgid "Display ID"
-#~ msgstr "ID de pantalla"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "Esclavu del xestor de pantalles de GNOME"
-
-#~ msgid "Unable to initialize login system"
-#~ msgstr "Nun pudo anicializase'l sistema d'accesu"
-
-#~ msgid "Unable to authenticate user"
-#~ msgstr "Nun pudo autenticase al usuariu"
-
-#~ msgid "Unable to authorize user"
-#~ msgstr "Nun pudo autorizase al usuariu"
-
-#~ msgid "Unable to establish credentials"
-#~ msgstr "Nun pudieron afitase les credenciales"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: falló al conectar cola pantalla madre «%s»"
-
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr "fallu al aniciar la conversación col sistema d'autenticación - %s"
-
-#~ msgid "general failure"
-#~ msgstr "fallu xeneral"
-
-#~ msgid "out of memory"
-#~ msgstr "memoria escosada"
-
-#~ msgid "application programmer error"
-#~ msgstr "fallu del programador de l'aplicación"
-
-#~ msgid "unknown error"
-#~ msgstr "fallu desconocíu"
-
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt: %s"
-#~ msgstr ""
-#~ "fallu al informar al sistema d'autenticación del diálogu del nome "
-#~ "d'usuariu preferíu: %s"
-
-#~ msgid "error informing authentication system of user's hostname: %s"
-#~ msgstr ""
-#~ "fallu al informar al sistema d'autenticación del nome del equipu del "
-#~ "usuariu: %s"
-
-#~ msgid "error informing authentication system of user's console: %s"
-#~ msgstr ""
-#~ "fallu al informar al sistema d'autentificación sobre la consola del "
-#~ "usuariu: %s"
-
-#~ msgid "error informing authentication system of display string: %s"
-#~ msgstr ""
-#~ "fallu al informar al sistema d'autentificación de la cadena de pantalla: "
-#~ "%s"
-
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials: %s"
-#~ msgstr ""
-#~ "fallu al informar al sistema d'autentificación de les credenciales xauth "
-#~ "de la pantalla: %s"
-
-#~ msgid "User %s doesn't exist"
-#~ msgstr "L'usuariu %s nun esiste"
-
-#~ msgid "Group %s doesn't exist"
-#~ msgstr "El grupu %s nun esiste"
-
-#~ msgid "Denied XDMCP query from host %s"
-#~ msgstr "La petición XDMCP dende equipu %s refugóse"
-
-#~ msgid "Could not extract authlist from packet"
-#~ msgstr "Nun pudo estrayese la llista d'autorizaciones del paquete"
-
-#~ msgid "Error in checksum"
-#~ msgstr "Fallu na suma de comprobación"
-
-#~ msgid "Bad address"
-#~ msgstr "/dev/urandom nun ye un preséu de carauteres"
-
-#~ msgid "%s: Could not read display address"
-#~ msgstr "%s: nun pudo lleese la direición de la pantalla"
-
-#~ msgid "%s: Could not read display port number"
-#~ msgstr "%s: nun pudo lleese'l númberu de puertu de la pantalla"
-
-#~ msgid "%s: Could not extract authlist from packet"
-#~ msgstr "%s: nun pudo estrayese la llista d'autorizaciones del paquete"
-
-#~ msgid "%s: Error in checksum"
-#~ msgstr "%s: fallu na suma de comprobación"
-
-#~ msgid "%s: Got REQUEST from banned host %s"
-#~ msgstr "%s: recibióse'l mensax REQUEST dende l'equipu escluyíu %s"
-
-#~ msgid "%s: Could not read Display Number"
-#~ msgstr "%s: nun pudo lleese'l númberu de la pantalla"
-
-#~ msgid "%s: Could not read Connection Type"
-#~ msgstr "%s: nun pudo lleese la triba de conexón"
-
-#~ msgid "%s: Could not read Client Address"
-#~ msgstr "%s: nun pudo lleese la direición del veceru"
-
-#~ msgid "%s: Could not read Authentication Data"
-#~ msgstr "%s: nun pudieron lleese los datos d'autenticación"
-
-#~ msgid "%s: Could not read Authorization List"
-#~ msgstr "%s: nun pudo lleese la llista d'autorizaciones"
-
-#~ msgid "%s: Could not read Manufacturer ID"
-#~ msgstr "%s: nun pudo lleese'l ID del fabricante"
-
-#~ msgid "%s: Failed checksum from %s"
-#~ msgstr "%s: falló la suma de verificación de %s"
-
-#~ msgid "%s: Got Manage from banned host %s"
-#~ msgstr "%s: recibióse'l mensax MANAGE dende l'equipu escluyíu %s"
-
-#~ msgid "%s: Could not read Session ID"
-#~ msgstr "%s: nun pudo lleese'l ID de sesión"
-
-#~ msgid "%s: Could not read Display Class"
-#~ msgstr "%s: nun pudo lleese la clas de pantalla"
-
-#~ msgid "%s: Could not read address"
-#~ msgstr "%s: nun pudo lleese la direición"
-
-#~ msgid "%s: Got KEEPALIVE from banned host %s"
-#~ msgstr "%s: recibióse'l mensax KEEPALIVE dende l'equipu escluyíu %s"
-
-#~ msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-#~ msgstr "GdmXdmcpDisplayFactory: Nun pudo lleese la cabecera XDMCP."
-
-#~ msgid "Could not get server hostname: %s!"
-#~ msgstr "Nun pudo obtenese'l nome del equipu: %s!"
-
-#~ msgid "Logdir %s does not exist or isn't a directory."
-#~ msgstr "El direutoriu de rexistru %s nun esiste o nun ye un direutoriu."
-
-#~ msgid "Authdir %s does not exist. Aborting."
-#~ msgstr "El direutoriu d'autorización %s nun esiste. Albortando."
-
-#~ msgid "Authdir %s is not a directory. Aborting."
-#~ msgstr "El direutoriu d'autorización %s nun ye un direutoriu. Albortando."
-
-#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-#~ msgstr ""
-#~ "El direutoriu d'autorización %s nun pertenez al usuariu %d, grupu %d. "
-#~ "Albortando."
-
-#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-#~ msgstr ""
-#~ "El direutoriu d'autorización %s tien los permisos incorreutos %o. Tendría "
-#~ "de tener %o. Albortando."
-
-#~ msgid "Login Window"
-#~ msgstr "Ventana d'entrada"
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "Magnificador de pantalla de GNOME"
-
-#~ msgid "Magnify parts of the screen"
-#~ msgstr "Magnificar partes de la pantalla"
-
-#~ msgid "GNOME On-Screen Keyboard"
-#~ msgstr "Tecláu en pantalla de GNOME"
-
-#~ msgid "Use an on-screen keyboard"
-#~ msgstr "Usar un tecláu en pantalla"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "Llector de pantalla Orca"
-
-#~ msgid "Present on-screen information as speech or braille"
-#~ msgstr "Presentar información en pantalla como voz o Braille"
-
-#~ msgid "Fingerprint Authentication"
-#~ msgstr "Autenticación por buelga dactilar"
-
-#~ msgid "Log into session with fingerprint"
-#~ msgstr "Aniciar sesión con buelga dactilar"
-
-#~ msgid "Password Authentication"
-#~ msgstr "Autenticación por contraseña"
-
-#~ msgid "Log into session with username and password"
-#~ msgstr "Aniciar sesión con nome d'usuariu y contraseña"
-
-#~ msgid "Log In"
-#~ msgstr "Coneutase"
-
-#~ msgid "Slot ID"
-#~ msgstr "ID de la ranura"
-
-#~ msgid "The slot the card is in"
-#~ msgstr "La ranura na que ta la tarxeta"
-
-#~ msgid "Slot Series"
-#~ msgstr "Serie de la ranura"
-
-#~ msgid "per-slot card identifier"
-#~ msgstr "identificador de tarxetes por ranura"
-
-#~ msgid "name"
-#~ msgstr "nome"
-
-#~ msgid "Module"
-#~ msgstr "Módulu"
-
-#~ msgid "smartcard driver"
-#~ msgstr "controlador de tarxeta intelixente"
-
-#~ msgid "Smartcard Authentication"
-#~ msgstr "Autenticación por tarxeta intelixente"
-
-#~ msgid "Log into session with smartcard"
-#~ msgstr "aniciar sesión con tarxeta intelixente"
-
-#~ msgid "Module Path"
-#~ msgstr "Ruta del módulu"
-
-#~ msgid "path to smartcard PKCS #11 driver"
-#~ msgstr "ruta al controlador de tarxetes intelixentes PKCS #11"
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "recibióse un fallu o un cuelgue dende'l orixe d'eventos"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "Nun pudo anicializase'l sistema de seguridá NSS"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "nun pudo alcontrase un controlador de tarxeta intelixente afayadizu"
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "nun pudo cargase'l controlador de tarxeta intelixente «%s»"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "nun pudieron vixilase los eventos entrantes de la tarxeta: %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr ""
-#~ "alcontróse un fallu inesperáu al esperar los eventos de la tarxeta "
-#~ "intelixente"
-
-#~ msgid "Authentication"
-#~ msgstr "Autenticación"
-
-#~ msgid "Log into session"
-#~ msgstr "Coneutar a la sesión"
-
-#~ msgid "Value"
-#~ msgstr "Valor"
-
-#~ msgid "percentage of time complete"
-#~ msgstr "porcentax de tiempu completáu"
-
-#~ msgid "Inactive Text"
-#~ msgstr "Testu inactivu"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr ""
-#~ "El testu que s'usará na etiqueta si l'usuariu entá nun escoyó un elementu"
-
-#~ msgid "Active Text"
-#~ msgstr "Testu activu"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr "El testu que s'usará na etiqueta si l'usuariu escoyó un elementu"
-
-#~ msgid "List Visible"
-#~ msgstr "Llistar visibles"
-
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "Conseña si la llista del seleutor ye visible"
-
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%a, %e de %b, %H:%M:%S"
-
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%a, %e de %b, %H:%M"
-
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%a %H:%M:%S"
-
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%a %H:%M"
-
-#~ msgid "Automatically logging in…"
-#~ msgstr "Aniciar sesión automáticamente…"
-
-#~ msgid "Cancelling…"
-#~ msgstr "Encaboxando…"
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "Esbilla una llingua y calca Aniciar sesión"
-
-#~ msgctxt "customsession"
-#~ msgid "Custom"
-#~ msgstr "Personalizada"
-
-#~ msgid "Custom session"
-#~ msgstr "Sesión personalizada"
-
-#~ msgid "Cancel"
-#~ msgstr "Encaboxar"
-
-#~ msgid "Computer Name"
-#~ msgstr "Nome del equipu"
-
-#~ msgid "Login"
-#~ msgstr "Coneutase"
-
-#~ msgid "Unlock"
-#~ msgstr "Desbloquiar"
-
-#~ msgid "Version"
-#~ msgstr "Versión"
-
-#~ msgid "Suspend"
-#~ msgstr "Suspender"
-
-#~ msgid "Restart"
-#~ msgstr "Reaniciar"
-
-#~ msgid "Shut Down"
-#~ msgstr "Apagar"
-
-#~ msgid "Unknown time remaining"
-#~ msgstr "Tiempu restante desconocíu"
-
-#~ msgid "Panel"
-#~ msgstr "Panel"
-
-#~ msgid "Label Text"
-#~ msgstr "Testu d'etiqueta"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "El testu qu'usar como etiqueta"
-
-#~ msgid "Icon name"
-#~ msgstr "Nome del iconu"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "L'iconu qu'usar cola etiqueta"
-
-#~ msgid "Default Item"
-#~ msgstr "Elementu predetermináu"
-
-#~ msgid "The ID of the default item"
-#~ msgstr "El ID del elementu predetermináu"
-
-#~ msgid "Max Item Count"
-#~ msgstr "Númberu máximu d'elementos"
-
-#~ msgid "The maximum number of items to keep around in the list"
-#~ msgstr "El máximu númberu d'elementos que caltener na llista"
-
-#~ msgid "Remote Login (Connecting to %s…)"
-#~ msgstr "Aniciu de sesión remotu (coneutándose a %s…)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "Aniciu de sesión remotu (coneutándose a %s…)"
-
-#~ msgid "Remote Login"
-#~ msgstr "Aniciu de sesión remotu"
-
-#~ msgid "Session"
-#~ msgstr "Sesión"
-
-#~ msgid "Banner message text when chooser is empty"
-#~ msgstr "Mensaxe de testu d'entrada cuando'l seleutor ta ermu"
-
-#~ msgid "Do not show known users in the login window"
-#~ msgstr "Non amosar los usuarios na ventana d'aniciu de sesión"
-
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "Activar el complementu d'accesibilidá del tecláu"
-
-#~ msgid "Enable on-screen keyboard"
-#~ msgstr "Activar tecláu na pantalla"
-
-#~ msgid "Enable screen magnifier"
-#~ msgstr "Activar magnificador de pantalla"
-
-#~ msgid "Enable screen reader"
-#~ msgstr "Activar llector de pantalla"
-
-#~ msgid "Icon name to use for greeter logo"
-#~ msgstr "Nome del iconu qu'usar pal logotipu de la interface d'entrada"
-
-#~ msgid "Recently selected languages"
-#~ msgstr "Llingües recientemente esbillaes"
-
-#~ msgid ""
-#~ "Set to a list of languages to be shown by default in the login window."
-#~ msgstr ""
-#~ "Afitar una llista de llingües p'amosar na ventana d'arranque de sesión de "
-#~ "manera predeterminada."
-
-#~ msgid "Set to the themed icon name to use for the greeter logo."
-#~ msgstr ""
-#~ "Afitar al nome del tema d'iconos qu'usar pal logotipu de la interface "
-#~ "gráfica."
-
-#~ msgid "Set to true to disable showing known users in the login window."
-#~ msgstr ""
-#~ "Afitar a braero pa desactivar l'amosáu de los usuarios conocíos na "
-#~ "ventana d'aniciu de sesión."
-
-#~ msgid "Set to true to enable the XRandR settings manager plugin."
-#~ msgstr ""
-#~ "Afitar a verdaderu p'activar el complementu del xestor d'axustes de "
-#~ "XRandR."
-
-#~ msgid "Set to true to enable the background settings manager plugin."
-#~ msgstr ""
-#~ "Afitar a braero p'activar el complementu del xestor d'axustes del fondu "
-#~ "de pantalla."
-
-#~ msgid "Set to true to enable the media-keys settings manager plugin."
-#~ msgstr ""
-#~ "Afitar a braero p'activar los axustes del complementu del xestor de "
-#~ "tecles multimedia."
-
-#~ msgid "Set to true to enable the on-screen keyboard."
-#~ msgstr "Afitar a braero p'activar el tecláu en pantalla."
-
-#~ msgid ""
-#~ "Set to true to enable the plugin to manage the accessibility keyboard "
-#~ "settings."
-#~ msgstr ""
-#~ "Afitar a braero p'activar el complementu del xestor d'axustes "
-#~ "d'accesibilidá del tecláu."
-
-#~ msgid "Set to true to enable the screen magnifier."
-#~ msgstr "Afitar a braero p'activar el magnificador de pantalla."
-
-#~ msgid "Set to true to enable the screen reader."
-#~ msgstr "Afitar a braero p'activar el llector de pantalla."
-
-#~ msgid "Set to true to enable the sound settings manager plugin."
-#~ msgstr ""
-#~ "Afitar a braero p'activar el complementu del xestor d'axustes de soníu."
-
-#~ msgid "Set to true to enable the xsettings settings manager plugin."
-#~ msgstr ""
-#~ "Afitar a braero p'activar el complementu del xestor d'axustes xsettings."
-
-#~ msgid "Set to true to use Compiz as the window manager."
-#~ msgstr "Afitar a verdaderu pa usar Compiz como xestor de ventanes."
-
-#~ msgid ""
-#~ "Text banner message to show in the login window when the user chooser is "
-#~ "empty, instead of banner_message_text."
-#~ msgstr ""
-#~ "Mensaxe de testu qu'amosar na ventana d'aniciu de sesión cuando'l "
-#~ "seleutor ta ermu, n'arróu de banner_message_text."
-
-#~ msgid "True if the XRandR settings manager plugin is enabled."
-#~ msgstr "Braero si'l complementu del xestor d'axustes de XRandR ta activáu."
-
-#~ msgid "True if the background settings manager plugin is enabled."
-#~ msgstr ""
-#~ "Braero si'l complementu del xestor d'axustes del fondu de pantalla ta "
-#~ "activáu."
-
-#~ msgid "True if the media-keys settings manager plugin is enabled."
-#~ msgstr ""
-#~ "Braero si'l complementu del xestor d'axustes de tecles multimedia ta "
-#~ "activáu."
-
-#~ msgid "True if the sound settings manager plugin is enabled."
-#~ msgstr "Braero si'l complementu del xestor d'axustes de soníu ta activáu."
-
-#~ msgid "True if the xsettings settings manager plugin is enabled."
-#~ msgstr "Braero si'l complementu del xestor d'axustes xsettings ta activáu."
-
-#~ msgid "Use Compiz as the window manager"
-#~ msgstr "Usar Compiz como xestor de ventanes"
-
-#~ msgid "Duration"
-#~ msgstr "Duración"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "Númberu de segundos fasta que se pare'l cuntador"
-
-#~ msgid "Start time"
-#~ msgstr "Hora d'entamu"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "Hora na que s'anició el cuntador"
-
-#~ msgid "Is it Running?"
-#~ msgstr "¿Ta executándose?"
-
-#~ msgid "Whether the timer is currently ticking"
-#~ msgstr "Conseña si'l cuntador ta executándose anguaño"
-
-#~ msgid "Log in as %s"
-#~ msgstr "Aniciar sesión como %s"
-
-#~ msgctxt "user"
-#~ msgid "Other…"
-#~ msgstr "Otru..."
-
-#~ msgid "Choose a different account"
-#~ msgstr "Escueyi una cuenta distinta"
-
-#~ msgid "Guest"
-#~ msgstr "Invitáu"
-
-#~ msgid "Log in as a temporary guest"
-#~ msgstr "Aniciar sesión como invitáu temporal"
-
-#~ msgid "Automatic Login"
-#~ msgstr "Aniciu de sesión automáticu"
-
-#~ msgid "Automatically log into the system after selecting options"
-#~ msgstr "Aniciar sesión nel sistema dempués d'esbillar les opciones"
-
-#~ msgid "Currently logged in"
-#~ msgstr "Sesión aniciada"

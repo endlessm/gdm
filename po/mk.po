@@ -1,32 +1,35 @@
-# translation of gdm.HEAD.mk.po to Macedonian
-# translation of gdm2.HEAD.mk.po to
-# translation of gdm2.HEAD.mk.po to
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER.
-#
-# Дамјан Георгиевски, 2002.
-# Maratonec <kjdskjds@dksjd>, 2002.
-# Misa Popovic <stomak81@freemail.com.mk>, 2003.
-# Arangel Angov <ufo@linux.net.mk>, 2003, 2004, 2006, 2007, 2008.
-# Tomislav Markovski <herrera@users.sourceforge.net>, 2004.
-# Арангел Ангов <ufo@linux.net.mk>, 2005.
-# Goce Dimitrievski <gocemk2001@yahoo.com>, 2006.
-# Ivica Micev <icko@elfasko.org.mk>, 2006.
-# Jovan Naumovski <jovan@lugola.net>, 2006, 2007, 2008.
+# 
+# Translators:
+# Aleksandar Savic <savica@mt.net.mk>, 2003
+# Arangel Angov <arangel@linux.net.mk>, 2007
+# Arangel Angov <ufo@linux.net.mk>, 2003-2008
+# Goce Dimitrievski <gocemk2001@yahoo.com>, 2006
+# Ivan Stojmirov <stojmir@linux.net.mk>, 2003
+# Ivica Micev <icko@elfasko.org.mk>, 2006
+# Jovan Kostovski <chombium@freemail.com.mk>, 2003
+# Jovan Naumovski <jovan@lugola.net>, 2006-2008
+# Maratonec 4 <maraton@localhost.localdomain>, 2002
+# Maratonec <kjdskjds@dksjd>, 2002
+# Misa Popovic <stomak81@freemail.com.mk>, 2003
+# Tomislav Markovski <herrera@users.sourceforge.net>, 2004
+# Арангел Ангов <ufo@linux.net.mk>, 2005
+# Дамјан Георгиевски, 2002
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm.HEAD.mk\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2012-01-08 14:52+0100\n"
-"Last-Translator: Jovan N\n"
-"Language-Team: Macedonian <mkde-l10n@lists.sourceforge.net>\n"
-"Language: mk\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:13+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Macedonian (http://www.transifex.com/endless-mobile-inc/gdm/language/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural= n==1 || n%10==1 ? 0 : 1\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: mk\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1;\n"
 
 #: ../common/gdm-common.c:311
 #, c-format
@@ -45,9 +48,9 @@ msgid "User unable to switch sessions."
 msgstr "Не можев да ги сменам сесиите."
 
 #: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
-#, fuzzy, c-format
+#, c-format
 msgid "Could not identify the current seat."
-msgstr "Не можев да ја идентификувам тековната сесија."
+msgstr ""
 
 #: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
 #, c-format
@@ -67,9 +70,8 @@ msgid "could not find user \"%s\" on system"
 msgstr "не можам да го пронајдам корисникот „%s“ на системот"
 
 #: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
-#, fuzzy
 msgid "No session available"
-msgstr "нема достапни кориснички сметки"
+msgstr ""
 
 #: ../daemon/gdm-manager.c:953
 #, c-format
@@ -84,8 +86,7 @@ msgstr ""
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"Серверот требаше да биде повикан од корисникот %s но тој корисник не постои"
+msgstr "Серверот требаше да биде повикан од корисникот %s но тој корисник не постои"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
@@ -148,9 +149,8 @@ msgid "The display device"
 msgstr "Уредот за приказ"
 
 #: ../daemon/gdm-session.c:1216
-#, fuzzy
 msgid "Could not create authentication helper process"
-msgstr "%s: не можев да ги прочитам имињата за авторизација"
+msgstr ""
 
 #: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
@@ -160,43 +160,34 @@ msgstr ""
 msgid "Sorry, that didn't work. Please try again."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Корисничко име:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr ""
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "нема достапни кориснички сметки"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Не можам да го променам корисникот"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Не можам да го стартувам X серверот (Вашата графичка околина) поради "
-"внатрешна грешка. Ве молам контактирајте со администраторот на системот или "
-"проверете го Вашиот системски лог за дијагнозирање. Во меѓувреме овој приказ "
-"ќе биде оневозможен.  Ве молам, рестартирајте го GDM кога проблемот ќе е "
-"решен."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Не можам да го стартувам X серверот (Вашата графичка околина) поради внатрешна грешка. Ве молам контактирајте со администраторот на системот или проверете го Вашиот системски лог за дијагнозирање. Во меѓувреме овој приказ ќе биде оневозможен.  Ве молам, рестартирајте го GDM кога проблемот ќе е решен."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -205,9 +196,7 @@ msgstr "Не можам да направам сокет!"
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Не можам да ја запишам PID датотеката %s: најверојатно нема место на дискот: "
-"%s"
+msgstr "Не можам да ја запишам PID датотеката %s: најверојатно нема место на дискот: %s"
 
 #: ../daemon/main.c:188
 #, c-format
@@ -215,9 +204,9 @@ msgid "Failed to create ran once marker dir %s: %s"
 msgstr ""
 
 #: ../daemon/main.c:194
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to create LogDir %s: %s"
-msgstr "Не успеав да го рестартирам компјутерот"
+msgstr ""
 
 #: ../daemon/main.c:229
 #, c-format
@@ -280,9 +269,7 @@ msgstr "Даил да се овозможи користење на отпеча
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Екранот за најава може опционално да им дозволи на корисниците кои ги "
-"снимале своите отпечатоци од прсти да се најават со нивно користење."
+msgstr "Екранот за најава може опционално да им дозволи на корисниците кои ги снимале своите отпечатоци од прсти да се најават со нивно користење."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -292,14 +279,11 @@ msgstr "Даил да се овозможи користење на смарт �
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Екранот за најава може опционално да им дозволи на корисниците кои имаат "
-"смарт картички да се најават со нивно користење."
+msgstr "Екранот за најава може опционално да им дозволи на корисниците кои имаат смарт картички да се најават со нивно користење."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
-#, fuzzy
 msgid "Whether or not to allow passwords for login"
-msgstr "Даил да се овозможи користење на смарт картички за најава"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:6
 msgid ""
@@ -316,21 +300,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"Екранот за најава може опционално да овозможи мала слика на врвот на листата "
-"на корисници за да им овозможи на администраторите и на дистрибуциите "
-"можност за брендирање."
+msgstr "Екранот за најава може опционално да овозможи мала слика на врвот на листата на корисници за да им овозможи на администраторите и на дистрибуциите можност за брендирање."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
-#, fuzzy
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
 msgstr ""
-"Екранот за најава може опционално да овозможи мала слика на врвот на листата "
-"на корисници за да им овозможи на администраторите и на дистрибуциите "
-"можност за брендирање."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -338,12 +315,9 @@ msgstr "Одбегнувај прикажување на листа на кор�
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Екранот за најава вообичаено прикажува листа на достапни корисници за "
-"најава. Ова поставување може да се исклучи/вклучи за да се оневозможи "
-"прикажување на листата."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Екранот за најава вообичаено прикажува листа на достапни корисници за најава. Ова поставување може да се исклучи/вклучи за да се оневозможи прикажување на листата."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -366,15 +340,13 @@ msgid "Disable showing the restart buttons"
 msgstr "Оневозможи го прикажувањето на копчињата за рестартирање"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Постави на true за оневозможување на копчињата за рестартирање во прозорецот "
-"за најава."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Постави на true за оневозможување на копчињата за рестартирање во прозорецот за најава."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
-#, fuzzy
 msgid "Number of allowed authentication failures"
-msgstr "%s: не можев да ги прочитам имињата за авторизација"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
@@ -395,24 +367,20 @@ msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: не можам да го прочитам XDMCP заглавието!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-#, fuzzy
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XMDCP: грешна верзија на XDMCP!"
+msgstr ""
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-#, fuzzy
 msgid "XDMCP: Unable to parse address"
-msgstr "XMDCP: не можам да ја парсирам адресата"
+msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:72
-#, fuzzy
 msgid "Unable to create transient display: "
-msgstr "Не можам да подигнам нов приказ"
+msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
-#, fuzzy
 msgid "Unable to activate session: "
-msgstr "Не можам да ја отворам сесијата"
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
@@ -448,766 +416,3 @@ msgstr "Екранот е сликан"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Сликај го екранот"
-
-#~ msgid "Display ID"
-#~ msgstr "ID на приказ"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "GNOME Display Manager Slave"
-#~ msgstr "Менаџер за приказ на GNOME - Slave"
-
-#~ msgid "Unable to initialize login system"
-#~ msgstr "Не можам да го иницијализирам системот за најава"
-
-#~ msgid "Unable to authenticate user"
-#~ msgstr "Не можам да ја проверам автентичноста на корисникот"
-
-#~ msgid "Unable to authorize user"
-#~ msgstr "Не можам да го авторизирам корисникот"
-
-#~ msgid "Unable to establish credentials"
-#~ msgstr "Не можам да ги воспоставам акредитивите"
-
-#~ msgid "%s: failed to connect to parent display '%s'"
-#~ msgstr "%s: не можам да се врзам за приказот „%s“"
-
-#~ msgid "error initiating conversation with authentication system - %s"
-#~ msgstr ""
-#~ "грешка во иницијализирањето на врска со системот за авторизација - %s"
-
-#~ msgid "general failure"
-#~ msgstr "општа грешка"
-
-#~ msgid "out of memory"
-#~ msgstr "нема повеќе меморија"
-
-#~ msgid "application programmer error"
-#~ msgstr "програмерска грешка на апликациајата"
-
-#~ msgid "unknown error"
-#~ msgstr "непозната грешка"
-
-#~| msgid ""
-#~| "error informing authentication system of preferred username prompt - %s"
-#~ msgid ""
-#~ "error informing authentication system of preferred username prompt: %s"
-#~ msgstr ""
-#~ "грешка во информирањето на системот за автентикација за преферираното "
-#~ "корисничко име: %s"
-
-#~| msgid "error informing authentication system of user's hostname - %s"
-#~ msgid "error informing authentication system of user's hostname: %s"
-#~ msgstr ""
-#~ "грешка во информирањето на системот за автентикација за името на хостот: "
-#~ "%s"
-
-#~| msgid "error informing authentication system of user's console - %s"
-#~ msgid "error informing authentication system of user's console: %s"
-#~ msgstr ""
-#~ "грешка во информирањето на системот за автентикација на прикажување на "
-#~ "конзола: %s"
-
-#~| msgid "error informing authentication system of display string - %s"
-#~ msgid "error informing authentication system of display string: %s"
-#~ msgstr ""
-#~ "грешка во информирањето на системот за автентикација на прикажување на "
-#~ "низа: %s"
-
-#~| msgid ""
-#~| "error informing authentication system of display xauth credentials - %s"
-#~ msgid ""
-#~ "error informing authentication system of display xauth credentials: %s"
-#~ msgstr ""
-#~ "грешка во информирање на системот за автентикација за приказ на xauth "
-#~ "акредитиви: %s"
-
-#~ msgid "User %s doesn't exist"
-#~ msgstr "Корисникот %s не постои"
-
-#~ msgid "Group %s doesn't exist"
-#~ msgstr "Групата %s не постои"
-
-#~ msgid "Logdir %s does not exist or isn't a directory."
-#~ msgstr "Logdir %s не постои или не е директориум."
-
-#~ msgid "Authdir %s does not exist. Aborting."
-#~ msgstr "Authdir %s не постои. Прекинувам."
-
-#~ msgid "Authdir %s is not a directory. Aborting."
-#~ msgstr "Authdir %s не е директориум. Прекинувам."
-
-#~ msgid "Authdir %s is not owned by user %d, group %d. Aborting."
-#~ msgstr ""
-#~ "Authdir %s не е во сопственост на корисникот %d, група %d. Прекинувам."
-
-#~ msgid "Authdir %s has wrong permissions %o. Should be %o. Aborting."
-#~ msgstr "Authdir %s има погрешни пермисии %o. Треба да се %o. Прекинувам."
-
-#~ msgid "Login Window"
-#~ msgstr "Прозорец за најава"
-
-#~ msgid "GNOME Screen Magnifier"
-#~ msgstr "Зголемувач на екранот на GNOME"
-
-#~ msgid "Magnify parts of the screen"
-#~ msgstr "Зголеми делови од екранот"
-
-#~| msgid "GNOME Onscreen Keyboard"
-#~ msgid "GNOME On-Screen Keyboard"
-#~ msgstr "Екранска тастатура на GNOME"
-
-#~| msgid "Use an onscreen keyboard"
-#~ msgid "Use an on-screen keyboard"
-#~ msgstr "Користи екранска тастатура"
-
-#~ msgid "Orca Screen Reader"
-#~ msgstr "Orca - читач на екран"
-
-#~ msgid "Present on-screen information as speech or braille"
-#~ msgstr "Претстави ги информациите на екранот на брајов екран или со говор"
-
-#~ msgid "Fingerprint Authentication"
-#~ msgstr "Автентикација со паметни картички"
-
-#~ msgid "Log into session with fingerprint"
-#~ msgstr "Најави се со отпечаток од прст"
-
-#~| msgid "Authentication Dialog"
-#~ msgid "Password Authentication"
-#~ msgstr "Автентикација со лозинка"
-
-#~ msgid "Log into session with username and password"
-#~ msgstr "Најави се со корисничко име и лозинка"
-
-#~ msgid "Log In"
-#~ msgstr "Најави се"
-
-#~ msgid "Slot ID"
-#~ msgstr "ID на место"
-
-#~ msgid "The slot the card is in"
-#~ msgstr "Местото каде што е картичката"
-
-#~ msgid "Slot Series"
-#~ msgstr "Серија на местото"
-
-#~ msgid "per-slot card identifier"
-#~ msgstr "идентификатор на местото"
-
-#~| msgid "Username"
-#~ msgid "name"
-#~ msgstr "име"
-
-#~ msgid "Module"
-#~ msgstr "Модул"
-
-#~ msgid "smartcard driver"
-#~ msgstr "драјвер за смарт картичка"
-
-#~| msgid "Authentication Dialog"
-#~ msgid "Smartcard Authentication"
-#~ msgstr "Автентикација со смарт картичка"
-
-#~ msgid "Log into session with smartcard"
-#~ msgstr "Најави се со смарт картичка"
-
-#~ msgid "Module Path"
-#~ msgstr "Патека на модулот"
-
-#~ msgid "path to smartcard PKCS #11 driver"
-#~ msgstr "патека до драјвер за PKCS #11 смарт картичка"
-
-#~ msgid "received error or hang up from event source"
-#~ msgstr "примив грешка или одбивање од изворот на настанот"
-
-#~ msgid "NSS security system could not be initialized"
-#~ msgstr "NSS системот за безбедност не може да се иницијализира"
-
-#~ msgid "no suitable smartcard driver could be found"
-#~ msgstr "не е пронајден соодветен драјвер за смарт картички"
-
-#~ msgid "smartcard driver '%s' could not be loaded"
-#~ msgstr "драјверот за смарт картички „%s“ не може да се вчита"
-
-#~ msgid "could not watch for incoming card events - %s"
-#~ msgstr "не можев да надгледувам дојдовни настани од картичката - %s"
-
-#~ msgid "encountered unexpected error while waiting for smartcard events"
-#~ msgstr ""
-#~ "настана неочекувана грешка при чекањето на настани од смарт картичката"
-
-#~| msgid "Authentication Dialog"
-#~ msgid "Authentication"
-#~ msgstr "Автентикација"
-
-#~| msgid "Log in as %s"
-#~ msgid "Log into session"
-#~ msgstr "Најави се на сесијата"
-
-#~ msgid "Value"
-#~ msgstr "Вредност"
-
-#~ msgid "percentage of time complete"
-#~ msgstr "процент на поминато време"
-
-#~ msgid "Inactive Text"
-#~ msgstr "Неактивен текст"
-
-#~ msgid "The text to use in the label if the user hasn't picked an item yet"
-#~ msgstr ""
-#~ "Текстот кој ќе се користи во наптисот ако корисникот не избрал предмет"
-
-#~ msgid "Active Text"
-#~ msgstr "Активен текст"
-
-#~ msgid "The text to use in the label if the user has picked an item"
-#~ msgstr "Текст кој ќе се користи како натпис ако корисникот избрал предмет"
-
-#~ msgid "List Visible"
-#~ msgstr "Листата е видлива"
-
-#~ msgid "Whether the chooser list is visible"
-#~ msgstr "Дали листата за избирање е видлива"
-
-#~| msgid "%l:%M:%S %p"
-#~ msgid "%a %b %e, %l:%M:%S %p"
-#~ msgstr "%a %b %e, %l:%M:%S %p"
-
-#~| msgid "%l:%M %p"
-#~ msgid "%a %b %e, %l:%M %p"
-#~ msgstr "%a %b %e, %l:%M %p"
-
-#~| msgid "%l:%M:%S %p"
-#~ msgid "%a %l:%M:%S %p"
-#~ msgstr "%a %l:%M:%S %p"
-
-#~| msgid "%l:%M %p"
-#~ msgid "%a %l:%M %p"
-#~ msgstr "%a %l:%M %p"
-
-#~| msgid "Automatically logging in..."
-#~ msgid "Automatically logging in…"
-#~ msgstr "Се најавувам автоматски..."
-
-#~| msgid "Cancelling..."
-#~ msgid "Cancelling…"
-#~ msgstr "Прекинувам..."
-
-#~ msgid "Select language and click Log In"
-#~ msgstr "Изберете јазик и кликнете „Најави се“"
-
-#~ msgctxt "customsession"
-#~ msgid "Custom"
-#~ msgstr "Сопствена"
-
-#~ msgid "Custom session"
-#~ msgstr "Сопствена сесија"
-
-#~| msgid "Panel"
-#~ msgid "Cancel"
-#~ msgstr "Откажи"
-
-#~ msgid "Computer Name"
-#~ msgstr "Име на компјутерот"
-
-#~| msgid "Log In"
-#~ msgid "Login"
-#~ msgstr "Најава"
-
-#~ msgid "Unlock"
-#~ msgstr "Отклучи"
-
-#~ msgid "Version"
-#~ msgstr "Верзија"
-
-#~ msgid "Suspend"
-#~ msgstr "Суспендирај"
-
-#~ msgid "Restart"
-#~ msgstr "Рестартирај"
-
-#~ msgid "Shut Down"
-#~ msgstr "Исклучи"
-
-#~ msgid "Unknown time remaining"
-#~ msgstr "Преостанува неодредено време"
-
-#~ msgid "Panel"
-#~ msgstr "Панел"
-
-#~ msgid "Label Text"
-#~ msgstr "Текст за натпис"
-
-#~ msgid "The text to use as a label"
-#~ msgstr "Текстот кој ќе се користи како натпис"
-
-#~ msgid "Icon name"
-#~ msgstr "Име на икона"
-
-#~ msgid "The icon to use with the label"
-#~ msgstr "Икона која ќе се користи со натписот"
-
-#~ msgid "Default Item"
-#~ msgstr "Стандарден предмет"
-
-#~| msgid "The id of the default item"
-#~ msgid "The ID of the default item"
-#~ msgstr "ID на стандардниот предмет"
-
-#~ msgid "Max Item Count"
-#~ msgstr "Максимален број на предмети"
-
-#~ msgid "The maximum number of items to keep around in the list"
-#~ msgstr "Максималниот број на предмети кои ќе се чуваат во листата"
-
-#~| msgid "Remote Login (Connecting to %s...)"
-#~ msgid "Remote Login (Connecting to %s…)"
-#~ msgstr "Оддалечена најава (поврзување со %s...)"
-
-#~ msgid "Remote Login (Connected to %s)"
-#~ msgstr "Оддалечена најава (поврзани со %s)"
-
-#~ msgid "Remote Login"
-#~ msgstr "Оддалечена најава"
-
-#~| msgid "_Sessions:"
-#~ msgid "Session"
-#~ msgstr "Сесија"
-
-#~| msgid "Banner message text"
-#~ msgid "Banner message text when chooser is empty"
-#~ msgstr "Текст на пораката од банерот кога избирачот е празен"
-
-#~ msgid "Do not show known users in the login window"
-#~ msgstr "Не ги прикажувај корисниците во прозорецот за најава"
-
-#~ msgid "Enable accessibility keyboard plugin"
-#~ msgstr "Овозможи го приклучокот за пристапност на тастатурата"
-
-#~ msgid "Enable on-screen keyboard"
-#~ msgstr "Овозможи екранска тастатура"
-
-#~ msgid "Enable screen magnifier"
-#~ msgstr "Овозможи зголемувач на екранот"
-
-#~ msgid "Enable screen reader"
-#~ msgstr "Овозможи читач на екранот"
-
-#~ msgid "Icon name to use for greeter logo"
-#~ msgstr "Името на иконата кое ќе се користи како лого"
-
-#~ msgid "Recently selected languages"
-#~ msgstr "Скорешно избрани јазици"
-
-#~| msgid ""
-#~| "Set to a list of languages to be shown by default at the login window."
-#~ msgid ""
-#~ "Set to a list of languages to be shown by default in the login window."
-#~ msgstr ""
-#~ "Поставете листа на јазици која ќе се прикаже стандардно на прозорецот за "
-#~ "најава."
-
-#~ msgid "Set to the themed icon name to use for the greeter logo."
-#~ msgstr "Поставете име на икона за користење како лого."
-
-#~| msgid "Set to TRUE to disable showing known users in the login window."
-#~ msgid "Set to true to disable showing known users in the login window."
-#~ msgstr ""
-#~ "Постави на true за оневозможување на познатите корисници во прозорецот за "
-#~ "најава."
-
-#~| msgid "Set to True to enable the xrandr settings manager plugin."
-#~ msgid "Set to true to enable the XRandR settings manager plugin."
-#~ msgstr "Постави на true за овозможување на приклучок за XRandR."
-
-#~| msgid "Set to True to enable the background settings manager plugin."
-#~ msgid "Set to true to enable the background settings manager plugin."
-#~ msgstr ""
-#~ "Постави на true за овозможување на приклучокот за менаџирање на позадини."
-
-#~| msgid "Set to True to enable the media-keys settings manager plugin."
-#~ msgid "Set to true to enable the media-keys settings manager plugin."
-#~ msgstr ""
-#~ "Постави на true за овозможување на приклучокот за мултимедијални копчиња."
-
-#~| msgid "Set to True to enable the on-screen keyboard."
-#~ msgid "Set to true to enable the on-screen keyboard."
-#~ msgstr "Постави на true за овозможување на екранска тастатура."
-
-#~| msgid ""
-#~| "Set to True to enable the plugin to manage the accessibility keyboard "
-#~| "settings."
-#~ msgid ""
-#~ "Set to true to enable the plugin to manage the accessibility keyboard "
-#~ "settings."
-#~ msgstr ""
-#~ "Постави на tru за овозможување на приклучок за менаџирање на "
-#~ "поставувањата за пристапност на тастатура."
-
-#~| msgid "Set to True to enable the screen magnifier."
-#~ msgid "Set to true to enable the screen magnifier."
-#~ msgstr "Постави на true за овозможување на зголемувач на екранот."
-
-#~| msgid "Set to True to enable the screen reader."
-#~ msgid "Set to true to enable the screen reader."
-#~ msgstr "Постави на true за овозможување на читачот на екранот."
-
-#~| msgid "Set to True to enable the sound settings manager plugin."
-#~ msgid "Set to true to enable the sound settings manager plugin."
-#~ msgstr ""
-#~ "Постави на true за овозможување на приклучок за поставување на звуци."
-
-#~| msgid "Set to True to enable the xsettings settings manager plugin."
-#~ msgid "Set to true to enable the xsettings settings manager plugin."
-#~ msgstr "Постави на true за овозможување на приклучок за xsettings."
-
-#~| msgid "Set to true to use compiz as the window manager."
-#~ msgid "Set to true to use Compiz as the window manager."
-#~ msgstr ""
-#~ "Постави на true за овозможување на Compiz како стандарден менаџер на "
-#~ "прозорци."
-
-#~ msgid ""
-#~ "Text banner message to show in the login window when the user chooser is "
-#~ "empty, instead of banner_message_text."
-#~ msgstr ""
-#~ "Банерот со текст кој ќе се прикаже на најавниот прозорец кога избирачот "
-#~ "на корисници е празен, наместо banner_message_text."
-
-#~| msgid "True if the xrandr settings manager plugin is enabled."
-#~ msgid "True if the XRandR settings manager plugin is enabled."
-#~ msgstr "True ако приклучокот за менаџер на XRandR поставувања е овозможен."
-
-#~ msgid "True if the background settings manager plugin is enabled."
-#~ msgstr "True ако приклучокот за менаџирање на позадини е овозможен."
-
-#~ msgid "True if the media-keys settings manager plugin is enabled."
-#~ msgstr "True ако приклучокот за мултимедијални копчиња е овозможен."
-
-#~ msgid "True if the sound settings manager plugin is enabled."
-#~ msgstr "True ако приклучокот за менаџирање на звуци е овозможен."
-
-#~ msgid "True if the xsettings settings manager plugin is enabled."
-#~ msgstr ""
-#~ "Точно ако приклучокот за xsettings - менаџерот за поставувања е овозможен."
-
-#~| msgid "Use compiz as the window manager"
-#~ msgid "Use Compiz as the window manager"
-#~ msgstr "Користи го Compiz како менаџер за прозорци"
-
-#~ msgid "Duration"
-#~ msgstr "Времетраење"
-
-#~ msgid "Number of seconds until timer stops"
-#~ msgstr "Број на секунди додека не застане тајмерот"
-
-#~ msgid "Start time"
-#~ msgstr "Започни со броење на време"
-
-#~ msgid "Time the timer was started"
-#~ msgstr "Тајмерот е стартуван"
-
-#~ msgid "Is it Running?"
-#~ msgstr "Дали работи?"
-
-#~| msgid "Whether or not the timer is currently ticking"
-#~ msgid "Whether the timer is currently ticking"
-#~ msgstr "Дали тајмерот моментално одбројува"
-
-#~ msgid "Log in as %s"
-#~ msgstr "Најави се како %s"
-
-#~| msgid "Other..."
-#~ msgctxt "user"
-#~ msgid "Other…"
-#~ msgstr "Друго..."
-
-#~ msgid "Choose a different account"
-#~ msgstr "Избери друга локација"
-
-#~ msgid "Guest"
-#~ msgstr "Гостин"
-
-#~| msgid "Login as a temporary guest"
-#~ msgid "Log in as a temporary guest"
-#~ msgstr "Најви се на системот привремено како гостин"
-
-#~ msgid "Automatic Login"
-#~ msgstr "Автоматска најава"
-
-#~| msgid "Automatically login to the system after selecting options"
-#~ msgid "Automatically log into the system after selecting options"
-#~ msgstr "Автоматски најави се на системот по избирањето на опциите"
-
-#~ msgid "Currently logged in"
-#~ msgstr "Тековно најавен"
-
-#~ msgid "Enable debugging code"
-#~ msgstr "Овозможувам код за дебагирање"
-
-#~ msgid "id"
-#~ msgstr "id"
-
-#~ msgid "Couldn't set groupid to 0"
-#~ msgstr "Не можев да поставам groupid на 0"
-
-#~ msgid "worker exited with status %d"
-#~ msgstr "излез со статус %d"
-
-#~ msgid "Unable establish credentials"
-#~ msgstr "Не успеав да воспоставам акредитиви"
-
-#~ msgid "Denied XDMCP query from host %s"
-#~ msgstr "Одбиено е XDMCP барањето од хостот %s"
-
-#~ msgid "Could not extract authlist from packet"
-#~ msgstr "Не можам да отпакувам authlist од пакет"
-
-#~ msgid "Error in checksum"
-#~ msgstr "Грешка во проверката на сумата"
-
-#~ msgid "Bad address"
-#~ msgstr "Неправилна адреса"
-
-#~ msgid "%s: Could not read display address"
-#~ msgstr "%s: не можам да ја прочитам адресата за приказ"
-
-#~ msgid "%s: Could not read display port number"
-#~ msgstr "%s: не можам да го прочитам бројот на порта на приказот"
-
-#~ msgid "%s: Could not extract authlist from packet"
-#~ msgstr "%s: не можам да отпакувам authlist од пакет"
-
-#~ msgid "%s: Error in checksum"
-#~ msgstr "%s: грешка во проверката на сумата"
-
-#~ msgid "%s: Got REQUEST from banned host %s"
-#~ msgstr "%s: Добив REQUEST од банираниот хост %s"
-
-#~ msgid "%s: Could not read Display Number"
-#~ msgstr "%s: не можев да го прочитам бројот на приказ"
-
-#~ msgid "%s: Could not read Connection Type"
-#~ msgstr "%s: не можев да го прочитам типот на врска"
-
-#~ msgid "%s: Could not read Client Address"
-#~ msgstr "%s: не можев да ја прочитам адресата на клиентот"
-
-#~ msgid "%s: Could not read Authentication Data"
-#~ msgstr "%s: не можев да ги прочитам податоците за автентикација"
-
-#~ msgid "%s: Could not read Authorization List"
-#~ msgstr "%s: не можев да ја прочитам листата за авторизација"
-
-#~ msgid "%s: Could not read Manufacturer ID"
-#~ msgstr "%s: не можев да го прочитам ID-то на изработувачот"
-
-#~ msgid "%s: Failed checksum from %s"
-#~ msgstr "%s: неуспешен checksum од %s"
-
-#~ msgid "%s: Got Manage from banned host %s"
-#~ msgstr "%s: добив „Manage“ од баниран хост %s"
-
-#~ msgid "%s: Could not read Session ID"
-#~ msgstr "%s: не можев да го прочитам ID-то на сесијата"
-
-#~ msgid "%s: Could not read Display Class"
-#~ msgstr "%s: не можев да ја прочитам класата за приказ"
-
-#~ msgid "%s: Could not read address"
-#~ msgstr "%s: не можам да ја прочитам адресата"
-
-#~ msgid "%s: Got KEEPALIVE from banned host %s"
-#~ msgstr "%s: добив KEEPALIVE од баниран хост %s"
-
-#~ msgid "GdmXdmcpDisplayFactory: Could not read XDMCP header!"
-#~ msgstr ""
-#~ "GdmXdmcpDisplayFactory: не можам да го прочитам заглавието на XDMCP!"
-
-#~ msgid "Could not get server hostname: %s!"
-#~ msgstr "Не можам да го добијам името на хостот на серверот: %s!"
-
-#~ msgid "AT SPI Registry Wrapper"
-#~ msgstr "AT SPI врапер за регистри"
-
-#~ msgid "Power Manager"
-#~ msgstr "Менаџер на енергија"
-
-#~ msgid "GNOME Settings Daemon"
-#~ msgstr "Демон за поставувања на GNOME"
-
-#~ msgid "Metacity"
-#~ msgstr "Metacity"
-
-#~ msgid "%a %b %e"
-#~ msgstr "%a %b %e"
-
-#~ msgid "%1$s, %2$s"
-#~ msgstr "%1$s, %2$s"
-
-#~ msgid "You have the Caps Lock key on."
-#~ msgstr "Caps Lock е вклучен."
-
-#~ msgid ""
-#~ "You are not allowed to restart the computer because multiple users are "
-#~ "logged in"
-#~ msgstr ""
-#~ "Немате дозвола да го рестартирате компјутерот, бидејќи повеќе корисници "
-#~ "се најавени"
-
-#~ msgid "Failed to stop computer"
-#~ msgstr "Не успеав да го стопирам компјутерот"
-
-#~ msgid ""
-#~ "You are not allowed to stop the computer because multiple users are "
-#~ "logged in"
-#~ msgstr ""
-#~ "Немате дозвола за да го стопирате компјутерот, бидејќи повеќе корисници "
-#~ "се најавени"
-
-#~ msgid "page 5"
-#~ msgstr "страница 5"
-
-#~ msgid "Languages"
-#~ msgstr "Јазици"
-
-#~ msgid "_Languages:"
-#~ msgstr "_Јазици:"
-
-#~ msgid "_Language:"
-#~ msgstr "_Јазик:"
-
-#~ msgid "Choose a language from the full list of available languages."
-#~ msgstr "Одберете јазик од целосната листа на достапни јазици."
-
-#~ msgid "Unspecified"
-#~ msgstr "Неодредено"
-
-#~ msgid "Keyboard layouts"
-#~ msgstr "Распореди за тастатура"
-
-#~ msgid "_Keyboard:"
-#~ msgstr "_Тастатура:"
-
-#~ msgid "Choose a keyboard layout from the full list of available layouts."
-#~ msgstr "Изберете распоред за тастатура од целосната листа на распореди"
-
-#~ msgid "Enable debugging"
-#~ msgstr "Овозможи дебагирање"
-
-#~ msgid "Enable debugging mode for the greeter."
-#~ msgstr "Овозможи режим на дебагирање за поздравувачот."
-
-#~ msgid "Recently selected keyboard layouts"
-#~ msgstr "Скорешно користени распореди за тастатура"
-
-#~ msgid ""
-#~ "Set to a list of keyboard layouts to be shown by default at the login "
-#~ "window."
-#~ msgstr ""
-#~ "Поставете листа на распореди за тастатура која ќе се прикаже стандардно "
-#~ "на прозорецот за најава."
-
-#~ msgid "Manager"
-#~ msgstr "Менаџер"
-
-#~ msgid "The user manager object this user is controlled by."
-#~ msgstr "Објектот за менаџирање со кој овој корисник се контролира."
-
-#~ msgid ""
-#~ "The User Switch Applet is free software; you can redistribute it and/or "
-#~ "modify it under the terms of the GNU General Public License as published "
-#~ "by the Free Software Foundation; either version 2 of the License, or (at "
-#~ "your option) any later version."
-#~ msgstr ""
-#~ "Аплетот за менување на корисник е слободен софтвер; можете да го "
-#~ "редистрибуирате и/или менувате во согласност со општата јавна ГНУ лиценца "
-#~ "објавена од страна наФондацијата за слободен софтвер; можете да ја "
-#~ "разгледате втората или пак некоја понова верзија."
-
-#~ msgid ""
-#~ "This program is distributed in the hope that it will be useful, but "
-#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
-#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
-#~ "Public License for more details."
-#~ msgstr ""
-#~ "Програмава се дистрибуира со надеж дека ќе биде корисен,но без БИЛО КАКВИ "
-#~ "ГАРАНЦИИ.  За повеќе погледнете ја општата јавна ГНУ лиценца."
-
-#~ msgid ""
-#~ "You should have received a copy of the GNU General Public License along "
-#~ "with this program; if not, write to the Free Software Foundation, Inc., "
-#~ "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA "
-#~ msgstr ""
-#~ "Заедно со програмава треба да добиете и копија од општата и јавнаГНУ "
-#~ "лиценца; доколку ја нема лиценцата пишете и на Фондацијата заслободен "
-#~ "софтвер на следнава адреса: 51 Franklin Street, Fifth Floor, Boston, MA "
-#~ "02110-1301, USA "
-
-#~ msgid "A menu to quickly switch between users."
-#~ msgstr "Мени за брзо менување на корисниците."
-
-#~ msgid "translator-credits"
-#~ msgstr "Jovan Naumovski <jovan@lugola.net>, 2008"
-
-#~ msgid "Can't lock screen: %s"
-#~ msgstr "Не можам да го заклучам екранот: %s"
-
-#~ msgid "Can't temporarily set screensaver to blank screen: %s"
-#~ msgstr "Не можам да го поставам чуварот на екранот да биде црн екран: %s"
-
-#~ msgid "Unknown"
-#~ msgstr "Непознато"
-
-#~ msgid "User Switch Applet"
-#~ msgstr "Аплет за менување на корисници"
-
-#~ msgid "User Switcher"
-#~ msgstr "Менувач на корисници"
-
-#~ msgid "User"
-#~ msgstr "Корисник"
-
-#~ msgid "The user this menu item represents."
-#~ msgstr "Корисникот кој го застапува ова мени."
-
-#~ msgid "Icon Size"
-#~ msgstr "Големина на иконата"
-
-#~ msgid "The size of the icon to use."
-#~ msgstr "Големина на иконата за употреба."
-
-#~ msgid "Indicator Size"
-#~ msgstr "Големина на индикаторот"
-
-#~ msgid "Size of check indicator"
-#~ msgstr "Големина на индикаторот за проверка"
-
-#~ msgid "Indicator Spacing"
-#~ msgstr "Индикатор за празен простор"
-
-#~ msgid "Space between the username and the indicator"
-#~ msgstr "Празно место помеѓу името на корисникот и ознката"
-
-#~ msgid "A menu to quickly switch between users"
-#~ msgstr "Мени за брзо менување на корисници"
-
-#~ msgid "User Switcher Applet Factory"
-#~ msgstr "Фабрика за аплети за сменување на корисник"
-
-#~ msgid "Edit Personal _Information"
-#~ msgstr "Уреди ги личните _информации"
-
-#~ msgid "_About"
-#~ msgstr "_За"
-
-#~ msgid "_Edit Users and Groups"
-#~ msgstr "_Уреди ги корисниците и групите"
-
-#~ msgid "_Help"
-#~ msgstr "_Помош"
-
-#~ msgid "Main Options"
-#~ msgstr "Главни опции"

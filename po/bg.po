@@ -1,27 +1,31 @@
-# Bulgarian translation of gdm po-file.
-# Copyright (C) 2002, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
-# Copyright (C) 2009, 2010, 2011, 2012, 2014 Free Software Foundation, Inc.
-# Copyright (C) 2010 Krasimir Chonov <mk2616@abv.bg>.
-# Borislav Aleksandrov <B.Aleksandrov@cnsys.bg>, 2002.
-# Yanko Kaneti <yaneti@declera.com>, 2002.
-# Alexander Shopov <ash@kambanaria.org>, 2002, 2005, 2006, 2007, 2008, 2009.
-# Alexander Shopov <ash@kambanaria.org>, 2010, 2011, 2012, 2014.
-# Rostislav Raykov <zbrox@dir.bg>, 2004.
-# Krasimir Chonov <mk2616@abv.bg>, 2010.
-#
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Alexander Shopov <ash@kambanaria.org>, 2002,2005-2012,2014-2016
+# Borislav Aleksandrov <B.Aleksandrov@cnsys.bg>, 2002
+# Ivaylo Valkov <ivaylo@e-valkov.org>, 2011-2013
+# Jordan Miladinov <jordanmiladinov@gmail.com>, 2011
+# bfaf <mk2616@abv.bg>, 2009
+# bfaf <mk2616@abv.bg>, 2010
+# Rostislav Raykov <zbrox@dir.bg>, 2004
+# Rostislav Raykov <zbrox@i-space.org>, 2004-2005
+# Vladimir Petkov <kaladan@gmial.com>, 2004-2006
+# Yanko Kaneti <yaneti@declera.com>, 2002
+# Yavor Doganov <yavor@gnu.org>, 2007-2008
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm master\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-17 09:50-0700\n"
-"PO-Revision-Date: 2014-06-28 08:46+0300\n"
-"Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
-"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
-"Language: bg\n"
+"POT-Creation-Date: 2016-10-04 03:00+0000\n"
+"PO-Revision-Date: 2016-10-04 20:36+0000\n"
+"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"Language-Team: Bulgarian (http://www.transifex.com/endless-mobile-inc/gdm/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../common/gdm-common.c:311
@@ -50,9 +54,7 @@ msgstr "Правилната сесия не може да бъде опреде
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"Системата не може да реши дали да се превключи към съществуваща сесия или да "
-"се стартира нова."
+msgstr "Системата не може да реши дали да се превключи към съществуваща сесия или да се стартира нова."
 
 #: ../common/gdm-common.c:799 ../libgdm/gdm-user-switching.c:541
 #, c-format
@@ -66,7 +68,7 @@ msgstr "потребителят „%s“ не бе открит в систем
 
 #: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
 msgid "No session available"
-msgstr "Сесии няма"
+msgstr "Няма сесии"
 
 #: ../daemon/gdm-manager.c:953
 #, c-format
@@ -81,8 +83,7 @@ msgstr "Викащата програма не е GDM"
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"Сървърът бе породен от потребителя %s, но такъв потребител не съществува"
+msgstr "Сървърът бе породен от потребителя %s, но такъв потребител не съществува"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
@@ -156,42 +157,34 @@ msgstr "Регистрацията ви е ограничена по време,
 msgid "Sorry, that didn't work. Please try again."
 msgstr "За съжаление това не сработи. Пробвайте наново."
 
-#: ../daemon/gdm-session-worker.c:1109
+#: ../daemon/gdm-session-worker.c:1110
 msgid "Username:"
 msgstr "Потребител:"
 
-#: ../daemon/gdm-session-worker.c:1240
+#: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1241
+#: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1293
-msgid "Your password has expired, please change it now."
-msgstr "Времето на валидност на паролата ви изтече. Сменете я сега."
-
-#: ../daemon/gdm-session-worker.c:1535 ../daemon/gdm-session-worker.c:1552
+#: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
 msgid "no user account available"
 msgstr "няма потребител"
 
-#: ../daemon/gdm-session-worker.c:1579
+#: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
 msgstr "Потребителят не може да бъде сменен"
 
-#: ../daemon/gdm-simple-slave.c:866
+#: ../daemon/gdm-simple-slave.c:867
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Не може да се стартира X сървъра (графичната инфраструктура) поради вътрешна "
-"грешка. Обърнете се към системния администратор, за да провери дневниците за "
-"диагностика. Този дисплей ще бъде забранен. Рестартирайте GDM, когато "
-"проблемът е коригиран."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Не може да се стартира X сървъра (графичната инфраструктура) поради вътрешна грешка. Обърнете се към системния администратор, за да провери дневниците за диагностика. Този дисплей ще бъде забранен. Рестартирайте GDM, когато проблемът е коригиран."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
@@ -200,26 +193,22 @@ msgstr "Неуспех при създаването на гнездо!"
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Невъзможно е да се запише файл с номер на процес %s, най-вероятно няма "
-"пространство на диска: %s"
+msgstr "Невъзможно е да се запише файл с номер на процес %s, най-вероятно няма пространство на диска: %s"
 
 #: ../daemon/main.c:188
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr ""
-"Неуспешно създаване на директория за обявяване но първоначално стартиране "
-"%s: %s"
+msgstr "Неуспешно създаване на папка за обявяване на първоначално стартиране %s: %s"
 
 #: ../daemon/main.c:194
 #, c-format
 msgid "Failed to create LogDir %s: %s"
-msgstr "Неуспешно създаване на директорията за журнални съобщения %s: %s"
+msgstr "Неуспешно създаване на папката за журнални съобщения %s: %s"
 
 #: ../daemon/main.c:229
 #, c-format
 msgid "Can't find the GDM user '%s'. Aborting!"
-msgstr "Не може да се открие потребителя на GDM „%s“. Програмата спира!"
+msgstr "Не може да се открие потребителят на GDM „%s“. Програмата спира!"
 
 #: ../daemon/main.c:235
 msgid "The GDM user should not be root. Aborting!"
@@ -244,11 +233,11 @@ msgstr "Спиране на програмата след период от вр
 
 #: ../daemon/main.c:326
 msgid "Print GDM version"
-msgstr "Показване на версията на GDM"
+msgstr "Извеждане на версията на GDM"
 
 #: ../daemon/main.c:339
 msgid "GNOME Display Manager"
-msgstr "Мениджър на дисплеи на GNOME"
+msgstr "Управление на дисплеи на GNOME"
 
 #. make sure the pid file doesn't get wiped
 #: ../daemon/main.c:387
@@ -259,7 +248,7 @@ msgstr "Само администраторът може да изпълни GDM
 #. of starting up a session
 #: ../daemon/session-worker-main.c:95
 msgid "GNOME Display Manager Session Worker"
-msgstr "Програмата за сесии към мениджъра на дисплеи на GNOME"
+msgstr "Програмата за сесии към управлението на дисплеи на GNOME"
 
 #: ../data/applications/gnome-shell.desktop.in.h:1
 msgid "GNOME Shell"
@@ -297,10 +286,7 @@ msgstr "Да се позволи ли влизане чрез пароли"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Може да се забрани на входния екран да допуска идентификация с пароли. Това "
-"ще накара потребителите да се идентифицират с чип карта или пръстов "
-"отпечатък."
+msgstr "Може да се забрани на входния екран да допуска идентификация с пароли. Това ще накара потребителите да се идентифицират с чип карта или пръстов отпечатък."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -311,20 +297,14 @@ msgid ""
 "The login screen can optionally show a small image at the top of its user "
 "list to provide site administrators and distributions a way to provide "
 "branding."
-msgstr ""
-"Входният екран може да включва и изображение над списъка с потребители. Това "
-"е начин за системните администратори и дистрибуторите да предоставят "
-"специфичен облик на системата."
+msgstr "Входният екран може да включва и изображение над списъка с потребители. Това е начин за системните администратори и дистрибуторите да предоставят специфичен облик на системата."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image at the top of "
 "its user list to provide site administrators and distributions a way to "
 "provide branding."
-msgstr ""
-"Резервният входен екран може да включва и изображение над списъка с "
-"потребители. Това е начин за системните администратори и дистрибуторите да "
-"предоставят специфичен облик на системата."
+msgstr "Резервният входен екран може да включва и изображение над списъка с потребители. Това е начин за системните администратори и дистрибуторите да предоставят специфичен облик на системата."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -332,11 +312,9 @@ msgstr "Без показване на списъка с потребители"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Обичайно входният екран съдържа списък с наличните потребители. С тази "
-"настройка можете да предотвратите показването на списъка."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Обичайно входният екран съдържа списък с наличните потребители. С тази настройка можете да предотвратите показването на списъка."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -359,10 +337,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Бутонът за рестартиране да не се показва"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Задайте да е истина, за да не си показват бутоните за рестартиране в "
-"прозореца за вход."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Задайте да е истина, за да не си показват бутоните за рестартиране в прозореца за вход."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -372,9 +349,7 @@ msgstr "Брой позволени неуспешни опити за иден�
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Брой неуспешни опити за идентификация, които един потребител може да се "
-"опита направи, преди отново да се покаже прозорецът за избор на потребител."
+msgstr "Брой неуспешни опити за идентификация, които един потребител може да се опита направи, преди отново да се покаже прозорецът за избор на потребител."
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -382,11 +357,11 @@ msgstr "Избор на система"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
 msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr "XDMCP: Неуспех при създаването на буфер за XDMCP!"
+msgstr "XDMCP: Неуспешно създаване на буфер за XDMCP!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
 msgid "XDMCP: Could not read XDMCP header!"
-msgstr "XDMCP: Неуспех при прочитането на заглавната част на XDMCP!"
+msgstr "XDMCP: Неуспешно прочитане на заглавната част на XDMCP!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
 msgid "XDMCP: Incorrect XDMCP version!"
@@ -438,6 +413,3 @@ msgstr "Екранът е заснет"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Снимка на екрана"
-
-#~ msgid "Login Window"
-#~ msgstr "Екран за идентификация"
