@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-04 03:00+0000\n"
-"PO-Revision-Date: 2016-10-04 22:30+0000\n"
+"POT-Creation-Date: 2016-10-11 02:48+0000\n"
+"PO-Revision-Date: 2016-10-17 22:56+0000\n"
 "Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
 "Language-Team: Friulian (http://www.transifex.com/endless-mobile-inc/gdm/language/fur/)\n"
 "MIME-Version: 1.0\n"
@@ -114,7 +114,7 @@ msgstr "%s: Al mancje il comant dal servidôr par il visôr %s"
 
 #: ../daemon/gdm-session-auditor.c:90
 msgid "Username"
-msgstr "Non utent"
+msgstr "Non utent:"
 
 #: ../daemon/gdm-session-auditor.c:91
 msgid "The username"
