@@ -23,19 +23,21 @@
 # Nuno Ferreira <nmrf@rnl.ist.utl.pt>, 1999
 # Og Maciel <ogmaciel@gnome.org>, 2011
 # Pedro Albuquerque <palbuquerque73@gmail.com>, 2015
+# Pedro Albuquerque <palbuquerque73@openmailbox.com>, 2015
 # Rafael Fontenelle <rffontenelle@gmail.com>, 2012-2013
 # Rafael Sfair <rsfair@gmail.com>, 2007
 # Raul Pereira <contato@raulpereira.com>, 2007
 # Rodrigo L. M. Flores <rodrigomarquesflores@gmail.com>, 2009
 # scardeira <cardeira.sergio@gmail.com>, 2016
 # Silva <michele@endlessm.com>, 2015
+# Tiago Santos <tiagofsantos81@sapo.pt>, 2016
 # Washington Lins <washington-lins@uol.com.br>, 2007
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-04 03:00+0000\n"
-"PO-Revision-Date: 2016-10-04 20:14+0000\n"
+"POT-Creation-Date: 2016-10-11 02:48+0000\n"
+"PO-Revision-Date: 2016-10-17 22:55+0000\n"
 "Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/endless-mobile-inc/gdm/language/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -53,7 +55,7 @@ msgstr "/dev/urandom não é um dispositivo de carateres"
 #: ../libgdm/gdm-user-switching.c:344 ../libgdm/gdm-user-switching.c:514
 #, c-format
 msgid "Could not identify the current session."
-msgstr "Incapaz de identificar a sessão atual."
+msgstr "Impossível identificar a sessão atual."
 
 #: ../common/gdm-common.c:626 ../libgdm/gdm-user-switching.c:351
 #, c-format
@@ -63,7 +65,7 @@ msgstr "Utilizador incapaz de alternar sessões."
 #: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
 #, c-format
 msgid "Could not identify the current seat."
-msgstr "Incapaz de identificar o lugar atual."
+msgstr "Impossível identificar o lugar atual."
 
 #: ../common/gdm-common.c:791 ../libgdm/gdm-user-switching.c:533
 #, c-format
@@ -80,7 +82,7 @@ msgstr "O sistema é incapaz de iniciar um novo ecrã de início de sessão."
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user \"%s\" on system"
-msgstr "incapaz de encontrar o utilizador \"%s\" no sistema"
+msgstr "Impossível encontrar o utilizador \"%s\" no sistema"
 
 #: ../daemon/gdm-manager.c:943 ../daemon/gdm-manager.c:1203
 msgid "No session available"
@@ -89,7 +91,7 @@ msgstr "Nenhuma sessão disponível"
 #: ../daemon/gdm-manager.c:953
 #, c-format
 msgid "Can only be called before user is logged in"
-msgstr "Apenas pode ser chamado antes do utilizador iniciar sessão"
+msgstr "Só pode ser chamado antes do utilizador iniciar sessão"
 
 #: ../daemon/gdm-manager.c:962
 #, c-format
@@ -99,12 +101,12 @@ msgstr "Chamador não é o GDM"
 #: ../daemon/gdm-server.c:437
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr "Servidor iria ser criado pelo utilizador %s mas este utilizador não existe"
+msgstr "Servidor seria criado pelo utilizador %s mas este utilizador não existe"
 
 #: ../daemon/gdm-server.c:448 ../daemon/gdm-server.c:468
 #, c-format
 msgid "Couldn't set groupid to %d"
-msgstr "Incapaz de definir id de grupo para %d"
+msgstr "Impossível definir id de grupo para %d"
 
 #: ../daemon/gdm-server.c:454
 #, c-format
@@ -114,28 +116,28 @@ msgstr "initgroups () falhou para %s"
 #: ../daemon/gdm-server.c:460
 #, c-format
 msgid "Couldn't set userid to %d"
-msgstr "Incapaz de definir id de utilizador para %d"
+msgstr "Impossível definir id de utilizador para %d"
 
 #: ../daemon/gdm-server.c:538
 #, c-format
 msgid "%s: Could not open log file for display %s!"
-msgstr "%s: Incapaz de abrir ficheiro de registo do ecrã %s!"
+msgstr "%s: impossível abrir ficheiro de registo do ecrã %s!"
 
 #: ../daemon/gdm-server.c:559 ../daemon/gdm-server.c:565
 #: ../daemon/gdm-server.c:571
 #, c-format
 msgid "%s: Error setting %s to %s"
-msgstr "%s: Erro ao definir %s como %s"
+msgstr "%s: erro ao definir %s como %s"
 
 #: ../daemon/gdm-server.c:591
 #, c-format
 msgid "%s: Server priority couldn't be set to %d: %s"
-msgstr "%s: Incapaz de definir a prioridade do servidor como %d: %s"
+msgstr "%s: impossível definir a prioridade do servidor como %d: %s"
 
 #: ../daemon/gdm-server.c:743
 #, c-format
 msgid "%s: Empty server command for display %s"
-msgstr "%s: Comando de servidor vazio para o ecrã %s"
+msgstr "%s: comando de servidor vazio para o ecrã %s"
 
 #: ../daemon/gdm-session-auditor.c:90
 msgid "Username"
@@ -155,7 +157,7 @@ msgstr "O nome da máquina"
 
 #: ../daemon/gdm-session-auditor.c:101
 msgid "Display Device"
-msgstr "Dispositivo de Ecrã"
+msgstr "Dispositivo de ecrã"
 
 #: ../daemon/gdm-session-auditor.c:102
 msgid "The display device"
@@ -163,11 +165,11 @@ msgstr "O dispositivo de ecrã"
 
 #: ../daemon/gdm-session.c:1216
 msgid "Could not create authentication helper process"
-msgstr "Incapaz de criar processo de apoio à autenticação"
+msgstr "Impossível criar processo de apoio à autenticação"
 
 #: ../daemon/gdm-session-worker.c:846
 msgid "Your account was given a time limit that's now passed."
-msgstr "Foi definido um limite de tempo à sua conta que foi agora ultrapassado."
+msgstr "Atribuiu-se um limite de tempo à sua conta que foi agora ultrapassado."
 
 #: ../daemon/gdm-session-worker.c:853
 msgid "Sorry, that didn't work. Please try again."
@@ -192,7 +194,7 @@ msgstr "nenhuma conta de utilizador disponível"
 
 #: ../daemon/gdm-session-worker.c:1610
 msgid "Unable to change to user"
-msgstr "Incapaz de alternar para o utilizador"
+msgstr "Impossível mudar para o utilizador"
 
 #: ../daemon/gdm-simple-slave.c:867
 msgid ""
@@ -200,31 +202,31 @@ msgid ""
 " error. Please contact your system administrator or check your syslog to "
 "diagnose. In the meantime this display will be disabled.  Please restart GDM"
 " when the problem is corrected."
-msgstr "Incapaz de iniciar o servidor X (o seu ambiente gráfico) devido a um erro interno. Contacte o seu administrador de sistemas ou analise o syslog para diagnosticar. Entretanto este ecrã será desativado. Reinicie o GDM quando o problema estiver corrigido."
+msgstr "Impossível iniciar o servidor X (o seu ambiente gráfico) devido a um erro interno. Contacte o seu administrador de sistemas ou analise o syslog para diagnosticar. Entretanto este ecrã será desativado. Reinicie o GDM quando o problema estiver corrigido."
 
 #: ../daemon/gdm-xdmcp-display-factory.c:609
 msgid "Could not create socket!"
-msgstr "Incapaz de criar socket!"
+msgstr "Impossível criar ranhura!"
 
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr "Incapaz de escrever ficheiro PID %s: possivelmente sem espaço em disco: %s"
+msgstr "Impossível escrever ficheiro PID %s: possivelmente sem espaço em disco: %s"
 
 #: ../daemon/main.c:188
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr "Incapaz de criar diretório marcador de executar uma vez %s: %s"
+msgstr "Impossível criar pasta marcador de executar uma vez %s: %s"
 
 #: ../daemon/main.c:194
 #, c-format
 msgid "Failed to create LogDir %s: %s"
-msgstr "Falha ao criar LogDir %s: %s"
+msgstr "Falha ao criar pasta de diário %s: %s"
 
 #: ../daemon/main.c:229
 #, c-format
 msgid "Can't find the GDM user '%s'. Aborting!"
-msgstr "Incapaz de encontrar o utilizador GDM '%s'. A abortar!"
+msgstr "Impossível encontrar o utilizador GDM \"%s\". A abortar!"
 
 #: ../daemon/main.c:235
 msgid "The GDM user should not be root. Aborting!"
@@ -233,7 +235,7 @@ msgstr "O utilizador GDM não deveria ser root. A abortar!"
 #: ../daemon/main.c:241
 #, c-format
 msgid "Can't find the GDM group '%s'. Aborting!"
-msgstr "Incapaz de encontrar o grupo GDM '%s'. A abortar!"
+msgstr "Impossível encontrar o grupo GDM \"%s\". A abortar!"
 
 #: ../daemon/main.c:247
 msgid "The GDM group should not be root. Aborting!"
@@ -245,7 +247,7 @@ msgstr "Tornar todos os avisos em erros fatais"
 
 #: ../daemon/main.c:325
 msgid "Exit after a time (for debugging)"
-msgstr "Terminar após algum tempo (para depuração)"
+msgstr "Sair após algum tempo (para depuração)"
 
 #: ../daemon/main.c:326
 msgid "Print GDM version"
@@ -253,7 +255,7 @@ msgstr "Imprimir versão GDM"
 
 #: ../daemon/main.c:339
 msgid "GNOME Display Manager"
-msgstr "Gestor de Ecrãs GNOME"
+msgstr "Gestor de ecrãs do GNOME"
 
 #. make sure the pid file doesn't get wiped
 #: ../daemon/main.c:387
@@ -264,7 +266,7 @@ msgstr "Apenas o utilizador root pode executar o GDM"
 #. of starting up a session
 #: ../daemon/session-worker-main.c:95
 msgid "GNOME Display Manager Session Worker"
-msgstr "Trabalhador de Sessão do Gestor de Ecrãs GNOME"
+msgstr "Trabalhador de sessão do gestor de ecrãs do GNOME"
 
 #: ../data/applications/gnome-shell.desktop.in.h:1
 msgid "GNOME Shell"
@@ -324,13 +326,13 @@ msgstr "O ecrã de recurso de início de sessão pode opcionalmente apresentar u
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
-msgstr "Evitar apresentar a lista de utilizadores"
+msgstr "Evitar mostrar a lista de utilizadores"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
 "The login screen normally shows a list of available users to log in as. This"
 " setting can be toggled to disable showing the user list."
-msgstr "O ecrã de início de sessão normalmente apresenta uma lista de utilizadores disponíveis para iniciar sessão. Esta opção pode ser desligada para que não seja apresentada a lista de utilizadores."
+msgstr "O ecrã de início de sessão normalmente apresenta uma lista de utilizadores disponíveis para iniciar sessão. Esta opção pode ser desligada para que não seja mostrada a lista de utilizadores."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -338,7 +340,7 @@ msgstr "Ativar a apresentação da mensagem de título"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:13
 msgid "Set to true to show the banner message text."
-msgstr "Definir como verdadeiro para apresentar o texto de mensagem de título."
+msgstr "Definir como verdadeiro para mostrar o texto de mensagem de título."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:14
 msgid "Banner message text"
@@ -346,7 +348,7 @@ msgstr "Texto da mensagem de título"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:15
 msgid "Text banner message to show in the login window."
-msgstr "Texto de título a apresentar na janela de início de sessão."
+msgstr "Texto de título a mostrar na janela de início de sessão."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:16
 msgid "Disable showing the restart buttons"
@@ -359,7 +361,7 @@ msgstr "Definir como verdadeiro para desativar a apresentação do botão de rei
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
-msgstr "Número de falhas de autenticação permitidas"
+msgstr "Número de falhas de autenticação permitido"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
@@ -369,35 +371,35 @@ msgstr "O número de vezes que é permitido que um utilizador tente autenticar-s
 
 #: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
-msgstr "Selecionar o Sistema"
+msgstr "Selecionar o sistema"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
 msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr "XDMCP: Incapaz de criar buffer XDMCP!"
+msgstr "XDMCP: impossível criar buffer XDMCP!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
 msgid "XDMCP: Could not read XDMCP header!"
-msgstr "XDMCP: Incapaz de ler cabeçalho XDMCP!"
+msgstr "XDMCP: impossível ler cabeçalho XDMCP!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XDMCP: Versão incorreta do XDMCP!"
+msgstr "XDMCP: versão incorreta do XDMCP!"
 
 #: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
 msgid "XDMCP: Unable to parse address"
-msgstr "XDMCP: Incapaz de processar o endereço"
+msgstr "XDMCP: impossível processar o endereço"
 
 #: ../libgdm/gdm-user-switching.c:72
 msgid "Unable to create transient display: "
-msgstr "Incapaz de criar um ecrã transitório: "
+msgstr "Impossível criar um ecrã transitório: "
 
 #: ../libgdm/gdm-user-switching.c:183 ../libgdm/gdm-user-switching.c:395
 msgid "Unable to activate session: "
-msgstr "Incapaz de ativar a sessão: "
+msgstr "Impossível ativar a sessão: "
 
 #: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
-msgstr "Apenas é suportado o comando VERSION"
+msgstr "Só é suportado o comando VERSION"
 
 #: ../utils/gdmflexiserver.c:45
 msgid "COMMAND"
@@ -419,11 +421,11 @@ msgstr "Versão desta aplicação"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "- New GDM login"
-msgstr "- Novo Início de Sessão GDM"
+msgstr "- Novo início de sessão GDM"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
-msgstr "Realizada a captura de ecrã"
+msgstr "Captura de ecrã realizada"
 
 #. Option parsing
 #: ../utils/gdm-screenshot.c:279
