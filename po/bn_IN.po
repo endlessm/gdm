@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Automatically generated, 2013
+# BIRAJ KARMAKAR <brnet00@gmail.com>, 2016
 # Indranil Das Gupta <indradg@bengalinux.org>, 2004
 # Mahay Alam Khan <makl10n@yahoo.com>, 2005
 # Progga <abulfazl@juniv.edu>, 2003
@@ -15,9 +16,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-11 02:48+0000\n"
-"PO-Revision-Date: 2016-10-04 20:09+0000\n"
-"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"POT-Creation-Date: 2016-11-15 03:49+0000\n"
+"PO-Revision-Date: 2016-11-16 05:02+0000\n"
+"Last-Translator: BIRAJ KARMAKAR <brnet00@gmail.com>\n"
 "Language-Team: Bengali (India) (http://www.transifex.com/endless-mobile-inc/gdm/language/bn_IN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +29,7 @@ msgstr ""
 #: ../common/gdm-common.c:311
 #, c-format
 msgid "/dev/urandom is not a character device"
-msgstr "/dev/urandom ক্যারেক্টার ডিভাইস নয়"
+msgstr "/dev/urandom একটি ক্যারেক্টার ডিভাইস নয়"
 
 #: ../common/gdm-common.c:619 ../common/gdm-common.c:772
 #: ../libgdm/gdm-user-switching.c:344 ../libgdm/gdm-user-switching.c:514
@@ -160,11 +161,11 @@ msgstr "ব্যবহারকারী অ্যাকাউন্টের �
 
 #: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
-msgstr ""
+msgstr "আপনার পাসওয়ার্ড মনে রাখতে সাহায্য করার জন্য একটি ইঙ্গিত অথবা প্রশ্ন লিখুন।"
 
 #: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
-msgstr ""
+msgstr "পাসওয়ার্ড অনুস্মারক"
 
 #: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
