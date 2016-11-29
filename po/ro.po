@@ -9,6 +9,7 @@
 # Dan Damian <dand@gnome.ro>, 2001
 # Daniel Șerbănescu <cyber19rider@gmail.com>, 2011
 # Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2014-2015
+# georgian balan <braila222@gmail.com>, 2016
 # Baadur Jobava <jobaval10n@gmail.com>, 2015
 # Lucian Adrian Grijincu https://launchpad.net/~lucian.grijincu, 2009
 # Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009-2011
@@ -22,9 +23,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-15 03:49+0000\n"
-"PO-Revision-Date: 2016-10-17 23:00+0000\n"
-"Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
+"POT-Creation-Date: 2016-11-22 03:46+0000\n"
+"PO-Revision-Date: 2016-11-23 17:04+0000\n"
+"Last-Translator: georgian balan <braila222@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/endless-mobile-inc/gdm/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +36,7 @@ msgstr ""
 #: ../common/gdm-common.c:311
 #, c-format
 msgid "/dev/urandom is not a character device"
-msgstr "/dev/urandom nu este un dispozitiv de semne grafice"
+msgstr "/dev/urandom nu este un dispozitiv de tip caracter"
 
 #: ../common/gdm-common.c:619 ../common/gdm-common.c:772
 #: ../libgdm/gdm-user-switching.c:344 ../libgdm/gdm-user-switching.c:514
@@ -46,7 +47,7 @@ msgstr "Sesiunea actuală nu a putut fi identificată."
 #: ../common/gdm-common.c:626 ../libgdm/gdm-user-switching.c:351
 #, c-format
 msgid "User unable to switch sessions."
-msgstr ""
+msgstr "Utilizatorul nu a putut comuta intre sesiuni."
 
 #: ../common/gdm-common.c:781 ../libgdm/gdm-user-switching.c:523
 #, c-format
@@ -167,11 +168,11 @@ msgstr "Nume de utilizator:"
 
 #: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
-msgstr ""
+msgstr "Tasteaza un indiciu sau o intrebare care te va ajuta sa iti amintesti parola."
 
 #: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
-msgstr ""
+msgstr "Amintire parola:"
 
 #: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
