@@ -73,6 +73,8 @@ struct GdmLaunchEnvironmentPrivate
         char           *x11_authority_file;
         char           *dbus_session_bus_address;
         gboolean        x11_display_is_local;
+
+        gboolean        doing_initial_setup;
 };
 
 enum {
@@ -88,6 +90,7 @@ enum {
         PROP_RUNTIME_DIR,
         PROP_COMMAND,
         PROP_DBUS_SESSION_BUS_ADDRESS,
+        PROP_DOING_INITIAL_SETUP,
 };
 
 enum {
@@ -288,7 +291,10 @@ build_launch_environment (GdmLaunchEnvironment *launch_environment,
         g_hash_table_insert (hash, g_strdup ("PATH"), g_strdup (g_getenv ("PATH")));
 
         g_hash_table_insert (hash, g_strdup ("RUNNING_UNDER_GDM"), g_strdup ("true"));
-        g_hash_table_insert (hash, g_strdup ("DCONF_PROFILE"), g_strdup ("gdm"));
+
+        if (!launch_environment->priv->doing_initial_setup) {
+                g_hash_table_insert (hash, g_strdup ("DCONF_PROFILE"), g_strdup ("gdm"));
+        }
 
         if (launch_environment->priv->dbus_session_bus_address) {
                 g_hash_table_insert (hash, g_strdup ("DBUS_SESSION_BUS_ADDRESS"), g_strdup (launch_environment->priv->dbus_session_bus_address));
@@ -644,6 +650,13 @@ _gdm_launch_environment_set_command (GdmLaunchEnvironment *launch_environment,
 }
 
 static void
+_gdm_launch_environment_set_doing_initial_setup (GdmLaunchEnvironment *launch_environment,
+                                                 gboolean              doing_initial_setup)
+{
+        launch_environment->priv->doing_initial_setup = doing_initial_setup;
+}
+
+static void
 gdm_launch_environment_set_property (GObject      *object,
                                      guint         prop_id,
                                      const GValue *value,
@@ -686,6 +699,9 @@ gdm_launch_environment_set_property (GObject      *object,
                 break;
         case PROP_COMMAND:
                 _gdm_launch_environment_set_command (self, g_value_get_string (value));
+                break;
+        case PROP_DOING_INITIAL_SETUP:
+                _gdm_launch_environment_set_doing_initial_setup (self, g_value_get_boolean (value));
                 break;
         default:
                 G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
@@ -736,6 +752,9 @@ gdm_launch_environment_get_property (GObject    *object,
                 break;
         case PROP_COMMAND:
                 g_value_set_string (value, self->priv->command);
+                break;
+        case PROP_DOING_INITIAL_SETUP:
+                g_value_set_boolean (value, self->priv->doing_initial_setup);
                 break;
         default:
                 G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
@@ -832,6 +851,13 @@ gdm_launch_environment_class_init (GdmLaunchEnvironmentClass *klass)
                                                               "D-Bus session bus address",
                                                               NULL,
                                                               G_PARAM_READWRITE | G_PARAM_CONSTRUCT));
+        g_object_class_install_property (object_class,
+                                         PROP_DOING_INITIAL_SETUP,
+                                         g_param_spec_boolean ("doing-initial-setup",
+                                                               "doing initial setup",
+                                                               "doing initial setup",
+                                                               FALSE,
+                                                               G_PARAM_READWRITE | G_PARAM_CONSTRUCT_ONLY));
         signals [OPENED] =
                 g_signal_new ("opened",
                               G_OBJECT_CLASS_TYPE (object_class),

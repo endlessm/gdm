@@ -436,7 +436,8 @@ create_environment (const char *session_id,
                     const char *seat_id,
                     const char *display_device,
                     const char *display_hostname,
-                    gboolean    display_is_local)
+                    gboolean    display_is_local,
+                    gboolean    doing_initial_setup)
 {
         gboolean debug = FALSE;
         char *command;
@@ -476,6 +477,7 @@ create_environment (const char *session_id,
                                            "x11-display-hostname", display_hostname,
                                            "x11-display-is-local", display_is_local,
                                            "runtime-dir", GDM_SCREENSHOT_DIR,
+                                           "doing-initial-setup", doing_initial_setup,
                                            NULL);
 
         g_free (command);
@@ -536,7 +538,8 @@ start_launch_environment (GdmSimpleSlave *slave,
                                                                seat_id,
                                                                display_device,
                                                                display_hostname,
-                                                               display_is_local);
+                                                               display_is_local,
+                                                               slave->priv->doing_initial_setup);
         g_signal_connect (slave->priv->greeter_environment,
                           "opened",
                           G_CALLBACK (on_greeter_environment_session_opened),
