@@ -14,8 +14,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-13 03:57+0000\n"
-"PO-Revision-Date: 2016-10-04 20:58+0000\n"
+"POT-Creation-Date: 2017-01-03 04:15+0000\n"
+"PO-Revision-Date: 2017-01-09 06:01+0000\n"
 "Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/endless-mobile-inc/gdm/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -159,11 +159,11 @@ msgstr "使用者名稱:"
 
 #: ../daemon/gdm-session-worker.c:1264
 msgid "Type a hint or question to help remember your password."
-msgstr ""
+msgstr "輸入提示或問題來幫助你記得密碼。"
 
 #: ../daemon/gdm-session-worker.c:1265
 msgid "Password reminder:"
-msgstr ""
+msgstr "密碼提醒："
 
 #: ../daemon/gdm-session-worker.c:1566 ../daemon/gdm-session-worker.c:1583
 #, c-format
@@ -174,7 +174,7 @@ msgstr "沒有可用的使用者帳號"
 msgid "Unable to change to user"
 msgstr "無法改變為使用者"
 
-#: ../daemon/gdm-simple-slave.c:867
+#: ../daemon/gdm-simple-slave.c:870
 msgid ""
 "Could not start the X server (your graphical environment) due to an internal"
 " error. Please contact your system administrator or check your syslog to "

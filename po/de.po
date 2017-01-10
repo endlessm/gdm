@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-13 03:57+0000\n"
+"POT-Creation-Date: 2017-01-03 04:15+0000\n"
 "PO-Revision-Date: 2016-12-19 11:22+0000\n"
 "Last-Translator: Stefan Schroeder <ondekoza@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/endless-mobile-inc/gdm/language/de/)\n"
@@ -196,7 +196,7 @@ msgstr "Kein Benutzerkonto verfügbar"
 msgid "Unable to change to user"
 msgstr "Zum Benutzer konnte nicht gewechselt werden"
 
-#: ../daemon/gdm-simple-slave.c:867
+#: ../daemon/gdm-simple-slave.c:870
 msgid ""
 "Could not start the X server (your graphical environment) due to an internal"
 " error. Please contact your system administrator or check your syslog to "

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-13 03:57+0000\n"
+"POT-Creation-Date: 2017-01-03 04:15+0000\n"
 "PO-Revision-Date: 2016-10-04 20:11+0000\n"
 "Last-Translator: Vicki Niu <vicki@endlessm.com>\n"
 "Language-Team: Korean (http://www.transifex.com/endless-mobile-inc/gdm/language/ko/)\n"
@@ -172,7 +172,7 @@ msgstr "사용자 계정이 없습니다"
 msgid "Unable to change to user"
 msgstr "다른 사용자로 바꿀 수 없습니다"
 
-#: ../daemon/gdm-simple-slave.c:867
+#: ../daemon/gdm-simple-slave.c:870
 msgid ""
 "Could not start the X server (your graphical environment) due to an internal"
 " error. Please contact your system administrator or check your syslog to "
