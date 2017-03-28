@@ -1,9 +1,232 @@
-gdm3 (1:3.14.2-0) unstable; urgency=medium
+gdm3 (3.22.3-1) unstable; urgency=medium
 
-  * Rebase Endless changes on top of the gnome-3-14 upstream branch.
-  * Bump the epoch due to a previous problematic GDM 3.16 upgrade.
+  * New upstream release.
+  * Refresh patches.
+  * Add Build-Depends on libxcb1-dev. Upstream switched from xlib to xcb for
+    the main gdm process to be more robust in cases where the display
+    connection has gone away.
+  * Use --with-pam-mod-dir configure switch to set the location of the pam
+    module directory instead of moving the .so file around manually.
 
- -- João Paulo Rechi Vita <jprvita@endlessm.com> Thu, 16 Jul 2015 18:10:00 -0500
+ -- Michael Biebl <biebl@debian.org>  Thu, 16 Mar 2017 21:46:47 +0100
+
+gdm3 (3.22.1-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Michael Biebl ]
+  * Stop setting authdir, has been dropped upstream in favour of xauthdir.
+
+  [ Jeremy Bicha ]
+  * debian/greeter.dconf-defaults:
+    - Use the new emblem-debian-white.png for default login screen logo
+      (Closes: #833529)
+
+  [ Simon McVittie ]
+  * Work around upgrades not being done offline:
+    - Add a non-upstreamable patch to edit D-Bus messages from libgdm
+      to the session worker and adapt them from the pre-3.16 interface
+      to the post-3.16 interface. Only do this if a flag file in /run
+      has been created, so that this workaround will only be active
+      until the next reboot.
+    - gdm3.preinst: Create that flag file on upgrades. (Closes: #789118)
+
+ -- Simon McVittie <smcv@debian.org>  Sun, 29 Jan 2017 11:07:50 +0000
+
+gdm3 (3.22.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh debian/patches/16_xserver_path.patch.
+  * Strip debian/tmp/ from .install files.
+  * Bump debhelper compat level to 10.
+  * Remove migration code from pre-wheezy.
+  * Stop passing start and stop runlevels to update-rc.d. Those are no longer
+    supported with dependency based boot.
+  * Do not hard-code path for deluser/delgroup.
+  * Completely disable the dh-systemd addon via --without systemd. We use
+    debconf and custom maintainer scripts to enable/disable and
+    start/stop/reload the gdm service.
+
+ -- Michael Biebl <biebl@debian.org>  Mon, 17 Oct 2016 00:17:17 +0200
+
+gdm3 (3.22.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Mon, 19 Sep 2016 21:47:00 +0200
+
+gdm3 (3.21.91-1) unstable; urgency=low
+
+  [ Andreas Henriksson ]
+  * New upstream beta release.
+  * Convert from cdbs to dh.
+  * Bump debhelper compat to 9
+
+  [ Laurent Bigonville ]
+  * debian/gdm3.gdm-autologin.pam: Add a missing bit to automagically unlock
+    the keyring when autologin on a computer using LUKS root filesystem. This
+    is not yet working out-of-the-box in debian as it require some plumbing
+    at early-boot (cryptsetup) or systemd in the initramfs.
+
+  [ Michael Biebl ]
+  * Drop remaining ConsoleKit build dependencies and configure switches.
+    Support for ConsoleKit is most likely not coming back.
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 07 Sep 2016 22:39:51 +0200
+
+gdm3 (3.21.90-1) unstable; urgency=medium
+
+  [ Andreas Henriksson ]
+  * New upstream beta release.
+  * Update build-dependencies according to configure.ac changes:
+    - Add libkeyutils-dev [linux-any]
+  * Bump Standards-Version to 3.9.8
+  * debian/gdm3.lintian-overrides:
+    - Add overrides for systemd-service-file-missing-install-key
+
+  [ Laurent Bigonville ]
+  * Ship new pam_gdm.so PAM module and update gdm-autologin PAM service file
+
+ -- Laurent Bigonville <bigon@debian.org>  Wed, 31 Aug 2016 10:28:16 +0200
+
+gdm3 (3.20.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Restore debian/patches/09_default_session.patch as we postponed the switch
+    to Wayland.
+  * Upload to unstable.
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 20 Apr 2016 00:44:11 +0200
+
+gdm3 (3.20.0-2) experimental; urgency=medium
+
+  * debian/rules: Switch back the initial VT to vt1 (Closes: #819423)
+  * Drop /usr/share/gdm/greeter/dbus-1 files, gdm/gnome-shell doesn't try to
+    start telepathy-mission-control and gnome-online-accounts anymore.
+  * Drop debian/patches/09_default_session.patch completely as we want to
+    default to the wayland session for now.
+  * debian/default.desktop.in: Update the Name of the Comment to make it clear
+    that it will start the X11 default session of the system.
+
+ -- Laurent Bigonville <bigon@debian.org>  Mon, 04 Apr 2016 15:04:03 +0200
+
+gdm3 (3.20.0-1) experimental; urgency=medium
+
+  * Drop debian/patches/93_disable_gvfs.patch
+    - superseded by upstream commit 5e81151a147
+      "launch-environment: disable gvfs except in initial setup mode"
+  * Bump gnome-shell dependency to >= 3.19.92
+    - new interactions between gdm and gnome-shell for session start
+  * New upstream release.
+  * Temporarily disable debian/patches/09_default_session.patch
+    - the System Default ("default") session is currently broken, so use
+      upstreams default ("gnome") while investigating.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Fri, 25 Mar 2016 11:26:09 +0100
+
+gdm3 (3.19.92-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Add build-dependency on xserver-xorg-dev for xorg-server.pc
+    - upstream configure.ac now checks for xserver version.
+  * Bump Standards-Version to 3.9.7.
+  * Refresh the following patches to apply:
+    - debian/patches/09_default_session.patch
+    - debian/patches/16_xserver_path.patch
+    - debian/patches/90_config_comments.patch
+      (Drop greeter section comments as that section was removed.)
+    - debian/patches/93_disable_gvfs.patch
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 15 Mar 2016 21:18:48 +0100
+
+gdm3 (3.18.2-1) unstable; urgency=medium
+
+  [ Tim Lunn ]
+  * Move schemas to libgdm1 package, gnome-shell requires access to 
+    these even when using a different DM. (Closes: #804893)
+  * Move gir package to a more standard naming and install typelib file
+    into ma path
+  * debian/control.in: 
+    - Drop depend on gnome-icon-theme{.symbolic} these
+      are obsolete now and adwaita-icon-theme is pulled in by libgtk-3-common
+    - Mark libdbus-glib-1-dev [!linux-any], its only required for consolekit
+      builds
+
+  [ Michael Biebl ]
+  * New upstream release.
+  * Drop obsolete Breaks, Conflicts and Replaces for versions older than
+    oldstable.
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 18 Nov 2015 06:56:38 +0100
+
+gdm3 (3.18.0-2) unstable; urgency=medium
+
+  * debian/control.in: plymouth-dev package has been renamed to
+    libplymouth-dev, swap the alternatives in the build-dependencies
+
+ -- Laurent Bigonville <bigon@debian.org>  Mon, 12 Oct 2015 09:43:54 +0200
+
+gdm3 (3.18.0-1) unstable; urgency=medium
+
+  [ Andreas Henriksson ]
+  * New upstream release.
+
+  [ Laurent Bigonville ]
+  * Drop d/p/17_switch_on_finish.patch, d/p/18_all_displays_transient.patch,
+    d/p/19_switch_kill_greeter.patch: Not needed anymore.
+
+ -- Laurent Bigonville <bigon@debian.org>  Sun, 11 Oct 2015 14:39:43 +0200
+
+gdm3 (3.17.92-1) experimental; urgency=medium
+
+  [ Laurent Bigonville ]
+  * debian/control.in: Move xserver-xorg-core (<< 2:1.17.2-2~) from Conflicts
+    to Breaks
+
+  [ Andreas Henriksson ]
+  * New upstream release candidate.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Fri, 18 Sep 2015 09:39:55 +0200
+
+gdm3 (3.17.90-1) experimental; urgency=medium
+
+  * New upstream beta release.
+  * Update build-dependencies according to configure.ac changes:
+    - drop libxrandr-dev
+  * Update debian/rules according to configure.ac changes:
+    - drop --with/without-systemd and --with/without-consolekit,
+      these configure flags are no longer available.
+  * Drop debian/patches/07_fix_caribou_path.patch, obsoleted by
+    upstream removal of caribou autostart file removal.
+  * Temporarily disable patches which no longer apply:
+    - 17_switch_on_finish.patch
+    - 18_all_displays_transient.patch
+    - 19_switch_kill_greeter.patch
+  * Drop debian/patches/95_libsystemd.patch, fixed upstream.
+  * Drop debian/patches/08_frequent-users_greeter.patch, likely obsolete.
+  * Fix and refresh remaining patches to apply.
+  * debian/gdm3.install: drop debian/tmp/usr/share/gnome-session/,
+    gdm-shell.session no longer shipped upstream. See commit f66cdfcb2948.
+    "It's identical to gnome.session these days.  All GDMification comes
+    from the overridden gnome-shell.desktop file."
+  * Update debian/libgdm1.symbols
+  * Add conflicts against xserver-xorg-core (<< 2:1.17.2-2~)
+    - gdm >= 3.16 needs an x server with logind support (which is
+      currently only available in the Debian Experimental package
+      version), or it will fail with "permission denied" on vt7.
+    - The gdm3 package has no strict dependency on an x server
+      which we can make versioned. Use conflicts instead to prevent
+      users from installing incompatible combinations.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Sat, 29 Aug 2015 11:55:31 +0200
+
+gdm3 (3.14.2-2) unstable; urgency=medium
+
+  * Re-add our workaround which drops BusName from gdm.service. There are
+    apparently still issues related to upgrades from older gdm versions
+    resulting in the X session to be terminated during the upgrade.
+
+ -- Michael Biebl <biebl@debian.org>  Fri, 24 Jul 2015 13:40:46 +0200
 
 gdm3 (3.14.2-1) unstable; urgency=medium
 
