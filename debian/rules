@@ -36,7 +36,7 @@ $(MANPAGES): $(PODFILES)
 		| sed -e 's/debian:://' >$@
 
 %:
-	dh $@ --with gnome,gir --without systemd
+	dh $@ --with gir --without systemd
 
 override_dh_autoreconf:
 	dh_autoreconf --as-needed
