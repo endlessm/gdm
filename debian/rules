@@ -27,9 +27,6 @@ endif
 INFILES := $(wildcard debian/*.desktop.in)
 OUTFILES := $(INFILES:.desktop.in=.desktop)
 
-%.desktop: %.desktop.in
-	intltool-merge -d debian/po-up $< $@
-
 PODFILES := $(wildcard debian/*.pod)
 MANPAGES := $(patsubst %.pod,%,$(PODFILES))
 
