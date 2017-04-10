@@ -3,13 +3,19 @@ lib/systemd/
 lib/*/security/*.so
 usr/bin/gdm-screenshot
 usr/lib/gdm3/gdm-*
+# gets renamed to gdm3 in binary-install
 usr/sbin/gdm
 usr/share/pixmaps/
 usr/share/locale/
 usr/share/icons/
 usr/share/help/
-usr/share/gdm/
+usr/share/gdm/gdb-cmd
+usr/share/gdm/locale.alias
+usr/share/gdm/greeter
+usr/share/gdm/*.schemas
+usr/share/dconf/
 var/*
 
 debian/Xsession				etc/gdm3
 debian/insserv.conf.d			etc
+data/dconf/defaults/*			usr/share/gdm/dconf
