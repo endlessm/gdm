@@ -10,6 +10,8 @@ include /usr/share/dpkg/buildflags.mk
 
 ifeq (linux,$(DEB_HOST_ARCH_OS))
 CONFFLAGS += \
+	--enable-wayland-support \
+	--with-selinux \
 	--with-plymouth
 else
 CONFFLAGS += \
@@ -24,6 +26,9 @@ endif
 
 INFILES := $(wildcard debian/*.desktop.in)
 OUTFILES := $(INFILES:.desktop.in=.desktop)
+
+%.desktop: %.desktop.in
+	intltool-merge -d debian/po-up $< $@
 
 PODFILES := $(wildcard debian/*.pod)
 MANPAGES := $(patsubst %.pod,%,$(PODFILES))
@@ -60,11 +65,11 @@ override_dh_auto_configure:
 		--with-screenshot-dir=/var/run/gdm3/greeter \
 		--with-defaults-conf=/usr/share/gdm/defaults.conf \
 		--with-user=Debian-gdm --with-group=Debian-gdm \
-		--with-lang-file=/etc/locale.conf \
+		--with-lang-file=/etc/default/locale \
 		--disable-split-authentication \
 		--with-check-accelerated-directory=/usr/lib/gnome-session/ \
 		--with-ran-once-marker-directory=/var/run/gdm3 \
-		--disable-wayland-support \
+		--with-gnome-settings-daemon-directory="`pkg-config --variable=libexecdir gnome-settings-daemon`" \
 		--disable-user-display-server \
 		$(CONFFLAGS)
 
@@ -73,7 +78,9 @@ override_dh_auto_build: $(OUTFILES) $(MANPAGES)
 
 override_dh_install:
 	dh_install --list-missing
+	mv debian/gdm3/usr/sbin/gdm debian/gdm3/usr/sbin/gdm3
 	chmod 755 debian/gdm3/etc/gdm3/Xsession
+	chmod 755 debian/gdm3/usr/share/gdm/generate-config
 	dh_installpam -pgdm3 --name=gdm-autologin
 	dh_installpam -pgdm3 --name=gdm-launch-environment
 	dh_installpam -pgdm3 --name=gdm-password
