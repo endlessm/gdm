@@ -58,12 +58,6 @@ if [ "$1" = configure ] && [ -d /etc/systemd/system/ ]; then
   fi
 fi
 
-ucf --debconf-ok --three-way /usr/share/gdm/greeter.dconf-defaults /etc/gdm3/greeter.dconf-defaults
-ucfr gdm3 /etc/gdm3/greeter.dconf-defaults
-
-# debconf hangs if gdm3 gets started below without this
-db_stop || true
-
 chown -R Debian-gdm:Debian-gdm /var/lib/gdm3
 
 #DEBHELPER#
