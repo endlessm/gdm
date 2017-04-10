@@ -9,6 +9,7 @@ usr/share/locale/
 usr/share/icons/
 usr/share/help/
 usr/share/gdm/
+usr/share/dconf/
 var/*
 
 debian/Xsession				etc/gdm3
