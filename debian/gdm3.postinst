@@ -58,12 +58,6 @@ if [ "$1" = configure ] && [ -d /etc/systemd/system/ ]; then
   fi
 fi
 
-ucf --debconf-ok --three-way /usr/share/gdm/greeter.dconf-defaults /etc/gdm3/greeter.dconf-defaults
-ucfr gdm3 /etc/gdm3/greeter.dconf-defaults
-
-# debconf hangs if gdm3 gets started below without this
-db_stop || true
-
 # Remove obsolete pulseaudio socket unit, pulseaudio >= 11.1-2 does this for us
 # TODO: This can (and should) be remove after the buster release!
 for symlink in \

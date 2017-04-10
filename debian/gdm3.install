@@ -20,6 +20,4 @@ usr/share/dconf/
 var/*
 
 debian/Xsession				etc/gdm3
-debian/greeter.dconf-defaults*		usr/share/gdm
-debian/generate-config			usr/share/gdm
 debian/insserv.conf.d			etc
