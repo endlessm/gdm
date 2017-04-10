@@ -10,7 +10,6 @@ include /usr/share/dpkg/buildflags.mk
 
 ifeq (linux,$(DEB_HOST_ARCH_OS))
 CONFFLAGS += \
-	--enable-wayland-support \
 	--with-selinux \
 	--with-plymouth
 else
@@ -68,6 +67,7 @@ override_dh_auto_configure:
 		--with-ran-once-marker-directory=/var/run/gdm3 \
 		--with-gnome-settings-daemon-directory="`pkg-config --variable=libexecdir gnome-settings-daemon`" \
 		--disable-user-display-server \
+		--disable-wayland-support \
 		$(CONFFLAGS)
 
 override_dh_auto_build: $(OUTFILES) $(MANPAGES)
