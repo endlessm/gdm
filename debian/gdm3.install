@@ -19,4 +19,3 @@ var/*
 
 debian/Xsession				etc/gdm3
 debian/insserv.conf.d			etc
-data/dconf/defaults/*			usr/share/gdm/dconf
