@@ -64,6 +64,11 @@ if [ -L /etc/pam.d/gdm-welcome ]; then
     rm -f /etc/pam.d/gdm-welcome
 fi
 
+if [ "$1" = configure ]; then
+  # Create gdm system dconf db
+  dconf update
+fi
+
 #DEBHELPER#
 
 if [ -x /etc/init.d/gdm3 ]; then

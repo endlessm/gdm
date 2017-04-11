@@ -37,6 +37,9 @@ if [ "$1" = "purge" ] ; then
                         delgroup --system Debian-gdm || echo "Could not remove Debian-gdm group."
                 fi
         fi
+
+        # Remove gdm system dconf db
+        dconf update
 fi
 
 #DEBHELPER#
