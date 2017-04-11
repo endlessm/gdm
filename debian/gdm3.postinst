@@ -72,6 +72,12 @@ if [ -L /etc/pam.d/gdm-welcome ]; then
     rm -f /etc/pam.d/gdm-welcome
 fi
 
+if [ "$1" = configure ]; then
+  # Create gdm system dconf db, but don't make the package
+  # installation fail in case there's an error here, please.
+  dconf update || true
+fi
+
 #DEBHELPER#
 
 if [ -x /etc/init.d/gdm3 ]; then
