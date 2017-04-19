@@ -64,6 +64,17 @@ if [ -L /etc/pam.d/gdm-welcome ]; then
     rm -f /etc/pam.d/gdm-welcome
 fi
 
+# Default upstream settings are no longer shipped as plain text files
+# that get compiled with dconf update, so we need to make sure we remove
+# them on dist-upgraded systems before running dconf update below, not
+# to get them added to the gdm profile's database again.
+if [ -f /etc/dconf/db/gdm.d/locks/00-upstream-settings-locks ]; then
+    rm -f /etc/dconf/db/gdm.d/locks/00-upstream-settings-locks
+fi
+if [ -f /etc/dconf/db/gdm.d/00-upstream-settings ]; then
+    rm -f /etc/dconf/db/gdm.d/00-upstream-settings
+fi
+
 if [ "$1" = configure ]; then
   # Create gdm system dconf db
   dconf update
