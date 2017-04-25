@@ -1,34 +1,44 @@
-# translation of gdm.master.mai.po to Hindi
-# BOSS GNU/Linux <bosslinux@cdac.in>, 2008.
-# Rajesh Ranjan <rajesh672@gmail.com>, 2009.
-# translation to Maithli
-# Copyright (C) 2006 The GNOME Foundation
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# BOSS GNU/Linux <bosslinux@cdac.in>, 2008
+# Rajesh Ranjan <rajesh672@gmail.com>, 2009
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm.master.mai\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-27 15:41-0400\n"
-"PO-Revision-Date: 2009-09-20 10:11+0530\n"
-"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
-"Language-Team: Hindi <hindi.sf.net>\n"
-"Language: mai\n"
+"POT-Creation-Date: 2017-04-25 13:34-0700\n"
+"PO-Revision-Date: 2017-04-25 20:21+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Maithili (http://www.transifex.com/endless-mobile-inc/gdm/language/mai/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"\n"
-"\n"
-"\n"
+"Language: mai\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../chooser/gdm-host-chooser-dialog.c:147
+msgid "Select System"
+msgstr "तंत्र चुनू"
+
+#: ../chooser/gdm-host-chooser-widget.c:215
+msgid "XDMCP: Could not create XDMCP buffer!"
+msgstr "XDMCP: एक्सडीएमसीपी बफर नहि बनाए सकल!"
+
+#: ../chooser/gdm-host-chooser-widget.c:221
+msgid "XDMCP: Could not read XDMCP header!"
+msgstr "XDMCP: एक्सडीएमसीपी शीर्षिका पढ़ि नहि सकल!"
+
+#: ../chooser/gdm-host-chooser-widget.c:227
+msgid "XDMCP: Incorrect XDMCP version!"
+msgstr ""
+
+#: ../chooser/gdm-host-chooser-widget.c:233
+msgid "XDMCP: Unable to parse address"
+msgstr ""
 
 #: ../common/gdm-common.c:298
 #, c-format
@@ -41,9 +51,9 @@ msgid "Could not identify the current session."
 msgstr "मोजुदा संस्करण नहि पहचान सकल."
 
 #: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
-#, fuzzy, c-format
+#, c-format
 msgid "Could not identify the current seat."
-msgstr "मोजुदा संस्करण नहि पहचान सकल."
+msgstr ""
 
 #: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
 #, c-format
@@ -63,77 +73,70 @@ msgid "could not find user \"%s\" on system"
 msgstr "तंत्र पर \"%s\" प्रयोक्ता नहि पाबि सकल"
 
 #: ../daemon/gdm-legacy-display.c:235
-#, fuzzy
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
 msgstr ""
-"Could not start the X server (your graphical environment) due to some "
-"internal error. Please contact your system administrator or check your "
-"syslog to diagnose. In the meantime this display will be disabled.  Please "
-"restart GDM when the problem is corrected."
 
-#: ../daemon/gdm-manager.c:766
-#, fuzzy
+#: ../daemon/gdm-manager.c:768
 msgid "No display available"
-msgstr "प्रदर्शक युक्ति"
+msgstr ""
 
-#: ../daemon/gdm-manager.c:833 ../daemon/gdm-manager.c:1088
-#, fuzzy
+#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
 msgid "No session available"
-msgstr "कोनो प्रयोक्ता खाता उपलब्ध नहि"
+msgstr ""
 
-#: ../daemon/gdm-manager.c:844
+#: ../daemon/gdm-manager.c:848
 msgid "Can only be called before user is logged in"
 msgstr ""
 
-#: ../daemon/gdm-manager.c:854
+#: ../daemon/gdm-manager.c:858
 msgid "Caller not GDM"
 msgstr ""
 
-#: ../daemon/gdm-manager.c:864
+#: ../daemon/gdm-manager.c:868
 msgid "Unable to open private communication channel"
 msgstr ""
 
-#: ../daemon/gdm-server.c:378
+#: ../daemon/gdm-server.c:391
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
 msgstr "%s प्रयोक्ता द्वारा सर्वर केँ शाखित कएल गेल पर ओ प्रयोक्ता मोजुद नहि अछि"
 
-#: ../daemon/gdm-server.c:389 ../daemon/gdm-server.c:409
+#: ../daemon/gdm-server.c:402 ../daemon/gdm-server.c:422
 #, c-format
 msgid "Couldn't set groupid to %d"
 msgstr "%d पर समूह आईडी नियत नहि कए सकल"
 
-#: ../daemon/gdm-server.c:395
+#: ../daemon/gdm-server.c:408
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "%s हेतु initgroups() असफल"
 
-#: ../daemon/gdm-server.c:401
+#: ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn't set userid to %d"
 msgstr "प्रयोक्ता आईडी %d हेतु नियत नहि कए सकल"
 
-#: ../daemon/gdm-server.c:479
-#, fuzzy, c-format
+#: ../daemon/gdm-server.c:492
+#, c-format
 msgid "%s: Could not open log file for display %s!"
-msgstr "%s: डिसप्ले %s लेल लॉग फ़ाइल नहि खोलि सकल!"
+msgstr ""
 
-#: ../daemon/gdm-server.c:500 ../daemon/gdm-server.c:506
-#: ../daemon/gdm-server.c:512
+#: ../daemon/gdm-server.c:513 ../daemon/gdm-server.c:519
+#: ../daemon/gdm-server.c:525
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: %sकेँ %s पर सेट करबमे त्रुटि"
 
-#: ../daemon/gdm-server.c:532
+#: ../daemon/gdm-server.c:545
 #, c-format
 msgid "%s: Server priority couldn't be set to %d: %s"
 msgstr "%s: सर्वर प्राथमिकताकेँ %dमे सेट नहि कएल जाए सकल: %s"
 
-#: ../daemon/gdm-server.c:684
+#: ../daemon/gdm-server.c:697
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: डिसप्ले %s लेल खाली सर्वर कमांड "
@@ -162,62 +165,63 @@ msgstr "प्रदर्शक युक्ति"
 msgid "The display device"
 msgstr "प्रदर्शक युक्ति"
 
-#: ../daemon/gdm-session.c:1193
-#, fuzzy
+#: ../daemon/gdm-session.c:1215
 msgid "Could not create authentication helper process"
-msgstr "%s: प्रामाणीकरण नामकेँ पढ़ि नहि सकल"
+msgstr ""
 
-#: ../daemon/gdm-session-worker.c:642
+#: ../daemon/gdm-session-worker.c:644
 msgid "Your account was given a time limit that's now passed."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:649
+#: ../daemon/gdm-session-worker.c:651
 msgid "Sorry, that didn't work. Please try again."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1010
+#: ../daemon/gdm-session-worker.c:1040
 msgid "Username:"
 msgstr "प्रयोक्ता नाम:"
 
-#: ../daemon/gdm-session-worker.c:1142
-msgid "Your password has expired, please change it now."
+#: ../daemon/gdm-session-worker.c:1200
+msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1505 ../daemon/gdm-session-worker.c:1522
+#: ../daemon/gdm-session-worker.c:1201
+msgid "Password reminder:"
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
 #, c-format
 msgid "no user account available"
 msgstr "कोनो प्रयोक्ता खाता उपलब्ध नहि"
 
-#: ../daemon/gdm-session-worker.c:1549
+#: ../daemon/gdm-session-worker.c:1670
 msgid "Unable to change to user"
 msgstr "प्रयोक्ता बदलबामे असमर्थ"
 
-#: ../daemon/gdm-wayland-session.c:385
-#, fuzzy
+#: ../daemon/gdm-wayland-session.c:470
 msgid "GNOME Display Manager Wayland Session Launcher"
-msgstr "गनोम डिस्प्ले प्रबंधक सत्र वर्कर"
+msgstr ""
 
-#: ../daemon/gdm-xdmcp-display-factory.c:609
+#: ../daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
 msgstr "समूह साकेट नहि बनाए सकल!"
 
-#: ../daemon/gdm-x-session.c:686
+#: ../daemon/gdm-x-session.c:812
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr ""
 
-#: ../daemon/gdm-x-session.c:687
+#: ../daemon/gdm-x-session.c:813
 msgid "Listen on TCP socket"
 msgstr ""
 
-#: ../daemon/gdm-x-session.c:698
-#, fuzzy
+#: ../daemon/gdm-x-session.c:824
 msgid "GNOME Display Manager X Session Launcher"
-msgstr "गनोम डिस्प्ले प्रबंधक सत्र वर्कर"
+msgstr ""
 
 #: ../daemon/main.c:125 ../daemon/main.c:138
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr "पीआईडी फ़ाइल %s लिख नहि सकैत अछि: संभवतः डिस्कमे खाली जगह नहि. %s"
+msgstr ""
 
 #: ../daemon/main.c:182
 #, c-format
@@ -252,9 +256,8 @@ msgid "Make all warnings fatal"
 msgstr "सभटा चेतावनी गंभीर बनाउ"
 
 #: ../daemon/main.c:319
-#, fuzzy
 msgid "Exit after a time (for debugging)"
-msgstr "समयक बाद बाहर - डिबगिंगक लेल"
+msgstr ""
 
 #: ../daemon/main.c:320
 msgid "Print GDM version"
@@ -266,26 +269,14 @@ msgstr "गनोम डेस्कटॉप प्रबंधक"
 
 #. make sure the pid file doesn't get wiped
 #: ../daemon/main.c:381
-#, fuzzy
 msgid "Only the root user can run GDM"
-msgstr "केवल रूट जीडीएम चलाबै चाहैत अछि"
+msgstr ""
 
 #. Translators: worker is a helper process that does the work
 #. of starting up a session
-#: ../daemon/session-worker-main.c:95
+#: ../daemon/session-worker-main.c:94
 msgid "GNOME Display Manager Session Worker"
 msgstr "गनोम डिस्प्ले प्रबंधक सत्र वर्कर"
-
-#: ../data/applications/gnome-shell.desktop.in.h:1
-#: ../data/applications/gnome-shell-wayland.desktop.in.h:1
-msgid "GNOME Shell"
-msgstr ""
-
-#: ../data/applications/gnome-shell.desktop.in.h:2
-#: ../data/applications/gnome-shell-wayland.desktop.in.h:2
-#, fuzzy
-msgid "Window management and compositing"
-msgstr "बिजली प्रबंधन डेमान"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
@@ -323,16 +314,14 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:8
 msgid ""
-"The login screen can optionally show a small image at the top of its user "
-"list to provide site administrators and distributions a way to provide "
-"branding."
+"The login screen can optionally show a small image to provide site "
+"administrators and distributions a way to display branding."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
-"The fallback login screen can optionally show a small image at the top of "
-"its user list to provide site administrators and distributions a way to "
-"provide branding."
+"The fallback login screen can optionally show a small image to provide site "
+"administrators and distributions a way to display branding."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
@@ -341,8 +330,8 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
@@ -358,22 +347,21 @@ msgid "Banner message text"
 msgstr "बैनर संदेश पाठ"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:15
-#, fuzzy
 msgid "Text banner message to show in the login window."
-msgstr "लागिन विंडो पर देखाबैक लेल पाठ बैनर संदेश."
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:16
 msgid "Disable showing the restart buttons"
 msgstr "फेर आरंभ बटन देखैनाइ असमर्थ करू"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr "निष्क्रिय देखाबैक लेल सही पर सेट करू जँ फेर आरंभ करू बटनकेँ लागिन विंडोमे देखाबैक लेल."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
-#, fuzzy
 msgid "Number of allowed authentication failures"
-msgstr "%s: प्रामाणीकरण नामकेँ पढ़ि नहि सकल"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
@@ -381,37 +369,13 @@ msgid ""
 "giving up and going back to user selection."
 msgstr ""
 
-#: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
-msgid "Select System"
-msgstr "तंत्र चुनू"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
-msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr "XDMCP: एक्सडीएमसीपी बफर नहि बनाए सकल!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
-msgid "XDMCP: Could not read XDMCP header!"
-msgstr "XDMCP: एक्सडीएमसीपी शीर्षिका पढ़ि नहि सकल!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-#, fuzzy
-msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XMDCP: एक्सडीएमसीपीक गलत संसकरण!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-#, fuzzy
-msgid "XDMCP: Unable to parse address"
-msgstr "XMDCP: पता विश्लेषणमे त्रुटि"
-
 #: ../libgdm/gdm-user-switching.c:59
-#, fuzzy
 msgid "Unable to create transient display: "
-msgstr "नव प्रदर्शक आरंभ करबामे असमर्थ"
+msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:90
-#, fuzzy
 msgid "Unable to activate session: "
-msgstr "प्रयोक्ता सत्यापित करबामे असमर्थ"
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
@@ -423,9 +387,8 @@ msgstr "कमांड"
 
 #: ../utils/gdmflexiserver.c:46 ../utils/gdmflexiserver.c:47
 #: ../utils/gdmflexiserver.c:49 ../utils/gdmflexiserver.c:50
-#, fuzzy
 msgid "Ignored — retained for compatibility"
-msgstr "अनदेखा कएल गेल - सुसंगतताक लेल"
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:48 ../utils/gdm-screenshot.c:43
 msgid "Debugging output"
@@ -448,183 +411,3 @@ msgstr "स्क्रीनशाट लेल गेल"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "स्क्रीनक तस्वीर उतारू"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

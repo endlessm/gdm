@@ -1,34 +1,57 @@
-# translation of gdm.master.ru.po to Russian
-# Russian translation of gdm
-# Copyright (C) 1999-2009, 2010 Free Software Foundation, Inc.
-#
-# Sergey Panov <sipan@mit.edu>, 1999.
-# Valek Filippov  <frob@df.ru>, 2000-2002.
-# Dmitry G. Mastrukov <dmitry@taurussoft.org>, 2002-2003.
-# Leonid Kanter <leon@asplinux.ru>, 2003, 2004, 2005, 2006, 2007, 2008.
-# der_FeniX <kofenix@gmail.com>, 2010.
-# Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011.
-# Alexander Saprykin <xelfium@gmail.com>, 2009, 2010.
-# Maxim Petrov <maximpetov@yahoo.com>, 2011.
-# Yuri Myasoedov <ymyasoedov@yandex.ru>, 2012, 2013, 2015.
-# Stas Solovey <whats_up@tut.by>, 2011, 2012, 2013, 2016.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Alexander Saprykin <xelfium@gmail.com>, 2009-2010
+# Alexandre Prokoudine <alexandre.prokoudine@gmail.com>, 2009
+# Andrew W. Nosenko <awn@bcs.zp.ua>, 2003
+# der_FeniX <kofenix@gmail.com>, 2010
+# Dmitry Shachnev <mitya57@ubuntu.com>, 2012
+# Leonid Kanter <leon@asplinux.ru>, 2003-2010
+# Maxim Petrov <maximpetov@yahoo.com>, 2011
+# Maxim Popov <ravemax@hotbox.ru>, 2006
+# Lincor <mikegurin@yandex.ru>, 2015
+# Sergey Panov <sipan@mit.edu>, 1999
+# Stas Solovey <whats_up@tut.by>, 2011-2016
+# Valery Inozemtsev <inozemtsev@gmail.com>, 2009
+# Yuri Kozlov <kozlov.y@gmail.com>, 2008
+# Yuri Kozlov <yuray@komyakino.ru>, 2010-2012
+# Yuri Myasoedov <omerta13@yandex.ru>, 2012-2013
+# Yuri Myasoedov <ymyasoedov@yandex.ru>, 2012-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm trunk\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gdm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-01-19 18:47+0000\n"
-"PO-Revision-Date: 2016-01-19 22:20+0300\n"
-"Last-Translator: Stas Solovey <whats_up@tut.by>\n"
-"Language-Team: Russian <gnome-cyr@gnome.org>\n"
-"Language: ru\n"
+"Project-Id-Version: gdm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-25 13:34-0700\n"
+"PO-Revision-Date: 2017-04-25 20:38+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Russian (http://www.transifex.com/endless-mobile-inc/gdm/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 2.91.7\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: ../chooser/gdm-host-chooser-dialog.c:147
+msgid "Select System"
+msgstr "Выберите систему"
+
+#: ../chooser/gdm-host-chooser-widget.c:215
+msgid "XDMCP: Could not create XDMCP buffer!"
+msgstr "XDMCP: не удалось создать буфер XDMCP!"
+
+#: ../chooser/gdm-host-chooser-widget.c:221
+msgid "XDMCP: Could not read XDMCP header!"
+msgstr "XDMCP: не удалось прочитать заголовок XDMCP!"
+
+#: ../chooser/gdm-host-chooser-widget.c:227
+msgid "XDMCP: Incorrect XDMCP version!"
+msgstr "XDMCP: неверная версия XDMCP!"
+
+#: ../chooser/gdm-host-chooser-widget.c:233
+msgid "XDMCP: Unable to parse address"
+msgstr "XDMCP: не удалось разобрать адрес"
 
 #: ../common/gdm-common.c:298
 #, c-format
@@ -50,9 +73,7 @@ msgstr "Не удалось идентифицировать текущее ра
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"Системе не удалось найти для переключения экран входа в систему или "
-"запустить новый экран входа."
+msgstr "Системе не удалось найти для переключения экран входа в систему или запустить новый экран входа."
 
 #: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
 #, c-format
@@ -66,42 +87,36 @@ msgstr "не удалось найти в системе пользовател�
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Не удалось запустить X-сервер (графическое окружение) из-за внутренней "
-"ошибки. Свяжитесь со своим системным администратором или проверьте системный "
-"журнал. В настоящее время этот дисплей будет отключен. Перезапустите GDM, "
-"когда проблема будет устранена."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Не удалось запустить X-сервер (графическое окружение) из-за внутренней ошибки. Свяжитесь со своим системным администратором или проверьте системный журнал. В настоящее время этот дисплей будет отключен. Перезапустите GDM, когда проблема будет устранена."
 
-#: ../daemon/gdm-manager.c:766
+#: ../daemon/gdm-manager.c:768
 msgid "No display available"
 msgstr "Дисплей недоступен"
 
-#: ../daemon/gdm-manager.c:833 ../daemon/gdm-manager.c:1088
+#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
 msgid "No session available"
 msgstr "Сеанс недоступен"
 
-#: ../daemon/gdm-manager.c:844
+#: ../daemon/gdm-manager.c:848
 msgid "Can only be called before user is logged in"
 msgstr "Может быть вызван до того, как пользователь вошёл в систему"
 
-#: ../daemon/gdm-manager.c:854
+#: ../daemon/gdm-manager.c:858
 msgid "Caller not GDM"
 msgstr "Другой вызывающий компонент (не GDM)"
 
-#: ../daemon/gdm-manager.c:864
+#: ../daemon/gdm-manager.c:868
 msgid "Unable to open private communication channel"
 msgstr "Невозможно открыть приватный коммуникационный канал"
 
 #: ../daemon/gdm-server.c:391
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr ""
-"Сервер был запущен с идентификатором (uid) %s, но такой пользователь не "
-"существует"
+msgstr "Сервер был запущен с идентификатором (uid) %s, но такой пользователь не существует"
 
 #: ../daemon/gdm-server.c:402 ../daemon/gdm-server.c:422
 #, c-format
@@ -163,48 +178,56 @@ msgstr "Устройство дисплея"
 msgid "The display device"
 msgstr "Устройство дисплея"
 
-#: ../daemon/gdm-session.c:1203
+#: ../daemon/gdm-session.c:1215
 msgid "Could not create authentication helper process"
 msgstr "Не удалось создать вспомогательный процесс аутентификации"
 
-#: ../daemon/gdm-session-worker.c:642
+#: ../daemon/gdm-session-worker.c:644
 msgid "Your account was given a time limit that's now passed."
 msgstr "Время действия учётной записи истекло."
 
-#: ../daemon/gdm-session-worker.c:649
+#: ../daemon/gdm-session-worker.c:651
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Не сработало. Попробуйте ещё раз."
 
-#: ../daemon/gdm-session-worker.c:1010
+#: ../daemon/gdm-session-worker.c:1040
 msgid "Username:"
 msgstr "Имя пользователя:"
 
-#: ../daemon/gdm-session-worker.c:1504 ../daemon/gdm-session-worker.c:1521
+#: ../daemon/gdm-session-worker.c:1200
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1201
+msgid "Password reminder:"
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
 #, c-format
 msgid "no user account available"
 msgstr "учётная запись пользователя недоступна"
 
-#: ../daemon/gdm-session-worker.c:1548
+#: ../daemon/gdm-session-worker.c:1670
 msgid "Unable to change to user"
 msgstr "Не удалось сменить пользователя"
 
-#: ../daemon/gdm-wayland-session.c:385
+#: ../daemon/gdm-wayland-session.c:470
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr "Модуль GDM для запуска сеанса Wayland"
 
-#: ../daemon/gdm-xdmcp-display-factory.c:609
+#: ../daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
 msgstr "Не удалось создать сокет!"
 
-#: ../daemon/gdm-x-session.c:698
+#: ../daemon/gdm-x-session.c:812
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "Запустить программу через сценарий-обёртку /etc/gdm/Xsession"
 
-#: ../daemon/gdm-x-session.c:699
+#: ../daemon/gdm-x-session.c:813
 msgid "Listen on TCP socket"
 msgstr "Прослушивать TCP-сокет"
 
-#: ../daemon/gdm-x-session.c:710
+#: ../daemon/gdm-x-session.c:824
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "Модуль GDM для запуска сеанса X"
 
@@ -213,7 +236,6 @@ msgstr "Модуль GDM для запуска сеанса X"
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr "Не удалось записать PID-файл %s: возможно, диск переполнен: %s"
 
-# Может быть найдётся более удачный перевод
 #: ../daemon/main.c:182
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
@@ -231,9 +253,7 @@ msgstr "Не найден пользователь GDM «%s». Аварийно�
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
-msgstr ""
-"Пользователь GDM не может быть суперпользователем. Аварийное завершение "
-"работы!"
+msgstr "Пользователь GDM не может быть суперпользователем. Аварийное завершение работы!"
 
 #: ../daemon/main.c:235
 #, c-format
@@ -242,8 +262,7 @@ msgstr "Не удалось найти группу GDM «%s». Аварийно
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
-msgstr ""
-"Группа GDM не должна быть суперпользовательской. Аварийное завершение работы!"
+msgstr "Группа GDM не должна быть суперпользовательской. Аварийное завершение работы!"
 
 #: ../daemon/main.c:318
 msgid "Make all warnings fatal"
@@ -268,36 +287,29 @@ msgstr "Только суперпользователь может запуст�
 
 #. Translators: worker is a helper process that does the work
 #. of starting up a session
-#: ../daemon/session-worker-main.c:95
+#: ../daemon/session-worker-main.c:94
 msgid "GNOME Display Manager Session Worker"
 msgstr "GDM (Менеджер дисплеев среды GNOME) не запущен"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
-msgstr ""
-"Разрешить использование устройств считывания отпечатков пальцев для входа в "
-"систему"
+msgstr "Разрешить использование устройств считывания отпечатков пальцев для входа в систему"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:2
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Экран входа в систему может предоставить пользователям возможность входить в "
-"систему с помощью устройства считывания отпечатков пальцев."
+msgstr "Экран входа в систему может предоставить пользователям возможность входить в систему с помощью устройства считывания отпечатков пальцев."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
-msgstr ""
-"Разрешить использование устройств чтения смарт-карт для входа в систему"
+msgstr "Разрешить использование устройств чтения смарт-карт для входа в систему"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:4
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Экран входа в систему может предоставить пользователям возможность входить в "
-"систему с помощью смарт-карт."
+msgstr "Экран входа в систему может предоставить пользователям возможность входить в систему с помощью смарт-карт."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -307,40 +319,23 @@ msgstr "Разрешить использование паролей для вх
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Экран входа в систему можно настроить так, чтобы запретить авторизацию с "
-"помощью пароля, вынуждая пользователя проходить авторизацию с помощью смарт-"
-"карты или отпечатков пальцев."
+msgstr "Экран входа в систему можно настроить так, чтобы запретить авторизацию с помощью пароля, вынуждая пользователя проходить авторизацию с помощью смарт-карты или отпечатков пальцев."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
 msgstr "Путь к небольшому изображению вверху списка пользователей"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:8
-#| msgid ""
-#| "The login screen can optionally show a small image at the top of its user "
-#| "list to provide site administrators and distributions a way to provide "
-#| "branding."
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"На экран входа в систему можно вывести небольшое изображение, предоставляя "
-"дистрибутивам и администраторам возможность отображения фирменного "
-"оформления."
+msgstr "На экран входа в систему можно вывести небольшое изображение, предоставляя дистрибутивам и администраторам возможность отображения фирменного оформления."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
-#| msgid ""
-#| "The fallback login screen can optionally show a small image at the top of "
-#| "its user list to provide site administrators and distributions a way to "
-#| "provide branding."
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"В режиме совместимости на экран входа в систему можно вывести небольшое "
-"изображение, предоставляя дистрибутивам и администраторам возможность "
-"отображения фирменного оформления."
+msgstr "В режиме совместимости на экран входа в систему можно вывести небольшое изображение, предоставляя дистрибутивам и администраторам возможность отображения фирменного оформления."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -348,12 +343,9 @@ msgstr "Не показывать список пользователей"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Обычно, на экране входа в систему показывается список доступных "
-"пользователей. С помощью этого параметра можно отключить отображение списка "
-"пользователей."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Обычно, на экране входа в систему показывается список доступных пользователей. С помощью этого параметра можно отключить отображение списка пользователей."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -376,10 +368,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Отключить отображение кнопок перезапуска"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Установите, чтобы запретить отображение кнопок перезапуска в окне входа в "
-"систему."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Установите, чтобы запретить отображение кнопок перезапуска в окне входа в систему."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -389,30 +380,7 @@ msgstr "Количество разрешённых ошибок аутенти�
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Количество попыток, предоставленных пользователю для подтверждения проверки "
-"подлинности после которых будет выполнен возврат к экрану выбора "
-"пользователя."
-
-#: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
-msgid "Select System"
-msgstr "Выберите систему"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
-msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr "XDMCP: не удалось создать буфер XDMCP!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
-msgid "XDMCP: Could not read XDMCP header!"
-msgstr "XDMCP: не удалось прочитать заголовок XDMCP!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XDMCP: неверная версия XDMCP!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-msgid "XDMCP: Unable to parse address"
-msgstr "XDMCP: не удалось разобрать адрес"
+msgstr "Количество попыток, предоставленных пользователю для подтверждения проверки подлинности после которых будет выполнен возврат к экрану выбора пользователя."
 
 #: ../libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -456,12 +424,3 @@ msgstr "Снимок экрана готов"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Сделать снимок экрана"
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "Срок действия пароля истёк. Нужно его сейчас изменить."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "GNOME Shell"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "Управление окнами и компоновкой"

@@ -1,29 +1,51 @@
-# Persian translation of gdm2.
-# Copyright (C) 2010, 2011 Iranian Free Software Users Group (IFSUG.org)translation team
-# This file is distributed under the same license as the gdm package.
-# Roozbeh Pournader <roozbeh@gmail.com>, 2003, 2005, 2008.
-# Meelad Zakaria <meelad@farsiweb.info>, 2004, 2005, 2006.
-# Alireza Kheirkhahan <kheirkhahan@gmail.com>, 2005.
-# Hedayat Vatankhah <hedayat@grad.com>, 2008.
-# Mahyar Moghimi <mahyar.moqimi@gmail.com>, 2010.
-# Arash Mousavi <mousavi.arash@gmail.com>, 2011, 2012, 2013, 2014, 2015.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Alireza Kheirkhahan <kheirkhahan@gmail.com>, 2005
+# Arash Mousavi <mousavi.arash@gmail.com>, 2010-2016
+# Elnaz Sarbar <elnaz@farsiweb.info>, 2005-2006
+# Farzaneh Sarafraz <farzaneh@farsiweb.info>, 2006
+# Hedayat Vatankhah <hedayat@grad.com>, 2008
+# Mahyar Moghimi <mahyar.moqimi@gmail.com>, 2010-2011
+# Masoud Ahmadzadeh <masoud@bamdad.org>, 2005
+# Meelad Zakaria <meelad@farsiweb.info>, 2004-2006
+# Roozbeh Pournader <roozbeh@farsiweb.info>, 2003
+# Roozbeh Pournader <roozbeh@gmail.com>, 2003,2005,2008
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gdm&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2016-04-08 05:58+0000\n"
-"PO-Revision-Date: 2016-04-08 20:55+0430\n"
-"Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
-"Language-Team: Persian\n"
-"Language: fa\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-25 13:34-0700\n"
+"PO-Revision-Date: 2017-04-25 20:39+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Persian (http://www.transifex.com/endless-mobile-inc/gdm/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fa\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../chooser/gdm-host-chooser-dialog.c:147
+msgid "Select System"
+msgstr "انتخاب سیستم"
+
+#: ../chooser/gdm-host-chooser-widget.c:215
+msgid "XDMCP: Could not create XDMCP buffer!"
+msgstr "XDMCP: ایجاد میان‌گیر XDMCP ممکن نبود!"
+
+#: ../chooser/gdm-host-chooser-widget.c:221
+msgid "XDMCP: Could not read XDMCP header!"
+msgstr "XDMCP: خواندن سرآیند XDMCP ممکن نبود!"
+
+#: ../chooser/gdm-host-chooser-widget.c:227
+msgid "XDMCP: Incorrect XDMCP version!"
+msgstr "XDMCP: Incorrect XDMCP version!"
+
+#: ../chooser/gdm-host-chooser-widget.c:233
+msgid "XDMCP: Unable to parse address"
+msgstr "XMDCP: ناتوان در تجزیه‌ی نشانی"
 
 #: ../common/gdm-common.c:298
 #, c-format
@@ -45,9 +67,7 @@ msgstr "شناسایی نشست جاری ممکن نبود."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"سیستم قادر به تشخیص اینکه باید به صفحه‌ی ورود به سیستم فعلی انتقال پیدا کند یا "
-"یک صفحه‌ی ورود به سیستم جدید ایجاد کند نبود."
+msgstr "سیستم قادر به تشخیص اینکه باید به صفحه‌ی ورود به سیستم فعلی انتقال پیدا کند یا یک صفحه‌ی ورود به سیستم جدید ایجاد کند نبود."
 
 #: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
 #, c-format
@@ -61,32 +81,29 @@ msgstr "کاربر «%s» بر روی سیستم یافت نشد"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"بدلیل یک خطای داخلی، کارگزار X (محیط گرافیکی شما) آغاز نشد. لطفا با مدیر سیستم "
-"خود تماس بگیرید یا syslog خود را برای خطایابی بررسی کنید. ضمنا این نمایش "
-"غیرفعال خواهد شد. لطفا بعد از این‌که مشکل درست شد GDM را مجددا راه‌اندازی کنید."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "بدلیل یک خطای داخلی، کارگزار X (محیط گرافیکی شما) آغاز نشد. لطفا با مدیر سیستم خود تماس بگیرید یا syslog خود را برای خطایابی بررسی کنید. ضمنا این نمایش غیرفعال خواهد شد. لطفا بعد از این‌که مشکل درست شد GDM را مجددا راه‌اندازی کنید."
 
-#: ../daemon/gdm-manager.c:766
+#: ../daemon/gdm-manager.c:768
 msgid "No display available"
 msgstr "هیچ نمایشگری موجود نیست"
 
-#: ../daemon/gdm-manager.c:833 ../daemon/gdm-manager.c:1088
+#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
 msgid "No session available"
 msgstr "هیچ نشستی موجود نیست"
 
-#: ../daemon/gdm-manager.c:844
+#: ../daemon/gdm-manager.c:848
 msgid "Can only be called before user is logged in"
 msgstr "تنها پس از اینکه کاربر وارد سیستم شد می‌تواند فراخوانی شود"
 
-#: ../daemon/gdm-manager.c:854
+#: ../daemon/gdm-manager.c:858
 msgid "Caller not GDM"
 msgstr "کالر نه GDM"
 
-#: ../daemon/gdm-manager.c:864
+#: ../daemon/gdm-manager.c:868
 msgid "Unable to open private communication channel"
 msgstr "باز کردن کانال ارتباط خصوصی امکان‌پذیر نبود"
 
@@ -155,48 +172,56 @@ msgstr "دستگاه نمایشگر"
 msgid "The display device"
 msgstr "دستگاه نمایشگر"
 
-#: ../daemon/gdm-session.c:1205
+#: ../daemon/gdm-session.c:1215
 msgid "Could not create authentication helper process"
 msgstr "Could not create authentication helper process"
 
-#: ../daemon/gdm-session-worker.c:642
+#: ../daemon/gdm-session-worker.c:644
 msgid "Your account was given a time limit that's now passed."
 msgstr "برای حساب شما یک محدودیت زمانی داده شده است که اکنون به پایان رسید."
 
-#: ../daemon/gdm-session-worker.c:649
+#: ../daemon/gdm-session-worker.c:651
 msgid "Sorry, that didn't work. Please try again."
 msgstr "متاسفم، این کمکی نکرد. لطفا دوباره تلاش کنید."
 
-#: ../daemon/gdm-session-worker.c:1010
+#: ../daemon/gdm-session-worker.c:1040
 msgid "Username:"
 msgstr "نام کاربر:"
 
-#: ../daemon/gdm-session-worker.c:1504 ../daemon/gdm-session-worker.c:1521
+#: ../daemon/gdm-session-worker.c:1200
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1201
+msgid "Password reminder:"
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
 #, c-format
 msgid "no user account available"
 msgstr "هیچ حساب کاربری موجود نیست"
 
-#: ../daemon/gdm-session-worker.c:1548
+#: ../daemon/gdm-session-worker.c:1670
 msgid "Unable to change to user"
 msgstr "ناتوان در تعویض کاربر"
 
-#: ../daemon/gdm-wayland-session.c:385
+#: ../daemon/gdm-wayland-session.c:470
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr "اجرا کننده‌ی نشست Wayland مدیر نمایش گنوم"
 
-#: ../daemon/gdm-xdmcp-display-factory.c:609
+#: ../daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
 msgstr "ایجادسوکت «%s» ممکن نیست!"
 
-#: ../daemon/gdm-x-session.c:734
+#: ../daemon/gdm-x-session.c:812
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "اجرای برنامه از طریق کدنوشته etc/gdm/Xsession/"
 
-#: ../daemon/gdm-x-session.c:735
+#: ../daemon/gdm-x-session.c:813
 msgid "Listen on TCP socket"
 msgstr "گوش‌دادن به سوکت TCP"
 
-#: ../daemon/gdm-x-session.c:746
+#: ../daemon/gdm-x-session.c:824
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "اجرا کننده‌ی نشست X مدیر نمایش گنوم"
 
@@ -268,9 +293,7 @@ msgstr "اینکه آیا ورود به سیستم از طریق اثر انگش
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"صفحه ورود به سیستم می‌تواند به صورت اختیاری به کاربرانی که از اثر انگشت استفاده "
-"کرده‌اند با استفاده از آن اثر انگشت‌ها اجازه‌ی ورود به سیستم بدهد."
+msgstr "صفحه ورود به سیستم می‌تواند به صورت اختیاری به کاربرانی که از اثر انگشت استفاده کرده‌اند با استفاده از آن اثر انگشت‌ها اجازه‌ی ورود به سیستم بدهد."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -280,9 +303,7 @@ msgstr "اینکه آیا ورود به سیستم از طریق کارت هوش
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"صفحه ورود به سیستم می‌تواند به صورت اختیاری به کاربرانی که کارت هوشمند دارند با "
-"استفاده از آن کارت‌های هوشمند اجازه‌ی ورود به سیستم بدهد."
+msgstr "صفحه ورود به سیستم می‌تواند به صورت اختیاری به کاربرانی که کارت هوشمند دارند با استفاده از آن کارت‌های هوشمند اجازه‌ی ورود به سیستم بدهد."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -292,10 +313,7 @@ msgstr "اینکه آیا ورود به سیستم از گذرواژه اجاز�
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"صفحه ورود به سیستم می‌تواند به شکلی پیکربندی شود تا تصدیق هویت از طریق گذرواژه "
-"را اجازه ندهد، و کاربر را مجبور به استفاده از تصدیق هویت با استفاده از کارت "
-"هوشمند و یا اثر انگشت کند."
+msgstr "صفحه ورود به سیستم می‌تواند به شکلی پیکربندی شود تا تصدیق هویت از طریق گذرواژه را اجازه ندهد، و کاربر را مجبور به استفاده از تصدیق هویت با استفاده از کارت هوشمند و یا اثر انگشت کند."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -305,17 +323,13 @@ msgstr "مسیر تصویر کوچک در بالای فهرست کاربران"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"صفحه ورود به سیستم می‌تواند به صورت اختیاری یک تصویر کوچک نمایش دهد تا به "
-"مدیران سایت‌ها و توزیع‌ها امکان اضافه کردن علامت تجاری را بدهد."
+msgstr "صفحه ورود به سیستم می‌تواند به صورت اختیاری یک تصویر کوچک نمایش دهد تا به مدیران سایت‌ها و توزیع‌ها امکان اضافه کردن علامت تجاری را بدهد."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"صفحه ورود به سیستم در حالت یدکی می‌تواند به صورت اختیاری یک تصویر کوچک نمایش "
-"دهد تا به مدیران سایت‌ها و توزیع‌ها امکان اضافه کردن علامت تجاری را بدهد."
+msgstr "صفحه ورود به سیستم در حالت یدکی می‌تواند به صورت اختیاری یک تصویر کوچک نمایش دهد تا به مدیران سایت‌ها و توزیع‌ها امکان اضافه کردن علامت تجاری را بدهد."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -323,11 +337,9 @@ msgstr "لغو نمایش فهرست کاربران"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"صفحه‌ی ورود به سیستم به‌طور معمول یک فهرست از کاربران موجود جهت ورود را نمایش "
-"می‌دهد. این تنظیمات می‌تواند به‌منظور عدم نمایش فهرست کاربران تغییر کند."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "صفحه‌ی ورود به سیستم به‌طور معمول یک فهرست از کاربران موجود جهت ورود را نمایش می‌دهد. این تنظیمات می‌تواند به‌منظور عدم نمایش فهرست کاربران تغییر کند."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -350,10 +362,9 @@ msgid "Disable showing the restart buttons"
 msgstr "غیرفعال‌سازی نمایش دکمه‌های راه‌اندازی مجدد"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"روی درست تنظیم شود تا نمایش دکمه‌ی «راه‌اندازی مجدد» در پنجره‌ی ورود به سیستم از "
-"کار بیافتد."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "روی درست تنظیم شود تا نمایش دکمه‌ی «راه‌اندازی مجدد» در پنجره‌ی ورود به سیستم از کار بیافتد."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -361,31 +372,9 @@ msgstr "تعداد مجاز شکست‌ها در تصدیق هویت"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
-"The number of times a user is allowed to attempt authentication, before giving "
-"up and going back to user selection."
-msgstr ""
-"تعداد دفعاتی که کاربر می‌تواند برای تصدیق‌هویت، قبل از بازگشت به قسمت انتخاب "
-"کاربر، تلاش کند."
-
-#: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
-msgid "Select System"
-msgstr "انتخاب سیستم"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
-msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr "XDMCP: ایجاد میان‌گیر XDMCP ممکن نبود!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
-msgid "XDMCP: Could not read XDMCP header!"
-msgstr "XDMCP: خواندن سرآیند XDMCP ممکن نبود!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XDMCP: Incorrect XDMCP version!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-msgid "XDMCP: Unable to parse address"
-msgstr "XMDCP: ناتوان در تجزیه‌ی نشانی"
+"The number of times a user is allowed to attempt authentication, before "
+"giving up and going back to user selection."
+msgstr "تعداد دفعاتی که کاربر می‌تواند برای تصدیق‌هویت، قبل از بازگشت به قسمت انتخاب کاربر، تلاش کند."
 
 #: ../libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -429,12 +418,3 @@ msgstr "عکس صفحه گرفته شد"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "گرفتن یک عکس از صفحه‌نمایش"
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "گذرواژه شما منسوخ شده است، لطفا آن را هم‌اکنون تغییر دهید."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "پوسته گنوم"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "مدیر و ترکیب‌ساز پنجره"

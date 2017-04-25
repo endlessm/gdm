@@ -1,22 +1,41 @@
-# Kabyle translation of gdm.
-# Copyright (C) 1998-2012 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gdm package.
-# Yacine Bouklif <yacine2953-tansa1@yahoo.fr>, 2015.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm HEAD\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-27 15:41-0400\n"
-"PO-Revision-Date: 2015-07-26 17:21+0100\n"
-"Last-Translator: Yacine Bouklif <yacine2953-tansa1@yahoo.fr>\n"
-"Language-Team: GNOME Kabyle Team <yacine2953-tansa1@yahoo.fr>\n"
-"Language: kab\n"
+"POT-Creation-Date: 2017-04-25 13:34-0700\n"
+"PO-Revision-Date: 2017-04-25 20:36+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Kabyle (http://www.transifex.com/endless-mobile-inc/gdm/language/kab/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n>1;\n"
-"X-Generator: Poedit 1.7.5\n"
+"Language: kab\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../chooser/gdm-host-chooser-dialog.c:147
+msgid "Select System"
+msgstr "Fren anagraw"
+
+#: ../chooser/gdm-host-chooser-widget.c:215
+msgid "XDMCP: Could not create XDMCP buffer!"
+msgstr "XDMCP : d awezɣi asnulfu n tallunt n weḥraz XDMCP."
+
+#: ../chooser/gdm-host-chooser-widget.c:221
+msgid "XDMCP: Could not read XDMCP header!"
+msgstr "XDMCP : d awezɣi taɣuri n tsenṭiḍt XDMCP."
+
+#: ../chooser/gdm-host-chooser-widget.c:227
+msgid "XDMCP: Incorrect XDMCP version!"
+msgstr "XDMCP : lqem urmeɣtu n XDMCP."
+
+#: ../chooser/gdm-host-chooser-widget.c:233
+msgid "XDMCP: Unable to parse address"
+msgstr "XDMCP : d awezɣi tasleḍt n tansa"
 
 #: ../common/gdm-common.c:298
 #, c-format
@@ -38,9 +57,7 @@ msgstr "D awezɣi asenkwu n teɣsert tamirant."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"Anagraw ur yezmir ara ad iẓer ma ilaq ad yenfel ɣer wegdil n tuqqna i yellan "
-"yakan neɣ ad yesekker agdil amaynut n tuqqna."
+msgstr "Anagraw ur yezmir ara ad iẓer ma ilaq ad yenfel ɣer wegdil n tuqqna i yellan yakan neɣ ad yesekker agdil amaynut n tuqqna."
 
 #: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
 #, c-format
@@ -54,73 +71,69 @@ msgstr "D awezɣi tifin n useqdac \"%s\" deg wenagraw"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"D awezɣi asekker n uqeddac X (agrudem udlif), sebba d anezri agensan. Nermes "
-"anedbal n unagraw neɣ selken aɣmis n unagraw iwakken ad tgeḍ tawassna n "
-"wugur. Di leɛḍil, abeqeḍ-agi yensa. Ttxil-k alles aseker n GDM mi ara yefru "
-"wugur-agi."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "D awezɣi asekker n uqeddac X (agrudem udlif), sebba d anezri agensan. Nermes anedbal n unagraw neɣ selken aɣmis n unagraw iwakken ad tgeḍ tawassna n wugur. Di leɛḍil, abeqeḍ-agi yensa. Ttxil-k alles aseker n GDM mi ara yefru wugur-agi."
 
-#: ../daemon/gdm-manager.c:766
+#: ../daemon/gdm-manager.c:768
 msgid "No display available"
 msgstr "Ulac abeqqeḍ yewjeden"
 
-#: ../daemon/gdm-manager.c:833 ../daemon/gdm-manager.c:1088
+#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
 msgid "No session available"
 msgstr "Ulac tiɣimit yewjeden"
 
-#: ../daemon/gdm-manager.c:844
+#: ../daemon/gdm-manager.c:848
 msgid "Can only be called before user is logged in"
 msgstr "Nezmer ad s-nsiwel ḥaca send ad yeqqen useqdac"
 
-#: ../daemon/gdm-manager.c:854
+#: ../daemon/gdm-manager.c:858
 msgid "Caller not GDM"
 msgstr "Win yessawlen mači d GDM"
 
-#: ../daemon/gdm-manager.c:864
+#: ../daemon/gdm-manager.c:868
 msgid "Unable to open private communication channel"
 msgstr "D awezɣi tulya n terga n teɣwalt tusligt"
 
-#: ../daemon/gdm-server.c:378
+#: ../daemon/gdm-server.c:391
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
 msgstr "Aqeddac ilaq ad t-yesekker useqdac %s maca aseqdac-agi ulac-it"
 
-#: ../daemon/gdm-server.c:389 ../daemon/gdm-server.c:409
+#: ../daemon/gdm-server.c:402 ../daemon/gdm-server.c:422
 #, c-format
 msgid "Couldn't set groupid to %d"
 msgstr "D awezɣi asbadu n groupid ɣer %d"
 
-#: ../daemon/gdm-server.c:395
+#: ../daemon/gdm-server.c:408
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups () yerreẓ di %s"
 
-#: ../daemon/gdm-server.c:401
+#: ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn't set userid to %d"
 msgstr "D awezɣi asbadu n userid ɣer %d"
 
-#: ../daemon/gdm-server.c:479
+#: ../daemon/gdm-server.c:492
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s : d awezɣi tulya n uɣmis i webeqqeḍ n %s !"
 
-#: ../daemon/gdm-server.c:500 ../daemon/gdm-server.c:506
-#: ../daemon/gdm-server.c:512
+#: ../daemon/gdm-server.c:513 ../daemon/gdm-server.c:519
+#: ../daemon/gdm-server.c:525
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s : anezri deg wesbadu n %s ɣer %s"
 
-#: ../daemon/gdm-server.c:532
+#: ../daemon/gdm-server.c:545
 #, c-format
 msgid "%s: Server priority couldn't be set to %d: %s"
 msgstr "%s : tazwart n uqeddac ulamek ara tettusbadu ɣer %d : %s"
 
-#: ../daemon/gdm-server.c:684
+#: ../daemon/gdm-server.c:697
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s : anezḍay n uqeddac d ilem i webeqqeḍ n %s"
@@ -149,52 +162,56 @@ msgstr "Allalen n ubeqqeḍ"
 msgid "The display device"
 msgstr "Allal n ubeqqeḍ"
 
-#: ../daemon/gdm-session.c:1193
+#: ../daemon/gdm-session.c:1215
 msgid "Could not create authentication helper process"
 msgstr "D awezɣi asnulfu n ukala n umallal n usnekwu"
 
-#: ../daemon/gdm-session-worker.c:642
+#: ../daemon/gdm-session-worker.c:644
 msgid "Your account was given a time limit that's now passed."
 msgstr "Amiḍan-inek yesɛa talast n wakud i yefukken tura."
 
-#: ../daemon/gdm-session-worker.c:649
+#: ../daemon/gdm-session-worker.c:651
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Surfaɣ, ayagi ur yelḥi ara. Ttxil-k eɛreḍ tikkelt-nniḍen."
 
-#: ../daemon/gdm-session-worker.c:1010
+#: ../daemon/gdm-session-worker.c:1040
 msgid "Username:"
 msgstr "Isem n useqdac :"
 
-#: ../daemon/gdm-session-worker.c:1142
-msgid "Your password has expired, please change it now."
-msgstr "Awla n uɛeddi inek iɛedda-t wakud, ttxil-k beddel-it tura."
+#: ../daemon/gdm-session-worker.c:1200
+msgid "Type a hint or question to help remember your password."
+msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1505 ../daemon/gdm-session-worker.c:1522
+#: ../daemon/gdm-session-worker.c:1201
+msgid "Password reminder:"
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
 #, c-format
 msgid "no user account available"
 msgstr "ulac amiḍan n useqdac yewjeden"
 
-#: ../daemon/gdm-session-worker.c:1549
+#: ../daemon/gdm-session-worker.c:1670
 msgid "Unable to change to user"
 msgstr "D awezɣi abeddel ɣer useqdac"
 
-#: ../daemon/gdm-wayland-session.c:385
+#: ../daemon/gdm-wayland-session.c:470
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr "Amsekkar n tɣimit Wayland n usefrak n tuqqniwin GNOME"
 
-#: ../daemon/gdm-xdmcp-display-factory.c:609
+#: ../daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
 msgstr "D awezɣi asnulfu n umaqqan."
 
-#: ../daemon/gdm-x-session.c:686
+#: ../daemon/gdm-x-session.c:812
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "Selkem ahil s ttawil n uskript amattal /etc/gdm/Xsession"
 
-#: ../daemon/gdm-x-session.c:687
+#: ../daemon/gdm-x-session.c:813
 msgid "Listen on TCP socket"
 msgstr "Sefled s umaqqan TCP"
 
-#: ../daemon/gdm-x-session.c:698
+#: ../daemon/gdm-x-session.c:824
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "Amsekkar n tɣimit X n usefrak n tuqqniwin GNOME"
 
@@ -206,8 +223,7 @@ msgstr "D awezɣi tira n ufaylu PID %s : ahat d tallunt i yexuṣṣen : %s"
 #: ../daemon/main.c:182
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr ""
-"D awezɣi asnulfu n umacraḍ « yekker yiwet n tikkelt » deg wekaram %s : %s"
+msgstr "D awezɣi asnulfu n umacraḍ « yekker yiwet n tikkelt » deg wekaram %s : %s"
 
 #: ../daemon/main.c:188
 #, c-format
@@ -255,19 +271,9 @@ msgstr "Ḥaca aseqdac root i yezemren ad yesekker GDM"
 
 #. Translators: worker is a helper process that does the work
 #. of starting up a session
-#: ../daemon/session-worker-main.c:95
+#: ../daemon/session-worker-main.c:94
 msgid "GNOME Display Manager Session Worker"
 msgstr "Amallal n tɣimit n usefrak n tuqqniwin GNOME"
-
-#: ../data/applications/gnome-shell.desktop.in.h:1
-#: ../data/applications/gnome-shell-wayland.desktop.in.h:1
-msgid "GNOME Shell"
-msgstr "GNOME Shell"
-
-#: ../data/applications/gnome-shell.desktop.in.h:2
-#: ../data/applications/gnome-shell-wayland.desktop.in.h:2
-msgid "Window management and compositing"
-msgstr "Asefrek aked wesuddes n yisfuyla"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
@@ -277,22 +283,17 @@ msgstr "Yemmal ma yelaq usureg neɣ ala n tuqqna i yimeɣriyen n idrizen umḍin
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Agdil n tuqqna yezmer, s wefran, ad yesureg iseqdacen i yeskelsen idrizen-"
-"nnsen umḍinen ad qqnen s yessen."
+msgstr "Agdil n tuqqna yezmer, s wefran, ad yesureg iseqdacen i yeskelsen idrizen-nnsen umḍinen ad qqnen s yessen."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
-msgstr ""
-"Yemmal ma yelaq usureg neɣ ala n tuqqna i yimeɣriyen n tkarḍiwin ticeṛṛunin"
+msgstr "Yemmal ma yelaq usureg neɣ ala n tuqqna i yimeɣriyen n tkarḍiwin ticeṛṛunin"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:4
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Agdil n tuqqna yezmer, s wefran, ad yesureg iseqdacen i yesɛan tikarḍiwin "
-"ticeṛṛunin ad qqnen s yessent."
+msgstr "Agdil n tuqqna yezmer, s wefran, ad yesureg iseqdacen i yesɛan tikarḍiwin ticeṛṛunin ad qqnen s yessent."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -302,10 +303,7 @@ msgstr "Yemmal ma yelaq usureg neɣ ala n wawalen n uɛeddi i tuqqna"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Agdil n tuqqna yezmer ad yeɣewwer iwakken ad yegdel asenkwu s wawal n "
-"uɛeddi , ad iḥettem aseqdac iwakken ad yeseqdec asenkwu s tkarḍa taceṛṛunt "
-"neɣ s wedriz amiḍan."
+msgstr "Agdil n tuqqna yezmer ad yeɣewwer iwakken ad yegdel asenkwu s wawal n uɛeddi , ad iḥettem aseqdac iwakken ad yeseqdec asenkwu s tkarḍa taceṛṛunt neɣ s wedriz amiḍan."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -313,23 +311,15 @@ msgstr "Abrid ɣer tugna tamecṭuḥt nnig n tebdart n iseqdacen"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:8
 msgid ""
-"The login screen can optionally show a small image at the top of its user "
-"list to provide site administrators and distributions a way to provide "
-"branding."
+"The login screen can optionally show a small image to provide site "
+"administrators and distributions a way to display branding."
 msgstr ""
-"Agdil n tuqqna yezmer ad yebeqqeḍ tugna tamecṭuḥt nnig n tebdart n iseqdacen "
-"iwakken ad yefk i yenedbalen n wesmel aked isdegiren  tarayt swayes ara "
-"beqqeḍen iluguyen-nnsen."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
-"The fallback login screen can optionally show a small image at the top of "
-"its user list to provide site administrators and distributions a way to "
-"provide branding."
+"The fallback login screen can optionally show a small image to provide site "
+"administrators and distributions a way to display branding."
 msgstr ""
-"Agdil n tuqqna tuḥriṣt yezmer ad ibeqqeḍ tugna tamecṭuḥt nnig n tebdart n "
-"iseqdacen  iwakken ad yefk i yenedbalen n wesmel aked isdegiren  tarayt "
-"swayes ara beqqeḍen iluguyen-nnsen."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -337,12 +327,9 @@ msgstr "Ur beqqeḍ ara tabdart n iseqdacen"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Di tegnit tamagnut agdil n tuqqna  ibeqqeḍ tabdart n iseqdacen i yezemren ad "
-"qqnen. Aseɣewwer-agi yezmer ad yettwabeddel iwakken ad yensi ubeqqeḍ n "
-"tebdart n iseqdacen."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Di tegnit tamagnut agdil n tuqqna  ibeqqeḍ tabdart n iseqdacen i yezemren ad qqnen. Aseɣewwer-agi yezmer ad yettwabeddel iwakken ad yensi ubeqqeḍ n tebdart n iseqdacen."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -365,10 +352,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Sens abeqqeḍ n tanasin n wallus n usekker"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Sbadu d idetti, iwakken ad tsenseḍ abeqqeḍ n tanasin n wallus n usekker deg "
-"wesfaylu n tuqqna."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Sbadu d idetti, iwakken ad tsenseḍ abeqqeḍ n tanasin n wallus n usekker deg wesfaylu n tuqqna."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -378,29 +364,7 @@ msgstr "Amḍan n unezri deg wesenkwu i yurgen"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Amḍan n tikkal i yettunefken i weseqdac iwakken ad yeɛreḍ asnekwu uqbel "
-"tuǧǧin aked tuɣalin ɣer wefran n useqdac."
-
-#: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
-msgid "Select System"
-msgstr "Fren anagraw"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
-msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr "XDMCP : d awezɣi asnulfu n tallunt n weḥraz XDMCP."
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
-msgid "XDMCP: Could not read XDMCP header!"
-msgstr "XDMCP : d awezɣi taɣuri n tsenṭiḍt XDMCP."
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XDMCP : lqem urmeɣtu n XDMCP."
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-msgid "XDMCP: Unable to parse address"
-msgstr "XDMCP : d awezɣi tasleḍt n tansa"
+msgstr "Amḍan n tikkal i yettunefken i weseqdac iwakken ad yeɛreḍ asnekwu uqbel tuǧǧin aked tuɣalin ɣer wefran n useqdac."
 
 #: ../libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
