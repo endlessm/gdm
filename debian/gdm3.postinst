@@ -76,8 +76,9 @@ if [ -f /etc/dconf/db/gdm.d/00-upstream-settings ]; then
 fi
 
 if [ "$1" = configure ]; then
-  # Create gdm system dconf db
-  dconf update
+  # Create gdm system dconf db, but don't make the package
+  # installation fail in case there's an error here, please.
+  dconf update || true
 fi
 
 #DEBHELPER#
