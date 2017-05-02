@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-25 13:34-0700\n"
-"PO-Revision-Date: 2017-04-25 20:38+0000\n"
+"PO-Revision-Date: 2017-04-27 06:13+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/endless-mobile-inc/gdm/language/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -93,7 +93,7 @@ msgstr "تعذّر تشغيل الخادوم س (بيئتك الرسومية) ب
 
 #: ../daemon/gdm-manager.c:768
 msgid "No display available"
-msgstr ""
+msgstr "لا توجد شاشة متاحة"
 
 #: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
 msgid "No session available"
@@ -109,7 +109,7 @@ msgstr "المُستدعي ليس م‌ع‌ج"
 
 #: ../daemon/gdm-manager.c:868
 msgid "Unable to open private communication channel"
-msgstr ""
+msgstr "غير قادر على فتح قناة تواصل خاصة"
 
 #: ../daemon/gdm-server.c:391
 #, c-format
@@ -211,7 +211,7 @@ msgstr "تعذّر الانتقال للمستخدم"
 
 #: ../daemon/gdm-wayland-session.c:470
 msgid "GNOME Display Manager Wayland Session Launcher"
-msgstr ""
+msgstr "GNOME Display Manager Wayland Session Launcher"
 
 #: ../daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
@@ -219,15 +219,15 @@ msgstr "تعذّر إنشاء المقبس!"
 
 #: ../daemon/gdm-x-session.c:812
 msgid "Run program through /etc/gdm/Xsession wrapper script"
-msgstr ""
+msgstr "قم بتشغيل هذا البرنامج من خلال البرنامج النصي التضميني /etc/gdm/Xsession"
 
 #: ../daemon/gdm-x-session.c:813
 msgid "Listen on TCP socket"
-msgstr ""
+msgstr "التصنُّتْ على مأخذ الـ TCP"
 
 #: ../daemon/gdm-x-session.c:824
 msgid "GNOME Display Manager X Session Launcher"
-msgstr ""
+msgstr "GNOME Display Manager X Session Launcher"
 
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
@@ -327,13 +327,13 @@ msgstr "مسار لصورة صغيرة في أعلى قائمة المستخدم
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
+msgstr "يمكن لشاشة تسجيل الدخول - اختيارياً - أن تعرض صورة صغيرة توفر لمدراء المواقع والموزعين وسيلة  لعرض العلامة التجارية"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
+msgstr "يمكن لشاشة تسجيل الدخول الاحتياطية - اختيارياً - أن تعرض صورة صغيرة توفر لمدراء المواقع والموزعين وسيلة  لعرض العلامة التجارية."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"

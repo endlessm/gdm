@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-25 13:34-0700\n"
-"PO-Revision-Date: 2017-04-25 20:36+0000\n"
+"PO-Revision-Date: 2017-04-27 07:13+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Thai (http://www.transifex.com/endless-mobile-inc/gdm/language/th/)\n"
 "MIME-Version: 1.0\n"
@@ -321,13 +321,13 @@ msgstr "พาธของภาพขนาดเล็กที่ด้าน
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
+msgstr "หน้าจอล็อกอินแบบทางเลือก สามารถเลือกแสดงภาพขนาดเล็กเพื่อให้ผู้ดูแลเว็บ และผู้แทนจำหน่ายสามารถแสดงแบรนด์ของตนได้"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
+msgstr "หน้าจอล็อกอินแบบทางเลือก สามารถเลือกแสดงภาพขนาดเล็กเพื่อให้ผู้ดูแลเว็บ และผู้แทนจำหน่ายสามารถแสดงแบรนด์ของตนได้"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
