@@ -11,13 +11,14 @@
 # Joel Gil León <joel@endlessm.com>, 2015
 # Jorge González <jorgegonz@svn.gnome.org>, 2008-2011
 # Lucas Vieites Fariña <lucas@asixinformatica.com>, 2001-2005, 2006
-# Lucas Vieites <lucas@codexion.com>, 2008
+# Lucas Vieites <inactive+LucasVieites@transifex.com>, 2008
+# Roddy Shuler <roddy@endlessm.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-16 03:09+0000\n"
-"PO-Revision-Date: 2017-04-25 21:08+0000\n"
+"POT-Creation-Date: 2017-05-30 02:50+0000\n"
+"PO-Revision-Date: 2017-06-23 22:13+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/endless-mobile-inc/gdm/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -181,7 +182,7 @@ msgstr "Tu cuenta tiene un límite de tiempo, y ya lo has superado."
 
 #: ../daemon/gdm-session-worker.c:651
 msgid "Sorry, that didn't work. Please try again."
-msgstr "Contraseña incorrecta. Por favor inténtalo de nuevo."
+msgstr "Contraseña incorrecta. Inténtalo de nuevo."
 
 #: ../daemon/gdm-session-worker.c:1040
 msgid "Username:"
