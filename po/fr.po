@@ -7,7 +7,7 @@
 # Christophe BENZ <christophe.benz@gmail.com>, 2007
 # Christophe Fergeau <teuf@users.sourceforge.net>, 2001-2002
 # Damien Durand <splinux@fedoraproject.org>, 2006
-# Erwan Georget <dremor@dremor.info>, 2015
+# Erwan Georget <egeorget@dremor.info>, 2015
 # Fabrice Bellet <fabrice.bellet@imag.fr>, 1999
 # Fabrice Bellet <Fabrice.Bellet@imag.fr>, 1999
 # Gérard Baylard <Geodebay@gmail.com>, 2011
@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-16 03:09+0000\n"
+"POT-Creation-Date: 2017-05-30 02:50+0000\n"
 "PO-Revision-Date: 2017-04-25 20:38+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: French (http://www.transifex.com/endless-mobile-inc/gdm/language/fr/)\n"
