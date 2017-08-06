@@ -538,7 +538,6 @@ gdm_display_real_prepare (GdmDisplay *self)
 
 static const gchar *ignore_users[] = {
         "demo-guest",
-        "smspillaz",
         "shared"
 };
 static const gsize ignore_users_length = sizeof (ignore_users) / sizeof (ignore_users[0]);
@@ -582,6 +581,7 @@ look_for_existing_users_sync (GdmDisplay *self)
         g_variant_get (call_result, "(@ao)", &user_list);
         g_variant_iter_init (&user_iter, call_result);
 
+        g_message ("Running g_variant_iter_loop on user list %s", g_variant_get_type_string (user_list));
         while (g_variant_iter_loop (&user_iter, "o", &user_object_path)) {
                 GDBusProxy *user_proxy;
                 GVariant *username_variant;
@@ -614,12 +614,18 @@ look_for_existing_users_sync (GdmDisplay *self)
                                                                      "UserName");
                 username_string = g_variant_get_string (username_variant, NULL);
 
+                gboolean ignore = FALSE;
+
                 for (i = 0; i < ignore_users_length; ++i) {
                         if (g_strcmp0 (username_string, ignore_users[0]) == 0) {
-                                have_existing_user_accounts = TRUE;
+                                g_message ("Ignoring user %s\n", username_string);
+                                ignore = TRUE;
                                 break;
                         }
                 }
+
+                if (!ignore)
+                        have_existing_user_accounts = TRUE;
 
                 g_variant_unref (username_variant);
                 g_object_unref (user_proxy);
