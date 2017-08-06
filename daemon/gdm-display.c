@@ -536,12 +536,22 @@ gdm_display_real_prepare (GdmDisplay *self)
         return TRUE;
 }
 
+static const gchar *ignore_users[] = {
+        "demo-guest",
+        "smspillaz",
+        "shared"
+};
+static const gsize ignore_users_length = sizeof (ignore_users) / sizeof (ignore_users[0]);
+
 static void
 look_for_existing_users_sync (GdmDisplay *self)
 {
         GError *error = NULL;
+        gboolean have_existing_user_accounts = FALSE;
         GVariant *call_result;
         GVariant *user_list;
+        GVariantIter user_iter;
+        gchar *user_object_path;
 
         self->priv->accountsservice_proxy = g_dbus_proxy_new_sync (self->priv->connection,
                                                                    0, NULL,
@@ -570,7 +580,52 @@ look_for_existing_users_sync (GdmDisplay *self)
         }
 
         g_variant_get (call_result, "(@ao)", &user_list);
-        self->priv->have_existing_user_accounts = g_variant_n_children (user_list) > 0;
+        g_variant_iter_init (&user_iter, call_result);
+
+        while (g_variant_iter_loop (&user_iter, "o", &user_object_path)) {
+                GDBusProxy *user_proxy;
+                GVariant *username_variant;
+                const gchar *username_string;
+                gsize i;
+
+                /* We have to continue iterating here to make sure we don't
+                 * leak any memory, but we can skip querying if we know that
+                 * we've got existing user accounts now */
+                if (have_existing_user_accounts)
+                        continue;
+
+                user_proxy = g_dbus_proxy_new_sync (self->priv->connection,
+                                                    0,
+                                                    NULL,
+                                                    "org.freedesktop.Accounts",
+                                                    user_object_path,
+                                                    "org.freedesktop.Accounts.User",
+                                                    NULL,
+                                                    &error);
+                if (!user_proxy) {
+                        g_warning ("Failed to get proxy for %s: %s",
+                                   user_object_path,
+                                   error->message);
+                        g_error_free (error);
+                }
+
+                /* Get the username property and compare it against our list */
+                username_variant = g_dbus_proxy_get_cached_property (user_proxy,
+                                                                     "UserName");
+                username_string = g_variant_get_string (username_variant, NULL);
+
+                for (i = 0; i < ignore_users_length; ++i) {
+                        if (g_strcmp0 (username_string, ignore_users[0]) == 0) {
+                                have_existing_user_accounts = TRUE;
+                                break;
+                        }
+                }
+
+                g_variant_unref (username_variant);
+                g_object_unref (user_proxy);
+        }
+
+        self->priv->have_existing_user_accounts = have_existing_user_accounts;
         g_variant_unref (user_list);
         g_variant_unref (call_result);
 out:
