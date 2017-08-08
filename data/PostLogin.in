@@ -1,0 +1,9 @@
+#!/bin/sh
+
+DEMO_MODE_STAMP=/run/gnome-initial-setup/eos-demo-mode
+
+if [ -f ${DEMO_MODE_STAMP} ] && [ $(grep -E "^${USERNAME}$" ${DEMO_MODE_STAMP}) ]; then
+  rm -fr $HOME
+  cp -r /etc/skel $HOME
+  chown -R ${USERNAME}:${GROUP} $HOME
+fi
