@@ -1456,10 +1456,57 @@ can_create_environment (const char *session_id)
         return session_exists;
 }
 
+#define ALREADY_RAN_INITIAL_SETUP_ON_THIS_BOOT GDM_RUN_DIR "/gdm.ran-initial-setup"
+
+static gboolean
+force_initial_setup (void)
+{
+        GError *error = NULL;
+        gchar *contents = NULL;
+        gboolean forced = FALSE;
+
+        if (g_file_test (ALREADY_RAN_INITIAL_SETUP_ON_THIS_BOOT, G_FILE_TEST_EXISTS))
+                return FALSE;
+
+        if (!g_file_get_contents ("/proc/cmdline", &contents, NULL, &error)) {
+                g_warning ("GdmDisplay: Could not check kernel parameters, not forcing initial setup: %s",
+                          error->message);
+                g_clear_error (&error);
+                return FALSE;
+        }
+
+        g_debug ("GdmDisplay: Checking kernel command buffer %s", contents);
+        forced = !!g_strrstr (contents, "gdm.force-initial-setup");
+
+        g_clear_pointer (&contents, g_free);
+
+        if (!forced)
+            return FALSE;
+
+        if (!g_file_set_contents (ALREADY_RAN_INITIAL_SETUP_ON_THIS_BOOT,
+                                  "1",
+                                  1,
+                                  &error)) {
+                g_warning ("GdmDisplay: Could not write initial-setup-done marker to %s: %s",
+                           ALREADY_RAN_INITIAL_SETUP_ON_THIS_BOOT,
+                           error->message);
+                g_clear_error (&error);
+        }
+
+        return TRUE;
+}
+
 static gboolean
 wants_initial_setup (GdmDisplay *self)
 {
         gboolean enabled = FALSE;
+
+        if (force_initial_setup ()) {
+                g_debug ("GdmDisplay: Forcing gnome-initial-setup");
+                return TRUE;
+        }
+
+        g_debug ("GdmDisplay: Not forcing gnome-initial-setup");
 
         /* don't run initial-setup on remote displays
          */
