@@ -1259,8 +1259,11 @@ display_should_autologin (GdmManager *manager,
                           GdmDisplay *display)
 {
         gboolean enabled = FALSE;
+        gboolean forced_autologin = FALSE;
 
-        if (manager->priv->ran_once) {
+        gdm_settings_direct_get_boolean (GDM_KEY_FORCE_AUTO_LOGIN, &forced_autologin);
+
+        if (manager->priv->ran_once && !forced_autologin) {
                 return FALSE;
         }
 
