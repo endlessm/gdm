@@ -1580,11 +1580,14 @@ set_up_session (GdmManager *manager,
         gboolean loaded;
         gboolean is_initial_display = FALSE;
         gboolean autologin_enabled = FALSE;
+        gboolean forced_autologin = FALSE;
         char *username = NULL;
 
         g_object_get (G_OBJECT (display), "is-initial", &is_initial_display, NULL);
 
-        if (!manager->priv->ran_once && is_initial_display)
+        gdm_settings_direct_get_boolean (GDM_KEY_FORCE_AUTO_LOGIN, &forced_autologin);
+
+        if ((!manager->priv->ran_once || forced_autologin) && is_initial_display)
                 autologin_enabled = get_automatic_login_details (manager, &username);
 
         if (!autologin_enabled) {
