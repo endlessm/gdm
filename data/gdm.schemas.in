@@ -33,6 +33,11 @@
       <default></default>
     </schema>
     <schema>
+      <key>daemon/ForceAutomaticLogin</key>
+      <signature>b</signature>
+      <default>false</default>
+    </schema>
+    <schema>
       <key>daemon/TimedLoginEnable</key>
       <signature>b</signature>
       <default>false</default>

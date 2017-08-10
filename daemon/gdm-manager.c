@@ -1441,6 +1441,7 @@ set_up_session (GdmManager *manager,
         gboolean loaded;
         gboolean seat_can_autologin = FALSE, seat_did_autologin = FALSE;
         gboolean autologin_enabled = FALSE;
+        gboolean forced_autologin = FALSE;
         g_autofree char *seat_id = NULL;
         char *username = NULL;
 
@@ -1452,7 +1453,9 @@ set_up_session (GdmManager *manager,
         if (manager->priv->did_automatic_login || manager->priv->automatic_login_display != NULL)
                 seat_did_autologin = TRUE;
 
-        if (seat_can_autologin && !seat_did_autologin)
+        gdm_settings_direct_get_boolean (GDM_KEY_FORCE_AUTO_LOGIN, &forced_autologin);
+
+        if (seat_can_autologin && (!seat_did_autologin || forced_autologin))
                 autologin_enabled = get_automatic_login_details (manager, &username);
 
         if (!autologin_enabled) {
