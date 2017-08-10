@@ -26,6 +26,7 @@
 #include <locale.h>
 #include <fcntl.h>
 #include <sys/wait.h>
+#include <grp.h>
 #include <pwd.h>
 
 #include <glib.h>
@@ -586,6 +587,13 @@ gdm_get_script_environment (const char *username,
 
                         g_hash_table_insert (hash, g_strdup ("SHELL"),
                                              g_strdup (pwent->pw_shell));
+
+                        /* Also get group name and propagate down */
+                        struct group *grent = getgrgid (pwent->pw_gid);
+
+                        if (grent) {
+                                g_hash_table_insert (hash, g_strdup ("GROUP"), g_strdup (grent->gr_name));
+                        }
                 }
         }
 
