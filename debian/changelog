@@ -1,3 +1,10 @@
+gdm3 (1:3.24.2-0) eos; urgency=medium
+
+  * Rebase Endless changes on top of the 3.24.2 upstream tag.
+  * Bump the epoch due to a previous problematic GDM 3.16 upgrade.
+
+ -- Mario Sanchez Prada <mario@endlessm.com>  Tue, 15 Aug 2017 16:53:20 +0200
+
 gdm3 (3.24.2-3) unstable; urgency=medium
 
   * Release to unstable (Closes: #869943)
