@@ -14,7 +14,6 @@ usr/share/gdm/locale.alias
 usr/share/gdm/greeter
 usr/share/gdm/*.schemas
 usr/share/gdm/greeter-dconf-defaults
-usr/share/gnome-session/
 usr/share/dconf/
 var/*
 
