@@ -10,7 +10,6 @@ include /usr/share/dpkg/buildflags.mk
 
 ifeq (linux,$(DEB_HOST_ARCH_OS))
 CONFFLAGS += \
-	--enable-wayland-support \
 	--with-selinux \
 	--with-plymouth
 else
@@ -65,6 +64,7 @@ override_dh_auto_configure:
 		--with-lang-file=/etc/locale.conf \
 		--disable-split-authentication \
 		--disable-user-display-server \
+		--disable-wayland-support \
 		--with-check-accelerated-directory=/usr/lib/gnome-session/ \
 		--with-ran-once-marker-directory=/var/run/gdm3 \
 		--with-gnome-settings-daemon-directory="`pkg-config --variable=libexecdir gnome-settings-daemon`" \
