@@ -267,7 +267,7 @@ endif
 	-if test -f $(DESTDIR)$(postlogindir)/Default; then \
 		cp -f $(DESTDIR)$(postlogindir)/Default $(DESTDIR)$(postlogindir)/Default.orig; \
 	fi
-	$(INSTALL_SCRIPT) $(srcdir)/PostLogin $(DESTDIR)$(postlogindir)/Default
+	$(INSTALL_SCRIPT) PostLogin $(DESTDIR)$(postlogindir)/Default
 
 	if test '!' -d $(DESTDIR)$(predir); then \
 		$(mkinstalldirs) $(DESTDIR)$(predir); \
