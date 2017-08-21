@@ -165,7 +165,7 @@ EXTRA_DIST +=			\
 	Init.in 		\
 	PreSession.in 		\
 	PostSession.in 		\
-	PostLogin 		\
+	PostLogin.in 		\
 	org.gnome.login-screen.gschema.xml.in \
 	$(NULL)
 
@@ -174,6 +174,7 @@ CLEANFILES = 				\
 	gdm.conf-custom			\
 	Init				\
 	PreSession			\
+	PostLogin			\
 	PostSession			\
 	$(gsettings_SCHEMAS)		\
 	greeter-dconf-defaults		\
@@ -262,6 +263,9 @@ endif
 	if test '!' -d $(DESTDIR)$(postlogindir); then \
 		$(mkinstalldirs) $(DESTDIR)$(postlogindir); \
 		chmod 755 $(DESTDIR)$(postlogindir); \
+	fi
+	-if test -f $(DESTDIR)$(postlogindir)/Default; then \
+		cp -f $(DESTDIR)$(postlogindir)/Default $(DESTDIR)$(postlogindir)/Default.orig; \
 	fi
 	$(INSTALL_SCRIPT) $(srcdir)/PostLogin $(DESTDIR)$(postlogindir)/Default
 
