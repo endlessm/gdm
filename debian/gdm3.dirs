@@ -1,4 +1,5 @@
 etc/dbus-1/system.d
+etc/dconf/db/gdm.d
 etc/gdm3/Init
 etc/gdm3/PostLogin
 etc/gdm3/PostSession
