@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-30 02:50+0000\n"
-"PO-Revision-Date: 2017-09-23 03:19+0000\n"
+"POT-Creation-Date: 2017-10-11 14:57-0700\n"
+"PO-Revision-Date: 2017-10-11 23:06+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Korean (http://www.transifex.com/endless-mobile-inc/gdm/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -26,45 +26,45 @@ msgstr ""
 msgid "Select System"
 msgstr "시스템 선택"
 
-#: ../chooser/gdm-host-chooser-widget.c:215
+#: ../chooser/gdm-host-chooser-widget.c:254
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP: XDMCP 버퍼를 만들지 못했습니다!"
 
-#: ../chooser/gdm-host-chooser-widget.c:221
+#: ../chooser/gdm-host-chooser-widget.c:260
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: XDMCP 헤더를 읽지 못했습니다!"
 
-#: ../chooser/gdm-host-chooser-widget.c:227
+#: ../chooser/gdm-host-chooser-widget.c:266
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XDMCP: XDMCP 버전이 틀렸습니다!"
 
-#: ../chooser/gdm-host-chooser-widget.c:233
+#: ../chooser/gdm-host-chooser-widget.c:272
 msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: 주소를 파싱할 수 없습니다"
 
-#: ../common/gdm-common.c:298
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom이 캐릭터 장치가 아닙니다"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "현재 세션을 구별할 수 없습니다."
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "현재 자리를 구별할 수 없습니다."
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr "현재 로그인 화면으로 전환할지 아니면 새 로그인 창을 시작할 지 시스템에서 결정하지 못했습니다."
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "시스템에서 새 로그인 화면을 시작하지 못했습니다."
@@ -82,23 +82,27 @@ msgid ""
 " when the problem is corrected."
 msgstr "내부 오류로 인해 X 서버(그래픽 환경)를 시작할 수 없습니다. 진단을 하려면 시스템 관리자에게 연락을 하거나 시스템 기록을 확인하십시오. 이 화면은 곧 사라질것 입니다. 문제가 해결되면 GDM을 다시 시작해 주십시오."
 
-#: ../daemon/gdm-manager.c:768
+#: ../daemon/gdm-manager.c:772
 msgid "No display available"
 msgstr "디스플레이가 없습니다"
 
-#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
+#: ../daemon/gdm-manager.c:841 ../daemon/gdm-manager.c:1117
 msgid "No session available"
 msgstr "세션이 없습니다"
 
-#: ../daemon/gdm-manager.c:848
+#: ../daemon/gdm-manager.c:860
+msgid "Chooser session unavailable"
+msgstr "선택창에 세션이 없습니다"
+
+#: ../daemon/gdm-manager.c:872
 msgid "Can only be called before user is logged in"
 msgstr "사용자가 로그인하기 전에만 부를 수 있습니다"
 
-#: ../daemon/gdm-manager.c:858
+#: ../daemon/gdm-manager.c:883
 msgid "Caller not GDM"
 msgstr "GDM에서 호출하지 않았습니다"
 
-#: ../daemon/gdm-manager.c:868
+#: ../daemon/gdm-manager.c:893
 msgid "Unable to open private communication channel"
 msgstr "안전한 통신 채널을 열 수 없습니다"
 
@@ -167,7 +171,7 @@ msgstr "디스플레이 장치"
 msgid "The display device"
 msgstr "디스플레이 장치"
 
-#: ../daemon/gdm-session.c:1215
+#: ../daemon/gdm-session.c:1223
 msgid "Could not create authentication helper process"
 msgstr "인증 도우미 프로세스를 만들지 못했습니다."
 
@@ -179,24 +183,24 @@ msgstr "계정에 시간 제한이 걸려 있었고, 지금 그 제한이 지났
 msgid "Sorry, that didn't work. Please try again."
 msgstr "죄송하지만 동작하지 않습니다. 다시 시도하십시오."
 
-#: ../daemon/gdm-session-worker.c:1040
+#: ../daemon/gdm-session-worker.c:1039
 msgid "Username:"
 msgstr "사용자 이름:"
 
-#: ../daemon/gdm-session-worker.c:1200
+#: ../daemon/gdm-session-worker.c:1180
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1201
+#: ../daemon/gdm-session-worker.c:1181
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
+#: ../daemon/gdm-session-worker.c:1606 ../daemon/gdm-session-worker.c:1623
 #, c-format
 msgid "no user account available"
 msgstr "사용자 계정이 없습니다"
 
-#: ../daemon/gdm-session-worker.c:1670
+#: ../daemon/gdm-session-worker.c:1650
 msgid "Unable to change to user"
 msgstr "다른 사용자로 바꿀 수 없습니다"
 

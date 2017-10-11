@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-30 02:50+0000\n"
-"PO-Revision-Date: 2017-09-23 03:19+0000\n"
+"POT-Creation-Date: 2017-10-11 14:57-0700\n"
+"PO-Revision-Date: 2017-10-11 23:06+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Swedish (http://www.transifex.com/endless-mobile-inc/gdm/language/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -32,45 +32,45 @@ msgstr ""
 msgid "Select System"
 msgstr "Välj system"
 
-#: ../chooser/gdm-host-chooser-widget.c:215
+#: ../chooser/gdm-host-chooser-widget.c:254
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP: Kunde inte skapa XDMCP-buffert!"
 
-#: ../chooser/gdm-host-chooser-widget.c:221
+#: ../chooser/gdm-host-chooser-widget.c:260
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: Kunde inte läsa XDMCP-rubrik!"
 
-#: ../chooser/gdm-host-chooser-widget.c:227
+#: ../chooser/gdm-host-chooser-widget.c:266
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XDMCP: Felaktig XDMCP-version!"
 
-#: ../chooser/gdm-host-chooser-widget.c:233
+#: ../chooser/gdm-host-chooser-widget.c:272
 msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: Kan inte tolka adressen"
 
-#: ../common/gdm-common.c:298
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom är inte en teckenenhet"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "Kunde inte identifiera den aktuella sessionen."
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "Kunde inte identifiera det aktuella sätet."
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr "Systemet kan inte fastställa huruvida det ska växla till en befintlig inloggningsskärm eller starta upp en ny inloggningsskärm."
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "Systemet kan inte starta upp en ny inloggningsskärm."
@@ -88,23 +88,27 @@ msgid ""
 " when the problem is corrected."
 msgstr "Kunde inte starta X-servern (din grafiska miljö) på grund av ett internt fel. Kontakta din systemadministratör eller kontrollera din systemlogg för att analysera felet. Under tiden kommer denna display att vara inaktiverad. Starta om GDM när problemet är åtgärdat."
 
-#: ../daemon/gdm-manager.c:768
+#: ../daemon/gdm-manager.c:772
 msgid "No display available"
 msgstr "Ingen skärm tillgänglig"
 
-#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
+#: ../daemon/gdm-manager.c:841 ../daemon/gdm-manager.c:1117
 msgid "No session available"
 msgstr "Ingen session tillgänglig"
 
-#: ../daemon/gdm-manager.c:848
+#: ../daemon/gdm-manager.c:860
+msgid "Chooser session unavailable"
+msgstr "Väljarsession ej tillgänglig"
+
+#: ../daemon/gdm-manager.c:872
 msgid "Can only be called before user is logged in"
 msgstr "Kan endast anropas innan en användare är inloggad"
 
-#: ../daemon/gdm-manager.c:858
+#: ../daemon/gdm-manager.c:883
 msgid "Caller not GDM"
 msgstr "Anroparen är inte GDM"
 
-#: ../daemon/gdm-manager.c:868
+#: ../daemon/gdm-manager.c:893
 msgid "Unable to open private communication channel"
 msgstr "Kunde inte öppna privat kommunikationskanal"
 
@@ -173,7 +177,7 @@ msgstr "Visningsenhet"
 msgid "The display device"
 msgstr "Visningsenheten"
 
-#: ../daemon/gdm-session.c:1215
+#: ../daemon/gdm-session.c:1223
 msgid "Could not create authentication helper process"
 msgstr "Kunde inte skapa en autentiseringshjälpprocess"
 
@@ -185,24 +189,24 @@ msgstr "Ditt konto gavs en tidsgräns som nu har passerats."
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Ledsen, det fungerade inte.  Försök igen."
 
-#: ../daemon/gdm-session-worker.c:1040
+#: ../daemon/gdm-session-worker.c:1039
 msgid "Username:"
 msgstr "Användarnamn:"
 
-#: ../daemon/gdm-session-worker.c:1200
+#: ../daemon/gdm-session-worker.c:1180
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1201
+#: ../daemon/gdm-session-worker.c:1181
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
+#: ../daemon/gdm-session-worker.c:1606 ../daemon/gdm-session-worker.c:1623
 #, c-format
 msgid "no user account available"
 msgstr "inget användarkonto tillgängligt"
 
-#: ../daemon/gdm-session-worker.c:1670
+#: ../daemon/gdm-session-worker.c:1650
 msgid "Unable to change to user"
 msgstr "Kan inte byta till användaren"
 

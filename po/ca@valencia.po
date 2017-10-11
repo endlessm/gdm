@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-30 02:50+0000\n"
-"PO-Revision-Date: 2017-09-23 03:19+0000\n"
+"POT-Creation-Date: 2017-10-11 14:57-0700\n"
+"PO-Revision-Date: 2017-10-11 22:53+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Catalan (Valencian) (http://www.transifex.com/endless-mobile-inc/gdm/language/ca@valencia/)\n"
 "MIME-Version: 1.0\n"
@@ -29,45 +29,45 @@ msgstr ""
 msgid "Select System"
 msgstr "Seleccioneu el sistema"
 
-#: ../chooser/gdm-host-chooser-widget.c:215
+#: ../chooser/gdm-host-chooser-widget.c:254
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP: No s'ha pogut crear la memòria intermèdia de l'XDMCP"
 
-#: ../chooser/gdm-host-chooser-widget.c:221
+#: ../chooser/gdm-host-chooser-widget.c:260
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: no s'ha pogut llegir la capçalera de l'XDMCP"
 
-#: ../chooser/gdm-host-chooser-widget.c:227
+#: ../chooser/gdm-host-chooser-widget.c:266
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XDMCP: la versió de l'XDMCP és incorrecte"
 
-#: ../chooser/gdm-host-chooser-widget.c:233
+#: ../chooser/gdm-host-chooser-widget.c:272
 msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: no s'ha pogut analitzar l'adreça"
 
-#: ../common/gdm-common.c:298
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "El /dev/urandom no és un dispositiu de caràcters"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "No s'ha pogut identificar la sessió actual."
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "No s'ha pogut identificar el seient actual."
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr "El sistema no pot determinar si canviar a una pantalla d'entrada existent o iniciar-ne una de nova."
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "El sistema no pot iniciar una pantalla d'entrada nova."
@@ -85,23 +85,27 @@ msgid ""
 " when the problem is corrected."
 msgstr "No s'ha pogut iniciar el servidor X (l'entorn gràfic) degut a un error intern. Hauríeu de contactar amb l'administrador del sistema o comprovar el fitxer de registre de sistema (syslog) per poder-ne fer un diagnòstic. Mentrestant s'inhabilitarà esta pantalla. Reinicieu el GDM quan hàgeu solucionat el problema."
 
-#: ../daemon/gdm-manager.c:768
+#: ../daemon/gdm-manager.c:772
 msgid "No display available"
 msgstr ""
 
-#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
+#: ../daemon/gdm-manager.c:841 ../daemon/gdm-manager.c:1117
 msgid "No session available"
 msgstr "No hi ha cap sessió disponible"
 
-#: ../daemon/gdm-manager.c:848
+#: ../daemon/gdm-manager.c:860
+msgid "Chooser session unavailable"
+msgstr ""
+
+#: ../daemon/gdm-manager.c:872
 msgid "Can only be called before user is logged in"
 msgstr "Només es pot cridar abans que l'usuari haja entrat"
 
-#: ../daemon/gdm-manager.c:858
+#: ../daemon/gdm-manager.c:883
 msgid "Caller not GDM"
 msgstr "El que ha fet la crida no és el GDM"
 
-#: ../daemon/gdm-manager.c:868
+#: ../daemon/gdm-manager.c:893
 msgid "Unable to open private communication channel"
 msgstr ""
 
@@ -170,7 +174,7 @@ msgstr "Dispositiu de pantalla"
 msgid "The display device"
 msgstr "El dispositiu de pantalla"
 
-#: ../daemon/gdm-session.c:1215
+#: ../daemon/gdm-session.c:1223
 msgid "Could not create authentication helper process"
 msgstr "No s'ha pogut crear un procés auxiliar d'autenticació"
 
@@ -182,24 +186,24 @@ msgstr "El compte tenia un temps límit que s'ha sobrepassat."
 msgid "Sorry, that didn't work. Please try again."
 msgstr "S'ha produït algun error. Torneu-ho a provar."
 
-#: ../daemon/gdm-session-worker.c:1040
+#: ../daemon/gdm-session-worker.c:1039
 msgid "Username:"
 msgstr "Nom d'usuari:"
 
-#: ../daemon/gdm-session-worker.c:1200
+#: ../daemon/gdm-session-worker.c:1180
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1201
+#: ../daemon/gdm-session-worker.c:1181
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
+#: ../daemon/gdm-session-worker.c:1606 ../daemon/gdm-session-worker.c:1623
 #, c-format
 msgid "no user account available"
 msgstr "no hi ha tal compte d'usuari disponible"
 
-#: ../daemon/gdm-session-worker.c:1670
+#: ../daemon/gdm-session-worker.c:1650
 msgid "Unable to change to user"
 msgstr "No s'ha pogut commutar a este usuari"
 

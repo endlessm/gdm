@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-30 02:50+0000\n"
-"PO-Revision-Date: 2017-09-23 03:19+0000\n"
+"POT-Creation-Date: 2017-10-11 14:57-0700\n"
+"PO-Revision-Date: 2017-10-11 23:07+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Slovenian (http://www.transifex.com/endless-mobile-inc/gdm/language/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -23,45 +23,45 @@ msgstr ""
 msgid "Select System"
 msgstr "Izbrani sistem"
 
-#: ../chooser/gdm-host-chooser-widget.c:215
+#: ../chooser/gdm-host-chooser-widget.c:254
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP: Ni mogoče ustvariti medpomnilnika za XDMCP!"
 
-#: ../chooser/gdm-host-chooser-widget.c:221
+#: ../chooser/gdm-host-chooser-widget.c:260
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: Ni mogoče prebrati glave XDMCP!"
 
-#: ../chooser/gdm-host-chooser-widget.c:227
+#: ../chooser/gdm-host-chooser-widget.c:266
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XDMCP: nepravilna različica XDMCP!"
 
-#: ../chooser/gdm-host-chooser-widget.c:233
+#: ../chooser/gdm-host-chooser-widget.c:272
 msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: ni mogoče razčleniti naslova"
 
-#: ../common/gdm-common.c:298
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom ni znakovna naprava"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "Ni mogoče določiti trenutne seje."
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "Ni mogoče določiti trenutne seje."
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr "Ni mogoče določiti ali naj se ustvari nov prijavni zaslon ali naj se sistem preklopi na obstoječe prijavni zaslon."
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "Ni mogoče začeti novega prijavnega zaslona."
@@ -79,23 +79,27 @@ msgid ""
 " when the problem is corrected."
 msgstr "Ni mogoče zagnati strežnika X (vašega grafičnega okolja) zaradi notranje napake. Obrnite se na vašega skrbnika sistema ali preverite vaš sistemski dnevnik. V vmesnem času bo ta zaslon izključen. Poskusite s ponovnim zagonom GDM, ko bo problem odpravljen."
 
-#: ../daemon/gdm-manager.c:768
+#: ../daemon/gdm-manager.c:772
 msgid "No display available"
 msgstr "Na voljo ni nobenega zaslona"
 
-#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
+#: ../daemon/gdm-manager.c:841 ../daemon/gdm-manager.c:1117
 msgid "No session available"
 msgstr "Na voljo ni nobene seje"
 
-#: ../daemon/gdm-manager.c:848
+#: ../daemon/gdm-manager.c:860
+msgid "Chooser session unavailable"
+msgstr "Izbirnik seje ni na voljo"
+
+#: ../daemon/gdm-manager.c:872
 msgid "Can only be called before user is logged in"
 msgstr "Program je lahko klical le pred prijavo uporabnika"
 
-#: ../daemon/gdm-manager.c:858
+#: ../daemon/gdm-manager.c:883
 msgid "Caller not GDM"
 msgstr "Klicalnik ni GDM"
 
-#: ../daemon/gdm-manager.c:868
+#: ../daemon/gdm-manager.c:893
 msgid "Unable to open private communication channel"
 msgstr "Ni mogoče odpreti zasebnega kanala za sporočanje"
 
@@ -164,7 +168,7 @@ msgstr "Naprava zaslona"
 msgid "The display device"
 msgstr "Naprava za prikazovanje"
 
-#: ../daemon/gdm-session.c:1215
+#: ../daemon/gdm-session.c:1223
 msgid "Could not create authentication helper process"
 msgstr "Ni mogoče ustvariti opravila pomočnika overitve prijave"
 
@@ -176,24 +180,24 @@ msgstr "Računu je določen dovoljen čas, ki je sedaj pretekel."
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Dejanje je spodletelo. Poskusite znova."
 
-#: ../daemon/gdm-session-worker.c:1040
+#: ../daemon/gdm-session-worker.c:1039
 msgid "Username:"
 msgstr "Uporabniško ime:"
 
-#: ../daemon/gdm-session-worker.c:1200
+#: ../daemon/gdm-session-worker.c:1180
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1201
+#: ../daemon/gdm-session-worker.c:1181
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
+#: ../daemon/gdm-session-worker.c:1606 ../daemon/gdm-session-worker.c:1623
 #, c-format
 msgid "no user account available"
 msgstr "na voljo ni nobenega uporabniškega računa"
 
-#: ../daemon/gdm-session-worker.c:1670
+#: ../daemon/gdm-session-worker.c:1650
 msgid "Unable to change to user"
 msgstr "Ni mogoče zamenjati uporabnika"
 

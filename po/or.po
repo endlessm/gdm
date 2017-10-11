@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-30 02:50+0000\n"
-"PO-Revision-Date: 2017-09-23 03:19+0000\n"
+"POT-Creation-Date: 2017-10-11 14:57-0700\n"
+"PO-Revision-Date: 2017-10-11 22:53+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Oriya (http://www.transifex.com/endless-mobile-inc/gdm/language/or/)\n"
 "MIME-Version: 1.0\n"
@@ -23,45 +23,45 @@ msgstr ""
 msgid "Select System"
 msgstr "ତନ୍ତ୍ର ଚୟନ କରନ୍ତୁ"
 
-#: ../chooser/gdm-host-chooser-widget.c:215
+#: ../chooser/gdm-host-chooser-widget.c:254
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP: XDMCP ବଫର ସୃଷ୍ଟି କରିପାରିଲା ନାହିଁ!"
 
-#: ../chooser/gdm-host-chooser-widget.c:221
+#: ../chooser/gdm-host-chooser-widget.c:260
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: XDMC ଶୀର୍ଷକକୁ ପଢି ପାରିଲା ନାହିଁ!"
 
-#: ../chooser/gdm-host-chooser-widget.c:227
+#: ../chooser/gdm-host-chooser-widget.c:266
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XDMCP: ଭୂଲ XDMCP ସଂସ୍କରଣ!"
 
-#: ../chooser/gdm-host-chooser-widget.c:233
+#: ../chooser/gdm-host-chooser-widget.c:272
 msgid "XDMCP: Unable to parse address"
 msgstr "XMDCP: ଠିକଣା ବିଶ୍ଳେଷଣ କରିବାରେ ଅସମର୍ଥ"
 
-#: ../common/gdm-common.c:298
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom ଟି ଗୋଟିଏ ସମ୍ପ୍ରତିକ ଉପକରଣ ନୁହଁ"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "ପ୍ରଚଳିତ ଅଧିବେଶନକୁ ଚିହ୍ନିପାରିଲା ନାହିଁ."
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "ପ୍ରଚଳିତ ସ୍ଥାନକୁ ଚିହ୍ନିପାରିଲା ନାହିଁ।"
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr "ତନ୍ତ୍ର ଏକ ସ୍ଥିତବାନ ଲଗଇନ ପରଦା କିମ୍ବା ନୂତନ ଲଗଇନ ପରଦା ଆରମ୍ଭ କରିବାକୁ ନିର୍ଦ୍ଧାରଣ କରିବାରେ ଅସମର୍ଥ।"
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "ତନ୍ତ୍ର ଏକ ନୂତନ ଲଗଇନ ପରଦା ଆରମ୍ଭ କରିବାରେ ଅସମର୍ଥ।"
@@ -79,23 +79,27 @@ msgid ""
 " when the problem is corrected."
 msgstr "କିଛି ଅନ୍ତର୍ନିହିତ କାରଣ ବଶତଃ X ସର୍ଭର (ଆପଣଙ୍କ ଆଲେଖୀକ ପରିବେଶ) କୁ ପ୍ରାରମ୍ଭ କରିପାରିଲା ନାହିଁ. ଦୟାକରି ଆପଣଙ୍କର ତନ୍ତ୍ର ପ୍ରଶାସକଙ୍କ ସହିତ ଯୋଗାଯୋଗ କରନ୍ତୁକିମ୍ବା ଆପଣଙ୍କ ସମସ୍ଯାର କାରଣକୁ ନିରୂପଣ କରିବା ପାଇଁ ତନ୍ତ୍ରର ଲଗକୁ ଯାଞ୍ଚ କରନ୍ତୁ.ସେହି ସମୟରେ ଏହି ପ୍ରଦର୍ଶନଟି ନିଷ୍କ୍ରିୟ ହୋଇଯିବ.  ଯେତେବେଳେ ସମସ୍ଯାଟି ସମଧାନ ହୋଇଯିବସେତେବେଳେ ଦୟାକରି GDM କୁ ପୁନଃ ପ୍ରାରମ୍ଭ କରିବେ."
 
-#: ../daemon/gdm-manager.c:768
+#: ../daemon/gdm-manager.c:772
 msgid "No display available"
 msgstr ""
 
-#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
+#: ../daemon/gdm-manager.c:841 ../daemon/gdm-manager.c:1117
 msgid "No session available"
 msgstr "କୌଣସି ଅଧିବେଶନ ଉପଲବ୍ଧ ନାହିଁ"
 
-#: ../daemon/gdm-manager.c:848
+#: ../daemon/gdm-manager.c:860
+msgid "Chooser session unavailable"
+msgstr ""
+
+#: ../daemon/gdm-manager.c:872
 msgid "Can only be called before user is logged in"
 msgstr "କେବଳ ବ୍ୟବହାରକାରୀ ଲଗଇନ ପୂର୍ବରୁ ଡ଼ାକି ପାରିବେ"
 
-#: ../daemon/gdm-manager.c:858
+#: ../daemon/gdm-manager.c:883
 msgid "Caller not GDM"
 msgstr "କଲର GDM ନୁହଁ"
 
-#: ../daemon/gdm-manager.c:868
+#: ../daemon/gdm-manager.c:893
 msgid "Unable to open private communication channel"
 msgstr ""
 
@@ -164,7 +168,7 @@ msgstr "ଯନ୍ତ୍ର ପ୍ରଦର୍ଶନକରନ୍ତୁ"
 msgid "The display device"
 msgstr "ପ୍ରଦର୍ଶନ ଉପକରଣ"
 
-#: ../daemon/gdm-session.c:1215
+#: ../daemon/gdm-session.c:1223
 msgid "Could not create authentication helper process"
 msgstr "ବୈଧିକରଣ ସହାୟକ ପ୍ରକ୍ରିୟା ପ୍ରସ୍ତୁତ କରିପାରିଲା ନାହିଁ"
 
@@ -176,24 +180,24 @@ msgstr "ଆପଣଙ୍କର ଖାତାକୁ ଏକ ସମୟ ସୀମା �
 msgid "Sorry, that didn't work. Please try again."
 msgstr "ଦୁଖିତଃ, ତାହା କାର୍ଯ୍ୟକାରୀ ହେଲା ନହିଁ। ଦୟାକରି ପୁଣିଥରେ ଚେଷ୍ଟା କରନ୍ତୁ।"
 
-#: ../daemon/gdm-session-worker.c:1040
+#: ../daemon/gdm-session-worker.c:1039
 msgid "Username:"
 msgstr "ଚାଳକ ନାମ:"
 
-#: ../daemon/gdm-session-worker.c:1200
+#: ../daemon/gdm-session-worker.c:1180
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1201
+#: ../daemon/gdm-session-worker.c:1181
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
+#: ../daemon/gdm-session-worker.c:1606 ../daemon/gdm-session-worker.c:1623
 #, c-format
 msgid "no user account available"
 msgstr "କୌଣସି ଚାଳକ ଖାତା ଉପଲବ୍ଧ ନାହିଁ"
 
-#: ../daemon/gdm-session-worker.c:1670
+#: ../daemon/gdm-session-worker.c:1650
 msgid "Unable to change to user"
 msgstr "ଚାଳକକୁ ପରିବର୍ତ୍ତନ ହେବାରେ ଅସମର୍ଥ"
 

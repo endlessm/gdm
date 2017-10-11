@@ -16,11 +16,14 @@
 # Gustavo Maciel Dias Vieira <gustavo@sagui.org>, 2004
 # Gustavo Noronha Silva <kov@debian.org>, 2003-2004
 # Henrique P. Machado <zehrique@gmail.com>, 2008,2011
+# Henrique P. Machado <zehrique@gmail.com>, 2008,2011
 # Jonh Wendell <jwendell@gnome.org>, 2012
 # Krix Apolinário <krixapolinario@gmail.com>, 2011
 # leonardof <leonardof@gnome.org>, 2007
+# leonardof <leonardof@gnome.org>, 2007
 # Luciano Gardim <lucianogardim@gmail.com>, 2009
 # Nuno Ferreira <nmrf@rnl.ist.utl.pt>, 1999
+# Og Maciel <ogmaciel@gnome.org>, 2011
 # Og Maciel <ogmaciel@gnome.org>, 2011
 # Pedro Albuquerque <palbuquerque73@gmail.com>, 2015
 # Pedro Albuquerque <palbuquerque73@openmailbox.com>, 2015
@@ -29,15 +32,17 @@
 # Raul Pereira <contato@raulpereira.com>, 2007
 # Rodrigo L. M. Flores <rodrigomarquesflores@gmail.com>, 2009
 # scardeira <cardeira.sergio@gmail.com>, 2016
+# scardeira <cardeira.sergio@gmail.com>, 2016
 # Silva <michele@endlessm.com>, 2015
+# skarllotbr <skarllot@gmail.com>, 2008
 # Tiago Santos <tiagofsantos81@sapo.pt>, 2016
 # Washington Lins <washington-lins@uol.com.br>, 2007
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-30 02:50+0000\n"
-"PO-Revision-Date: 2017-09-23 03:19+0000\n"
+"POT-Creation-Date: 2017-10-11 14:57-0700\n"
+"PO-Revision-Date: 2017-10-11 22:53+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/endless-mobile-inc/gdm/language/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -50,45 +55,45 @@ msgstr ""
 msgid "Select System"
 msgstr "Selecionar o sistema"
 
-#: ../chooser/gdm-host-chooser-widget.c:215
+#: ../chooser/gdm-host-chooser-widget.c:254
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP: impossível criar buffer XDMCP!"
 
-#: ../chooser/gdm-host-chooser-widget.c:221
+#: ../chooser/gdm-host-chooser-widget.c:260
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: impossível ler cabeçalho XDMCP!"
 
-#: ../chooser/gdm-host-chooser-widget.c:227
+#: ../chooser/gdm-host-chooser-widget.c:266
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XDMCP: versão incorreta do XDMCP!"
 
-#: ../chooser/gdm-host-chooser-widget.c:233
+#: ../chooser/gdm-host-chooser-widget.c:272
 msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: impossível processar o endereço"
 
-#: ../common/gdm-common.c:298
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom não é um dispositivo de carateres"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "Impossível identificar a sessão atual."
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "Impossível identificar o lugar atual."
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr "O sistema é incapaz de determinar se deve alternar para um ecrã de início de sessão existente ou criar um novo ecrã."
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "O sistema é incapaz de iniciar um novo ecrã de início de sessão."
@@ -106,23 +111,27 @@ msgid ""
 " when the problem is corrected."
 msgstr "Impossível iniciar o servidor X (o seu ambiente gráfico) devido a um erro interno. Contacte o seu administrador de sistemas ou analise o syslog para diagnosticar. Entretanto este ecrã será desativado. Reinicie o GDM quando o problema estiver corrigido."
 
-#: ../daemon/gdm-manager.c:768
+#: ../daemon/gdm-manager.c:772
 msgid "No display available"
 msgstr "Nenhum monitor disponível"
 
-#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
+#: ../daemon/gdm-manager.c:841 ../daemon/gdm-manager.c:1117
 msgid "No session available"
 msgstr "Nenhuma sessão disponível"
 
-#: ../daemon/gdm-manager.c:848
+#: ../daemon/gdm-manager.c:860
+msgid "Chooser session unavailable"
+msgstr ""
+
+#: ../daemon/gdm-manager.c:872
 msgid "Can only be called before user is logged in"
 msgstr "Só pode ser chamado antes do utilizador iniciar sessão"
 
-#: ../daemon/gdm-manager.c:858
+#: ../daemon/gdm-manager.c:883
 msgid "Caller not GDM"
 msgstr "Chamador não é o GDM"
 
-#: ../daemon/gdm-manager.c:868
+#: ../daemon/gdm-manager.c:893
 msgid "Unable to open private communication channel"
 msgstr "Impossível abrir canal de comunicação privado"
 
@@ -191,7 +200,7 @@ msgstr "Dispositivo de ecrã"
 msgid "The display device"
 msgstr "O dispositivo de ecrã"
 
-#: ../daemon/gdm-session.c:1215
+#: ../daemon/gdm-session.c:1223
 msgid "Could not create authentication helper process"
 msgstr "Impossível criar processo de apoio à autenticação"
 
@@ -203,24 +212,24 @@ msgstr "Atribuiu-se um limite de tempo à sua conta que foi agora ultrapassado."
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Desculpe, não resultou. Por favor, tente novamente."
 
-#: ../daemon/gdm-session-worker.c:1040
+#: ../daemon/gdm-session-worker.c:1039
 msgid "Username:"
 msgstr "Utilizador:"
 
-#: ../daemon/gdm-session-worker.c:1200
+#: ../daemon/gdm-session-worker.c:1180
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1201
+#: ../daemon/gdm-session-worker.c:1181
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
+#: ../daemon/gdm-session-worker.c:1606 ../daemon/gdm-session-worker.c:1623
 #, c-format
 msgid "no user account available"
 msgstr "nenhuma conta de utilizador disponível"
 
-#: ../daemon/gdm-session-worker.c:1670
+#: ../daemon/gdm-session-worker.c:1650
 msgid "Unable to change to user"
 msgstr "Impossível mudar para o utilizador"
 

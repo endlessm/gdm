@@ -12,7 +12,7 @@
 # Jiri Eischmann <jiri@eischmann.cz>, 2013
 # Jiří Lebl <jirka@5z.cz>, 2002
 # Lukas Novotny <lukasnov@cvs.gnome.org>, 2006
-# Marek Černocký <marek@manet.cz>, 2011-2016
+# Marek Černocký <marek@manet.cz>, 2011-2017
 # Michal Bukovjan <bukm@centrum.cz>, 2002-2003
 # Miloslav Trmač <mitr@volny.cz>, 2003-2006
 # Ondřej Kopka <ondrej.kopka@gmail.com>, 2011
@@ -22,8 +22,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-30 02:50+0000\n"
-"PO-Revision-Date: 2017-09-23 03:19+0000\n"
+"POT-Creation-Date: 2017-10-11 14:57-0700\n"
+"PO-Revision-Date: 2017-10-11 23:03+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Czech (http://www.transifex.com/endless-mobile-inc/gdm/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -36,45 +36,45 @@ msgstr ""
 msgid "Select System"
 msgstr "Vybrat systém"
 
-#: ../chooser/gdm-host-chooser-widget.c:215
+#: ../chooser/gdm-host-chooser-widget.c:254
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP: Nelze vytvořit vyrovnávací paměť XDMCP!"
 
-#: ../chooser/gdm-host-chooser-widget.c:221
+#: ../chooser/gdm-host-chooser-widget.c:260
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: Nelze přečíst záhlaví XDMCP!"
 
-#: ../chooser/gdm-host-chooser-widget.c:227
+#: ../chooser/gdm-host-chooser-widget.c:266
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XDMCP: Nesprávná verze XDMCP!"
 
-#: ../chooser/gdm-host-chooser-widget.c:233
+#: ../chooser/gdm-host-chooser-widget.c:272
 msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: Nelze zpracovat adresu"
 
-#: ../common/gdm-common.c:298
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom není znakovým zobrazovačem"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "Nezdařilo se určit aktuální sezení."
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "Nezdařilo se určit aktuální stanici."
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr "Systém není schopen určit, zda má přepnout na existující přihlašovací obrazovku, nebo spustit novou přihlašovací obrazovku."
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "Systém není schopen spustit novou přihlašovací obrazovku."
@@ -92,23 +92,27 @@ msgid ""
 " when the problem is corrected."
 msgstr "Nelze spustit server X (vaše grafické prostředí) kvůli jisté vnitřní chybě. Kontaktujte prosím svého správce systému, nebo se podívejte do souborů se systémovými záznamy. Mezitím bude tento displej zakázán. Až bude problém vyřešen, spusťte prosím GDM znovu."
 
-#: ../daemon/gdm-manager.c:768
+#: ../daemon/gdm-manager.c:772
 msgid "No display available"
 msgstr "Není dostupný žádný displej"
 
-#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
+#: ../daemon/gdm-manager.c:841 ../daemon/gdm-manager.c:1117
 msgid "No session available"
 msgstr "Není dostupné žádné sezení"
 
-#: ../daemon/gdm-manager.c:848
+#: ../daemon/gdm-manager.c:860
+msgid "Chooser session unavailable"
+msgstr "Vybrané sezení není dostupné"
+
+#: ../daemon/gdm-manager.c:872
 msgid "Can only be called before user is logged in"
 msgstr "Může být zavolán pouze před přihlášením uživatele"
 
-#: ../daemon/gdm-manager.c:858
+#: ../daemon/gdm-manager.c:883
 msgid "Caller not GDM"
 msgstr "Volající není GDM"
 
-#: ../daemon/gdm-manager.c:868
+#: ../daemon/gdm-manager.c:893
 msgid "Unable to open private communication channel"
 msgstr "Nelze otevřít soukromý komunikační kanál"
 
@@ -177,7 +181,7 @@ msgstr "Zařízení displeje"
 msgid "The display device"
 msgstr "Zařízení displeje"
 
-#: ../daemon/gdm-session.c:1215
+#: ../daemon/gdm-session.c:1223
 msgid "Could not create authentication helper process"
 msgstr "Nelze vytvořit obslužný proces ověření"
 
@@ -189,24 +193,24 @@ msgstr "Váš účet měl omezenou časovou platnost, která nyní vypršela."
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Bohužel, ale nefunguje to. Zkuste to prosím znovu."
 
-#: ../daemon/gdm-session-worker.c:1040
+#: ../daemon/gdm-session-worker.c:1039
 msgid "Username:"
 msgstr "Uživatel:"
 
-#: ../daemon/gdm-session-worker.c:1200
+#: ../daemon/gdm-session-worker.c:1180
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1201
+#: ../daemon/gdm-session-worker.c:1181
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
+#: ../daemon/gdm-session-worker.c:1606 ../daemon/gdm-session-worker.c:1623
 #, c-format
 msgid "no user account available"
 msgstr "není dostupný žádný uživatelský účet"
 
-#: ../daemon/gdm-session-worker.c:1670
+#: ../daemon/gdm-session-worker.c:1650
 msgid "Unable to change to user"
 msgstr "Nelze změnit uživatele"
 

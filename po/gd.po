@@ -6,12 +6,13 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2011
 # GunChleoc, 2014-2016
 # Michael Bauer, 2014
+# Michael Bauer, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-30 02:50+0000\n"
-"PO-Revision-Date: 2017-09-23 03:19+0000\n"
+"POT-Creation-Date: 2017-10-11 14:57-0700\n"
+"PO-Revision-Date: 2017-10-11 22:53+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Gaelic, Scottish (http://www.transifex.com/endless-mobile-inc/gdm/language/gd/)\n"
 "MIME-Version: 1.0\n"
@@ -24,45 +25,45 @@ msgstr ""
 msgid "Select System"
 msgstr "Tagh siostam"
 
-#: ../chooser/gdm-host-chooser-widget.c:215
+#: ../chooser/gdm-host-chooser-widget.c:254
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP: Cha deach leinn bufair XDMCP a chruthachadh!"
 
-#: ../chooser/gdm-host-chooser-widget.c:221
+#: ../chooser/gdm-host-chooser-widget.c:260
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: Cha deach leinn am bann-cinn XDMCP a leughadh!"
 
-#: ../chooser/gdm-host-chooser-widget.c:227
+#: ../chooser/gdm-host-chooser-widget.c:266
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XDMCP: Seo an tionndadh cearr de XDMCP!"
 
-#: ../chooser/gdm-host-chooser-widget.c:233
+#: ../chooser/gdm-host-chooser-widget.c:272
 msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: Cha ghabh an seòladh a pharsadh"
 
-#: ../common/gdm-common.c:298
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "Chan e uidheam caractair a tha sa /dev/urandom"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "Cha b' urrainn dhuinn an seisean làithreach aithneachadh."
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "Cha b' urrainn dhuinn an suidhe làithreach aithneachadh."
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr "Chan urrainn dhan t-siostam faighinn a-mach co-dhiù an gearr e leum gu sgrìn logaidh a-steach a tha ann mar-thà no an tòisich e tè ùr."
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "Chan urrainn dhan t-siostam sgrìn logaidh a-steach ùr a thòiseachadh."
@@ -80,23 +81,27 @@ msgid ""
 " when the problem is corrected."
 msgstr "Cha b' urrainn dhuinn am frithealaiche X (seo an eadar-aghaidh grafaigeach agad) a thòiseachadh ri linn mearachd taobh a-staigh. Cuir fios gu rianaire an t-siostaim agad no thoir sùil air a' syslog agad gus an trioblaid a sgrùdadh. Thèid an t-uidheam-taisbeanaidh seo a chur à comas san eadar-àm. Tòisich GDM às ùr nuair a bhios an duilgheadas air a chàradh."
 
-#: ../daemon/gdm-manager.c:768
+#: ../daemon/gdm-manager.c:772
 msgid "No display available"
 msgstr "Chan eil uidheam-taisbeanaidh ri fhaighinn"
 
-#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
+#: ../daemon/gdm-manager.c:841 ../daemon/gdm-manager.c:1117
 msgid "No session available"
 msgstr "Chan eil seisean ri fhaighinn"
 
-#: ../daemon/gdm-manager.c:848
+#: ../daemon/gdm-manager.c:860
+msgid "Chooser session unavailable"
+msgstr ""
+
+#: ../daemon/gdm-manager.c:872
 msgid "Can only be called before user is logged in"
 msgstr "Cha ghabh seo a ghairm mus do rinn cleachdaiche logadh a-steach"
 
-#: ../daemon/gdm-manager.c:858
+#: ../daemon/gdm-manager.c:883
 msgid "Caller not GDM"
 msgstr "Cha deach seo gairm le GDM"
 
-#: ../daemon/gdm-manager.c:868
+#: ../daemon/gdm-manager.c:893
 msgid "Unable to open private communication channel"
 msgstr "Cha deach leinn sianail conaltraidh phrìobhaideach fhosgladh"
 
@@ -165,7 +170,7 @@ msgstr "Uidheam taisbeanaidh"
 msgid "The display device"
 msgstr "An t-uidheam taisbeanaidh"
 
-#: ../daemon/gdm-session.c:1215
+#: ../daemon/gdm-session.c:1223
 msgid "Could not create authentication helper process"
 msgstr "Cha b' urrainn dhuinn pròiseas taice airson an dearbhaidh a chruthachadh"
 
@@ -177,24 +182,24 @@ msgstr "Chaidh crìochan ùine a thoirt dhan chunntas agad a tha air falbh ort a
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Tha sinn duilich ach cha do dh'obraich seo. Am feuch thu ris a-rithist?"
 
-#: ../daemon/gdm-session-worker.c:1040
+#: ../daemon/gdm-session-worker.c:1039
 msgid "Username:"
 msgstr "Ainm-cleachdaiche:"
 
-#: ../daemon/gdm-session-worker.c:1200
+#: ../daemon/gdm-session-worker.c:1180
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1201
+#: ../daemon/gdm-session-worker.c:1181
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
+#: ../daemon/gdm-session-worker.c:1606 ../daemon/gdm-session-worker.c:1623
 #, c-format
 msgid "no user account available"
 msgstr "chan eil cunntas cleachdaiche ri làimh"
 
-#: ../daemon/gdm-session-worker.c:1670
+#: ../daemon/gdm-session-worker.c:1650
 msgid "Unable to change to user"
 msgstr "Chan urrainn dhuinn leum a ghearradh dhan chleachdaiche"
 

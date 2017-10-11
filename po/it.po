@@ -6,20 +6,21 @@
 # Alessio Dessì <alkex@inwind.it>, 2003-2007
 # Alessio Frusciante <algol@firenze.linux.it>, 2003
 # Christopher R. Gabriel, 2001-2002
-# Claudio Arseni <claudio.arseni@ubuntu.com>, 2011-2013
+# Claudio Arseni <claudio.arseni@ubuntu.com>, 2011-2013,2015
 # Daniele Medri <madrid@linux.it>, 2000
 # Francesco Marletta <francesco.marletta@tiscali.it>, 2004-2010
+# Gianvito Cavasoli <gianvito@gmx.it>, 2016
 # Lapo Calamandrei <lapo@it.gnome.org>, 2003
 # Luca Ferretti <elle.uca@infinito.it>, 2003-2014
-# Milo Casagrande <milo@milo.name>, 2009,2012-2016
+# Milo Casagrande <milo@milo.name>, 2009-2017
 # Milo Casagrande <milo@ubuntu.com>, 2010-2012
 # Salvo Isaja <salvois@it.gnome.org>, 2001
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-30 02:50+0000\n"
-"PO-Revision-Date: 2017-09-23 03:19+0000\n"
+"POT-Creation-Date: 2017-10-11 14:57-0700\n"
+"PO-Revision-Date: 2017-10-11 23:04+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Italian (http://www.transifex.com/endless-mobile-inc/gdm/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -32,45 +33,45 @@ msgstr ""
 msgid "Select System"
 msgstr "Seleziona sistema"
 
-#: ../chooser/gdm-host-chooser-widget.c:215
+#: ../chooser/gdm-host-chooser-widget.c:254
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP: impossibile creare un buffer per XDMCP."
 
-#: ../chooser/gdm-host-chooser-widget.c:221
+#: ../chooser/gdm-host-chooser-widget.c:260
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: impossibile leggere l'intestazione XDMCP."
 
-#: ../chooser/gdm-host-chooser-widget.c:227
+#: ../chooser/gdm-host-chooser-widget.c:266
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XDMCP: versione di XDMCP non corretta."
 
-#: ../chooser/gdm-host-chooser-widget.c:233
+#: ../chooser/gdm-host-chooser-widget.c:272
 msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: impossibile analizzare l'indirizzo"
 
-#: ../common/gdm-common.c:298
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom non è un device a caratteri"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "Impossibile identificare la sessione attuale."
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "Impossibile identificare la postazione attuale."
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr "Il sistema non è in grado di determinare se passare a una schermata di accesso esistente o crearne una nuova."
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "Il sistema non è in grado di avviare una nuova schermata di accesso."
@@ -88,23 +89,27 @@ msgid ""
 " when the problem is corrected."
 msgstr "Impossibile avviare il server X (l'interfaccia grafica) a causa di qualche errore interno. Contattare l'amministratore di sistema o controllare il registro di sistema (syslog) per la diagnosi del problema: per adesso il display verrà disabilitato. Una volta risolto il problema, riavviare GDM."
 
-#: ../daemon/gdm-manager.c:768
+#: ../daemon/gdm-manager.c:772
 msgid "No display available"
 msgstr "Nessun display disponibile"
 
-#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
+#: ../daemon/gdm-manager.c:841 ../daemon/gdm-manager.c:1117
 msgid "No session available"
 msgstr "Nessuna sessione disponibile"
 
-#: ../daemon/gdm-manager.c:848
+#: ../daemon/gdm-manager.c:860
+msgid "Chooser session unavailable"
+msgstr "Nessun selettore di sessione disponibile"
+
+#: ../daemon/gdm-manager.c:872
 msgid "Can only be called before user is logged in"
 msgstr "Può essere chiamato solo prima dell'accesso utente"
 
-#: ../daemon/gdm-manager.c:858
+#: ../daemon/gdm-manager.c:883
 msgid "Caller not GDM"
 msgstr "Chiamante non GDM"
 
-#: ../daemon/gdm-manager.c:868
+#: ../daemon/gdm-manager.c:893
 msgid "Unable to open private communication channel"
 msgstr "Impossibile aprire un canale di comunicazione privato"
 
@@ -173,7 +178,7 @@ msgstr "Dispositivo display"
 msgid "The display device"
 msgstr "Il dispositivo del display"
 
-#: ../daemon/gdm-session.c:1215
+#: ../daemon/gdm-session.c:1223
 msgid "Could not create authentication helper process"
 msgstr "Impossibile creare il processo di aiuto per l'autenticazione"
 
@@ -185,24 +190,24 @@ msgstr "È stata superata la scadenza impostata per l'account."
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Non funziona. Provare nuovamente."
 
-#: ../daemon/gdm-session-worker.c:1040
+#: ../daemon/gdm-session-worker.c:1039
 msgid "Username:"
 msgstr "Utente:"
 
-#: ../daemon/gdm-session-worker.c:1200
+#: ../daemon/gdm-session-worker.c:1180
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1201
+#: ../daemon/gdm-session-worker.c:1181
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
+#: ../daemon/gdm-session-worker.c:1606 ../daemon/gdm-session-worker.c:1623
 #, c-format
 msgid "no user account available"
 msgstr "nessun account utente disponibile"
 
-#: ../daemon/gdm-session-worker.c:1670
+#: ../daemon/gdm-session-worker.c:1650
 msgid "Unable to change to user"
 msgstr "Impossibile cambiare utente"
 

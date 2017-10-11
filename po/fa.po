@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-30 02:50+0000\n"
-"PO-Revision-Date: 2017-09-23 03:19+0000\n"
+"POT-Creation-Date: 2017-10-11 14:57-0700\n"
+"PO-Revision-Date: 2017-10-11 22:53+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Persian (http://www.transifex.com/endless-mobile-inc/gdm/language/fa/)\n"
 "MIME-Version: 1.0\n"
@@ -31,45 +31,45 @@ msgstr ""
 msgid "Select System"
 msgstr "انتخاب سیستم"
 
-#: ../chooser/gdm-host-chooser-widget.c:215
+#: ../chooser/gdm-host-chooser-widget.c:254
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP: ایجاد میان‌گیر XDMCP ممکن نبود!"
 
-#: ../chooser/gdm-host-chooser-widget.c:221
+#: ../chooser/gdm-host-chooser-widget.c:260
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: خواندن سرآیند XDMCP ممکن نبود!"
 
-#: ../chooser/gdm-host-chooser-widget.c:227
+#: ../chooser/gdm-host-chooser-widget.c:266
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XDMCP: Incorrect XDMCP version!"
 
-#: ../chooser/gdm-host-chooser-widget.c:233
+#: ../chooser/gdm-host-chooser-widget.c:272
 msgid "XDMCP: Unable to parse address"
 msgstr "XMDCP: ناتوان در تجزیه‌ی نشانی"
 
-#: ../common/gdm-common.c:298
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "دستگاه dev/urandom/ یک دستگاه نویسه‌ای نیست"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "شناسایی نشست جاری ممکن نبود"
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "شناسایی نشست جاری ممکن نبود."
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr "سیستم قادر به تشخیص اینکه باید به صفحه‌ی ورود به سیستم فعلی انتقال پیدا کند یا یک صفحه‌ی ورود به سیستم جدید ایجاد کند نبود."
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "سیستم قادر به راه‌اندازی یک صفحه‌ی جدید ورود به سیستم نبود."
@@ -87,23 +87,27 @@ msgid ""
 " when the problem is corrected."
 msgstr "بدلیل یک خطای داخلی، کارگزار X (محیط گرافیکی شما) آغاز نشد. لطفا با مدیر سیستم خود تماس بگیرید یا syslog خود را برای خطایابی بررسی کنید. ضمنا این نمایش غیرفعال خواهد شد. لطفا بعد از این‌که مشکل درست شد GDM را مجددا راه‌اندازی کنید."
 
-#: ../daemon/gdm-manager.c:768
+#: ../daemon/gdm-manager.c:772
 msgid "No display available"
 msgstr "هیچ نمایشگری موجود نیست"
 
-#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
+#: ../daemon/gdm-manager.c:841 ../daemon/gdm-manager.c:1117
 msgid "No session available"
 msgstr "هیچ نشستی موجود نیست"
 
-#: ../daemon/gdm-manager.c:848
+#: ../daemon/gdm-manager.c:860
+msgid "Chooser session unavailable"
+msgstr ""
+
+#: ../daemon/gdm-manager.c:872
 msgid "Can only be called before user is logged in"
 msgstr "تنها پس از اینکه کاربر وارد سیستم شد می‌تواند فراخوانی شود"
 
-#: ../daemon/gdm-manager.c:858
+#: ../daemon/gdm-manager.c:883
 msgid "Caller not GDM"
 msgstr "کالر نه GDM"
 
-#: ../daemon/gdm-manager.c:868
+#: ../daemon/gdm-manager.c:893
 msgid "Unable to open private communication channel"
 msgstr "باز کردن کانال ارتباط خصوصی امکان‌پذیر نبود"
 
@@ -172,7 +176,7 @@ msgstr "دستگاه نمایشگر"
 msgid "The display device"
 msgstr "دستگاه نمایشگر"
 
-#: ../daemon/gdm-session.c:1215
+#: ../daemon/gdm-session.c:1223
 msgid "Could not create authentication helper process"
 msgstr "Could not create authentication helper process"
 
@@ -184,24 +188,24 @@ msgstr "برای حساب شما یک محدودیت زمانی داده شده 
 msgid "Sorry, that didn't work. Please try again."
 msgstr "متاسفم، این کمکی نکرد. لطفا دوباره تلاش کنید."
 
-#: ../daemon/gdm-session-worker.c:1040
+#: ../daemon/gdm-session-worker.c:1039
 msgid "Username:"
 msgstr "نام کاربر:"
 
-#: ../daemon/gdm-session-worker.c:1200
+#: ../daemon/gdm-session-worker.c:1180
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1201
+#: ../daemon/gdm-session-worker.c:1181
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
+#: ../daemon/gdm-session-worker.c:1606 ../daemon/gdm-session-worker.c:1623
 #, c-format
 msgid "no user account available"
 msgstr "هیچ حساب کاربری موجود نیست"
 
-#: ../daemon/gdm-session-worker.c:1670
+#: ../daemon/gdm-session-worker.c:1650
 msgid "Unable to change to user"
 msgstr "ناتوان در تعویض کاربر"
 

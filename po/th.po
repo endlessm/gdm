@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Akom <knight2000@gmail.com>, 2015
+# Akom <knight2000@gmail.com>, 2015
 # Chanchai Junlouchai <taz@opentle.org>, 2004
 # Paisa Seeluangsawat <paisa@users.sf.net>, 2003-2004
 # Ross Golder <ross@golder.org>, 2002
@@ -15,8 +16,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-30 02:50+0000\n"
-"PO-Revision-Date: 2017-09-22 22:38+0000\n"
+"POT-Creation-Date: 2017-10-11 14:57-0700\n"
+"PO-Revision-Date: 2017-10-11 22:53+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Thai (http://www.transifex.com/endless-mobile-inc/gdm/language/th/)\n"
 "MIME-Version: 1.0\n"
@@ -29,45 +30,45 @@ msgstr ""
 msgid "Select System"
 msgstr "เลือกระบบ"
 
-#: ../chooser/gdm-host-chooser-widget.c:215
+#: ../chooser/gdm-host-chooser-widget.c:254
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP: ไม่สามารถสร้างบัฟเฟอร์ของ XDMCP ได้"
 
-#: ../chooser/gdm-host-chooser-widget.c:221
+#: ../chooser/gdm-host-chooser-widget.c:260
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: ไม่สามารถอ่านข้อมูลส่วนหัวของ XDMCP ได้"
 
-#: ../chooser/gdm-host-chooser-widget.c:227
+#: ../chooser/gdm-host-chooser-widget.c:266
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XDMCP: รุ่นของ XDMCP ไม่ถูกต้อง"
 
-#: ../chooser/gdm-host-chooser-widget.c:233
+#: ../chooser/gdm-host-chooser-widget.c:272
 msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: ไม่สามารถแจงที่อยู่"
 
-#: ../common/gdm-common.c:298
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom ไม่ได้เป็นอุปกรณ์แบบอักขระ"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "ไม่สามารถระบุวาระปัจจุบันได้"
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "ไม่สามารถระบุที่นั่งปัจจุบันได้"
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr "ระบบไม่สามารถตัดสินได้ว่าจะสลับไปยังหน้าจอเข้าระบบที่มีอยู่ หรือจะเปิดหน้าจอเข้าระบบอันใหม่"
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "ระบบไม่สามารถเปิดหน้าจอเข้าระบบอันใหม่"
@@ -85,23 +86,27 @@ msgid ""
 " when the problem is corrected."
 msgstr "ไม่สามารถเริ่มการทำงาน X server (สภาพแวดล้อมแบบกราฟิกของคุณ) เนื่องจากข้อผิดพลาดภายในบางประการ กรุณาติดต่อผู้ดูแลระบบของคุณ หรือตรวจสอบปูมของระบบเพื่อหาสาเหตุ ในระหว่างนี้ หน้าจอนี้จะถูกปิดใช้งาน กรุณาเริ่ม GDM ใหม่เมื่อแก้ปัญหาแล้ว"
 
-#: ../daemon/gdm-manager.c:768
+#: ../daemon/gdm-manager.c:772
 msgid "No display available"
 msgstr "ไม่มีจอแสดงผลให้ใช้"
 
-#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
+#: ../daemon/gdm-manager.c:841 ../daemon/gdm-manager.c:1117
 msgid "No session available"
 msgstr "ไม่มีวาระให้ใช้"
 
-#: ../daemon/gdm-manager.c:848
+#: ../daemon/gdm-manager.c:860
+msgid "Chooser session unavailable"
+msgstr ""
+
+#: ../daemon/gdm-manager.c:872
 msgid "Can only be called before user is logged in"
 msgstr "ถูกเรียกได้ก่อนผู้ใช้เข้าระบบเท่านั้น"
 
-#: ../daemon/gdm-manager.c:858
+#: ../daemon/gdm-manager.c:883
 msgid "Caller not GDM"
 msgstr "ผู้เรียกไม่ใช่ GDM"
 
-#: ../daemon/gdm-manager.c:868
+#: ../daemon/gdm-manager.c:893
 msgid "Unable to open private communication channel"
 msgstr "ไม่สามารถเปิดช่องสื่อสารเป็นการภายในได้"
 
@@ -170,7 +175,7 @@ msgstr "อุปกรณ์ดิสเพลย์"
 msgid "The display device"
 msgstr "อุปกรณ์ดิสเพลย์"
 
-#: ../daemon/gdm-session.c:1215
+#: ../daemon/gdm-session.c:1223
 msgid "Could not create authentication helper process"
 msgstr "ไม่สามารถสร้างโพรเซสสำหรับช่วยยืนยันตัวบุคคลได้"
 
@@ -182,24 +187,24 @@ msgstr "บัญชีของคุณมีกำหนดอายุกา
 msgid "Sorry, that didn't work. Please try again."
 msgstr "ขออภัย ยังไม่ถูกต้อง กรุณาลองใหม่"
 
-#: ../daemon/gdm-session-worker.c:1040
+#: ../daemon/gdm-session-worker.c:1039
 msgid "Username:"
 msgstr "ชื่อผู้ใช้:"
 
-#: ../daemon/gdm-session-worker.c:1200
+#: ../daemon/gdm-session-worker.c:1180
 msgid "Type a hint or question to help remember your password."
 msgstr "พิมพ์คำใบ้หรือคำถามเพื่อช่วยจดจำรหัสผ่านของคุณ"
 
-#: ../daemon/gdm-session-worker.c:1201
+#: ../daemon/gdm-session-worker.c:1181
 msgid "Password reminder:"
 msgstr "การแจ้งเตือนรหัสผ่าน:"
 
-#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
+#: ../daemon/gdm-session-worker.c:1606 ../daemon/gdm-session-worker.c:1623
 #, c-format
 msgid "no user account available"
 msgstr "ไม่มีบัญชีผู้ใช้"
 
-#: ../daemon/gdm-session-worker.c:1670
+#: ../daemon/gdm-session-worker.c:1650
 msgid "Unable to change to user"
 msgstr "ไม่สามารถเปลี่ยนไปเป็นผู้ใช้ได้"
 

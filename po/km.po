@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-30 02:50+0000\n"
-"PO-Revision-Date: 2017-09-23 03:19+0000\n"
+"POT-Creation-Date: 2017-10-11 14:57-0700\n"
+"PO-Revision-Date: 2017-10-11 22:53+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Khmer (http://www.transifex.com/endless-mobile-inc/gdm/language/km/)\n"
 "MIME-Version: 1.0\n"
@@ -21,45 +21,45 @@ msgstr ""
 msgid "Select System"
 msgstr "ជ្រើស​ប្រព័ន្ធ"
 
-#: ../chooser/gdm-host-chooser-widget.c:215
+#: ../chooser/gdm-host-chooser-widget.c:254
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP ៖ មិន​អាច​បង្កើត​អង្គ​ចងចាំ​បណ្ដោះអាសន្ន XDMCP បាន​ទេ !"
 
-#: ../chooser/gdm-host-chooser-widget.c:221
+#: ../chooser/gdm-host-chooser-widget.c:260
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP ៖ មិន​អាច​អាន​បឋមកថា​របស់ XDMCP បាន​ទេ !"
 
-#: ../chooser/gdm-host-chooser-widget.c:227
+#: ../chooser/gdm-host-chooser-widget.c:266
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XDMCP ៖ កំណែ XDMCP មិន​ត្រឹមត្រូវ!"
 
-#: ../chooser/gdm-host-chooser-widget.c:233
+#: ../chooser/gdm-host-chooser-widget.c:272
 msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP ៖ មិន​អាច​ញែកអាសយដ្ឋាន"
 
-#: ../common/gdm-common.c:298
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom មិនមែន​ជា​ឧបករណ៍​តួអក្សរ​ទេ"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "មិន​អាច​កំណត់​អត្តសញ្ញាណ​សម័យ​បច្ចុប្បន្ន ។"
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "មិន​អាច​កំណត់​អត្តសញ្ញាណ​​កន្លែង​បច្ចុប្បន្ន។"
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr "ប្រព័ន្ធ​មិន​អាច​កំណត់​ថាតើត្រូវ​ប្ដូរ​ទៅ​អេក្រង់​ចូល​មាន​ស្រាប់ ឬ​ចាប់​ផ្ដើម​អេក្រង់ចូល​ថ្មី។"
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "ប្រព័ន្ធ​មិន​អាច​ចាប់ផ្ដើម​អេក្រង់​ចូល​ថ្មី។"
@@ -77,23 +77,27 @@ msgid ""
 " when the problem is corrected."
 msgstr "មិន​អាច​ចាប់ផ្ដើម​ម៉ាស៊ីន​បម្រើ X (បរិស្ថាន​ក្រាហ្វិក​របស់​អ្នក) បានទេ ដោយសារតែ​មាន​កំហុស​ខាងក្នុង ។ សូម​ទាក់ទង​អ្នក​គ្រប់គ្រង​ប្រព័ន្ធ​របស់​អ្នក ឬ​ពិនិត្យមើល​កំណត់ហេតុ​ប្រព័ន្ធ​របស់​អ្នក ។ ក្នុង​ពេល​ដដែល​នេះ ការ​បង្ហាញ​នេះ​នឹង​ត្រូវ​បាន​បិទ ។ សូម​ចាប់ផ្ដើម GDM ឡើងវិញ នៅ​ពេល​បញ្ហា​ត្រូវ​បាន​ដោះស្រាយ​ ។"
 
-#: ../daemon/gdm-manager.c:768
+#: ../daemon/gdm-manager.c:772
 msgid "No display available"
 msgstr ""
 
-#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
+#: ../daemon/gdm-manager.c:841 ../daemon/gdm-manager.c:1117
 msgid "No session available"
 msgstr "មិនមាន​សម័យ"
 
-#: ../daemon/gdm-manager.c:848
+#: ../daemon/gdm-manager.c:860
+msgid "Chooser session unavailable"
+msgstr ""
+
+#: ../daemon/gdm-manager.c:872
 msgid "Can only be called before user is logged in"
 msgstr "អាច​ត្រូវ​បាន​ហៅតែ​មុន​ពេល​អ្នកប្រើ​បាន​ចូល​ប៉ុណ្ណោះ"
 
-#: ../daemon/gdm-manager.c:858
+#: ../daemon/gdm-manager.c:883
 msgid "Caller not GDM"
 msgstr "អ្នកហៅ​មិនមែន GDM"
 
-#: ../daemon/gdm-manager.c:868
+#: ../daemon/gdm-manager.c:893
 msgid "Unable to open private communication channel"
 msgstr ""
 
@@ -162,7 +166,7 @@ msgstr "ឧបករណ៍​បង្ហាញ"
 msgid "The display device"
 msgstr "ឧបករណ៍​បង្ហាញ"
 
-#: ../daemon/gdm-session.c:1215
+#: ../daemon/gdm-session.c:1223
 msgid "Could not create authentication helper process"
 msgstr "មិន​អាច​ផ្ទៀងផ្ទាត់​ដំណើរការ​ជំនួយ"
 
@@ -174,24 +178,24 @@ msgstr "គណនី​របស់​អ្នកត្រូវ​បាន​
 msgid "Sorry, that didn't work. Please try again."
 msgstr "សូម​ទោស មិន​ដំណើរការ​ទេ។ សូម​ព្យាយាមម្ដងទៀត។"
 
-#: ../daemon/gdm-session-worker.c:1040
+#: ../daemon/gdm-session-worker.c:1039
 msgid "Username:"
 msgstr "ឈ្មោះ​អ្នកប្រើ ៖"
 
-#: ../daemon/gdm-session-worker.c:1200
+#: ../daemon/gdm-session-worker.c:1180
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1201
+#: ../daemon/gdm-session-worker.c:1181
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
+#: ../daemon/gdm-session-worker.c:1606 ../daemon/gdm-session-worker.c:1623
 #, c-format
 msgid "no user account available"
 msgstr "គ្មាន​គណនី​អ្នកប្រើ"
 
-#: ../daemon/gdm-session-worker.c:1670
+#: ../daemon/gdm-session-worker.c:1650
 msgid "Unable to change to user"
 msgstr "មិន​អាច​ផ្លាស់ប្ដូរ​អ្នកប្រើ"
 

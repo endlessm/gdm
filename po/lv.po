@@ -6,16 +6,17 @@
 # Anita Reitere <nitalynx@gmail.com>, 2010,2012
 # Artis Trops <hornet@navigators.lv>, 2001
 # Pēteris Krišjānis <pecisk@gmail.com>, 2010
+# Pēteris Krišjānis <pecisk@gmail.com>, 2010
 # Raivis Dejus <orvils@gmail.com>, 2006-2007,2009-2010
 # Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011-2016
-# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2013,2015-2016
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011,2013,2015-2017
 # Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-30 02:50+0000\n"
-"PO-Revision-Date: 2017-09-23 03:19+0000\n"
+"POT-Creation-Date: 2017-10-11 14:57-0700\n"
+"PO-Revision-Date: 2017-10-11 23:03+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Latvian (http://www.transifex.com/endless-mobile-inc/gdm/language/lv/)\n"
 "MIME-Version: 1.0\n"
@@ -28,45 +29,45 @@ msgstr ""
 msgid "Select System"
 msgstr "Izvēlieties sistēmu"
 
-#: ../chooser/gdm-host-chooser-widget.c:215
+#: ../chooser/gdm-host-chooser-widget.c:254
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP — neizdevās izveidot XDMCP buferi!"
 
-#: ../chooser/gdm-host-chooser-widget.c:221
+#: ../chooser/gdm-host-chooser-widget.c:260
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP — neizdevās nolasīt XDMCP galveni!"
 
-#: ../chooser/gdm-host-chooser-widget.c:227
+#: ../chooser/gdm-host-chooser-widget.c:266
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XMDCP — nepareiza XDMCP versija!"
 
-#: ../chooser/gdm-host-chooser-widget.c:233
+#: ../chooser/gdm-host-chooser-widget.c:272
 msgid "XDMCP: Unable to parse address"
 msgstr "XMDCP — neizdevās parsēt adresi"
 
-#: ../common/gdm-common.c:298
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom nav rakstzīmju ierīce"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "Neizdevās identificēt pašreizējo sesiju."
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "Neizdevās identificēt pašreizējo vietu."
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr "Sistēma nespēj noteikt, vai vajadzētu pārslēgties uz jau esošu ierakstīšanās ekrānu vai izveidot jaunu ierakstīšanās ekrānu."
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "Sistēma nespēj izveidot jaunu ierakstīšanās ekrānu."
@@ -84,23 +85,27 @@ msgid ""
 " when the problem is corrected."
 msgstr "Neizdevās palaist X serveri (jūsu grafisko vidi) kādas iekšējas kļūdas dēļ. Lūdzu, sazinieties ar savu sistēmas administratoru vai pārbaudiet sistēmas žurnālu, lai noteiktu problēmas cēloni. Pa to laiku displejs tiks deaktivēts. Lūdzu, pārstartējiet GDM, kad problēma ir novērsta."
 
-#: ../daemon/gdm-manager.c:768
+#: ../daemon/gdm-manager.c:772
 msgid "No display available"
 msgstr "Nav pieejamu displeju"
 
-#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
+#: ../daemon/gdm-manager.c:841 ../daemon/gdm-manager.c:1117
 msgid "No session available"
 msgstr "Nav pieejamu sesiju"
 
-#: ../daemon/gdm-manager.c:848
+#: ../daemon/gdm-manager.c:860
+msgid "Chooser session unavailable"
+msgstr "Izvēlētāja sesija nav pieejama"
+
+#: ../daemon/gdm-manager.c:872
 msgid "Can only be called before user is logged in"
 msgstr "Var izsaukt tikai pirms lietotājs ir ierakstījies"
 
-#: ../daemon/gdm-manager.c:858
+#: ../daemon/gdm-manager.c:883
 msgid "Caller not GDM"
 msgstr "Izsaucējs nav GDM"
 
-#: ../daemon/gdm-manager.c:868
+#: ../daemon/gdm-manager.c:893
 msgid "Unable to open private communication channel"
 msgstr "Nevar atvērt privātu komunikācijas kanālu"
 
@@ -169,7 +174,7 @@ msgstr "Displeja ierīce"
 msgid "The display device"
 msgstr "Displeja ierīce"
 
-#: ../daemon/gdm-session.c:1215
+#: ../daemon/gdm-session.c:1223
 msgid "Could not create authentication helper process"
 msgstr "Neizdevās izveidot autentifikācijas palīgprocesu"
 
@@ -181,24 +186,24 @@ msgstr "Jūsu kontam bija laika limits, kas ir beidzies."
 msgid "Sorry, that didn't work. Please try again."
 msgstr "Diemžēl tas nenostrādāja. Lūdzu, mēģiniet vēlreiz."
 
-#: ../daemon/gdm-session-worker.c:1040
+#: ../daemon/gdm-session-worker.c:1039
 msgid "Username:"
 msgstr "Lietotājvārds:"
 
-#: ../daemon/gdm-session-worker.c:1200
+#: ../daemon/gdm-session-worker.c:1180
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1201
+#: ../daemon/gdm-session-worker.c:1181
 msgid "Password reminder:"
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
+#: ../daemon/gdm-session-worker.c:1606 ../daemon/gdm-session-worker.c:1623
 #, c-format
 msgid "no user account available"
 msgstr "nav pieejams lietotāja konts"
 
-#: ../daemon/gdm-session-worker.c:1670
+#: ../daemon/gdm-session-worker.c:1650
 msgid "Unable to change to user"
 msgstr "Neizdevās nomainīties uz lietotāju"
 
