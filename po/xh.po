@@ -1,21 +1,42 @@
-# Xhosa translation of gdm2
-# Copyright (C) 2005 Canonical Ltd.
-# This file is distributed under the same license as the gdm2 package.
-# Translation by Canonical Ltd <translations@canonical.com> with thanks to
-# Translation World CC in South Africa, 2005.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Translation World CC in South Africa, 2005
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm2\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-27 15:41-0400\n"
-"PO-Revision-Date: 2005-03-03 12:39+0200\n"
-"Last-Translator: Canonical Ltd <translations@canonical.com>\n"
-"Language-Team: Xhosa <xh-translate@ubuntu.com> \n"
-"Language: xh\n"
+"POT-Creation-Date: 2017-05-30 02:50+0000\n"
+"PO-Revision-Date: 2017-09-23 03:19+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Xhosa (http://www.transifex.com/endless-mobile-inc/gdm/language/xh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: xh\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../chooser/gdm-host-chooser-dialog.c:147
+msgid "Select System"
+msgstr ""
+
+#: ../chooser/gdm-host-chooser-widget.c:215
+msgid "XDMCP: Could not create XDMCP buffer!"
+msgstr ""
+
+#: ../chooser/gdm-host-chooser-widget.c:221
+msgid "XDMCP: Could not read XDMCP header!"
+msgstr ""
+
+#: ../chooser/gdm-host-chooser-widget.c:227
+msgid "XDMCP: Incorrect XDMCP version!"
+msgstr ""
+
+#: ../chooser/gdm-host-chooser-widget.c:233
+msgid "XDMCP: Unable to parse address"
+msgstr ""
 
 #: ../common/gdm-common.c:298
 #, c-format
@@ -50,84 +71,70 @@ msgid "could not find user \"%s\" on system"
 msgstr ""
 
 #: ../daemon/gdm-legacy-display.c:235
-#, fuzzy
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
 msgstr ""
-"Andikwazanga ukumisela iseva ka-X\n"
-" (imeko yakho yegrafu)\n"
-"ngenxa yempazamo yangaphakathi.\n"
-"Nceda unxulumane nomlawuli wenkqubo\n"
-"okanye ukhangele i-syslog yakho ukuze ufumane undonakele.\n"
-"Okwangoku esi sikrini siya ku\n"
-"ngasebenzi.  Nceda uqale kwakhona i-gdm xa\n"
-"ingxaki ilungisiwe."
 
-#: ../daemon/gdm-manager.c:766
-#, fuzzy
+#: ../daemon/gdm-manager.c:768
 msgid "No display available"
-msgstr "Akukho mfanekiso wesikrini ufumanekayo"
+msgstr ""
 
-#: ../daemon/gdm-manager.c:833 ../daemon/gdm-manager.c:1088
-#, fuzzy
+#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
 msgid "No session available"
-msgstr "Akukho mfanekiso wesikrini ufumanekayo"
+msgstr ""
 
-#: ../daemon/gdm-manager.c:844
+#: ../daemon/gdm-manager.c:848
 msgid "Can only be called before user is logged in"
 msgstr ""
 
-#: ../daemon/gdm-manager.c:854
+#: ../daemon/gdm-manager.c:858
 msgid "Caller not GDM"
 msgstr ""
 
-#: ../daemon/gdm-manager.c:864
+#: ../daemon/gdm-manager.c:868
 msgid "Unable to open private communication channel"
 msgstr ""
 
-#: ../daemon/gdm-server.c:378
-#, fuzzy, c-format
+#: ../daemon/gdm-server.c:391
+#, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
 msgstr ""
-"%s: Iseva bekufuneka ukuba yenziwe yi-uid %d kodwa loo msebenzisi akakho"
 
-#: ../daemon/gdm-server.c:389 ../daemon/gdm-server.c:409
-#, fuzzy, c-format
+#: ../daemon/gdm-server.c:402 ../daemon/gdm-server.c:422
+#, c-format
 msgid "Couldn't set groupid to %d"
-msgstr "%s: Ayikwazanga ukumisela i-groupid kwi %d"
+msgstr ""
 
-#: ../daemon/gdm-server.c:395
-#, fuzzy, c-format
+#: ../daemon/gdm-server.c:408
+#, c-format
 msgid "initgroups () failed for %s"
-msgstr "%s: i-initgroups() ayiphumelelanga kwi %s"
+msgstr ""
 
-#: ../daemon/gdm-server.c:401
-#, fuzzy, c-format
+#: ../daemon/gdm-server.c:414
+#, c-format
 msgid "Couldn't set userid to %d"
-msgstr "%s: Ayikwazanga ukumisela i-userid ku %d"
+msgstr ""
 
-#: ../daemon/gdm-server.c:479
-#, fuzzy, c-format
+#: ../daemon/gdm-server.c:492
+#, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr ""
-"%s: Ayikwazanga ukuvula ifayili yengxelo yokwenzekileyo ukuze ibe "
-"kokusesikrinini %s!"
 
-#: ../daemon/gdm-server.c:500 ../daemon/gdm-server.c:506
-#: ../daemon/gdm-server.c:512
+#: ../daemon/gdm-server.c:513 ../daemon/gdm-server.c:519
+#: ../daemon/gdm-server.c:525
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Impazamo kumiselo %s to %s"
 
-#: ../daemon/gdm-server.c:532
-#, fuzzy, c-format
+#: ../daemon/gdm-server.c:545
+#, c-format
 msgid "%s: Server priority couldn't be set to %d: %s"
-msgstr "%s: iseva ka-X ayifumaneki: %s"
+msgstr ""
 
-#: ../daemon/gdm-server.c:684
+#: ../daemon/gdm-server.c:697
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Umyalelo ongenanto weseva ukuba ubekwe kokusesikrinini %s"
@@ -137,90 +144,82 @@ msgid "Username"
 msgstr "iGama lomsebenzisi"
 
 #: ../daemon/gdm-session-auditor.c:91
-#, fuzzy
 msgid "The username"
-msgstr "iGama lomsebenzisi"
+msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:95
-#, fuzzy
 msgid "Hostname"
-msgstr "iGama lomsebenzisi"
+msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:96
 msgid "The hostname"
 msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:101
-#, fuzzy
 msgid "Display Device"
-msgstr "Okusesikrinini"
+msgstr ""
 
 #: ../daemon/gdm-session-auditor.c:102
 msgid "The display device"
 msgstr ""
 
-#: ../daemon/gdm-session.c:1193
-#, fuzzy
+#: ../daemon/gdm-session.c:1215
 msgid "Could not create authentication helper process"
-msgstr "%s: Ayikwazanga ukufunda amaGama okuQinisekisa"
+msgstr ""
 
-#: ../daemon/gdm-session-worker.c:642
+#: ../daemon/gdm-session-worker.c:644
 msgid "Your account was given a time limit that's now passed."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:649
+#: ../daemon/gdm-session-worker.c:651
 msgid "Sorry, that didn't work. Please try again."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1010
+#: ../daemon/gdm-session-worker.c:1040
 msgid "Username:"
 msgstr "Igama lomsebenzisi:"
 
-#: ../daemon/gdm-session-worker.c:1142
-#, fuzzy
-msgid "Your password has expired, please change it now."
+#: ../daemon/gdm-session-worker.c:1200
+msgid "Type a hint or question to help remember your password."
 msgstr ""
-"I-password yakho iphelelwe.\n"
-"Ngumlawuli wenkqubo kuphela ongayitshintsha ngoku"
 
-#: ../daemon/gdm-session-worker.c:1505 ../daemon/gdm-session-worker.c:1522
-#, fuzzy, c-format
+#: ../daemon/gdm-session-worker.c:1201
+msgid "Password reminder:"
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
+#, c-format
 msgid "no user account available"
-msgstr "Akukho mfanekiso wesikrini ufumanekayo"
+msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1549
+#: ../daemon/gdm-session-worker.c:1670
 msgid "Unable to change to user"
 msgstr ""
 
-#: ../daemon/gdm-wayland-session.c:385
+#: ../daemon/gdm-wayland-session.c:470
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr ""
 
-#: ../daemon/gdm-xdmcp-display-factory.c:609
-#, fuzzy
+#: ../daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
-msgstr "%s: Ayikwazanga ukudala isokhethi!"
+msgstr ""
 
-#: ../daemon/gdm-x-session.c:686
+#: ../daemon/gdm-x-session.c:812
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr ""
 
-#: ../daemon/gdm-x-session.c:687
-#, fuzzy
+#: ../daemon/gdm-x-session.c:813
 msgid "Listen on TCP socket"
-msgstr "Mamela kwi siqhagamsheli se-_UDP: "
+msgstr ""
 
-#: ../daemon/gdm-x-session.c:698
-#, fuzzy
+#: ../daemon/gdm-x-session.c:824
 msgid "GNOME Display Manager X Session Launcher"
-msgstr "i-GDM (uMphathi weSikrini se-GNOME) ayiqhubeki."
+msgstr ""
 
 #: ../daemon/main.c:125 ../daemon/main.c:138
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr ""
-"Ayikwazi ukubhal ifayili ye-PID %s, mhlawumbi kuphele isithuba sediski.  "
-"Impazamo: %s"
 
 #: ../daemon/main.c:182
 #, c-format
@@ -228,33 +227,27 @@ msgid "Failed to create ran once marker dir %s: %s"
 msgstr ""
 
 #: ../daemon/main.c:188
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to create LogDir %s: %s"
-msgstr "Ayiphumelelanga ukuziqala ngokwayo"
+msgstr ""
 
 #: ../daemon/main.c:223
-#, fuzzy, c-format
+#, c-format
 msgid "Can't find the GDM user '%s'. Aborting!"
-msgstr "%s: Ayimfumananga umsebenzisi we-gdm (%s). Iyayeka!"
+msgstr ""
 
 #: ../daemon/main.c:229
-#, fuzzy
 msgid "The GDM user should not be root. Aborting!"
 msgstr ""
-"%s: Umsebenzisi we-gdm kufuneka ukuba angabi ngumsebenzisi onikwe amandla "
-"akhethekileyo. Iyayeka!"
 
 #: ../daemon/main.c:235
-#, fuzzy, c-format
+#, c-format
 msgid "Can't find the GDM group '%s'. Aborting!"
-msgstr "%s: Ayifumananga qela le-gdm(%s). Iyayeka!"
+msgstr ""
 
 #: ../daemon/main.c:241
-#, fuzzy
 msgid "The GDM group should not be root. Aborting!"
 msgstr ""
-"%s: Iqela le-gdm akufunekanga libe ngumsebenzisi onikwe amandla "
-"akhethekileyo. Iyayeka!"
 
 #: ../daemon/main.c:318
 msgid "Make all warnings fatal"
@@ -269,9 +262,8 @@ msgid "Print GDM version"
 msgstr "Shicilela uhlobo lwe-GDM"
 
 #: ../daemon/main.c:333
-#, fuzzy
 msgid "GNOME Display Manager"
-msgstr "uMphathi we-Desktop ye-GNOME"
+msgstr ""
 
 #. make sure the pid file doesn't get wiped
 #: ../daemon/main.c:381
@@ -280,20 +272,8 @@ msgstr ""
 
 #. Translators: worker is a helper process that does the work
 #. of starting up a session
-#: ../daemon/session-worker-main.c:95
-#, fuzzy
+#: ../daemon/session-worker-main.c:94
 msgid "GNOME Display Manager Session Worker"
-msgstr "i-GDM (uMphathi weSikrini se-GNOME) ayiqhubeki."
-
-#: ../data/applications/gnome-shell.desktop.in.h:1
-#: ../data/applications/gnome-shell-wayland.desktop.in.h:1
-#, fuzzy
-msgid "GNOME Shell"
-msgstr "i-GNOME"
-
-#: ../data/applications/gnome-shell.desktop.in.h:2
-#: ../data/applications/gnome-shell-wayland.desktop.in.h:2
-msgid "Window management and compositing"
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
@@ -317,9 +297,8 @@ msgid ""
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
-#, fuzzy
 msgid "Whether or not to allow passwords for login"
-msgstr "Umsebenzisi %s akavunyelwanga ukuba angene"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:6
 msgid ""
@@ -333,16 +312,14 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:8
 msgid ""
-"The login screen can optionally show a small image at the top of its user "
-"list to provide site administrators and distributions a way to provide "
-"branding."
+"The login screen can optionally show a small image to provide site "
+"administrators and distributions a way to display branding."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
-"The fallback login screen can optionally show a small image at the top of "
-"its user list to provide site administrators and distributions a way to "
-"provide branding."
+"The fallback login screen can optionally show a small image to provide site "
+"administrators and distributions a way to display branding."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
@@ -351,8 +328,8 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
@@ -376,41 +353,18 @@ msgid "Disable showing the restart buttons"
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
-#, fuzzy
 msgid "Number of allowed authentication failures"
-msgstr "Ukungaphumeleli koqinisekiso!\n"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-
-#: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
-msgid "Select System"
-msgstr ""
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
-#, fuzzy
-msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr "%s: Ayikwazanga ukwenza isigcini sethutyana se-XDMCP!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
-#, fuzzy
-msgid "XDMCP: Could not read XDMCP header!"
-msgstr "%s: Ayikwazanga ukufunda okuibhalwe emantla ephepha kwe-XDMCP!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-#, fuzzy
-msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "%s: Inguqulelo ye-XDMCP engachanekanga!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-msgid "XDMCP: Unable to parse address"
 msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:59
@@ -439,718 +393,19 @@ msgid "Debugging output"
 msgstr "Iziphumo zokulungisa isiphene kwinkqubo"
 
 #: ../utils/gdmflexiserver.c:52
-#, fuzzy
 msgid "Version of this application"
-msgstr "Uyisebenzisa njani le nkqubo"
+msgstr ""
 
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
-#, fuzzy
 msgid "- New GDM login"
-msgstr "Ungeno Olutsha"
+msgstr ""
 
 #: ../utils/gdm-screenshot.c:212
-#, fuzzy
 msgid "Screenshot taken"
-msgstr "Akukho mfanekiso wesikrini ufumanekayo"
+msgstr ""
 
 #. Option parsing
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr ""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#, fuzzy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Original has 3 sentences. Translation has 2
-#, fuzzy
-
-
-
-
-
-
-
-
-
-
-#, fuzzy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Please translate "file"
-#, fuzzy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Please translate "acct. mgmt": short for "account management"
-#, fuzzy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#, fuzzy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# translate "window"?
-#, fuzzy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Please translate "archive"
-#, fuzzy
-
-# GdmGreeterTheme.info should appear verbatim in translation
-#, fuzzy
-
-
-
-
-
-
-
-
-
-
-#, fuzzy
-
-
-
-#, fuzzy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#, fuzzy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#, fuzzy
-
-
-
-
-
-
-
-#, fuzzy
-
-
-
-
-
-
-
-

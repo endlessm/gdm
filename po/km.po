@@ -1,23 +1,41 @@
-# translation of gdm.master.po to Khmer
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Khoem Sokhem <khoemsokhem@khmeros.info>, 2012.
-# Morn Met <mornmet@khmeros.info>, 2012.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm.master\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-27 15:41-0400\n"
-"PO-Revision-Date: 2012-02-17 10:53+0700\n"
-"Last-Translator: Morn Met <mornmet@khmeros.info>\n"
-"Language-Team: Khmer <support@khmeros.info>\n"
-"Language: km\n"
+"POT-Creation-Date: 2017-05-30 02:50+0000\n"
+"PO-Revision-Date: 2017-09-23 03:19+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Khmer (http://www.transifex.com/endless-mobile-inc/gdm/language/km/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: km\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: WordForge 0.8 RC1\n"
-"X-Language: km-KH\n"
+
+#: ../chooser/gdm-host-chooser-dialog.c:147
+msgid "Select System"
+msgstr "ជ្រើស​ប្រព័ន្ធ"
+
+#: ../chooser/gdm-host-chooser-widget.c:215
+msgid "XDMCP: Could not create XDMCP buffer!"
+msgstr "XDMCP ៖ មិន​អាច​បង្កើត​អង្គ​ចងចាំ​បណ្ដោះអាសន្ន XDMCP បាន​ទេ !"
+
+#: ../chooser/gdm-host-chooser-widget.c:221
+msgid "XDMCP: Could not read XDMCP header!"
+msgstr "XDMCP ៖ មិន​អាច​អាន​បឋមកថា​របស់ XDMCP បាន​ទេ !"
+
+#: ../chooser/gdm-host-chooser-widget.c:227
+msgid "XDMCP: Incorrect XDMCP version!"
+msgstr "XDMCP ៖ កំណែ XDMCP មិន​ត្រឹមត្រូវ!"
+
+#: ../chooser/gdm-host-chooser-widget.c:233
+msgid "XDMCP: Unable to parse address"
+msgstr "XDMCP ៖ មិន​អាច​ញែកអាសយដ្ឋាន"
 
 #: ../common/gdm-common.c:298
 #, c-format
@@ -53,70 +71,69 @@ msgstr "រក​មិន​ឃើញ​អ្នកប្រើ \"%s\" នៅ�
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "មិន​អាច​ចាប់ផ្ដើម​ម៉ាស៊ីន​បម្រើ X (បរិស្ថាន​ក្រាហ្វិក​របស់​អ្នក) បានទេ ដោយសារតែ​មាន​កំហុស​ខាងក្នុង ។ សូម​ទាក់ទង​អ្នក​គ្រប់គ្រង​ប្រព័ន្ធ​របស់​អ្នក ឬ​ពិនិត្យមើល​កំណត់ហេតុ​ប្រព័ន្ធ​របស់​អ្នក ។ ក្នុង​ពេល​ដដែល​នេះ ការ​បង្ហាញ​នេះ​នឹង​ត្រូវ​បាន​បិទ ។ សូម​ចាប់ផ្ដើម GDM ឡើងវិញ នៅ​ពេល​បញ្ហា​ត្រូវ​បាន​ដោះស្រាយ​ ។"
+
+#: ../daemon/gdm-manager.c:768
+msgid "No display available"
 msgstr ""
 
-#: ../daemon/gdm-manager.c:766
-#, fuzzy
-msgid "No display available"
-msgstr "មិនមាន​សម័យ"
-
-#: ../daemon/gdm-manager.c:833 ../daemon/gdm-manager.c:1088
+#: ../daemon/gdm-manager.c:837 ../daemon/gdm-manager.c:1092
 msgid "No session available"
 msgstr "មិនមាន​សម័យ"
 
-#: ../daemon/gdm-manager.c:844
+#: ../daemon/gdm-manager.c:848
 msgid "Can only be called before user is logged in"
 msgstr "អាច​ត្រូវ​បាន​ហៅតែ​មុន​ពេល​អ្នកប្រើ​បាន​ចូល​ប៉ុណ្ណោះ"
 
-#: ../daemon/gdm-manager.c:854
+#: ../daemon/gdm-manager.c:858
 msgid "Caller not GDM"
 msgstr "អ្នកហៅ​មិនមែន GDM"
 
-#: ../daemon/gdm-manager.c:864
+#: ../daemon/gdm-manager.c:868
 msgid "Unable to open private communication channel"
 msgstr ""
 
-#: ../daemon/gdm-server.c:378
+#: ../daemon/gdm-server.c:391
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn't exist"
 msgstr "ម៉ាស៊ីន​បម្រើ​ត្រូវ​បាន​បង្កើត​ដោយ​អ្នកប្រើ %s ប៉ុន្តែ​មិន​មាន​អ្នកប្រើ​នោះ​ទេ"
 
-#: ../daemon/gdm-server.c:389 ../daemon/gdm-server.c:409
+#: ../daemon/gdm-server.c:402 ../daemon/gdm-server.c:422
 #, c-format
 msgid "Couldn't set groupid to %d"
 msgstr "មិន​អាច​កំណត់ groupid ទៅជា %d"
 
-#: ../daemon/gdm-server.c:395
+#: ../daemon/gdm-server.c:408
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups () បាន​បរាជ័យ​សម្រាប់ %s"
 
-#: ../daemon/gdm-server.c:401
+#: ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn't set userid to %d"
 msgstr "មិន​អាច​កំណត់ userid ទៅជា %d"
 
-#: ../daemon/gdm-server.c:479
+#: ../daemon/gdm-server.c:492
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s ៖ មិន​អាច​បើក​ឯកសារ​កំណត់​ហេតុ​សម្រាប់​ការ​បង្ហាញ​ %s !"
 
-#: ../daemon/gdm-server.c:500 ../daemon/gdm-server.c:506
-#: ../daemon/gdm-server.c:512
+#: ../daemon/gdm-server.c:513 ../daemon/gdm-server.c:519
+#: ../daemon/gdm-server.c:525
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s ៖ កំហុស​ក្នុង​ការ​កំណត់ %s ទៅជា %s"
 
-#: ../daemon/gdm-server.c:532
+#: ../daemon/gdm-server.c:545
 #, c-format
 msgid "%s: Server priority couldn't be set to %d: %s"
 msgstr "%s ៖ មិន​អាច​កំណត់​អាទិភាព​ម៉ាស៊ីន​បម្រើ​ទៅជា %d ៖ %s"
 
-#: ../daemon/gdm-server.c:684
+#: ../daemon/gdm-server.c:697
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s ៖ ពាក្យ​បញ្ជា​ម៉ាស៊ីន​បម្រើ​ទទេ​សម្រាប់​ការ​បង្ហាញ %s"
@@ -145,56 +162,58 @@ msgstr "ឧបករណ៍​បង្ហាញ"
 msgid "The display device"
 msgstr "ឧបករណ៍​បង្ហាញ"
 
-#: ../daemon/gdm-session.c:1193
+#: ../daemon/gdm-session.c:1215
 msgid "Could not create authentication helper process"
 msgstr "មិន​អាច​ផ្ទៀងផ្ទាត់​ដំណើរការ​ជំនួយ"
 
-#: ../daemon/gdm-session-worker.c:642
+#: ../daemon/gdm-session-worker.c:644
 msgid "Your account was given a time limit that's now passed."
 msgstr "គណនី​របស់​អ្នកត្រូវ​បាន​ផ្ដល់​មាន​ពេល​​កំណត់​​ដែលឥឡូវ​​បាន​ហួស​ហើយ។"
 
-#: ../daemon/gdm-session-worker.c:649
+#: ../daemon/gdm-session-worker.c:651
 msgid "Sorry, that didn't work. Please try again."
 msgstr "សូម​ទោស មិន​ដំណើរការ​ទេ។ សូម​ព្យាយាមម្ដងទៀត។"
 
-#: ../daemon/gdm-session-worker.c:1010
+#: ../daemon/gdm-session-worker.c:1040
 msgid "Username:"
 msgstr "ឈ្មោះ​អ្នកប្រើ ៖"
 
-#: ../daemon/gdm-session-worker.c:1142
-msgid "Your password has expired, please change it now."
-msgstr "ពាក្យ​សម្ងាត់​របស់​អ្នក​ផុត​កំណត់ សូម​ប្ដូរ​វា​ឥឡូវ។"
+#: ../daemon/gdm-session-worker.c:1200
+msgid "Type a hint or question to help remember your password."
+msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1505 ../daemon/gdm-session-worker.c:1522
+#: ../daemon/gdm-session-worker.c:1201
+msgid "Password reminder:"
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1626 ../daemon/gdm-session-worker.c:1643
 #, c-format
 msgid "no user account available"
 msgstr "គ្មាន​គណនី​អ្នកប្រើ"
 
-#: ../daemon/gdm-session-worker.c:1549
+#: ../daemon/gdm-session-worker.c:1670
 msgid "Unable to change to user"
 msgstr "មិន​អាច​ផ្លាស់ប្ដូរ​អ្នកប្រើ"
 
-#: ../daemon/gdm-wayland-session.c:385
-#, fuzzy
+#: ../daemon/gdm-wayland-session.c:470
 msgid "GNOME Display Manager Wayland Session Launcher"
-msgstr "កម្មវិធី​ដំណើរការ​សម័យ​របស់​កម្មវិធី​គ្រប់គ្រង​ការ​បង្ហាញ GNOME"
+msgstr ""
 
-#: ../daemon/gdm-xdmcp-display-factory.c:609
+#: ../daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
 msgstr "មិន​អាច​បង្កើត​រន្ធ​បាន​ទេ !"
 
-#: ../daemon/gdm-x-session.c:686
+#: ../daemon/gdm-x-session.c:812
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr ""
 
-#: ../daemon/gdm-x-session.c:687
+#: ../daemon/gdm-x-session.c:813
 msgid "Listen on TCP socket"
 msgstr ""
 
-#: ../daemon/gdm-x-session.c:698
-#, fuzzy
+#: ../daemon/gdm-x-session.c:824
 msgid "GNOME Display Manager X Session Launcher"
-msgstr "កម្មវិធី​ដំណើរការ​សម័យ​របស់​កម្មវិធី​គ្រប់គ្រង​ការ​បង្ហាញ GNOME"
+msgstr ""
 
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
@@ -252,19 +271,9 @@ msgstr "មាន​តែ​អ្នកប្រើ​ជា root ប៉ុណ
 
 #. Translators: worker is a helper process that does the work
 #. of starting up a session
-#: ../daemon/session-worker-main.c:95
+#: ../daemon/session-worker-main.c:94
 msgid "GNOME Display Manager Session Worker"
 msgstr "កម្មវិធី​ដំណើរការ​សម័យ​របស់​កម្មវិធី​គ្រប់គ្រង​ការ​បង្ហាញ GNOME"
-
-#: ../data/applications/gnome-shell.desktop.in.h:1
-#: ../data/applications/gnome-shell-wayland.desktop.in.h:1
-msgid "GNOME Shell"
-msgstr "សែល​របស់ GNOME"
-
-#: ../data/applications/gnome-shell.desktop.in.h:2
-#: ../data/applications/gnome-shell-wayland.desktop.in.h:2
-msgid "Window management and compositing"
-msgstr "សមាសភាគ និង​ការ​គ្រប់គ្រង​បង្អួច"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
@@ -284,8 +293,7 @@ msgstr "ថា​តើ​ត្រូវ​អនុញ្ញាត​ឲ្យ
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"ជា​ជម្រើស អេក្រង់​ចូល​អាច​អនុញ្ញាត​ឲ្យ​អ្នកប្រើ​ដែល​មាន smartcards ចូល​ដោយ​ប្រើ smartcards  ។"
+msgstr "ជា​ជម្រើស អេក្រង់​ចូល​អាច​អនុញ្ញាត​ឲ្យ​អ្នកប្រើ​ដែល​មាន smartcards ចូល​ដោយ​ប្រើ smartcards  ។"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -295,9 +303,7 @@ msgstr "ថាតើ​ ឬ​មិន​អនុញ្ញាត​ពាក�
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"អេក្រង់ចូល​អាច​ត្រូវ​បាន​កំណត់​រចនាសម្ព័ន្ធ​ ដើម្បី​មិន​អនុញ្ញាត​ឲ្យ​ផ្ទៀងផ្ទាត់​ពាក្យ​សម្ងាត់ ដោយ​បង្ខំ​អ្នកប្រើ​ឲ្យ​"
-"ប្រើប្រាស់ការ​ផ្ទៀងផ្ទាត់​ដោយ​​ស្មាតកាត ឬ​ស្នាម​ម្រាមដៃ។"
+msgstr "អេក្រង់ចូល​អាច​ត្រូវ​បាន​កំណត់​រចនាសម្ព័ន្ធ​ ដើម្បី​មិន​អនុញ្ញាត​ឲ្យ​ផ្ទៀងផ្ទាត់​ពាក្យ​សម្ងាត់ ដោយ​បង្ខំ​អ្នកប្រើ​ឲ្យ​ប្រើប្រាស់ការ​ផ្ទៀងផ្ទាត់​ដោយ​​ស្មាតកាត ឬ​ស្នាម​ម្រាមដៃ។"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -305,21 +311,15 @@ msgstr "ផ្លូវ​ទៅកាន់​រូបភាព​តូច​
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:8
 msgid ""
-"The login screen can optionally show a small image at the top of its user "
-"list to provide site administrators and distributions a way to provide "
-"branding."
+"The login screen can optionally show a small image to provide site "
+"administrators and distributions a way to display branding."
 msgstr ""
-"ជា​ជម្រើស អេក្រង់​ចូល​អាច​បង្ហាញ​រូបភាព​តូច​នៅ​ខាងលើ​បញ្ជី​អ្នកប្រើ​របស់​វា ដើម្បី​ផ្ដល់​អ្នក​គ្រប់គ្រង​​តំបន់បណ្ដាញ "
-"និង​ការ​ចែកចាយដើម្បី​ផ្ដល់  branding ។"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
-"The fallback login screen can optionally show a small image at the top of "
-"its user list to provide site administrators and distributions a way to "
-"provide branding."
+"The fallback login screen can optionally show a small image to provide site "
+"administrators and distributions a way to display branding."
 msgstr ""
-"ជា​ជម្រើស អេក្រង់​ចូល​អាច​បង្ហាញ​រូបភាព​តូច​នៅ​ខាងលើ​បញ្ជី​អ្នកប្រើ​របស់​វា ដើម្បី​ផ្ដល់​អ្នក​គ្រប់គ្រង​​តំបន់បណ្ដាញ "
-"និង​ការ​ចែកចាយដើម្បី​ផ្ដល់ម៉ាកយីហើ ។"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -327,11 +327,9 @@ msgstr "កុំ​បង្ហាញ​​បញ្ជី​អ្នកប្
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"ជា​ធម្មតា អេក្រង់​ចូល​បង្ហាញ​បញ្ជី​ដែល​មាន​អ្នកប្រើ​ត្រូវ​ចូល ។ ការ​កំណត់​នេះ​អាច​ត្រូវ​បាន​បិទ/បើក ដើម្បី​បិទ​ការ​"
-"បង្ហាញ​បញ្ជី​អ្នកប្រើ ។"
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "ជា​ធម្មតា អេក្រង់​ចូល​បង្ហាញ​បញ្ជី​ដែល​មាន​អ្នកប្រើ​ត្រូវ​ចូល ។ ការ​កំណត់​នេះ​អាច​ត្រូវ​បាន​បិទ/បើក ដើម្បី​បិទ​ការ​បង្ហាញ​បញ្ជី​អ្នកប្រើ ។"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -354,7 +352,8 @@ msgid "Disable showing the restart buttons"
 msgstr "បិទ​ការ​បង្ហាញ​ប៊ូតុង​ចាប់ផ្ដើម​ឡើងវិញ"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr "កំណត់​ទៅជា​ពិត ដើម្បី​បិទ​ការ​បង្ហាញ​ប៊ូតុង​ចាប់ផ្ដើម​ឡើងវិញ​នៅ​ក្នុង​បង្អួច​ចូល ។"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
@@ -365,28 +364,7 @@ msgstr "ចំនួន​បរាជ័យ​​នៃ​ការ​ផ្ទ
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"ចំនួន​ដង​ដែលអ្នកប្រើ​ត្រូវ​បាន​អនុញ្ញាត​ព្យាយាម​ផ្ទៀងផ្ទាត់ មុន​នឹង​បោះបង់​ ហើយ​ត្រឡប់ទៅ​ជម្រើស​អ្នកប្រើ។"
-
-#: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
-msgid "Select System"
-msgstr "ជ្រើស​ប្រព័ន្ធ"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
-msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr "XDMCP ៖ មិន​អាច​បង្កើត​អង្គ​ចងចាំ​បណ្ដោះអាសន្ន XDMCP បាន​ទេ !"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
-msgid "XDMCP: Could not read XDMCP header!"
-msgstr "XDMCP ៖ មិន​អាច​អាន​បឋមកថា​របស់ XDMCP បាន​ទេ !"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XDMCP ៖ កំណែ XDMCP មិន​ត្រឹមត្រូវ!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-msgid "XDMCP: Unable to parse address"
-msgstr "XDMCP ៖ មិន​អាច​ញែកអាសយដ្ឋាន"
+msgstr "ចំនួន​ដង​ដែលអ្នកប្រើ​ត្រូវ​បាន​អនុញ្ញាត​ព្យាយាម​ផ្ទៀងផ្ទាត់ មុន​នឹង​បោះបង់​ ហើយ​ត្រឡប់ទៅ​ជម្រើស​អ្នកប្រើ។"
 
 #: ../libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -430,140 +408,3 @@ msgstr "រូប​អេក្រង់​ត្រូវ​បាន​ថត
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "ថត​រូបភាព​អេក្រង់"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
