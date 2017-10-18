@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-11 14:57-0700\n"
-"PO-Revision-Date: 2017-10-11 22:53+0000\n"
+"PO-Revision-Date: 2017-10-17 06:00+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Thai (http://www.transifex.com/endless-mobile-inc/gdm/language/th/)\n"
 "MIME-Version: 1.0\n"
@@ -96,7 +96,7 @@ msgstr "ไม่มีวาระให้ใช้"
 
 #: ../daemon/gdm-manager.c:860
 msgid "Chooser session unavailable"
-msgstr ""
+msgstr "เซสชั่นที่เลือกไม่พร้อมให้บริการ"
 
 #: ../daemon/gdm-manager.c:872
 msgid "Can only be called before user is logged in"

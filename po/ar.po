@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-11 14:57-0700\n"
-"PO-Revision-Date: 2017-10-11 23:05+0000\n"
+"PO-Revision-Date: 2017-10-16 08:55+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/endless-mobile-inc/gdm/language/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -101,7 +101,7 @@ msgstr "لا توجد أي جلسات"
 
 #: ../daemon/gdm-manager.c:860
 msgid "Chooser session unavailable"
-msgstr ""
+msgstr "جلسة المُحَدِّدْ غير متاحة"
 
 #: ../daemon/gdm-manager.c:872
 msgid "Can only be called before user is logged in"

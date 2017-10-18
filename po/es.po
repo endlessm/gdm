@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-11 14:57-0700\n"
-"PO-Revision-Date: 2017-10-11 23:16+0000\n"
+"PO-Revision-Date: 2017-10-18 20:53+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/endless-mobile-inc/gdm/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -97,7 +97,7 @@ msgstr "No hay ninguna sesión disponible"
 
 #: ../daemon/gdm-manager.c:860
 msgid "Chooser session unavailable"
-msgstr ""
+msgstr "Selector de sesión no disponible"
 
 #: ../daemon/gdm-manager.c:872
 msgid "Can only be called before user is logged in"
