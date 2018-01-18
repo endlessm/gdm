@@ -37,6 +37,10 @@ if [ "$1" = "purge" ] ; then
                         delgroup --system Debian-gdm || echo "Could not remove Debian-gdm group."
                 fi
         fi
+
+        # Remote gdm system dconf db, but don't make the package
+        # installation fail in case there's an error here, please.
+        dconf update || true
 fi
 
 #DEBHELPER#
