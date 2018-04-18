@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 21:02+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Asturian (http://www.transifex.com/endless-os/gdm/language/ast/)\n"
 "MIME-Version: 1.0\n"
@@ -147,7 +147,7 @@ msgstr "%s: Comandu de servidor vacíu pala pantalla %s"
 
 #: ../daemon/gdm-session-auditor.c:90
 msgid "Username"
-msgstr "Nome d'usuariu/a"
+msgstr "Nome d'Usuariu"
 
 #: ../daemon/gdm-session-auditor.c:91
 msgid "The username"

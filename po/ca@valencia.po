@@ -6,6 +6,7 @@
 # David Planella Molas <david.planella@gmail.com>, 2008-2011
 # Gil Forcada <gilforcada@guifi.net>, 2012-2013
 # Jordi Mallach <jordi@sindominio.net>, 2002-2006
+# Jordi Mas <jmas@softcatala.org>, 2017
 # Jordi Serratosa <jordis@softcatala.cat>, 2012
 # Josep Sànchez <papapep@gmx.com>, 2013
 # Pau Iranzo <paugnu@gmail.com>, 2011-2012
@@ -16,7 +17,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 20:58+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Catalan (Valencian) (http://www.transifex.com/endless-os/gdm/language/ca%40valencia/)\n"
 "MIME-Version: 1.0\n"
@@ -75,7 +76,7 @@ msgstr "El sistema no pot iniciar una pantalla d'entrada nova."
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "no s'ha trobat l'usuari «%s» al sistema"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -87,7 +88,7 @@ msgstr "No s'ha pogut iniciar el servidor X (l'entorn gràfic) degut a un error 
 
 #: ../daemon/gdm-manager.c:777
 msgid "No display available"
-msgstr ""
+msgstr "No hi ha cap pantalla disponible"
 
 #: ../daemon/gdm-manager.c:846 ../daemon/gdm-manager.c:1122
 msgid "No session available"
@@ -95,7 +96,7 @@ msgstr "No hi ha cap sessió disponible"
 
 #: ../daemon/gdm-manager.c:865
 msgid "Chooser session unavailable"
-msgstr ""
+msgstr "Selector de sessió no disponible"
 
 #: ../daemon/gdm-manager.c:877
 msgid "Can only be called before user is logged in"
@@ -107,17 +108,17 @@ msgstr "El que ha fet la crida no és el GDM"
 
 #: ../daemon/gdm-manager.c:898
 msgid "Unable to open private communication channel"
-msgstr ""
+msgstr "No s'ha pogut obrir un canal de comunicació privat"
 
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "L'usuari %s havia d'engendrar el servidor però este usuari no existeix"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "No s'ha pogut definir el groupid com a %d"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -127,7 +128,7 @@ msgstr "ha fallat l'initgroups () per a %s"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "No s'ha pogut definir l'userid com a %d"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -143,7 +144,7 @@ msgstr "%s: s'ha produït un error en establir %s a %s"
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: no s'ha pogut establir la prioritat del servidor a %d: %s"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -180,11 +181,11 @@ msgstr "No s'ha pogut crear un procés auxiliar d'autenticació"
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "El compte tenia un temps límit que s'ha sobrepassat."
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "S'ha produït algun error. Torneu-ho a provar."
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -209,7 +210,7 @@ msgstr "No s'ha pogut commutar a este usuari"
 
 #: ../daemon/gdm-wayland-session.c:478
 msgid "GNOME Display Manager Wayland Session Launcher"
-msgstr ""
+msgstr "Llançador de la sessió Wayland del gestor de pantalla del GNOME"
 
 #: ../daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
@@ -217,15 +218,15 @@ msgstr "No s'ha pogut crear el sòcol"
 
 #: ../daemon/gdm-x-session.c:826
 msgid "Run program through /etc/gdm/Xsession wrapper script"
-msgstr ""
+msgstr "Executa el programa a través del script d'embolcall /etc/gdm/Xsession"
 
 #: ../daemon/gdm-x-session.c:827
 msgid "Listen on TCP socket"
-msgstr ""
+msgstr "Escolta en el sòcol TCP"
 
 #: ../daemon/gdm-x-session.c:838
 msgid "GNOME Display Manager X Session Launcher"
-msgstr ""
+msgstr "Llançador de la sessió X del gestor de pantalla del GNOME"
 
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
@@ -245,7 +246,7 @@ msgstr "No s'ha pogut crear el directori de registre %s: %s"
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "No es pot trobar l'usuari del GDM «%s». S'interromprà."
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -254,7 +255,7 @@ msgstr "L'usuari del GDM no hauria de ser l'usuari primari. S'interromprà."
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "No s'ha trobat el grup «%s» del GDM. S'interromprà."
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -325,13 +326,13 @@ msgstr "Camí a la imatge petita de la part superior de la llista d'usuaris"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
+msgstr "La pantalla d'entrada pot mostrar de forma opcional una imatge petita que proporciona als administradors i distribuïdors una manera de mostrar una marca."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
+msgstr "La pantalla d'entrada auxiliar pot mostrar de forma opcional una imatge petita que proporciona als administradors i distribuïdors una manera de mostrar una marca."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -410,7 +411,7 @@ msgstr "Versió d'esta aplicació"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— Entrada GDM nova"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

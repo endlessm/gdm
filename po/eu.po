@@ -6,14 +6,14 @@
 # Asier Sarasua Garmendia <asiersar@yahoo.com>, 2013
 # Hizkuntza Politikarako Sailburuordetza <hizkpol@ej-gv.es>, 2004-2005
 # Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2004-2005
-# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2004-2016
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2004-2017
 # julen, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 21:01+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Basque (http://www.transifex.com/endless-os/gdm/language/eu/)\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr "Sistemak ezin du saio-hasierako pantaila abiarazi."
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "ezin izan da “%s“ erabiltzailea aurkitu sisteman"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -92,7 +92,7 @@ msgstr "Ez dago saiorik erabilgarri"
 
 #: ../daemon/gdm-manager.c:865
 msgid "Chooser session unavailable"
-msgstr ""
+msgstr "Ez dago saio-hautatzailerik erabilgarri"
 
 #: ../daemon/gdm-manager.c:877
 msgid "Can only be called before user is logged in"
@@ -109,12 +109,12 @@ msgstr "Ezin da komunikazio pribatuaren kanala ireki"
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "Zerbitzaria %s erabiltzaileak abiarazi behar zuen, baina erabiltzaile hori ez da existitzen"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "Ezin izan da groupid ezarri %d(e)n"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -124,7 +124,7 @@ msgstr "%s(r)en initgroups()-ek huts egin du"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "Ezin izan da userid ezarri %d(e)n"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -140,7 +140,7 @@ msgstr "%s: Errorea %s %s(e)n ezartzean"
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: zerbitzariaren lehentasuna ezin da %d balioarekin ezarri: %s"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -177,11 +177,11 @@ msgstr "Ezin izan dira autentifikazio-izenak irakurri"
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "Zure kontuari denbora-muga bat eman zitzaion, orain iraungitu dena."
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "Horrek ez du funtzionatzen. Saiatu berriro."
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -242,7 +242,7 @@ msgstr "Huts egin du %s LogDir sortzeak: %s"
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "Ezin da GDM-ren “%s“ erabiltzailea aurkitu. Abortatu egingo da!"
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -251,7 +251,7 @@ msgstr "GDM erabiltzaileak ez luke root izan behar. Abortatu egingo da! Abortatu
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "Ezin da GDMren “%s“ taldea aurkitu. Abortatu egingo da!"
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -407,7 +407,7 @@ msgstr "Aplikazio honen bertsioa"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— GDM saio-hasiera berria"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

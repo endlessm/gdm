@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 20:59+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/endless-os/gdm/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -82,7 +82,7 @@ msgstr "A rendszer nem képes új bejelentkezési képernyőt indítani."
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "„%s” nevű felhasználó nem található a rendszeren"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -119,12 +119,12 @@ msgstr "Nem sikerült megnyitni a személyes kommunikációs csatornát"
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "A kiszolgálót a(z) %s felhasználónak kellene indítania, de ez a felhasználó nem létezik"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "Nem sikerült a csoportazonosítót %d értékre beállítani"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -134,7 +134,7 @@ msgstr "az initgroups () meghiúsult a következőhöz: %s"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "Nem sikerült a felhasználói azonosítót %d értékre beállítani"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -150,7 +150,7 @@ msgstr "%s: Hiba a(z) %s beállítása közben a következőre: %s"
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: A kiszolgáló prioritása nem állítható be %d értékre: %s"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -187,11 +187,11 @@ msgstr "Nem hozható létre a hitelesítési segédfolyamat"
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "A fiók időkorlátja letelt."
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "Elnézést, ez nem sikerült. Próbálja újra."
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -252,7 +252,7 @@ msgstr "Nem sikerült a LogDir (%s) létrehozása: %s"
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "Nem található a(z) „%s” GDM felhasználó. A művelet megszakítva."
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -261,7 +261,7 @@ msgstr "A GDM felhasználó nem lehet a root. A művelet megszakítva."
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "Nem található a(z) „%s” GDM csoport. A művelet megszakítva."
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -387,7 +387,7 @@ msgstr "A felhasználó ennyiszer próbálkozhat a hitelesítéssel, mielőtt vi
 
 #: ../libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
-msgstr "Nem hozható létre átmeneti kijelző:"
+msgstr "Nem hozható létre átmeneti kijelző: "
 
 #: ../libgdm/gdm-user-switching.c:90
 msgid "Unable to activate session: "
@@ -417,7 +417,7 @@ msgstr "Ezen alkalmazás verziója"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "– Új GDM bejelentkezés"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

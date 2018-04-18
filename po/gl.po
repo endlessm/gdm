@@ -5,7 +5,7 @@
 # Translators:
 # Antón Méixome <meixome@certima.net>, 2010
 # Antón Méixome <meixome@mancomun.org>, 2009
-# Fran Dieguez <frandieguez@gnome.org>, 2012-2016
+# Fran Dieguez <frandieguez@gnome.org>, 2012-2017
 # Fran Diéguez <frandieguez@gnome.org>, 2009-2012
 # Ignacio Casal Quinteiro <icq@cvs.gnome.org>, 2007
 # Ignacio Casal Quinteiro <icq@svn.gnome.org>, 2007-2008
@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 20:58+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Galician (http://www.transifex.com/endless-os/gdm/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -81,7 +81,7 @@ msgstr "O sistema non pode iniciar unha pantalla de inicio de sesión nova."
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "non foi posíbel atopar o usuario «%s» no sistema"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -101,7 +101,7 @@ msgstr "Non hai ningunha sesión dispoñíbel"
 
 #: ../daemon/gdm-manager.c:865
 msgid "Chooser session unavailable"
-msgstr ""
+msgstr "Non hai ningunha sesión dispoñíbel"
 
 #: ../daemon/gdm-manager.c:877
 msgid "Can only be called before user is logged in"
@@ -118,12 +118,12 @@ msgstr "Non foi posíbel abrir unha canle de comunicación privada"
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "O servidor íase iniciar co usuario %s, mais ese usuario non existe"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "Non foi posíbel definir o identificador de grupo como %d"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -133,7 +133,7 @@ msgstr "fallou o initgroups () para %s"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "Non foi posíbel definir o identificador de usuario como %d"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -149,7 +149,7 @@ msgstr "%s: produciuse un erro ao configurar %s a %s"
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: non foi posíbel definir a prioridade do servidor como %d: %s"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -186,11 +186,11 @@ msgstr "Non foi posíbel crear o proceso de axuda de autenticación"
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "A súa conta obtivo un límite de tempo que foi superado agora."
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "Desculpe, iso non funcionou. Ténteo de novo."
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -251,7 +251,7 @@ msgstr "Produciuse un fallo ao crear o LogDir %s: %s"
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "Non é posíbel atopar o usuario do GDM '%s'. Interrompendo!"
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -260,7 +260,7 @@ msgstr "O usuario do GDM non debería ser o superusuario. Interrompendo!"
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "Non é posíbel atopar o grupo «%s» do GDM. Interrompendo!"
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -416,7 +416,7 @@ msgstr "Versión deste aplicativo"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— Novo inicio de sesión GDM"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

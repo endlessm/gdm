@@ -24,7 +24,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 21:01+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Russian (http://www.transifex.com/endless-os/gdm/language/ru/)\n"
 "MIME-Version: 1.0\n"
@@ -83,7 +83,7 @@ msgstr "Системе не удалось запустить новый экр�
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "не удалось найти в системе пользователя «%s»"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -120,12 +120,12 @@ msgstr "Невозможно открыть приватный коммуник�
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "Сервер должен был быть вызван пользователем %s, но этот пользователь не существует"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "Не удалось установить идентификатор группы в %d"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -135,7 +135,7 @@ msgstr "сбой функции initgroups () для %s"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "Не удалось установить идентификатор пользователя в %d"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -151,7 +151,7 @@ msgstr "%s: ошибка установки %s в %s"
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: не удалось установить приоритет сервера в %d: %s"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -188,11 +188,11 @@ msgstr "Не удалось создать вспомогательный про
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "Время действия учётной записи истекло."
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "Не сработало. Попробуйте ещё раз."
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -253,20 +253,20 @@ msgstr "Не удалось создать каталог журналов %s: %
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "Не найден пользователь GDM «%s». Аварийное завершение."
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
-msgstr "Пользователь GDM не может быть суперпользователем. Аварийное завершение работы!"
+msgstr "Пользователь GDM не должен быть суперпользователем. Аварийное завершение."
 
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "Не удалось найти группу GDM «%s». Аварийное завершение."
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
-msgstr "Группа GDM не должна быть суперпользовательской. Аварийное завершение работы!"
+msgstr "Группа GDM не должна быть группой суперпользователя. Аварийное завершение."
 
 #: ../daemon/main.c:317
 msgid "Make all warnings fatal"
@@ -418,7 +418,7 @@ msgstr "Версия этого приложения"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— вход в систему через GDM"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

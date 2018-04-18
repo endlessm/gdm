@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Alexander Shopov <ash@kambanaria.org>, 2002,2005-2012,2014-2016
+# Alexander Shopov <ash@kambanaria.org>, 2002,2005-2012,2014-2017
 # Borislav Aleksandrov <B.Aleksandrov@cnsys.bg>, 2002
 # Ivaylo Valkov <ivaylo@e-valkov.org>, 2011-2013
 # Jordan Miladinov <jordanmiladinov@gmail.com>, 2011
@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 21:01+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/endless-os/gdm/language/bg/)\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgstr "Системата не може да стартира нова сеси
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "потребителят „%s“ не бе открит в системата"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -98,7 +98,7 @@ msgstr "Няма сесии"
 
 #: ../daemon/gdm-manager.c:865
 msgid "Chooser session unavailable"
-msgstr ""
+msgstr "Няма избор на сесии"
 
 #: ../daemon/gdm-manager.c:877
 msgid "Can only be called before user is logged in"
@@ -115,12 +115,12 @@ msgstr "Не може да се отвори частен канал за ком
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "Сървърът бе породен от потребителя „%s“, но такъв потребител не съществува"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "groupid не може да се зададе да е %d"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -130,7 +130,7 @@ msgstr "неуспех на initgroups() за %s"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "userid не може да се зададе да е %d"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -146,7 +146,7 @@ msgstr "%s: Грешка при задаване на %s да е %s"
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: Не може да се зададе %d като приоритет на сървър: %s"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -183,11 +183,11 @@ msgstr "Помощният процес за идентификация не м�
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "Регистрацията ви е ограничена по време, а то е изтекло."
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "За съжаление това не сработи. Пробвайте наново."
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -248,7 +248,7 @@ msgstr "Неуспешно създаване на папката за журн�
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "Не може да се открие потребителят на GDM „%s“. Програмата спира!"
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -257,7 +257,7 @@ msgstr "Потребителят на GDM не трябва да е „root“. 
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "Не може да се намери групата на GDM (%s). Програмата спира!"
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -413,7 +413,7 @@ msgstr "Версията на тази програма"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— ново влизане чрез GDM"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

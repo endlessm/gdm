@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 20:59+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/endless-os/gdm/language/hr/)\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +67,7 @@ msgstr "Sustav ne može pokrenuti novi zaslon prijave."
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "nemoguće je pronaći korisnika \"%s\" na sustavu"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -104,12 +104,12 @@ msgstr "Nemoguće otvaranje privatno kanala komunikacije"
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "Poslužitelj je stvorio korisnika %s, ali taj korisnik ne postoji"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "Nemoguće postavljanje id grupe na %d"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -119,7 +119,7 @@ msgstr "pokretanje grupe () nije uspjelo za %s"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "Nemoguće postavljanje id korisnika na %d"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -135,7 +135,7 @@ msgstr "%s: Greška pri postavljanju %s na %s"
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: Prioritet poslužitelja se ne može postaviti na %d: %s"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -172,11 +172,11 @@ msgstr "Nemoguće stvaranje procesa pomoći ovjere"
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "Vašem računu dano je vremensko ograničenje koje je sada isteklo."
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "Nažalost, to ne radi. Pokušajte ponovno."
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -237,7 +237,7 @@ msgstr "Neuspješno stvaranje direktorija zapisa %s': %s"
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "Nemoguće je pronaći GDM korisnika ”%s”. Prekidam!"
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -246,7 +246,7 @@ msgstr "GDM korisnik ne može biti korijenski korisnik. Prekidam!"
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "Nemoguće je pronaći GDM grupu ”%s”. Prekidam!"
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -402,7 +402,7 @@ msgstr "Inačica ove aplikacije"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— Nova GDM prijava"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

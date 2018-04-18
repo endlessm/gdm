@@ -5,13 +5,13 @@
 # Translators:
 # Áki G. Karlsson  <aki@akademia.is>, 2003
 # Richard Allen <ra@ra.is>, 2003
-# Sveinn í Felli <sv1@fellsnet.is>, 2015-2016
+# Sveinn í Felli <sv1@fellsnet.is>, 2015-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 21:00+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Icelandic (http://www.transifex.com/endless-os/gdm/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -70,7 +70,7 @@ msgstr "Kerfið er ófært um að ræsa nýjan innskráningarglugga."
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "fann ekki notandann „%s“ á kerfinu"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -90,7 +90,7 @@ msgstr "Engin seta tiltæk"
 
 #: ../daemon/gdm-manager.c:865
 msgid "Chooser session unavailable"
-msgstr ""
+msgstr "Veljaraseta ekki tiltæk"
 
 #: ../daemon/gdm-manager.c:877
 msgid "Can only be called before user is logged in"
@@ -107,12 +107,12 @@ msgstr "Mistókst að opna einkasamskiptarás"
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "Þjóninn átti að ræsa af notandanum %s en sá notandi er ekki til"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "Gat ekki sett groupid hópauðkenni sem %d"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -122,7 +122,7 @@ msgstr "initgroups () brást fyrir %s"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "Gat ekki sett userid einstaklingsauðkenni sem %d"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -138,7 +138,7 @@ msgstr "%s: Villa við að setja %s sem %s"
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: Gat ekki sett forgang þjóns á %d: %s"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -175,11 +175,11 @@ msgstr "Gat ekki búið til hjálparferli auðkenningar"
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "Aðgangnum þínum voru gefin tímamörk sem nú eru liðin."
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "Æ, þetta virkaði ekki. Endilega reyndu aftur."
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -240,7 +240,7 @@ msgstr "Mistókst að búa til LogDir %s: %s"
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "Finn ekki GDM notandann '%s'. Hætti við!"
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -249,7 +249,7 @@ msgstr "GDM notandinn ætti ekki að vera root-kerfisstjóri. Hætti við!"
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "Finn ekki GDM hópinn '%s'. Hætti við!"
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -405,7 +405,7 @@ msgstr "Útgáfa þessa forrits"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— Ný innskráning í GDM"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

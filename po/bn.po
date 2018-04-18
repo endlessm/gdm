@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 21:02+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Bengali (http://www.transifex.com/endless-os/gdm/language/bn/)\n"
 "MIME-Version: 1.0\n"
@@ -141,7 +141,7 @@ msgstr "%s: ডিসপ্লে %s র জন্য লগ-ফাইল খু
 #: ../daemon/gdm-server.c:517
 #, c-format
 msgid "%s: Error setting %s to %s"
-msgstr "%s: %s এর %s নির্ধারণ করতে ব্যর্থ "
+msgstr "%1$s: %2$s এর মান %3$s নির্ধারণ করতে ব্যর্থ"
 
 #: ../daemon/gdm-server.c:537
 #, c-format
@@ -151,11 +151,11 @@ msgstr ""
 #: ../daemon/gdm-server.c:689
 #, c-format
 msgid "%s: Empty server command for display %s"
-msgstr "%s: ডিসপ্লে %s এর জন্য ফাঁকা সার্ভার নির্দেশ উল্লিখিত"
+msgstr "%1s: ডিসপ্লে %2s এর জন্য ফাঁকা সার্ভার কমান্ড উল্লিখিত"
 
 #: ../daemon/gdm-session-auditor.c:90
 msgid "Username"
-msgstr "ব্যবহারকারী নাম"
+msgstr "ব্যবহারকারীর নাম"
 
 #: ../daemon/gdm-session-auditor.c:91
 msgid "The username"
@@ -204,7 +204,7 @@ msgstr "পাসওয়ার্ড স্মরণকারী চিহ্ন"
 #: ../daemon/gdm-session-worker.c:1739 ../daemon/gdm-session-worker.c:1756
 #, c-format
 msgid "no user account available"
-msgstr "কোনো ব্যবহারকারীর অ্যাকাউন্ট পাওয়া যায় নি "
+msgstr "কোনো ব্যবহারকারীর অ্যাকাউন্ট বিদ্যমান নেই"
 
 #: ../daemon/gdm-session-worker.c:1783
 msgid "Unable to change to user"

@@ -4,14 +4,14 @@
 # 
 # Translators:
 # Trung Ngô <ndtrung4419@gmail.com>, 2011
-# Trần Ngọc Quân <vnwildman@gmail.com>, 2013,2015-2016
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2013,2015-2017
 # Trần Ngọc Quân <vnwildman@gmail.com>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 21:00+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/endless-os/gdm/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -70,7 +70,7 @@ msgstr "Hệ thống không thể mở màn hình đăng nhập mới."
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "không tìm thấy người dùng “%s” trên hệ thống"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -90,7 +90,7 @@ msgstr "Không có phiên làm việc nào"
 
 #: ../daemon/gdm-manager.c:865
 msgid "Chooser session unavailable"
-msgstr "Người chọn phiên không khả dụng"
+msgstr "Bộ chọn phiên làm việc không sẵn có"
 
 #: ../daemon/gdm-manager.c:877
 msgid "Can only be called before user is logged in"
@@ -107,12 +107,12 @@ msgstr "Không thể mở kênh truyền thông riêng"
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "Máy phục vụ được người dùng %s khởi tạo, nhưng người dùng đó không tồn tại"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "Không thể đặt mã số nhóm thành %d"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -122,7 +122,7 @@ msgstr "initgroups () bị lỗi đối với %s"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "Không thể đặt mã số người dùng thành %d"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -138,7 +138,7 @@ msgstr "%s: Gặp lỗi khi đặt %s thành %s"
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: Không thể đặt mức ưu tiên của máy phục vụ thành %d: %s"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -175,11 +175,11 @@ msgstr "Không thể tạo tiến trình trợ giúp xác thực"
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "Tài khoản của bạn có đưa ra thời gian giới hạn, cái mà hiện tại đã vượt quá."
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "Rất tiếc, nó không làm việc. Hãy thử lại lần nữa."
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -240,7 +240,7 @@ msgstr "Gặp lỗi khi tạo LogDir %s: %s"
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "Không thể tìm thấy người dùng GDM “%s”. Hủy bỏ!"
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -249,7 +249,7 @@ msgstr "Người dùng GDM không nên là siêu quản trị (root) vì lý do 
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "Không thể tìm thấy nhóm GDM “%s”. Hủy bỏ!"
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -405,7 +405,7 @@ msgstr "Phiên bản của ứng dụng này"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— Đăng nhập GDM mới"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

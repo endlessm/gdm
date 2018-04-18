@@ -6,6 +6,7 @@
 # Akhilan <akhilkrishnans@gmail.com>, 2013
 # Ani Peter <apeter@redhat.com>, 2006-2007,2009,2012
 # Anish A <aneesh.nl@gmail.com>, 2013
+# Anish A <aneesh.nl@gmail.com>, 2017
 # Anivar Aravind|അനിവര്‍ അരവിന്ദ് <anivar@movingrepublic.org>, 2007
 # Ashik Salahudeen|ആഷിക് സലാഹുദ്ദീന്‍ <aashiks@gmail.com>, 2008
 # Balasankar C <c.balasankar@gmail.com>, 2013
@@ -21,7 +22,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 20:59+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Malayalam (http://www.transifex.com/endless-os/gdm/language/ml/)\n"
 "MIME-Version: 1.0\n"
@@ -80,7 +81,7 @@ msgstr "ഒരു പുതിയ പ്രവേശന സ്ക്രീന്
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "സിസ്റ്റത്തില്‍ “%s” എന്ന ഉപയോക്താവിനെ കണ്ടില്ല"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -92,7 +93,7 @@ msgstr "ഒരു ആന്തരിക പിശക് കാരണം X സര
 
 #: ../daemon/gdm-manager.c:777
 msgid "No display available"
-msgstr ""
+msgstr "ഡിസ്പ്ലേ ഒന്നും ലഭ്യമല്ല"
 
 #: ../daemon/gdm-manager.c:846 ../daemon/gdm-manager.c:1122
 msgid "No session available"
@@ -100,7 +101,7 @@ msgstr "പ്രവർത്തനവേളകളൊന്നും ലഭ്�
 
 #: ../daemon/gdm-manager.c:865
 msgid "Chooser session unavailable"
-msgstr ""
+msgstr "ചോസര്‍ പ്രവർത്തനവേളകളൊന്നും ലഭ്യമല്ല"
 
 #: ../daemon/gdm-manager.c:877
 msgid "Can only be called before user is logged in"
@@ -112,17 +113,17 @@ msgstr "കോളര്‍ ജിഡിഎം അല്ല"
 
 #: ../daemon/gdm-manager.c:898
 msgid "Unable to open private communication channel"
-msgstr ""
+msgstr "ഒരു സ്വകാര്യ വിനിമയ വഴി തുറക്കാന്‍ പറ്റിയില്ല"
 
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "സെര്‍വര്‍ തുടങ്ങേിയ ഉപയോക്താവു് %s ആയിരുന്നെങ്കിലും ആ ഉപയോക്താവു് നിലവിലില്ല"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "groupid %d ആയി സജ്ജമാക്കുവാന്‍ സാധിച്ചില്ല"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -132,7 +133,7 @@ msgstr "%s-നുളള initgroups () പരാജയപ്പെട്ടു"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "userid %d ആയി സജ്ജമാക്കുവാന്‍ സാധിച്ചില്ല"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -148,7 +149,7 @@ msgstr "%s: %s-നെ %s-ലേക്ക് സെറ്റ് ചെയ്യ�
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: സെര്‍വറിന്റെ മുന്‍ഗണന %d ആയി ക്രമീകരിക്കുവാൻ സാധിച്ചില്ല: %s"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -185,11 +186,11 @@ msgstr "ആധികാരികതയ്ക്കുള്ള സഹായ പ�
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "താങ്കളുടെ അക്കൗണ്ടിന് അനുവദിച്ച സമയം കഴിഞ്ഞിരിക്കുന്നു"
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "ക്ഷമിക്കുക, അത് നടന്നില്ല. ദയവായി വീണ്ടും ശ്രമിക്കുക"
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -214,7 +215,7 @@ msgstr "ഉപയോക്താവായി മാറുവാന്‍ സാ�
 
 #: ../daemon/gdm-wayland-session.c:478
 msgid "GNOME Display Manager Wayland Session Launcher"
-msgstr ""
+msgstr "ഗ്നോം ഡിസ്പ്ളെ മാനേജര്‍ വേലാന്റ് സെഷന്‍ ലോഞ്ചര്‍"
 
 #: ../daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
@@ -222,15 +223,15 @@ msgstr "സോക്കറ്റ് നിര്‍മ്മിക്കുവ�
 
 #: ../daemon/gdm-x-session.c:826
 msgid "Run program through /etc/gdm/Xsession wrapper script"
-msgstr ""
+msgstr "/etc/gdm/Xsession പൊതിയല്‍ സ്ക്രിപ്റ്റ് വഴി പ്രയോഗം പ്രവര്‍ത്തിപ്പിക്കുക"
 
 #: ../daemon/gdm-x-session.c:827
 msgid "Listen on TCP socket"
-msgstr ""
+msgstr "TCP സോക്കറ്റില്‍ നോക്കുക"
 
 #: ../daemon/gdm-x-session.c:838
 msgid "GNOME Display Manager X Session Launcher"
-msgstr ""
+msgstr "ഗ്നോം ഡിസ്പ്ളെ മാനേജര്‍ എക്സ് സെഷന്‍ ലോഞ്ചര്‍"
 
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
@@ -250,7 +251,7 @@ msgstr "ലോഗ് ഡയറക്ടറി %s സൃഷ്ടികുന്�
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "“%s” എന്ന GDM ഉപയോഗ്താവിനെ കണ്ടെത്താനായില്ല. ഒഴിവാക്കട്ടെ!"
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -259,7 +260,7 @@ msgstr "GDM ഉപയോക്താവ്  root ആയിരിക്കരു�
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "“%s” എന്ന GDM ഗ്രൂപ്പ് കണ്ടെത്താനായില്ല. ഒഴിവാക്കട്ടെ!"
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -330,13 +331,13 @@ msgstr "ഉപയോക്താക്കളുടെ പട്ടികയ്�
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
+msgstr "സൈറ്റ് അഡ്മിനിസ്ട്രേറ്ററുകളേയും വിതരണക്കാരെയും ബ്രാണ്ടിങ് നല്‍കുന്നതിനായി പ്രവേശന സ്ക്രീനില്‍ ഉപയോക്താക്കളുടെ പട്ടികയുടെ മുകളില്‍ ഒരു ചെറിയ ചിത്രം കാണിയ്ക്കാം."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
+msgstr "സൈറ്റ് അഡ്മിനിസ്ട്രേറ്ററുകളേയും വിതരണക്കാരെയും ബ്രാണ്ടിങ് നല്‍കുന്നതിനായി ഫോള്‍ബാക്ക് പ്രവേശന സ്ക്രീനില്‍ ഉപയോക്താക്കളുടെ പട്ടികയുടെ മുകളില്‍ ഒരു ചെറിയ ചിത്രം കാണിയ്ക്കാം."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -385,11 +386,11 @@ msgstr "ഉപയോക്താവിനുള്ളതു് തെരഞ്�
 
 #: ../libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
-msgstr "ട്രാന്‍സിയന്റ് പ്രദര്‍ശനം തയ്യാറാക്കുവാന്‍ സാധ്യമായില്ല:"
+msgstr "ട്രാന്‍സിയന്റ് പ്രദര്‍ശനം തയ്യാറാക്കുവാന്‍ സാധ്യമായില്ല: "
 
 #: ../libgdm/gdm-user-switching.c:90
 msgid "Unable to activate session: "
-msgstr "പ്രവർത്തനവേള സജീവമാക്കുവാന്‍ സാധ്യമല്ല:"
+msgstr "പ്രവർത്തനവേള സജീവമാക്കുവാന്‍ സാധ്യമല്ല: "
 
 #: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
@@ -415,7 +416,7 @@ msgstr "ഈ പ്രയോഗത്തിന്റെ പതിപ്പു്"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— പുതിയ ജിഡിഎം വഴി അകത്തു് കയറുക"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

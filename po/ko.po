@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 21:02+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Korean (http://www.transifex.com/endless-os/gdm/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr "시스템에서 새 로그인 화면을 시작하지 못했습니다."
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "시스템에 “%s” 사용자가 없습니다"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -109,12 +109,12 @@ msgstr "안전한 통신 채널을 열 수 없습니다"
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "%s 사용자가 서버를 실행했지만 해당 사용자가 없습니다"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "그룹 아이디를 %d(으)로 맞출 수 없습니다"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -124,7 +124,7 @@ msgstr "%s에 대해 initgroups () 실패"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "사용자 아이디를 %d(으)로 맞출 수 없습니다"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -140,7 +140,7 @@ msgstr "%s: %s을(를) %s(으)로 설정하는 데 오류가 발생했습니다"
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: server 우선순위를 %d(으)로 설정할 수 없습니다: %s"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -177,11 +177,11 @@ msgstr "인증 도우미 프로세스를 만들지 못했습니다."
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "계정에 시간 제한이 걸려 있었고, 지금 그 제한이 지났습니다."
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "죄송하지만 동작하지 않습니다. 다시 시도하십시오."
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -242,7 +242,7 @@ msgstr "LogDir %s을(를) 만드는데 실패했습니다: %s"
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "GDM 사용자  “%s”(이)가 없습니다. 중지!"
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -251,7 +251,7 @@ msgstr "GDM 사용자는 루트이면 안 됩니다. 중지!"
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "GDM 그룹 “%s”(이)가 없습니다. 중지!"
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -407,7 +407,7 @@ msgstr "이 프로그램의 버전"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— 새 GDM 로그인"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

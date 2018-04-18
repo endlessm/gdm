@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 21:02+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/endless-os/gdm/language/sk/)\n"
 "MIME-Version: 1.0\n"
@@ -72,7 +72,7 @@ msgstr "Systém nie je schopný spustiť novú prihlasovaciu obrazovku."
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "používateľ „%s“ sa v systéme nenašiel"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -109,12 +109,12 @@ msgstr "Nepodarilo sa otvoriť súkromný komunikačný kanál"
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "Server mal byť spustený používateľom %s, taký ale neexistuje"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "Nepodarilo sa nastaviť identifikátor skupiny na %d"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -124,7 +124,7 @@ msgstr "initgroups () zlyhalo pre %s"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "Nepodarilo sa nastaviť identifikátor používateľa na %d"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -140,7 +140,7 @@ msgstr "%s: Chyba pri nastavovaní %s na %s"
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: Priorita servera nemohla byť nastavená na %d: %s"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -177,11 +177,11 @@ msgstr "Nepodarilo sa vytvoriť proces pomocníka pre overenie totožnosti"
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "Vášmu účtu bol pridelený časový limit, ktorý práve teraz vypršal."
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "Prepáčte, toto nefungovalo. Prosím, skúste to znovu."
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -242,7 +242,7 @@ msgstr "Zlyhalo vytváranie LogDir %s: %s"
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "Nie je možné nájsť používateľa procesu GDM „%s“. Prerušuje sa!"
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -251,7 +251,7 @@ msgstr "Používateľ GDM by nemal byť root. Prerušuje sa!"
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "Nie je možné nájsť skupinu procesu GDM „%s“. Prerušuje sa!"
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -407,7 +407,7 @@ msgstr "Verzia tejto aplikácie"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— Nové prihlásenie GDM"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

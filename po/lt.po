@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 20:59+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/endless-os/gdm/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -82,7 +82,7 @@ msgstr "Sistemai nepavyksta paleisti naujo prosijungimo ekrano."
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "nepavyko sistemoje rasti naudotojo „%s“"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -119,12 +119,12 @@ msgstr "Nepavyko atverti privataus komunikacijos kanalo"
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "Serveris turėjo būti sukurtas naudotojo %s, bet toks naudotojas neegzistuoja"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "Nepavyko nustatyti groupid į %d"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -134,7 +134,7 @@ msgstr "initgroups() %s nepavyko"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "Nepavyko nustatyti userid į %d"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -150,7 +150,7 @@ msgstr "%s: Klaida nustatant %s į %s"
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: Serverio prioriteto nepavyko nustatyti į %d: %s"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -187,11 +187,11 @@ msgstr "Nepavyko sukurti tapatybės patvirtinimo pagalbinio proceso"
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "Jūsų paskyrai buvo suteiktas laiko limitas, kuris dabar baigėsi."
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "Atleiskite, tai nesuveikė. Bandykite dar kartą."
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -252,7 +252,7 @@ msgstr "Nepavyko sukurti LogDir %s: %s"
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "Nepavyko rasti GDM naudotojo „%s“. Nutraukiama!"
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -261,7 +261,7 @@ msgstr "GDM naudotojas neturėtų būti root. Nutraukiama!"
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "Nepavyko rasti GDM grupės „%s“. Nutraukiama!"
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -417,7 +417,7 @@ msgstr "Šios programos versija"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— Naujas GDM prisijungimas"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

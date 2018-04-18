@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 21:01+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/endless-os/gdm/language/id/)\n"
 "MIME-Version: 1.0\n"
@@ -75,7 +75,7 @@ msgstr "Sistem tak bisa memulai suatu layar log masuk baru."
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "tidak menemukan pengguna \"%s\" pada sistem"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -112,12 +112,12 @@ msgstr "Tak dapat membuka kanal komunikasi privat"
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "Server mestinya dijalankan oleh %s, tetapi pengguna tersebut tidak ada"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "Tak dapat menentukan groupid menjadi %d"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -127,7 +127,7 @@ msgstr "initgroups () gagal untuk %s"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "Tak dapat menentukan userid menjadi %d"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -143,7 +143,7 @@ msgstr "%s: Gagal mengatur %s menjadi %s"
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: Prioritas server tidak dapat ditentukan menjadi %d: %s"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -180,11 +180,11 @@ msgstr "Tak dapat membuat pembantu proses otentikasi"
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "Akun Anda diberi batas waktu yang kini berakhir."
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "Maaf, itu tidak bisa. Harap coba lagi."
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -245,7 +245,7 @@ msgstr "Gagal membuat LogDir %s: %s"
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "Tak menemukan pengguna GDM “%s”. Dibatalkan!"
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -254,7 +254,7 @@ msgstr "Pengguna GDM seharusnya bukan root. Dibatalkan!"
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "Tak menemukan kelompok GDM “%s”. Dibatalkan!"
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -345,7 +345,7 @@ msgstr "Layar log masuk biasanya menampilkan daftar pengguna yang tersedia untuk
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
-msgstr "Aktifkan menampilkan pesan banner"
+msgstr "Menampilkan pesan penyambut"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:13
 msgid "Set to true to show the banner message text."
@@ -401,7 +401,7 @@ msgstr "Diabaikan — dipertahankan untuk kompatibilitas"
 
 #: ../utils/gdmflexiserver.c:48 ../utils/gdm-screenshot.c:43
 msgid "Debugging output"
-msgstr "Keluaran awakutu"
+msgstr "Men-debug output"
 
 #: ../utils/gdmflexiserver.c:52
 msgid "Version of this application"
@@ -410,7 +410,7 @@ msgstr "Versi dari aplikasi ini"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— Log masuk GDM baru"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

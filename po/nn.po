@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 21:01+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Norwegian Nynorsk (http://www.transifex.com/endless-os/gdm/language/nn/)\n"
 "MIME-Version: 1.0\n"
@@ -405,7 +405,7 @@ msgstr "Utdata frå feilsøking"
 
 #: ../utils/gdmflexiserver.c:52
 msgid "Version of this application"
-msgstr "Versjon av dette programmet"
+msgstr "Versjonen av dette programmet"
 
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137

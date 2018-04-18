@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 21:02+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Kazakh (http://www.transifex.com/endless-os/gdm/language/kk/)\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +67,7 @@ msgstr "Жүйеге кірудің жаңа экраның жүйе іске қ
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "жүйеден \"%s\" пайдаланушысы табылмады"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -104,12 +104,12 @@ msgstr "Жеке хабарласу арнасын ашу мүмкін емес"
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "Серверді %s пайдаланушысы қосқан, бірақ ол пайдаланушысы жоқ болып тұр"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "Groupid мәнін %d-ға орнату қатесі"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -119,7 +119,7 @@ msgstr "%s үшін initgroups () қатесі"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "Userid мәнін %d-ға орнату қатесі"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -135,7 +135,7 @@ msgstr "%s: %s жаңа %s мәніне орнату қатесі"
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: Сервердің приоритеті %d мәніне орнатуға болмайды: %s"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -172,11 +172,11 @@ msgstr "Аутентификациясының көмекші үрдісін ж�
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "Тіркелгіңіз үшін берілген уақыт мерзімі енді аяқталды."
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "Кешіріңіз, бұл дұрыс емес болды. Қайтадан көріңіз."
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -237,7 +237,7 @@ msgstr "LogDir %s жасау сәтсіз: %s"
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "GDM пайдаланушысы '%s' табылмады. Тоқтатылады!"
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -246,7 +246,7 @@ msgstr "GDM пайдаланушысы root болмауы керек. Тоқт�
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "GDM тобы '%s' табылмады. Тоқтатылады!"
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -402,7 +402,7 @@ msgstr "Осы бағдарламасының нұсқасы"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— Жаңа GDM жүйеге кіру"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

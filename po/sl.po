@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-18 21:02+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Slovenian (http://www.transifex.com/endless-os/gdm/language/sl/)\n"
 "MIME-Version: 1.0\n"
@@ -69,7 +69,7 @@ msgstr "Ni mogoče začeti novega prijavnega zaslona."
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "v sistemu ni mogoče najti uporabnika »%s«"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -89,7 +89,7 @@ msgstr "Na voljo ni nobene seje"
 
 #: ../daemon/gdm-manager.c:865
 msgid "Chooser session unavailable"
-msgstr "Izbirnik seje ni na voljo"
+msgstr "Seja izbirnika ni na voljo"
 
 #: ../daemon/gdm-manager.c:877
 msgid "Can only be called before user is logged in"
@@ -106,12 +106,12 @@ msgstr "Ni mogoče odpreti zasebnega kanala za sporočanje"
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "Strežnik bi moral biti oživljen prek uporabnika %s, vendar ta ne obstaja"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "Ni mogoče nastaviti groupid na %d"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -121,7 +121,7 @@ msgstr "initgrougs() ni uspel za %s"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "Ni mogoče nastaviti userid na %d"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -137,7 +137,7 @@ msgstr "%s: napaka med nastavljanjem %s na %s"
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: prednosti strežnika ni mogoče nastaviti na %d: %s"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -174,11 +174,11 @@ msgstr "Ni mogoče ustvariti opravila pomočnika overitve prijave"
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "Računu je določen dovoljen čas, ki je sedaj pretekel."
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "Dejanje je spodletelo. Poskusite znova."
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -239,7 +239,7 @@ msgstr "Napaka med ustvarjanjem dnevniške mape %s: %s"
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "Ni mogoče najti uporabnika GDM »%s«. Dejanje je prekinjeno!"
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -248,7 +248,7 @@ msgstr "Uporabnika GDM ni mogoče določiti kot skrbnika. Dejanje je prekinjeno!
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "Ni mogoče najti skupine GDM »%s«. Dejanje je prekinjeno!"
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -404,7 +404,7 @@ msgstr "Različica programa"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "– nova prijava GDM"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
