@@ -1,130 +1,147 @@
-# translation of as.po to Assamese
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
-# Amitakhya Phukan <aphukan@redhat.com>, 2006, 2008.
-# Amitakhya Phukan <amitakhya@svn.gnome.org>, 2008.
-# Amitakhya Phukan <aphukan@fedoraproject.org>, 2009.
-# Nilamdyuti Goswami <ngoswami@redhat.com>, 2011, 2012, 2013.
+# 
+# Translators:
+# Amitakhya Phukan <amitakhya@svn.gnome.org>, 2008
+# Amitakhya Phukan <aphukan@fedoraproject.org>, 2009
+# Amitakhya Phukan <aphukan@redhat.com>, 2006,2008
+# Nilamdyuti Goswami <ngoswami@redhat.com>, 2011-2014
 msgid ""
 msgstr ""
-"Project-Id-Version: as\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-27 15:41-0400\n"
-"PO-Revision-Date: 2013-07-31 21:44+0530\n"
-"Last-Translator: Nilamdyuti Goswami <ngoswami@redhat.com>\n"
-"Language-Team: American English <kde-i18n-doc@kde.org>\n"
-"Language: as\n"
+"POT-Creation-Date: 2018-04-18 13:30-0700\n"
+"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Assamese (http://www.transifex.com/endless-os/gdm/language/as/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1)\n"
-"X-Generator: Lokalize 1.5\n"
+"Language: as\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../common/gdm-common.c:298
+#: ../chooser/gdm-host-chooser-dialog.c:147
+msgid "Select System"
+msgstr "চিস্টেম বাছক"
+
+#: ../chooser/gdm-host-chooser-widget.c:254
+msgid "XDMCP: Could not create XDMCP buffer!"
+msgstr "XMCP: XDMCP বাফাৰক সৃষ্টি কৰিব নোৱাৰি!"
+
+#: ../chooser/gdm-host-chooser-widget.c:260
+msgid "XDMCP: Could not read XDMCP header!"
+msgstr "XDMCP: XDMCP হেডাৰ পঢ়িব পৰা নগল!"
+
+#: ../chooser/gdm-host-chooser-widget.c:266
+msgid "XDMCP: Incorrect XDMCP version!"
+msgstr "XDMCP: ভুল XDMCP সংস্কৰণ!"
+
+#: ../chooser/gdm-host-chooser-widget.c:272
+msgid "XDMCP: Unable to parse address"
+msgstr "XDMCP: ঠিকনা বিশ্লেষণ কৰিবলে অক্ষম"
+
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom এটা আখৰ ডিভাইচ নহয়"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "বৰ্ত্তমানৰ অধিবেশন চিনাক্ত কৰিব পৰা নগল।"
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "বৰ্তমান স্থান চিনাক্ত কৰিব নোৱাৰি।"
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"চিস্টেম এটা স্থায়ী লগিন পৰ্দালে যোৱা হব নে এটা নতুন লগিন পৰ্দা আৰম্ভ কৰা হব "
-"নিৰ্ধাৰণ কৰিবলে অক্ষম।"
+msgstr "চিস্টেম এটা স্থায়ী লগিন পৰ্দালে যোৱা হব নে এটা নতুন লগিন পৰ্দা আৰম্ভ কৰা হব নিৰ্ধাৰণ কৰিবলে অক্ষম।"
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "চিস্টেম এটা নতুন লগিন পৰ্দা আৰম্ভ কৰিবলে অক্ষম।"
 
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
-msgid "could not find user \"%s\" on system"
-msgstr "চিস্টেমত \"%s\" ব্যৱহাৰকাৰীক পোৱা নাযায়"
+msgid "could not find user “%s” on system"
+msgstr ""
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"অভ্যন্তৰীক ত্ৰুটিৰ বাবে X চাৰ্ভাৰ (আপোনাৰ গ্ৰাফীয় পৰিবেশ) আৰম্ভ কৰিব পৰা নগল। "
-"আপোনাৰ চিস্টেমৰ প্ৰশাসকক যোগাযোগ কৰক বা আপোনাৰ syslog চাওক ত্ৰুটি জানিবৰ বাবে। "
-"তেতিয়ালৈকে এই প্ৰদৰ্শন অসামৰ্থবান কৰা হ'ব। সমস্যা সমাধান কৰাৰ পিছত অনুগ্ৰহ কৰি GDM "
-"পুনৰাম্ভ কৰিব।"
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "অভ্যন্তৰীক ত্ৰুটিৰ বাবে X চাৰ্ভাৰ (আপোনাৰ গ্ৰাফীয় পৰিবেশ) আৰম্ভ কৰিব পৰা নগল। আপোনাৰ চিস্টেমৰ প্ৰশাসকক যোগাযোগ কৰক বা আপোনাৰ syslog চাওক ত্ৰুটি জানিবৰ বাবে। তেতিয়ালৈকে এই প্ৰদৰ্শন অসামৰ্থবান কৰা হ'ব। সমস্যা সমাধান কৰাৰ পিছত অনুগ্ৰহ কৰি GDM পুনৰাম্ভ কৰিব।"
 
-#: ../daemon/gdm-manager.c:766
-#, fuzzy
+#: ../daemon/gdm-manager.c:777
 msgid "No display available"
-msgstr "কোনো অধিবেশন উপলব্ধ নাই"
+msgstr ""
 
-#: ../daemon/gdm-manager.c:833 ../daemon/gdm-manager.c:1088
+#: ../daemon/gdm-manager.c:846 ../daemon/gdm-manager.c:1122
 msgid "No session available"
 msgstr "কোনো অধিবেশন উপলব্ধ নাই"
 
-#: ../daemon/gdm-manager.c:844
+#: ../daemon/gdm-manager.c:865
+msgid "Chooser session unavailable"
+msgstr ""
+
+#: ../daemon/gdm-manager.c:877
 msgid "Can only be called before user is logged in"
 msgstr "কেৱল ব্যৱহাৰকাৰী কগিন হোৱাৰ আগত কল কৰিব পাৰি"
 
-#: ../daemon/gdm-manager.c:854
+#: ../daemon/gdm-manager.c:888
 msgid "Caller not GDM"
 msgstr "কলাৰ GDM নহয়"
 
-#: ../daemon/gdm-manager.c:864
+#: ../daemon/gdm-manager.c:898
 msgid "Unable to open private communication channel"
 msgstr ""
 
-#: ../daemon/gdm-server.c:378
+#: ../daemon/gdm-server.c:383
 #, c-format
-msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr "ব্যৱহাৰকাৰী %s এ চাৰ্ভাৰক আৰম্ভ কৰিব লাগিছিল কিন্তু সেই ব্যৱহাৰকাৰীজন নাই"
+msgid "Server was to be spawned by user %s but that user doesn’t exist"
+msgstr ""
 
-#: ../daemon/gdm-server.c:389 ../daemon/gdm-server.c:409
+#: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
-msgid "Couldn't set groupid to %d"
-msgstr "groupid ক %d লৈ নিৰ্ধাৰিত কৰিব নোৱাৰি"
+msgid "Couldn’t set groupid to %d"
+msgstr ""
 
-#: ../daemon/gdm-server.c:395
+#: ../daemon/gdm-server.c:400
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "%s ৰ বাবে initgroups () ব্যৰ্থ হ'ল"
 
-#: ../daemon/gdm-server.c:401
+#: ../daemon/gdm-server.c:406
 #, c-format
-msgid "Couldn't set userid to %d"
-msgstr "%d লৈ userid নিৰ্ধাৰিত কৰিব নোৱাৰি"
+msgid "Couldn’t set userid to %d"
+msgstr ""
 
-#: ../daemon/gdm-server.c:479
+#: ../daemon/gdm-server.c:484
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: প্ৰদৰ্শন %s ৰ বাবে logfile খোলা নগল!"
 
-#: ../daemon/gdm-server.c:500 ../daemon/gdm-server.c:506
-#: ../daemon/gdm-server.c:512
+#: ../daemon/gdm-server.c:505 ../daemon/gdm-server.c:511
+#: ../daemon/gdm-server.c:517
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: %s ক %s লৈ নিৰ্ধাৰণ কৰোঁতে ত্ৰুটি"
 
-#: ../daemon/gdm-server.c:532
+#: ../daemon/gdm-server.c:537
 #, c-format
-msgid "%s: Server priority couldn't be set to %d: %s"
-msgstr "%s: চাৰ্ভাৰৰ প্ৰাথমিকতাৰ মাত্ৰা %d ৰূপে নিৰ্ধাৰণ কৰোঁতে ব্যৰ্থ: %s"
+msgid "%s: Server priority couldn’t be set to %d: %s"
+msgstr ""
 
-#: ../daemon/gdm-server.c:684
+#: ../daemon/gdm-server.c:689
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: প্ৰদৰ্শন %s ৰ বাবে ৰিক্ত চাৰ্ভাৰ কমান্ড"
@@ -153,56 +170,58 @@ msgstr "প্ৰদৰ্শনৰ ডিভাইচ"
 msgid "The display device"
 msgstr "প্ৰদৰ্শনৰ ডিভাইচ"
 
-#: ../daemon/gdm-session.c:1193
+#: ../daemon/gdm-session.c:1261
 msgid "Could not create authentication helper process"
 msgstr "প্ৰমাণীকৰণ সহায়ক প্ৰক্ৰিয়া সৃষ্টি কৰিব পৰা নগল"
 
-#: ../daemon/gdm-session-worker.c:642
-msgid "Your account was given a time limit that's now passed."
-msgstr "আপোনাৰ একাওন্টক এটা সময় সীমা দিয়া হৈছিল যি অতিক্ৰম হৈছে।"
+#: ../daemon/gdm-session-worker.c:768
+msgid "Your account was given a time limit that’s now passed."
+msgstr ""
 
-#: ../daemon/gdm-session-worker.c:649
-msgid "Sorry, that didn't work. Please try again."
-msgstr "ক্ষমা কৰিব, সেয়া কাম নকৰিলে। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।"
+#: ../daemon/gdm-session-worker.c:775
+msgid "Sorry, that didn’t work. Please try again."
+msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1010
+#: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
 msgstr "ব্যৱহাৰকাৰীৰ নাম:"
 
-#: ../daemon/gdm-session-worker.c:1142
-msgid "Your password has expired, please change it now."
-msgstr "আপোনাৰ পাছৱাৰ্ডৰ অৱসান হৈছে, অনুগ্ৰহ কৰি ইয়াক পৰিবৰ্তন কৰক।"
+#: ../daemon/gdm-session-worker.c:1313
+msgid "Type a hint or question to help remember your password."
+msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1505 ../daemon/gdm-session-worker.c:1522
+#: ../daemon/gdm-session-worker.c:1314
+msgid "Password reminder:"
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1739 ../daemon/gdm-session-worker.c:1756
 #, c-format
 msgid "no user account available"
 msgstr "কোনো ব্যৱহাৰকাৰীৰ একাওন্ট নাই"
 
-#: ../daemon/gdm-session-worker.c:1549
+#: ../daemon/gdm-session-worker.c:1783
 msgid "Unable to change to user"
 msgstr "ব্যৱহাৰকাৰীলৈ সলনি কৰিব পৰা নাযায়"
 
-#: ../daemon/gdm-wayland-session.c:385
-#, fuzzy
+#: ../daemon/gdm-wayland-session.c:478
 msgid "GNOME Display Manager Wayland Session Launcher"
-msgstr "GNOME প্ৰদৰ্শন ব্যৱস্থাপক অধিবেশন কৰ্মি"
+msgstr ""
 
-#: ../daemon/gdm-xdmcp-display-factory.c:609
+#: ../daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
 msgstr "ছ'কেট সৃষ্টি কৰিব পৰা নগল!"
 
-#: ../daemon/gdm-x-session.c:686
+#: ../daemon/gdm-x-session.c:826
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr ""
 
-#: ../daemon/gdm-x-session.c:687
+#: ../daemon/gdm-x-session.c:827
 msgid "Listen on TCP socket"
 msgstr ""
 
-#: ../daemon/gdm-x-session.c:698
-#, fuzzy
+#: ../daemon/gdm-x-session.c:838
 msgid "GNOME Display Manager X Session Launcher"
-msgstr "GNOME প্ৰদৰ্শন ব্যৱস্থাপক অধিবেশন কৰ্মি"
+msgstr ""
 
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
@@ -221,8 +240,8 @@ msgstr "LogDir %s সৃষ্টি কৰিবলে ব্যৰ্থ: %s"
 
 #: ../daemon/main.c:223
 #, c-format
-msgid "Can't find the GDM user '%s'. Aborting!"
-msgstr "'%s' GDM ব্যৱহাৰকাৰী পোৱা নাযায়। বাতিল কৰা হৈছে!"
+msgid "Can’t find the GDM user “%s”. Aborting!"
+msgstr ""
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -230,49 +249,39 @@ msgstr "GDM ৰ ব্যৱহাৰকাৰী root হ'ব নোৱাৰ�
 
 #: ../daemon/main.c:235
 #, c-format
-msgid "Can't find the GDM group '%s'. Aborting!"
-msgstr "'%s' GDM দল নাই। বাতিল কৰা হৈছে!"
+msgid "Can’t find the GDM group “%s”. Aborting!"
+msgstr ""
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
 msgstr "GDM দল root হ'ব নোৱাৰে। বাতিল কৰা হৈছে!"
 
-#: ../daemon/main.c:318
+#: ../daemon/main.c:317
 msgid "Make all warnings fatal"
 msgstr "সকলো সকিয়নীক ধ্বংসাত্মক ৰূপ দিয়ক"
 
-#: ../daemon/main.c:319
+#: ../daemon/main.c:318
 msgid "Exit after a time (for debugging)"
 msgstr "এটা সময়ৰ পিছত প্ৰস্থান কৰক  (ডিবাগিংৰ বাবে)"
 
-#: ../daemon/main.c:320
+#: ../daemon/main.c:319
 msgid "Print GDM version"
 msgstr "GDM ৰ সংস্কৰণ প্ৰিন্ট কৰক"
 
-#: ../daemon/main.c:333
+#: ../daemon/main.c:330
 msgid "GNOME Display Manager"
 msgstr "GNOME প্ৰদৰ্শন ব্যৱস্থাপক"
 
 #. make sure the pid file doesn't get wiped
-#: ../daemon/main.c:381
+#: ../daemon/main.c:351
 msgid "Only the root user can run GDM"
 msgstr "অকল root ব্যৱহাৰকাৰীজনে GDM চলাব পাৰিব"
 
 #. Translators: worker is a helper process that does the work
 #. of starting up a session
-#: ../daemon/session-worker-main.c:95
+#: ../daemon/session-worker-main.c:94
 msgid "GNOME Display Manager Session Worker"
 msgstr "GNOME প্ৰদৰ্শন ব্যৱস্থাপক অধিবেশন কৰ্মি"
-
-#: ../data/applications/gnome-shell.desktop.in.h:1
-#: ../data/applications/gnome-shell-wayland.desktop.in.h:1
-msgid "GNOME Shell"
-msgstr "GNOME শ্বেল"
-
-#: ../data/applications/gnome-shell.desktop.in.h:2
-#: ../data/applications/gnome-shell-wayland.desktop.in.h:2
-msgid "Window management and compositing"
-msgstr "উইন্ডো ব্যৱস্থাপনা আৰু সংৰচনা"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
@@ -282,9 +291,7 @@ msgstr "আঙুলিৰছাপ পঢ়োতাসমূহক লগিন�
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"ব্যৱহাকাৰীসমূহ যিসকলে সেইসমূহ ছাপ ব্যৱহাৰ কৰি তেওলোকৰ আঙুলিৰছাপসমূহ তালিকাভুক্ত "
-"কৰিছে তেওলোকক লগিন পৰ্দায় বিকল্পভাৱে অনুমতি দিব পাৰে।"
+msgstr "ব্যৱহাকাৰীসমূহ যিসকলে সেইসমূহ ছাপ ব্যৱহাৰ কৰি তেওলোকৰ আঙুলিৰছাপসমূহ তালিকাভুক্ত কৰিছে তেওলোকক লগিন পৰ্দায় বিকল্পভাৱে অনুমতি দিব পাৰে।"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -294,9 +301,7 @@ msgstr "স্মাৰ্টকাৰ্ড পঢ়োতাসমূহক ল�
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"ব্যৱহাৰকাৰীসমূহ যিসকলৰ সেইসমূহ স্মাৰ্টকাৰ্ড ব্যৱহাৰ কৰি লগিন কৰিবলে স্মাৰ্টকাৰ্ডসমূহ "
-"আছে তেওলোকক লগিন পৰ্দায় বিকল্পভাৱে অনুমতি দিব পাৰে।"
+msgstr "ব্যৱহাৰকাৰীসমূহ যিসকলৰ সেইসমূহ স্মাৰ্টকাৰ্ড ব্যৱহাৰ কৰি লগিন কৰিবলে স্মাৰ্টকাৰ্ডসমূহ আছে তেওলোকক লগিন পৰ্দায় বিকল্পভাৱে অনুমতি দিব পাৰে।"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -306,9 +311,7 @@ msgstr "লগিনৰ বাবে পাছৱাৰ্ডসমূহৰ অ
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"লগিন পৰ্দাক পাছৱাৰ্ড প্ৰমাণীকৰণৰ অনুমতি নিদিবলে সংৰূপণ কৰিব পাৰি, ব্যৱহাৰকাৰীক "
-"স্মাৰ্টকাৰ্ড অথবা ফিংগাৰপ্ৰিন্ট প্ৰমাণীকৰণ ব্যৱহাৰ কৰিবলে বলৱৎ কৰি।"
+msgstr "লগিন পৰ্দাক পাছৱাৰ্ড প্ৰমাণীকৰণৰ অনুমতি নিদিবলে সংৰূপণ কৰিব পাৰি, ব্যৱহাৰকাৰীক স্মাৰ্টকাৰ্ড অথবা ফিংগাৰপ্ৰিন্ট প্ৰমাণীকৰণ ব্যৱহাৰ কৰিবলে বলৱৎ কৰি।"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -316,21 +319,15 @@ msgstr "ব্যৱহাৰকাৰী তালিকাৰ উপৰত স
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:8
 msgid ""
-"The login screen can optionally show a small image at the top of its user "
-"list to provide site administrators and distributions a way to provide "
-"branding."
+"The login screen can optionally show a small image to provide site "
+"administrators and distributions a way to display branding."
 msgstr ""
-"ছাইট প্ৰশাসকসমূহ আৰু বিতৰনসমূহক ব্ৰেন্ডিংৰ বাবে এটা পদ্ধতি প্ৰদান কৰিবলে লগিন পৰ্দায় "
-"ইয়াৰ ব্যৱহাৰকাৰী তালিকাৰ উপৰফালে বিকল্পভাৱে এটা সৰু ছবি দেখাব পাৰে।"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
-"The fallback login screen can optionally show a small image at the top of "
-"its user list to provide site administrators and distributions a way to "
-"provide branding."
+"The fallback login screen can optionally show a small image to provide site "
+"administrators and distributions a way to display branding."
 msgstr ""
-"ছাইট প্ৰশাসকসমূহ আৰু বিতৰনসমূহক ব্ৰেন্ডিংৰ বাবে এটা পদ্ধতি প্ৰদান কৰিবলে ফলবেক লগিন "
-"পৰ্দায় ইয়াৰ ব্যৱহাৰকাৰী তালিকাৰ উপৰফালে বিকল্পভাৱে এটা সৰু ছবি দেখাব পাৰে।"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -338,11 +335,9 @@ msgstr "ব্যৱহাৰকাৰী তালিকা দেখুৱা 
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"লগিন পৰ্দায় সাধাৰণত লগিন কৰিবলে উপলব্ধ ব্যৱহাৰকাৰীসমূহৰ এটা তালিকা দেখুৱায়। এই "
-"সংহতিক ব্যৱহাৰকাৰী তালিকা দেখুৱা অসামৰ্থবান কৰিবলে সলনি কৰিব পাৰি।"
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "লগিন পৰ্দায় সাধাৰণত লগিন কৰিবলে উপলব্ধ ব্যৱহাৰকাৰীসমূহৰ এটা তালিকা দেখুৱায়। এই সংহতিক ব্যৱহাৰকাৰী তালিকা দেখুৱা অসামৰ্থবান কৰিবলে সলনি কৰিব পাৰি।"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -365,7 +360,8 @@ msgid "Disable showing the restart buttons"
 msgstr "পুনৰাম্ভৰ বুটাম দেখুৱা অসামৰ্থবান কৰক"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr "লগিন উইন্ডোত পুনৰাম্ভৰ বুটাম দেখুৱা অসামৰ্থবান কৰিবলৈ true লৈ নিৰ্ধাৰণ কৰক।"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
@@ -376,29 +372,7 @@ msgstr "অনুমোদিত প্ৰমাণীকৰণ ব্যৰ্�
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"এজন ব্যৱহাৰকাৰীক প্ৰমাণীকৰণৰ চেষ্টা কৰিবলে অনুমতি প্ৰদান কৰাৰ সংখ্যা, বাদ দি "
-"ব্যৱহাৰকাৰী নিৰ্বাচনত যোৱাৰ আগত।"
-
-#: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
-msgid "Select System"
-msgstr "চিস্টেম বাছক"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
-msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr "XMCP: XDMCP বাফাৰক সৃষ্টি কৰিব নোৱাৰি!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
-msgid "XDMCP: Could not read XDMCP header!"
-msgstr "XDMCP: XDMCP হেডাৰ পঢ়িব পৰা নগল!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XDMCP: ভুল XDMCP সংস্কৰণ!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-msgid "XDMCP: Unable to parse address"
-msgstr "XDMCP: ঠিকনা বিশ্লেষণ কৰিবলে অক্ষম"
+msgstr "এজন ব্যৱহাৰকাৰীক প্ৰমাণীকৰণৰ চেষ্টা কৰিবলে অনুমতি প্ৰদান কৰাৰ সংখ্যা, বাদ দি ব্যৱহাৰকাৰী নিৰ্বাচনত যোৱাৰ আগত।"
 
 #: ../libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -431,8 +405,8 @@ msgstr "এই এপ্লিকেচনৰ সংস্কৰণ"
 
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
-msgid "- New GDM login"
-msgstr "- নতুন GDM লগিন"
+msgid "— New GDM login"
+msgstr ""
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
@@ -442,266 +416,3 @@ msgstr "পৰ্দাৰ ছবি গ্ৰহণ কৰা হৈছে"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "পৰ্দাৰ এটা ছবি তোলক"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

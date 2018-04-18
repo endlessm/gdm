@@ -1,28 +1,27 @@
-# Serbian translation of gdm
-# Courtesy of Prevod.org team (http://prevod.org/) -- 2003—2017.
-# This file is distributed under the same license as the gdm package.
-# Горан Ракић <gox@devbase.net>
-# Данило Шеган <danilo@prevod.org>, 2005.
-# Слободан Д. Средојевић <slobo@akrep.be>, 2005.
-# Милош Поповић <gpopac@gmail.com>, 2010—2011.
-# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2011—2017.
-# Марко М. Костић (Marko M. Kostić) <marko.m.kostic@gmail.com>
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Данило Шеган <danilo@gnome.org>, 2005
+# Данило Шеган <danilo@prevod.org>, 2005
+# Марко М. Костић (Marko M. Kostić) <marko.m.kostic@gmail.com>, 2016
+# Miloš Popović <gpopac@gmail.com>, 2010-2011
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2011-2013
+# Слободан Д. Средојевић <slobo@akrep.be>, 2005-2006
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gdm&ke"
-"ywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2017-08-07 13:03+0000\n"
-"PO-Revision-Date: 2017-08-14 20:11+0200\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
-"Language-Team: српски <gnome-sr@googlegroups.org>\n"
-"Language: sr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-18 13:30-0700\n"
+"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Serbian (http://www.transifex.com/endless-os/gdm/language/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : "
-"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Project-Style: gnome\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -44,119 +43,107 @@ msgstr "ХДМЦП: Неисправно ХДМЦП издање!"
 msgid "XDMCP: Unable to parse address"
 msgstr "ХДМЦП: Не могу да отворим адресу"
 
-#: ../common/gdm-common.c:298
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "„/dev/urandom“ није означени уређај"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "Не могу да одредим текућу сесију."
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "Не могу да одредим текуће седиште."
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"Систем не може да одреди да ли да се пребаци на постојећи или да покрене "
-"нови екран пријављивања."
+msgstr "Систем не може да одреди да ли да се пребаци на постојећи или да покрене нови екран пријављивања."
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "Систем не може да покрене нови екран пријављивања."
 
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
-#| msgid "could not find user \"%s\" on system"
 msgid "could not find user “%s” on system"
-msgstr "не могу да нађем корисника „%s“ на систему"
+msgstr ""
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Не могу да покренем Икс сервер (ваше графичко окружење) због грешке унутар "
-"програма. Контактирајте администратора система или прегледајте системски "
-"дневник. У међувремену, овај екран ће бити искључен. Поново покрените ГДМ "
-"када исправите проблем."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Не могу да покренем Икс сервер (ваше графичко окружење) због грешке унутар програма. Контактирајте администратора система или прегледајте системски дневник. У међувремену, овај екран ће бити искључен. Поново покрените ГДМ када исправите проблем."
 
-#: ../daemon/gdm-manager.c:772
+#: ../daemon/gdm-manager.c:777
 msgid "No display available"
 msgstr "Нема доступног приказа"
 
-#: ../daemon/gdm-manager.c:841 ../daemon/gdm-manager.c:1117
+#: ../daemon/gdm-manager.c:846 ../daemon/gdm-manager.c:1122
 msgid "No session available"
 msgstr "Нема доступне сесије"
 
-#: ../daemon/gdm-manager.c:860
+#: ../daemon/gdm-manager.c:865
 msgid "Chooser session unavailable"
 msgstr "Није доступна сесија бирача"
 
-#: ../daemon/gdm-manager.c:872
+#: ../daemon/gdm-manager.c:877
 msgid "Can only be called before user is logged in"
 msgstr "Може једино бити позван пре него што се корисник пријави"
 
-#: ../daemon/gdm-manager.c:883
+#: ../daemon/gdm-manager.c:888
 msgid "Caller not GDM"
 msgstr "Позивник није ГДМ"
 
-#: ../daemon/gdm-manager.c:893
+#: ../daemon/gdm-manager.c:898
 msgid "Unable to open private communication channel"
 msgstr "Не могу да отворим приватни канал комуникације"
 
-#: ../daemon/gdm-server.c:391
+#: ../daemon/gdm-server.c:383
 #, c-format
-#| msgid "Server was to be spawned by user %s but that user doesn't exist"
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr ""
-"Требало је да се сервер прикаже за корисника %s, али тај корисник не постоји"
 
-#: ../daemon/gdm-server.c:402 ../daemon/gdm-server.c:422
+#: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
-#| msgid "Couldn't set groupid to %d"
 msgid "Couldn’t set groupid to %d"
-msgstr "Не могу да поставим иб групе на %d"
+msgstr ""
 
-#: ../daemon/gdm-server.c:408
+#: ../daemon/gdm-server.c:400
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "Није успело покретање група за %s"
 
-#: ../daemon/gdm-server.c:414
+#: ../daemon/gdm-server.c:406
 #, c-format
-#| msgid "Couldn't set userid to %d"
 msgid "Couldn’t set userid to %d"
-msgstr "Не могу да поставим иб корисника на %d"
+msgstr ""
 
-#: ../daemon/gdm-server.c:492
+#: ../daemon/gdm-server.c:484
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: Не могу да отворим датотеку дневника за екран %s!"
 
-#: ../daemon/gdm-server.c:513 ../daemon/gdm-server.c:519
-#: ../daemon/gdm-server.c:525
+#: ../daemon/gdm-server.c:505 ../daemon/gdm-server.c:511
+#: ../daemon/gdm-server.c:517
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Грешка при постављању %s на %s"
 
-#: ../daemon/gdm-server.c:545
+#: ../daemon/gdm-server.c:537
 #, c-format
-#| msgid "%s: Server priority couldn't be set to %d: %s"
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr "%s: Приоритет сервера не може бити постављен на вредност %d: %s"
+msgstr ""
 
-#: ../daemon/gdm-server.c:697
+#: ../daemon/gdm-server.c:689
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Празна наредба сервера за екран %s"
@@ -185,34 +172,40 @@ msgstr "Екран"
 msgid "The display device"
 msgstr "Уређај за приказ"
 
-#: ../daemon/gdm-session.c:1223
+#: ../daemon/gdm-session.c:1261
 msgid "Could not create authentication helper process"
 msgstr "Не могу да направим процес помоћника потврђивања идентитета"
 
-#: ../daemon/gdm-session-worker.c:642
-#| msgid "Your account was given a time limit that's now passed."
+#: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr "Вашем налогу је дато временско ограничење које је сада прошло."
+msgstr ""
 
-#: ../daemon/gdm-session-worker.c:649
-#| msgid "Sorry, that didn't work. Please try again."
+#: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr "Погрешили сте! Покушајте поново."
+msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1037
+#: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
 msgstr "Корисничко име:"
 
-#: ../daemon/gdm-session-worker.c:1539 ../daemon/gdm-session-worker.c:1556
+#: ../daemon/gdm-session-worker.c:1313
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1314
+msgid "Password reminder:"
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1739 ../daemon/gdm-session-worker.c:1756
 #, c-format
 msgid "no user account available"
 msgstr "нема доступног корисничког налога"
 
-#: ../daemon/gdm-session-worker.c:1583
+#: ../daemon/gdm-session-worker.c:1783
 msgid "Unable to change to user"
 msgstr "Не могу да променим корисника"
 
-#: ../daemon/gdm-wayland-session.c:470
+#: ../daemon/gdm-wayland-session.c:478
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr "Покретач Вејланд сесије Гномовог управника приказа"
 
@@ -220,30 +213,27 @@ msgstr "Покретач Вејланд сесије Гномовог управ
 msgid "Could not create socket!"
 msgstr "Не могу да направим прикључницу!"
 
-#: ../daemon/gdm-x-session.c:812
+#: ../daemon/gdm-x-session.c:826
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "Покрени програм помоћу скрипте „/etc/gdm/Xsession“ омотача"
 
-#: ../daemon/gdm-x-session.c:813
+#: ../daemon/gdm-x-session.c:827
 msgid "Listen on TCP socket"
 msgstr "Ослушкуј на ТЦП прикључници"
 
-#: ../daemon/gdm-x-session.c:824
+#: ../daemon/gdm-x-session.c:838
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "Покретач Икс сесије Гномовог управника приказа"
 
-# bug: why these two messages need to differ?
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Не могу да пишем у ПИБ датотеку %s: вероватно више нема простора на диску: %s"
+msgstr "Не могу да пишем у ПИБ датотеку %s: вероватно више нема простора на диску: %s"
 
 #: ../daemon/main.c:182
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr ""
-"Нисам успео да направим директоријум означавача једног покретања „%s“: %s"
+msgstr "Нисам успео да направим директоријум означавача једног покретања „%s“: %s"
 
 #: ../daemon/main.c:188
 #, c-format
@@ -252,9 +242,8 @@ msgstr "Нисам успео да направим директоријум д�
 
 #: ../daemon/main.c:223
 #, c-format
-#| msgid "Can't find the GDM user '%s'. Aborting!"
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr "Не могу да нађем корисника „%s“ за ГДМ. Прекидам!"
+msgstr ""
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -262,32 +251,31 @@ msgstr "Корисник ГДМ-а не може бити супер корис�
 
 #: ../daemon/main.c:235
 #, c-format
-#| msgid "Can't find the GDM group '%s'. Aborting!"
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr "Не могу да нађем групу „%s“ за ГДМ. Прекидам!"
+msgstr ""
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
 msgstr "Група ГДМ-а не може бити супер корисник. Прекидам!"
 
-#: ../daemon/main.c:318
+#: ../daemon/main.c:317
 msgid "Make all warnings fatal"
 msgstr "Чини сва упозорења кобним"
 
-#: ../daemon/main.c:319
+#: ../daemon/main.c:318
 msgid "Exit after a time (for debugging)"
 msgstr "Излази након времена (због уклањања грешака)"
 
-#: ../daemon/main.c:320
+#: ../daemon/main.c:319
 msgid "Print GDM version"
 msgstr "Исписује издање Гномовог управника приказа"
 
-#: ../daemon/main.c:333
+#: ../daemon/main.c:330
 msgid "GNOME Display Manager"
 msgstr "Гномов управник приказа"
 
 #. make sure the pid file doesn't get wiped
-#: ../daemon/main.c:381
+#: ../daemon/main.c:351
 msgid "Only the root user can run GDM"
 msgstr "Само администратор може да покрене ГДМ"
 
@@ -305,9 +293,7 @@ msgstr "Да ли да дозволи или не читаче отисака з
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Екран за пријављивање може опционално да омогући корисницима који су уписали "
-"своје отиске прстију да се пријаве користећи те отиске."
+msgstr "Екран за пријављивање може опционално да омогући корисницима који су уписали своје отиске прстију да се пријаве користећи те отиске."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -317,9 +303,7 @@ msgstr "Да ли да дозволи или не паметне картице 
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Екран за пријављивање може опционално да омогући корисницима који имају "
-"паметне картице да се пријаве користећи те картице."
+msgstr "Екран за пријављивање може опционално да омогући корисницима који имају паметне картице да се пријаве користећи те картице."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -329,10 +313,7 @@ msgstr "Да ли да дозволи или не лозинке за прија
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Екран за пријављивање може бити подешен да онемогући потврђивање идентитета "
-"лозинком, приморавајући корисника да користи потврђивање идентитета паметном "
-"картицом или отиском прста."
+msgstr "Екран за пријављивање може бити подешен да онемогући потврђивање идентитета лозинком, приморавајући корисника да користи потврђивање идентитета паметном картицом или отиском прста."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -342,17 +323,13 @@ msgstr "Путања до сличица на врху списка корисн
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Екран за пријаву може изборно да прикаже сличицу која омогућава "
-"администраторима сајтова и дистрибуцијама да прикажу своју робну марку."
+msgstr "Екран за пријаву може изборно да прикаже сличицу која омогућава администраторима сајтова и дистрибуцијама да прикажу своју робну марку."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Одступни екран за пријаву може изборно да прикаже сличицу која омогућава "
-"администраторима сајтова и дистрибуцијама да прикажу своју робну марку."
+msgstr "Одступни екран за пријаву може изборно да прикаже сличицу која омогућава администраторима сајтова и дистрибуцијама да прикажу своју робну марку."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -360,12 +337,9 @@ msgstr "Избегавање приказивања списка корисни�
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Екран за пријављивање обично приказује списак доступних корисника који се "
-"могу пријавити. Ово подешавање може бити пребачено да искључи приказивање "
-"списка корисника."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Екран за пријављивање обично приказује списак доступних корисника који се могу пријавити. Ово подешавање може бити пребачено да искључи приказивање списка корисника."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -388,10 +362,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Искључује приказ дугмади за поновно покретање"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Поставите на тачно како би онемогућили приказ дугмића за поновно покретање "
-"рачунара у поздравном прозору."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Поставите на тачно како би онемогућили приказ дугмића за поновно покретање рачунара у поздравном прозору."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
 msgid "Number of allowed authentication failures"
@@ -401,9 +374,7 @@ msgstr "Број неуспеха потврђивања идентитета"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Колико ће пута кориснику бити допуштено да покуша да потврди идентитет, пре "
-"него што ће бити враћен на екран за избор корисника."
+msgstr "Колико ће пута кориснику бити допуштено да покуша да потврди идентитет, пре него што ће бити враћен на екран за избор корисника."
 
 #: ../libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -436,9 +407,8 @@ msgstr "Издање овог програма"
 
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
-#| msgid "- New GDM login"
 msgid "— New GDM login"
-msgstr "— Нова ГДМ пријава"
+msgstr ""
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
@@ -448,12 +418,3 @@ msgstr "Снимак екрана је урађен"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Прави снимак екрана вашег радног окружења"
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "Ваша лозинка је истекла, промените је."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "Гномова шкољка"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "Управљање прозорима и састављање"

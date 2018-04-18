@@ -1,30 +1,35 @@
-# translation of gdm.po to Arabic
-# Copyright (C) 2002,2003, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
-# Arafat Medini <lumina@silverpen.de>, 2002, 2004.
-# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
-# Nuriddin Aminagha <nuriddin@haydarlinux.org>, 2002.
-# Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
-# Djihed Afifi <djihed@gmail.com>, 2006, 2007.
-# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2015, 2017.
-# Usama Akkad <uak@aya.sy>, 2008.
-# M.Hanny Sabbagh <hannysabbagh@hotmail.com>, 2013.
-# Muhannad Alrusayni <muhannad.alrusayni@gmail.com>, 2016.
-# Safa Alfulaij <safa1996alfulaij@gmail.com>, 2016.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# abderrahim <a.kitouni@gmail.com>, 2011-2012
+# Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004
+# Anas El Husseini <linux.anas@gmail.com>, 2007
+# Arafat Medini <lumina@silverpen.de>, 2002-2004
+# Djihed Afifi <djihed@gmail.com>, 2006-2007
+# Ibrahim Saed <ibraheem5000@gmail.com>, 2012
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002
+# Khaled Hosny <khaledhosny@eglug.org>, 2006-2016
+# M.Hanny Sabbagh <hannysabbagh@hotmail.com>, 2013
+# Muhannad Alrusayni <muhannad.alrusayni@gmail.com>, 2016
+# Nuriddin Aminagha <nuriddin@haydarlinux.org>, 2002
+# safa1996alfulaij <safa1996alfulaij@gmail.com>, 2016
+# Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002
+# Usama Akkad <uak@aya.sy>, 2008
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm master\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-10 11:26+0200\n"
-"PO-Revision-Date: 2017-12-10 11:24+0200\n"
-"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
-"Language-Team: Arabic <doc@arabeyes.org>\n"
-"Language: ar\n"
+"POT-Creation-Date: 2018-04-18 13:30-0700\n"
+"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Arabic (http://www.transifex.com/endless-os/gdm/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Virtaal 1.0.0-beta1\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: ../chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
@@ -46,31 +51,29 @@ msgstr "‏XDMCP: إصدارة XDMCP خاطئة!"
 msgid "XDMCP: Unable to parse address"
 msgstr "‏XDMCP: تعذّر تحليل العنوان"
 
-#: ../common/gdm-common.c:298
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "‏‪/dev/urandom‬ ليس جهازا مِحرفيا"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "تعذّر التعرف على الجلسة الحالية"
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
 #, c-format
 msgid "Could not identify the current seat."
 msgstr "تعذّر التعرف على المقعد الحالي."
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"تعذر على النظام تحديد ما إذا كان عليه الانتقال إلى شاشة ولوج موجودة أو بدء "
-"واحدة جديدة."
+msgstr "تعذر على النظام تحديد ما إذا كان عليه الانتقال إلى شاشة ولوج موجودة أو بدء واحدة جديدة."
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "تعذر على النظام بدء شاشة ولوج جديدة."
@@ -78,22 +81,19 @@ msgstr "تعذر على النظام بدء شاشة ولوج جديدة."
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr "تعذّر إيجاد المستخدم ”%s“ على هذا النّظام"
+msgstr ""
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"تعذّر تشغيل الخادوم س (بيئتك الرسومية) بسبب خطأ داخلي. الرجاء الاتصال بمدير "
-"النظام أو مراجعة سجل النظام للتشخيص. سيغلق العرض في هذه الأثناء. الرجاء "
-"إعادة تشغيل م‌ع‌ج عند تصحيح الخطأ."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "تعذّر تشغيل الخادوم س (بيئتك الرسومية) بسبب خطأ داخلي. الرجاء الاتصال بمدير النظام أو مراجعة سجل النظام للتشخيص. سيغلق العرض في هذه الأثناء. الرجاء إعادة تشغيل م‌ع‌ج عند تصحيح الخطأ."
 
 #: ../daemon/gdm-manager.c:777
 msgid "No display available"
-msgstr "لا توجد أي أجهزة عرض"
+msgstr "لا توجد شاشة متاحة"
 
 #: ../daemon/gdm-manager.c:846 ../daemon/gdm-manager.c:1122
 msgid "No session available"
@@ -101,7 +101,7 @@ msgstr "لا توجد أي جلسات"
 
 #: ../daemon/gdm-manager.c:865
 msgid "Chooser session unavailable"
-msgstr "جلسة المنتقي غير متاحة"
+msgstr "جلسة المُحَدِّدْ غير متاحة"
 
 #: ../daemon/gdm-manager.c:877
 msgid "Can only be called before user is logged in"
@@ -113,17 +113,17 @@ msgstr "المُستدعي ليس م‌ع‌ج"
 
 #: ../daemon/gdm-manager.c:898
 msgid "Unable to open private communication channel"
-msgstr "تعذّر فتح قناة اتصال خاصة"
+msgstr "غير قادر على فتح قناة تواصل خاصة"
 
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr "كان الخادوم سيُوّلد من قبل المستخدم %s لكن ذلك المستخدم غير موجود"
+msgstr ""
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr "تعذّر ضبط معرّف المجموعة لـ %Id"
+msgstr ""
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -133,7 +133,7 @@ msgstr "فشل initgroups () لِـ %s"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr "تعذّر ضبط معرّف المستخدم لِـ %Id"
+msgstr ""
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -149,7 +149,7 @@ msgstr "‏%s: خطأ ضبط %s كـ %s"
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr "‏%s:تعذّر ضبط أولوية الخادوم لتكون %Id: %s"
+msgstr ""
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -184,30 +184,38 @@ msgstr "جهاز العرض"
 msgid "Could not create authentication helper process"
 msgstr "تعذّر إنشاء عملية مساعد الاستيثاق"
 
-#: ../daemon/gdm-session-worker.c:766
+#: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr "المدة الزمنية الموضوعة لحسابك انتهت."
+msgstr ""
 
-#: ../daemon/gdm-session-worker.c:773
+#: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr "للأسف لم يُفلح هذا. أعِد المحاولة."
+msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1170
+#: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
 msgstr "اسم المستخدم:"
 
-#: ../daemon/gdm-session-worker.c:1672 ../daemon/gdm-session-worker.c:1689
+#: ../daemon/gdm-session-worker.c:1313
+msgid "Type a hint or question to help remember your password."
+msgstr "أدخل إشارة أو سؤال للمساعدة على تذكر كلمة المرور الخاصة بك."
+
+#: ../daemon/gdm-session-worker.c:1314
+msgid "Password reminder:"
+msgstr "تذكرة بكلمة المرور:"
+
+#: ../daemon/gdm-session-worker.c:1739 ../daemon/gdm-session-worker.c:1756
 #, c-format
 msgid "no user account available"
 msgstr "لا يُوجد حساب مستخدِم "
 
-#: ../daemon/gdm-session-worker.c:1716
+#: ../daemon/gdm-session-worker.c:1783
 msgid "Unable to change to user"
 msgstr "تعذّر الانتقال للمستخدم"
 
 #: ../daemon/gdm-wayland-session.c:478
 msgid "GNOME Display Manager Wayland Session Launcher"
-msgstr "مشغل جلسات وايلاند لمدير عرض جنوم"
+msgstr "GNOME Display Manager Wayland Session Launcher"
 
 #: ../daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
@@ -215,15 +223,15 @@ msgstr "تعذّر إنشاء المقبس!"
 
 #: ../daemon/gdm-x-session.c:826
 msgid "Run program through /etc/gdm/Xsession wrapper script"
-msgstr "شغل البرنامج عبر سكربت ‎/etc/gdm/Xsession الالتفافي"
+msgstr "قم بتشغيل هذا البرنامج من خلال البرنامج النصي التضميني /etc/gdm/Xsession"
 
 #: ../daemon/gdm-x-session.c:827
 msgid "Listen on TCP socket"
-msgstr "أصغِ إلى مقبس TCP"
+msgstr "التصنُّتْ على مأخذ الـ TCP"
 
 #: ../daemon/gdm-x-session.c:838
 msgid "GNOME Display Manager X Session Launcher"
-msgstr "مشغل جلسات س لمدير عرض جنوم"
+msgstr "GNOME Display Manager X Session Launcher"
 
 #: ../daemon/main.c:125 ../daemon/main.c:138
 #, c-format
@@ -231,9 +239,9 @@ msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr "تعذّر كتابة ملف الـ PID‏ %s: ربما لعدم وجود حيز على القرص: %s"
 
 #: ../daemon/main.c:182
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr "فشل إنشاء علامة شغل مرة واحدة الدليل %s: %s"
+msgstr "فشل في إنشاء دليل علامة نُفِذ مرة %s: %s"
 
 #: ../daemon/main.c:188
 #, c-format
@@ -243,7 +251,7 @@ msgstr "فشل إنشاء LogDir ‏%s: ‏%s"
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr "لم أجد مستخدم م‌ع‌ج ”%s“.إجهاض!"
+msgstr ""
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -252,7 +260,7 @@ msgstr "يجب أن لا يكون مستخدم م‌ع‌ج جذرا. إجهاض
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr "لم أجد مجموعة GDM ‏”%s“. إجهاض!"
+msgstr ""
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -293,9 +301,7 @@ msgstr "السماح أو عدم السماح بالولوج باستخدام ق
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"شاشة الولوج تستطيع اختيارياً السماح للمستخدمين الذين قد ألحقوا بصمات أصابعهم "
-"بالولوج باستخدام تلك البصمات"
+msgstr "شاشة الولوج تستطيع اختيارياً السماح للمستخدمين الذين قد ألحقوا بصمات أصابعهم بالولوج باستخدام تلك البصمات"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:3
 msgid "Whether or not to allow smartcard readers for login"
@@ -305,9 +311,7 @@ msgstr "السماح أو عدم السماح بالولوج باستخدام ق
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"شاشة الولوج يمكنها اختياريًا تمكين المستخدمين الممتلكين لبطاقات ذكية من "
-"الولوج باستخدام هذه البطاقات الذكية."
+msgstr "شاشة الولوج يمكنها اختياريًا تمكين المستخدمين الممتلكين لبطاقات ذكية من الولوج باستخدام هذه البطاقات الذكية."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:5
 msgid "Whether or not to allow passwords for login"
@@ -317,9 +321,7 @@ msgstr "السماح أو عدم السماح بالولوج باستخدام ك
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"يمكن إعداد شاشة الولوج لترفض الاستيثاق بكلمة السر، لإجبار المستخدم باستخدام "
-"بطاقته الذكية أو بصمة إصبعه للاستيثاق."
+msgstr "يمكن إعداد شاشة الولوج لترفض الاستيثاق بكلمة السر، لإجبار المستخدم باستخدام بطاقته الذكية أو بصمة إصبعه للاستيثاق."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:7
 msgid "Path to small image at top of user list"
@@ -329,17 +331,13 @@ msgstr "مسار لصورة صغيرة في أعلى قائمة المستخدم
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"يمكن لشاشة الولوج اختياريا عرض صورة صغيرة لتوفر لمديري المواقع وموزعيها "
-"طريقة لعرض الشعار."
+msgstr "يمكن لشاشة تسجيل الدخول - اختيارياً - أن تعرض صورة صغيرة توفر لمدراء المواقع والموزعين وسيلة  لعرض العلامة التجارية"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"يمكن لشاشة الولوج الاحتياطية اختياريا عرض صورة صغيرة لتوفر لمديري المواقع "
-"وموزعيها طريقة لعرض الشعار."
+msgstr "يمكن لشاشة تسجيل الدخول الاحتياطية - اختيارياً - أن تعرض صورة صغيرة توفر لمدراء المواقع والموزعين وسيلة  لعرض العلامة التجارية."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
 msgid "Avoid showing user list"
@@ -347,11 +345,9 @@ msgstr "تَجنبّ عرض قائمة المستخدمين"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"شاشة الولوج عادةً تعرض قائمةً للمستخدمين المتوفرين للولوج بهم, هذاالخيار يمكن "
-"تبديله لتعطيل إظهار قائمة المستخدمين."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "شاشة الولوج عادةً تعرض قائمةً للمستخدمين المتوفرين للولوج بهم, هذاالخيار يمكن تبديله لتعطيل إظهار قائمة المستخدمين."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
 msgid "Enable showing the banner message"
@@ -374,7 +370,8 @@ msgid "Disable showing the restart buttons"
 msgstr "عطّل عرض أزرار إعادة التشغيل"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr "اجعله صحيح لتعطيل عرض أزرار إعادة التشغيل في نافذة الولوج."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
@@ -385,9 +382,7 @@ msgstr "العدد المسموح لمرات فشل الاستيثاق"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"عدد مرات التي يُسمح فيها للمستخدم محاولة الاستيثاق، وذلك قبل ترك الأمر "
-"والعودة إلى صفحة اختيار المستخدمة."
+msgstr "عدد مرات التي يُسمح فيها للمستخدم محاولة الاستيثاق، وذلك قبل ترك الأمر والعودة إلى صفحة اختيار المستخدمة."
 
 #: ../libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -421,7 +416,7 @@ msgstr "إصدارة هذا التطبيق"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr "— ولوج م‌ع‌ج جديد"
+msgstr ""
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
@@ -431,21 +426,3 @@ msgstr "أُخِذت لقطة الشاشة"
 #: ../utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "خذ صورة للشاشة"
-
-#~ msgid "_Refresh"
-#~ msgstr "_حدِّث"
-
-#~ msgid "_Cancel"
-#~ msgstr "أل_غ"
-
-#~ msgid "C_onnect"
-#~ msgstr "ا_تّصل"
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "لقد انتهت صلاحية كلمة السر، من فضلك غيرها الآن."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "صدفة جنوم"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "إدارة النوافذ والمزج"

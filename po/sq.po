@@ -1,125 +1,145 @@
-# Përkthimi i mesazheve të gdm në shqip.
-# Copyright (C) 2003-2006, 2008 Free Software Foundation. Inc.
-# This file is distributed under the same license as the gdm package.
-# Laurent Dhima <laurenti@alblinux.net>, 2003-2006, 2008.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Laurent Dhima <laurenti@alblinux.net>, 2008
+# Laurent Dhima <laurenti@alblinux.net>, 2003-2006, 2008
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm HEAD\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-27 15:41-0400\n"
-"PO-Revision-Date: 2008-09-06 19:51+0200\n"
-"Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
-"Language-Team: Albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
-"Language: sq\n"
+"POT-Creation-Date: 2018-04-18 13:30-0700\n"
+"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
+"Language-Team: Albanian (http://www.transifex.com/endless-os/gdm/language/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../common/gdm-common.c:298
+#: ../chooser/gdm-host-chooser-dialog.c:147
+msgid "Select System"
+msgstr "Zgjidh sistemin"
+
+#: ../chooser/gdm-host-chooser-widget.c:254
+msgid "XDMCP: Could not create XDMCP buffer!"
+msgstr ""
+
+#: ../chooser/gdm-host-chooser-widget.c:260
+msgid "XDMCP: Could not read XDMCP header!"
+msgstr "XDMCP: I pamundur leximi i header XDMCP!"
+
+#: ../chooser/gdm-host-chooser-widget.c:266
+msgid "XDMCP: Incorrect XDMCP version!"
+msgstr ""
+
+#: ../chooser/gdm-host-chooser-widget.c:272
+msgid "XDMCP: Unable to parse address"
+msgstr ""
+
+#: ../common/gdm-common.c:299
 #, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom nuk është një dispozitiv simbolesh"
 
-#: ../common/gdm-common.c:468 ../libgdm/gdm-user-switching.c:209
+#: ../common/gdm-common.c:469 ../libgdm/gdm-user-switching.c:209
 #, c-format
 msgid "Could not identify the current session."
 msgstr "I pamundur identifikimi i seancës aktuale."
 
-#: ../common/gdm-common.c:477 ../libgdm/gdm-user-switching.c:218
-#, fuzzy, c-format
+#: ../common/gdm-common.c:478 ../libgdm/gdm-user-switching.c:218
+#, c-format
 msgid "Could not identify the current seat."
-msgstr "I pamundur identifikimi i seancës aktuale."
+msgstr ""
 
-#: ../common/gdm-common.c:487 ../libgdm/gdm-user-switching.c:228
+#: ../common/gdm-common.c:488 ../libgdm/gdm-user-switching.c:228
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr ""
 
-#: ../common/gdm-common.c:495 ../libgdm/gdm-user-switching.c:236
+#: ../common/gdm-common.c:496 ../libgdm/gdm-user-switching.c:236
 #, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr ""
 
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
-msgid "could not find user \"%s\" on system"
-msgstr "e pamundur gjetja e përdoruesit «%s» në sistem"
+msgid "could not find user “%s” on system"
+msgstr ""
 
 #: ../daemon/gdm-legacy-display.c:235
-#, fuzzy
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
 msgstr ""
-"E pamundur nisja e serverit X (mjedisi juaj grafik) për shkak të ndonjë "
-"gabimi të brendshëm. Vihu në kontakt me administratorin e sistemit ose "
-"kontrollo mesazhet e sistemit (syslog) për të zbuluar problemin. Ndërkohë ky "
-"ekran do të çaktivizohet. Rinis GDM mbasi të jetë zgjidhur problemi."
 
-#: ../daemon/gdm-manager.c:766
-#, fuzzy
+#: ../daemon/gdm-manager.c:777
 msgid "No display available"
-msgstr "Ekrani"
+msgstr ""
 
-#: ../daemon/gdm-manager.c:833 ../daemon/gdm-manager.c:1088
-#, fuzzy
+#: ../daemon/gdm-manager.c:846 ../daemon/gdm-manager.c:1122
 msgid "No session available"
-msgstr "profil përdoruesi jo në dispozicion"
+msgstr ""
 
-#: ../daemon/gdm-manager.c:844
+#: ../daemon/gdm-manager.c:865
+msgid "Chooser session unavailable"
+msgstr ""
+
+#: ../daemon/gdm-manager.c:877
 msgid "Can only be called before user is logged in"
 msgstr ""
 
-#: ../daemon/gdm-manager.c:854
+#: ../daemon/gdm-manager.c:888
 msgid "Caller not GDM"
 msgstr ""
 
-#: ../daemon/gdm-manager.c:864
+#: ../daemon/gdm-manager.c:898
 msgid "Unable to open private communication channel"
 msgstr ""
 
-#: ../daemon/gdm-server.c:378
+#: ../daemon/gdm-server.c:383
 #, c-format
-msgid "Server was to be spawned by user %s but that user doesn't exist"
-msgstr "Serveri do të niset për përdoruesin %s por ky përdorues nuk ekziston"
+msgid "Server was to be spawned by user %s but that user doesn’t exist"
+msgstr ""
 
-#: ../daemon/gdm-server.c:389 ../daemon/gdm-server.c:409
+#: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
-msgid "Couldn't set groupid to %d"
-msgstr "I pamundur caktimi i id së grupit në %d"
+msgid "Couldn’t set groupid to %d"
+msgstr ""
 
-#: ../daemon/gdm-server.c:395
+#: ../daemon/gdm-server.c:400
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups () dështoi për %s"
 
-#: ../daemon/gdm-server.c:401
+#: ../daemon/gdm-server.c:406
 #, c-format
-msgid "Couldn't set userid to %d"
-msgstr "I pamundur caktimi i id së përdoruesit në %d"
+msgid "Couldn’t set userid to %d"
+msgstr ""
 
-#: ../daemon/gdm-server.c:479
-#, fuzzy, c-format
+#: ../daemon/gdm-server.c:484
+#, c-format
 msgid "%s: Could not open log file for display %s!"
-msgstr "%s: E pamundur hapja e file të log për display %s!"
+msgstr ""
 
-#: ../daemon/gdm-server.c:500 ../daemon/gdm-server.c:506
-#: ../daemon/gdm-server.c:512
+#: ../daemon/gdm-server.c:505 ../daemon/gdm-server.c:511
+#: ../daemon/gdm-server.c:517
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Gabim gjatë rregullimit %s në %s"
 
-#: ../daemon/gdm-server.c:532
+#: ../daemon/gdm-server.c:537
 #, c-format
-msgid "%s: Server priority couldn't be set to %d: %s"
-msgstr "%s: Prioriteti i serverit nuk mund të caktohet në %d: %s"
+msgid "%s: Server priority couldn’t be set to %d: %s"
+msgstr ""
 
-#: ../daemon/gdm-server.c:684
+#: ../daemon/gdm-server.c:689
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Mungon komanda server për ekranin %s"
@@ -148,63 +168,63 @@ msgstr "Ekrani"
 msgid "The display device"
 msgstr "Ekrani"
 
-#: ../daemon/gdm-session.c:1193
-#, fuzzy
+#: ../daemon/gdm-session.c:1261
 msgid "Could not create authentication helper process"
-msgstr "%s: I pamundur leximi i emrave të identifikimit"
-
-#: ../daemon/gdm-session-worker.c:642
-msgid "Your account was given a time limit that's now passed."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:649
-msgid "Sorry, that didn't work. Please try again."
+#: ../daemon/gdm-session-worker.c:768
+msgid "Your account was given a time limit that’s now passed."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1010
+#: ../daemon/gdm-session-worker.c:775
+msgid "Sorry, that didn’t work. Please try again."
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
 msgstr "Përdoruesi:"
 
-#: ../daemon/gdm-session-worker.c:1142
-msgid "Your password has expired, please change it now."
+#: ../daemon/gdm-session-worker.c:1313
+msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: ../daemon/gdm-session-worker.c:1505 ../daemon/gdm-session-worker.c:1522
+#: ../daemon/gdm-session-worker.c:1314
+msgid "Password reminder:"
+msgstr ""
+
+#: ../daemon/gdm-session-worker.c:1739 ../daemon/gdm-session-worker.c:1756
 #, c-format
 msgid "no user account available"
 msgstr "profil përdoruesi jo në dispozicion"
 
-#: ../daemon/gdm-session-worker.c:1549
+#: ../daemon/gdm-session-worker.c:1783
 msgid "Unable to change to user"
 msgstr "I pamundur shkëmbimi i përdoruesit"
 
-#: ../daemon/gdm-wayland-session.c:385
-#, fuzzy
+#: ../daemon/gdm-wayland-session.c:478
 msgid "GNOME Display Manager Wayland Session Launcher"
-msgstr "Trajtuesi  seancës së GDM"
+msgstr ""
 
-#: ../daemon/gdm-xdmcp-display-factory.c:609
+#: ../daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
 msgstr "I pamundur krijimi i socket!"
 
-#: ../daemon/gdm-x-session.c:686
+#: ../daemon/gdm-x-session.c:826
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr ""
 
-#: ../daemon/gdm-x-session.c:687
+#: ../daemon/gdm-x-session.c:827
 msgid "Listen on TCP socket"
 msgstr ""
 
-#: ../daemon/gdm-x-session.c:698
-#, fuzzy
+#: ../daemon/gdm-x-session.c:838
 msgid "GNOME Display Manager X Session Launcher"
-msgstr "Trajtuesi  seancës së GDM"
+msgstr ""
 
 #: ../daemon/main.c:125 ../daemon/main.c:138
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr ""
-"I pamundur shkrimi i file PID %s: ndoshta nuk ka më hapësirë në disk: %s"
 
 #: ../daemon/main.c:182
 #, c-format
@@ -212,14 +232,14 @@ msgid "Failed to create ran once marker dir %s: %s"
 msgstr ""
 
 #: ../daemon/main.c:188
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to create LogDir %s: %s"
-msgstr "Dështoi rinisja e kompjuterit"
+msgstr ""
 
 #: ../daemon/main.c:223
 #, c-format
-msgid "Can't find the GDM user '%s'. Aborting!"
-msgstr "E pamundur gjetja e përdoruesit të GDM «%s». Abortohet!"
+msgid "Can’t find the GDM user “%s”. Aborting!"
+msgstr ""
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -227,52 +247,39 @@ msgstr "Përdoruesi i GDM nuk duhet të jetë «root». Abortohet!"
 
 #: ../daemon/main.c:235
 #, c-format
-msgid "Can't find the GDM group '%s'. Aborting!"
-msgstr "E pamundur gjetja e grupit të GDM «%s». Abortohet!"
+msgid "Can’t find the GDM group “%s”. Aborting!"
+msgstr ""
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
 msgstr "Grupi i GDM nuk duhet të jetë «root». Abortohet!"
 
-#: ../daemon/main.c:318
+#: ../daemon/main.c:317
 msgid "Make all warnings fatal"
 msgstr "Bëj që të gjithë paralajmërimet të jenë fatale"
 
-#: ../daemon/main.c:319
-#, fuzzy
+#: ../daemon/main.c:318
 msgid "Exit after a time (for debugging)"
-msgstr "Dil mbas një periudhë kohe - për debug"
+msgstr ""
 
-#: ../daemon/main.c:320
+#: ../daemon/main.c:319
 msgid "Print GDM version"
 msgstr "Printo versionin e GDM"
 
-#: ../daemon/main.c:333
+#: ../daemon/main.c:330
 msgid "GNOME Display Manager"
 msgstr "Menazhuesi i hyrjes së GNOME"
 
 #. make sure the pid file doesn't get wiped
-#: ../daemon/main.c:381
-#, fuzzy
+#: ../daemon/main.c:351
 msgid "Only the root user can run GDM"
-msgstr "Vetëm administratorët mund të ekzekutojnë GDM"
+msgstr ""
 
 #. Translators: worker is a helper process that does the work
 #. of starting up a session
-#: ../daemon/session-worker-main.c:95
+#: ../daemon/session-worker-main.c:94
 msgid "GNOME Display Manager Session Worker"
 msgstr "Trajtuesi  seancës së GDM"
-
-#: ../data/applications/gnome-shell.desktop.in.h:1
-#: ../data/applications/gnome-shell-wayland.desktop.in.h:1
-msgid "GNOME Shell"
-msgstr ""
-
-#: ../data/applications/gnome-shell.desktop.in.h:2
-#: ../data/applications/gnome-shell-wayland.desktop.in.h:2
-#, fuzzy
-msgid "Window management and compositing"
-msgstr "Demoni i menazhuesit të energjisë"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:1
 msgid "Whether or not to allow fingerprint readers for login"
@@ -310,16 +317,14 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:8
 msgid ""
-"The login screen can optionally show a small image at the top of its user "
-"list to provide site administrators and distributions a way to provide "
-"branding."
+"The login screen can optionally show a small image to provide site "
+"administrators and distributions a way to display branding."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:9
 msgid ""
-"The fallback login screen can optionally show a small image at the top of "
-"its user list to provide site administrators and distributions a way to "
-"provide branding."
+"The fallback login screen can optionally show a small image to provide site "
+"administrators and distributions a way to display branding."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:10
@@ -328,8 +333,8 @@ msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:11
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:12
@@ -345,25 +350,21 @@ msgid "Banner message text"
 msgstr "Mesazhi i tekstit të hyrjes"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:15
-#, fuzzy
 msgid "Text banner message to show in the login window."
-msgstr "Teksti i mesazhit të hyrjes për tu shfaqur në interfaqen e hyrjes."
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:16
 msgid "Disable showing the restart buttons"
 msgstr "Çaktivizo shfaqjen e butonëve të rinisjes"
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:17
-#, fuzzy
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr ""
-"Vendose në TRUE për të çaktivizuar shfaqjen e butonëve të rinisjes në "
-"dritaren e nisjes së seancës."
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:18
-#, fuzzy
 msgid "Number of allowed authentication failures"
-msgstr "%s: I pamundur leximi i emrave të identifikimit"
+msgstr ""
 
 #: ../data/org.gnome.login-screen.gschema.xml.in.h:19
 msgid ""
@@ -371,38 +372,13 @@ msgid ""
 "giving up and going back to user selection."
 msgstr ""
 
-#: ../gui/simple-chooser/gdm-host-chooser-dialog.c:147
-msgid "Select System"
-msgstr "Zgjidh sistemin"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:215
-#, fuzzy
-msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr "XMCP: I pamundur krijimi i buffer XDMCP!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:221
-msgid "XDMCP: Could not read XDMCP header!"
-msgstr "XDMCP: I pamundur leximi i header XDMCP!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:227
-#, fuzzy
-msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XMDCP: Version i pasaktë i XDMCP!"
-
-#: ../gui/simple-chooser/gdm-host-chooser-widget.c:233
-#, fuzzy
-msgid "XDMCP: Unable to parse address"
-msgstr "XMDCP: I pamundur analizimi i adresës"
-
 #: ../libgdm/gdm-user-switching.c:59
-#, fuzzy
 msgid "Unable to create transient display: "
-msgstr "E pamundur nisja e një ekrani të ri"
+msgstr ""
 
 #: ../libgdm/gdm-user-switching.c:90
-#, fuzzy
 msgid "Unable to activate session: "
-msgstr "I pamundur autentifikimi i përdoruesit"
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
@@ -414,9 +390,8 @@ msgstr "KOMANDA"
 
 #: ../utils/gdmflexiserver.c:46 ../utils/gdmflexiserver.c:47
 #: ../utils/gdmflexiserver.c:49 ../utils/gdmflexiserver.c:50
-#, fuzzy
 msgid "Ignored — retained for compatibility"
-msgstr "Shpërfillur - mbajtur për kompatibilitet"
+msgstr ""
 
 #: ../utils/gdmflexiserver.c:48 ../utils/gdm-screenshot.c:43
 msgid "Debugging output"
@@ -428,7 +403,7 @@ msgstr "Versioni i këtij aplikativi"
 
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
-msgid "- New GDM login"
+msgid "— New GDM login"
 msgstr ""
 
 #: ../utils/gdm-screenshot.c:212
@@ -437,184 +412,5 @@ msgstr ""
 
 #. Option parsing
 #: ../utils/gdm-screenshot.c:279
-#, fuzzy
 msgid "Take a picture of the screen"
-msgstr "Zmadhon pjesë të ekranit"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+msgstr ""
