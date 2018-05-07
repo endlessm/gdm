@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-18 13:30-0700\n"
-"PO-Revision-Date: 2018-04-18 20:39+0000\n"
+"PO-Revision-Date: 2018-04-28 22:11+0000\n"
 "Last-Translator: Roddy Shuler <roddy@endlessm.com>\n"
 "Language-Team: Hindi (http://www.transifex.com/endless-os/gdm/language/hi/)\n"
 "MIME-Version: 1.0\n"
@@ -76,7 +76,7 @@ msgstr "यह तंत्र नया लॉगिन स्क्रीन �
 #: ../daemon/gdm-display-access-file.c:300
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "सिस्टम पर  यूज़र \"%s\" नहीं मिला"
 
 #: ../daemon/gdm-legacy-display.c:235
 msgid ""
@@ -113,12 +113,12 @@ msgstr "निजी संचार चैनल को खोलने मे�
 #: ../daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "सर्वर यूज़र %s द्वारा उत्पन्न किया गया था लेकिन वह यूज़र मौजूद नहीं है"
 
 #: ../daemon/gdm-server.c:394 ../daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "ग्रुप आईडी %d पर सेट नहीं कर सके"
 
 #: ../daemon/gdm-server.c:400
 #, c-format
@@ -128,7 +128,7 @@ msgstr "%s हेतु initgroups() असफल"
 #: ../daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "उपयोगकर्ता आईडी को %d पर सेट नहीं किया जा सका"
 
 #: ../daemon/gdm-server.c:484
 #, c-format
@@ -144,7 +144,7 @@ msgstr "%s: %s को %s पर सेट करने में त्रुट
 #: ../daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: सर्वर प्राथमिकता % d: %s पर सेट नहीं की जा सकी"
 
 #: ../daemon/gdm-server.c:689
 #, c-format
@@ -181,11 +181,11 @@ msgstr "सत्यापन मददगार प्रक्रिया न
 
 #: ../daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "आपके खाते को समय सीमा दी गई थी जो अब पारित हो गई है."
 
 #: ../daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "क्षमा करें, इसने काम नहीं किया. कृपया पुन: प्रयास करें."
 
 #: ../daemon/gdm-session-worker.c:1172
 msgid "Username:"
@@ -246,7 +246,7 @@ msgstr "LogDir %s बनाने में विफल: %s"
 #: ../daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "जीडीएम उपयोगकर्ता \"%s\" नहीं मिल रहा है. निरस्त किया जा रहा!"
 
 #: ../daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -255,7 +255,7 @@ msgstr "जीडीएम उपयोक्ता रूट नहीं ह�
 #: ../daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "GDM समूह \"% s\" नहीं मिला. निरस्त किया जा रहा!"
 
 #: ../daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -411,7 +411,7 @@ msgstr "इस अनुप्रयोग का संस्करण"
 #. Option parsing
 #: ../utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr " नई GDM लॉगिन"
 
 #: ../utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

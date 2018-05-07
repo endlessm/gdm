@@ -5,7 +5,7 @@
 # Translators:
 # Arman Aksoy <armish@linux-sevenler.de>, 2003
 # Baris Cicek <baris@teamforce.name.tr>, 2004-2005,2008-2009
-# bitisik_da <cyigitsahin@outlook.com>, 2017
+# Çağatay Yiğit Şahin <cyigitsahin@outlook.com>, 2017
 # Emin Tufan <etcetin@gmail.com>, 2013
 # Emin Tufan <etcetin@gmail.com>, 2013
 # Erçin EKER <ercin@linux.org.tr>, 2011
