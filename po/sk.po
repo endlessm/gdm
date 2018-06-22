@@ -5,7 +5,7 @@
 # Translators:
 # Dušan Kazik <prescott66@gmail.com>, 2012-2015
 # Marcel Telka <marcel@telka.sk>, 2005
-# pavolzetor <pavol@klacansky.com>, 2012-2013
+# pavolzetor <inactive+pavolzetor@transifex.com>, 2012-2013
 # Peter Tuhársky <tuharsky@misbb.sk>, 2007
 # Stanislav Višňovský <visnovsky@kde.org>, 2003
 msgid ""
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #: ../chooser/gdm-host-chooser-dialog.c:147
 msgid "Select System"
