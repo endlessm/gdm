@@ -562,6 +562,14 @@ get_fallback_session_name (GdmSession *self)
                 }
         }
 
+        name = g_strdup ("endless");
+        if (get_session_command_for_name (self, name, NULL)) {
+                g_free (self->fallback_session_name);
+                self->fallback_session_name = name;
+                goto out;
+        }
+        g_free (name);
+
         name = g_strdup ("gnome");
         if (get_session_command_for_name (self, name, NULL)) {
                 g_free (self->fallback_session_name);
