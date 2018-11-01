@@ -1,3 +1,4 @@
 user-db:user
 system-db:gdm
 file-db:/var/lib/gdm3/greeter-dconf-defaults
+file-db:/var/lib/eos-image-defaults/settings
