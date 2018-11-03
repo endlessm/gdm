@@ -37,6 +37,10 @@ GQuark gdm_common_error_quark (void);
 typedef char * (*GdmExpandVarFunc) (const char *var,
                                     gpointer user_data);
 
+typedef void   (*GdmLoadEnvVarFunc) (const char *var,
+                                     const char *value,
+                                     gpointer user_data);
+
 G_BEGIN_DECLS
 
 int            gdm_wait_on_pid           (int pid);
@@ -69,6 +73,9 @@ gboolean      gdm_shell_var_is_valid_char (char c,
                                            gboolean first);
 char *        gdm_shell_expand            (const char *str,
                                            GdmExpandVarFunc expand_func,
+                                           gpointer user_data);
+
+void          gdm_load_env_d              (GdmLoadEnvVarFunc load_env_func,
                                            gpointer user_data);
 
 G_END_DECLS
