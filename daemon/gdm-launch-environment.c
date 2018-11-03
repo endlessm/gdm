@@ -115,6 +115,138 @@ static void     gdm_launch_environment_finalize      (GObject                   
 
 G_DEFINE_TYPE (GdmLaunchEnvironment, gdm_launch_environment, G_TYPE_OBJECT)
 
+static char *
+get_var_cb (const char *key,
+            gpointer user_data)
+{
+        char *value = g_hash_table_lookup (user_data, key);
+        return g_strdup (value);
+}
+
+static void
+load_env_file (GHashTable *environment,
+               GFile   *file)
+{
+        gchar *contents;
+        gchar **lines;
+        gchar *line, *p;
+        gchar *var, *var_end;
+        gchar *expanded;
+        char *filename;
+        int i;
+        static const char * const variables[] = {
+                "XDG_DATA_DIRS", NULL
+        };
+
+        filename = g_file_get_path (file);
+        g_debug ("Loading env vars from %s\n", filename);
+        g_free (filename);
+
+        if (g_file_load_contents (file, NULL, &contents, NULL, NULL, NULL)) {
+                lines = g_strsplit (contents, "\n", -1);
+                g_free (contents);
+                for (i = 0; lines[i] != NULL; i++) {
+                        line = lines[i];
+                        p = line;
+                        while (g_ascii_isspace (*p))
+                                p++;
+                        if (*p == '#' || *p == '\0')
+                                continue;
+                        var = p;
+                        while (gdm_shell_var_is_valid_char (*p, p == var))
+                                p++;
+                        var_end = p;
+                        while (g_ascii_isspace (*p))
+                                p++;
+                        if (var == var_end || *p != '=') {
+                                g_warning ("Invalid env.d line '%s'\n", line);
+                                continue;
+                        }
+                        *var_end = 0;
+
+                        if (!g_strv_contains (variables, var))
+                                continue;
+
+                        p++; /* Skip = */
+                        while (g_ascii_isspace (*p))
+                                p++;
+
+                        expanded = gdm_shell_expand (p, get_var_cb, environment);
+                        expanded = g_strchomp (expanded);
+                        g_warning ("adding %s %s to table", var, expanded);
+                        g_hash_table_replace (environment, g_strdup (var), expanded);
+                }
+                g_strfreev (lines);
+        }
+}
+
+static gint
+compare_str (gconstpointer  a,
+             gconstpointer  b)
+{
+  return strcmp (*(const char **)a, *(const char **)b);
+}
+
+static void
+gdm_load_env_dir (GHashTable *environment,
+                  GFile *dir)
+{
+        GFileInfo *info = NULL;
+        GFileEnumerator *enumerator = NULL;
+        GPtrArray *names = NULL;
+        GFile *file;
+        const gchar *name;
+        int i;
+
+        enumerator = g_file_enumerate_children (dir,
+                                                G_FILE_ATTRIBUTE_STANDARD_TYPE","
+                                                G_FILE_ATTRIBUTE_STANDARD_NAME","
+                                                G_FILE_ATTRIBUTE_STANDARD_IS_HIDDEN","
+                                                G_FILE_ATTRIBUTE_STANDARD_IS_BACKUP,
+                                                G_FILE_QUERY_INFO_NONE,
+                                                NULL, NULL);
+        if (!enumerator) {
+                goto out;
+        }
+
+        names = g_ptr_array_new_with_free_func (g_free);
+        while ((info = g_file_enumerator_next_file (enumerator, NULL, NULL)) != NULL) {
+                if (g_file_info_get_file_type (info) == G_FILE_TYPE_REGULAR &&
+                    !g_file_info_get_is_hidden (info) &&
+                    g_str_has_suffix (g_file_info_get_name (info), ".env"))
+                  g_ptr_array_add (names, g_strdup (g_file_info_get_name (info)));
+
+                g_clear_object (&info);
+        }
+
+        g_ptr_array_sort (names, compare_str);
+
+        for (i = 0; i < names->len; i++) {
+                name = g_ptr_array_index (names, i);
+                file = g_file_get_child (dir, name);
+                load_env_file (environment, file);
+                g_object_unref (file);
+        }
+
+ out:
+        g_clear_pointer (&names, g_ptr_array_unref);
+        g_clear_object (&enumerator);
+}
+
+static void
+load_xdg_data_dirs_from_env_d (GHashTable *environment)
+{
+        GFile *dir;
+
+        dir = g_file_new_for_path (DATADIR "/gdm/env.d");
+        gdm_load_env_dir (environment, dir);
+        g_object_unref (dir);
+
+        dir = g_file_new_for_path (GDMCONFDIR "/env.d");
+        gdm_load_env_dir (environment, dir);
+        g_object_unref (dir);
+}
+
 static GHashTable *
 build_launch_environment (GdmLaunchEnvironment *launch_environment,
                           gboolean              start_session)
@@ -143,15 +275,6 @@ build_launch_environment (GdmLaunchEnvironment *launch_environment,
                                      g_strdup (optional_environment[i]),
                                      g_strdup (g_getenv (optional_environment[i])));
         }
-
-        system_data_dirs = g_strjoinv (":", (char **) g_get_system_data_dirs ());
-
-        g_hash_table_insert (hash,
-                             g_strdup ("XDG_DATA_DIRS"),
-                             g_strdup_printf ("%s:%s",
-                                              DATADIR "/gdm/greeter",
-                                              system_data_dirs));
-        g_free (system_data_dirs);
 
         if (launch_environment->priv->x11_authority_file != NULL)
                 g_hash_table_insert (hash, g_strdup ("XAUTHORITY"), g_strdup (launch_environment->priv->x11_authority_file));
@@ -204,6 +327,25 @@ build_launch_environment (GdmLaunchEnvironment *launch_environment,
         g_hash_table_insert (hash, g_strdup ("PATH"), g_strdup (g_getenv ("PATH")));
 
         g_hash_table_insert (hash, g_strdup ("RUNNING_UNDER_GDM"), g_strdup ("true"));
+
+        /* Now populate XDG_DATA_DIRS from env.d if we're running initial setup; this allows
+         * e.g. Flatpak apps to be recognized by gnome-shell.
+         */
+        if (launch_environment->priv->session_mode != NULL &&
+            strcmp (launch_environment->priv->session_mode, INITIAL_SETUP_SESSION_MODE) == 0)
+                load_xdg_data_dirs_from_env_d (hash);
+
+        /* Prepend our own XDG_DATA_DIRS value */
+        system_data_dirs = g_strdup (g_hash_table_lookup (hash, "XDG_DATA_DIRS"));
+        if (!system_data_dirs)
+                system_data_dirs = g_strjoinv (":", (char **) g_get_system_data_dirs ());
+
+        g_hash_table_insert (hash,
+                             g_strdup ("XDG_DATA_DIRS"),
+                             g_strdup_printf ("%s:%s",
+                                              DATADIR "/gdm/greeter",
+                                              system_data_dirs));
+        g_free (system_data_dirs);
 
         return hash;
 }
