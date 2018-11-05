@@ -76,6 +76,7 @@ char *        gdm_shell_expand            (const char *str,
                                            gpointer user_data);
 
 void          gdm_load_env_d              (GdmLoadEnvVarFunc load_env_func,
+                                           GdmExpandVarFunc  expand_func,
                                            gpointer user_data);
 
 G_END_DECLS
