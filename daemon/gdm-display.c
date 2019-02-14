@@ -713,10 +713,6 @@ gdm_display_unmanage (GdmDisplay *self)
                 _gdm_display_set_status (self, GDM_DISPLAY_UNMANAGED);
         }
 
-        /* Make sure we clear the journal's text in the console if needed when
-         * disconnecting, not to bother the user with irrelevant messages. */
-        g_spawn_command_line_async ("/bin/bash -c '/usr/bin/tput -Tlinux reset > /dev/tty1'", NULL);
-
         return TRUE;
 }
 
