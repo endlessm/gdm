@@ -1,5 +1,7 @@
+#!/usr/bin/dh-exec
 etc/*
 lib/systemd/
+[linux-any] lib/udev
 lib/*/security/*.so
 usr/bin/gdm-screenshot
 usr/lib/gdm3/gdm-*
@@ -13,10 +15,13 @@ usr/share/gdm/gdb-cmd
 usr/share/gdm/locale.alias
 usr/share/gdm/greeter
 usr/share/gdm/*.schemas
-usr/share/gdm/greeter-dconf-defaults
 usr/share/gnome-session/
 usr/share/dconf/
 var/*
 
 debian/Xsession				etc/gdm3
+debian/greeter.dconf-defaults*		usr/share/gdm
+debian/default.desktop			usr/share/gdm/BuiltInSessions
+debian/generate-config			usr/share/gdm
 debian/insserv.conf.d			etc
+data/dconf/defaults/*			usr/share/gdm/dconf
