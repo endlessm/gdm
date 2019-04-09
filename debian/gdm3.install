@@ -19,5 +19,6 @@ usr/share/gnome-session/
 usr/share/dconf/
 var/*
 
+debian/62-Endless-disable-wayland.rules	etc/udev/rules.d
 debian/Xsession				etc/gdm3
 debian/insserv.conf.d			etc
