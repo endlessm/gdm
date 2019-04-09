@@ -1,3 +1,10 @@
+gdm3 (3.32.0-1endless0) eos; urgency=medium
+
+  * Add back downstream changes
+  * Add 62-Endless-disable-wayland.rules
+
+ -- Georges Basile Stavracas Neto <georges@endlessm.com>  Tue, 09 Apr 2019 20:03:17 -0300
+
 gdm3 (3.32.0-1) experimental; urgency=medium
 
   * New upstream release
