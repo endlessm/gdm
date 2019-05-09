@@ -8,11 +8,6 @@ include /usr/share/gnome-pkg-tools/1/rules/gnome-version.mk
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 export DEB_LDFLAGS_MAINT_APPEND = -Wl,-z,defs -Wl,--as-needed
 
-ifeq (,$(filter i386 amd64,$(DEB_HOST_ARCH_CPU)))
-CONFFLAGS += \
-	--disable-user-display-server
-endif
-
 ifeq (linux,$(DEB_HOST_ARCH_OS))
 CONFFLAGS += \
 	--enable-wayland-support \
@@ -62,6 +57,7 @@ override_dh_auto_configure:
 		--libexecdir=\$${prefix}/lib/gdm3 \
 		--disable-static \
 		--enable-ipv6=yes \
+		--disable-user-display-server \
 		--with-at-spi-registryd-directory=/usr/lib/at-spi \
 		--with-default-path=/usr/local/bin:/usr/bin:/bin:/usr/games \
 		--with-custom-conf=/etc/gdm3/daemon.conf \
