@@ -5,13 +5,13 @@
 # Translators:
 # Áki G. Karlsson  <aki@akademia.is>, 2003
 # Richard Allen <ra@ra.is>, 2003
-# Sveinn í Felli <sv1@fellsnet.is>, 2015-2017
+# Sveinn í Felli <sv1@fellsnet.is>, 2015-2018
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:45+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Icelandic (http://www.transifex.com/endless-os/gdm/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -22,15 +22,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "Endu_rlesa"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "_Hætta við"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "Te_ngjast"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"

@@ -6,14 +6,14 @@
 # Asier Sarasua Garmendia <asiersar@yahoo.com>, 2013
 # Hizkuntza Politikarako Sailburuordetza <hizkpol@ej-gv.es>, 2004-2005
 # Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2004-2005
-# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2004-2017
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2004-2018
 # julen, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:45+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Basque (http://www.transifex.com/endless-os/gdm/language/eu/)\n"
 "MIME-Version: 1.0\n"
@@ -24,15 +24,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "_Freskatu"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "_Utzi"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "_Konektatu"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"

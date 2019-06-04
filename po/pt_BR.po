@@ -7,7 +7,7 @@
 # Afonso Celso Medina <afmedina@uol.com.br>, 2004-2005
 # Antonio Fernandes C. Neto <fernandesn@gnome.org>, 2010
 # David Barzilay <barzilay@redhat.com>, 2003
-# Enrico Nicoletto <liverig@gmail.com>, 2013-2014
+# Enrico Nicoletto <liverig@gmail.com>, 2013-2014,2018
 # Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008
 # skarllotbr <skarllot@gmail.com>, 2008
 # Guilherme de S. Pastore <gpastore@gnome.org>, 2006
@@ -36,7 +36,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:46+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/endless-os/gdm/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -47,15 +47,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "A_tualizar"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "_Cancelar"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "C_onectar"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"

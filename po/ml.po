@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:46+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Malayalam (http://www.transifex.com/endless-os/gdm/language/ml/)\n"
 "MIME-Version: 1.0\n"
@@ -33,15 +33,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "റിഫ്രഷ് (_R)"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "റദ്ദാക്കു (_C)"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "ബന്ധിപ്പിക്കു (_C)"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"
@@ -192,11 +192,11 @@ msgstr "ആധികാരികതയ്ക്കുള്ള സഹായ പ�
 
 #: daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr "താങ്കളുടെ അക്കൗണ്ടിന് അനുവദിച്ച സമയം കഴിഞ്ഞിരിക്കുന്നു"
+msgstr "താങ്കളുടെ അക്കൗണ്ടിന് അനുവദിച്ച സമയം കഴിഞ്ഞിരിക്കുന്നു."
 
 #: daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr "ക്ഷമിക്കുക, അത് നടന്നില്ല. ദയവായി വീണ്ടും ശ്രമിക്കുക"
+msgstr "ക്ഷമിക്കുക, അത് നടന്നില്ല. ദയവായി വീണ്ടും ശ്രമിക്കുക."
 
 #: daemon/gdm-session-worker.c:1189
 msgid "Username:"

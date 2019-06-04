@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:45+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/endless-os/gdm/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -33,15 +33,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "刷新(_R)"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "取消(_C)"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "连接(_O)"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"
@@ -108,7 +108,7 @@ msgstr "无可用的会话"
 
 #: daemon/gdm-manager.c:849
 msgid "Chooser session unavailable"
-msgstr "无可用的选择器会话"
+msgstr "选择器会话不可用"
 
 #: daemon/gdm-manager.c:865
 msgid "Can only be called before user is logged in"
@@ -130,7 +130,7 @@ msgstr "服务器是以用户 %s 身份创建的，但此用户不存在"
 #: daemon/gdm-server.c:394 daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr "无法将群组 ID 设置为 %d"
+msgstr "无法将组 ID 设置为 %d"
 
 #: daemon/gdm-server.c:400
 #, c-format
@@ -140,7 +140,7 @@ msgstr "initgroups() 执行 %s 失败"
 #: daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr "无法将用户 ID 设置为%d"
+msgstr "无法将用户 ID 设置为 %d"
 
 #: daemon/gdm-server.c:484
 #, c-format
@@ -155,7 +155,7 @@ msgstr "%s：将 %s 设为 %s 出错"
 #: daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr "%s：无法将服务器优先级设置为 %d：%s"
+msgstr "%s：服务器优先级无法设为 %d：%s"
 
 #: daemon/gdm-server.c:689
 #, c-format
@@ -192,11 +192,11 @@ msgstr "无法建立验证助手进程"
 
 #: daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr "您的账号设有时间限制，现已超过限定时间。"
+msgstr "你的帐号设有时间限制，已超过限定时间。"
 
 #: daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr "抱歉，无法正常工作。请重试。"
+msgstr "抱歉，登录失败，请再试一次。"
 
 #: daemon/gdm-session-worker.c:1189
 msgid "Username:"
@@ -256,7 +256,7 @@ msgstr "无法创建 LogDir %s: %s"
 #: daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr "无法找到 GDM 用户“%s ”。中止！"
+msgstr "找不到 GDM 用户“%s”。中止！"
 
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -265,7 +265,7 @@ msgstr "GDM 用户不能为 root。中止！"
 #: daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr "无法找到 GDM 群组“%s ”。中止！"
+msgstr "找不到 GDM 组“%s”。中止！"
 
 #: daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -422,7 +422,7 @@ msgstr "该应用程序版本"
 #. Option parsing
 #: utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr "—新 GDM 登录"
+msgstr "— 新 GDM 登录"
 
 #: utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

@@ -8,6 +8,7 @@
 # Vladimer Sichinava <vsichi@gnome.org>, 2008
 # Vladimer Sichinava  ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2008
 # Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2007
+# Vladimer Sichinava  ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2008
 # Zviad Sulaberidze <zviad@osgf.ge>, 2006
 msgid ""
 msgstr ""

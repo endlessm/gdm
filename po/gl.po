@@ -5,7 +5,7 @@
 # Translators:
 # Antón Méixome <meixome@certima.net>, 2010
 # Antón Méixome <meixome@mancomun.org>, 2009
-# Fran Dieguez <frandieguez@gnome.org>, 2012-2017
+# Fran Dieguez <frandieguez@gnome.org>, 2012-2018
 # Fran Diéguez <frandieguez@gnome.org>, 2009-2012
 # Ignacio Casal Quinteiro <icq@cvs.gnome.org>, 2007
 # Ignacio Casal Quinteiro <icq@svn.gnome.org>, 2007-2008
@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:43+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Galician (http://www.transifex.com/endless-os/gdm/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -33,15 +33,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "_Actualizar"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "_Cancelar"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "C_onectar"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"

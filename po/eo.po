@@ -4,11 +4,12 @@
 # 
 # Translators:
 # Brian CROOM < >, 2008
+# Carmen Bianca Bakker <carmen@carmenbianca.eu>, 2019
 # Daniel PUENTES <blatberk@openmailbox.org>, 2015
 # Ed GLEZ < >, 2006
 # Jacob NORDFALK < >, 2009
 # Joop EGGEN <joop_eggen@yahoo.de>, 2006
-# kristjan <kristjan.schmidt@googlemail.com>, 2009-2013,2015
+# kristjan <kristjan.schmidt@googlemail.com>, 2009-2013,2015,2018
 # Lucas LARSON < >, 2009
 # Michael MORONI < >, 2009,2011
 # Olivier WEB < >, 2008
@@ -21,7 +22,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:43+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Esperanto (http://www.transifex.com/endless-os/gdm/language/eo/)\n"
 "MIME-Version: 1.0\n"
@@ -32,15 +33,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "_Aktualigi"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "_Nuligi"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "K_onekti"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"
@@ -56,7 +57,7 @@ msgstr "XDMCP: Ne eblis legi XDMCP-kapon!"
 
 #: chooser/gdm-host-chooser-widget.c:265
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XMDCP: Malĝusta XDMCP-versio!"
+msgstr "XDMCP: Malĝusta XDMCP-versio!"
 
 #: chooser/gdm-host-chooser-widget.c:271
 msgid "XDMCP: Unable to parse address"
@@ -78,16 +79,16 @@ msgstr "Ne eblas identigi la aktualan seancon."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr "La sistemo ne povas eltrovi ĉu ŝalti al ekzistantan ensalut-ekranon aŭ startigi novan ensalut-ekranon."
+msgstr "La sistemo ne povas eltrovi ĉu ŝalti al ekzistantan salut-ekranon aŭ startigi novan salut-ekranon."
 
 #: common/gdm-common.c:529 libgdm/gdm-user-switching.c:236
 msgid "The system is unable to start up a new login screen."
-msgstr "La sistemo ne povas startigi novan ensalut-ekranon."
+msgstr "La sistemo ne povas startigi novan salut-ekranon."
 
 #: daemon/gdm-display-access-file.c:298
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "ne eblis trovi uzanton “%s” sur la sistemo"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
@@ -107,11 +108,11 @@ msgstr "Neniu seanco disponeblas"
 
 #: daemon/gdm-manager.c:849
 msgid "Chooser session unavailable"
-msgstr ""
+msgstr "Elektoseanco maldisponeblas"
 
 #: daemon/gdm-manager.c:865
 msgid "Can only be called before user is logged in"
-msgstr "Nur estas vokeble antaŭ uzanto estas ensalutita"
+msgstr "Nur estas vokeble antaŭ uzanto estas salutinta"
 
 #: daemon/gdm-manager.c:876
 msgid "Caller not GDM"
@@ -124,12 +125,12 @@ msgstr "Ne eblas malfermi privatan komunikadan kanalon"
 #: daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "Servilo estis lanĉenda por la uzanto %s, sed tiu uzanto ne ekzistas"
 
 #: daemon/gdm-server.c:394 daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "Ne eblis agordi %d kiel grupidentigo"
 
 #: daemon/gdm-server.c:400
 #, c-format
@@ -139,7 +140,7 @@ msgstr "initgroups () malsukcesis por %s"
 #: daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "Ne eblis agordi %d kiel uzantoidentigo"
 
 #: daemon/gdm-server.c:484
 #, c-format
@@ -154,7 +155,7 @@ msgstr "%s: Ne eblis agordi %s al %s"
 #: daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: Ne eblis agordi prioritaton de la servilo al %d: %s"
 
 #: daemon/gdm-server.c:689
 #, c-format
@@ -191,11 +192,11 @@ msgstr "Ne eblis krei aŭtentokontrolilan procezon"
 
 #: daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "Al via konto estis donita tempolimo kiu nun pasis."
 
 #: daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "Pardonon, tio ne funkciis. Bonvolu provi denove."
 
 #: daemon/gdm-session-worker.c:1189
 msgid "Username:"
@@ -227,7 +228,7 @@ msgstr "Ne eblas kreii kontaktoskatolon!"
 
 #: daemon/gdm-x-session.c:826
 msgid "Run program through /etc/gdm/Xsession wrapper script"
-msgstr ""
+msgstr "Ruli programon tra la /etc/gdm/Xsession pasiga skripto"
 
 #: daemon/gdm-x-session.c:827
 msgid "Listen on TCP socket"
@@ -255,20 +256,20 @@ msgstr "Malsukcesis krei na LogDir %s: %s"
 #: daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "Ne eblas trovi GDM-uzanton “%s”. Ĉesigante!"
 
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
-msgstr "La GDM-uzanto ne estu radiko. Eliras!"
+msgstr "La GDM-uzanto ne estu radiko. Ĉesigante!"
 
 #: daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "Ne eblas trovi la GDM-grupon “%s”. Ĉesigante!"
 
 #: daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
-msgstr "La GDM-grupo ne estu radiko. Eliras!"
+msgstr "La GDM-grupo ne estu radiko. Ĉesigante!"
 
 #: daemon/main.c:317
 msgid "Make all warnings fatal"
@@ -299,33 +300,33 @@ msgstr "GDM (GNOME Ekran-mastrumilo) seancolaborilo"
 
 #: data/org.gnome.login-screen.gschema.xml:6
 msgid "Whether or not to allow fingerprint readers for login"
-msgstr "Ĉu aŭ ne permesi fringropremajn legilojn en ensaluto"
+msgstr "Ĉu aŭ ne permesi fringropremajn legilojn por saluto"
 
 #: data/org.gnome.login-screen.gschema.xml:9
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr "Tiu ĉi ensalut-ekrano povas permesi aŭ ne uzantojn, kiuj jam registris siajn fingropremojn, ensaluti pere de tiuj fingropremoj."
+msgstr "Tiu ĉi salut-ekrano povas permesi aŭ ne uzantojn, kiuj jam registris siajn fingropremojn, saluti pere de tiuj fingropremoj."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
-msgstr "Ĉu aŭ ne permesi legilojn de inteligentaj memorkartoj por ensaluto"
+msgstr "Ĉu aŭ ne permesi legilojn de inteligentaj memorkartoj por saluto"
 
 #: data/org.gnome.login-screen.gschema.xml:19
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr "Tiu ĉi ensalut-ekrano povas permesi aŭ ne uzantojn, kiuj havas inteligentajn memorkartojn, ensaluti pere de tiuj."
+msgstr "Tiu ĉi salut-ekrano povas permesi aŭ ne uzantojn, kiuj havas inteligentajn memorkartojn, saluti pere de tiuj."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
-msgstr "Ĉu aŭ ne permesi pasvortojn por ensaluto"
+msgstr "Ĉu aŭ ne permesi pasvortojn por saluto"
 
 #: data/org.gnome.login-screen.gschema.xml:29
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr "Tiu ĉi ensalut-ekrano povas agordiĝi por malpermesi perpasvortan aŭtentigon, devigante uzantojn uzi inteligentajn memorkartojn aŭ fingropremoj ĉe ensaluto."
+msgstr "Tiu ĉi salut-ekrano povas agordiĝi por malpermesi perpasvortan aŭtentigon, devigante uzantojn uzi inteligentajn memorkartojn aŭ fingropremoj ĉe saluto."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -336,13 +337,13 @@ msgstr "Vojo al eta bildo sur listo de uzantoj"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
+msgstr "La salut-ekrano povas malnepre montri etan bildon por provizi markadospacon al administrantoj kaj distribuoj."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
+msgstr "La retropaŝa salut-ekrano povas montri etan bildon por provizi markadospacon al administrantoj kaj distribuoj."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -352,7 +353,7 @@ msgstr "Ne montri liston de uzantoj"
 msgid ""
 "The login screen normally shows a list of available users to log in as. This"
 " setting can be toggled to disable showing the user list."
-msgstr "Tiu ĉi ensalut-ekrano norme montras liston de disponeblaj uzantoj, por ensaluti kiel unu el ili. Oni povas malvalidigi tiun ĉi, por ke oni ne montru la liston de uzantoj."
+msgstr "Tiu ĉi salut-ekrano norme montras liston de disponeblaj uzantoj, por saluti kiel unu el ili. Oni povas malvalidigi tiun ĉi, por ke oni ne montru la liston de uzantoj."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -360,7 +361,7 @@ msgstr "Enŝalti montron de la rubanda mesaĝo"
 
 #: data/org.gnome.login-screen.gschema.xml:69
 msgid "Set to true to show the banner message text."
-msgstr "Agordi al 'vera' por montri la rubandan tekston."
+msgstr "Agordi al vera por montri la rubandan tekston."
 
 #: data/org.gnome.login-screen.gschema.xml:75
 msgid "Banner message text"
@@ -368,7 +369,7 @@ msgstr "Rubanda mesaĝteksto"
 
 #: data/org.gnome.login-screen.gschema.xml:78
 msgid "Text banner message to show in the login window."
-msgstr "Rubanda teksto kiu estu montrata en la ensalutfenestro."
+msgstr "Rubanda teksto kiu estu montrata en la salutfenestro."
 
 #: data/org.gnome.login-screen.gschema.xml:84
 msgid "Disable showing the restart buttons"
@@ -377,7 +378,7 @@ msgstr "Malebligi la montron de restartigo-butonoj"
 #: data/org.gnome.login-screen.gschema.xml:87
 msgid ""
 "Set to true to disable showing the restart buttons in the login window."
-msgstr "Agordi al 'vera' por malebligi montron de restartig-butonoj en la ensalutfenestro."
+msgstr "Agordi al 'vera' por malebligi montron de restartig-butonoj en la salutfenestro."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -399,7 +400,7 @@ msgstr "Ne eblas aktivigi seancon: "
 
 #: utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
-msgstr "Nur la komando »VERSION« estas subtenata"
+msgstr "Nur la komando VERSION estas subtenata"
 
 #: utils/gdmflexiserver.c:45
 msgid "COMMAND"
@@ -421,7 +422,7 @@ msgstr "Versio de ĉi tiu aplikaĵo"
 #. Option parsing
 #: utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— Nova GDM-saluto"
 
 #: utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

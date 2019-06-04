@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:46+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/endless-os/gdm/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -29,15 +29,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "_Actualizar"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "_Cancelar"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "C_onectar"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"
@@ -45,19 +45,19 @@ msgstr "Seleccionar sistema"
 
 #: chooser/gdm-host-chooser-widget.c:253
 msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr "XDMCP: ¡No se pudo crear un búfer XDMCP!"
+msgstr "XDMCP: No se pudo crear un búfer XDMCP."
 
 #: chooser/gdm-host-chooser-widget.c:259
 msgid "XDMCP: Could not read XDMCP header!"
-msgstr "XDMCP: ¡No se pudo leer la cabecera XDMCP!"
+msgstr "XDMCP: No se pudo leer la cabecera XDMCP."
 
 #: chooser/gdm-host-chooser-widget.c:265
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XDMCP: ¡Versión de XDMCP incorrecta!"
+msgstr "XDMCP: versión de XDMCP incorrecta."
 
 #: chooser/gdm-host-chooser-widget.c:271
 msgid "XDMCP: Unable to parse address"
-msgstr "XMDCP: No se puede analizar la dirección"
+msgstr "XMDCP: no se puede analizar la dirección"
 
 #: common/gdm-common.c:307
 msgid "/dev/urandom is not a character device"
@@ -75,11 +75,11 @@ msgstr "No se pudo identificar la sesión actual."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr "El sistema no puede determinar si cambiar a una pantalla de inicio de una sesión existente o iniciar una pantalla de inicio con una sesión nueva."
+msgstr "El sistema no puede determinar si cambiar a una pantalla de inicio de sesión existente o iniciar una pantalla de inicio de sesión nueva."
 
 #: common/gdm-common.c:529 libgdm/gdm-user-switching.c:236
 msgid "The system is unable to start up a new login screen."
-msgstr "El sistema no pudo iniciar una pantalla de inicio con una sesión nueva."
+msgstr "El sistema no puede iniciar una pantalla de inicio de sesión nueva."
 
 #: daemon/gdm-display-access-file.c:298
 #, c-format
@@ -92,7 +92,7 @@ msgid ""
 " error. Please contact your system administrator or check your syslog to "
 "diagnose. In the meantime this display will be disabled.  Please restart GDM"
 " when the problem is corrected."
-msgstr "No se pudo iniciar el servidor X (tu entorno gráfico) debido a un error interno. Contacta el administrador de tu sistema o comprueba el registro del sistema para obtener un diagnóstico. Mientras tanto esta pantalla se desactivará. Por favor reinicia GDM cuando se haya solucionado el problema."
+msgstr "No se pudo iniciar el servidor X (su entorno gráfico) debido a un error interno. Contacte con el administrador de su sistema o compruebe el registro del sistema para obtener un diagnóstico. Mientras tanto esta pantalla se desactivará. Reinicie GDM cuando se haya solucionado el problema."
 
 #: daemon/gdm-manager.c:761
 msgid "No display available"
@@ -131,7 +131,7 @@ msgstr "No se pudo establecer el id de grupo a %d"
 #: daemon/gdm-server.c:400
 #, c-format
 msgid "initgroups () failed for %s"
-msgstr "Ha fallado initgroups () para %s"
+msgstr "Ha fallado initgroups() para %s"
 
 #: daemon/gdm-server.c:406
 #, c-format
@@ -141,7 +141,7 @@ msgstr "No se pudo establecer el id de usuario a %d"
 #: daemon/gdm-server.c:484
 #, c-format
 msgid "%s: Could not open log file for display %s!"
-msgstr "%s: No se pudo abrir el archivo de registro de la pantalla %s!"
+msgstr "%s: No se pudo abrir el archivo de registro de la pantalla %s."
 
 #: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
 #, c-format
@@ -164,11 +164,11 @@ msgstr "Usuario"
 
 #: daemon/gdm-session-auditor.c:89
 msgid "The username"
-msgstr "El nombre de usuario"
+msgstr "El nombre del usuario"
 
 #: daemon/gdm-session-auditor.c:93
 msgid "Hostname"
-msgstr "Nombre de equipo"
+msgstr "Equipo"
 
 #: daemon/gdm-session-auditor.c:94
 msgid "The hostname"
@@ -220,7 +220,7 @@ msgstr "Lanzador de la sesión Wayland del gestor de pantallas de GNOME"
 
 #: daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
-msgstr "¡No se pudo crear el socket!"
+msgstr "No se pudo crear el socket."
 
 #: daemon/gdm-x-session.c:826
 msgid "Run program through /etc/gdm/Xsession wrapper script"
@@ -237,7 +237,7 @@ msgstr "Lanzador de la sesión X del gestor de pantallas de GNOME"
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr "No se puede escribir el archivo con PID %s: posiblemente no hay suficiente espacio en el disco: %s"
+msgstr "No se puede escribir el archivo con PID %s: posiblemente no hay espacio en el disco: %s"
 
 #: daemon/main.c:182
 #, c-format
@@ -256,7 +256,7 @@ msgstr "No se puede encontrar el usuario de GDM «%s». Se aborta."
 
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
-msgstr "El usuario de GDM no debería ser root. ¡Abortando!"
+msgstr "El usuario de GDM no debería ser root. Se aborta."
 
 #: daemon/main.c:235
 #, c-format
@@ -265,7 +265,7 @@ msgstr "No se encuentra el grupo de GDM «%s». Se aborta."
 
 #: daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
-msgstr "El grupo de GDM no debería ser root. ¡Abortando!"
+msgstr "El grupo de GDM no debería ser root. Se aborta."
 
 #: daemon/main.c:317
 msgid "Make all warnings fatal"
@@ -302,7 +302,7 @@ msgstr "Indica si permitir lectores de huellas para iniciar sesión"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr "La pantalla de inicio de sesión puede permitir opcionalmente a los usuarios que hayan guardado sus huellas que las usen para iniciar sesión."
+msgstr "La pantalla de inicio de sesión permite opcionalmente a los usuarios que hayan guardado su huella dactilar usarla para iniciar sesión."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -312,11 +312,11 @@ msgstr "Indica si permitir lectores de tarjetas inteligentes para iniciar sesió
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr "La pantalla de inicio de sesión puede permitir opcionalmente a los usuarios que tienen tarjetas ineligentes usarlas para iniciar sesión."
+msgstr "La pantalla de inicio de sesión permite opcionalmente a los usuarios que tienen tarjetas ineligentes usarlas para iniciar sesión."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
-msgstr "Indica si permitir contraseñas para iniciar sesión"
+msgstr "Indica si se permiten contraseñas para iniciar sesión"
 
 #: data/org.gnome.login-screen.gschema.xml:29
 msgid ""
@@ -349,7 +349,7 @@ msgstr "Evitar que se muestre la lista de usuarios"
 msgid ""
 "The login screen normally shows a list of available users to log in as. This"
 " setting can be toggled to disable showing the user list."
-msgstr "Normalmente, la pantalla de inicio muestra una lista de los usuarios disponibles para iniciar la sesión. Esta configuración se puede cambiar para evitar que se muestre la lista de usuarios."
+msgstr "Normalmente, la pantalla de inicio muestra una lista de los usuarios disponibles para iniciar sesión. Esta configuración se puede cambiar para evitar que se muestre la lista de usuarios."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -405,15 +405,15 @@ msgstr "COMANDO"
 #: utils/gdmflexiserver.c:46 utils/gdmflexiserver.c:47
 #: utils/gdmflexiserver.c:49 utils/gdmflexiserver.c:50
 msgid "Ignored — retained for compatibility"
-msgstr "Ignorado - retenido por compatibilidad"
+msgstr "Ignorado; retenido por compatibilidad"
 
 #: utils/gdmflexiserver.c:48 utils/gdm-screenshot.c:43
 msgid "Debugging output"
-msgstr "Rendimiento de depuración"
+msgstr "Opción de depuración"
 
 #: utils/gdmflexiserver.c:52
 msgid "Version of this application"
-msgstr "Versión de este programa"
+msgstr "Versión de esta aplicación"
 
 #. Option parsing
 #: utils/gdmflexiserver.c:137
@@ -427,4 +427,4 @@ msgstr "Captura de pantalla obtenida"
 #. Option parsing
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
-msgstr "Tomar una captura de pantalla"
+msgstr "Tomar una captura de la pantalla"

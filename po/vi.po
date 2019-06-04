@@ -4,14 +4,14 @@
 # 
 # Translators:
 # Trung Ngô <ndtrung4419@gmail.com>, 2011
-# Trần Ngọc Quân <vnwildman@gmail.com>, 2013,2015-2017
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2013,2015-2018
 # Trần Ngọc Quân <vnwildman@gmail.com>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:47+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/endless-os/gdm/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -22,15 +22,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "Cậ_p nhật"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "T_hôi"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "_Kết nối"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"

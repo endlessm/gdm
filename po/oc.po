@@ -6,14 +6,14 @@
 # Cédric Valmary <cvalmary@yahoo.fr>, 2015-2016
 # Cédric Valmary <cvalmary@yahoo.fr>, 2015
 # Cédric Valmary <cvalmary@yahoo.fr>, 2015
-# Cédric Valmary <cvalmary@yahoo.fr>, 2016
+# Cédric Valmary <cvalmary@yahoo.fr>, 2016,2018
 # Yannig Marchegay (Kokoyaya)  <yannig@marchegay.org>, 2007
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:47+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Occitan (post 1500) (http://www.transifex.com/endless-os/gdm/language/oc/)\n"
 "MIME-Version: 1.0\n"
@@ -24,15 +24,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "_Actualizar"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "_Anullar"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "Se _connectar"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"
@@ -79,7 +79,7 @@ msgstr "Lo sistèma es incapable d'aviar un novèl ecran de connexion."
 #: daemon/gdm-display-access-file.c:298
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "impossible de trobar l’utilizaire « %s » sul sistèma"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
@@ -99,7 +99,7 @@ msgstr "Cap de session pas disponibla"
 
 #: daemon/gdm-manager.c:849
 msgid "Chooser session unavailable"
-msgstr ""
+msgstr "Selector de session pas disponible"
 
 #: daemon/gdm-manager.c:865
 msgid "Can only be called before user is logged in"
@@ -116,12 +116,12 @@ msgstr "Impossible de dobrir un canal de comunicacion privat"
 #: daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "Lo servidor deviá èsser aviat per l’utilizaire %s mas aqueste utilizaire existís pas"
 
 #: daemon/gdm-server.c:394 daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "Impossible de definir l’identificador del grop a %d"
 
 #: daemon/gdm-server.c:400
 #, c-format
@@ -131,7 +131,7 @@ msgstr "initgroups () a fracassat per %s"
 #: daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "Impossible de definir l’identificador de l’utilizaire a %d"
 
 #: daemon/gdm-server.c:484
 #, c-format
@@ -146,7 +146,7 @@ msgstr "%s : error al moment de la definicion de %s a %s"
 #: daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s : la prioritat del servidor pòt pas èsser fixada a %d : %s"
 
 #: daemon/gdm-server.c:689
 #, c-format
@@ -183,11 +183,11 @@ msgstr "Impossible de crear un processus assistent d'autentificacion"
 
 #: daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "Vòstre compte a un limit de temps qu'es ara escasut."
 
 #: daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "O planhèm, aquò a pas foncionat. Reensajatz."
 
 #: daemon/gdm-session-worker.c:1189
 msgid "Username:"
@@ -207,7 +207,7 @@ msgstr "cap de compte d'utilizaire pas disponible"
 
 #: daemon/gdm-session-worker.c:1694
 msgid "Unable to change to user"
-msgstr "Impossible de cambiar cap a* l'utilizaire"
+msgstr "Impossible de cambiar cap a l'utilizaire"
 
 #: daemon/gdm-wayland-session.c:478
 msgid "GNOME Display Manager Wayland Session Launcher"
@@ -219,7 +219,7 @@ msgstr "Impossible de crear lo connector."
 
 #: daemon/gdm-x-session.c:826
 msgid "Run program through /etc/gdm/Xsession wrapper script"
-msgstr "Executar lo programme via un escript d'envolopa /etc/gdm/Xsession"
+msgstr "Executar lo programa via un escript d'envolopa /etc/gdm/Xsession"
 
 #: daemon/gdm-x-session.c:827
 msgid "Listen on TCP socket"
@@ -247,7 +247,7 @@ msgstr "Impossible de crear lo repertòri de connexion %s : %s"
 #: daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "Impossible de trobar l’utilizaire GDM « %s ». Abandon !"
 
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -256,7 +256,7 @@ msgstr "L'utilizaire GDM deu pas èsser root. Abandon !"
 #: daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "Impossible de trobar lo grop GDM « %s ». Abandon !"
 
 #: daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -413,7 +413,7 @@ msgstr "Version d'aquesta aplicacion"
 #. Option parsing
 #: utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— novèla connexion GDM"
 
 #: utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

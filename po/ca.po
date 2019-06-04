@@ -4,7 +4,7 @@
 # 
 # Translators:
 # David Planella Molas <david.planella@gmail.com>, 2008-2011
-# Gil Forcada <gilforcada@guifi.net>, 2012-2014,2016
+# Gil Forcada <gilforcada@guifi.net>, 2012-2014,2016,2018
 # Ivan Vilata i Balaguer <ivan@selidor.net>, 1999-2000
 # Jordi Mallach <jordi@sindominio.net>, 2002-2006
 # Jordi Mas <jmas@softcatala.org>, 2017
@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:47+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/endless-os/gdm/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -31,15 +31,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "_Actualitza"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "_Cancel·la"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "C_onnecta"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"

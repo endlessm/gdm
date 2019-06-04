@@ -9,14 +9,14 @@
 # Pēteris Krišjānis <pecisk@gmail.com>, 2010
 # Raivis Dejus <orvils@gmail.com>, 2006-2007,2009-2010
 # Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011-2016
-# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011,2013,2015-2017
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011,2013,2015-2018
 # Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:43+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Latvian (http://www.transifex.com/endless-os/gdm/language/lv/)\n"
 "MIME-Version: 1.0\n"
@@ -27,15 +27,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "_Atsvaidzināt"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "At_celt"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "Savien_oties"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"

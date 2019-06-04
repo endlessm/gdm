@@ -18,6 +18,7 @@
 # Ryoichi INAGAKI <ryo1@bc.wakwak.com>, 2004
 # Satoru SATOH <ss@gnome.gr.jp>, 2006
 # SATO Satoru <ss@gnome.gr.jp>, 2001,2006
+# sicklylife <translation@sicklylife.jp>, 2019
 # Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2000,2010,2012
 # Taku YASUI <tach@debian.or.jp>, 2001
 # Yasumichi Akahoshi <yasumichi@vinelinux.org>, 2010
@@ -28,7 +29,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:44+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/endless-os/gdm/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -39,15 +40,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "更新(_R)"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "キャンセル(_C)"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "接続(_O)"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"
@@ -94,7 +95,7 @@ msgstr "新しいログイン画面を起動できません。"
 #: daemon/gdm-display-access-file.c:298
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "システムに“%s”というユーザーは見つかりませんでした"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
@@ -131,12 +132,12 @@ msgstr "プライベートコミュニケーションチャンネルを開けま
 #: daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "ユーザー %s としてサーバーを起動しようとしましたが、そのようなユーザーは存在しません"
 
 #: daemon/gdm-server.c:394 daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "グループ ID を %d に設定できませんでした"
 
 #: daemon/gdm-server.c:400
 #, c-format
@@ -146,7 +147,7 @@ msgstr "%s に対する initgroups () の呼び出しに失敗しました"
 #: daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "ユーザー ID を %d に設定できませんでした"
 
 #: daemon/gdm-server.c:484
 #, c-format
@@ -161,7 +162,7 @@ msgstr "%s: %s を %s に設定する際にエラー"
 #: daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: サーバーの優先度を %d にセットできませんでした: %s"
 
 #: daemon/gdm-server.c:689
 #, c-format
@@ -198,11 +199,11 @@ msgstr "認証ヘルパーのプロセスを作成できませんでした"
 
 #: daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "アカウントに設定されていた有効期限が切れました。"
 
 #: daemon/gdm-session-worker.c:775
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "認証に失敗しました。やり直してください。"
 
 #: daemon/gdm-session-worker.c:1189
 msgid "Username:"
@@ -262,7 +263,7 @@ msgstr "ログディレクトリ %s の作成に失敗しました: %s"
 #: daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "GDM ユーザー“%s”が見つからないので処理を中止します!"
 
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -271,7 +272,7 @@ msgstr "root を GDM ユーザーにしないでください; 処理を中止し
 #: daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "GDM グループ“%s”が見つからないので処理を中止します!"
 
 #: daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -343,13 +344,13 @@ msgstr "ユーザーリストの一番上にある小さな画像へのパス"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
+msgstr "ログイン画面では、サイトの管理者やディストリビューションがブランドを示す方法として、小さな画像を任意に表示できます。"
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
+msgstr "フォールバックログイン画面では、サイトの管理者やディストリビューションがブランドを示す方法として、小さな画像を任意に表示できます。"
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -428,7 +429,7 @@ msgstr "バージョンを表示する"
 #. Option parsing
 #: utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— 新しい GDM のログイン"
 
 #: utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

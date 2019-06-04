@@ -12,7 +12,7 @@
 # Gianvito Cavasoli <gianvito@gmx.it>, 2016
 # Lapo Calamandrei <lapo@it.gnome.org>, 2003
 # Luca Ferretti <elle.uca@infinito.it>, 2003-2014
-# Milo Casagrande <milo@milo.name>, 2009-2017
+# Milo Casagrande <milo@milo.name>, 2009-2018
 # Milo Casagrande <milo@ubuntu.com>, 2010-2012
 # Salvo Isaja <salvois@it.gnome.org>, 2001
 msgid ""
@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:44+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Italian (http://www.transifex.com/endless-os/gdm/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -31,15 +31,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "A_ggiorna"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "A_nnulla"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "C_onnetti"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"
@@ -386,15 +386,15 @@ msgstr "Numero consentito di autenticazioni non riuscite"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr "Quante volte un utente può tentare di autenticarsi prima di ritornare alla selezione del"
+msgstr "Quante volte un utente può tentare di autenticarsi prima di ritornare alla selezione dell'utente."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
-msgstr "Impossibile creare il display transitorio:"
+msgstr "Impossibile creare il display transitorio: "
 
 #: libgdm/gdm-user-switching.c:90
 msgid "Unable to activate session: "
-msgstr "Impossibile attivare la sessione:"
+msgstr "Impossibile attivare la sessione: "
 
 #: utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"

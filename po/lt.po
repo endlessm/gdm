@@ -5,7 +5,7 @@
 # Translators:
 # Algimantas Margevičius <gymka@mail.ru>, 2011
 # Algimantas Margevičius <margevicius.algimantas@gmail.com>, 2011
-# aurisc4 <aurisc4@gmail.com>, 2010,2013-2017
+# aurisc4 <aurisc4@gmail.com>, 2010,2013-2018
 # Eglė Girinaitė <eglyte@centras.lt>, 2002
 # Gediminas Paulauskas <menesis@delfi.lt>, 2001
 # Gintautas Miliauskas <gintas@akl.lt>, 2006-2007
@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:44+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/endless-os/gdm/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -34,15 +34,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "At_naujinti"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "_Atsisakyti"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "_Prisijunti"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"

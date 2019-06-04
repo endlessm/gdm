@@ -5,7 +5,7 @@
 # Translators:
 # Andras Timar <timar at gnome dot hu>, 2001-2003
 # Attila Szervác as sas-guest see : <sas-guest at haydn dot debian dot org>, 2006
-# Balázs Úr <urbalazs at gmail dot com>, 2012-2017
+# Balázs Úr <urbalazs at gmail dot com>, 2012-2018
 # Emese Kovacs <emese at gnome dot hu>, 2001
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2004-2013,2015-2016
 # Gabor Sari <saga at gnome dot hu>, 2003-2004
@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:44+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Hungarian (http://www.transifex.com/endless-os/gdm/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -34,15 +34,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "_Frissítés"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "_Mégse"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "_Kapcsolódás"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"

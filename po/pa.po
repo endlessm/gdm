@@ -5,13 +5,13 @@
 # Translators:
 # Amanpreet Singh Alam <aalam@users.sf.net>, 2004-2009
 # Amanpreet Singh Alam <amanlinux@netscape.net>, 2004
-# A S Alam <aalam@users.sf.net>, 2009-2017
+# A S Alam <aalam@users.sf.net>, 2009-2018
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:43+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Panjabi (Punjabi) (http://www.transifex.com/endless-os/gdm/language/pa/)\n"
 "MIME-Version: 1.0\n"
@@ -22,15 +22,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "ਤਾਜ਼ਾ ਕਰੋ(_R)"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "ਰੱਦ ਕਰੋ(_C)"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "ਕਨੈਕਟ ਕਰੋ(_o)"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"
@@ -153,11 +153,11 @@ msgstr "%s: %s ਡਿਸਪਲੇਅ ਲਈ ਖਾਲੀ ਸਰਵਰ ਕਮਾ�
 
 #: daemon/gdm-session-auditor.c:88
 msgid "Username"
-msgstr "ਯੂਜ਼ਰ ਨਾਂ"
+msgstr "ਵਰਤੋਂਕਾਰ-ਨਾਂ"
 
 #: daemon/gdm-session-auditor.c:89
 msgid "The username"
-msgstr "ਯੂਜ਼ਰ ਨਾਂ"
+msgstr "ਵਰਤੋਂਕਾਰ ਨਾਂ"
 
 #: daemon/gdm-session-auditor.c:93
 msgid "Hostname"
@@ -177,7 +177,7 @@ msgstr "ਡਿਸਪਲੇਅ ਜੰਤਰ"
 
 #: daemon/gdm-session.c:1285
 msgid "Could not create authentication helper process"
-msgstr "ਪਰਮਾਣਕਿਤਾ ਮੱਦਦਗਾਰ ਕਾਰਵਾਈ ਬਣਾਈ ਨਹੀਂ ਜਾ ਸਕੀ"
+msgstr "ਪਰਮਾਣਕਿਤਾ ਮਦਦਗਾਰ ਕਾਰਵਾਈ ਬਣਾਈ ਨਹੀਂ ਜਾ ਸਕੀ"
 
 #: daemon/gdm-session-worker.c:768
 msgid "Your account was given a time limit that’s now passed."
@@ -189,7 +189,7 @@ msgstr "ਅਫਸੋਸ, ਉਹ ਕੰਮ ਨਹੀਂ ਕਰਦਾ। ਫੇਰ
 
 #: daemon/gdm-session-worker.c:1189
 msgid "Username:"
-msgstr "ਯੂਜ਼ਰ ਨਾਂ:"
+msgstr "ਵਰਤੋਂਕਾਰ ਨਾਂ:"
 
 #: daemon/gdm-session-worker.c:1331
 msgid "Type a hint or question to help remember your password."
@@ -201,11 +201,11 @@ msgstr ""
 
 #: daemon/gdm-session-worker.c:1650 daemon/gdm-session-worker.c:1667
 msgid "no user account available"
-msgstr "ਹਾਲੇ ਕੋਈ ਅਕਾਊਂਟ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ"
+msgstr "ਹਾਲੇ ਕੋਈ ਖਾਤਾ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ"
 
 #: daemon/gdm-session-worker.c:1694
 msgid "Unable to change to user"
-msgstr "ਯੂਜ਼ਰ ਬਦਲਣ ਲਈ ਅਸਮਰੱਥ"
+msgstr "ਵਰਤੋਂਕਾਰ ਬਦਲਣ ਲਈ ਅਸਮਰੱਥ"
 
 #: daemon/gdm-wayland-session.c:478
 msgid "GNOME Display Manager Wayland Session Launcher"
@@ -249,7 +249,7 @@ msgstr "GDM ਵਰਤੋਂਕਾਰ “%s” ਨਹੀਂ ਲੱਭਿਆ। �
 
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
-msgstr "GDM ਯੂਜ਼ਰ ਪ੍ਰਬੰਧਕ (root) ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ। ਅਧੂਰਾ ਬੰਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ!"
+msgstr "GDM ਵਰਤੋਂਕਾਰ ਰੂਟ (root) ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ। ਅਧੂਰਾ ਬੰਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ!"
 
 #: daemon/main.c:235
 #, c-format
@@ -266,11 +266,11 @@ msgstr "ਸਭ ਚੇਤਾਵਨੀਆਂ ਘਾਤਕ ਬਣਾਓ"
 
 #: daemon/main.c:318
 msgid "Exit after a time (for debugging)"
-msgstr "ਇੱਕ ਟਾਈਮ ਬਾਅਦ ਬੰਦ ਕਰੋ (ਡੀਬੱਗ ਲਈ)"
+msgstr "ਟਾਈਮ ਬਾਅਦ ਬੰਦ ਕਰੋ (ਡੀਬੱਗ ਲਈ)"
 
 #: daemon/main.c:319
 msgid "Print GDM version"
-msgstr "GDM ਵਰਜਨ ਦਿਓ"
+msgstr "GDM ਵਰਜ਼ਨ ਦਿਓ"
 
 #: daemon/main.c:330
 msgid "GNOME Display Manager"
@@ -295,7 +295,7 @@ msgstr "ਕੀ ਲਾਗਇਨ ਸਮੇਂ ਫਿੰਗਰਪ੍ਰਿੰਟ �
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr "ਲਾਗਇਨ ਸਕਰੀਨ ਚੋਣਵੇਂ ਰੂਪ ਵਿੱਚ ਯੂਜ਼ਰ ਮਨਜ਼ੂਰ ਕਰਦੀ ਹੈ, ਜਿੰਨ੍ਹਾਂ ਨੇ ਆਪਣੇ ਲਾਗਇਨ ਕਰਨ ਲਈ ਆਪਣੇ ਫਿੰਗਰਪ੍ਰਿੰਟ ਵਰਤਣ ਦਾ ਪਰਬੰਧ ਕੀਤਾ ਹੈ।"
+msgstr "ਲਾਗਇਨ ਸਕਰੀਨ ਚੋਣਵੇਂ ਰੂਪ ਵਿੱਚ ਵਰਤੋਂਕਾਰ ਮਨਜ਼ੂਰ ਕਰਦੀ ਹੈ, ਜਿੰਨ੍ਹਾਂ ਨੇ ਆਪਣੇ ਲਾਗਇਨ ਕਰਨ ਲਈ ਆਪਣੇ ਫਿੰਗਰਪ੍ਰਿੰਟ ਵਰਤਣ ਦਾ ਪਰਬੰਧ ਕੀਤਾ ਹੈ।"
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -305,7 +305,7 @@ msgstr "ਕੀ ਲਾਗਇਨ ਸਮੇਂ ਸਮਾਰਟ-ਕਾਰਡ ਰੀ�
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr "ਲਾਗਇਨ ਸਕਰੀਨ ਚੋਣਵੇਂ ਰੂਪ ਵਿੱਚ ਯੂਜ਼ਰਾਂ ਲਈ ਸਹਾਇਕ ਹੈ, ਜਿੰਨ੍ਹਾਂ ਨੇ ਆਪਣੇ ਸਮਾਰਟ ਕਾਰਡਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦਾ ਪਰਬੰਧ ਕੀਤਾ ਹੈ।"
+msgstr "ਲਾਗਇਨ ਸਕਰੀਨ ਚੋਣਵੇਂ ਰੂਪ ਵਿੱਚ ਵਰਤੋਂਕਾਰਾਂ ਲਈ ਸਹਾਇਕ ਹੈ, ਜਿੰਨ੍ਹਾਂ ਨੇ ਆਪਣੇ ਸਮਾਰਟ ਕਾਰਡਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦਾ ਪਰਬੰਧ ਕੀਤਾ ਹੈ।"
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -320,7 +320,7 @@ msgstr "ਲਾਗਇਨ ਸਕਰੀਨ ਨੂੰ ਪਾਸਵਰਡ ਰਾਹ�
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
 msgid "Path to small image at top of user list"
-msgstr "ਯੂਜ਼ਰ ਲਿਸਟ ਦੇ ਉੱਤੇ ਛੋਟੇ ਚਿੱਤਰ ਲਈ ਪਾਥ"
+msgstr "ਵਰਤੋਂਕਾਰ ਲਿਸਟ ਦੇ ਉੱਤੇ ਛੋਟੇ ਚਿੱਤਰ ਲਈ ਪਾਥ"
 
 #: data/org.gnome.login-screen.gschema.xml:39
 msgid ""
@@ -336,13 +336,13 @@ msgstr "ਸੰਕਟਕਾਲੀਨ ਲਾਗਇਨ ਸਕਰੀਨ ਚੋਣਵ
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
-msgstr "ਯੂਜ਼ਰ ਸੂਚੀ ਵੇਖਾਉਣਾ ਛੱਡੋ।"
+msgstr "ਵਰਤੋਂਕਾਰ ਸੂਚੀ ਵੇਖਾਉਣਾ ਛੱਡੋ।"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
 "The login screen normally shows a list of available users to log in as. This"
 " setting can be toggled to disable showing the user list."
-msgstr "ਲਾਗਇਨ ਸਕਰੀਨ ਯੂਜ਼ਰ ਦੀ ਸੂਚੀ ਵੇਖਾਉਂਦੀ ਹੈ, ਜਿਸ ਵਾਂਗ ਉਹ ਲਾਗਇਨ ਕਰਦੇ ਹਨ। ਇਹ ਸੈਟਿੰਗ ਨੂੰ ਯੂਜ਼ਰ ਸੂਚੀ ਵੇਖਾਉਣ ਨੂੰ ਬੰਦ ਕਰਕੇ ਬਦਲਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
+msgstr "ਲਾਗਇਨ ਸਕਰੀਨ ਵਰਤੋਂਕਾਰ ਦੀ ਸੂਚੀ ਵੇਖਾਉਂਦੀ ਹੈ, ਜਿਸ ਵਾਂਗ ਉਹ ਲਾਗਇਨ ਕਰਦੇ ਹਨ। ਇਹ ਸੈਟਿੰਗ ਨੂੰ ਵਰਤੋਂਕਾਰ ਸੂਚੀ ਵੇਖਾਉਣ ਨੂੰ ਬੰਦ ਕਰਕੇ ਬਦਲਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -406,7 +406,7 @@ msgstr "ਡੀਬੱਗ ਆਉਟਪੁੱਟ"
 
 #: utils/gdmflexiserver.c:52
 msgid "Version of this application"
-msgstr "ਇਸ ਐਪਲੀਕੇਸ਼ਨ ਦਾ ਵਰਜਨ"
+msgstr "ਇਸ ਐਪਲੀਕੇਸ਼ਨ ਦਾ ਵਰਜ਼ਨ"
 
 #. Option parsing
 #: utils/gdmflexiserver.c:137

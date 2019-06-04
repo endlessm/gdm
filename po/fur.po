@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:45+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Friulian (http://www.transifex.com/endless-os/gdm/language/fur/)\n"
 "MIME-Version: 1.0\n"
@@ -21,15 +21,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "_Inzorne"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "_Anule"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "C_onet"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"
@@ -41,7 +41,7 @@ msgstr "XMDCP: No si rive a creâ il buffer XDMCP!"
 
 #: chooser/gdm-host-chooser-widget.c:259
 msgid "XDMCP: Could not read XDMCP header!"
-msgstr "XDMCP: Impussibil lei l'intestazion XDMCP."
+msgstr "XDMCP: Impussibil lei la intestazion XDMCP!"
 
 #: chooser/gdm-host-chooser-widget.c:265
 msgid "XDMCP: Incorrect XDMCP version!"
@@ -100,7 +100,7 @@ msgstr "Nissun seletôr di session disponibil"
 
 #: daemon/gdm-manager.c:865
 msgid "Can only be called before user is logged in"
-msgstr "Al pues jessi clamât nome prime che l'utent al vedi fat l'acès."
+msgstr "Al pues jessi clamât nome prime che l'utent al sedi jentrât"
 
 #: daemon/gdm-manager.c:876
 msgid "Caller not GDM"
@@ -152,7 +152,7 @@ msgstr "%s: Al mancje il comant dal servidôr par il visôr %s"
 
 #: daemon/gdm-session-auditor.c:88
 msgid "Username"
-msgstr "Non utent:"
+msgstr "Non utent"
 
 #: daemon/gdm-session-auditor.c:89
 msgid "The username"
@@ -200,7 +200,7 @@ msgstr ""
 
 #: daemon/gdm-session-worker.c:1650 daemon/gdm-session-worker.c:1667
 msgid "no user account available"
-msgstr "Nissun account utent disponibil"
+msgstr "nissun account utent disponibil"
 
 #: daemon/gdm-session-worker.c:1694
 msgid "Unable to change to user"
@@ -261,7 +261,7 @@ msgstr "Il grop di GDM nol scugne jessi root. O voi fûr!"
 
 #: daemon/main.c:317
 msgid "Make all warnings fatal"
-msgstr "Fâs diventâ dutis lis avertencis fatai."
+msgstr "Fâs deventâ dutis lis avertencis fatâls"
 
 #: daemon/main.c:318
 msgid "Exit after a time (for debugging)"
@@ -380,11 +380,11 @@ msgstr "Il numar di voltis che un utent al pues cirî di autenticâsi, prime di 
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
-msgstr "Impussibil creâ il visôr transitori:"
+msgstr "Impussibil creâ il visôr transitori: "
 
 #: libgdm/gdm-user-switching.c:90
 msgid "Unable to activate session: "
-msgstr "Impussibil ativâ la session"
+msgstr "Impussibil ativâ la session: "
 
 #: utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"

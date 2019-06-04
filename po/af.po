@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-06-04 12:38+0000\n"
-"PO-Revision-Date: 2019-06-04 13:38+0000\n"
+"PO-Revision-Date: 2019-06-04 13:43+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Afrikaans (http://www.transifex.com/endless-os/gdm/language/af/)\n"
 "MIME-Version: 1.0\n"
@@ -23,15 +23,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "_Verfris"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "_Kanselleer"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "_Koppel"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"
@@ -63,7 +63,7 @@ msgstr "Kon nie die huidige sessie identifiseer nie."
 
 #: common/gdm-common.c:511 libgdm/gdm-user-switching.c:218
 msgid "Could not identify the current seat."
-msgstr "Kon nie die huidige sitplek identifiseer nie."
+msgstr "Kon nie die huidige seat identifiseer nie."
 
 #: common/gdm-common.c:521 libgdm/gdm-user-switching.c:228
 msgid ""
@@ -86,7 +86,7 @@ msgid ""
 " error. Please contact your system administrator or check your syslog to "
 "diagnose. In the meantime this display will be disabled.  Please restart GDM"
 " when the problem is corrected."
-msgstr "Kon nie die X-bediener (die grafiese omgewing) begin nie a.g.v. 'n interne fout. Kontak asb. die stelseladministrateur of gaan die syslog na vir diagnose. Intussen sal hierdie skerm gedeaktiveer word.  Herbegin GDM wanneer die probleem reggestel is."
+msgstr "Kon nie die X-bediener (die grafiese gebruikers koppelvlak) begin nie a.g.v. 'n interne fout. Kontak asb. die stelseladministrateur of gaan die syslog na vir diagnose. Intussen sal hierdie skerm gedeaktiveer word.  Herbegin GDM wanneer die probleem reggestel is."
 
 #: daemon/gdm-manager.c:761
 msgid "No display available"
@@ -110,7 +110,7 @@ msgstr "Roeper nie GDM nie"
 
 #: daemon/gdm-manager.c:886
 msgid "Unable to open private communication channel"
-msgstr "Kon nie 'n privaat Kommunikasie kanaal oopmaak nie."
+msgstr "Kon nie 'n privaat kommunikasiekanaal oopmaak nie"
 
 #: daemon/gdm-server.c:383
 #, c-format
@@ -210,7 +210,7 @@ msgstr "Kan nie na die gebruiker wissel nie"
 
 #: daemon/gdm-wayland-session.c:478
 msgid "GNOME Display Manager Wayland Session Launcher"
-msgstr "GNOME-vertoonbestuurder Wayland Sessie"
+msgstr "GNOME-vertoonbestuurder (Wayland Sessie)"
 
 #: daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
@@ -222,11 +222,11 @@ msgstr "Voer die program deur die /etc/gdm/Xsession skript uit"
 
 #: daemon/gdm-x-session.c:827
 msgid "Listen on TCP socket"
-msgstr "Luister op TCP-poort "
+msgstr "Luister op TCP-poort"
 
 #: daemon/gdm-x-session.c:838
 msgid "GNOME Display Manager X Session Launcher"
-msgstr "GNOME-vertoonbestuurder X Sessie"
+msgstr "GNOME-vertoonbestuurder (X-sessie)"
 
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
@@ -390,7 +390,7 @@ msgstr "Kan nie sessie aktiveer nie: "
 
 #: utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
-msgstr "Slegs die 'VERSION' bevel word ondersteun"
+msgstr "Slegs die 'WEERGAWE' bevel word ondersteun"
 
 #: utils/gdmflexiserver.c:45
 msgid "COMMAND"
