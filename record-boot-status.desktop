@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Record boot status
+Type=Application
+NoDisplay=true
+Exec=/usr/lib/grub/record-boot-status

@@ -22,3 +22,4 @@ var/*
 debian/62-Endless-disable-wayland.rules	etc/udev/rules.d
 debian/Xsession				etc/gdm3
 debian/insserv.conf.d			etc
+debian/record-boot-status.desktop	usr/share/gdm/greeter/autostart
