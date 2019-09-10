@@ -104,6 +104,7 @@ libgdm.so.1 libgdm1 #MINVER#
  gdm_greeter_proxy_new_sync@Base 3.8.3
  gdm_greeter_skeleton_get_type@Base 3.8.3
  gdm_greeter_skeleton_new@Base 3.8.3
+ gdm_load_env_d@Base 3.33.92-2endless1
  gdm_log_init@Base 3.33.90
  gdm_log_set_debug@Base 3.33.90
  gdm_log_shutdown@Base 3.33.90
