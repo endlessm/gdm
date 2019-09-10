@@ -209,7 +209,7 @@ msgstr "Uživatel:"
 
 #: daemon/gdm-session-worker.c:1333
 msgid "Type a hint or question to help remember your password."
-msgstr ""
+msgstr "Zadejte nápovědu či otázku, která vám pomůže zapamatovat si heslo."
 
 #: daemon/gdm-session-worker.c:1334
 msgid "Password reminder:"

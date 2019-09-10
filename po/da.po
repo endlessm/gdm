@@ -203,7 +203,8 @@ msgstr "Skærmenhed"
 msgid "The display device"
 msgstr "Skærmenheden"
 
-# Kunne strengt taget også være: hjælpeproces til autentificering, men mon ikke dette er det mest sandsynlige
+# Kunne strengt taget også være: hjælpeproces til autentificering, men mon
+# ikke dette er det mest sandsynlige
 #: daemon/gdm-session.c:1285
 msgid "Could not create authentication helper process"
 msgstr "Kunne ikke oprette proces for autentificeringshjælp"

@@ -21,8 +21,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Project-Style: gnome\n"
 "X-Generator: Poedit 2.0.3\n"
+"X-Project-Style: gnome\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"

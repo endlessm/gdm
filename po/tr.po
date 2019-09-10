@@ -71,7 +71,7 @@ msgstr "Geçerli oturum saptanamadı: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
 msgid "Could not identify the current seat."
-msgstr "Geçerli oturak saptanamadı."
+msgstr "Geçerli oturum tespit edilemedi."
 
 #: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
 msgid ""
@@ -209,11 +209,11 @@ msgstr "Kullanıcı adı:"
 
 #: daemon/gdm-session-worker.c:1333
 msgid "Type a hint or question to help remember your password."
-msgstr ""
+msgstr "Parolanızı hatırlamanıza yardımcı olacak bir ipucu veya soru yazın."
 
 #: daemon/gdm-session-worker.c:1334
 msgid "Password reminder:"
-msgstr ""
+msgstr "Parola hatırlatıcı:"
 
 #: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
 msgid "no user account available"

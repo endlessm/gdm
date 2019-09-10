@@ -201,11 +201,11 @@ msgstr "使用者名稱："
 
 #: daemon/gdm-session-worker.c:1333
 msgid "Type a hint or question to help remember your password."
-msgstr ""
+msgstr "輸入提示或問題來幫助你記得密碼。"
 
 #: daemon/gdm-session-worker.c:1334
 msgid "Password reminder:"
-msgstr ""
+msgstr "密碼提醒："
 
 #: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
 msgid "no user account available"

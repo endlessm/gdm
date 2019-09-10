@@ -61,17 +61,14 @@ msgstr "Σύ_νδεση"
 msgid "Select System"
 msgstr "Επιλογή συστήματος"
 
-#
 #: chooser/gdm-host-chooser-widget.c:253
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP: Αποτυχία δημιουργίας ενδιάμεσης μνήμης XDMCP!"
 
-#
 #: chooser/gdm-host-chooser-widget.c:259
 msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: Αποτυχία ανάγνωσης κεφαλίδας XDMCP!"
 
-#
 #: chooser/gdm-host-chooser-widget.c:265
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XDMCP: Εσφαλμένη έκδοση XDMCP!"
@@ -152,25 +149,21 @@ msgstr ""
 "Ο διακομιστής έπρεπε να προέλθει από το χρήστη %s αλλά αυτός ο χρήστης δεν "
 "υπάρχει"
 
-#
 #: daemon/gdm-server.c:394 daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "Αποτυχία ορισμού της ταυτότητας ομάδας σε %d"
 
-#
 #: daemon/gdm-server.c:400
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "Το initgroups () απέτυχε για το %s"
 
-#
 #: daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "Αποτυχία ορισμού της ταυτότητας χρήστη σε %d"
 
-#
 #: daemon/gdm-server.c:484
 #, c-format
 msgid "%s: Could not open log file for display %s!"
@@ -181,7 +174,6 @@ msgstr "%s: Αποτυχία ανοίγματος αρχείου καταγρα�
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Σφάλμα ρύθμισης %s σε %s"
 
-#
 #: daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
@@ -216,7 +208,6 @@ msgstr "Συσκευή απεικόνισης"
 msgid "The display device"
 msgstr "Η συσκευή απεικόνισης"
 
-#
 #: daemon/gdm-session.c:1285
 msgid "Could not create authentication helper process"
 msgstr "Αδυναμία δημιουργίας διεργασίας βοηθού πιστοποίησης"
@@ -253,7 +244,6 @@ msgstr "Αδυναμία αλλαγής σε χρήστη"
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr "Εκκινητής συνεδρίας διαχειριστή οθόνης Wayland  του GNOME"
 
-#
 #: daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
 msgstr "Αποτυχία δημιουργίας υποδοχής!"
@@ -287,24 +277,20 @@ msgstr ""
 msgid "Failed to create LogDir %s: %s"
 msgstr "Αποτυχία δημιουργίας LogDir %s: %s"
 
-#
 #: daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
 msgstr "Δε βρέθηκε ο χρήστης GDM «%s». Ματαίωση!"
 
-#
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
 msgstr "Ο χρήστης GDM δεν πρέπει να είναι διαχειριστής. Διακοπή!"
 
-#
 #: daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
 msgstr "Δε βρέθηκε η ομάδα GDM «%s». Ματαίωση!"
 
-#
 #: daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
 msgstr "Η ομάδα GDM δε πρέπει να είναι διαχειριστής. Διακοπή!"
@@ -325,7 +311,6 @@ msgstr "Εμφάνιση έκδοσης GDM"
 msgid "GNOME Display Manager"
 msgstr "Διαχειριστής οθόνης GNOME"
 
-#
 #. make sure the pid file doesn't get wiped
 #: daemon/main.c:350
 msgid "Only the root user can run GDM"

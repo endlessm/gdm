@@ -224,11 +224,11 @@ msgstr "Nome de usuário:"
 
 #: daemon/gdm-session-worker.c:1333
 msgid "Type a hint or question to help remember your password."
-msgstr ""
+msgstr "Digite uma dica ou pergunta para ajudar a lembrar sua senha."
 
 #: daemon/gdm-session-worker.c:1334
 msgid "Password reminder:"
-msgstr ""
+msgstr "Lembrete de senha:"
 
 #: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
 msgid "no user account available"

@@ -204,10 +204,11 @@ msgstr "Nume de utilizator:"
 #: daemon/gdm-session-worker.c:1333
 msgid "Type a hint or question to help remember your password."
 msgstr ""
+"Tasteaza un indiciu sau o intrebare care te va ajuta sa iti amintesti parola."
 
 #: daemon/gdm-session-worker.c:1334
 msgid "Password reminder:"
-msgstr ""
+msgstr "Amintire parola:"
 
 #: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
 msgid "no user account available"
@@ -243,7 +244,8 @@ msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr ""
 "Nu s-a putut scrie fișierul PID %s, probabil din lipsă de spațiu pe disc: %s"
 
-# Citind sursa, este dosarul din /var/run unde se crează un fișier la prima rulare (PID file), oprind astfel 2+ instanțe concomitente a GDM.
+# Citind sursa, este dosarul din /var/run unde se crează un fișier la prima
+# rulare (PID file), oprind astfel 2+ instanțe concomitente a GDM.
 #: daemon/main.c:182
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
@@ -408,7 +410,9 @@ msgstr ""
 "De câte ori unui utilizator îi este permis să încerce autentificarea înainte "
 "de a reveni la selecția utilizatorilor."
 
-# Nu e un „monitor” în sine, ci un obiect afișaj al X11 care e creat temporar după ce utilizatorul iese din sesiunea lui, până înainte de a intra în a altuia.
+# Nu e un „monitor” în sine, ci un obiect afișaj al X11 care e creat temporar
+# după ce utilizatorul iese din sesiunea lui, până înainte de a intra în a
+# altuia.
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
 msgstr "Nu s-a putut porni afișajul temporar: "

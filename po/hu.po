@@ -208,10 +208,12 @@ msgstr "Felhasználónév:"
 #: daemon/gdm-session-worker.c:1333
 msgid "Type a hint or question to help remember your password."
 msgstr ""
+"Gépeljen be egy emlékeztetőt, vagy segítséget hogy emlékezhessen a "
+"jelszavára."
 
 #: daemon/gdm-session-worker.c:1334
 msgid "Password reminder:"
-msgstr ""
+msgstr "Jelszó emlékeztető:"
 
 #: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
 msgid "no user account available"

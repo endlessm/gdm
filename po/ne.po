@@ -22,8 +22,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.3\n"
 "Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -70,7 +70,6 @@ msgid "Could not identify the current seat."
 msgstr "हालको सिट पहिचान गर्न सकिएन."
 
 #: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
-#, fuzzy
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."

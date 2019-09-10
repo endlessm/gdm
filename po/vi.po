@@ -63,7 +63,7 @@ msgstr "Không thể nhận ra phiên bản đang chạy: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
 msgid "Could not identify the current seat."
-msgstr "Không thể nhận ra máy trạm này."
+msgstr "Không thể nhận ra trạm này."
 
 #: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
 msgid ""
@@ -202,11 +202,11 @@ msgstr "Tài khoản:"
 
 #: daemon/gdm-session-worker.c:1333
 msgid "Type a hint or question to help remember your password."
-msgstr ""
+msgstr "Nhập một gợi ý hay câu hỏi để giúp bạn ghi nhớ mật khẩu."
 
 #: daemon/gdm-session-worker.c:1334
 msgid "Password reminder:"
-msgstr ""
+msgstr "Lời nhắc mật khẩu:"
 
 #: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
 msgid "no user account available"
