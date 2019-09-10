@@ -1,3 +1,9 @@
+gdm3 (3.34.0-1endless1) eos; urgency=medium
+
+  * Add back downstream changes
+
+ -- Philip Chimento <philip@endlessm.com>  Tue, 10 Sep 2019 14:34:12 -0700
+
 gdm3 (3.34.0-1) experimental; urgency=medium
 
   * New upstream translation release
