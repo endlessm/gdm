@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm2 0\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2019-08-05 22:13+0000\n"
+"POT-Creation-Date: 2019-09-10 12:31-0700\n"
 "PO-Revision-Date: 2019-09-03 15:51+0200\n"
 "Last-Translator: gogo <linux.hr@protonmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
@@ -91,27 +91,27 @@ msgstr ""
 "sustava u svrhu dijagnosticiranja problema. U međuvremenu ovaj zaslon biti "
 "će onemogućen. Ponovno pokrenite GDM kada problem ispravite."
 
-#: daemon/gdm-manager.c:762
+#: daemon/gdm-manager.c:763
 msgid "No display available"
 msgstr "Nema dostupnog zaslona"
 
-#: daemon/gdm-manager.c:860 daemon/gdm-manager.c:1144
+#: daemon/gdm-manager.c:861 daemon/gdm-manager.c:1145
 msgid "No session available"
 msgstr "Nema dostupne sesije"
 
-#: daemon/gdm-manager.c:879
+#: daemon/gdm-manager.c:880
 msgid "Chooser session unavailable"
 msgstr "Nedostupan odabiratelj sesije"
 
-#: daemon/gdm-manager.c:895
+#: daemon/gdm-manager.c:896
 msgid "Can only be called before user is logged in"
 msgstr "Može se jedino pozvati prije nego što se korisnik prijavi"
 
-#: daemon/gdm-manager.c:906
+#: daemon/gdm-manager.c:907
 msgid "Caller not GDM"
 msgstr "Pozivatelj nije GDM"
 
-#: daemon/gdm-manager.c:916
+#: daemon/gdm-manager.c:917
 msgid "Unable to open private communication channel"
 msgstr "Nemoguće otvaranje privatno kanala komunikacije"
 
@@ -183,23 +183,31 @@ msgstr "Uređaj zaslona"
 msgid "Could not create authentication helper process"
 msgstr "Nemoguće stvaranje procesa pomoći ovjere"
 
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:759
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Vašem računu dano je vremensko ograničenje koje je sada isteklo."
 
-#: daemon/gdm-session-worker.c:763
+#: daemon/gdm-session-worker.c:766
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Nažalost, to ne radi. Pokušajte ponovno."
 
-#: daemon/gdm-session-worker.c:1188
+#: daemon/gdm-session-worker.c:1191
 msgid "Username:"
 msgstr "Korisničko ime:"
 
-#: daemon/gdm-session-worker.c:1692 daemon/gdm-session-worker.c:1709
+#: daemon/gdm-session-worker.c:1333
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1334
+msgid "Password reminder:"
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
 msgid "no user account available"
 msgstr "nema dostupnih korisničkih računa"
 
-#: daemon/gdm-session-worker.c:1736
+#: daemon/gdm-session-worker.c:1696
 msgid "Unable to change to user"
 msgstr "Nemoguća promjena korisnika"
 

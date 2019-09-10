@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2019-08-05 22:13+0000\n"
+"POT-Creation-Date: 2019-09-10 12:31-0700\n"
 "PO-Revision-Date: 2019-08-18 14:15+0300\n"
 "Last-Translator: Florentina Mușat <florentina.musat.28 [at] gmail [dot] "
 "com>\n"
@@ -97,27 +97,27 @@ msgstr ""
 "pentru diagnoză. Între timp acest afișaj va fi dezactivat. Reporniți GDM "
 "când problema este corectată."
 
-#: daemon/gdm-manager.c:762
+#: daemon/gdm-manager.c:763
 msgid "No display available"
 msgstr "Niciun afișaj disponibil"
 
-#: daemon/gdm-manager.c:860 daemon/gdm-manager.c:1144
+#: daemon/gdm-manager.c:861 daemon/gdm-manager.c:1145
 msgid "No session available"
 msgstr "Nicio sesiune disponibilă"
 
-#: daemon/gdm-manager.c:879
+#: daemon/gdm-manager.c:880
 msgid "Chooser session unavailable"
 msgstr "Comutatorul de sesiune este indisponibil"
 
-#: daemon/gdm-manager.c:895
+#: daemon/gdm-manager.c:896
 msgid "Can only be called before user is logged in"
 msgstr "Poate fi executat doar înainte ca utilizatorul să fie autentificat"
 
-#: daemon/gdm-manager.c:906
+#: daemon/gdm-manager.c:907
 msgid "Caller not GDM"
 msgstr "Apelantul nu este GDM"
 
-#: daemon/gdm-manager.c:916
+#: daemon/gdm-manager.c:917
 msgid "Unable to open private communication channel"
 msgstr "Nu s-a putut deschide un canal de comunicare privat"
 
@@ -189,23 +189,31 @@ msgstr "Dispozitivul de tip afișaj"
 msgid "Could not create authentication helper process"
 msgstr "Nu s-a putut crea procesul ajutător de autentificare"
 
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:759
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Contul dumneavoastră a primit o limită de timp care acum a expirat."
 
-#: daemon/gdm-session-worker.c:763
+#: daemon/gdm-session-worker.c:766
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Nu a funcționat. Încercați din nou."
 
-#: daemon/gdm-session-worker.c:1188
+#: daemon/gdm-session-worker.c:1191
 msgid "Username:"
 msgstr "Nume de utilizator:"
 
-#: daemon/gdm-session-worker.c:1692 daemon/gdm-session-worker.c:1709
+#: daemon/gdm-session-worker.c:1333
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1334
+msgid "Password reminder:"
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
 msgid "no user account available"
 msgstr "niciun cont de utilizator disponibil"
 
-#: daemon/gdm-session-worker.c:1736
+#: daemon/gdm-session-worker.c:1696
 msgid "Unable to change to user"
 msgstr "Nu se poate schimba utilizatorul"
 

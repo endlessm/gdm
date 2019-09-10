@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm gnome-3-20\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2019-08-05 22:13+0000\n"
+"POT-Creation-Date: 2019-09-10 12:31-0700\n"
 "PO-Revision-Date: 2019-08-06 18:00+0700\n"
 "Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
 "Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
@@ -97,27 +97,27 @@ msgstr ""
 "(syslog) untuk diagnosa. Untuk sementara, tampilan ini akan dimatikan. "
 "Jalankan kembali GDM setelah masalah diperbaiki."
 
-#: daemon/gdm-manager.c:762
+#: daemon/gdm-manager.c:763
 msgid "No display available"
 msgstr "Tak ada tampilan yang tersedia"
 
-#: daemon/gdm-manager.c:860 daemon/gdm-manager.c:1144
+#: daemon/gdm-manager.c:861 daemon/gdm-manager.c:1145
 msgid "No session available"
 msgstr "Tak ada sesi"
 
-#: daemon/gdm-manager.c:879
+#: daemon/gdm-manager.c:880
 msgid "Chooser session unavailable"
 msgstr "Sesi pemilih tidak tersedia"
 
-#: daemon/gdm-manager.c:895
+#: daemon/gdm-manager.c:896
 msgid "Can only be called before user is logged in"
 msgstr "Hanya dapat dipanggil sebelum pengguna log masuk"
 
-#: daemon/gdm-manager.c:906
+#: daemon/gdm-manager.c:907
 msgid "Caller not GDM"
 msgstr "Pemanggil bukan GDM"
 
-#: daemon/gdm-manager.c:916
+#: daemon/gdm-manager.c:917
 msgid "Unable to open private communication channel"
 msgstr "Tak dapat membuka kanal komunikasi privat"
 
@@ -189,23 +189,31 @@ msgstr "Perangkat tampilan"
 msgid "Could not create authentication helper process"
 msgstr "Tak dapat membuat pembantu proses autentikasi"
 
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:759
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Akun Anda diberi batas waktu yang kini berakhir."
 
-#: daemon/gdm-session-worker.c:763
+#: daemon/gdm-session-worker.c:766
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Maaf, itu tidak bisa. Harap coba lagi."
 
-#: daemon/gdm-session-worker.c:1188
+#: daemon/gdm-session-worker.c:1191
 msgid "Username:"
 msgstr "Nama Pengguna:"
 
-#: daemon/gdm-session-worker.c:1692 daemon/gdm-session-worker.c:1709
+#: daemon/gdm-session-worker.c:1333
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1334
+msgid "Password reminder:"
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
 msgid "no user account available"
 msgstr "akun pengguna tidak tersedia"
 
-#: daemon/gdm-session-worker.c:1736
+#: daemon/gdm-session-worker.c:1696
 msgid "Unable to change to user"
 msgstr "Tak dapat berganti pengguna"
 

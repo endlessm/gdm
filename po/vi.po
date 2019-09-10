@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2019-08-25 20:15+0000\n"
+"POT-Creation-Date: 2019-09-10 12:31-0700\n"
 "PO-Revision-Date: 2019-08-28 08:08+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <gnome-vi-list@gnome.org>\n"
@@ -187,12 +187,12 @@ msgstr "Thiết bị hiển thị, v.d. màn hình"
 msgid "Could not create authentication helper process"
 msgstr "Không thể tạo tiến trình trợ giúp xác thực"
 
-#: daemon/gdm-session-worker.c:757
+#: daemon/gdm-session-worker.c:759
 msgid "Your account was given a time limit that’s now passed."
 msgstr ""
 "Tài khoản của bạn có đưa ra thời gian giới hạn, cái mà hiện tại đã vượt quá."
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Rất tiếc, nó không làm việc. Hãy thử lại lần nữa."
 
@@ -200,11 +200,19 @@ msgstr "Rất tiếc, nó không làm việc. Hãy thử lại lần nữa."
 msgid "Username:"
 msgstr "Tài khoản:"
 
-#: daemon/gdm-session-worker.c:1695 daemon/gdm-session-worker.c:1712
+#: daemon/gdm-session-worker.c:1333
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1334
+msgid "Password reminder:"
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
 msgid "no user account available"
 msgstr "không có sẵn tài khoản người dùng"
 
-#: daemon/gdm-session-worker.c:1739
+#: daemon/gdm-session-worker.c:1696
 msgid "Unable to change to user"
 msgstr "Không thể chuyển đổi sang người dùng"
 

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2019-08-25 16:49+0000\n"
+"POT-Creation-Date: 2019-09-10 12:31-0700\n"
 "PO-Revision-Date: 2019-08-26 19:09+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
@@ -185,11 +185,11 @@ msgstr "디스플레이 장치"
 msgid "Could not create authentication helper process"
 msgstr "인증 도우미 프로세스를 만들지 못했습니다."
 
-#: daemon/gdm-session-worker.c:757
+#: daemon/gdm-session-worker.c:759
 msgid "Your account was given a time limit that’s now passed."
 msgstr "계정에 시간 제한이 걸려 있었고, 지금 그 제한이 지났습니다."
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "죄송하지만 동작하지 않습니다. 다시 시도하십시오."
 
@@ -197,11 +197,19 @@ msgstr "죄송하지만 동작하지 않습니다. 다시 시도하십시오."
 msgid "Username:"
 msgstr "사용자 이름:"
 
-#: daemon/gdm-session-worker.c:1695 daemon/gdm-session-worker.c:1712
+#: daemon/gdm-session-worker.c:1333
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1334
+msgid "Password reminder:"
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
 msgid "no user account available"
 msgstr "사용자 계정이 없습니다"
 
-#: daemon/gdm-session-worker.c:1739
+#: daemon/gdm-session-worker.c:1696
 msgid "Unable to change to user"
 msgstr "다른 사용자로 바꿀 수 없습니다"
 

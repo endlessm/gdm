@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm2\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2019-08-05 22:13+0000\n"
+"POT-Creation-Date: 2019-09-10 12:31-0700\n"
 "PO-Revision-Date: 2019-08-28 07:29+0200\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: FRIULIAN <massimo.furlani@libero.it>\n"
@@ -91,27 +91,27 @@ msgstr ""
 "pal moment il visôr al vignarà disabilitât. Une volte justât il probleme, "
 "torne invie GDM."
 
-#: daemon/gdm-manager.c:762
+#: daemon/gdm-manager.c:763
 msgid "No display available"
 msgstr "Nissun display disponibil"
 
-#: daemon/gdm-manager.c:860 daemon/gdm-manager.c:1144
+#: daemon/gdm-manager.c:861 daemon/gdm-manager.c:1145
 msgid "No session available"
 msgstr "Nissune session disponibil"
 
-#: daemon/gdm-manager.c:879
+#: daemon/gdm-manager.c:880
 msgid "Chooser session unavailable"
 msgstr "Nissun seletôr di session disponibil"
 
-#: daemon/gdm-manager.c:895
+#: daemon/gdm-manager.c:896
 msgid "Can only be called before user is logged in"
 msgstr "Al pues jessi clamât nome prime che l'utent al sedi jentrât"
 
-#: daemon/gdm-manager.c:906
+#: daemon/gdm-manager.c:907
 msgid "Caller not GDM"
 msgstr "Clamadôr no GDM"
 
-#: daemon/gdm-manager.c:916
+#: daemon/gdm-manager.c:917
 msgid "Unable to open private communication channel"
 msgstr "Impussibil vierzi un canâl privât di comunicazion"
 
@@ -184,23 +184,31 @@ msgstr "Il dispositîf dal visôr"
 msgid "Could not create authentication helper process"
 msgstr "Impussibil creâ il procès di jutori par l'autenticazion"
 
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:759
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Il to account al veve un timp limit che cumò al è passât."
 
-#: daemon/gdm-session-worker.c:763
+#: daemon/gdm-session-worker.c:766
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Mi displâs, no je lade drete. Torne prove."
 
-#: daemon/gdm-session-worker.c:1188
+#: daemon/gdm-session-worker.c:1191
 msgid "Username:"
 msgstr "Non utent:"
 
-#: daemon/gdm-session-worker.c:1692 daemon/gdm-session-worker.c:1709
+#: daemon/gdm-session-worker.c:1333
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1334
+msgid "Password reminder:"
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
 msgid "no user account available"
 msgstr "nissun account utent disponibil"
 
-#: daemon/gdm-session-worker.c:1736
+#: daemon/gdm-session-worker.c:1696
 msgid "Unable to change to user"
 msgstr "Impussibil cambiâ utent"
 

@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm2\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2019-09-05 05:14+0000\n"
+"POT-Creation-Date: 2019-09-10 12:31-0700\n"
 "PO-Revision-Date: 2019-09-06 22:58+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Türkçe <gnome-turk@gnome.org>\n"
@@ -195,23 +195,31 @@ msgstr "Görüntü aygıtı"
 msgid "Could not create authentication helper process"
 msgstr "Kimlik doğrulama yardımcı süreci oluşturulamadı"
 
-#: daemon/gdm-session-worker.c:757
+#: daemon/gdm-session-worker.c:759
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Hesabınıza şu anda geçmiş olan bir zaman sınırı verilmiş."
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Üzgünüm ama işe yaramadı. Lütfen yeniden deneyin."
 
-#: daemon/gdm-session-worker.c:1189
+#: daemon/gdm-session-worker.c:1191
 msgid "Username:"
 msgstr "Kullanıcı adı:"
 
-#: daemon/gdm-session-worker.c:1693 daemon/gdm-session-worker.c:1710
+#: daemon/gdm-session-worker.c:1333
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1334
+msgid "Password reminder:"
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
 msgid "no user account available"
 msgstr "hiçbir kullanıcı hesabı yok"
 
-#: daemon/gdm-session-worker.c:1737
+#: daemon/gdm-session-worker.c:1696
 msgid "Unable to change to user"
 msgstr "Kullanıcıya değiştirilemiyor"
 
