@@ -1,2 +1,0 @@
-# disable Wayland
-RUN+="/usr/lib/gdm3/gdm-disable-wayland"
