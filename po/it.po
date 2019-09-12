@@ -1,31 +1,33 @@
-# Italian translation of gdm
-# Copyright (C) 2000 - 2018 Free Software Foundation, Inc.
-# Copyright (C) 2019 Free Software Foundation, Inc.
-# This file is distributed under the same license as the GDM package.
-# Daniele Medri <madrid@linux.it>, 2000.
-# Salvo Isaja <salvois@it.gnome.org>, 2001.
-# Lapo Calamandrei <lapo@it.gnome.org>, 2003.
-# Alessio Frusciante <algol@firenze.linux.it>, 2003.
-# Francesco Marletta <francesco.marletta@tiscali.it>, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
-# Milo Casagrande <milo@milo.name>, 2010, 2011, 2012, 2017, 2018, 2019.
-# Claudio Arseni <claudio.arseni@ubuntu.com>, 2011, 2012, 2013, 2015.
-#
-# Gianvito Cavasoli <gianvito@gmx.it>, 2016.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR GDM Contributors
+# This file is distributed under the same license as the gdm package.
+# 
+# Translators:
+# Alessio Dessì <alkex@inwind.it>, 2003-2007
+# Alessio Frusciante <algol@firenze.linux.it>, 2003
+# Christopher R. Gabriel, 2001-2002
+# Claudio Arseni <claudio.arseni@ubuntu.com>, 2011-2013,2015
+# Daniele Medri <madrid@linux.it>, 2000
+# Francesco Marletta <francesco.marletta@tiscali.it>, 2004-2010
+# Gianvito Cavasoli <gianvito@gmx.it>, 2016
+# Lapo Calamandrei <lapo@it.gnome.org>, 2003
+# Luca Ferretti <elle.uca@infinito.it>, 2003-2014
+# Milo Casagrande <milo@milo.name>, 2009-2019
+# Milo Casagrande <milo@ubuntu.com>, 2010-2012
+# Salvo Isaja <salvois@it.gnome.org>, 2001
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-09-10 12:31-0700\n"
-"PO-Revision-Date: 2019-09-04 10:36+0200\n"
-"Last-Translator: Milo Casagrande <milo@milo.name>\n"
-"Language-Team: Italiano <gnome-it-list@gnome.org>\n"
-"Language: it\n"
+"PO-Revision-Date: 2019-09-12 18:43+0000\n"
+"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"Language-Team: Italian (http://www.transifex.com/endless-os/gdm/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.3\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -43,8 +45,6 @@ msgstr "C_onnetti"
 msgid "Select System"
 msgstr "Seleziona sistema"
 
-# NdT: la stringa originale è chiaramente errata
-#      PS: finalmente l'hanno corretta
 #: chooser/gdm-host-chooser-widget.c:253
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP: impossibile creare un buffer per XDMCP."
@@ -77,9 +77,7 @@ msgstr "Impossibile identificare la postazione attuale."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"Il sistema non è in grado di determinare se passare a una schermata di "
-"accesso esistente o crearne una nuova."
+msgstr "Il sistema non è in grado di determinare se passare a una schermata di accesso esistente o crearne una nuova."
 
 #: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
 msgid "The system is unable to start up a new login screen."
@@ -92,15 +90,11 @@ msgstr "impossibile trovare l'utente «%s» nel sistema"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Impossibile avviare il server X (l'interfaccia grafica) a causa di qualche "
-"errore interno. Contattare l'amministratore di sistema o controllare il "
-"registro di sistema (syslog) per la diagnosi del problema: per adesso il "
-"display verrà disabilitato. Una volta risolto il problema, riavviare GDM."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Impossibile avviare il server X (l'interfaccia grafica) a causa di qualche errore interno. Contattare l'amministratore di sistema o controllare il registro di sistema (syslog) per la diagnosi del problema: per adesso il display verrà disabilitato. Una volta risolto il problema, riavviare GDM."
 
 #: daemon/gdm-manager.c:763
 msgid "No display available"
@@ -129,8 +123,7 @@ msgstr "Impossibile aprire un canale di comunicazione privato"
 #: daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
-"Il server doveva essere lanciato dall'utente %s ma questo utente non esiste"
+msgstr "Il server doveva essere lanciato dall'utente %s ma questo utente non esiste"
 
 #: daemon/gdm-server.c:394 daemon/gdm-server.c:414
 #, c-format
@@ -191,7 +184,6 @@ msgstr "Dispositivo display"
 msgid "The display device"
 msgstr "Il dispositivo del display"
 
-# [NdT] la traduco la parte tra ""?
 #: daemon/gdm-session.c:1285
 msgid "Could not create authentication helper process"
 msgstr "Impossibile creare il processo di aiuto per l'autenticazione"
@@ -247,15 +239,12 @@ msgstr "Lanciatore di sessione X per il gestore schermo di GNOME"
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Impossibile scrivere il file PID %s, forse per mancanza di spazio su disco: "
-"%s"
+msgstr "Impossibile scrivere il file PID %s, forse per mancanza di spazio su disco: %s"
 
 #: daemon/main.c:182
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr ""
-"Creazione simbolo della directoy eseguito una volta non riuscita %s: %s"
+msgstr "Creazione simbolo della directoy eseguito una volta non riuscita %s: %s"
 
 #: daemon/main.c:188
 #, c-format
@@ -301,7 +290,6 @@ msgstr "Gestore schermo di GNOME"
 msgid "Only the root user can run GDM"
 msgstr "Solo l'utente root può avviare GDM"
 
-# NdT: ho lasciato worker perché non mi veniva niente di meglio
 #. Translators: worker is a helper process that does the work
 #. of starting up a session
 #: daemon/session-worker-main.c:119
@@ -310,16 +298,13 @@ msgstr "Worker di sessione del Gestore schermo di GNOME"
 
 #: data/org.gnome.login-screen.gschema.xml:6
 msgid "Whether or not to allow fingerprint readers for login"
-msgstr ""
-"Indica se consentire o meno i lettori di impronte digitali per l'accesso"
+msgstr "Indica se consentire o meno i lettori di impronte digitali per l'accesso"
 
 #: data/org.gnome.login-screen.gschema.xml:9
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"La schermata di accesso può opzionalmente consentire agli utenti che hanno "
-"registrato le proprie impronte digitali di usarle per accedere."
+msgstr "La schermata di accesso può opzionalmente consentire agli utenti che hanno registrato le proprie impronte digitali di usarle per accedere."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -329,9 +314,7 @@ msgstr "Indica se consentire o meno i lettori di smartcard per l'accesso"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"La schermata di accesso può opzionalmente consentire agli utenti che "
-"possiedono smartcard di usarle per accedere."
+msgstr "La schermata di accesso può opzionalmente consentire agli utenti che possiedono smartcard di usarle per accedere."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -341,10 +324,7 @@ msgstr "Indica se consentire o meno le password per l'accesso"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"La schermata di accesso può essere configurata per non consentire "
-"l'autenticazione con password, costringendo l'utente a usare la smartcard o "
-"l'impronta digitale per accedere."
+msgstr "La schermata di accesso può essere configurata per non consentire l'autenticazione con password, costringendo l'utente a usare la smartcard o l'impronta digitale per accedere."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -355,19 +335,13 @@ msgstr "Percorso di una piccola immagine in cima all'elenco utenti"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"La schermata di accesso può opzionalmente mostrare una piccola immagine per "
-"fornire agli amministratori e alle distribuzioni un metodo per mostrare il "
-"loro brand."
+msgstr "La schermata di accesso può opzionalmente mostrare una piccola immagine per fornire agli amministratori e alle distribuzioni un metodo per mostrare il loro brand."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"La schermata di accesso di ripiego può opzionalmente mostrare una piccola "
-"immagine per fornire agli amministratori e alle distribuzioni un metodo per "
-"mostrare il loro brand."
+msgstr "La schermata di accesso di ripiego può opzionalmente mostrare una piccola immagine per fornire agli amministratori e alle distribuzioni un metodo per mostrare il loro brand."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -375,14 +349,10 @@ msgstr "Evitare di mostrare l'elenco utenti"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Normalmente la schermata di accesso mostra un elenco degli utenti che "
-"possono accedere al sistema. Questa impostazione può essere commutata per "
-"disabilitare l'elenco utenti."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Normalmente la schermata di accesso mostra un elenco degli utenti che possono accedere al sistema. Questa impostazione può essere commutata per disabilitare l'elenco utenti."
 
-# NdT: non è fedele come traduzione ma rende l'idea?
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
 msgstr "Abilita la visualizzazione del messaggio di intestazione"
@@ -397,20 +367,17 @@ msgstr "Testo del messaggio di intestazione"
 
 #: data/org.gnome.login-screen.gschema.xml:78
 msgid "Text banner message to show in the login window."
-msgstr ""
-"Testo del messaggio di intestazione da mostrare nella finestra di accesso."
+msgstr "Testo del messaggio di intestazione da mostrare nella finestra di accesso."
 
 #: data/org.gnome.login-screen.gschema.xml:84
 msgid "Disable showing the restart buttons"
 msgstr "Disabilita la visualizzazione dei pulsanti di riavvio"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Impostare a VERO per disabilitare la visualizzazione dei pulsanti di riavvio "
-"nella finestra di accesso."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Impostare a VERO per disabilitare la visualizzazione dei pulsanti di riavvio nella finestra di accesso."
 
-# [NdT] la traduco la parte tra ""?
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
 msgstr "Numero consentito di autenticazioni non riuscite"
@@ -419,9 +386,7 @@ msgstr "Numero consentito di autenticazioni non riuscite"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Quante volte un utente può tentare di autenticarsi prima di ritornare alla "
-"selezione dell'utente."
+msgstr "Quante volte un utente può tentare di autenticarsi prima di ritornare alla selezione dell'utente."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "

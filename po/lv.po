@@ -1,30 +1,29 @@
-# translation of lv.po to Latvian
-# gdm for Latvian.
-# Copyright (C) 2002, 2006, 2009 Free Software Foundation, Inc.
-#
-#
-#
-# Raivis Dejus <orvils@gmail.com>, 2006, 2009, 2010.
-# Peteris Krisjanis <pecisk@gmail.com>, 2010.
-# Rudolfs <rudolfs.mazurs@gmail.com>, 2011.
-# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011, 2012.
-# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2013, 2015, 2016, 2017, 2018, 2019.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR GDM Contributors
+# This file is distributed under the same license as the gdm package.
+# 
+# Translators:
+# Anita Reitere <nitalynx@gmail.com>, 2010,2012
+# Artis Trops <hornet@navigators.lv>, 2001
+# Pēteris Krišjānis <pecisk@gmail.com>, 2010
+# Pēteris Krišjānis <pecisk@gmail.com>, 2010
+# Raivis Dejus <orvils@gmail.com>, 2006-2007,2009-2010
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011-2016
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011,2013,2015-2019
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011
 msgid ""
 msgstr ""
-"Project-Id-Version: lv\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-09-10 12:31-0700\n"
-"PO-Revision-Date: 2019-08-24 16:44+0200\n"
-"Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
-"Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
-"Language: lv\n"
+"PO-Revision-Date: 2019-09-12 18:46+0000\n"
+"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"Language-Team: Latvian (http://www.transifex.com/endless-os/gdm/language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
-"2);\n"
-"X-Generator: Lokalize 2.0\n"
-"X-Launchpad-Export-Date: 2009-02-19 16:12+0000\n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -74,9 +73,7 @@ msgstr "Neizdevās identificēt pašreizējo vietu."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"Sistēma nespēj noteikt, vai vajadzētu pārslēgties uz jau esošu ierakstīšanās "
-"ekrānu vai izveidot jaunu ierakstīšanās ekrānu."
+msgstr "Sistēma nespēj noteikt, vai vajadzētu pārslēgties uz jau esošu ierakstīšanās ekrānu vai izveidot jaunu ierakstīšanās ekrānu."
 
 #: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
 msgid "The system is unable to start up a new login screen."
@@ -89,15 +86,11 @@ msgstr "sistēmā neizdevās atrast lietotāju “%s”"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Neizdevās palaist X serveri (jūsu grafisko vidi) kādas iekšējas kļūdas dēļ. "
-"Lūdzu, sazinieties ar savu sistēmas administratoru vai pārbaudiet sistēmas "
-"žurnālu, lai noteiktu problēmas cēloni. Pa to laiku displejs tiks "
-"deaktivēts. Lūdzu, pārstartējiet GDM, kad problēma ir novērsta."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Neizdevās palaist X serveri (jūsu grafisko vidi) kādas iekšējas kļūdas dēļ. Lūdzu, sazinieties ar savu sistēmas administratoru vai pārbaudiet sistēmas žurnālu, lai noteiktu problēmas cēloni. Pa to laiku displejs tiks deaktivēts. Lūdzu, pārstartējiet GDM, kad problēma ir novērsta."
 
 #: daemon/gdm-manager.c:763
 msgid "No display available"
@@ -242,9 +235,7 @@ msgstr "GNOME displeja pārvaldnieka X sesijas palaidējs"
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Neizdodas ierakstīt PID datni %s — iespējams, beigusies diska brīvā vieta — "
-"%s"
+msgstr "Neizdodas ierakstīt PID datni %s — iespējams, beigusies diska brīvā vieta — %s"
 
 #: daemon/main.c:182
 #, c-format
@@ -309,9 +300,7 @@ msgstr "Vai ļaut izmantot pirkstu nospiedumu lasītāju, lai ierakstītos"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Ierakstīšanās ekrāns var ļaut lietotājiem izmantot savu pirkstu nospiedumus, "
-"ja viņi tos ir ievadījuši, lai ierakstītos."
+msgstr "Ierakstīšanās ekrāns var ļaut lietotājiem izmantot savu pirkstu nospiedumus, ja viņi tos ir ievadījuši, lai ierakstītos."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -321,9 +310,7 @@ msgstr "Vai ļaut izmantot viedkaršu lasītāju, lai ierakstītos"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Ierakstīšanās ekrāns var ļaut lietotājiem izmantot savas viedkartes, lai "
-"ierakstītos."
+msgstr "Ierakstīšanās ekrāns var ļaut lietotājiem izmantot savas viedkartes, lai ierakstītos."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -333,10 +320,7 @@ msgstr "Vai ļaut izmantot paroles, lai ierakstītos"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Ierakstīšanās ekrānu var konfigurēt tā, lai neļautu autentificēties ar "
-"paroli, tādējādi liekot lietotājam izmantot viedkartes vai pirkstu "
-"nospiedumu autentificēšanos."
+msgstr "Ierakstīšanās ekrānu var konfigurēt tā, lai neļautu autentificēties ar paroli, tādējādi liekot lietotājam izmantot viedkartes vai pirkstu nospiedumu autentificēšanos."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -347,17 +331,13 @@ msgstr "Ceļš uz mazu attēlu lietotāju saraksta augšpusē"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Ierakstīšanās ekrāns var parādīt mazu attēlu, lai ļautu administratoriem un "
-"distribūcijām parādīt savu zīmolu."
+msgstr "Ierakstīšanās ekrāns var parādīt mazu attēlu, lai ļautu administratoriem un distribūcijām parādīt savu zīmolu."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Atkāpšanās ierakstīšanās ekrāns var parādīt mazu attēlu, lai ļautu "
-"administratoriem un distribūcijām parādīt savu zīmolu."
+msgstr "Atkāpšanās ierakstīšanās ekrāns var parādīt mazu attēlu, lai ļautu administratoriem un distribūcijām parādīt savu zīmolu."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -365,11 +345,9 @@ msgstr "Nerādīt lietotāju sarakstu"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Ierakstīšanās ekrānā parasti redzams pieejamo lietotāju kontu saraksts. Šo "
-"iestatījumu var pārslēgt, lai lietotāju saraksts neparādītos."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Ierakstīšanās ekrānā parasti redzams pieejamo lietotāju kontu saraksts. Šo iestatījumu var pārslēgt, lai lietotāju saraksts neparādītos."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -377,8 +355,7 @@ msgstr "Aktivēt karoga joslas rādīšanu"
 
 #: data/org.gnome.login-screen.gschema.xml:69
 msgid "Set to true to show the banner message text."
-msgstr ""
-"Iestatīt uz true (patiess), lai rādītu karoga joslas paziņojuma tekstu."
+msgstr "Iestatīt uz true (patiess), lai rādītu karoga joslas paziņojuma tekstu."
 
 #: data/org.gnome.login-screen.gschema.xml:75
 msgid "Banner message text"
@@ -393,10 +370,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Nerādīt pārstartēšanas pogas"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Iestatiet uz true (patiess), lai izslēgtu pārstartēšanas pogu rādīšanu "
-"ierakstīšanās logā."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Iestatiet uz true (patiess), lai izslēgtu pārstartēšanas pogu rādīšanu ierakstīšanās logā."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -406,9 +382,7 @@ msgstr "Atļauto autentifikācijas kļūdu skaits"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Cik reizes lietotājs var mēģināt autentificēties, pirms atgriezties pie "
-"lietotāju saraksta."
+msgstr "Cik reizes lietotājs var mēģināt autentificēties, pirms atgriezties pie lietotāju saraksta."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "

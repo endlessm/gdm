@@ -1,25 +1,24 @@
-# Vietnamese translation for GDM.
-# Bản dịch tiếng Việt dành cho gdm.
-# Copyright © 2016 GNOME i18n Project for Vietnamese.
-# This file is distributed under the same license as the gdm2 package.
-# Nguyễn Thái Ngọc Duy <pclouds@gmail.com>, 2002-2004,2012-2013.
-# Clytie Siddall <clytie@riverland.net.au>, 2005-2010.
-# Trần Ngọc Quân <vnwildman@gmail.com>, 2013, 2015, 2016, 2017, 2018, 2019.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR GDM Contributors
+# This file is distributed under the same license as the gdm package.
+# 
+# Translators:
+# Trung Ngô <ndtrung4419@gmail.com>, 2011
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2013,2015-2019
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2015-2016
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm master\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-09-10 12:31-0700\n"
-"PO-Revision-Date: 2019-08-28 08:08+0700\n"
-"Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
-"Language-Team: Vietnamese <gnome-vi-list@gnome.org>\n"
-"Language: vi\n"
+"PO-Revision-Date: 2019-09-12 18:45+0000\n"
+"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/endless-os/gdm/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Gtranslator 2.91.7\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -69,9 +68,7 @@ msgstr "Không thể nhận ra trạm này."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"Hệ thống không thể quyết định có chuyển sang màn hình đăng nhập sẵn có hoặc "
-"mở màn hình đăng nhập mới."
+msgstr "Hệ thống không thể quyết định có chuyển sang màn hình đăng nhập sẵn có hoặc mở màn hình đăng nhập mới."
 
 #: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
 msgid "The system is unable to start up a new login screen."
@@ -84,15 +81,11 @@ msgstr "không tìm thấy người dùng “%s” trên hệ thống"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Không thể khởi chạy trình phục vụ X (môi trường đồ họa của bạn) do nguyên "
-"nhân nội bộ. Hãy liên lạc với quản trị hệ thống của bạn hoặc kiểm tra syslog "
-"(nhật ký của hệ thống) để chẩn đoán lỗi. Trong khi đợi, màn hình này sẽ bị "
-"tắt. Hãy khởi động lại GDM khi vấn đề đã được tháo gỡ."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Không thể khởi chạy trình phục vụ X (môi trường đồ họa của bạn) do nguyên nhân nội bộ. Hãy liên lạc với quản trị hệ thống của bạn hoặc kiểm tra syslog (nhật ký của hệ thống) để chẩn đoán lỗi. Trong khi đợi, màn hình này sẽ bị tắt. Hãy khởi động lại GDM khi vấn đề đã được tháo gỡ."
 
 #: daemon/gdm-manager.c:763
 msgid "No display available"
@@ -121,8 +114,7 @@ msgstr "Không thể mở kênh truyền thông riêng"
 #: daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
-"Máy phục vụ được người dùng %s khởi tạo, nhưng người dùng đó không tồn tại"
+msgstr "Máy phục vụ được người dùng %s khởi tạo, nhưng người dùng đó không tồn tại"
 
 #: daemon/gdm-server.c:394 daemon/gdm-server.c:414
 #, c-format
@@ -189,8 +181,7 @@ msgstr "Không thể tạo tiến trình trợ giúp xác thực"
 
 #: daemon/gdm-session-worker.c:759
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
-"Tài khoản của bạn có đưa ra thời gian giới hạn, cái mà hiện tại đã vượt quá."
+msgstr "Tài khoản của bạn có đưa ra thời gian giới hạn, cái mà hiện tại đã vượt quá."
 
 #: daemon/gdm-session-worker.c:766
 msgid "Sorry, that didn’t work. Please try again."
@@ -258,8 +249,7 @@ msgstr "Không thể tìm thấy người dùng GDM “%s”. Hủy bỏ!"
 
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
-msgstr ""
-"Người dùng GDM không nên là siêu quản trị (root) vì lý do an ninh. Hủy bỏ!"
+msgstr "Người dùng GDM không nên là siêu quản trị (root) vì lý do an ninh. Hủy bỏ!"
 
 #: daemon/main.c:235
 #, c-format
@@ -315,8 +305,7 @@ msgstr "Có cho đăng nhập bằng thẻ thông minh không"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Màn hình đăng nhập có thể cho phép người dùng đăng nhập bằng thẻ thông minh."
+msgstr "Màn hình đăng nhập có thể cho phép người dùng đăng nhập bằng thẻ thông minh."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -326,10 +315,7 @@ msgstr "Có cho đăng nhập bằng mật khẩu hay không"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Màn hình đăng nhập có thể cấu hình để không cho phép xác thực bằng mật khẩu, "
-"để ép buộc người dùng sử dụng xác thực bằng thẻ thông minh hay dùng dấu vân "
-"tay."
+msgstr "Màn hình đăng nhập có thể cấu hình để không cho phép xác thực bằng mật khẩu, để ép buộc người dùng sử dụng xác thực bằng thẻ thông minh hay dùng dấu vân tay."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -340,17 +326,13 @@ msgstr "Đường dẫn đến ảnh nhỏ ở trên danh sách người dùng"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Màn hình đăng nhập có thể hiện ảnh nhỏ để cung cấp cho nhà phân phối và quản "
-"trị trang cách thức thể hiện thương hiệu."
+msgstr "Màn hình đăng nhập có thể hiện ảnh nhỏ để cung cấp cho nhà phân phối và quản trị trang cách thức thể hiện thương hiệu."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Màn hình đăng nhập dự phòng có thể hiện ảnh nhỏ để cung cấp cho nhà phân "
-"phối và quản trị trang cách thức thể hiện thương hiệu."
+msgstr "Màn hình đăng nhập dự phòng có thể hiện ảnh nhỏ để cung cấp cho nhà phân phối và quản trị trang cách thức thể hiện thương hiệu."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -358,11 +340,9 @@ msgstr "Tránh hiện danh sách người dùng"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Màn hình đăng nhập bình thường hiện danh sách người dùng có thể đăng nhập. "
-"Thiết lập này có thể tắt hiện danh sách này."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Màn hình đăng nhập bình thường hiện danh sách người dùng có thể đăng nhập. Thiết lập này có thể tắt hiện danh sách này."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -385,7 +365,8 @@ msgid "Disable showing the restart buttons"
 msgstr "Tắt hiển thị cái nút khởi động lại"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr "Đặt để không hiển thị nút khởi động lại trong cửa sổ đăng nhập."
 
 #: data/org.gnome.login-screen.gschema.xml:93
@@ -396,9 +377,7 @@ msgstr "Số lần xác thực thất bại cho phép"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Số lần người dùng được phép xác thực, trước khi bỏ cuộc và quay lại cho "
-"người dùng chọn một thao tác khác."
+msgstr "Số lần người dùng được phép xác thực, trước khi bỏ cuộc và quay lại cho người dùng chọn một thao tác khác."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -442,12 +421,3 @@ msgstr "Chụp màn hình"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Chụp ảnh từ màn hình"
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "Mật khẩu của bạn đã quá hạn dùng, xin hãy thay đổi nó ngay bây giờ."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "Hệ vỏ GNOME"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "Quản lý và tổng hợp cửa sổ"

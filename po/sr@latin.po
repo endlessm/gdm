@@ -1,28 +1,27 @@
-# Serbian translation of gdm
-# Courtesy of Prevod.org team (http://prevod.org/) -- 2003—2017.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR GDM Contributors
 # This file is distributed under the same license as the gdm package.
-# Goran Rakić <gox@devbase.net>
-# Danilo Šegan <danilo@prevod.org>, 2005.
-# Slobodan D. Sredojević <slobo@akrep.be>, 2005.
-# Miloš Popović <gpopac@gmail.com>, 2010—2011.
-# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2011—2017.
-# Marko M. Kostić (Marko M. Kostić) <marko.m.kostic@gmail.com>
+# 
+# Translators:
+# Danilo Šegan <danilo@gnome.org>, 2005
+# Danilo Šegan <danilo@prevod.org>, 2005
+# Марко М. Костић (Marko M. Kostić) <marko.m.kostic@gmail.com>, 2016
+# Miloš Popović <gpopac@gmail.com>, 2010-2011
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2011-2013
+# Slobodan D. Sredojević <slobo@akrep.be>, 2005-2006
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-09-10 12:31-0700\n"
-"PO-Revision-Date: 2018-02-20 20:43+0100\n"
-"Last-Translator: Marko M. Kostić <marko.m.kostic@gmail.com>\n"
-"Language-Team: srpski <gnome-sr@googlegroups.org>\n"
-"Language: sr@latin\n"
+"PO-Revision-Date: 2019-09-12 18:39+0000\n"
+"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"Language-Team: Serbian (Latin) (http://www.transifex.com/endless-os/gdm/language/sr@latin/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : n"
-"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 2.0.3\n"
-"X-Project-Style: gnome\n"
+"Language: sr@latin\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -61,9 +60,8 @@ msgid "/dev/urandom is not a character device"
 msgstr "„/dev/urandom“ nije označeni uređaj"
 
 #: common/gdm-common.c:501 libgdm/gdm-user-switching.c:207
-#, fuzzy
 msgid "Could not identify the current session: "
-msgstr "Ne mogu da odredim tekuću sesiju."
+msgstr ""
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
 msgid "Could not identify the current seat."
@@ -73,9 +71,7 @@ msgstr "Ne mogu da odredim tekuće sedište."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"Sistem ne može da odredi da li da se prebaci na postojeći ili da pokrene "
-"novi ekran prijavljivanja."
+msgstr "Sistem ne može da odredi da li da se prebaci na postojeći ili da pokrene novi ekran prijavljivanja."
 
 #: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
 msgid "The system is unable to start up a new login screen."
@@ -88,15 +84,11 @@ msgstr "ne mogu da nađem korisnika „%s“ na sistemu"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Ne mogu da pokrenem Iks server (vaše grafičko okruženje) zbog greške unutar "
-"programa. Kontaktirajte administratora sistema ili pregledajte sistemski "
-"dnevnik. U međuvremenu, ovaj ekran će biti isključen. Ponovo pokrenite GDM "
-"kada ispravite problem."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Ne mogu da pokrenem Iks server (vaše grafičko okruženje) zbog greške unutar programa. Kontaktirajte administratora sistema ili pregledajte sistemski dnevnik. U međuvremenu, ovaj ekran će biti isključen. Ponovo pokrenite GDM kada ispravite problem."
 
 #: daemon/gdm-manager.c:763
 msgid "No display available"
@@ -125,8 +117,7 @@ msgstr "Ne mogu da otvorim privatni kanal komunikacije"
 #: daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
-"Trebalo je da se server prikaže za korisnika %s, ali taj korisnik ne postoji"
+msgstr "Trebalo je da se server prikaže za korisnika %s, ali taj korisnik ne postoji"
 
 #: daemon/gdm-server.c:394 daemon/gdm-server.c:414
 #, c-format
@@ -239,18 +230,15 @@ msgstr "Osluškuj na TCP priključnici"
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "Pokretač Iks sesije Gnomovog upravnika prikaza"
 
-# bug: why these two messages need to differ?
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Ne mogu da pišem u PIB datoteku %s: verovatno više nema prostora na disku: %s"
+msgstr "Ne mogu da pišem u PIB datoteku %s: verovatno više nema prostora na disku: %s"
 
 #: daemon/main.c:182
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr ""
-"Nisam uspeo da napravim direktorijum označavača jednog pokretanja „%s“: %s"
+msgstr "Nisam uspeo da napravim direktorijum označavača jednog pokretanja „%s“: %s"
 
 #: daemon/main.c:188
 #, c-format
@@ -310,9 +298,7 @@ msgstr "Da li da dozvoli ili ne čitače otisaka za prijavljivanje"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Ekran za prijavljivanje može opcionalno da omogući korisnicima koji su "
-"upisali svoje otiske prstiju da se prijave koristeći te otiske."
+msgstr "Ekran za prijavljivanje može opcionalno da omogući korisnicima koji su upisali svoje otiske prstiju da se prijave koristeći te otiske."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -322,9 +308,7 @@ msgstr "Da li da dozvoli ili ne pametne kartice za prijavljivanje"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Ekran za prijavljivanje može opcionalno da omogući korisnicima koji imaju "
-"pametne kartice da se prijave koristeći te kartice."
+msgstr "Ekran za prijavljivanje može opcionalno da omogući korisnicima koji imaju pametne kartice da se prijave koristeći te kartice."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -334,10 +318,7 @@ msgstr "Da li da dozvoli ili ne lozinke za prijavljivanje"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Ekran za prijavljivanje može biti podešen da onemogući potvrđivanje "
-"identiteta lozinkom, primoravajući korisnika da koristi potvrđivanje "
-"identiteta pametnom karticom ili otiskom prsta."
+msgstr "Ekran za prijavljivanje može biti podešen da onemogući potvrđivanje identiteta lozinkom, primoravajući korisnika da koristi potvrđivanje identiteta pametnom karticom ili otiskom prsta."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -348,17 +329,13 @@ msgstr "Putanja do sličica na vrhu spiska korisnika"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Ekran za prijavu može izborno da prikaže sličicu koja omogućava "
-"administratorima sajtova i distribucijama da prikažu svoju robnu marku."
+msgstr "Ekran za prijavu može izborno da prikaže sličicu koja omogućava administratorima sajtova i distribucijama da prikažu svoju robnu marku."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Odstupni ekran za prijavu može izborno da prikaže sličicu koja omogućava "
-"administratorima sajtova i distribucijama da prikažu svoju robnu marku."
+msgstr "Odstupni ekran za prijavu može izborno da prikaže sličicu koja omogućava administratorima sajtova i distribucijama da prikažu svoju robnu marku."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -366,12 +343,9 @@ msgstr "Izbegavanje prikazivanja spiska korisnika"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Ekran za prijavljivanje obično prikazuje spisak dostupnih korisnika koji se "
-"mogu prijaviti. Ovo podešavanje može biti prebačeno da isključi prikazivanje "
-"spiska korisnika."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Ekran za prijavljivanje obično prikazuje spisak dostupnih korisnika koji se mogu prijaviti. Ovo podešavanje može biti prebačeno da isključi prikazivanje spiska korisnika."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -394,10 +368,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Isključuje prikaz dugmadi za ponovno pokretanje"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Postavite na tačno kako bi onemogućili prikaz dugmića za ponovno pokretanje "
-"računara u pozdravnom prozoru."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Postavite na tačno kako bi onemogućili prikaz dugmića za ponovno pokretanje računara u pozdravnom prozoru."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -407,9 +380,7 @@ msgstr "Broj neuspeha potvrđivanja identiteta"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Koliko će puta korisniku biti dopušteno da pokuša da potvrdi identitet, pre "
-"nego što će biti vraćen na ekran za izbor korisnika."
+msgstr "Koliko će puta korisniku biti dopušteno da pokuša da potvrdi identitet, pre nego što će biti vraćen na ekran za izbor korisnika."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -453,12 +424,3 @@ msgstr "Snimak ekrana je urađen"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Pravi snimak ekrana vašeg radnog okruženja"
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "Vaša lozinka je istekla, promenite je."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "Gnomova školjka"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "Upravljanje prozorima i sastavljanje"

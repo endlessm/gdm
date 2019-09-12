@@ -1,23 +1,22 @@
-# Kyrgyz translation for gdm.
-# Copyright (C) 2012 gdm authors
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR GDM Contributors
 # This file is distributed under the same license as the gdm package.
-#
-#
-# Timur Zhamakeev <ztimur@gmail.com>, 2012.
+# 
+# Translators:
+# Timur Zhamakeev <ztimur@gmail.com>, 2012
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm master\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-09-10 12:31-0700\n"
-"PO-Revision-Date: 2012-09-25 15:35+0600\n"
-"Last-Translator: Timur Zhamakeev <ztimur@gmail.com>\n"
-"Language-Team: Kirghiz <gnome-i18n@gnome.org>\n"
-"Language: ky\n"
+"PO-Revision-Date: 2019-09-12 18:39+0000\n"
+"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"Language-Team: Kyrgyz (http://www.transifex.com/endless-os/gdm/language/ky/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ky\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 1.4\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -44,23 +43,20 @@ msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: XDMCP баш параметрлерин окууга болбоду! "
 
 #: chooser/gdm-host-chooser-widget.c:265
-#, fuzzy
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XMDCP: XDMCP дал келбеген версиясы!"
+msgstr ""
 
 #: chooser/gdm-host-chooser-widget.c:271
-#, fuzzy
 msgid "XDMCP: Unable to parse address"
-msgstr "XMDCP: дарек ажыратылган жок"
+msgstr ""
 
 #: common/gdm-common.c:307
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom символдук түзүм эмес"
 
 #: common/gdm-common.c:501 libgdm/gdm-user-switching.c:207
-#, fuzzy
 msgid "Could not identify the current session: "
-msgstr "Учурдагы сессияны аныктоого болбоду."
+msgstr ""
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
 msgid "Could not identify the current seat."
@@ -77,35 +73,29 @@ msgid "The system is unable to start up a new login screen."
 msgstr "Система жаңы кирүү терезесин түзө албады."
 
 #: daemon/gdm-display-access-file.c:298
-#, fuzzy, c-format
+#, c-format
 msgid "could not find user “%s” on system"
-msgstr "системада \"%s\" аттуу колдонуучу табылган жок"
+msgstr ""
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Ички катага байланыштуу X серверин (сиздин графикалык чөйрөңүз) иштетүүгө "
-"болбоду. Системанын администратору менен байланышыңыз же болбосо, көйгөй "
-"жөнүндө маалымат үчүн, системанын журналын караңыз. Азыр бул дисплей "
-"өчүрүлөт. Көйгөй чечилген соң GDM ди кайра иштетиңиз."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Ички катага байланыштуу X серверин (сиздин графикалык чөйрөңүз) иштетүүгө болбоду. Системанын администратору менен байланышыңыз же болбосо, көйгөй жөнүндө маалымат үчүн, системанын журналын караңыз. Азыр бул дисплей өчүрүлөт. Көйгөй чечилген соң GDM ди кайра иштетиңиз."
 
 #: daemon/gdm-manager.c:763
-#, fuzzy
 msgid "No display available"
-msgstr "Сессия жок"
+msgstr ""
 
 #: daemon/gdm-manager.c:861 daemon/gdm-manager.c:1145
 msgid "No session available"
 msgstr "Сессия жок"
 
 #: daemon/gdm-manager.c:880
-#, fuzzy
 msgid "Chooser session unavailable"
-msgstr "Сессия жок"
+msgstr ""
 
 #: daemon/gdm-manager.c:896
 msgid "Can only be called before user is logged in"
@@ -120,14 +110,14 @@ msgid "Unable to open private communication channel"
 msgstr ""
 
 #: daemon/gdm-server.c:383
-#, fuzzy, c-format
+#, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr "Сервер %s (uid) катары ишке киргизилди, бирок андай колдонуучу жок"
+msgstr ""
 
 #: daemon/gdm-server.c:394 daemon/gdm-server.c:414
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr "Группанын %d катары орнотууга болбоду"
+msgstr ""
 
 #: daemon/gdm-server.c:400
 #, c-format
@@ -135,9 +125,9 @@ msgid "initgroups () failed for %s"
 msgstr "%s үчүн initgroups () ишке ашпады"
 
 #: daemon/gdm-server.c:406
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn’t set userid to %d"
-msgstr "Колдонуучунун идентификаторун %d катары орнотууга болбоду"
+msgstr ""
 
 #: daemon/gdm-server.c:484
 #, c-format
@@ -150,9 +140,9 @@ msgid "%s: Error setting %s to %s"
 msgstr "%s: %s ти %s катары орнотууга болбоду"
 
 #: daemon/gdm-server.c:537
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr "%s: Сервердин приоритетин %d катары орнотууга болбоду: %s"
+msgstr ""
 
 #: daemon/gdm-server.c:689
 #, c-format
@@ -216,9 +206,8 @@ msgid "Unable to change to user"
 msgstr "Колдонуучуну алмаштырууга болбоду"
 
 #: daemon/gdm-wayland-session.c:511
-#, fuzzy
 msgid "GNOME Display Manager Wayland Session Launcher"
-msgstr "GNOME дисплей менеджеринин сессия жардамчысы"
+msgstr ""
 
 #: daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
@@ -233,9 +222,8 @@ msgid "Listen on TCP socket"
 msgstr ""
 
 #: daemon/gdm-x-session.c:871
-#, fuzzy
 msgid "GNOME Display Manager X Session Launcher"
-msgstr "GNOME дисплей менеджеринин сессия жардамчысы"
+msgstr ""
 
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
@@ -243,9 +231,9 @@ msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr "PID файлын жазууга болбоду %s: дискте бош  орун жок болушу мүмкүн: %s"
 
 #: daemon/main.c:182
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr "Өткөөл экранды түзүүгө болбоду: "
+msgstr ""
 
 #: daemon/main.c:188
 #, c-format
@@ -253,18 +241,18 @@ msgid "Failed to create LogDir %s: %s"
 msgstr ""
 
 #: daemon/main.c:223
-#, fuzzy, c-format
+#, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr "'%s' аттуу GDM колдонуучусу табылган жок. Кескин токтотулду!"
+msgstr ""
 
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
 msgstr "GDM колдонуучусу root болушу болбойт. Кескин токтотулду!"
 
 #: daemon/main.c:235
-#, fuzzy, c-format
+#, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr "%s аттуу GDM тобу табылган жок. Кескин токтотулду!"
+msgstr ""
 
 #: daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -305,9 +293,7 @@ msgstr "Системага кирүү үчүн манжанын изин оку�
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Системага кирүү терезеси колдонуучулар үчүн манжа изин окуучу түзүлүштү "
-"колдонууга шарт түзөт."
+msgstr "Системага кирүү терезеси колдонуучулар үчүн манжа изин окуучу түзүлүштү колдонууга шарт түзөт."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -317,14 +303,11 @@ msgstr "Системага кирүү үчүн смарт-кард окуучу 
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Системага кирүү терезеси колдонуучулар үчүн смарт-кард окуучу түзүлүштү "
-"колдонууга шарт түзөт."
+msgstr "Системага кирүү терезеси колдонуучулар үчүн смарт-кард окуучу түзүлүштү колдонууга шарт түзөт."
 
 #: data/org.gnome.login-screen.gschema.xml:26
-#, fuzzy
 msgid "Whether or not to allow passwords for login"
-msgstr "Системага кирүү үчүн смарт-кард окуучу түзүмдү иштетүү уруксаты"
+msgstr ""
 
 #: data/org.gnome.login-screen.gschema.xml:29
 msgid ""
@@ -338,24 +321,16 @@ msgid "Path to small image at top of user list"
 msgstr "Колдонуучулар тизмесинин баш жагындагы кичине сүрөттүн жолу"
 
 #: data/org.gnome.login-screen.gschema.xml:39
-#, fuzzy
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
 msgstr ""
-"Системага кирүү терезеси колдонуучулар тизмесинин башында анча чоң эмес "
-"сүрөттү чагылдыра алат. Ал администраторлорго жана дистрибюторлорго фирмалык "
-"белги катары колдонууга мүмкүндүк берет."
 
 #: data/org.gnome.login-screen.gschema.xml:49
-#, fuzzy
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
 msgstr ""
-"Системага кайра кирүү терезеси колдонуучулар тизмесинин башында анча чоң "
-"эмес сүрөттү чагылдыра алат. Ал администраторлорго жана дистрибюторлорго "
-"фирмалык белги катары колдонууга мүмкүндүк берет."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -363,11 +338,9 @@ msgstr "Колдонуучулар тизмесин көрсөтпөө"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Демейде, системага кирүү терезеси колдонуучулардын тизмесин чагылдырат. Бул "
-"параметр менен тизмени чыгарууну башкарууга болот."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Демейде, системага кирүү терезеси колдонуучулардын тизмесин чагылдырат. Бул параметр менен тизмени чыгарууну башкарууга болот."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -390,10 +363,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Системаны кайра иштетүү баскычын өчүрүү"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Эгер орнотулса, системага кирүү терезесинде \"Кайра иштетүү\" баскычы "
-"болбойт."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Эгер орнотулса, системага кирүү терезесинде \"Кайра иштетүү\" баскычы болбойт."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -403,9 +375,7 @@ msgstr "Ийгиликсиз аутентификациянын саны"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Колдонуучуну тандоо аракетине өтүү алдында, аутентификация аракеттеринин "
-"саны."
+msgstr "Колдонуучуну тандоо аракетине өтүү алдында, аутентификация аракеттеринин саны."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -434,7 +404,7 @@ msgstr "Ката издөө үчүн маалымат чыгаруу"
 
 #: utils/gdmflexiserver.c:52
 msgid "Version of this application"
-msgstr ""
+msgstr "Бул иштеменени версиясы"
 
 #. Option parsing
 #: utils/gdmflexiserver.c:137
@@ -449,9 +419,3 @@ msgstr "Экрандын сүрөтү алынды"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Экрандын сүрөтүн алуу"
-
-#~ msgid "GNOME Shell"
-#~ msgstr "GNOME Shell"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "Терезелерди башкаруу жана компоновкалоо"

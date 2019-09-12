@@ -1,28 +1,30 @@
-# translation of gdm.master.po to Hindi
-# This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-#
-# G Karunakar <karunakar@freedomink.org>, 2003.
-# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2004.
-# Rajesh Ranjan <rranjan@redhat.com>, 2005, 2006, 2008, 2009, 2010, 2011.
-# Rajesh Ranjan <rajesh672@gmail.com>, 2009.
-# rajesh <rajeshkajha@yahoo.com>, 2012, 2013, 2014.
-# chandankumar <chandankumar.093047@gmail.com>, 2012.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR GDM Contributors
+# This file is distributed under the same license as the gdm package.
+# 
+# Translators:
+# Chandan kumar <chandankumar.093047@gmail.com>, 2012
+# Chandan kumar <chandankumar.093047@gmail.com>, 2012
+# Chandan kumar <chandankumar.093047@gmail.com>, 2012-2013
+# 25c299dc371da5bff014f86901f492aa, 2016-2017
+# G Karunakar <karunakar@freedomink.org>, 2003
+# rajesh <rajeshkajha@yahoo.com>, 2012-2014
+# Rajesh Ranjan <rajesh672@gmail.com>, 2009
+# Rajesh Ranjan <rranjan@redhat.com>, 2005-2006,2008-2011
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2003-2004
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm.master\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-09-10 12:31-0700\n"
-"PO-Revision-Date: 2014-09-22 15:25+0630\n"
-"Last-Translator: rajesh <rajesh>\n"
-"Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
-"Language: hi\n"
+"PO-Revision-Date: 2019-09-12 18:39+0000\n"
+"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"Language-Team: Hindi (http://www.transifex.com/endless-os/gdm/language/hi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-DamnedLies-Scope: partial\n"
-"X-Generator: Lokalize 1.5\n"
+"Language: hi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -61,9 +63,8 @@ msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom वर्ण युक्ति नहीं है"
 
 #: common/gdm-common.c:501 libgdm/gdm-user-switching.c:207
-#, fuzzy
 msgid "Could not identify the current session: "
-msgstr "मौजूदा संस्करण नहीं पहचान सका."
+msgstr ""
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
 msgid "Could not identify the current seat."
@@ -73,9 +74,7 @@ msgstr "मौजूदा जगह पहचान नहीं सकता �
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"यह तंत्र निर्धारित करने में असमर्थ है कि क्या मौजूदा लॉगिन स्क्रीन में स्विच करना है या किसी "
-"नए लॉगिन स्क्रीन को आरंभ करना है."
+msgstr "यह तंत्र निर्धारित करने में असमर्थ है कि क्या मौजूदा लॉगिन स्क्रीन में स्विच करना है या किसी नए लॉगिन स्क्रीन को आरंभ करना है."
 
 #: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
 msgid "The system is unable to start up a new login screen."
@@ -88,16 +87,15 @@ msgstr "सिस्टम पर  यूज़र \"%s\" नहीं मिला
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "कुछ आंतरिक त्रुटि के कारण X सर्वर (आपका आलेखीय वातावरण) प्रारंभ नहीं कर सका. कृपया अपने तंत्र प्रशासक से संपर्क करें. या निदान हेतु सिसलॉग जाँचें इस बीच यह प्रदर्शक असमर्थ रहेगा. कृपया समस्या निदान के उपरांत जीडीएम पुनः प्रारंभ करें."
 
 #: daemon/gdm-manager.c:763
-#, fuzzy
 msgid "No display available"
-msgstr "कोई सत्र उपलब्ध नहीं"
+msgstr "कोई प्रदर्शन उपलब्ध नहीं है"
 
 #: daemon/gdm-manager.c:861 daemon/gdm-manager.c:1145
 msgid "No session available"
@@ -117,7 +115,7 @@ msgstr "कॉलर GDM नहीं है"
 
 #: daemon/gdm-manager.c:917
 msgid "Unable to open private communication channel"
-msgstr ""
+msgstr "निजी संचार चैनल को खोलने में असमर्थ"
 
 #: daemon/gdm-server.c:383
 #, c-format
@@ -195,7 +193,6 @@ msgstr "आपके खाते को समय सीमा दी गई �
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "क्षमा करें, इसने काम नहीं किया. कृपया पुन: प्रयास करें."
 
-#  login: is whacked always translate to Username:
 #: daemon/gdm-session-worker.c:1191
 msgid "Username:"
 msgstr "उपयोक्तानाम:"
@@ -216,11 +213,9 @@ msgstr "कोई उपयोक्ता खाता उपलब्ध न�
 msgid "Unable to change to user"
 msgstr "उपयोक्ता बदलने में असमर्थ"
 
-#  markup
 #: daemon/gdm-wayland-session.c:511
-#, fuzzy
 msgid "GNOME Display Manager Wayland Session Launcher"
-msgstr "गनोम डिस्प्ले प्रबंधक सत्र वर्कर"
+msgstr "GNOME प्रदर्शन प्रबंधक Wayland सत्र लॉन्चर"
 
 #: daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
@@ -228,24 +223,21 @@ msgstr "समूह सॉकेट नहीं बना सका!"
 
 #: daemon/gdm-x-session.c:858
 msgid "Run program through /etc/gdm/Xsession wrapper script"
-msgstr ""
+msgstr "प्रोग्राम को /etc/gdm/Xsession रैपर स्क्रिप्ट के माध्यम से चलाएँ"
 
 #: daemon/gdm-x-session.c:859
 msgid "Listen on TCP socket"
-msgstr ""
+msgstr "TCP सॉकेट पर सुनें"
 
-#  markup
 #: daemon/gdm-x-session.c:871
-#, fuzzy
 msgid "GNOME Display Manager X Session Launcher"
-msgstr "गनोम डिस्प्ले प्रबंधक सत्र वर्कर"
+msgstr "GNOME प्रदर्शन प्रबंधक X सत्र लॉन्चर"
 
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr "पीआईडी फ़ाइल %s लिख नहीं सकता: संभवतः डिस्क में खाली जगह नहीं. %s"
 
-#  markup
 #: daemon/main.c:182
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
@@ -295,7 +287,6 @@ msgstr "गनोम डेस्कटॉप प्रबंधक"
 msgid "Only the root user can run GDM"
 msgstr "सिर्फ रूट उपयोक्ता जीडीएम चला सकता है"
 
-#  markup
 #. Translators: worker is a helper process that does the work
 #. of starting up a session
 #: daemon/session-worker-main.c:119
@@ -310,9 +301,7 @@ msgstr "लॉगिन के लिए पाठकों को फिंग�
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"लॉगिन स्क्रीन वैकल्पिक उपयोगकर्ताओं को, जो उनकी उंगलियों के निशान को नामांकित किया है "
-"उन प्रिंट का उपयोग करके लॉग इन करने के लिए अनुमति दे सकते हैं."
+msgstr "लॉगिन स्क्रीन वैकल्पिक उपयोगकर्ताओं को, जो उनकी उंगलियों के निशान को नामांकित किया है उन प्रिंट का उपयोग करके लॉग इन करने के लिए अनुमति दे सकते हैं."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -322,9 +311,7 @@ msgstr "लॉगिन के लिए पाठकों को स्मा�
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"लॉगिन स्क्रीन वैकल्पिक उपयोगकर्ताओं को अनुमति दे सकते हैं., जिनके पास लॉग इन करने के लिए "
-"स्मार्ट कार्ड है उन स्मार्ट कार्ड का उपयोग करके लॉग इन करना चाहते हैं."
+msgstr "लॉगिन स्क्रीन वैकल्पिक उपयोगकर्ताओं को अनुमति दे सकते हैं., जिनके पास लॉग इन करने के लिए स्मार्ट कार्ड है उन स्मार्ट कार्ड का उपयोग करके लॉग इन करना चाहते हैं."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -334,9 +321,7 @@ msgstr "लॉगिन के लिए पाठकों को कूटश�
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"लॉगिन स्क्रीन को कूटशब्द सत्यापन की अनुमति हटाने के लिए विन्यस्त किया जा सकता है, "
-"उपयोक्ता को स्मार्टकार्ड या फिंगरप्रिंट सत्यापन के उपयोग के बाध्य करता है."
+msgstr "लॉगिन स्क्रीन को कूटशब्द सत्यापन की अनुमति हटाने के लिए विन्यस्त किया जा सकता है, उपयोक्ता को स्मार्टकार्ड या फिंगरप्रिंट सत्यापन के उपयोग के बाध्य करता है."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -347,17 +332,13 @@ msgstr "उपयोगकर्ता सूची के शीर्ष प�
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"लॉगिन स्क्रीन साइट व्यवस्थापक और वितरण को ब्रांडिंग प्रदर्शित करने का एक तरीका प्रदान "
-"करने के लिए वैकल्पिक रूप से एक छोटी छवि दिखा सकती है."
+msgstr "लॉगिन स्क्रीन साइट व्यवस्थापक और वितरण को ब्रांडिंग प्रदर्शित करने का एक तरीका प्रदान करने के लिए वैकल्पिक रूप से एक छोटी छवि दिखा सकती है."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"फ़ॉलबैक लॉगिन स्क्रीन साइट व्यवस्थापक और वितरण को ब्रांडिंग प्रदर्शित करने का एक तरीका "
-"प्रदान करने के लिए वैकल्पिक रूप से एक छोटी छवि दिखा सकती है."
+msgstr "फ़ॉलबैक लॉगिन स्क्रीन साइट व्यवस्थापक और वितरण को ब्रांडिंग प्रदर्शित करने का एक तरीका प्रदान करने के लिए वैकल्पिक रूप से एक छोटी छवि दिखा सकती है."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -365,11 +346,9 @@ msgstr "उपयोगकर्ता सूची प्रदर्शित 
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"लॉगिन स्क्रीन आम तौर पर उपलब्ध प्रयोक्ताओं की एक सूची के रूप में लॉग ऑन दिखाता है. इस "
-"सेटिंग से उपयोगकर्ता सूची प्रदर्शन को अक्षम करने के लिए टॉगल किया जा सकता है."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "लॉगिन स्क्रीन आम तौर पर उपलब्ध प्रयोक्ताओं की एक सूची के रूप में लॉग ऑन दिखाता है. इस सेटिंग से उपयोगकर्ता सूची प्रदर्शन को अक्षम करने के लिए टॉगल किया जा सकता है."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -392,10 +371,9 @@ msgid "Disable showing the restart buttons"
 msgstr "पुनः आरंभ बटन दिखाना असमर्थ करें"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"निष्क्रिय दिखाने के लिए सही पर सेट करें जो बटन को लॉगिन विंडो में दिखाने के लिए फिर आरंभ "
-"करें."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "निष्क्रिय दिखाने के लिए सही पर सेट करें जो बटन को लॉगिन विंडो में दिखाने के लिए फिर आरंभ करें."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -405,11 +383,8 @@ msgstr "अनुमतिप्राप्त सत्यापन विफ�
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-" उपयोगकर्ता चयन करने के लिए वापस जाने और प्रयास करने से पहले उपयोगकर्ता को प्रमाणीकरण "
-"देने की अनुमति है की संख्या"
+msgstr " उपयोगकर्ता चयन करने के लिए वापस जाने और प्रयास करने से पहले उपयोगकर्ता को प्रमाणीकरण देने की अनुमति है की संख्या"
 
-#  markup
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
 msgstr "अस्थायी प्रदर्शन बनाने में असमर्थ: "
@@ -452,12 +427,3 @@ msgstr "स्क्रीनशॉट लिया गया"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "स्क्रीन की तस्वीर लें"
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "आपका कूटशब्द खत्म हो गया, कृपया बदलें."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "गनोम शैल"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "विंडो प्रबंधन और कंपोसिटिंग"

@@ -1,23 +1,26 @@
-# translation of gdm2.HEAD.he.po to Hebrew
-# This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR GDM Contributors
+# This file is distributed under the same license as the gdm package.
+# 
+# Translators:
+# Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2002-2003
 # Gil Osher <dolfin@rpg.org.il>, 2002
-# Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2003
-#
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2010-2011
+# Yosef Or Boczko <yoseforb@gnome.org>, 2013-2016
+# Yuval Tanny, 2005
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm2.HEAD.he\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-09-10 12:31-0700\n"
-"PO-Revision-Date: 2016-03-11 14:34+0200\n"
-"Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
-"Language-Team: Hebrew <he@li.org>\n"
-"Language: he\n"
+"PO-Revision-Date: 2019-09-12 18:39+0000\n"
+"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"Language-Team: Hebrew (http://www.transifex.com/endless-os/gdm/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"Language: he\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -56,9 +59,8 @@ msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom is not a character device"
 
 #: common/gdm-common.c:501 libgdm/gdm-user-switching.c:207
-#, fuzzy
 msgid "Could not identify the current session: "
-msgstr "Could not identify the current session."
+msgstr ""
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
 msgid "Could not identify the current seat."
@@ -68,29 +70,24 @@ msgstr "לא ניתן לזהות את המושב הנוכחי."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"המערכת לא הצליחה לוודא האם לעבור למסך כניסה קיים או להפעיל מסך כניסה חדש."
+msgstr "המערכת לא הצליחה לוודא האם לעבור למסך כניסה קיים או להפעיל מסך כניסה חדש."
 
 #: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
 msgid "The system is unable to start up a new login screen."
 msgstr "המערכת לא הצליחה לפעיל מסך כניסה חדש."
 
 #: daemon/gdm-display-access-file.c:298
-#, fuzzy, c-format
+#, c-format
 msgid "could not find user “%s” on system"
-msgstr "לא ניתן לאתר את המשתמש „%s“ במערכת"
+msgstr ""
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Could not start the X server (your graphical environment) due to an internal error. Please contact your system administrator or check your syslog to diagnose. In the meantime this display will be disabled.  Please restart GDM when the problem is corrected."
 
 #: daemon/gdm-manager.c:763
 msgid "No display available"
@@ -101,9 +98,8 @@ msgid "No session available"
 msgstr "אין הפעלה זמינה"
 
 #: daemon/gdm-manager.c:880
-#, fuzzy
 msgid "Chooser session unavailable"
-msgstr "אין הפעלה זמינה"
+msgstr ""
 
 #: daemon/gdm-manager.c:896
 msgid "Can only be called before user is logged in"
@@ -118,14 +114,14 @@ msgid "Unable to open private communication channel"
 msgstr "לא ניתן לפתוח ערוץ התקשרות פרטי"
 
 #: daemon/gdm-server.c:383
-#, fuzzy, c-format
+#, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr "Server was to be spawned by user %s but that user doesn't exist"
+msgstr ""
 
 #: daemon/gdm-server.c:394 daemon/gdm-server.c:414
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr "Couldn't set groupid to %d"
+msgstr ""
 
 #: daemon/gdm-server.c:400
 #, c-format
@@ -133,9 +129,9 @@ msgid "initgroups () failed for %s"
 msgstr "initgroups () failed for %s"
 
 #: daemon/gdm-server.c:406
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn’t set userid to %d"
-msgstr "Couldn't set userid to %d"
+msgstr ""
 
 #: daemon/gdm-server.c:484
 #, c-format
@@ -148,9 +144,9 @@ msgid "%s: Error setting %s to %s"
 msgstr "%s: Error setting %s to %s"
 
 #: daemon/gdm-server.c:537
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr "%s: Server priority couldn't be set to %d: %s"
+msgstr ""
 
 #: daemon/gdm-server.c:689
 #, c-format
@@ -186,14 +182,12 @@ msgid "Could not create authentication helper process"
 msgstr "לא ניתן ליצור תהליך מסייע אימות"
 
 #: daemon/gdm-session-worker.c:759
-#, fuzzy
 msgid "Your account was given a time limit that’s now passed."
-msgstr "לחשבון שלך ניתנה מגבלת זמן שנכון לעכשיו חלפה."
+msgstr ""
 
 #: daemon/gdm-session-worker.c:766
-#, fuzzy
 msgid "Sorry, that didn’t work. Please try again."
-msgstr "פעולה זו לא צלחה. נא לנסות שוב, עמך הסליחה."
+msgstr ""
 
 #: daemon/gdm-session-worker.c:1191
 msgid "Username:"
@@ -251,18 +245,18 @@ msgid "Failed to create LogDir %s: %s"
 msgstr "יצירת ה־LogDir %s נכשלה: %s"
 
 #: daemon/main.c:223
-#, fuzzy, c-format
+#, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr "Can't find the GDM user '%s'. Aborting!"
+msgstr ""
 
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
 msgstr "The GDM user should not be root. Aborting!"
 
 #: daemon/main.c:235
-#, fuzzy, c-format
+#, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr "Can't find the GDM group '%s'. Aborting!"
+msgstr ""
 
 #: daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -303,9 +297,7 @@ msgstr "Whether or not to allow fingerprint readers for login"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"The login screen can optionally allow users who have enrolled their "
-"fingerprints to log in using those prints."
+msgstr "The login screen can optionally allow users who have enrolled their fingerprints to log in using those prints."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -315,9 +307,7 @@ msgstr "Whether or not to allow smartcard readers for login"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"The login screen can optionally allow users who have smartcards to log in "
-"using those smartcards."
+msgstr "The login screen can optionally allow users who have smartcards to log in using those smartcards."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -327,9 +317,7 @@ msgstr "Whether or not to allow passwords for login"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"The login screen can be configured to disallow password authentication, "
-"forcing the user to use smartcard or fingerprint authentication."
+msgstr "The login screen can be configured to disallow password authentication, forcing the user to use smartcard or fingerprint authentication."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -340,17 +328,13 @@ msgstr "Path to small image at top of user list"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"The login screen can optionally show a small image to provide site "
-"administrators and distributions a way to display branding."
+msgstr "The login screen can optionally show a small image to provide site administrators and distributions a way to display branding."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"The fallback login screen can optionally show a small image to provide site "
-"administrators and distributions a way to display branding."
+msgstr "The fallback login screen can optionally show a small image to provide site administrators and distributions a way to display branding."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -358,11 +342,9 @@ msgstr "Avoid showing user list"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "The login screen normally shows a list of available users to log in as. This setting can be toggled to disable showing the user list."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -385,9 +367,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Disable showing the restart buttons"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
+msgid ""
 "Set to true to disable showing the restart buttons in the login window."
+msgstr "Set to true to disable showing the restart buttons in the login window."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -397,9 +379,7 @@ msgstr "Number of allowed authentication failures"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"The number of times a user is allowed to attempt authentication, before "
-"giving up and going back to user selection."
+msgstr "The number of times a user is allowed to attempt authentication, before giving up and going back to user selection."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -432,9 +412,8 @@ msgstr "Version of this application"
 
 #. Option parsing
 #: utils/gdmflexiserver.c:137
-#, fuzzy
 msgid "— New GDM login"
-msgstr "- New GDM login"
+msgstr ""
 
 #: utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
@@ -444,12 +423,3 @@ msgstr "המסך צולם"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "צילום המסך"
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "תוקף הססמה שלך פג, נא לשנות אותה כעת."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "GNOME Shell"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "ניהול ועיצוב חלונות"

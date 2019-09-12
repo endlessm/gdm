@@ -1,36 +1,42 @@
-# gdm ja.po.
-# Copyright (C) 1999-2012 Free Software Foundation, Inc.
-# Yukihiro Nakai <nacai@iname.com>, 1999.
-# ITANI Eiichiro <emu@ceres.dti.ne.jp>, 1999.
-# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2000, 2010, 2012.
-# Yukihior Nakai <nakai@gnome.gr.jp>, 2000-2002.
-# Taku YASUI <tach@debian.or.jp>, 2001.
-# Akira TAGOH <tagoh@gnome.gr.jp>, 2001.
-# SATO Satoru <ss@gnome.gr.jp>, 2001, 2006.
-# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003.
-# Ryoichi INAGAKI <ryo1@bc.wakwak.com>, 2004.
-# Takeshi AIHANA <takeshi.aihana@gmail.com>, 2004-2009.
-# Hideki Yamane (Debian-JP) <henrich@debian.or.jp>, 2009.
-# Hideki Yamane <henrich@debian.org>, 2011.
-# Noriko Mizumoto <noriko@fedoraproject.org>, 2012.
-# Jiro Matsuzawa <jmatsuzawa@gnome.org>, 2013, 2014.
-# Hajime Taira <htaira@redhat.com>, 2015.
-# sicklylife <translation@sicklylife.jp>, 2019.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR GDM Contributors
+# This file is distributed under the same license as the gdm package.
+# 
+# Translators:
+# Akira TAGOH <tagoh@gnome.gr.jp>, 2001
+# Eiichiro ITANI <emu@ceres.dti.ne.jp>, 1999
+# Hajime Taira <htaira@redhat.com>, 2015
+# Hideki Yamane <henrich@debian.or.jp>, 2009
+# Hideki Yamane <henrich@debian.org>, 2011
+# Hideki Yamnane <henrich@debian.org>, 2011
+# Ikuya Awashiro <ikuya@fruitsbasket.info>, 2014
+# ITANI Eiichiro <emu@ceres.dti.ne.jp>, 1999
+# Jiro Matsuzawa <jmatsuzawa@gnome.org>, 2013-2014
+# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003
+# Kiyotaka NISHIBORI <ml.nishibori.kiyotaka@gmail.com>, 2011
+# noriko <noriko@fedoraproject.org>, 2012
+# Ryoichi INAGAKI <ryo1@bc.wakwak.com>, 2004
+# Satoru SATOH <ss@gnome.gr.jp>, 2006
+# SATO Satoru <ss@gnome.gr.jp>, 2001,2006
+# sicklylife <translation@sicklylife.jp>, 2019
+# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2000,2010,2012
+# Taku YASUI <tach@debian.or.jp>, 2001
+# Yasumichi Akahoshi <yasumichi@vinelinux.org>, 2010
+# Yukihiro Nakai <nacai@iname.com>, 1999
+# Yukihiro Nakai <Nakai@abricot.co.jp>, 1998
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm master\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
 "POT-Creation-Date: 2019-09-10 12:31-0700\n"
-"PO-Revision-Date: 2019-08-25 21:00+0900\n"
-"Last-Translator: sicklylife <translation@sicklylife.jp>\n"
-"Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
-"Language: ja\n"
+"PO-Revision-Date: 2019-09-12 18:46+0000\n"
+"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"Language-Team: Japanese (http://www.transifex.com/endless-os/gdm/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.7.3\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -80,9 +86,7 @@ msgstr "現在のシートを識別できませんでした。"
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
-"既存のログイン画面に切り替えるか、新しいログイン画面を起動するのかを、システ"
-"ムが決定することができませんでした。"
+msgstr "既存のログイン画面に切り替えるか、新しいログイン画面を起動するのかを、システムが決定することができませんでした。"
 
 #: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
 msgid "The system is unable to start up a new login screen."
@@ -95,15 +99,11 @@ msgstr "システムに“%s”というユーザーは見つかりませんで�
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"何らかの内部エラーが原因で、X サーバー(グラフィカル環境)を起動できませんでし"
-"た。システム管理者に問い合わせるか、syslog の内容をチェックして調査してみてく"
-"ださい。とりあえず、このディスプレイを無効にします。問題が解決したら GDM を再"
-"起動してください。"
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "何らかの内部エラーが原因で、X サーバー(グラフィカル環境)を起動できませんでした。システム管理者に問い合わせるか、syslog の内容をチェックして調査してみてください。とりあえず、このディスプレイを無効にします。問題が解決したら GDM を再起動してください。"
 
 #: daemon/gdm-manager.c:763
 msgid "No display available"
@@ -132,9 +132,7 @@ msgstr "プライベートコミュニケーションチャンネルを開けま
 #: daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
-"ユーザー %s としてサーバーを起動しようとしましたが、そのようなユーザーは存在"
-"しません"
+msgstr "ユーザー %s としてサーバーを起動しようとしましたが、そのようなユーザーは存在しません"
 
 #: daemon/gdm-server.c:394 daemon/gdm-server.c:414
 #, c-format
@@ -250,8 +248,7 @@ msgstr "GNOME ディスプレイマネージャー X セッションランチャ
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"PID ファイル %s に書き込めません; ディスクの空き容量が足りないようです: %s"
+msgstr "PID ファイル %s に書き込めません; ディスクの空き容量が足りないようです: %s"
 
 #: daemon/main.c:182
 #, c-format
@@ -316,9 +313,7 @@ msgstr "指紋リーダーによるログイン認証を許可する"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"ログイン画面では、指紋を登録したユーザーがそれを使ってログインするのを任意に"
-"許可することができます。"
+msgstr "ログイン画面では、指紋を登録したユーザーがそれを使ってログインするのを任意に許可することができます。"
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -328,9 +323,7 @@ msgstr "スマートカードリーダーによるログイン認証を許可す
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"ログイン画面では、スマートカードを持つユーザーがスマートカードを使ってログイ"
-"ンするのを任意に許可することができます。"
+msgstr "ログイン画面では、スマートカードを持つユーザーがスマートカードを使ってログインするのを任意に許可することができます。"
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -340,9 +333,7 @@ msgstr "パスワードによるログイン認証を許可する"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"ログイン画面では、パスワード認証を無効化して、スマートカードや指紋による認証"
-"をユーザーに強制するよう設定できます。"
+msgstr "ログイン画面では、パスワード認証を無効化して、スマートカードや指紋による認証をユーザーに強制するよう設定できます。"
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -353,17 +344,13 @@ msgstr "ユーザーリストの一番上にある小さな画像へのパス"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"ログイン画面では、サイトの管理者やディストリビューションがブランドを示す方法"
-"として、小さな画像を任意に表示できます。"
+msgstr "ログイン画面では、サイトの管理者やディストリビューションがブランドを示す方法として、小さな画像を任意に表示できます。"
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"フォールバックログイン画面では、サイトの管理者やディストリビューションがブラ"
-"ンドを示す方法として、小さな画像を任意に表示できます。"
+msgstr "フォールバックログイン画面では、サイトの管理者やディストリビューションがブランドを示す方法として、小さな画像を任意に表示できます。"
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -371,11 +358,9 @@ msgstr "ユーザー一覧を表示しない"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"ログインスクリーンでは、利用可能なユーザーが通常表示されています。この設定で"
-"はユーザー一覧表示を無効に設定可能です。"
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "ログインスクリーンでは、利用可能なユーザーが通常表示されています。この設定ではユーザー一覧表示を無効に設定可能です。"
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -398,9 +383,9 @@ msgid "Disable showing the restart buttons"
 msgstr "再起動のボタンを表示しないかどうか"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"true にすると、ログインウィンドウに再起動のボタンが表示されなくなります。"
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "true にすると、ログインウィンドウに再起動のボタンが表示されなくなります。"
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -410,9 +395,7 @@ msgstr "許容できる認証失敗の回数です"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"ユーザーが認証を試行できる回数です。この回数を失敗すると、ユーザー選択に戻る"
-"ことになります。"
+msgstr "ユーザーが認証を試行できる回数です。この回数を失敗すると、ユーザー選択に戻ることになります。"
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -456,12 +439,3 @@ msgstr "スクリーンショットの撮影"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "画面のスクリーンショットを撮る"
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "パスワードの有効期限が切れました。直ちに変更してください。"
-
-#~ msgid "GNOME Shell"
-#~ msgstr "GNOME shell"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "ウィンドウ管理とコンポジション"
