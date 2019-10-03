@@ -9,7 +9,7 @@
 # Anish A <aneesh.nl@gmail.com>, 2017
 # Anivar Aravind|അനിവര്‍ അരവിന്ദ് <anivar@movingrepublic.org>, 2007
 # Ashik Salahudeen|ആഷിക് സലാഹുദ്ദീന്‍ <aashiks@gmail.com>, 2008
-# Balasankar C <c.balasankar@gmail.com>, 2013
+# Balasankar C <balasankarc@autistici.org>, 2013
 # FSF-India <locale@gnu.org.in>, 2003
 # Jishnu Mohan <jishnu7@gmail.com>, 2013
 # Mohammed Sadiq <sadiqpkp@gmail.com>, 2012
