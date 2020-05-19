@@ -1,3 +1,13 @@
+gdm3 (3.34.0-1endless2) eos; urgency=medium
+
+  * Drop udev rule to disable wayland (62-Endless-disable-wayland.rules).
+    This udev rule is no longer needed to disable wayland as we only enable
+    one session and gdm automatically detects it as an X session based on
+    the path it is installed (/usr/share/xsessions/endless.desktop).
+    https://phabricator.endlessm.com/T30188
+
+ -- Andre Moreira Magalhaes <andre@endlessm.com>  Tue, 19 May 2020 20:53:31 -0300
+
 gdm3 (3.34.0-1endless1) eos; urgency=medium
 
   * Add back downstream changes
