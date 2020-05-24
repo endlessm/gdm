@@ -16,6 +16,7 @@
 # Michal Bukovjan <bukm@centrum.cz>, 2002-2003
 # Miloslav Trmač <mitr@volny.cz>, 2003-2006
 # Ondřej Kopka <ondrej.kopka@gmail.com>, 2011
+# Pavel Borecki <pavel.borecki@gmail.com>, 2020
 # Petr Kovar <pknbe@volny.cz>, 2007-2012
 # Petr Tomeš <ptomes@gmail.com>, 2006
 # Vendula Durakova, 2018
@@ -23,9 +24,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2020-03-10 14:13+0000\n"
-"PO-Revision-Date: 2019-09-12 18:44+0000\n"
-"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"POT-Creation-Date: 2020-05-24 13:18+0000\n"
+"PO-Revision-Date: 2020-05-23 14:17+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/endless-os/gdm/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -192,31 +193,31 @@ msgstr "Zařízení displeje"
 msgid "Could not create authentication helper process"
 msgstr "Nelze vytvořit obslužný proces ověření"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:758
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Váš účet měl omezenou časovou platnost, která nyní vypršela."
 
-#: daemon/gdm-session-worker.c:766
+#: daemon/gdm-session-worker.c:765
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Bohužel, ale nefunguje to. Zkuste to prosím znovu."
 
-#: daemon/gdm-session-worker.c:1191
+#: daemon/gdm-session-worker.c:1169
 msgid "Username:"
 msgstr "Uživatel:"
 
-#: daemon/gdm-session-worker.c:1333
+#: daemon/gdm-session-worker.c:1309
 msgid "Type a hint or question to help remember your password."
 msgstr "Zadejte nápovědu či otázku, která vám pomůže zapamatovat si heslo."
 
-#: daemon/gdm-session-worker.c:1334
+#: daemon/gdm-session-worker.c:1310
 msgid "Password reminder:"
-msgstr ""
+msgstr "Nápověda k heslu:"
 
-#: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
+#: daemon/gdm-session-worker.c:1628 daemon/gdm-session-worker.c:1645
 msgid "no user account available"
 msgstr "není dostupný žádný uživatelský účet"
 
-#: daemon/gdm-session-worker.c:1696
+#: daemon/gdm-session-worker.c:1672
 msgid "Unable to change to user"
 msgstr "Nelze změnit uživatele"
 

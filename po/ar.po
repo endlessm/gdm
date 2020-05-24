@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2020-03-10 14:13+0000\n"
+"POT-Creation-Date: 2020-05-24 13:18+0000\n"
 "PO-Revision-Date: 2019-10-05 19:03+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/endless-os/gdm/language/ar/)\n"
@@ -190,31 +190,31 @@ msgstr "جهاز العرض"
 msgid "Could not create authentication helper process"
 msgstr "تعذّر إنشاء عملية مساعد الاستيثاق"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:758
 msgid "Your account was given a time limit that’s now passed."
 msgstr "المدة الزمنية الموضوعة لحسابك انتهت."
 
-#: daemon/gdm-session-worker.c:766
+#: daemon/gdm-session-worker.c:765
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "للأسف لم يُفلح هذا. أعِد المحاولة."
 
-#: daemon/gdm-session-worker.c:1191
+#: daemon/gdm-session-worker.c:1169
 msgid "Username:"
 msgstr "اسم المستخدم:"
 
-#: daemon/gdm-session-worker.c:1333
+#: daemon/gdm-session-worker.c:1309
 msgid "Type a hint or question to help remember your password."
 msgstr "أدخل إشارة أو سؤال للمساعدة على تذكر كلمة المرور الخاصة بك."
 
-#: daemon/gdm-session-worker.c:1334
+#: daemon/gdm-session-worker.c:1310
 msgid "Password reminder:"
 msgstr "تذكرة بكلمة المرور:"
 
-#: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
+#: daemon/gdm-session-worker.c:1628 daemon/gdm-session-worker.c:1645
 msgid "no user account available"
 msgstr "لا يُوجد حساب مستخدِم "
 
-#: daemon/gdm-session-worker.c:1696
+#: daemon/gdm-session-worker.c:1672
 msgid "Unable to change to user"
 msgstr "تعذّر الانتقال للمستخدم"
 

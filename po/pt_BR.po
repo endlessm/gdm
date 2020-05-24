@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2020-03-10 14:13+0000\n"
+"POT-Creation-Date: 2020-05-24 13:18+0000\n"
 "PO-Revision-Date: 2019-09-12 18:40+0000\n"
 "Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/endless-os/gdm/language/pt_BR/)\n"
@@ -204,31 +204,31 @@ msgstr "O dispositivo de tela"
 msgid "Could not create authentication helper process"
 msgstr "Não foi possível criar o processo auxiliar de autenticação"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:758
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Foi dada à sua conta um limite de tempo que acabou de passar."
 
-#: daemon/gdm-session-worker.c:766
+#: daemon/gdm-session-worker.c:765
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Desculpe, isto não funcionou. Por gentileza, tente novamente."
 
-#: daemon/gdm-session-worker.c:1191
+#: daemon/gdm-session-worker.c:1169
 msgid "Username:"
 msgstr "Nome de usuário:"
 
-#: daemon/gdm-session-worker.c:1333
+#: daemon/gdm-session-worker.c:1309
 msgid "Type a hint or question to help remember your password."
 msgstr "Digite uma dica ou pergunta para ajudar a lembrar sua senha."
 
-#: daemon/gdm-session-worker.c:1334
+#: daemon/gdm-session-worker.c:1310
 msgid "Password reminder:"
 msgstr "Lembrete de senha:"
 
-#: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
+#: daemon/gdm-session-worker.c:1628 daemon/gdm-session-worker.c:1645
 msgid "no user account available"
 msgstr "nenhuma conta de usuário disponível"
 
-#: daemon/gdm-session-worker.c:1696
+#: daemon/gdm-session-worker.c:1672
 msgid "Unable to change to user"
 msgstr "Não foi possível mudar para o usuário"
 

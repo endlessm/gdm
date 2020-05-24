@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2020-03-10 14:13+0000\n"
+"POT-Creation-Date: 2020-05-24 13:18+0000\n"
 "PO-Revision-Date: 2019-09-12 18:39+0000\n"
 "Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
 "Language-Team: Malayalam (http://www.transifex.com/endless-os/gdm/language/ml/)\n"
@@ -190,31 +190,31 @@ msgstr "ഡിസ്പ്ലൈ ഡിവൈസ്"
 msgid "Could not create authentication helper process"
 msgstr "ആധികാരികതയ്ക്കുള്ള സഹായ പ്രക്രിയ തയ്യാറാക്കുവാന്‍ സാധ്യമല്ല"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:758
 msgid "Your account was given a time limit that’s now passed."
 msgstr "താങ്കളുടെ അക്കൗണ്ടിന് അനുവദിച്ച സമയം കഴിഞ്ഞിരിക്കുന്നു."
 
-#: daemon/gdm-session-worker.c:766
+#: daemon/gdm-session-worker.c:765
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "ക്ഷമിക്കുക, അത് നടന്നില്ല. ദയവായി വീണ്ടും ശ്രമിക്കുക."
 
-#: daemon/gdm-session-worker.c:1191
+#: daemon/gdm-session-worker.c:1169
 msgid "Username:"
 msgstr "ഉപയോക്തൃനാമം:"
 
-#: daemon/gdm-session-worker.c:1333
+#: daemon/gdm-session-worker.c:1309
 msgid "Type a hint or question to help remember your password."
 msgstr ""
 
-#: daemon/gdm-session-worker.c:1334
+#: daemon/gdm-session-worker.c:1310
 msgid "Password reminder:"
 msgstr ""
 
-#: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
+#: daemon/gdm-session-worker.c:1628 daemon/gdm-session-worker.c:1645
 msgid "no user account available"
 msgstr "ഉപയോക്താവിനുള്ള അക്കൌണ്ട് ലഭ്യമല്ല"
 
-#: daemon/gdm-session-worker.c:1696
+#: daemon/gdm-session-worker.c:1672
 msgid "Unable to change to user"
 msgstr "ഉപയോക്താവായി മാറുവാന്‍ സാധ്യമല്ല"
 

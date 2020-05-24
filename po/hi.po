@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2020-03-10 14:13+0000\n"
+"POT-Creation-Date: 2020-05-24 13:18+0000\n"
 "PO-Revision-Date: 2019-10-05 21:04+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessm.com>\n"
 "Language-Team: Hindi (http://www.transifex.com/endless-os/gdm/language/hi/)\n"
@@ -185,31 +185,31 @@ msgstr "प्रदर्शक युक्ति"
 msgid "Could not create authentication helper process"
 msgstr "सत्यापन मददगार प्रक्रिया नहीं बना सका"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:758
 msgid "Your account was given a time limit that’s now passed."
 msgstr "आपके खाते को समय सीमा दी गई थी जो अब पारित हो गई है."
 
-#: daemon/gdm-session-worker.c:766
+#: daemon/gdm-session-worker.c:765
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "क्षमा करें, इसने काम नहीं किया. कृपया पुन: प्रयास करें."
 
-#: daemon/gdm-session-worker.c:1191
+#: daemon/gdm-session-worker.c:1169
 msgid "Username:"
 msgstr "उपयोक्तानाम:"
 
-#: daemon/gdm-session-worker.c:1333
+#: daemon/gdm-session-worker.c:1309
 msgid "Type a hint or question to help remember your password."
 msgstr "अपना पासवर्ड याद रखने में मदद के लिए कोई संकेत या प्रश्न लिखें."
 
-#: daemon/gdm-session-worker.c:1334
+#: daemon/gdm-session-worker.c:1310
 msgid "Password reminder:"
 msgstr "पासवर्ड अनुस्मारक:"
 
-#: daemon/gdm-session-worker.c:1652 daemon/gdm-session-worker.c:1669
+#: daemon/gdm-session-worker.c:1628 daemon/gdm-session-worker.c:1645
 msgid "no user account available"
 msgstr "कोई उपयोक्ता खाता उपलब्ध नहीं"
 
-#: daemon/gdm-session-worker.c:1696
+#: daemon/gdm-session-worker.c:1672
 msgid "Unable to change to user"
 msgstr "उपयोक्ता बदलने में असमर्थ"
 
