@@ -12,7 +12,7 @@
 # Gintautas Miliauskas <gintautas@miliauskas.lt>, 2008-2009
 # Justina KP <justina.klingaite@gmail.com>, 2005
 # Justina KP <justina.klingaite@gmail.com>, 2005
-# Mantas Kriaučiūnas <mantas@akl.lt>, 2011
+# Mantas Kriaučiūnas Baltix <mantas@akl.lt>, 2011
 # Rimas Kudelis <rimas@kudelis.lt>, 2010
 # Vaidotas Zemlys <mpiktas@delfi.lt>, 2003
 # Vytautas Liuolia <vytautas.liuolia@gmail.com>, 2007-2008
@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2020-05-24 13:18+0000\n"
+"POT-Creation-Date: 2020-06-07 13:18+0000\n"
 "PO-Revision-Date: 2019-09-12 18:46+0000\n"
 "Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
 "Language-Team: Lithuanian (http://www.transifex.com/endless-os/gdm/language/lt/)\n"
