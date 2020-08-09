@@ -8,13 +8,12 @@
 # Vladimer Sichinava <vsichi@gnome.org>, 2008
 # Vladimer Sichinava  ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2008
 # Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2007
-# Vladimer Sichinava  ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2008
 # Zviad Sulaberidze <zviad@osgf.ge>, 2006
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2020-06-21 13:20+0000\n"
+"POT-Creation-Date: 2020-08-09 13:18+0000\n"
 "PO-Revision-Date: 2019-09-12 18:39+0000\n"
 "Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
 "Language-Team: Georgian (http://www.transifex.com/endless-os/gdm/language/ka/)\n"
