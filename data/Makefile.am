@@ -25,9 +25,6 @@ PreSession: $(srcdir)/PreSession.in
 PostSession: $(srcdir)/PostSession.in
 	sed	-e 's,[@]X_PATH[@],$(X_PATH),g' \
 		<$(srcdir)/PostSession.in >PostSession
-PostLogin: $(srcdir)/PostLogin.in
-	sed	-e 's,[@]LIBEXECDIR[@],$(libexecdir),g' \
-		<$(srcdir)/PostLogin.in >PostLogin
 
 gdm.conf-custom: $(srcdir)/gdm.conf-custom.in
 	sed	-e 's,[@]GDM_DEFAULTS_CONF[@],$(GDM_DEFAULTS_CONF),g' \
@@ -176,7 +173,7 @@ EXTRA_DIST +=			\
 	Init.in 		\
 	PreSession.in 		\
 	PostSession.in 		\
-	PostLogin.in 		\
+	PostLogin 		\
 	$(NULL)
 
 CLEANFILES = 				\
@@ -188,7 +185,6 @@ CLEANFILES = 				\
 	Init				\
 	PreSession			\
 	PostSession			\
-	PostLogin			\
 	greeter-dconf-defaults		\
 	$(NULL)
 
@@ -237,7 +233,7 @@ uninstall-hook:
 	$(DESTDIR)$(GDM_CUSTOM_CONF) \
 	$(DESTDIR)$(gdmconfdir)/Xsession \
 	$(DESTDIR)$(initdir)/Default \
-	$(DESTDIR)$(postlogindir)/Default \
+	$(DESTDIR)$(postlogindir)/Default.sample \
 	$(DESTDIR)$(predir)/Default \
 	$(DESTDIR)$(postdir)/Default \
 	$(DESTDIR)$(sysconfdir)/dconf/db/gdm \
@@ -247,7 +243,7 @@ uninstall-hook:
 	$(DESTDIR)$(xauthdir) \
 	$(DESTDIR)$(PAM_PREFIX)/pam.d
 
-install-data-hook: gdm.conf-custom $(Xsession_files) Init PostSession PreSession PostLogin
+install-data-hook: gdm.conf-custom $(Xsession_files) Init PostSession PreSession
 	if test '!' -d $(DESTDIR)$(gdmconfdir); then \
 		$(mkinstalldirs) $(DESTDIR)$(gdmconfdir); \
 		chmod 755 $(DESTDIR)$(gdmconfdir); \
@@ -274,10 +270,7 @@ endif
 		$(mkinstalldirs) $(DESTDIR)$(postlogindir); \
 		chmod 755 $(DESTDIR)$(postlogindir); \
 	fi
-	-if test -f $(DESTDIR)$(postlogindir)/Default; then \
-		cp -f $(DESTDIR)$(postlogindir)/Default $(DESTDIR)$(postlogindir)/Default.orig; \
-	fi
-	$(INSTALL_SCRIPT) PostLogin $(DESTDIR)$(postlogindir)/Default
+	$(INSTALL_SCRIPT) $(srcdir)/PostLogin $(DESTDIR)$(postlogindir)/Default.sample
 
 	if test '!' -d $(DESTDIR)$(predir); then \
 		$(mkinstalldirs) $(DESTDIR)$(predir); \

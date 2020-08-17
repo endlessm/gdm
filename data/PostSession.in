@@ -9,14 +9,4 @@ if [ ${USERNAME} = "shared" ]; then
   rm -fr /home/shared/.local/share/Trash
 fi
 
-DEMO_MODE_STAMP=/run/gnome-initial-setup/eos-demo-mode
-
-if [ -f ${DEMO_MODE_STAMP} ] && [ $(grep -E "^${USERNAME}$" ${DEMO_MODE_STAMP}) ] ; then
-  rm -fr $HOME
-  # We need to re-create the home directory again otherwise
-  # GDM will attempt to write files to it and fail
-  mkdir -p $HOME
-  chown -R $USERNAME:$GROUP $HOME
-fi
-
 exit 0
