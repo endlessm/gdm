@@ -1,0 +1,8 @@
+#! /bin/sh
+set -e
+
+if [ -d /var/lib/gdm3 ]; then
+  dconf compile '/var/lib/gdm3/greeter-dconf-defaults' '/usr/share/gdm/dconf'
+fi
+
+pkill --signal 'HUP' --uid 'Debian-gdm' 'dconf-service' || true
