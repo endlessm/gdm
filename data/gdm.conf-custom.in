@@ -3,8 +3,9 @@
 # See /usr/share/gdm/gdm.schemas for a list of available options.
 
 [daemon]
-# Uncomment the line below to force the login screen to use Xorg
-#WaylandEnable=false
+# We change the default value to 'false' on EOS.
+# Uncomment the line below to force the login screen to use Wayland
+#WaylandEnable=true
 
 # Enabling automatic login
 #  AutomaticLoginEnable = true
