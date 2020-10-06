@@ -55,7 +55,7 @@
     <schema>
       <key>daemon/WaylandEnable</key>
       <signature>b</signature>
-      <default>true</default>
+      <default>false</default>
     </schema>
     <schema>
       <key>security/AllowRemoteAutoLogin</key>
