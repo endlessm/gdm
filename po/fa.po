@@ -17,9 +17,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-11 10:58+0000\n"
-"PO-Revision-Date: 2019-09-12 18:45+0000\n"
-"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"POT-Creation-Date: 2020-10-18 10:57+0000\n"
+"PO-Revision-Date: 2020-10-13 18:54+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessos.org>\n"
 "Language-Team: Persian (http://www.transifex.com/endless-os/gdm/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,7 +62,7 @@ msgstr "XMDCP: ناتوان در تجزیهٔ نشانی"
 #: common/gdm-common.c:307
 #, c-format
 msgid "/dev/urandom is not a character device"
-msgstr "دستگاه dev/urandom/ یک دستگاه نویسه‌ای نیست"
+msgstr "پروندهٔ ‪/dev/urandom‬ یک دستگاه نویسه‌ای نیست"
 
 #: common/gdm-common.c:501 libgdm/gdm-user-switching.c:207
 msgid "Could not identify the current session: "
@@ -71,19 +71,19 @@ msgstr "شناسایی نشست جاری ممکن نبود:"
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
 #, c-format
 msgid "Could not identify the current seat."
-msgstr "شناسایی نشست جاری ممکن نبود."
+msgstr "شناسایی مقر جاری ممکن نبود."
 
 #: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr "سیستم قادر به تشخیص اینکه باید به صفحه‌ی ورود به سیستم فعلی انتقال پیدا کند یا یک صفحه‌ی ورود به سیستم جدید ایجاد کند نبود."
+msgstr "سامانه قادر به تشخیص اینکه باید به صفحهٔ ورود به سامانه فعلی انتقال پیدا کند یا یک صفحهٔ ورود به سامانه جدید ایجاد کند نبود."
 
 #: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
 #, c-format
 msgid "The system is unable to start up a new login screen."
-msgstr "سیستم قادر به راه‌اندازی یک صفحه‌ی جدید ورود به سیستم نبود."
+msgstr "سامانه قادر به راه‌اندازی یک صفحهٔ جدید ورود به سامانه نبود."
 
 #: daemon/gdm-display-access-file.c:298
 #, c-format

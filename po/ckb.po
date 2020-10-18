@@ -1,21 +1,22 @@
-# Kurdish Sorani translation for gdm.
-# Copyright (C) 2020 gdm's COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gdm package.
-# jwtiyar <jwtiyar@gmail.com>, 2020.
-#
+# 
+# Translators:
+# Jwtiyar Nariman <jwtiyar@gmail.com>, 2020
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2020-01-13 08:35+0000\n"
-"PO-Revision-Date: 2020-01-17 01:49+0300\n"
-"Language-Team: Kurdish Sorani <ckb@li.org>\n"
-"Language: ckb\n"
+"Project-Id-Version: gdm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-18 10:57+0000\n"
+"PO-Revision-Date: 2020-10-13 18:54+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessos.org>\n"
+"Language-Team: Central Kurdish (http://www.transifex.com/endless-os/gdm/language/ckb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Jwtiyar Nariman <jwtiyar@gmail.com>\n"
-"X-Generator: Poedit 2.2.4\n"
+"Language: ckb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -50,6 +51,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr ""
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr ""
 
@@ -58,16 +60,19 @@ msgid "Could not identify the current session: "
 msgstr ""
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr ""
 
 #: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
+#, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr ""
 
 #: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
+#, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "سیستەم نەیتوانی رووپەری چوونەژورەوەیەکی تر دەسپێبکاتەوە."
 
@@ -78,72 +83,72 @@ msgstr "نەوانرا بەکارهێنرەر “%s” لە سیستەم بدۆ�
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
 msgstr ""
 
-#: daemon/gdm-manager.c:763
+#: daemon/gdm-manager.c:764
 msgid "No display available"
 msgstr "هیچ پیشاندەرێک بەردەست نیە"
 
-#: daemon/gdm-manager.c:861 daemon/gdm-manager.c:1145
+#: daemon/gdm-manager.c:862 daemon/gdm-manager.c:1146
 msgid "No session available"
 msgstr "هیچ دانیشتنێک بەردەست نیە"
 
-#: daemon/gdm-manager.c:880
+#: daemon/gdm-manager.c:881
 msgid "Chooser session unavailable"
 msgstr "دیاریکەری دانیشتن بەردەست نیە"
 
-#: daemon/gdm-manager.c:896
+#: daemon/gdm-manager.c:897
 msgid "Can only be called before user is logged in"
 msgstr ""
 
-#: daemon/gdm-manager.c:907
+#: daemon/gdm-manager.c:908
 msgid "Caller not GDM"
 msgstr ""
 
-#: daemon/gdm-manager.c:917
+#: daemon/gdm-manager.c:918
 msgid "Unable to open private communication channel"
 msgstr ""
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:385
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr ""
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:396 daemon/gdm-server.c:416
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr ""
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:402
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr ""
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:408
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr ""
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:486
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr ""
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:507 daemon/gdm-server.c:513 daemon/gdm-server.c:519
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "هەڵە ڕوویدا لە گۆڕینی ناوی پەڕگەی \"%s\" بۆ \"%s\": %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:539
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr ""
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:691
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr ""
@@ -176,23 +181,32 @@ msgstr "ئامێری پیشاندان"
 msgid "Could not create authentication helper process"
 msgstr ""
 
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid "Your account was given a time limit that’s now passed."
 msgstr "هەژمارێک سنووری کاتێکی بۆ دانرابوو ئێستا تەواو بووە."
 
-#: daemon/gdm-session-worker.c:763
+#: daemon/gdm-session-worker.c:765
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "ببورە، ئەوە کاری نەکرد. دووبارە هەوڵبدەرەوە."
 
-#: daemon/gdm-session-worker.c:1167
+#: daemon/gdm-session-worker.c:1169
 msgid "Username:"
 msgstr "ناوی بەکارهێنەر:"
 
-#: daemon/gdm-session-worker.c:1669 daemon/gdm-session-worker.c:1686
+#: daemon/gdm-session-worker.c:1309
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1310
+msgid "Password reminder:"
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1628 daemon/gdm-session-worker.c:1645
+#, c-format
 msgid "no user account available"
 msgstr "هیچ هەژمارێک بەردەست نیە"
 
-#: daemon/gdm-session-worker.c:1713
+#: daemon/gdm-session-worker.c:1672
 msgid "Unable to change to user"
 msgstr "نەتوانرا بگۆڕدرێت بۆ بەکارهێنەر"
 
@@ -204,15 +218,15 @@ msgstr ""
 msgid "Could not create socket!"
 msgstr ""
 
-#: daemon/gdm-x-session.c:858
+#: daemon/gdm-x-session.c:859
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr ""
 
-#: daemon/gdm-x-session.c:859
+#: daemon/gdm-x-session.c:860
 msgid "Listen on TCP socket"
 msgstr ""
 
-#: daemon/gdm-x-session.c:871
+#: daemon/gdm-x-session.c:872
 msgid "GNOME Display Manager X Session Launcher"
 msgstr ""
 
@@ -329,8 +343,8 @@ msgstr "لیستی بەکارهێنەر پیشان مەدە"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr ""
 
 #: data/org.gnome.login-screen.gschema.xml:66
@@ -354,7 +368,8 @@ msgid "Disable showing the restart buttons"
 msgstr ""
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr ""
 
 #: data/org.gnome.login-screen.gschema.xml:93

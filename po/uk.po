@@ -7,6 +7,7 @@
 # Данило Коростіль <ted.korostiled@gmail.com>, 2011-2012
 # Oleksandr Kovalenko <alx.kovalenko@gmail.com>, 2009
 # Данило Коростіль <ted.korostiled@gmail.com>, 2012
+# vikaig <vikaig99@gmail.com>, 2019
 # wanderlust <wanderlust@ukr.net>, 2009
 # Wanderlust <wanderlust@ukr.net>, 2009
 # Yuri Syrota <rasta@renome.rovno.ua>, 1999
@@ -14,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-11 10:58+0000\n"
-"PO-Revision-Date: 2019-09-12 18:39+0000\n"
-"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"POT-Creation-Date: 2020-10-18 10:57+0000\n"
+"PO-Revision-Date: 2020-10-13 18:54+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessos.org>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/endless-os/gdm/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,15 +27,15 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "_Оновити"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "_Скасувати"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "_Підключитися"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"
@@ -63,7 +64,7 @@ msgstr "/dev/urandom не є символьним пристроєм"
 
 #: common/gdm-common.c:501 libgdm/gdm-user-switching.c:207
 msgid "Could not identify the current session: "
-msgstr ""
+msgstr "Неможливо розпізнати поточний сеанс: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
 #, c-format
@@ -75,7 +76,7 @@ msgstr "Неможливо розпізнати поточне місце."
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr "Система не може визначити, чи перемкнутись на наявний вхідний екран чи запустити новий. "
+msgstr "Система не може визначити, чи перемкнутись на наявний вхідний екран чи запустити новий."
 
 #: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
 #, c-format
@@ -85,7 +86,7 @@ msgstr "Система не може запустити новий вхідни�
 #: daemon/gdm-display-access-file.c:298
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "неможливо знайти користувача «%s» у системі"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
@@ -105,7 +106,7 @@ msgstr "Немає доступного сеансу"
 
 #: daemon/gdm-manager.c:881
 msgid "Chooser session unavailable"
-msgstr ""
+msgstr "Сеанс вибору недоступний"
 
 #: daemon/gdm-manager.c:897
 msgid "Can only be called before user is logged in"
@@ -122,12 +123,12 @@ msgstr "Неможливо відкрити закритий канал зв'я�
 #: daemon/gdm-server.c:385
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
+msgstr "Сервер запущено користувачем %s, але цього користувача не існує"
 
 #: daemon/gdm-server.c:396 daemon/gdm-server.c:416
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr ""
+msgstr "Не вдалось встановити groupid для %d"
 
 #: daemon/gdm-server.c:402
 #, c-format
@@ -137,7 +138,7 @@ msgstr "Помилка initgroups() для %s"
 #: daemon/gdm-server.c:408
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr ""
+msgstr "Не вдалось встановити userid для %d"
 
 #: daemon/gdm-server.c:486
 #, c-format
@@ -152,7 +153,7 @@ msgstr "%s: помилка налаштування %s для %s"
 #: daemon/gdm-server.c:539
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr ""
+msgstr "%s: Пріоритет сервера неможливо вказати для %d: %s"
 
 #: daemon/gdm-server.c:691
 #, c-format
@@ -189,11 +190,11 @@ msgstr "Неможливо створити дію з помічника роз�
 
 #: daemon/gdm-session-worker.c:758
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
+msgstr "Ваш обліковий запис має часове обмеження, яке вже вичерпано."
 
 #: daemon/gdm-session-worker.c:765
 msgid "Sorry, that didn’t work. Please try again."
-msgstr ""
+msgstr "Вибачте, це не працює. Спробуйте ще."
 
 #: daemon/gdm-session-worker.c:1169
 msgid "Username:"
@@ -254,7 +255,7 @@ msgstr "Не вдалося створити LogDir %s: %s"
 #: daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
+msgstr "Не знайдено користувача GDM «%s». Скасування!"
 
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
@@ -263,7 +264,7 @@ msgstr "Користувачем GDM не може бути root. Скасува
 #: daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr ""
+msgstr "Не знайдено групу GDM «%s». Скасування!"
 
 #: daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -294,7 +295,7 @@ msgstr "Лише адміністратор (root) може запускати G
 #. of starting up a session
 #: daemon/session-worker-main.c:119
 msgid "GNOME Display Manager Session Worker"
-msgstr "Менеджер роботи стільничого сеансу GNOME"
+msgstr "Менеджер роботи стільничного сеансу GNOME"
 
 #: data/org.gnome.login-screen.gschema.xml:6
 msgid "Whether or not to allow fingerprint readers for login"
@@ -390,11 +391,11 @@ msgstr "Кількість разів, які дозволяють корист�
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
-msgstr "Неможливо створити змінний екран:"
+msgstr "Неможливо створити змінний екран: "
 
 #: libgdm/gdm-user-switching.c:90
 msgid "Unable to activate session: "
-msgstr "Неможливо ввімкнути сеанс:"
+msgstr "Неможливо ввімкнути сеанс: "
 
 #: utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
@@ -420,7 +421,7 @@ msgstr "Версія цієї програми"
 #. Option parsing
 #: utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr ""
+msgstr "— Новий вхід GDM"
 
 #: utils/gdm-screenshot.c:212
 msgid "Screenshot taken"

@@ -8,14 +8,15 @@
 # Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2008,2010
 # Jing-Jong Shyue <shyue@sonoma.com.tw>, 2000
 # Kevin Kee <kevin@oaka.org>, 2004
+# byStarTW (pan93412) <pan93412@gmail.com>, 2019
 # S.J. Luo <crystal@mickey.ee.nctu.edu.tw>, 1999
 # Wei-Lun Chao <chaoweilun@gmail.com>, 2010
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-11 10:58+0000\n"
-"PO-Revision-Date: 2019-10-05 21:04+0000\n"
+"POT-Creation-Date: 2020-10-18 10:57+0000\n"
+"PO-Revision-Date: 2020-10-13 18:55+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessos.org>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/endless-os/gdm/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -63,7 +64,7 @@ msgstr "/dev/urandom 不是字元裝置"
 
 #: common/gdm-common.c:501 libgdm/gdm-user-switching.c:207
 msgid "Could not identify the current session: "
-msgstr "無法辨明當前對話："
+msgstr "無法識別目前的工作階段："
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
 #, c-format
@@ -420,7 +421,7 @@ msgstr "這個程式的版本"
 #. Option parsing
 #: utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr "- 新的 GDM 登入"
+msgstr "— 新的 GDM 登入"
 
 #: utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
