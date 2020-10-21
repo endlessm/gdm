@@ -1,0 +1,2 @@
+# Eanble Wayland if there is the DRM
+SUBSYSTEM=="graphics", KERNEL=="fb0", ATTR{name}!="simple", RUN+="/usr/lib/gdm3/gdm-disable-wayland FALSE"
