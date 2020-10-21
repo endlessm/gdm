@@ -1,35 +1,33 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Simplified Chinese translation of gdm.
+# Copyright (C) 2000-2019 gdm'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gdm package.
-# 
-# Translators:
-# Aron Xu <happyaron.xu@gmail.com>, 2010-2011
-# Cheng Lu <chenglu1990@gmail.com>, 2012
-# 759b81c7bb2252a11f36c89344f31007, 2017
-# 5c1f498cdfcd3e8829513039a952cd0d, 2018
-# Fan Qijiang <fqj1994@linux.com>, 2010
-# Funda Wang <fundawang@linux.net.cn>, 2003-2004
-# Lele Long <schemacs@gmail.com>, 2011
-# Tao Wei <weitao1979@gmail.com>, 2009
-# Dianjin Wang <1132321739qq@gmail.com>, 2013
 # Wang Li <charles@linux.net.cn>, 2002
-# Wei Li <lw124124@gmail.com>, 2011
-# YunQiang Su <wzssyqa@gmail.com>, 2011-2013
-# zhifeng peng <jnufeng@126.com>, 2016
-# 甘 露 <rhythm.gan@gmail.com>, 2008-2009
+# Funda Wang <fundawang@linux.net.cn>, 2003, 2004
+# 甘露(Gan Lu) <rhythm.gan@gmail.com>, 2008, 2009
+# Tao Wei <weitao1979@gmail.com>, 2009.
+# Aron Xu <happyaron.xu@gmail.com>, 2010, 2011.
+# Fan Qijiang <fqj1994@linux.com>, 2010.
+# Wei Li <lw124124@gmail.com>, 2011.
+# Lele Long <schemacs@gmail.com>, 2011.
+# Cheng Lu <chenglu1990@gmail.com>, 2012.
+# YunQiang Su <wzssyqa@gmail.com>, 2011, 2012, 2013.
+# tuhaihe <1132321739qq@gmail.com>, 2013.
+# Dingzhong Chen <wsxy162@gmail.com>, 2019.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-11 10:58+0000\n"
-"PO-Revision-Date: 2019-09-12 18:39+0000\n"
-"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/endless-os/gdm/language/zh_CN/)\n"
+"Project-Id-Version: gdm master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
+"POT-Creation-Date: 2019-08-05 22:13+0000\n"
+"PO-Revision-Date: 2019-09-10 01:24+0800\n"
+"Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
+"Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 3.32.1\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -64,28 +62,25 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XMDCP：无法解析地址"
 
 #: common/gdm-common.c:307
-#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom 不是字符设备"
 
 #: common/gdm-common.c:501 libgdm/gdm-user-switching.c:207
+#| msgid "Could not identify the current session."
 msgid "Could not identify the current session: "
-msgstr ""
+msgstr "无法识别当前会话："
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
-#, c-format
 msgid "Could not identify the current seat."
 msgstr "无法识别当前位置。"
 
 #: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
-#, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
 msgstr "系统无法确定是否应当切换到一个已经登录的屏幕还是启动一个新登录屏幕。"
 
 #: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
-#, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "系统无法启动新登录屏幕。"
 
@@ -96,72 +91,74 @@ msgstr "无法在系统中找到用户“%s”"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal"
-" error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM"
-" when the problem is corrected."
-msgstr "由于内部错误无法启动 X 服务器(您的图形界面)。请与系统管理员联系或检查系统日志以便进行诊断。在此期间该显示将被禁用。请在问题更正以后重新启动 GDM。"
+"Could not start the X server (your graphical environment) due to an internal "
+"error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM "
+"when the problem is corrected."
+msgstr ""
+"由于内部错误无法启动 X 服务器(您的图形界面)。请与系统管理员联系或检查系统日志"
+"以便进行诊断。在此期间该显示将被禁用。请在问题更正以后重新启动 GDM。"
 
-#: daemon/gdm-manager.c:764
+#: daemon/gdm-manager.c:762
 msgid "No display available"
 msgstr "无可用的显示"
 
-#: daemon/gdm-manager.c:862 daemon/gdm-manager.c:1146
+#: daemon/gdm-manager.c:860 daemon/gdm-manager.c:1144
 msgid "No session available"
 msgstr "无可用的会话"
 
-#: daemon/gdm-manager.c:881
+#: daemon/gdm-manager.c:879
 msgid "Chooser session unavailable"
 msgstr "选择器会话不可用"
 
-#: daemon/gdm-manager.c:897
+#: daemon/gdm-manager.c:895
 msgid "Can only be called before user is logged in"
 msgstr "只能在用户登录前被调用"
 
-#: daemon/gdm-manager.c:908
+#: daemon/gdm-manager.c:906
 msgid "Caller not GDM"
 msgstr "调用者不是 GDM"
 
-#: daemon/gdm-manager.c:918
+#: daemon/gdm-manager.c:916
 msgid "Unable to open private communication channel"
 msgstr "无法打开专用通信通道"
 
-#: daemon/gdm-server.c:385
+#: daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr "服务器是以用户 %s 身份创建的，但此用户不存在"
 
-#: daemon/gdm-server.c:396 daemon/gdm-server.c:416
+#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "无法将组 ID 设置为 %d"
 
-#: daemon/gdm-server.c:402
+#: daemon/gdm-server.c:400
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups() 执行 %s 失败"
 
-#: daemon/gdm-server.c:408
+#: daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "无法将用户 ID 设置为 %d"
 
-#: daemon/gdm-server.c:486
+#: daemon/gdm-server.c:484
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s：无法打开显示屏 %s 的日志文件！"
 
-#: daemon/gdm-server.c:507 daemon/gdm-server.c:513 daemon/gdm-server.c:519
+#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s：将 %s 设为 %s 出错"
 
-#: daemon/gdm-server.c:539
+#: daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s：服务器优先级无法设为 %d：%s"
 
-#: daemon/gdm-server.c:691
+#: daemon/gdm-server.c:689
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s：显示画面 %s 的服务器命令为空"
@@ -194,32 +191,23 @@ msgstr "显示设备"
 msgid "Could not create authentication helper process"
 msgstr "无法建立验证助手进程"
 
-#: daemon/gdm-session-worker.c:758
+#: daemon/gdm-session-worker.c:756
 msgid "Your account was given a time limit that’s now passed."
 msgstr "你的帐号设有时间限制，已超过限定时间。"
 
-#: daemon/gdm-session-worker.c:765
+#: daemon/gdm-session-worker.c:763
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "抱歉，登录失败，请再试一次。"
 
-#: daemon/gdm-session-worker.c:1169
+#: daemon/gdm-session-worker.c:1188
 msgid "Username:"
 msgstr "用户名："
 
-#: daemon/gdm-session-worker.c:1309
-msgid "Type a hint or question to help remember your password."
-msgstr "输入一个提示或者问题以帮助记住您的密码。"
-
-#: daemon/gdm-session-worker.c:1310
-msgid "Password reminder:"
-msgstr "密码提示："
-
-#: daemon/gdm-session-worker.c:1628 daemon/gdm-session-worker.c:1645
-#, c-format
+#: daemon/gdm-session-worker.c:1692 daemon/gdm-session-worker.c:1709
 msgid "no user account available"
 msgstr "无可用用户帐户"
 
-#: daemon/gdm-session-worker.c:1672
+#: daemon/gdm-session-worker.c:1736
 msgid "Unable to change to user"
 msgstr "无法切换到用户"
 
@@ -231,15 +219,15 @@ msgstr "GNOME 显示管理器 Wayland 会话启动器"
 msgid "Could not create socket!"
 msgstr "无法创建套接字！"
 
-#: daemon/gdm-x-session.c:859
+#: daemon/gdm-x-session.c:858
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "通过 /etc/gdm/Xsession 包装脚本运行程序"
 
-#: daemon/gdm-x-session.c:860
+#: daemon/gdm-x-session.c:859
 msgid "Listen on TCP socket"
 msgstr "监听 TCP 套接字"
 
-#: daemon/gdm-x-session.c:872
+#: daemon/gdm-x-session.c:871
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "GNOME 显示管理器 X 会话启动器"
 
@@ -348,7 +336,8 @@ msgstr "登录屏幕可显示一个小图像以允许管理员和发行版展示
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr "备用模式的登录屏幕可显示一个小图像以允许管理员和发行版展示标识（可选）。"
+msgstr ""
+"备用模式的登录屏幕可显示一个小图像以允许管理员和发行版展示标识（可选）。"
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -356,8 +345,8 @@ msgstr "不显示用户列表"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This"
-" setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This "
+"setting can be toggled to disable showing the user list."
 msgstr "登录屏幕通常会显示系统中可以登录的用户列表。这个选项可以禁用此功能。"
 
 #: data/org.gnome.login-screen.gschema.xml:66
@@ -381,8 +370,7 @@ msgid "Disable showing the restart buttons"
 msgstr "禁止显示重启按钮"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid ""
-"Set to true to disable showing the restart buttons in the login window."
+msgid "Set to true to disable showing the restart buttons in the login window."
 msgstr "设置为 true，则禁止在登录窗口显示重启按钮。"
 
 #: data/org.gnome.login-screen.gschema.xml:93
@@ -437,3 +425,12 @@ msgstr "已经截屏"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "截取屏幕"
+
+#~ msgid "Your password has expired, please change it now."
+#~ msgstr "你的密码已过期，请立即修改。"
+
+#~ msgid "GNOME Shell"
+#~ msgstr "GNOME Shell"
+
+#~ msgid "Window management and compositing"
+#~ msgstr "窗口管理与混成"

@@ -1,25 +1,24 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Korean messages for gdm
 # This file is distributed under the same license as the gdm package.
-# 
-# Translators:
-# eukim <eukim@redhat.com>, 2007
-# Seong-ho Cho <darkcircle.0426@gmail.com>, 2011-2012
-# update by ChiDeok, Hwang <hwang@mizi.co.kr>, 2001
-# update by Young-Ho, Cha <ganadist@chollian.net>, 2001,2006
-# Young-Ho Cha <ganadist@chollian.net>, 2002,2006
+# update by Young-Ho, Cha <ganadist@chollian.net>, 2001, 2006.
+# update by ChiDeok, Hwang <hwang@mizi.co.kr>, 2001.
+# Eunju Kim <eukim@redhat.com>, 2007.
+# Changwoo Ryu <cwryu@debian.org>, 1999, 2002, 2004, 2006-2013, 2015-2019.
+#
+# 새로 번역하시는 분은 translator-credit에 추가하세요.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-11 10:58+0000\n"
-"PO-Revision-Date: 2019-09-12 18:42+0000\n"
-"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
-"Language-Team: Korean (http://www.transifex.com/endless-os/gdm/language/ko/)\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
+"POT-Creation-Date: 2019-08-25 16:49+0000\n"
+"PO-Revision-Date: 2019-08-26 19:09+0900\n"
+"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
+"Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
@@ -55,7 +54,6 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: 주소를 파싱할 수 없습니다"
 
 #: common/gdm-common.c:307
-#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom이 캐릭터 장치가 아닙니다"
 
@@ -64,19 +62,18 @@ msgid "Could not identify the current session: "
 msgstr "현재 세션을 구별할 수 없습니다: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
-#, c-format
 msgid "Could not identify the current seat."
 msgstr "현재 자리를 구별할 수 없습니다."
 
 #: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
-#, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr "현재 로그인 화면으로 전환할지 아니면 새 로그인 창을 시작할 지 시스템에서 결정하지 못했습니다."
+msgstr ""
+"현재 로그인 화면으로 전환할지 아니면 새 로그인 창을 시작할 지 시스템에서 결정"
+"하지 못했습니다."
 
 #: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
-#, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "시스템에서 새 로그인 화면을 시작하지 못했습니다."
 
@@ -87,72 +84,75 @@ msgstr "시스템에 “%s” 사용자가 없습니다"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal"
-" error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM"
-" when the problem is corrected."
-msgstr "내부 오류로 인해 X 서버(그래픽 환경)를 시작할 수 없습니다. 진단을 하려면 시스템 관리자에게 연락을 하거나 시스템 기록을 확인하십시오. 이 화면은 곧 사라질것 입니다. 문제가 해결되면 GDM을 다시 시작해 주십시오."
+"Could not start the X server (your graphical environment) due to an internal "
+"error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM "
+"when the problem is corrected."
+msgstr ""
+"내부 오류로 인해 X 서버(그래픽 환경)를 시작할 수 없습니다. 진단을 하려면 시스"
+"템 관리자에게 연락을 하거나 시스템 기록을 확인하십시오. 이 화면은 곧 사라질"
+"것 입니다. 문제가 해결되면 GDM을 다시 시작해 주십시오."
 
-#: daemon/gdm-manager.c:764
+#: daemon/gdm-manager.c:763
 msgid "No display available"
 msgstr "디스플레이가 없습니다"
 
-#: daemon/gdm-manager.c:862 daemon/gdm-manager.c:1146
+#: daemon/gdm-manager.c:861 daemon/gdm-manager.c:1145
 msgid "No session available"
 msgstr "세션이 없습니다"
 
-#: daemon/gdm-manager.c:881
+#: daemon/gdm-manager.c:880
 msgid "Chooser session unavailable"
 msgstr "선택창에 세션이 없습니다"
 
-#: daemon/gdm-manager.c:897
+#: daemon/gdm-manager.c:896
 msgid "Can only be called before user is logged in"
 msgstr "사용자가 로그인하기 전에만 부를 수 있습니다"
 
-#: daemon/gdm-manager.c:908
+#: daemon/gdm-manager.c:907
 msgid "Caller not GDM"
 msgstr "GDM에서 호출하지 않았습니다"
 
-#: daemon/gdm-manager.c:918
+#: daemon/gdm-manager.c:917
 msgid "Unable to open private communication channel"
 msgstr "안전한 통신 채널을 열 수 없습니다"
 
-#: daemon/gdm-server.c:385
+#: daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr "%s 사용자가 서버를 실행했지만 해당 사용자가 없습니다"
 
-#: daemon/gdm-server.c:396 daemon/gdm-server.c:416
+#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "그룹 아이디를 %d(으)로 맞출 수 없습니다"
 
-#: daemon/gdm-server.c:402
+#: daemon/gdm-server.c:400
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "%s에 대해 initgroups () 실패"
 
-#: daemon/gdm-server.c:408
+#: daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "사용자 아이디를 %d(으)로 맞출 수 없습니다"
 
-#: daemon/gdm-server.c:486
+#: daemon/gdm-server.c:484
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: 디스플레이 %s에 대한 기록 파일을 열지 못했습니다!"
 
-#: daemon/gdm-server.c:507 daemon/gdm-server.c:513 daemon/gdm-server.c:519
+#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: %s을(를) %s(으)로 설정하는 데 오류가 발생했습니다"
 
-#: daemon/gdm-server.c:539
+#: daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: server 우선순위를 %d(으)로 설정할 수 없습니다: %s"
 
-#: daemon/gdm-server.c:691
+#: daemon/gdm-server.c:689
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: 화면 %s에 비어있는 서버 명령"
@@ -185,32 +185,23 @@ msgstr "디스플레이 장치"
 msgid "Could not create authentication helper process"
 msgstr "인증 도우미 프로세스를 만들지 못했습니다."
 
-#: daemon/gdm-session-worker.c:758
+#: daemon/gdm-session-worker.c:757
 msgid "Your account was given a time limit that’s now passed."
 msgstr "계정에 시간 제한이 걸려 있었고, 지금 그 제한이 지났습니다."
 
-#: daemon/gdm-session-worker.c:765
+#: daemon/gdm-session-worker.c:764
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "죄송하지만 동작하지 않습니다. 다시 시도하십시오."
 
-#: daemon/gdm-session-worker.c:1169
+#: daemon/gdm-session-worker.c:1191
 msgid "Username:"
 msgstr "사용자 이름:"
 
-#: daemon/gdm-session-worker.c:1309
-msgid "Type a hint or question to help remember your password."
-msgstr ""
-
-#: daemon/gdm-session-worker.c:1310
-msgid "Password reminder:"
-msgstr ""
-
-#: daemon/gdm-session-worker.c:1628 daemon/gdm-session-worker.c:1645
-#, c-format
+#: daemon/gdm-session-worker.c:1695 daemon/gdm-session-worker.c:1712
 msgid "no user account available"
 msgstr "사용자 계정이 없습니다"
 
-#: daemon/gdm-session-worker.c:1672
+#: daemon/gdm-session-worker.c:1739
 msgid "Unable to change to user"
 msgstr "다른 사용자로 바꿀 수 없습니다"
 
@@ -222,15 +213,15 @@ msgstr "그놈 디스플레이 관리자 웨일랜드 세션 실행"
 msgid "Could not create socket!"
 msgstr "소켓을 만들지 못했습니다!"
 
-#: daemon/gdm-x-session.c:859
+#: daemon/gdm-x-session.c:858
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "/etc/gdm/Xsession 래퍼 스크립트를 통해 프로그램을 실행합니다"
 
-#: daemon/gdm-x-session.c:860
+#: daemon/gdm-x-session.c:859
 msgid "Listen on TCP socket"
 msgstr "TCP 소켓 연결을 받습니다"
 
-#: daemon/gdm-x-session.c:872
+#: daemon/gdm-x-session.c:871
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "그놈 디스플레이 관리자 X 세션 실행"
 
@@ -312,7 +303,8 @@ msgstr "로그인에 스마트카드 리더를 허용할지 여부"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr "로그인 화면에서 스마트카드가 있는 사용자는 스마트카드로 로그인을 허용합니다."
+msgstr ""
+"로그인 화면에서 스마트카드가 있는 사용자는 스마트카드로 로그인을 허용합니다."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -322,7 +314,9 @@ msgstr "로그인에 암호를 허용할지 여부"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr "암호 인증을 거부하도록 로그인 화면을 설정할 수 있습니다. 그렇게 하면 사용자는 스마트 카드나 지문 인증을 해야 합니다."
+msgstr ""
+"암호 인증을 거부하도록 로그인 화면을 설정할 수 있습니다. 그렇게 하면 사용자"
+"는 스마트 카드나 지문 인증을 해야 합니다."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -333,13 +327,17 @@ msgstr "사용자 목록 위의 작은 그림에 대한 경로"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr "로그인 화면에서 작은 이미지를 표시해, 시스템 관리자나 운영 체제 배포판 측에서 브랜드를 표시합니다."
+msgstr ""
+"로그인 화면에서 작은 이미지를 표시해, 시스템 관리자나 운영 체제 배포판 측에"
+"서 브랜드를 표시합니다."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr "대체 모드 로그인 화면에서 작은 이미지를 표시해, 시스템 관리자나 운영 체제 배포판 측에서 브랜드를 표시합니다."
+msgstr ""
+"대체 모드 로그인 화면에서 작은 이미지를 표시해, 시스템 관리자나 운영 체제 배"
+"포판 측에서 브랜드를 표시합니다."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -347,9 +345,11 @@ msgstr "사용자 목록 표시하지 않기"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This"
-" setting can be toggled to disable showing the user list."
-msgstr "로그인 화면은 로그인할 수 있는 사용자 목록을 표시합니다. 이 설정을 바꾸면 이 사용자 목록을 표시하지 않습니다."
+"The login screen normally shows a list of available users to log in as. This "
+"setting can be toggled to disable showing the user list."
+msgstr ""
+"로그인 화면은 로그인할 수 있는 사용자 목록을 표시합니다. 이 설정을 바꾸면 이 "
+"사용자 목록을 표시하지 않습니다."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -372,8 +372,7 @@ msgid "Disable showing the restart buttons"
 msgstr "다시 시작 단추를 표시하지 않음"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid ""
-"Set to true to disable showing the restart buttons in the login window."
+msgid "Set to true to disable showing the restart buttons in the login window."
 msgstr "참이면 로그인 창에 다시 시작 단추를 표시하지 않습니다."
 
 #: data/org.gnome.login-screen.gschema.xml:93
@@ -384,7 +383,9 @@ msgstr "허용하는 최대 인증 실패 개수"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr "한 사용자가 인증을 시도하는 게 허용된 최대 횟수. 넘어가면 사용자 선택으로 돌아갑니다."
+msgstr ""
+"한 사용자가 인증을 시도하는 게 허용된 최대 횟수. 넘어가면 사용자 선택으로 돌"
+"아갑니다."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "

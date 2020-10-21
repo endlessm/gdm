@@ -1,29 +1,24 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the gdm package.
-# 
-# Translators:
-# 1. Hasbullah Bin Pit (sebol) <sebol@ikhlas.com>, 2002
-# 2. Khairulanuar Abd Majid (khai) <khairul@ikhlas.com>, 2002
-# abuyop <abuyop@gmail.com>, 2019
-# Khairulanuar Abd Majid <khairul@ikhlas.com>, 2001-2002
+# Bahasa Melayu translation of gdm2.
+# Copyright (C) 1998,1999 Free Software Foundation, Inc.
+# Khairulanuar Abd Majid <khairul@ikhlas.com>, 2001, 2002
+# Hasbullah Bin Pit <sebol@ikhlas.com>,2002.
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-11 10:58+0000\n"
-"PO-Revision-Date: 2019-09-20 14:03+0000\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
+"POT-Creation-Date: 2019-09-18 13:39+0000\n"
+"PO-Revision-Date: 2019-12-08 03:31+0800\n"
 "Last-Translator: abuyop <abuyop@gmail.com>\n"
-"Language-Team: Malay (http://www.transifex.com/endless-os/gdm/language/ms/)\n"
+"Language-Team: Bahasa Melayu <https://l10n.gnome.org/teams/ms/>\n"
+"Language: ms\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ms\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr "S_egar Semula"
+msgstr "_Segar Semula"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
@@ -31,7 +26,7 @@ msgstr "_Batal"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr "_Sambung"
+msgstr "S_ambung"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"
@@ -47,111 +42,114 @@ msgstr "XDMCP: Tidak dapat membaca pengepala XDMCP!"
 
 #: chooser/gdm-host-chooser-widget.c:265
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XDMCP: Silap versi untuk XDMCP!"
+msgstr "XDMCP: Versi untuk XDMCP salah!"
 
 #: chooser/gdm-host-chooser-widget.c:271
 msgid "XDMCP: Unable to parse address"
-msgstr "XDMCP: Tidak dapat menghurai alamat"
+msgstr "XDMCP: Tidak boleh menghurai alamat"
 
 #: common/gdm-common.c:307
-#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom bukan peranti aksara"
 
 #: common/gdm-common.c:501 libgdm/gdm-user-switching.c:207
 msgid "Could not identify the current session: "
-msgstr "Tidak dapat mengenalpasti sesi semasa:"
+msgstr "Tidak dapat mengenal pasti sesi semasa: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
-#, c-format
 msgid "Could not identify the current seat."
-msgstr "Tidak dapat mengenalpasti kedudukan semasa."
+msgstr "Tidak dapat mengenal pasti tempat semasa."
 
 #: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
-#, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr "Sistem tidak dapat menentukan sama ada untuk  menukar skrin daftar masuk sedia ada atau memulakan skrin daftar masuk yang baharu."
+msgstr ""
+"Sistem tidak boleh menentukan sama ada mahu menukar satu skrin daftar masuk "
+"sedia ada atau memulakan satu skrin daftar masuk baharu."
 
 #: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
-#, c-format
 msgid "The system is unable to start up a new login screen."
-msgstr "Sistem tidak dapat menulakan skrin daftar masuk yang baharu."
+msgstr "Sistem tidak boleh memulakan satu skrin daftar masuk baharu."
 
 #: daemon/gdm-display-access-file.c:298
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr "tidak menemui pengguna  \"%s\" pada sistem"
+msgstr "tidak dapat cari pengguna \"%s\" dalam sistem"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal"
-" error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM"
-" when the problem is corrected."
-msgstr "Tidak dapat memulakan pelayan X (suasana grafik anda) oleh kerana masalah dalaman. Sila hubungi pentadbir sistem anda atau periksa syslog untuk mendiagnos. Paparan ini akan dilumpuhkan buat sementara waktu.  Sila mulakan semula GDM apabila masalah ini telah diselesaikan."
+"Could not start the X server (your graphical environment) due to an internal "
+"error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM "
+"when the problem is corrected."
+msgstr ""
+"Tidak dapat memulakan pelayan X (persekitaran bergrafik anda) disebabkan "
+"satu masalah dalaman. Sila hubungi pentadbir sistem anda atau periksa syslog "
+"untuk mendiagnosis. Paparan ini akan dilumpuhkan buat sementara waktu.  Sila "
+"mulakan semula GDM sekiranya masalah ini telah diselesaikan."
 
-#: daemon/gdm-manager.c:764
+#: daemon/gdm-manager.c:763
 msgid "No display available"
 msgstr "Tiada paparan tersedia"
 
-#: daemon/gdm-manager.c:862 daemon/gdm-manager.c:1146
+#: daemon/gdm-manager.c:861 daemon/gdm-manager.c:1145
 msgid "No session available"
 msgstr "Tiada sesi tersedia"
 
-#: daemon/gdm-manager.c:881
+#: daemon/gdm-manager.c:880
 msgid "Chooser session unavailable"
 msgstr "Sesi pemilih tidak tersedia"
 
-#: daemon/gdm-manager.c:897
+#: daemon/gdm-manager.c:896
 msgid "Can only be called before user is logged in"
 msgstr "Hanya boleh dipanggil sebelum pengguna mendaftar masuk"
 
-#: daemon/gdm-manager.c:908
+#: daemon/gdm-manager.c:907
 msgid "Caller not GDM"
 msgstr "Pemanggil bukan GDM"
 
-#: daemon/gdm-manager.c:918
+#: daemon/gdm-manager.c:917
 msgid "Unable to open private communication channel"
-msgstr "Tidak boleh buka saluran komunikasi persendirian"
+msgstr "Tidak boleh membuka saluran komunikasi persendirian"
 
-#: daemon/gdm-server.c:385
+#: daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr "Pelayan telah dimulakan oleh pengguna %s tetapi pengguna tersebut tidak wujud"
+msgstr ""
+"Pelayan telah dibiak oleh pengguna %s tetapi pengguna tersebut tidak wujud"
 
-#: daemon/gdm-server.c:396 daemon/gdm-server.c:416
+#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
 #, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr "Gagal menetapkan id kumpulan kepada %d"
+msgstr "Tidak dapat tetapkan groupid untuk %d"
 
-#: daemon/gdm-server.c:402
+#: daemon/gdm-server.c:400
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups () gagal untuk kali ke-%s"
 
-#: daemon/gdm-server.c:408
+#: daemon/gdm-server.c:406
 #, c-format
 msgid "Couldn’t set userid to %d"
-msgstr "Tidak dapat tetapkan id pengguna kepada %d"
+msgstr "Tidak dapat tetapkan userid untuk %d"
 
-#: daemon/gdm-server.c:486
+#: daemon/gdm-server.c:484
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: Tidak dapat membuka fail log paparan %s!"
 
-#: daemon/gdm-server.c:507 daemon/gdm-server.c:513 daemon/gdm-server.c:519
+#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
 #, c-format
 msgid "%s: Error setting %s to %s"
-msgstr "%s: Ralat menetapkan  %s ke %s"
+msgstr "%s: Ralat menetapkan %s ke %s"
 
-#: daemon/gdm-server.c:539
+#: daemon/gdm-server.c:537
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr "%s: Keutamaan pelayan tidak ditetapkan ke %d: %s"
+msgstr "%s: Keutamaan pelayan tidak dapat tetapkan pada %d: %s"
 
-#: daemon/gdm-server.c:691
+#: daemon/gdm-server.c:689
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Perintah pelayan kosong bagi paparan %s"
@@ -166,7 +164,7 @@ msgstr "Nama pengguna"
 
 #: daemon/gdm-session-auditor.c:93
 msgid "Hostname"
-msgstr "Nama hos"
+msgstr "Nama Hos"
 
 #: daemon/gdm-session-auditor.c:94
 msgid "The hostname"
@@ -184,59 +182,51 @@ msgstr "Peranti paparan"
 msgid "Could not create authentication helper process"
 msgstr "Tidak dapat mencipta proses pembantu pengesahihan"
 
-#: daemon/gdm-session-worker.c:758
+#: daemon/gdm-session-worker.c:757
 msgid "Your account was given a time limit that’s now passed."
-msgstr "Akaun anda telah ditentukan had masa yang kini telah dijedakan."
+msgstr "Akaun anda telah diberi had masa yang kini telah berlalu."
 
-#: daemon/gdm-session-worker.c:765
+#: daemon/gdm-session-worker.c:764
 msgid "Sorry, that didn’t work. Please try again."
-msgstr "Maaf, nampaknya tidak berjaya. Cuba sekali lagi."
+msgstr "Maaf, tidak berjaya. Cuba sekali lagi."
 
-#: daemon/gdm-session-worker.c:1169
+#: daemon/gdm-session-worker.c:1189
 msgid "Username:"
 msgstr "Nama Pengguna:"
 
-#: daemon/gdm-session-worker.c:1309
-msgid "Type a hint or question to help remember your password."
-msgstr "Taip satu pembayang atau soalan yang dapat membantu anda mengingati kata laluan anda."
-
-#: daemon/gdm-session-worker.c:1310
-msgid "Password reminder:"
-msgstr "Peringatan kata laluan:"
-
-#: daemon/gdm-session-worker.c:1628 daemon/gdm-session-worker.c:1645
-#, c-format
+#: daemon/gdm-session-worker.c:1693 daemon/gdm-session-worker.c:1710
 msgid "no user account available"
 msgstr "tiada akaun yang tersedia"
 
-#: daemon/gdm-session-worker.c:1672
+#: daemon/gdm-session-worker.c:1737
 msgid "Unable to change to user"
-msgstr "Tidak dapat menukar pengguna"
+msgstr "Tidak boleh menukar ke pengguna"
 
 #: daemon/gdm-wayland-session.c:511
 msgid "GNOME Display Manager Wayland Session Launcher"
-msgstr "Pelayan Sesi Wayland Pengurus Paparan GNOME"
+msgstr "Pelancar Sesi Wayland Pengurus Paparan GNOME"
 
 #: daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
 msgstr "Tidak dapat mencipta soket!"
 
-#: daemon/gdm-x-session.c:859
+#: daemon/gdm-x-session.c:858
 msgid "Run program through /etc/gdm/Xsession wrapper script"
-msgstr "Jalankan program melalui skrin pembalut /etc/gdm/Xsession"
+msgstr "Jalan program melalui skrip pembalut /etc/gdm/Xsession"
 
-#: daemon/gdm-x-session.c:860
+#: daemon/gdm-x-session.c:859
 msgid "Listen on TCP socket"
-msgstr "Dengar pada soket TCP:"
+msgstr "Dengar pada soket TCP"
 
-#: daemon/gdm-x-session.c:872
+#: daemon/gdm-x-session.c:871
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "Pelancar Sesi X Pengurus Paparan GNOME"
 
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr "Tidak dapat mewujudkan fail PID %s: mungkin telah kehabisan ruang cakera: %s"
+msgstr ""
+"Tidak dapat menulis fail PID %s: mungkin telah kehabisan ruang cakera: %s"
 
 #: daemon/main.c:182
 #, c-format
@@ -246,25 +236,25 @@ msgstr "Gagal mencipta penanda direktori yang dijalankan sekali sahaja %s: %s"
 #: daemon/main.c:188
 #, c-format
 msgid "Failed to create LogDir %s: %s"
-msgstr "Gagal untuk mewujudkan LogDir %s: %s"
+msgstr "Gagal untuk mencipta LogDir %s: %s"
 
 #: daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr "Gagal mencari pengguna GDM \"%s\". Dihenti paksa!"
+msgstr "Tidak dapat mencari pengguna GDM \"%s\". Dihenti paksa!"
 
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
-msgstr "Pengguna GDM tidak boleh dalam mod root. Dihenti paksa!"
+msgstr "Pengguna GDM tidak boleh mendaftar masuk sebagai root. Dihenti paksa!"
 
 #: daemon/main.c:235
 #, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr "Tidak dapat cari kumpulan GDM \"%s\". Dihenti paksa!"
+msgstr "Tidak dapat mencari kumpulan GDM \"%s\". Dihenti paksa!"
 
 #: daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
-msgstr "Kumpulan GDM tidak boleh dalam mod root. Dihenti paksa!"
+msgstr "Kumpulan GDM tidak sepatutnya dalam mod root. Dihenti paksa!"
 
 #: daemon/main.c:317
 msgid "Make all warnings fatal"
@@ -272,7 +262,7 @@ msgstr "Jadikan semua amaran ke tahap mati"
 
 #: daemon/main.c:318
 msgid "Exit after a time (for debugging)"
-msgstr "Keluar buat seketika (untuk menyahpepijat)"
+msgstr "Keluar selepas seketika (untuk penyahpepijatan)"
 
 #: daemon/main.c:319
 msgid "Print GDM version"
@@ -295,68 +285,89 @@ msgstr "Pekerja Sesi Pengurus Paparan GNOME"
 
 #: data/org.gnome.login-screen.gschema.xml:6
 msgid "Whether or not to allow fingerprint readers for login"
-msgstr "Pilih untuk membenarkan pembaca cap jari untuk mendaftar masuk atau tidak"
+msgstr ""
+"Sama ada mahu atau tidak untuk membenarkan pembaca cap jari ketika daftar "
+"masuk"
 
 #: data/org.gnome.login-screen.gschema.xml:9
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr "Para pengguna yang telah mendaftarkan cap jari mereka boleh memilih untuk mendaftar masuk melalui cap jari."
+msgstr ""
+"Skrin daftar masuk secara pilihan boleh membenarkan para pengguna mengecap "
+"jari untuk mendaftar masuk dengannya"
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
-msgstr "Pilih untuk membenarkan pembaca kad pintar untuk mendaftar masuk atau tidak"
+msgstr ""
+"Sama ada mahu atau tidak untuk membenarkan pembaca kad pintar ketika "
+"mendaftar masuk"
 
 #: data/org.gnome.login-screen.gschema.xml:19
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr "Skrin daftar masuk boleh benarkan para pengguna yang memiliki kad pintar mendaftar masuk dengan kad pintar tersebut."
+msgstr ""
+"Skrin daftar masuk secara pilihan membenarkan pengguna mendaftar masuk "
+"menggunakan kad pintar jika ada."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
-msgstr "Pilih untuk membolehkan kata laluan digunakan untuk mendaftar masuk atau tidak"
+msgstr ""
+"Sama ada mahu atau tidak untuk membenarkan penggunaan kata laluan ketika "
+"mendaftar masuk"
 
 #: data/org.gnome.login-screen.gschema.xml:29
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr "Skrin daftar masuk boleh dikonfigurasikan untuk menghalang pengesahihan kata laluan, sekaligus memaksa pengguna untuk menggunakan kad pintar atau pengesahihan cap jari."
+msgstr ""
+"Skrin daftar masuk boleh dikonfigur untuk tidak membenarkan pengesahihan "
+"kata laluan, sekaligus memaksa penggunaan kad pintar atau pengesahihan cap "
+"jari."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
 msgid "Path to small image at top of user list"
-msgstr "Laluan ke imej kecil di bahagian atas senarai pengguna"
+msgstr "Laluan imej kecil di bahagian atas senarai pengguna"
 
 #: data/org.gnome.login-screen.gschema.xml:39
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr "Skrin daftar masuk boleh tunjukkan imej kecil secara pilihan sebagai satu cara pemaparan jenama untuk pentadbir laman dan distribusi."
+msgstr ""
+"Skrin daftar masuk secara pilihan boleh menunjukkan satu imej kecil yang "
+"merupakan satu cara pentadbir dan pengedar tapak memaparkan jenama."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr "Skrin daftar masuk yang jatuh-balik boleh tunjukkan satu imej kecil secara pilihan sebagai satu cara pemaparan jenama bagi pentadbir laman dan distribusi."
+msgstr ""
+"Skrin daftar masuk jatuh balik secara pilihan boleh menunjukkan satu imej "
+"kecil yang merupakan satu cara pentadbir dan pengedar tapak memaparkan "
+"jenama."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
-msgstr "Jangan tunjuk senarai pengguna"
+msgstr "Hindari menunjukkan senarai pengguna"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This"
-" setting can be toggled to disable showing the user list."
-msgstr "Skrin daftar masuk biasanya akan menunjukkan satu senarai pengguna yang ada untuk digunakan ketika mendaftar masuk. Tetapan ini boleh ditogol supaya dapat lumpuhkan senarai pengguna tersebut."
+"The login screen normally shows a list of available users to log in as. This "
+"setting can be toggled to disable showing the user list."
+msgstr ""
+"Skrin daftar masuk biasanya memaparkan satu senarai pengguna ketika "
+"mendaftar masuk. Tetapan ini boleh ditogol untuk melumpuhkan senarai "
+"pengguna tersebut."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
-msgstr "Benarkan pemaparan mesej sepanduk"
+msgstr "Benarkan mesej sepanduk ditunjukkan"
 
 #: data/org.gnome.login-screen.gschema.xml:69
 msgid "Set to true to show the banner message text."
-msgstr "Tetapkan pada benar untuk tunjukkan teks mesej sepanduk."
+msgstr "Tetapkan pada benar untuk menunjukkan teks mesej sepanduk."
 
 #: data/org.gnome.login-screen.gschema.xml:75
 msgid "Banner message text"
@@ -364,16 +375,17 @@ msgstr "Teks mesej sepanduk"
 
 #: data/org.gnome.login-screen.gschema.xml:78
 msgid "Text banner message to show in the login window."
-msgstr "Teks mesej sepanduk yang menunjukkan tetingkap daftar masuk. "
+msgstr "Mesej sepanduk teks yang ditunjukkan dalam tetingkap daftar masuk."
 
 #: data/org.gnome.login-screen.gschema.xml:84
 msgid "Disable showing the restart buttons"
-msgstr "Jangan tunjuk butang mula semula"
+msgstr "Lumpuhkan butang mula semula"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid ""
-"Set to true to disable showing the restart buttons in the login window."
-msgstr "Tetapkan pada benar untuk sembunyikan butang mula semula dalam tetingkap daftar masuk."
+msgid "Set to true to disable showing the restart buttons in the login window."
+msgstr ""
+"Tetapkan pada benar untuk melumpuhkan butang mula semula dalam tetingkap "
+"daftar masuk."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -383,15 +395,17 @@ msgstr "Bilangan kegagalan pengesahihan yang dibenarkan"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr "Bilangan kegagalan yang dibenarkan ketika pengguna cuba mengesahihkan, sebelum mengalah dan kembali ke pemilihan pengugna."
+msgstr ""
+"Berapa kali kegagalan pengguna yang dibenarkan ketika cuba mengesahihkan, "
+"sebelum kembali semula ke pemilihan pengguna."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
-msgstr "Tidak boleh mencipta paparan sementara:"
+msgstr "Tidak boleh mencipta paparan fana: "
 
 #: libgdm/gdm-user-switching.c:90
 msgid "Unable to activate session: "
-msgstr "Tidak boleh mengaktifkan sesi:"
+msgstr "Tidak boleh mengaktifkan sesi: "
 
 #: utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
@@ -417,7 +431,7 @@ msgstr "Versi aplikasi ini"
 #. Option parsing
 #: utils/gdmflexiserver.c:137
 msgid "— New GDM login"
-msgstr "- Daftar masuk GDM baharu"
+msgstr "— Daftar masuk GDM baharu"
 
 #: utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
@@ -426,4 +440,13 @@ msgstr "Tangkap layar diambil"
 #. Option parsing
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
-msgstr "Ambil gambar skrin"
+msgstr "Ambil satu gambar skrin"
+
+#~ msgid "Your password has expired, please change it now."
+#~ msgstr "Kata laluan anda telah luput. Sila tukarkan sekarang."
+
+#~ msgid "GNOME Shell"
+#~ msgstr "GNOME Shell"
+
+#~ msgid "Window management and compositing"
+#~ msgstr "Pengurusan dan penggubahan tetingkap"
