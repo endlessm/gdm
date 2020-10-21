@@ -1,29 +1,29 @@
-# translation of gdm2.gnome-2-14.ne.po to Nepali
-# translation of gdm2.gnome-2-10.ne.po to Nepali
-# translation of gdm2.gnome-2-10.po to Nepali
-# This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-# Pawan Chitrakar  <pawan@nplinux.org>, 2005.
-# Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
-# Jyotshna Shrestha <jyotshna@mpp.org.np>, 2005.
-# Bishnu Adhikari <bsn_adk@hotmail.com>, 2005.
-# Mahesh Subedi <submanesh@hotmail.com>, 2006.
-# Mahesh subedi <submanesh@hotmail.com>, 2006.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gdm package.
+# 
+# Translators:
+# Bishnu Adhikari <bsn_adk@hotmail.com>, 2005
+# Jaydeep Bhusal <zaydeep@hotmail.com>, 2005
+# Jyotshna Shrestha <jyotshna@mpp.org.np>, 2005
+# Mahesh subedi <submanesh@hotmail.com>, 2006
+# Mahesh Subedi <submanesh@hotmail.com>, 2006
+# Narayan Kumar Magar <narayan@mpp.org.np>, 2007
+# Pawan Chitrakar  <pawan@nplinux.org>, 2005
+# Pawan Chitrakar   <pawan@nplinux.org>, 2004
 msgid ""
 msgstr ""
-"Project-Id-Version: Gnome Nepali Translation Project\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2019-08-05 22:13+0000\n"
-"PO-Revision-Date: 2019-08-29 13:58+0545\n"
-"Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
-"Language-Team: Nepali Translation Team <chautari@gmail.com>\n"
-"Language: ne\n"
+"Project-Id-Version: gdm\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-21 11:30+0000\n"
+"PO-Revision-Date: 2019-09-12 18:41+0000\n"
+"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"Language-Team: Nepali (http://www.transifex.com/endless-os/gdm/language/ne/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.3\n"
-"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"Language: ne\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -58,6 +58,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: ठेगपदवर्णन गर्न अक्षम"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom चारित्रिक यन्त्र होईन"
 
@@ -66,17 +67,19 @@ msgid "Could not identify the current session: "
 msgstr "हालको सेसन पहिचान गर्न सकिएन:"
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "हालको सिट पहिचान गर्न सकिएन."
 
 #: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
-#, fuzzy
+#, c-format
 msgid ""
-"The system is unable to determine whether to switch to an existing login screen or start "
-"up a new login screen."
+"The system is unable to determine whether to switch to an existing login "
+"screen or start up a new login screen."
 msgstr "हालको लगईन ।"
 
 #: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
+#, c-format
 msgid "The system is unable to start up a new login screen."
 msgstr "प्रणालीबाट नया लगईन पर्दा शुरु गर्न असक्षम."
 
@@ -87,75 +90,72 @@ msgstr "\"%s\" प्रयोगकर्ता फेला पार्न �
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal error. "
-"Please contact your system administrator or check your syslog to diagnose. In the "
-"meantime this display will be disabled.  Please restart GDM when the problem is corrected."
-msgstr ""
-"केहि आन्तरिक त्रुटि कारणले X सर्भर (तपाईँको ग्राफिकल परिवेश) सुरू गर्न सकिएन । कृपया तपाईँको प्रणाली "
-"प्रशासकसंगसम्पर्क राख्नुहोस् वा तपाईँको समस्या पहिचान गर्नका लागि सिस्लग जाँच गर्नुहोस्\n"
-"सोही समयमा यो प्रदर्शन अक्षम पारिनेछ\n"
-"समस्या सुधारिए पछि जिडिएम  पुन: चालु गर्नुहोस् ।."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "केहि आन्तरिक त्रुटि कारणले X सर्भर (तपाईँको ग्राफिकल परिवेश) सुरू गर्न सकिएन । कृपया तपाईँको प्रणाली प्रशासकसंगसम्पर्क राख्नुहोस् वा तपाईँको समस्या पहिचान गर्नका लागि सिस्लग जाँच गर्नुहोस्\nसोही समयमा यो प्रदर्शन अक्षम पारिनेछ\nसमस्या सुधारिए पछि जिडिएम  पुन: चालु गर्नुहोस् ।."
 
-#: daemon/gdm-manager.c:762
+#: daemon/gdm-manager.c:764
 msgid "No display available"
 msgstr "दृष्य उपलब्ध छैन"
 
-#: daemon/gdm-manager.c:860 daemon/gdm-manager.c:1144
+#: daemon/gdm-manager.c:862 daemon/gdm-manager.c:1146
 msgid "No session available"
 msgstr "सेसन उपलब्ध छैन"
 
-#: daemon/gdm-manager.c:879
+#: daemon/gdm-manager.c:881
 msgid "Chooser session unavailable"
 msgstr "सेसन छनोटअनुपलब्ध"
 
-#: daemon/gdm-manager.c:895
+#: daemon/gdm-manager.c:897
 msgid "Can only be called before user is logged in"
 msgstr "प्रयोगकर्ता लगईन गर्न अगाडि मात्रै चलाउन मिल्छ"
 
-#: daemon/gdm-manager.c:906
+#: daemon/gdm-manager.c:908
 msgid "Caller not GDM"
 msgstr "कलर जिडिएम होइन"
 
-#: daemon/gdm-manager.c:916
+#: daemon/gdm-manager.c:918
 msgid "Unable to open private communication channel"
 msgstr "निजी सञ्चार च्यानल खोल्न असमर्थ"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:385
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr "सर्भरलाई  %s बाट स्पाउन्ड् गरिएको छ तर त्यो प्रयोगकर्ता यहाँ अवस्थित छैन"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:396 daemon/gdm-server.c:416
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "%d मा समूह आइ डी सेट गर्न सकिएन"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:402
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "%s को लागि सुरुसमुह () असफल"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:408
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "%d मा प्रयोगकर्ता आइ डी सेट गर्न सकिएन"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:486
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "लग फाइल खोल्न सकेन: %s: %s!"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:507 daemon/gdm-server.c:513 daemon/gdm-server.c:519
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: %s देखि %sमा सेट गर्दा त्रुटि"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:539
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: सर्भरको प्राथमिकताहरू %d मा सेट हुन सक्दैन: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:691
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: %s प्रदर्शनका लागि खाली सर्भर आदेश"
@@ -188,23 +188,32 @@ msgstr "प्रदर्शन यन्त्र"
 msgid "Could not create authentication helper process"
 msgstr "प्रमाणीकरण मद्दत प्रकिय बनाउन सकिएन"
 
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid "Your account was given a time limit that’s now passed."
 msgstr "खाताको लागि तोकिएको समय समाप्त भयो ."
 
-#: daemon/gdm-session-worker.c:763
+#: daemon/gdm-session-worker.c:765
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "त्यो कार्य भएन : पुन प्रयास गर्नुस।."
 
-#: daemon/gdm-session-worker.c:1188
+#: daemon/gdm-session-worker.c:1169
 msgid "Username:"
 msgstr "प्रयोगकर्ता नाम:"
 
-#: daemon/gdm-session-worker.c:1692 daemon/gdm-session-worker.c:1709
+#: daemon/gdm-session-worker.c:1309
+msgid "Type a hint or question to help remember your password."
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1310
+msgid "Password reminder:"
+msgstr ""
+
+#: daemon/gdm-session-worker.c:1628 daemon/gdm-session-worker.c:1645
+#, c-format
 msgid "no user account available"
 msgstr "प्रयोगकर्ता खाता उपलब्ध छैन"
 
-#: daemon/gdm-session-worker.c:1736
+#: daemon/gdm-session-worker.c:1672
 msgid "Unable to change to user"
 msgstr "प्रयोगकर्ता परिवर्तन गर्न असक्षम"
 
@@ -216,15 +225,15 @@ msgstr "जिनोम प्रदर्शन प्रबन्धक वे
 msgid "Could not create socket!"
 msgstr "सकेट सिर्जना गर्न असफल !"
 
-#: daemon/gdm-x-session.c:858
+#: daemon/gdm-x-session.c:859
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "कार्यक्रम /etc/gdm/xsession लिपि स्क्रिप्ट मार्फत चलाउनुहोस्"
 
-#: daemon/gdm-x-session.c:859
+#: daemon/gdm-x-session.c:860
 msgid "Listen on TCP socket"
 msgstr "टिसिपि मा आदेशको लागि सुन्नुहोस्"
 
-#: daemon/gdm-x-session.c:871
+#: daemon/gdm-x-session.c:872
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "जिनोम प्रदर्शन प्रबन्धक सेसन कारक"
 
@@ -294,8 +303,8 @@ msgstr "औठाछाप बाट लगईन गर्न दिने व�
 
 #: data/org.gnome.login-screen.gschema.xml:9
 msgid ""
-"The login screen can optionally allow users who have enrolled their fingerprints to log "
-"in using those prints."
+"The login screen can optionally allow users who have enrolled their "
+"fingerprints to log in using those prints."
 msgstr "ओँठाछाप दर्ता भएको प्रयोगकर्तालाई सो ओँठाछाप बाट लगईन गर्न अनुमति दिनुहोस् ।."
 
 #: data/org.gnome.login-screen.gschema.xml:16
@@ -304,8 +313,8 @@ msgstr "स्मर्तकार्डबाट लगईन गर्न द
 
 #: data/org.gnome.login-screen.gschema.xml:19
 msgid ""
-"The login screen can optionally allow users who have smartcards to log in using those "
-"smartcards."
+"The login screen can optionally allow users who have smartcards to log in "
+"using those smartcards."
 msgstr "स्मार्टकार्डबाट लगईन गर्न प्रयोगकर्तालाई अनुमति प्रदान गर्नुहोस् ."
 
 #: data/org.gnome.login-screen.gschema.xml:26
@@ -314,31 +323,26 @@ msgstr "लगईन गर्न पासवर्द अनुमति द�
 
 #: data/org.gnome.login-screen.gschema.xml:29
 msgid ""
-"The login screen can be configured to disallow password authentication, forcing the user "
-"to use smartcard or fingerprint authentication."
-msgstr ""
-"लगइन पर्दाले पासवर्ड प्रमाणीकरण अस्वीकार गर्न कन्फिगर गर्न सक्छ, प्रयोगकर्तालाई स्मार्टकार्ड वा "
-"फिंगरप्रिन्ट प्रमाणीकरण प्रयोग गर्न जोड दिनुहोस्।"
+"The login screen can be configured to disallow password authentication, "
+"forcing the user to use smartcard or fingerprint authentication."
+msgstr "लगइन पर्दाले पासवर्ड प्रमाणीकरण अस्वीकार गर्न कन्फिगर गर्न सक्छ, प्रयोगकर्तालाई स्मार्टकार्ड वा फिंगरप्रिन्ट प्रमाणीकरण प्रयोग गर्न जोड दिनुहोस्।"
 
-#: data/org.gnome.login-screen.gschema.xml:36 data/org.gnome.login-screen.gschema.xml:46
+#: data/org.gnome.login-screen.gschema.xml:36
+#: data/org.gnome.login-screen.gschema.xml:46
 msgid "Path to small image at top of user list"
 msgstr "प्रयोगकर्ता सुचिको माथि सानो छवि"
 
 #: data/org.gnome.login-screen.gschema.xml:39
 msgid ""
-"The login screen can optionally show a small image to provide site administrators and "
-"distributions a way to display branding."
-msgstr ""
-"लगइन पर्दा वैकल्पिक रूपमा एक सानो छविलाई साइट प्रशासकहरू र वितरणहरू  ब्रान्डिङ्ग गर्ने तरिका प्रदान "
-"गर्न सक्दछ।"
+"The login screen can optionally show a small image to provide site "
+"administrators and distributions a way to display branding."
+msgstr "लगइन पर्दा वैकल्पिक रूपमा एक सानो छविलाई साइट प्रशासकहरू र वितरणहरू  ब्रान्डिङ्ग गर्ने तरिका प्रदान गर्न सक्दछ।"
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"पछाडि लगइन पर्दाले साइट प्रशासकहरू प्रदान गर्न र ब्रान्डिङ प्रदर्शन गर्ने तरिकालाई प्रदान गर्न एक सानो "
-"छवि वैकल्पिक रूपमा देखाउन सक्छ।"
+msgstr "पछाडि लगइन पर्दाले साइट प्रशासकहरू प्रदान गर्न र ब्रान्डिङ प्रदर्शन गर्ने तरिकालाई प्रदान गर्न एक सानो छवि वैकल्पिक रूपमा देखाउन सक्छ।"
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -346,11 +350,9 @@ msgstr "प्रयोगकर्ता सुची नदेखाउनु�
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This setting can "
-"be toggled to disable showing the user list."
-msgstr ""
-"लगइन पर्दा सामान्य रूपमा उपलब्ध प्रयोगकर्ताहरूको सूची को रूपमा लगइन गर्न देखाउँदछ। यो सेटिङ प्रयोगकर्ता "
-"सूची असक्षम गर्न टगल गर्न सकिन्छ।"
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "लगइन पर्दा सामान्य रूपमा उपलब्ध प्रयोगकर्ताहरूको सूची को रूपमा लगइन गर्न देखाउँदछ। यो सेटिङ प्रयोगकर्ता सूची असक्षम गर्न टगल गर्न सकिन्छ।"
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -373,7 +375,8 @@ msgid "Disable showing the restart buttons"
 msgstr "फेरि सुरु बटन नदेखाउनुहोस्"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr "लगईन सञ्झ्यालमा फेरि सुरु गर्ने बटन नदेखाउनुहोस्."
 
 #: data/org.gnome.login-screen.gschema.xml:93
@@ -382,8 +385,8 @@ msgstr "प्रमाणिकरण असफल कतिपटक गर्
 
 #: data/org.gnome.login-screen.gschema.xml:96
 msgid ""
-"The number of times a user is allowed to attempt authentication, before giving up and "
-"going back to user selection."
+"The number of times a user is allowed to attempt authentication, before "
+"giving up and going back to user selection."
 msgstr "प्रयोगकर्ताको प्रमाणीकरण प्रयास  सङ्ख्या त्याग्नु र प्रयोगकर्ता छनोटमा फिर्ता जानु।"
 
 #: libgdm/gdm-user-switching.c:59
@@ -402,8 +405,8 @@ msgstr "खालि VERSION आदेशमात्रै चलाउनम�
 msgid "COMMAND"
 msgstr "COMMAND"
 
-#: utils/gdmflexiserver.c:46 utils/gdmflexiserver.c:47 utils/gdmflexiserver.c:49
-#: utils/gdmflexiserver.c:50
+#: utils/gdmflexiserver.c:46 utils/gdmflexiserver.c:47
+#: utils/gdmflexiserver.c:49 utils/gdmflexiserver.c:50
 msgid "Ignored — retained for compatibility"
 msgstr "बेवास्ता - अनुकूलता को लागि"
 
@@ -428,12 +431,3 @@ msgstr "स्क्रिनको तस्बिर लिइयो"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "स्क्रिनको तस्वीर लिनुहोस्"
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "तपाईको पासवर्डको अवधि समाप्त भयो , नया परिनत गर्नुस्"
-
-#~ msgid "GNOME Shell"
-#~ msgstr "जिनोम पात्रो"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "सञ्झ्याल प्रबन्धक र क्मपोजिटिङ्ग "
