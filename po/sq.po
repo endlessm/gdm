@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the gdm package.
 # 
 # Translators:
+# Ardit Dani <ardit.dani@gmail.com>, 2021
 # Laurent Dhima <laurenti@alblinux.net>, 2008
 # Laurent Dhima <laurenti@alblinux.net>, 2003-2006, 2008
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 11:30+0000\n"
-"PO-Revision-Date: 2019-09-12 18:39+0000\n"
-"Last-Translator: Philip Chimento <philip.chimento@gmail.com>\n"
+"POT-Creation-Date: 2021-01-31 11:57+0000\n"
+"PO-Revision-Date: 2021-01-31 01:04+0000\n"
+"Last-Translator: Ardit Dani <ardit.dani@gmail.com>\n"
 "Language-Team: Albanian (http://www.transifex.com/endless-os/gdm/language/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,66 +22,66 @@ msgstr ""
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
-msgstr ""
+msgstr "_Rifresko"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Cancel"
-msgstr ""
+msgstr "_Anulo"
 
 #: chooser/gdm-host-chooser-dialog.c:141
 msgid "C_onnect"
-msgstr ""
+msgstr "L_idh"
 
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"
-msgstr "Zgjidh sistemin"
+msgstr "Zgjidh Sistemin"
 
 #: chooser/gdm-host-chooser-widget.c:253
 msgid "XDMCP: Could not create XDMCP buffer!"
-msgstr ""
+msgstr "XDMCP: Nuk mund të krijohet XDMCP buffer!"
 
 #: chooser/gdm-host-chooser-widget.c:259
 msgid "XDMCP: Could not read XDMCP header!"
-msgstr "XDMCP: I pamundur leximi i header XDMCP!"
+msgstr "XDMCP: Nuk mund të krijohet koka XDMCP!"
 
 #: chooser/gdm-host-chooser-widget.c:265
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr ""
+msgstr "XDMCP: Versioni XDMCP i gabuar!"
 
 #: chooser/gdm-host-chooser-widget.c:271
 msgid "XDMCP: Unable to parse address"
-msgstr ""
+msgstr "XDMCP: Nuk mund të analizohet adresa"
 
 #: common/gdm-common.c:307
 #, c-format
 msgid "/dev/urandom is not a character device"
-msgstr "/dev/urandom nuk është një dispozitiv simbolesh"
+msgstr "/dev/urandom nuk është një pajisje simbolesh"
 
 #: common/gdm-common.c:501 libgdm/gdm-user-switching.c:207
 msgid "Could not identify the current session: "
-msgstr ""
+msgstr "Nuk mund të identifikohet seanca aktuale:"
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
 #, c-format
 msgid "Could not identify the current seat."
-msgstr ""
+msgstr "Nuk mund të identifikohet vendi aktual:"
 
 #: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
 #, c-format
 msgid ""
 "The system is unable to determine whether to switch to an existing login "
 "screen or start up a new login screen."
-msgstr ""
+msgstr "Sistemi nuk është në gjendje të përcaktojë nëse do të kalojë në një ekran identifikimi ekzistues ose do të hapë një ekran të ri hyrjeje."
 
 #: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
 #, c-format
 msgid "The system is unable to start up a new login screen."
-msgstr ""
+msgstr "Sistemi nuk është në gjendje të fillojë një ekran të ri hyrjeje."
 
 #: daemon/gdm-display-access-file.c:298
 #, c-format
 msgid "could not find user “%s” on system"
-msgstr ""
+msgstr "nuk mund të gjente përdorues “%s” në sistem"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
@@ -88,11 +89,11 @@ msgid ""
 " error. Please contact your system administrator or check your syslog to "
 "diagnose. In the meantime this display will be disabled.  Please restart GDM"
 " when the problem is corrected."
-msgstr ""
+msgstr "Nuk mund të nis server X (ambienti juaj grafik) për shkak të një gabimi të brendshëm. Ju lutemi kontaktoni administratorin e sistemit tuaj ose kontrolloni syslog tuaj për të diagnostikuar. Ndërkohë, kjo shfaqje do të çaktivizohet. Ju lutemi rinisni GDM kur problemi të korrigjohet."
 
 #: daemon/gdm-manager.c:764
 msgid "No display available"
-msgstr ""
+msgstr "Asnjë ekran i disponueshëm"
 
 #: daemon/gdm-manager.c:862 daemon/gdm-manager.c:1146
 msgid "No session available"

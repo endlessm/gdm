@@ -6,8 +6,8 @@
 # Arman Aksoy <armish@linux-sevenler.de>, 2003
 # Baris Cicek <baris@teamforce.name.tr>, 2004-2005,2008-2009
 # Çağatay Yiğit Şahin <cyigitsahin@outlook.com>, 2017
-# Emin Tufan <etcetin@gmail.com>, 2013,2017
-# Emin Tufan <etcetin@gmail.com>, 2013
+# Emin Tufan Çetin <etcetin@gmail.com>, 2013,2017
+# Emin Tufan Çetin <etcetin@gmail.com>, 2013
 # Erçin EKER <ercin@linux.org.tr>, 2011
 # Fatih Demir <kabalak@gtranslator.org>, 1999-2000
 # Gökhan Gurbetoğlu <ggurbet@gmail.com>, 2013
@@ -23,7 +23,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-21 11:30+0000\n"
+"POT-Creation-Date: 2021-01-31 11:57+0000\n"
 "PO-Revision-Date: 2020-10-13 18:54+0000\n"
 "Last-Translator: Will Thompson <wjt@endlessos.org>\n"
 "Language-Team: Turkish (http://www.transifex.com/endless-os/gdm/language/tr/)\n"
