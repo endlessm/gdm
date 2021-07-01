@@ -1,3 +1,12 @@
+gdm3 (3.38.2.1-1endless1) eos; urgency=medium
+
+  * Reapply downstream changes (T31754)
+    - Remove shared account support
+    - Remove password hinting
+    - Drop Transifex integration
+
+ -- Georges Basile Stavracas Neto <georges@endlessos.org>  Thu, 01 Jul 2021 13:29:22 -0300
+
 gdm3 (3.38.2.1-1) unstable; urgency=medium
 
   * New upstream release
