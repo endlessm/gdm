@@ -8,14 +8,14 @@
 # Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2008,2010
 # Jing-Jong Shyue <shyue@sonoma.com.tw>, 2000
 # Kevin Kee <kevin@oaka.org>, 2004
-# byStarTW (pan93412) <pan93412@gmail.com>, 2019
+# pan93412 <pan93412@gmail.com>, 2019
 # S.J. Luo <crystal@mickey.ee.nctu.edu.tw>, 1999
 # Wei-Lun Chao <chaoweilun@gmail.com>, 2010
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-15 12:11+0000\n"
+"POT-Creation-Date: 2021-09-29 09:16+0000\n"
 "PO-Revision-Date: 2021-09-15 12:11+0000\n"
 "Last-Translator: endlessmobile_build <admin@endlessos.org>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/endless-os/gdm/language/zh_TW/)\n"
