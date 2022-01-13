@@ -1,11 +1,150 @@
-gdm3 (3.38.2.1-1endless1) eos; urgency=medium
+gdm3 (41.0-3) unstable; urgency=medium
 
-  * Reapply downstream changes (T31754)
-    - Remove shared account support
-    - Remove password hinting
-    - Drop Transifex integration
+  * Team upload
+  * d/control.in: Depend on specific dbus components.
+    We need the well-known system bus (any implementation, typically either
+    dbus or dbus-broker), plus dbus-daemon/dbus-run-session (for the greeter).
+    Additionally, /etc/init.d/gdm3 needs dbus-send from dbus-bin, although
+    the systemd unit doesn't necessarily need that.
+  * d/rules: Stop using obsolete check-accelerated-dir option.
+    Meson 0.60.0 makes unknown options an error. (Closes: #997935)
 
- -- Georges Basile Stavracas Neto <georges@endlessos.org>  Thu, 01 Jul 2021 13:29:22 -0300
+ -- Simon McVittie <smcv@debian.org>  Thu, 28 Oct 2021 10:11:51 +0100
+
+gdm3 (41.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Trim trailing whitespace in d/changelog
+  * Update standards version to 4.6.0 (no changes needed)
+  * Avoid explicitly specifying -Wl,--as-needed linker flag.
+    This is the default in current toolchains.
+  * Release to unstable
+
+ -- Simon McVittie <smcv@debian.org>  Wed, 13 Oct 2021 23:01:42 +0100
+
+gdm3 (41.0-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream release
+    - Allow Wayland user sessions for single-GPU-vendor NVIDIA machines
+      if the v470 NVIDIA proprietary driver is in use (LP: #1942911)
+  * d/p/gdm.rules-Keep-wayland-enabled-in-all-nvidia-configuratio.patch:
+    Also allow Wayland user sessions for hybrid (Optimus) NVIDIA systems
+  * d/p/local-display-factory-Don-t-try-to-respawn-displays-on-sh.patch,
+    d/p/xdmcp-display-factory-Set-supported-session-types-for-XDM.patch,
+    d/p/daemon-Infer-session-type-from-desktop-file-if-user-has-n.patch,
+    d/p/local-display-factory-Don-t-crash-if-Xorg-and-Wayland-are.patch,
+    d/p/meson-Fix-detection-of-Xorg-versions-that-need-listen-tcp.patch:
+    Various post-release fixes from upstream
+  * Drop default.desktop session.
+    Its name is deeply misleading when it hasn't been GDM's default for
+    several years, and GDM/GNOME is increasingly moving towards Wayland
+    rather than X11. It also seems undesirable to present users with an
+    option that will always need to have a vague, generic name, because we
+    cannot predict what specific session or window manager it will launch.
+    Instead, provide an example file with a more appropriate name,
+    /usr/share/doc/gdm3/examples/custom-x11-session.desktop, which
+    users of ~/.xsession can either install as-is, or use as a basis for
+    their own custom session types as documented in gnome-user-docs.
+  * Xsession: quote more defensively
+
+ -- Simon McVittie <smcv@debian.org>  Sun, 10 Oct 2021 19:52:43 +0100
+
+gdm3 (40.1-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Marco Trevisan (Treviño) ]
+  * debian/gbp.conf: Update upstream-vcs-tag format to work with
+    pre-releases
+
+  [ Simon McVittie ]
+  * Release to unstable
+
+ -- Simon McVittie <smcv@debian.org>  Sun, 12 Sep 2021 21:46:25 +0100
+
+gdm3 (40.1-1) experimental; urgency=medium
+
+  [ Laurent Bigonville ]
+  * debian/rules: Drop compatibility symlinks now that bullseye is released
+  * debian/watch: Update the watch file to follow the new version scheme
+  * debian/control.in: Suggest orca instead of gnome-orca.
+    The latter is a transitonal package.
+
+  [ Simon McVittie ]
+  * Add Recommends on gnome-session | x-session-manager.
+    gdm3 already Depends on gnome-session | x-session-manager |
+    x-window-manager | x-terminal-emulator, but not all packages that
+    provide x-window-manager are usable as desktop environments (in
+    particular, the example window manager in the mutter package does not
+    have a built-in way to launch programs). Adding a Recommends here
+    provides a stronger hint that nearly all gdm3 users are going to want
+    an implementation of x-session-manager, preferably GNOME's.
+    (Closes: #986046)
+  * d/watch: Don't use @PACKAGE@.
+    For historical reasons, the Debian package is gdm3 rather than gdm.
+  * New upstream release
+    - Includes changes from Marco Trevisan that were previously committed
+      as patches (LP: #1935818)
+
+ -- Simon McVittie <smcv@debian.org>  Tue, 07 Sep 2021 10:42:00 +0100
+
+gdm3 (3.38.2.1-3) experimental; urgency=medium
+
+  * debian/changelog: Remove bad entry meant to be in ubuntu side only
+    It's not needed in debian
+  * debian/patches: Correctly return from idle callback
+  * debian/gdm3.gdm-smartcard-*:
+    - Do not set user_readenv=1 in pam_env.so (keep it for ubuntu only).
+    - Ignore invalid user errors on pam_succeed_if.so.
+      We may call the gdm-smartcard module without an user, leaving the module
+      to figure it out depending on the smartcard certificate.
+      So we need to ignore PAM_USER_UNKNOWN errors on pam_suceed_if.so.
+      While pam_sss.so already checks for the user being non root internally,
+      it's always better to ensure early this in all the cases.
+      In the pkcs11 case instead we need to check it again after the module
+      has returned. (LP: #1917362)
+    - Check for /var/run/nologin (and friends) only when an user is defined
+      pam_nologin.so requires a PAM_USER to be defined in order to check if
+      the request has been done by root, possibly stopping the login otherwise.
+      And in case none was provided, it will trigger the fallback pam prompt.
+      However, with smartcard authentication we may initiate the PAM session
+      without an user defined and leave to the smartcard service to try to
+      figure it out depending on the token that has been inserted, that may
+      have an user associated with it.
+      So, ensure that we load all the PAM modules that require an user after
+      the smartcard one, that in case will set one for us.
+      Only after that, we can fail in case /var/run/nologin is present
+      (LP: #1917362)
+
+ -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Thu, 15 Apr 2021 17:55:12 +0200
+
+gdm3 (3.38.2.1-2) experimental; urgency=medium
+
+  * debian: Add gdm-smartcard PAM module implemented with libpam_sss.
+    The implementation uses update-alternatives to provide a generic
+    gdm-smartcard PAM module that can be changed using the tool.
+    Potentially other systems could be used or supported (such as pam_pkcs11
+    or pam_p11) by adding other modules implementing the gdm-smartcard auth
+    service. (LP: #1865226, Closes: #953557)
+  * debian: Add gdm-smartcard implementation using pkcs11
+  * debian/gdm3.gdm-smartcard-sssd-exclusive.pam:
+    - PAM config to use exclusive (no fallback is supported) smartcard
+      authentication via libpam_sss
+  * debian/gdm3.gdm-smartcard-sssd-or-password.pam:
+    - PAM config to optionally use smartcard authentication via libpam_sss,
+      on failure it fallbacks to password authentication
+  * debian/gdm3.gdm-smartcard-pkcs11-exclusive.pam:
+    - PAM config to use exclusive (no fallback is supported) smartcard
+      authentication via libpam_pkcs11
+  * debian/control:
+    - Suggests libam-sss and libam-pkcs11
+  * debian/gdm3.alternatives:
+    - Add gdm-smartcard alternatives to be used as /etc/pam.d/gdm-smartcard
+  * debian/patches: Cherry-pick upstream fixes, including better auth error
+    handling (LP: #1865838)
+
+ -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Thu, 25 Feb 2021 16:40:24 +0100
 
 gdm3 (3.38.2.1-1) unstable; urgency=medium
 
@@ -584,7 +723,7 @@ gdm3 (3.28.2-1) unstable; urgency=medium
 
 gdm3 (3.28.1-1) unstable; urgency=medium
 
-  * New upstream release 
+  * New upstream release
 
  -- Tim Lunn <tim@feathertop.org>  Tue, 17 Apr 2018 18:04:22 +1000
 
