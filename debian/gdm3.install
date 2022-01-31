@@ -13,6 +13,5 @@ usr/share/gdm/
 usr/share/gnome-session/
 usr/share/dconf/
 
-[arm64] debian/62-Endless-enable-wayland.rules	etc/udev/rules.d
-debian/Xsession					etc/gdm3
-debian/insserv.conf.d				etc
+debian/Xsession				etc/gdm3
+debian/insserv.conf.d			etc
