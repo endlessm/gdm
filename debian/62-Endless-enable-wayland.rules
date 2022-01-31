@@ -1,2 +1,0 @@
-# Enable Wayland if there is DRM
-SUBSYSTEM=="graphics", KERNEL=="fb0", ATTR{name}!="simple", RUN+="/usr/lib/gdm3/gdm-runtime-config set daemon WaylandEnable true"
