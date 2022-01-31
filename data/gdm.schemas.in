@@ -60,7 +60,7 @@
     <schema>
       <key>daemon/WaylandEnable</key>
       <signature>b</signature>
-      <default>false</default>
+      <default>true</default>
     </schema>
     <schema>
       <key>daemon/XorgEnable</key>
