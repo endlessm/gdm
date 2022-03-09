@@ -10,7 +10,7 @@ IMPORT{cmdline}="nomodeset", GOTO="gdm_disable_wayland"
 LABEL="gdm_nomodeset_end"
 
 # Disable wayland when nvidia modeset is disabled or when drivers are a lower
-# version than 470, in any case always prefer Xorg
+# version than 470.
 KERNEL!="nvidia_drm", GOTO="gdm_nvidia_drm_end"
 SUBSYSTEM!="module", GOTO="gdm_nvidia_drm_end"
 ACTION!="add", GOTO="gdm_nvidia_drm_end"
@@ -18,13 +18,8 @@ ACTION!="add", GOTO="gdm_nvidia_drm_end"
 ATTR{parameters/modeset}!="Y", GOTO="gdm_disable_wayland"
 # disable wayland for nvidia drivers versions lower than 470
 ATTR{version}=="4[0-6][0-9].*|[0-3][0-9][0-9].*|[0-9][0-9].*|[0-9].*", GOTO="gdm_disable_wayland"
-GOTO="gdm_prefer_xorg"
 LABEL="gdm_nvidia_drm_end"
 
-GOTO="gdm_end"
-
-LABEL="gdm_prefer_xorg"
-RUN+="@libexecdir@/gdm-runtime-config set daemon PreferredDisplayServer xorg"
 GOTO="gdm_end"
 
 LABEL="gdm_disable_wayland"
