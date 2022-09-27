@@ -84,12 +84,14 @@ ACTION!="add", GOTO="gdm_hybrid_graphics_check_end"
 RUN+="/usr/bin/touch /run/udev/gdm-machine-has-hybrid-graphics"
 LABEL="gdm_hybrid_graphics_check_end"
 
-# If this is a hybrid graphics laptop with vendor nvidia driver, disable wayland
+# If this is a hybrid graphics laptop with vendor nvidia driver default to wayland
+# It gives poor performance for multi-monitor, but Xorg fails some multi-monitor
+# setups too, and this is what we did in F36.
 LABEL="gdm_hybrid_nvidia_laptop_check"
 TEST!="/run/udev/gdm-machine-is-laptop", GOTO="gdm_hybrid_nvidia_laptop_check_end"
 TEST!="/run/udev/gdm-machine-has-hybrid-graphics", GOTO="gdm_hybrid_nvidia_laptop_check_end"
 TEST!="/run/udev/gdm-machine-has-vendor-nvidia-driver", GOTO="gdm_hybrid_nvidia_laptop_check_end"
-GOTO="gdm_disable_wayland"
+GOTO="gdm_end"
 LABEL="gdm_hybrid_nvidia_laptop_check_end"
 
 # Disable wayland in situation where we're in a guest with a virtual gpu and host passthrough gpu
