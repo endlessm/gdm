@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[gdm.app]
+[o:endless-os:p:gdm:r:app]
 source_file = po/gdm.pot
 source_lang = en
 file_filter = po/<lang>.po
