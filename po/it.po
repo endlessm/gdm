@@ -15,8 +15,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2021-02-25 19:41+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-03-15 09:13+0100\n"
 "Last-Translator: Milo Casagrande <milo@milo.name>\n"
 "Language-Team: Italiano <gnome-it-list@gnome.org>\n"
@@ -62,6 +62,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: impossibile analizzare l'indirizzo"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom non è un device a caratteri"
 
@@ -70,6 +71,7 @@ msgid "Could not identify the current session: "
 msgstr "Impossibile identificare la sessione attuale: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "Impossibile identificare la postazione attuale."
 
@@ -114,43 +116,43 @@ msgstr "Chiamante non GDM"
 msgid "Unable to open private communication channel"
 msgstr "Impossibile aprire un canale di comunicazione privato"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr ""
 "Il server doveva essere lanciato dall'utente %s ma questo utente non esiste"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "Impossibile impostare il groupid a %d"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups() per %s non riuscita"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "Impossibile impostare lo userid a %d"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: impossibile aprire il file di registro per il display %s."
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: errore nell'impostare %s a %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: la priorità del server non può essere impostata a %d: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: comando server mancante per il display %s"
@@ -180,11 +182,11 @@ msgid "The display device"
 msgstr "Il dispositivo del display"
 
 # [NdT] la traduco la parte tra ""?
-#: daemon/gdm-session.c:1288
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "Impossibile creare il processo di aiuto per l'autenticazione"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
@@ -192,15 +194,7 @@ msgstr ""
 "Raggiunto il massimo dei tentativi di autenticazione della password, provare "
 "un altro metodo"
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr ""
-"Raggiunto il massimo dei tentativi di autenticazione del PIN, provare un "
-"altro metodo"
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
@@ -208,7 +202,7 @@ msgstr ""
 "Raggiunto il massimo dei tentativi di accesso automatico, provare un altro "
 "metodo di autenticazione"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
@@ -216,7 +210,7 @@ msgstr ""
 "Raggiunto il massimo dei tentativi di autenticazione delle impronte "
 "digitali, provare un altro metodo"
 
-#: daemon/gdm-session-worker.c:762
+#: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
@@ -224,49 +218,46 @@ msgstr ""
 "Raggiunto il massimo dei tentativi di autenticazione della smart card, "
 "provare un altro metodo"
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
 msgstr ""
 "Raggiunto il massimo dei tentativi di autenticazione, provare un altro metodo"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr "L'autenticazione della password non ha funzionato, riprovare."
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr "L'autenticazione del PIN non ha funzionato, riprovare."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr "L'accesso automatico non ha funzionato, riprovare."
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr "L'autenticazione delle impronte digitali non ha funzionato, riprovare."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr "L'autenticazione della smart card non ha funzionato, riprovare."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Non funziona. Provare nuovamente."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "È stata superata la scadenza impostata per l'account."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "Utente:"
 
-#: daemon/gdm-session-worker.c:1711 daemon/gdm-session-worker.c:1728
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "nessun account utente disponibile"
 
-#: daemon/gdm-session-worker.c:1755
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "Impossibile cambiare utente"
 
@@ -511,3 +502,13 @@ msgstr "Schermata catturata"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Cattura una immagine dello schermo"
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "Raggiunto il massimo dei tentativi di autenticazione del PIN, provare un "
+#~ "altro metodo"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr "L'autenticazione del PIN non ha funzionato, riprovare."

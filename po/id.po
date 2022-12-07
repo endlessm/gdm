@@ -11,8 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm gnome-3-20\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2020-12-21 15:54+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-02-12 18:53+0700\n"
 "Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
 "Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
@@ -57,6 +57,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: Tak dapat menguraikan alamat"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom bukan perangkat karakter"
 
@@ -65,20 +66,9 @@ msgid "Could not identify the current session: "
 msgstr "Tak dapat mengidentifikasi sesi sekarang: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "Tak dapat mengidentifikasi seat sekarang."
-
-#: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
-msgid ""
-"The system is unable to determine whether to switch to an existing login "
-"screen or start up a new login screen."
-msgstr ""
-"Sistem tak bisa menentukan apakah akan berpindah ke layar log masuk yang "
-"telah ada atau memulai layar log masuk baru."
-
-#: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
-msgid "The system is unable to start up a new login screen."
-msgstr "Sistem tak bisa memulai suatu layar log masuk baru."
 
 #: daemon/gdm-display-access-file.c:298
 #, c-format
@@ -121,42 +111,42 @@ msgstr "Pemanggil bukan GDM"
 msgid "Unable to open private communication channel"
 msgstr "Tak dapat membuka kanal komunikasi privat"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr "Server mestinya dijalankan oleh %s, tetapi pengguna tersebut tidak ada"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "Tak dapat menentukan groupid menjadi %d"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups () gagal untuk %s"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "Tak dapat menentukan userid menjadi %d"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: Tak dapat membuka berkas log untuk tampilan %s!"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Gagal mengatur %s menjadi %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: Prioritas server tidak dapat ditentukan menjadi %d: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Tak ada perintah server untuk tampilan %s"
@@ -185,11 +175,11 @@ msgstr "Perangkat Tampilan"
 msgid "The display device"
 msgstr "Perangkat tampilan"
 
-#: daemon/gdm-session.c:1285
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "Tak dapat membuat pembantu proses autentikasi"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
@@ -197,14 +187,7 @@ msgstr ""
 "Anda telah mencapai upaya autentikasi kata sandi maksimum, silakan coba "
 "metode lain"
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr ""
-"Anda telah mencapai upaya autentikasi PIN maksimum, silakan coba metode lain"
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
@@ -212,7 +195,7 @@ msgstr ""
 "Anda telah mencapai upaya masuk otomatis maksimum, silakan coba metode "
 "autentikasi lain"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
@@ -220,7 +203,7 @@ msgstr ""
 "Anda telah mencapai upaya autentikasi sidik jari maksimum, silakan coba "
 "metode lain"
 
-#: daemon/gdm-session-worker.c:762
+#: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
@@ -228,53 +211,50 @@ msgstr ""
 "Anda telah mencapai upaya autentikasi kartu pintar maksimum, silakan coba "
 "metode lain"
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
 msgstr ""
 "Anda telah mencapai upaya autentikasi maksimum, silakan coba metode lain"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr "Maaf, autentikasi kata sandi tidak berfungsi. Silakan coba lagi."
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr "Maaf, autentikasi PIN tidak berfungsi. Silakan coba lagi."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr "Maaf, log masuk otomatis tidak berfungsi. Silakan coba lagi."
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr "Maaf, autentikasi sidik jari tidak berfungsi. Silakan coba lagi."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr "Maaf, autentikasi kartu pintar tidak berfungsi. Silakan coba lagi."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Maaf, itu tidak bisa. Harap coba lagi."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Akun Anda diberi batas waktu yang kini berakhir."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "Nama Pengguna:"
 
-#: daemon/gdm-session-worker.c:1704 daemon/gdm-session-worker.c:1721
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "akun pengguna tidak tersedia"
 
-#: daemon/gdm-session-worker.c:1748
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "Tak dapat berganti pengguna"
 
-#: daemon/gdm-wayland-session.c:511
+#: daemon/gdm-wayland-session.c:531
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr "Peluncur Sesi Wayland Manajer Tampilan GNOME"
 
@@ -282,15 +262,15 @@ msgstr "Peluncur Sesi Wayland Manajer Tampilan GNOME"
 msgid "Could not create socket!"
 msgstr "Tak dapat membuat soket!"
 
-#: daemon/gdm-x-session.c:859
+#: daemon/gdm-x-session.c:879
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "Menjalankan program melalui skrip pembungkus /etc/gdm/Xsession"
 
-#: daemon/gdm-x-session.c:860
+#: daemon/gdm-x-session.c:880
 msgid "Listen on TCP socket"
 msgstr "Dengarkan pada soket TCP"
 
-#: daemon/gdm-x-session.c:872
+#: daemon/gdm-x-session.c:892
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "Peluncur Sesi X Manajer Tampilan GNOME"
 
@@ -508,3 +488,23 @@ msgstr "Cuplikan layar telah diambil"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Mengambil gambar cuplikan layar"
+
+#~ msgid ""
+#~ "The system is unable to determine whether to switch to an existing login "
+#~ "screen or start up a new login screen."
+#~ msgstr ""
+#~ "Sistem tak bisa menentukan apakah akan berpindah ke layar log masuk yang "
+#~ "telah ada atau memulai layar log masuk baru."
+
+#~ msgid "The system is unable to start up a new login screen."
+#~ msgstr "Sistem tak bisa memulai suatu layar log masuk baru."
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "Anda telah mencapai upaya autentikasi PIN maksimum, silakan coba metode "
+#~ "lain"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr "Maaf, autentikasi PIN tidak berfungsi. Silakan coba lagi."

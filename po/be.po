@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm.master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2021-02-12 11:56+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-02-13 01:57+0300\n"
 "Last-Translator: Launchpad translators\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
@@ -49,6 +49,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: не ўдалося разабраць адрас"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom не з'яўляецца сімвальнай прыладай"
 
@@ -57,20 +58,9 @@ msgid "Could not identify the current session: "
 msgstr "Не ўдалося вызначыць бягучы сеанс: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "Не ўдалося вызначыць бягучае працоўнае месца."
-
-#: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
-msgid ""
-"The system is unable to determine whether to switch to an existing login "
-"screen or start up a new login screen."
-msgstr ""
-"Сістэме не ўдалося вызначыць, ці трэба пераключыцца на наяўны экран уваходу "
-"або запусціць новы."
-
-#: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
-msgid "The system is unable to start up a new login screen."
-msgstr "Сістэме не ўдалося запусціць новы экран уваходу."
 
 #: daemon/gdm-display-access-file.c:298
 #, c-format
@@ -113,44 +103,44 @@ msgstr "Выклікана не праз GDM"
 msgid "Unable to open private communication channel"
 msgstr "Не ўдалося адкрыць прыватны канал камунікацыі"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr ""
 "Сервер павінен быў запусціцца ад імя карыстальніка %s, але такога "
 "карыстальніка не існуе"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "Не ўдалося задаць ідэнтыфікатар групы %d"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "няўдача initgroups() для %s"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "Не ўдалося задаць ідэнтыфікатар карыстальніка %d"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: не ўдалося адкрыць файл журнала для дысплэя %s."
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%1$s: памылка настаўлення значэння %3$s для %2$s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: не ўдалося задаць серверу прыярытэт %d: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: пустая серверная каманда для дысплэя %s"
@@ -179,11 +169,11 @@ msgstr "Прылада адлюстравання"
 msgid "The display device"
 msgstr "Прылада адлюстравання"
 
-#: daemon/gdm-session.c:1285
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "Не ўдалося стварыць дапаможны працэс для праверкі сапраўднасці"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
@@ -191,21 +181,13 @@ msgstr ""
 "Вы дасягнулі ліміту спроб на пацвярджэнне сапраўднасці праз пароль, "
 "паспрабуйце іншы метад"
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr ""
-"Вы дасягнулі ліміту спроб на пацвярджэнне сапраўднасці праз PIN-код, "
-"паспрабуйце іншы метад"
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
 msgstr "Вы дасягнулі ліміту спроб для аўтаўваходу, паспрабуйце іншы метад"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
@@ -213,7 +195,7 @@ msgstr ""
 "Вы дасягнулі ліміту спроб на пацвярджэнне сапраўднасці праз адбітак пальца, "
 "паспрабуйце іншы метад"
 
-#: daemon/gdm-session-worker.c:762
+#: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
@@ -221,56 +203,53 @@ msgstr ""
 "Вы дасягнулі ліміту спроб на пацвярджэнне сапраўднасці праз смарт-карту, "
 "паспрабуйце іншы метад"
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
 msgstr ""
 "Вы дасягнулі ліміту спроб на пацвярджэнне сапраўднасці, паспрабуйце іншы "
 "метад"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr "Не ўдалося пацвердзіць сапраўднасць паролем. Паўтарыце спробу."
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr "Не ўдалося пацвердзіць сапраўднасць праз PIN-код. Паўтарыце спробу."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr "Аўтаўваход не спрацаваў. Паўтарыце спробу."
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr ""
 "Не ўдалося пацвердзіць сапраўднасць праз адбітак пальца. Паўтарыце спробу."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr ""
 "Не ўдалося пацвердзіць сапраўднасць праз смарт-карту. Паўтарыце спробу."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Не ўдалося пацвердзіць сапраўднасць. Паўтарыце спробу."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Тэрмін дзеяння ўліковага запісу скончыўся."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "Імя карыстальніка:"
 
-#: daemon/gdm-session-worker.c:1704 daemon/gdm-session-worker.c:1721
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "уліковы запіс карыстальніка недаступны"
 
-#: daemon/gdm-session-worker.c:1748
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "Не ўдалося змяніць карыстальніка"
 
-#: daemon/gdm-wayland-session.c:511
+#: daemon/gdm-wayland-session.c:531
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr "Модуль запуску сеанса Wayland у GNOME Display Manager"
 
@@ -278,15 +257,15 @@ msgstr "Модуль запуску сеанса Wayland у GNOME Display Manage
 msgid "Could not create socket!"
 msgstr "Не ўдалося стварыць сокет."
 
-#: daemon/gdm-x-session.c:859
+#: daemon/gdm-x-session.c:879
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "Запусціць праграму праз сцэнарый-абгортку /etc/gdm/Xsession"
 
-#: daemon/gdm-x-session.c:860
+#: daemon/gdm-x-session.c:880
 msgid "Listen on TCP socket"
 msgstr "Слухаць TCP-сокет"
 
-#: daemon/gdm-x-session.c:872
+#: daemon/gdm-x-session.c:892
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "Модуль запуску сеанса X у GNOME Display Manager"
 
@@ -500,6 +479,26 @@ msgstr "Здымак экрана гатовы"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Зрабіць здымак экрана"
+
+#~ msgid ""
+#~ "The system is unable to determine whether to switch to an existing login "
+#~ "screen or start up a new login screen."
+#~ msgstr ""
+#~ "Сістэме не ўдалося вызначыць, ці трэба пераключыцца на наяўны экран "
+#~ "уваходу або запусціць новы."
+
+#~ msgid "The system is unable to start up a new login screen."
+#~ msgstr "Сістэме не ўдалося запусціць новы экран уваходу."
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "Вы дасягнулі ліміту спроб на пацвярджэнне сапраўднасці праз PIN-код, "
+#~ "паспрабуйце іншы метад"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr "Не ўдалося пацвердзіць сапраўднасць праз PIN-код. Паўтарыце спробу."
 
 #~ msgid "Your password has expired, please change it now."
 #~ msgstr "Ваш пароль састарэў. Калі ласка, зараз жа змяніце яго."

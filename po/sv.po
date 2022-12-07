@@ -12,8 +12,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2020-12-21 15:54+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-02-09 21:08+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -57,6 +57,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: Kan inte tolka adressen"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom är inte en teckenenhet"
 
@@ -66,20 +67,9 @@ msgstr "Kunde inte identifiera den aktuella sessionen: "
 
 # FIXME: Seat = säte?
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "Kunde inte identifiera det aktuella sätet."
-
-#: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
-msgid ""
-"The system is unable to determine whether to switch to an existing login "
-"screen or start up a new login screen."
-msgstr ""
-"Systemet kan inte fastställa huruvida det ska växla till en befintlig "
-"inloggningsskärm eller starta upp en ny inloggningsskärm."
-
-#: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
-msgid "The system is unable to start up a new login screen."
-msgstr "Systemet kan inte starta upp en ny inloggningsskärm."
 
 #: daemon/gdm-display-access-file.c:298
 #, c-format
@@ -122,42 +112,42 @@ msgstr "Anroparen är inte GDM"
 msgid "Unable to open private communication channel"
 msgstr "Kunde inte öppna privat kommunikationskanal"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr "Servern skulle startas av användaren %s, men den användaren finns inte"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "Kunde inte ställa in grupp-id till %d"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups () misslyckades för %s"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "Kunde inte ställa in användar-id till %d"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: Kunde inte öppna loggfilen för display %s!"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Fel vid inställning av %s till %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: Serverprioritet kunde inte ställas in till %d: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Tomt serverkommando för display %s"
@@ -186,11 +176,11 @@ msgstr "Visningsenhet"
 msgid "The display device"
 msgstr "Visningsenheten"
 
-#: daemon/gdm-session.c:1285
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "Kunde inte skapa en autentiseringshjälpprocess"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
@@ -198,15 +188,7 @@ msgstr ""
 "Du uppnådde maximala antalet försök med lösenordsautentisering. Försök med "
 "en annan metod"
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr ""
-"Du uppnådde maximala antalet försök med PIN-autentisering. Försök med en "
-"annan metod"
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
@@ -214,7 +196,7 @@ msgstr ""
 "Du uppnådde maximala antalet försök med automatisk inloggning. Försök med en "
 "annan autentiseringsmetod"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
@@ -222,7 +204,7 @@ msgstr ""
 "Du uppnådde maximala antalet försök med fingeravtrycksautentisering. Försök "
 "med en annan metod"
 
-#: daemon/gdm-session-worker.c:762
+#: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
@@ -230,53 +212,50 @@ msgstr ""
 "Du uppnådde maximala antalet försök med autentisering med smartkort. Försök "
 "med en annan metod"
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
 msgstr ""
 "Du uppnådde maximala antalet autentiseringsförsök. Försök med en annan metod"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr "Ledsen, lösenordsautentisering fungerade inte. Försök igen."
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr "Ledsen, PIN-autentisering fungerade inte. Försök igen."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr "Ledsen, automatisk inloggning fungerade inte. Försök igen."
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr "Ledsen, fingeravtrycksautentisering fungerade inte. Försök igen."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr "Ledsen, autentisering med smartkort fungerade inte. Försök igen."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Ledsen, det fungerade inte. Försök igen."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Ditt konto gavs en tidsgräns som nu har passerats."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "Användarnamn:"
 
-#: daemon/gdm-session-worker.c:1704 daemon/gdm-session-worker.c:1721
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "inget användarkonto tillgängligt"
 
-#: daemon/gdm-session-worker.c:1748
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "Kan inte byta till användaren"
 
-#: daemon/gdm-wayland-session.c:511
+#: daemon/gdm-wayland-session.c:531
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr "GNOME:s displayhanterares Wayland-sessionsstartare"
 
@@ -284,15 +263,15 @@ msgstr "GNOME:s displayhanterares Wayland-sessionsstartare"
 msgid "Could not create socket!"
 msgstr "Kunde inte skapa uttag!"
 
-#: daemon/gdm-x-session.c:859
+#: daemon/gdm-x-session.c:879
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "Kör program via omslagsskriptet /etc/gdm/Xsession"
 
-#: daemon/gdm-x-session.c:860
+#: daemon/gdm-x-session.c:880
 msgid "Listen on TCP socket"
 msgstr "Lyssna på TCP-uttag"
 
-#: daemon/gdm-x-session.c:872
+#: daemon/gdm-x-session.c:892
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "GNOME:s displayhanterares X-sessionsstartare"
 
@@ -508,6 +487,26 @@ msgstr "Skärmbild tagen"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Ta en bild av skärmen"
+
+#~ msgid ""
+#~ "The system is unable to determine whether to switch to an existing login "
+#~ "screen or start up a new login screen."
+#~ msgstr ""
+#~ "Systemet kan inte fastställa huruvida det ska växla till en befintlig "
+#~ "inloggningsskärm eller starta upp en ny inloggningsskärm."
+
+#~ msgid "The system is unable to start up a new login screen."
+#~ msgstr "Systemet kan inte starta upp en ny inloggningsskärm."
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "Du uppnådde maximala antalet försök med PIN-autentisering. Försök med en "
+#~ "annan metod"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr "Ledsen, PIN-autentisering fungerade inte. Försök igen."
 
 #~ msgid "Your password has expired, please change it now."
 #~ msgstr "Ditt lösenord har gått ut, ändra det nu."

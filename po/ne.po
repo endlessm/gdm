@@ -13,8 +13,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gnome Nepali Translation Project\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2021-02-25 19:41+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-05-01 08:35+0545\n"
 "Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
 "Language-Team: Nepali Translation Team <chautari@gmail.com>\n"
@@ -58,6 +58,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: ठेगपदवर्णन गर्न अक्षम"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom चारित्रिक यन्त्र होईन"
 
@@ -66,6 +67,7 @@ msgid "Could not identify the current session: "
 msgstr "हालको सेसन पहिचान गर्न सकिएन: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "हालको सिट पहिचान गर्न सकिएन."
 
@@ -76,12 +78,14 @@ msgstr "\"%s\" प्रयोगकर्ता फेला पार्न �
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal error. Please contact your "
-"system administrator or check your syslog to diagnose. In the meantime this display will be disabled.  "
-"Please restart GDM when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal "
+"error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM "
+"when the problem is corrected."
 msgstr ""
-"केहि आन्तरिक त्रुटि कारणले X सर्भर (तपाईँको ग्राफिकल परिवेश) सुरू गर्न सकिएन । कृपया तपाईँको प्रणाली प्रशासकसंगसम्पर्क "
-"राख्नुहोस् वा तपाईँको समस्या पहिचान गर्नका लागि सिस्लग जाँच गर्नुहोस्\n"
+"केहि आन्तरिक त्रुटि कारणले X सर्भर (तपाईँको ग्राफिकल परिवेश) सुरू गर्न सकिएन । कृपया "
+"तपाईँको प्रणाली प्रशासकसंगसम्पर्क राख्नुहोस् वा तपाईँको समस्या पहिचान गर्नका लागि सिस्लग "
+"जाँच गर्नुहोस्\n"
 "सोही समयमा यो प्रदर्शन अक्षम पारिनेछ\n"
 "समस्या सुधारिए पछि जिडिएम  पुन: चालु गर्नुहोस् ।."
 
@@ -109,42 +113,42 @@ msgstr "कलर जिडिएम होइन"
 msgid "Unable to open private communication channel"
 msgstr "निजी सञ्चार च्यानल खोल्न असमर्थ"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr "सर्भरलाई  %s बाट स्पाउन्ड् गरिएको छ तर त्यो प्रयोगकर्ता यहाँ अवस्थित छैन"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "%d मा समूह आइ डी सेट गर्न सकिएन"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "%s को लागि सुरुसमुह () असफल"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "%d मा प्रयोगकर्ता आइ डी सेट गर्न सकिएन"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "लग फाइल खोल्न सकेन: %s: %s!"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: %s देखि %sमा सेट गर्दा त्रुटि"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: सर्भरको प्राथमिकताहरू %d मा सेट हुन सक्दैन: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: %s प्रदर्शनका लागि खाली सर्भर आदेश"
@@ -173,71 +177,79 @@ msgstr "प्रदर्शन यन्त्र"
 msgid "The display device"
 msgstr "प्रदर्शन यन्त्र"
 
-#: daemon/gdm-session.c:1288
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "प्रमाणीकरण मद्दत प्रकिय बनाउन सकिएन"
 
-#: daemon/gdm-session-worker.c:750
-msgid "You reached the maximum password authentication attempts, please try another method"
-msgstr "तपाईँले अधिकतम पासवर्ड प्रमाणीकरण प्रयासमा पुग्नुभयो, कृपया अर्को विधि प्रयास गर्नुहोस्"
+#: daemon/gdm-session-worker.c:755
+msgid ""
+"You reached the maximum password authentication attempts, please try another "
+"method"
+msgstr ""
+"तपाईँले अधिकतम पासवर्ड प्रमाणीकरण प्रयासमा पुग्नुभयो, कृपया अर्को विधि प्रयास गर्नुहोस्"
 
-#: daemon/gdm-session-worker.c:753
-msgid "You reached the maximum PIN authentication attempts, please try another method"
-msgstr "तपाईँले अधिकतम PIN प्रमाणीकरण प्रयासमा पुग्नुभयो, कृपया अर्को विधि प्रयास गर्नुहोस्"
+#: daemon/gdm-session-worker.c:758
+msgid ""
+"You reached the maximum auto login attempts, please try another "
+"authentication method"
+msgstr ""
+"तपाईँले अधिकतम स्वचालित लगइन प्रयासमा पुग्नुभयो, कृपया अन्य प्रमाणीकरण विधि प्रयास "
+"गर्नुहोस्"
 
-#: daemon/gdm-session-worker.c:756
-msgid "You reached the maximum auto login attempts, please try another authentication method"
-msgstr "तपाईँले अधिकतम स्वचालित लगइन प्रयासमा पुग्नुभयो, कृपया अन्य प्रमाणीकरण विधि प्रयास गर्नुहोस्"
-
-#: daemon/gdm-session-worker.c:759
-msgid "You reached the maximum fingerprint authentication attempts, please try another method"
-msgstr "तपाईँले अधिकतम औठाछाप प्रमाणीकरण प्रयासमा पुग्नुभयो, कृपया अर्को विधि प्रयास गर्नुहोस्"
-
-#: daemon/gdm-session-worker.c:762
-msgid "You reached the maximum smart card authentication attempts, please try another method"
-msgstr "तपाईँले अधिकतम स्मार्ट कार्ड प्रमाणीकरण प्रयासमा पुग्नुभयो, कृपया अर्को विधि प्रयास गर्नुहोस् ।"
+#: daemon/gdm-session-worker.c:761
+msgid ""
+"You reached the maximum fingerprint authentication attempts, please try "
+"another method"
+msgstr ""
+"तपाईँले अधिकतम औठाछाप प्रमाणीकरण प्रयासमा पुग्नुभयो, कृपया अर्को विधि प्रयास गर्नुहोस्"
 
 #: daemon/gdm-session-worker.c:764
-msgid "You reached the maximum authentication attempts, please try another method"
+msgid ""
+"You reached the maximum smart card authentication attempts, please try "
+"another method"
+msgstr ""
+"तपाईँले अधिकतम स्मार्ट कार्ड प्रमाणीकरण प्रयासमा पुग्नुभयो, कृपया अर्को विधि प्रयास "
+"गर्नुहोस् ।"
+
+#: daemon/gdm-session-worker.c:766
+msgid ""
+"You reached the maximum authentication attempts, please try another method"
 msgstr "तपाईँले अधिकतम प्रमाणीकरण प्रयासमा पुग्नुभयो, कृपया अर्को विधि प्रयास गर्नुहोस्"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr "माफ गर्नुहोस्, पासवर्ड प्रमाणीकरणले काम गरेन । कृपया पुन: प्रयास गर्नुहोस् ।"
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr "माफ गर्नुहोस्, PIN प्रमाणीकरणले काम गरेन । कृपया पुन: प्रयास गर्नुहोस् ।"
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr "माफ गर्नुहोस्, स्वत: लगइनले काम गरेन । कृपया पुन: प्रयास गर्नुहोस् ।"
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr "माफ गर्नुहोस्, औठाछाप प्रमाणीकरणले काम गरेन । कृपया पुन: प्रयास गर्नुहोस् ।"
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr "माफ गर्नुहोस्, स्मार्ट कार्ड प्रमाणीकरणले काम गरेन । कृपया पुन: प्रयास गर्नुहोस् ।"
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "त्यो कार्य भएन : पुन प्रयास गर्नुस।."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "खाताको लागि तोकिएको समय समाप्त भयो ."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "प्रयोगकर्ता नाम:"
 
-#: daemon/gdm-session-worker.c:1711 daemon/gdm-session-worker.c:1728
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "प्रयोगकर्ता खाता उपलब्ध छैन"
 
-#: daemon/gdm-session-worker.c:1755
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "प्रयोगकर्ता परिवर्तन गर्न असक्षम"
 
@@ -327,8 +339,8 @@ msgstr "औठाछाप बाट लगईन गर्न दिने व�
 
 #: data/org.gnome.login-screen.gschema.xml:9
 msgid ""
-"The login screen can optionally allow users who have enrolled their fingerprints to log in using those "
-"prints."
+"The login screen can optionally allow users who have enrolled their "
+"fingerprints to log in using those prints."
 msgstr "ओँठाछाप दर्ता भएको प्रयोगकर्तालाई सो ओँठाछाप बाट लगईन गर्न अनुमति दिनुहोस् ।."
 
 #: data/org.gnome.login-screen.gschema.xml:16
@@ -336,7 +348,9 @@ msgid "Whether or not to allow smartcard readers for login"
 msgstr "स्मर्तकार्डबाट लगईन गर्न दिने या नदिने"
 
 #: data/org.gnome.login-screen.gschema.xml:19
-msgid "The login screen can optionally allow users who have smartcards to log in using those smartcards."
+msgid ""
+"The login screen can optionally allow users who have smartcards to log in "
+"using those smartcards."
 msgstr "स्मार्टकार्डबाट लगईन गर्न प्रयोगकर्तालाई अनुमति प्रदान गर्नुहोस् ."
 
 #: data/org.gnome.login-screen.gschema.xml:26
@@ -345,29 +359,32 @@ msgstr "लगईन गर्न पासवर्द अनुमति द�
 
 #: data/org.gnome.login-screen.gschema.xml:29
 msgid ""
-"The login screen can be configured to disallow password authentication, forcing the user to use "
-"smartcard or fingerprint authentication."
+"The login screen can be configured to disallow password authentication, "
+"forcing the user to use smartcard or fingerprint authentication."
 msgstr ""
-"लगइन पर्दाले पासवर्ड प्रमाणीकरण अस्वीकार गर्न कन्फिगर गर्न सक्छ, प्रयोगकर्तालाई स्मार्टकार्ड वा फिंगरप्रिन्ट प्रमाणीकरण "
-"प्रयोग गर्न जोड दिनुहोस्।"
+"लगइन पर्दाले पासवर्ड प्रमाणीकरण अस्वीकार गर्न कन्फिगर गर्न सक्छ, प्रयोगकर्तालाई "
+"स्मार्टकार्ड वा फिंगरप्रिन्ट प्रमाणीकरण प्रयोग गर्न जोड दिनुहोस्।"
 
-#: data/org.gnome.login-screen.gschema.xml:36 data/org.gnome.login-screen.gschema.xml:46
+#: data/org.gnome.login-screen.gschema.xml:36
+#: data/org.gnome.login-screen.gschema.xml:46
 msgid "Path to small image at top of user list"
 msgstr "प्रयोगकर्ता सुचिको माथि सानो छवि"
 
 #: data/org.gnome.login-screen.gschema.xml:39
 msgid ""
-"The login screen can optionally show a small image to provide site administrators and distributions a "
-"way to display branding."
-msgstr "लगइन पर्दा वैकल्पिक रूपमा एक सानो छविलाई साइट प्रशासकहरू र वितरणहरू  ब्रान्डिङ्ग गर्ने तरिका प्रदान गर्न सक्दछ।"
+"The login screen can optionally show a small image to provide site "
+"administrators and distributions a way to display branding."
+msgstr ""
+"लगइन पर्दा वैकल्पिक रूपमा एक सानो छविलाई साइट प्रशासकहरू र वितरणहरू  ब्रान्डिङ्ग गर्ने "
+"तरिका प्रदान गर्न सक्दछ।"
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
-"The fallback login screen can optionally show a small image to provide site administrators and "
-"distributions a way to display branding."
+"The fallback login screen can optionally show a small image to provide site "
+"administrators and distributions a way to display branding."
 msgstr ""
-"पछाडि लगइन पर्दाले साइट प्रशासकहरू प्रदान गर्न र ब्रान्डिङ प्रदर्शन गर्ने तरिकालाई प्रदान गर्न एक सानो छवि वैकल्पिक "
-"रूपमा देखाउन सक्छ।"
+"पछाडि लगइन पर्दाले साइट प्रशासकहरू प्रदान गर्न र ब्रान्डिङ प्रदर्शन गर्ने तरिकालाई प्रदान "
+"गर्न एक सानो छवि वैकल्पिक रूपमा देखाउन सक्छ।"
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -375,11 +392,11 @@ msgstr "प्रयोगकर्ता सुची नदेखाउनु�
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This setting can be toggled to "
-"disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This "
+"setting can be toggled to disable showing the user list."
 msgstr ""
-"लगइन पर्दा सामान्य रूपमा उपलब्ध प्रयोगकर्ताहरूको सूची को रूपमा लगइन गर्न देखाउँदछ। यो सेटिङ प्रयोगकर्ता सूची असक्षम गर्न "
-"टगल गर्न सकिन्छ।"
+"लगइन पर्दा सामान्य रूपमा उपलब्ध प्रयोगकर्ताहरूको सूची को रूपमा लगइन गर्न देखाउँदछ। यो "
+"सेटिङ प्रयोगकर्ता सूची असक्षम गर्न टगल गर्न सकिन्छ।"
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -411,9 +428,11 @@ msgstr "प्रमाणिकरण असफल कतिपटक गर्
 
 #: data/org.gnome.login-screen.gschema.xml:96
 msgid ""
-"The number of times a user is allowed to attempt authentication, before giving up and going back to "
-"user selection."
-msgstr "प्रयोगकर्ता चयनमा पछाडि जानु भन्दा पहिले, प्रयोगकर्तालाई प्रमाणीकरण प्रयास गर्न अनुमति दिइएको पटकको सङ्ख्या ।"
+"The number of times a user is allowed to attempt authentication, before "
+"giving up and going back to user selection."
+msgstr ""
+"प्रयोगकर्ता चयनमा पछाडि जानु भन्दा पहिले, प्रयोगकर्तालाई प्रमाणीकरण प्रयास गर्न अनुमति "
+"दिइएको पटकको सङ्ख्या ।"
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -431,7 +450,8 @@ msgstr "खालि VERSION आदेशमात्रै चलाउनम�
 msgid "COMMAND"
 msgstr "COMMAND"
 
-#: utils/gdmflexiserver.c:46 utils/gdmflexiserver.c:47 utils/gdmflexiserver.c:49 utils/gdmflexiserver.c:50
+#: utils/gdmflexiserver.c:46 utils/gdmflexiserver.c:47
+#: utils/gdmflexiserver.c:49 utils/gdmflexiserver.c:50
 msgid "Ignored — retained for compatibility"
 msgstr "बेवास्ता - अनुकूलता को लागि"
 
@@ -457,10 +477,19 @@ msgstr "स्क्रिनको तस्बिर लिइयो"
 msgid "Take a picture of the screen"
 msgstr "स्क्रिनको तस्वीर लिनुहोस्"
 
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "तपाईँले अधिकतम PIN प्रमाणीकरण प्रयासमा पुग्नुभयो, कृपया अर्को विधि प्रयास गर्नुहोस्"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr "माफ गर्नुहोस्, PIN प्रमाणीकरणले काम गरेन । कृपया पुन: प्रयास गर्नुहोस् ।"
+
 #, fuzzy
 #~ msgid ""
-#~ "The system is unable to determine whether to switch to an existing login screen or start up a new "
-#~ "login screen."
+#~ "The system is unable to determine whether to switch to an existing login "
+#~ "screen or start up a new login screen."
 #~ msgstr "हालको लगईन ।"
 
 #~ msgid "The system is unable to start up a new login screen."

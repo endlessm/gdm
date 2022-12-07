@@ -21,8 +21,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GDM master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2021-01-19 19:51+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-01-29 12:40+0100\n"
 "Last-Translator: Philipp Kiemle <philipp.kiemle@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
@@ -66,6 +66,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: Adresse konnte nicht verarbeitet werden"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom ist kein zeichenorientiertes Gerät"
 
@@ -74,20 +75,9 @@ msgid "Could not identify the current session: "
 msgstr "Aktuelle Sitzung konnte nicht identifiziert werden: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "Aktuelle Sitzung kann nicht identifiziert werden."
-
-#: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
-msgid ""
-"The system is unable to determine whether to switch to an existing login "
-"screen or start up a new login screen."
-msgstr ""
-"Das System kann nicht feststellen, ob zu einem existierenden "
-"Anmeldebildschirm gewechselt oder ein neuer gestartet werden soll."
-
-#: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
-msgid "The system is unable to start up a new login screen."
-msgstr "Das System kann keinen neuen Anmeldebildschirm starten."
 
 #: daemon/gdm-display-access-file.c:298
 #, c-format
@@ -131,44 +121,44 @@ msgstr "Aufruf nicht durch GDM"
 msgid "Unable to open private communication channel"
 msgstr "Es kann kein privater Kommunikationskanal geöffnet werden"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr ""
 "Server sollte für den Benutzer %s gestartet werden, aber dieser Benutzer "
 "existiert nicht"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "%d konnte nicht als Gruppenkennung festgelegt werden"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups () für %s gescheitert"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "%d konnte nicht als Benutzerkennung festgelegt werden"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: Protokolldatei für Anzeige %s konnte nicht geöffnet werden!"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: %s konnte nicht auf %s gesetzt werden"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: Priorität des Servers konnte nicht auf %d gesetzt werden: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Leerer Server-Befehl für Anzeige %s"
@@ -197,11 +187,11 @@ msgstr "Anzeigegerät"
 msgid "The display device"
 msgstr "Das Anzeigegerät"
 
-#: daemon/gdm-session.c:1285
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "Hilfsprozess zur Legitimierung konnte nicht erstellt werden"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
@@ -209,15 +199,7 @@ msgstr ""
 "Sie haben die maximale Anzahl an Passwort-Legitimierungsversuchen erreicht. "
 "Bitte versuchen Sie eine andere Legitimierungsmethode"
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr ""
-"Sie haben die maximale Anzahl an PIN-Legitimierungsversuchen erreicht. Bitte "
-"versuchen Sie eine andere Legitimierungsmethode"
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
@@ -225,7 +207,7 @@ msgstr ""
 "Sie haben die maximale Anzahl an automatischen Legitimierungsversuchen "
 "erreicht. Bitte versuchen Sie eine andere Legitimierungsmethode"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
@@ -233,7 +215,7 @@ msgstr ""
 "Sie haben die maximale Anzahl an Fingerabdruck-Legitimierungsversuchen "
 "erreicht. Bitte versuchen Sie eine andere Legitimierungsmethode"
 
-#: daemon/gdm-session-worker.c:762
+#: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
@@ -241,67 +223,62 @@ msgstr ""
 "Sie haben die maximale Anzahl an Schlüsselkarten-Legitimierungsversuchen "
 "erreicht. Bitte versuchen Sie eine andere Legitimierungsmethode"
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
 msgstr ""
 "Sie haben die maximale Anzahl an Legitimierungsversuchen erreicht. Bitte "
 "versuchen Sie eine andere Legitimierungsmethode"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr ""
 "Die Passwort-Legitimierung hat leider nicht geklappt. Bitte versuchen Sie es "
 "erneut."
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr ""
-"Die PIN-Legitimierung hat leider nicht geklappt. Bitte versuchen Sie es "
-"erneut."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr ""
 "Die automatische Anmeldung hat leider nicht geklappt. Bitte versuchen Sie es "
 "erneut."
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr ""
 "Die Fingerabdruck-Legitimierung hat leider nicht geklappt. Bitte versuchen "
 "Sie es erneut."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr ""
 "Die Schlüsselkarten-Legitimierung hat leider nicht geklappt. Bitte versuchen "
 "Sie es erneut."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr ""
 "Das hat leider nicht geklappt. Bitte\n"
 "versuchen Sie es erneut."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr ""
 "Ihrem Konto wurde eine Zeitbeschränkung auferlegt, die nun abgelaufen ist."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "Benutzername:"
 
-#: daemon/gdm-session-worker.c:1704 daemon/gdm-session-worker.c:1721
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "Kein Benutzerkonto verfügbar"
 
-#: daemon/gdm-session-worker.c:1748
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "Zum Benutzer konnte nicht gewechselt werden"
 
-#: daemon/gdm-wayland-session.c:511
+#: daemon/gdm-wayland-session.c:531
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr "Wayland-Sitzungsstarter für GNOME Display-Manager"
 
@@ -309,15 +286,15 @@ msgstr "Wayland-Sitzungsstarter für GNOME Display-Manager"
 msgid "Could not create socket!"
 msgstr "Socket konnte nicht angelegt werden!"
 
-#: daemon/gdm-x-session.c:859
+#: daemon/gdm-x-session.c:879
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "Programm über das Wrapper-Skript /etc/gdm/Xsession ausführen"
 
-#: daemon/gdm-x-session.c:860
+#: daemon/gdm-x-session.c:880
 msgid "Listen on TCP socket"
 msgstr "Auf TCP-Socket lauschen"
 
-#: daemon/gdm-x-session.c:872
+#: daemon/gdm-x-session.c:892
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "X-Sitzungsstarter für GNOME Display-Manager"
 
@@ -537,3 +514,25 @@ msgstr "Bildschirmfoto wurde aufgenommen"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Ein Foto des Bildschirminhalts aufnehmen"
+
+#~ msgid ""
+#~ "The system is unable to determine whether to switch to an existing login "
+#~ "screen or start up a new login screen."
+#~ msgstr ""
+#~ "Das System kann nicht feststellen, ob zu einem existierenden "
+#~ "Anmeldebildschirm gewechselt oder ein neuer gestartet werden soll."
+
+#~ msgid "The system is unable to start up a new login screen."
+#~ msgstr "Das System kann keinen neuen Anmeldebildschirm starten."
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "Sie haben die maximale Anzahl an PIN-Legitimierungsversuchen erreicht. "
+#~ "Bitte versuchen Sie eine andere Legitimierungsmethode"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr ""
+#~ "Die PIN-Legitimierung hat leider nicht geklappt. Bitte versuchen Sie es "
+#~ "erneut."

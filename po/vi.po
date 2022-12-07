@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2021-02-25 19:41+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-03-20 14:11+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <gnome-vi-list@gnome.org>\n"
@@ -54,6 +54,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XMDCP: Không thể phân tích địa chỉ"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom không phải là một thiết bị ký tự"
 
@@ -62,6 +63,7 @@ msgid "Could not identify the current session: "
 msgstr "Không thể nhận ra phiên bản đang chạy: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "Không thể nhận ra máy trạm này."
 
@@ -106,43 +108,43 @@ msgstr "Bên gọi không phải GDM"
 msgid "Unable to open private communication channel"
 msgstr "Không thể mở kênh truyền thông riêng"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr ""
 "Máy phục vụ được người dùng %s khởi tạo, nhưng người dùng đó không tồn tại"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "Không thể đặt mã số nhóm thành %d"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups () bị lỗi đối với %s"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "Không thể đặt mã số người dùng thành %d"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: Không thể mở tập tin ghi nhật ký cho thiết bị hiển thị %s!"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Gặp lỗi khi đặt %s thành %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: Không thể đặt mức ưu tiên của máy phục vụ thành %d: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Lệnh máy phục vụ rỗng cho thiết bị hiển thị %s"
@@ -171,11 +173,11 @@ msgstr "Thiết bị hiển thị"
 msgid "The display device"
 msgstr "Thiết bị hiển thị, v.d. màn hình"
 
-#: daemon/gdm-session.c:1288
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "Không thể tạo tiến trình trợ giúp xác thực"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
@@ -183,15 +185,7 @@ msgstr ""
 "Bạn đã đạt đến số lần thử xác thực mật khẩu tối đa, vui lòng thử một phương "
 "thức khác"
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr ""
-"Bạn đã đạt đến số lần thử xác thực PIN tối đa, vui lòng thử một phương thức "
-"khác"
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
@@ -199,7 +193,7 @@ msgstr ""
 "Bạn đã đạt đến số lần thử đăng nhập tự động tối đa, vui lòng thử một phương "
 "thức khác"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
@@ -207,7 +201,7 @@ msgstr ""
 "Bạn đã đạt đến số lần thử xác thực bằng dấu vân tay tối đa, vui lòng thử một "
 "phương thức khác"
 
-#: daemon/gdm-session-worker.c:762
+#: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
@@ -215,51 +209,48 @@ msgstr ""
 "Bạn đã đạt đến số lần thử xác thực bằng thẻ thông minh tối đa, vui lòng thử "
 "một phương thức khác"
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
 msgstr ""
 "Bạn đã đạt đến số lần thử xác thực tối đa, vui lòng thử một phương thức khác"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr "Rất tiếc, xác thực mật khẩu không làm việc. Hãy thử lại lần nữa."
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr "Rất tiếc, xác thực PIN không làm việc. Hãy thử lại lần nữa."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr "Rất tiếc, đăng nhập tự động không làm việc. Hãy thử lại lần nữa."
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr "Rất tiếc, xác thực bằng vân tay không làm việc. Hãy thử lại lần nữa."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr ""
 "Rất tiếc, xác thực bằng thẻ thông minh không làm việc. Hãy thử lại lần nữa."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Rất tiếc, nó không làm việc. Hãy thử lại lần nữa."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr ""
 "Tài khoản của bạn có đưa ra thời gian giới hạn, cái mà hiện tại đã vượt quá."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "Tài khoản:"
 
-#: daemon/gdm-session-worker.c:1711 daemon/gdm-session-worker.c:1728
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "không có sẵn tài khoản người dùng"
 
-#: daemon/gdm-session-worker.c:1755
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "Không thể chuyển đổi sang người dùng"
 
@@ -491,6 +482,16 @@ msgstr "Chụp màn hình"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Chụp ảnh từ màn hình"
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "Bạn đã đạt đến số lần thử xác thực PIN tối đa, vui lòng thử một phương "
+#~ "thức khác"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr "Rất tiếc, xác thực PIN không làm việc. Hãy thử lại lần nữa."
 
 #~ msgid ""
 #~ "The system is unable to determine whether to switch to an existing login "

@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm 3.40.x\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2021-02-25 19:41+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-03-13 17:08+0100\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
@@ -51,6 +51,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: Klarte ikke å tolke adresse"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom er ikke en tegnenhet"
 
@@ -59,6 +60,7 @@ msgid "Could not identify the current session: "
 msgstr "Klarte ikke å identifisere gjeldende økt: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "Klarte ikke å identifisere gjeldende sete."
 
@@ -103,42 +105,42 @@ msgstr "Kaller er ikke GDM"
 msgid "Unable to open private communication channel"
 msgstr "Klarte ikke å åpne privat kommunikasjonskanal"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr "Tjeneren skulle startes av bruker %s, men denne brukeren finnes ikke"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "Klarte ikke å velge %d som gruppe-ID"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups () mislyktes for %s"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "Klarte ikke å velge %d som bruker-id"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: Klarte ikke å åpne loggfil for skjerm %s!"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Feil under setting  av %s til %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: Klarte ikke å velge %d som tjenerprioritet. %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Tjenerkommandoen for skjerm %s er tom"
@@ -167,82 +169,84 @@ msgstr "Skjerm-enhet"
 msgid "The display device"
 msgstr "Skjermenheten"
 
-#: daemon/gdm-session.c:1288
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "Klarte ikke å lage hjelpeprosess for autentisering"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
-msgstr "Du har nådd maksimalt antall forsøk for autentisering med passord. Vennligst prøv en annen metode"
+msgstr ""
+"Du har nådd maksimalt antall forsøk for autentisering med passord. Vennligst "
+"prøv en annen metode"
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr "Du har nådd maksimalt antall forsøk for autentisering med PIN. Vennligst prøv en annen metode"
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
-msgstr "Du har nådd maksimalt antall forsøk for automatisk pålogging. Vennligst prøv en annen metode"
+msgstr ""
+"Du har nådd maksimalt antall forsøk for automatisk pålogging. Vennligst prøv "
+"en annen metode"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
-msgstr "Du har nådd maksimalt antall forsøk for autentisering med fingeravtrykk. Vennligst prøv en annen metode"
-
-#: daemon/gdm-session-worker.c:762
-msgid ""
-"You reached the maximum smart card authentication attempts, please try "
-"another method"
-msgstr "Du har nådd maksimalt antall forsøk for pålogging med smartkort. Vennligst prøv en annen metode"
+msgstr ""
+"Du har nådd maksimalt antall forsøk for autentisering med fingeravtrykk. "
+"Vennligst prøv en annen metode"
 
 #: daemon/gdm-session-worker.c:764
 msgid ""
-"You reached the maximum authentication attempts, please try another method"
-msgstr "Du har nådd maksimalt antall forsøk for autentisering. Vennligst prøv en annen metode"
+"You reached the maximum smart card authentication attempts, please try "
+"another method"
+msgstr ""
+"Du har nådd maksimalt antall forsøk for pålogging med smartkort. Vennligst "
+"prøv en annen metode"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:766
+msgid ""
+"You reached the maximum authentication attempts, please try another method"
+msgstr ""
+"Du har nådd maksimalt antall forsøk for autentisering. Vennligst prøv en "
+"annen metode"
+
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr "Beklager, men autentisering med passord fungerte ikke. Prøv igjen."
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr "Beklager, men autentisering med PIN fungerte ikke. Prøv igjen."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr "Beklager, men automatisk pålogging fungerte ikke. Prøv igjen."
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
-msgstr "Beklager, men autentisering med fingeravtrykk det fungerte ikke. Prøv igjen."
+msgstr ""
+"Beklager, men autentisering med fingeravtrykk det fungerte ikke. Prøv igjen."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr "Beklager, men autentisering med smartkort fungerte ikke. Prøv igjen."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Beklager, men det fungerte ikke. Prøv igjen."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Kontoen din ble gitt en tidsgrense som har gått ut nå."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "Brukernavn:"
 
-#: daemon/gdm-session-worker.c:1711 daemon/gdm-session-worker.c:1728
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "ingen brukerkonto tilgjengelig"
 
-#: daemon/gdm-session-worker.c:1755
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "Klarte ikke å bytte til bruker"
 
@@ -474,3 +478,13 @@ msgstr "Skjermbilde tatt"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Ta bilde av skjermen"
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "Du har nådd maksimalt antall forsøk for autentisering med PIN. Vennligst "
+#~ "prøv en annen metode"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr "Beklager, men autentisering med PIN fungerte ikke. Prøv igjen."

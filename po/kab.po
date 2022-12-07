@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm HEAD\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2021-10-01 08:39+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-11-24 07:43+0100\n"
 "Last-Translator: Slimane Selyan Amiri <selyan.kab@protonmail.com>\n"
 "Language-Team: GNOME Kabyle Team <yacine2953-tansa1@yahoo.fr>\n"
@@ -51,6 +51,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP : d awezɣi tasleḍt n tansa"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom mači d allal n isekkilen"
 
@@ -59,6 +60,7 @@ msgid "Could not identify the current session: "
 msgstr "D awezɣi asenkwu n tɣimit tamirant: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "D awezɣi asenkwu n teɣsert tamirant."
 
@@ -103,42 +105,42 @@ msgstr "Win yessawlen mači d GDM"
 msgid "Unable to open private communication channel"
 msgstr "D awezɣi tulya n terga n teɣwalt tusligt"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr "Aqeddac ilaq ad t-yesekker useqdac %s maca aseqdac-agi ulac-it"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "D awezɣi asbadu n groupid ɣer %d"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups () yerreẓ di %s"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "D awezɣi asbadu n userid ɣer %d"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s : d awezɣi tulya n uɣmis i webeqqeḍ n %s !"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s : anezri deg wesbadu n %s ɣer %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s : tazwart n uqeddac ulamek ara tettusbadu ɣer %d : %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s : anezḍay n uqeddac d ilem i webeqqeḍ n %s"
@@ -233,6 +235,7 @@ msgid "Username:"
 msgstr "Isem n useqdac :"
 
 #: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "ulac amiḍan n useqdac yewjeden"
 

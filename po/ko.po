@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2021-02-25 19:41+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-03-07 15:41+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
@@ -54,6 +54,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: 주소를 파싱할 수 없습니다"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom이 캐릭터 장치가 아닙니다"
 
@@ -62,6 +63,7 @@ msgid "Could not identify the current session: "
 msgstr "현재 세션을 구별할 수 없습니다: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "현재 자리를 구별할 수 없습니다."
 
@@ -105,42 +107,42 @@ msgstr "GDM에서 호출하지 않았습니다"
 msgid "Unable to open private communication channel"
 msgstr "안전한 통신 채널을 열 수 없습니다"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr "%s 사용자가 서버를 실행했지만 해당 사용자가 없습니다"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "그룹 아이디를 %d(으)로 맞출 수 없습니다"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "%s에 대해 initgroups () 실패"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "사용자 아이디를 %d(으)로 맞출 수 없습니다"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: 디스플레이 %s에 대한 기록 파일을 열지 못했습니다!"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: %s을(를) %s(으)로 설정하는 데 오류가 발생했습니다"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: server 우선순위를 %d(으)로 설정할 수 없습니다: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: 화면 %s에 비어있는 서버 명령"
@@ -169,82 +171,74 @@ msgstr "디스플레이 장치"
 msgid "The display device"
 msgstr "디스플레이 장치"
 
-#: daemon/gdm-session.c:1288
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "인증 도우미 프로세스를 만들지 못했습니다."
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
 msgstr "암호 인증 시도 최대 제한에 도달했습니다. 다른 방법을 시도해 보십시오"
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr "PIN 인증 시도 최대 제한에 도달했습니다. 다른 방법을 시도해 보십시오"
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
 msgstr "자동 로그인 시도 최대 제한에 도달했습니다. 다른 방법을 시도해 보십시오"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
 msgstr "지문 인증 시도 최대 제한에 도달했습니다. 다른 방법을 시도해 보십시오"
 
-#: daemon/gdm-session-worker.c:762
+#: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
-msgstr "스마트 카드 인증 시도 최대 제한에 도달했습니다. 다른 방법을 시도해 보십시오"
+msgstr ""
+"스마트 카드 인증 시도 최대 제한에 도달했습니다. 다른 방법을 시도해 보십시오"
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
 msgstr "인증 시도 최대 제한에 도달했습니다. 다른 방법을 시도해 보십시오"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr "죄송합니다. 암호 인증이 동작하지 않았습니다. 다시 시도하십시오."
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr "죄송합니다. PIN 인증이 동작하지 않았습니다. 다시 시도하십시오."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr "죄송합니다. 자동 로그인이 동작하지 않았습니다. 다시 시도하십시오."
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr "죄송합니다. 지문 인증이 동작하지 않았습니다. 다시 시도하십시오."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr "죄송합니다. 스마트 카드 인증이 동작하지 않습니다. 다시 시도하십시오."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "죄송합니다. 동작하지 않았습니다. 다시 시도하십시오."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "계정에 시간 제한이 걸려 있었고, 지금 그 제한이 지났습니다."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "사용자 이름:"
 
-#: daemon/gdm-session-worker.c:1711 daemon/gdm-session-worker.c:1728
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "사용자 계정이 없습니다"
 
-#: daemon/gdm-session-worker.c:1755
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "다른 사용자로 바꿀 수 없습니다"
 
@@ -472,6 +466,14 @@ msgstr "찍은 스크린샷"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "화면을 그림 파일로 잡습니다"
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr "PIN 인증 시도 최대 제한에 도달했습니다. 다른 방법을 시도해 보십시오"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr "죄송합니다. PIN 인증이 동작하지 않았습니다. 다시 시도하십시오."
 
 #~ msgid ""
 #~ "The system is unable to determine whether to switch to an existing login "

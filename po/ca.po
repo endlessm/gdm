@@ -13,8 +13,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm2 2.12\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2020-12-21 15:54+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2020-12-22 12:07+0100\n"
 "Last-Translator: Miquel-Àngel Burgos i Fradeja <miquel.angel.burgos@gmail."
 "com>\n"
@@ -59,6 +59,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: no s'ha pogut analitzar l'adreça"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "El /dev/urandom no és un dispositiu de caràcters"
 
@@ -67,20 +68,9 @@ msgid "Could not identify the current session: "
 msgstr "No s'ha pogut identificar la sessió actual: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "No s'ha pogut identificar el seient actual."
-
-#: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
-msgid ""
-"The system is unable to determine whether to switch to an existing login "
-"screen or start up a new login screen."
-msgstr ""
-"El sistema no pot determinar si canviar a una pantalla d'entrada existent o "
-"iniciar-ne una de nova."
-
-#: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
-msgid "The system is unable to start up a new login screen."
-msgstr "El sistema no pot iniciar una pantalla d'entrada nova."
 
 #: daemon/gdm-display-access-file.c:298
 #, c-format
@@ -124,43 +114,43 @@ msgstr "El que ha fet la crida no és el GDM"
 msgid "Unable to open private communication channel"
 msgstr "No s'ha pogut obrir un canal de comunicació privat"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr ""
 "L'usuari %s havia d'engendrar el servidor, però aquest usuari no existeix"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "No s'ha pogut definir el groupid com a %d"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "ha fallat l'initgroups () per a %s"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "No s'ha pogut definir l'userid com a %d"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: no s'ha pogut obrir el fitxer de registre per a la pantalla %s."
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: s'ha produït un error en establir %s a %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: no s'ha pogut establir la prioritat del servidor a %d: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: l'ordre del servidor per a la pantalla %s està buida"
@@ -189,11 +179,11 @@ msgstr "Dispositiu de pantalla"
 msgid "The display device"
 msgstr "El dispositiu de pantalla"
 
-#: daemon/gdm-session.c:1285
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "No s'ha pogut crear un procés auxiliar d'autenticació"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
@@ -201,15 +191,7 @@ msgstr ""
 "Heu assolit el nombre màxim d'intents d'autenticació de contrasenya. Proveu "
 "un altre mètode"
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr ""
-"Heu assolit el nombre màxim d'intents d'autenticació de PIN. Proveu un altre "
-"mètode"
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
@@ -217,7 +199,7 @@ msgstr ""
 "Heu assolit el nombre màxim d'intents d'inici de sessió automàtic. Proveu un "
 "altre mètode d'autenticació"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
@@ -225,7 +207,7 @@ msgstr ""
 "Heu assolit el nombre màxim d'intents d'autenticació d'empremta dactilar. "
 "Proveu un altre mètode"
 
-#: daemon/gdm-session-worker.c:762
+#: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
@@ -233,55 +215,52 @@ msgstr ""
 "Heu assolit el nombre màxim d'intents d'autenticació de targeta "
 "intel·ligent. Proveu un altre mètode"
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
 msgstr ""
 "Heu assolit el nombre màxim d'intents d'autenticació. Proveu un altre mètode"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr "L'autenticació de contrasenya no ha funcionat. Torneu-ho a provar."
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr "L'autenticació de PIN no ha funcionat. Torneu-ho a provar."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr "L'inici de sessió automàtic no ha funcionat. Torneu-ho a provar."
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr ""
 "L'autenticació d'empremta dactilar no ha funcionat. Torneu-ho a provar."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr ""
 "L'autenticació de targeta intel·ligent no ha funcionat. Torneu-ho a provar."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "S'ha produït algun error. Torneu-ho a provar."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "El compte tenia un temps límit que s'ha sobrepassat."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "Nom d'usuari:"
 
-#: daemon/gdm-session-worker.c:1704 daemon/gdm-session-worker.c:1721
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "no hi ha tal compte d'usuari disponible"
 
-#: daemon/gdm-session-worker.c:1748
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "No s'ha pogut commutar a aquest usuari"
 
-#: daemon/gdm-wayland-session.c:511
+#: daemon/gdm-wayland-session.c:531
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr "Llançador de la sessió Wayland del gestor de pantalla del GNOME"
 
@@ -289,15 +268,15 @@ msgstr "Llançador de la sessió Wayland del gestor de pantalla del GNOME"
 msgid "Could not create socket!"
 msgstr "No s'ha pogut crear el sòcol"
 
-#: daemon/gdm-x-session.c:859
+#: daemon/gdm-x-session.c:879
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "Executa el programa a través del script d'embolcall /etc/gdm/Xsession"
 
-#: daemon/gdm-x-session.c:860
+#: daemon/gdm-x-session.c:880
 msgid "Listen on TCP socket"
 msgstr "Escolta en el sòcol TCP"
 
-#: daemon/gdm-x-session.c:872
+#: daemon/gdm-x-session.c:892
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "Llançador de la sessió X del gestor de pantalla del GNOME"
 
@@ -519,6 +498,26 @@ msgstr "S'ha fet una captura de pantalla"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Fes una foto de la pantalla"
+
+#~ msgid ""
+#~ "The system is unable to determine whether to switch to an existing login "
+#~ "screen or start up a new login screen."
+#~ msgstr ""
+#~ "El sistema no pot determinar si canviar a una pantalla d'entrada existent "
+#~ "o iniciar-ne una de nova."
+
+#~ msgid "The system is unable to start up a new login screen."
+#~ msgstr "El sistema no pot iniciar una pantalla d'entrada nova."
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "Heu assolit el nombre màxim d'intents d'autenticació de PIN. Proveu un "
+#~ "altre mètode"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr "L'autenticació de PIN no ha funcionat. Torneu-ho a provar."
 
 #~ msgid "Your password has expired, please change it now."
 #~ msgstr "Ha expirat la contrasenya, l'heu de canviar ara."

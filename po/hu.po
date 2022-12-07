@@ -15,8 +15,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2020-12-21 15:54+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-01-19 20:49+0100\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
@@ -60,6 +60,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: A cím feldolgozása nem sikerült"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "a /dev/urandom nem karakteres eszköz"
 
@@ -68,20 +69,9 @@ msgid "Could not identify the current session: "
 msgstr "Nem sikerült azonosítani a jelenlegi munkamenetet: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "A jelenlegi hely nem azonosítható."
-
-#: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
-msgid ""
-"The system is unable to determine whether to switch to an existing login "
-"screen or start up a new login screen."
-msgstr ""
-"A rendszer nem képes megállapítani, hogy át kell-e váltani egy meglévő "
-"bejelentkezési képernyőre, vagy újat kell-e indítani."
-
-#: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
-msgid "The system is unable to start up a new login screen."
-msgstr "A rendszer nem képes új bejelentkezési képernyőt indítani."
 
 #: daemon/gdm-display-access-file.c:298
 #, c-format
@@ -123,44 +113,44 @@ msgstr "A hívó nem a GDM"
 msgid "Unable to open private communication channel"
 msgstr "Nem sikerült megnyitni a személyes kommunikációs csatornát"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr ""
 "A kiszolgálót a(z) %s felhasználónak kellene indítania, de ez a felhasználó "
 "nem létezik"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "Nem sikerült a csoportazonosítót %d értékre beállítani"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "az initgroups () meghiúsult a következőhöz: %s"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "Nem sikerült a felhasználói azonosítót %d értékre beállítani"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: Nem nyitható meg a(z) %s képernyőhöz tartozó naplófájl!"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Hiba a(z) %s beállítása közben a következőre: %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: A kiszolgáló prioritása nem állítható be %d értékre: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Üres kiszolgáló parancs a(z) %s képernyőre"
@@ -189,11 +179,11 @@ msgstr "Képernyő"
 msgid "The display device"
 msgstr "A képernyő"
 
-#: daemon/gdm-session.c:1285
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "Nem hozható létre a hitelesítési segédfolyamat"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
@@ -201,15 +191,7 @@ msgstr ""
 "Elérte a jelszavas hitelesítési próbálkozások korlátját, próbálkozzon másik "
 "módszerrel"
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr ""
-"Elérte a PIN-kódos hitelesítési próbálkozások korlátját, próbálkozzon másik "
-"módszerrel"
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
@@ -217,7 +199,7 @@ msgstr ""
 "Elérte az automatikus bejelentkezési próbálkozások korlátját, próbálkozzon "
 "másik hitelesítési módszerrel"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
@@ -225,7 +207,7 @@ msgstr ""
 "Elérte az ujjlenyomatos hitelesítési próbálkozások korlátját, próbálkozzon "
 "másik módszerrel"
 
-#: daemon/gdm-session-worker.c:762
+#: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
@@ -233,58 +215,50 @@ msgstr ""
 "Elérte az intelligenskártyás hitelesítési próbálkozások korlátját, "
 "próbálkozzon másik módszerrel"
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
 msgstr ""
 "Elérte a hitelesítési próbálkozások korlátját, próbálkozzon másik módszerrel"
 
-#: daemon/gdm-session-worker.c:771
-#| msgid "Sorry, that didn’t work. Please try again."
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr "Sajnos a jelszavas hitelesítés nem sikerült. Próbálja újra."
 
-#: daemon/gdm-session-worker.c:774
-#| msgid "Sorry, that didn’t work. Please try again."
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr "Sajnos a PIN-kódos hitelesítés nem sikerült. Próbálja újra."
-
-#: daemon/gdm-session-worker.c:777
-#| msgid "Sorry, that didn’t work. Please try again."
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr "Sajnos az automatikus bejelentkezés nem sikerült. Próbálja újra."
 
-#: daemon/gdm-session-worker.c:780
-#| msgid "Sorry, that didn’t work. Please try again."
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr "Sajnos az ujjlenyomatos hitelesítés nem sikerült. Próbálja újra."
 
-#: daemon/gdm-session-worker.c:783
-#| msgid "Sorry, that didn’t work. Please try again."
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr "Sajnos az intelligenskártyás hitelesítés nem sikerült. Próbálja újra."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Sajnos ez nem sikerült. Próbálja újra."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "A fiók időkorlátja letelt."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "Felhasználónév:"
 
-#: daemon/gdm-session-worker.c:1704 daemon/gdm-session-worker.c:1721
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "nem létezik felhasználói fiók"
 
-#: daemon/gdm-session-worker.c:1748
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "Nem lehet a felhasználóra váltani"
 
-#: daemon/gdm-wayland-session.c:511
+#: daemon/gdm-wayland-session.c:531
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr "GNOME bejelentkezéskezelő Wayland munkamenet-indító"
 
@@ -292,16 +266,16 @@ msgstr "GNOME bejelentkezéskezelő Wayland munkamenet-indító"
 msgid "Could not create socket!"
 msgstr "Nem hozható létre a foglalat!"
 
-#: daemon/gdm-x-session.c:859
+#: daemon/gdm-x-session.c:879
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr ""
 "Program futtatása a /etc/gdm/Xsession csomagoló-parancsfájlon keresztül"
 
-#: daemon/gdm-x-session.c:860
+#: daemon/gdm-x-session.c:880
 msgid "Listen on TCP socket"
 msgstr "Figyelés TCP foglalaton"
 
-#: daemon/gdm-x-session.c:872
+#: daemon/gdm-x-session.c:892
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "GNOME bejelentkezéskezelő X munkamenet-indító"
 
@@ -518,3 +492,24 @@ msgstr "A képernyőkép elkészült"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Kép készítése a képernyőről"
+
+#~ msgid ""
+#~ "The system is unable to determine whether to switch to an existing login "
+#~ "screen or start up a new login screen."
+#~ msgstr ""
+#~ "A rendszer nem képes megállapítani, hogy át kell-e váltani egy meglévő "
+#~ "bejelentkezési képernyőre, vagy újat kell-e indítani."
+
+#~ msgid "The system is unable to start up a new login screen."
+#~ msgstr "A rendszer nem képes új bejelentkezési képernyőt indítani."
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "Elérte a PIN-kódos hitelesítési próbálkozások korlátját, próbálkozzon "
+#~ "másik módszerrel"
+
+#~| msgid "Sorry, that didn’t work. Please try again."
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr "Sajnos a PIN-kódos hitelesítés nem sikerült. Próbálja újra."

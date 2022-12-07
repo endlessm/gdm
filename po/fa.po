@@ -12,8 +12,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2020-12-21 15:54+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-01-22 14:13+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Persian\n"
@@ -58,6 +58,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XMDCP: ناتوان در تجزیهٔ نشانی"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "پروندهٔ ‪/dev/urandom‬ یک دستگاه نویسه‌ای نیست"
 
@@ -66,20 +67,9 @@ msgid "Could not identify the current session: "
 msgstr "شناسایی نشست جاری ممکن نبود: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "شناسایی مقر جاری ممکن نبود."
-
-#: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
-msgid ""
-"The system is unable to determine whether to switch to an existing login screen "
-"or start up a new login screen."
-msgstr ""
-"سامانه قادر به تشخیص اینکه باید به صفحهٔ ورود به سامانه فعلی انتقال پیدا کند یا "
-"یک صفحهٔ ورود به سامانه جدید ایجاد کند نبود."
-
-#: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
-msgid "The system is unable to start up a new login screen."
-msgstr "سامانه قادر به راه‌اندازی یک صفحهٔ جدید ورود به سامانه نبود."
 
 #: daemon/gdm-display-access-file.c:298
 #, c-format
@@ -121,42 +111,42 @@ msgstr "فراخواننده GDM نیست"
 msgid "Unable to open private communication channel"
 msgstr "گشودن کانال ارتباط خصوصی امکان‌پذیر نبود"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr "کارساز قرار بود که با کاربر %s راه‌اندازی شود ولی این کاربر وجود ندارد"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "تنظیم شناسهٔ گروه به %Id ممکن نبود"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "تابع initgroups () برای %s شکست خورد"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "تنظیم شناسهٔ کاربر به %Id ممکن نبود"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: نمی‌توان پروندهٔ گزارش را برای نمایش %s گشود!"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: خطا در تنظیم %s به %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: اولویت کارساز نمی‌تواند به %Id تنظیم شود: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: دستور کارساز خالی برای نمایش %s"
@@ -185,84 +175,78 @@ msgstr "دستگاه نمایشگر"
 msgid "The display device"
 msgstr "دستگاه نمایشگر"
 
-#: daemon/gdm-session.c:1285
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "نمی‌توان فرایند یاریگر تأیید هویت را ساخت"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
 msgstr "به بیشینهٔ تلاش تأیید هویت با گذرواژه رسیدید. لطفاً روش دیگری برگزینید"
 
-#: daemon/gdm-session-worker.c:753
+#: daemon/gdm-session-worker.c:758
 msgid ""
-"You reached the maximum PIN authentication attempts, please try another method"
-msgstr "به بیشینهٔ تلاش تأیید هویت با پین رسیدید. لطفاً روش دیگری برگزینید"
-
-#: daemon/gdm-session-worker.c:756
-msgid ""
-"You reached the maximum auto login attempts, please try another authentication "
-"method"
+"You reached the maximum auto login attempts, please try another "
+"authentication method"
 msgstr "به بیشینهٔ تلاش ورود خودکار رسیدید. لطفاً روش تأیید هویت دیگری برگزینید"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
-"You reached the maximum fingerprint authentication attempts, please try another "
-"method"
+"You reached the maximum fingerprint authentication attempts, please try "
+"another method"
 msgstr "به بیشینهٔ تلاش تأیید هویت با اثر انگشت رسیدید. لطفاً روش دیگری برگزینید"
 
-#: daemon/gdm-session-worker.c:762
-msgid ""
-"You reached the maximum smart card authentication attempts, please try another "
-"method"
-msgstr "به بیشینهٔ تلاش تأیید هویت با کارت هوشمند رسیدید. لطفاً روش دیگری برگزینید"
-
 #: daemon/gdm-session-worker.c:764
-msgid "You reached the maximum authentication attempts, please try another method"
+msgid ""
+"You reached the maximum smart card authentication attempts, please try "
+"another method"
+msgstr ""
+"به بیشینهٔ تلاش تأیید هویت با کارت هوشمند رسیدید. لطفاً روش دیگری برگزینید"
+
+#: daemon/gdm-session-worker.c:766
+msgid ""
+"You reached the maximum authentication attempts, please try another method"
 msgstr "به بیشینهٔ تلاش تأیید هویت رسیدید. لطفاً روش دیگری برگزینید"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr "متأسّفانه تأیید هویت با گذرواژه کار نکرد. لطفاً دوباره تلاش کنید."
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr "متأسّفانه تأیید هویت با پین کار نکرد. لطفاً دوباره تلاش کنید."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr "متأسّفانه ورود خودکار کار نکرد. لطفاً دوباره تلاش کنید."
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr "متأسّفانه تأیید هویت با اثر انگشت کار نکرد. لطفاً دوباره تلاش کنید."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr "متأسّفانه تأیید هویت با کارت هوشمند کار نکرد. لطفاً دوباره تلاش کنید."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "متأسّفانه کار نکرد. لطفاً دوباره تلاش کنید."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "برای حساب شما یک محدودیت زمانی ثبت شده است که اکنون به پایان رسید."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "نام کاربر:"
 
-#: daemon/gdm-session-worker.c:1704 daemon/gdm-session-worker.c:1721
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "هیچ حساب کاربری موجود نیست"
 
-#: daemon/gdm-session-worker.c:1748
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "ناتوان در تعویض کاربر"
 
-#: daemon/gdm-wayland-session.c:511
+#: daemon/gdm-wayland-session.c:531
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr "اجراگر نشست وی‌لند مدیر نمایش گنوم"
 
@@ -270,15 +254,15 @@ msgstr "اجراگر نشست وی‌لند مدیر نمایش گنوم"
 msgid "Could not create socket!"
 msgstr "ایجادسوکت «%s» ممکن نیست!"
 
-#: daemon/gdm-x-session.c:859
+#: daemon/gdm-x-session.c:879
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "اجرای برنامه از طریق کدنوشته etc/gdm/Xsession/"
 
-#: daemon/gdm-x-session.c:860
+#: daemon/gdm-x-session.c:880
 msgid "Listen on TCP socket"
 msgstr "گوش‌دادن به سوکت TCP"
 
-#: daemon/gdm-x-session.c:872
+#: daemon/gdm-x-session.c:892
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "اجرا کنندهٔ نشست X مدیر نمایش گنوم"
 
@@ -351,8 +335,8 @@ msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
 msgstr ""
-"صفحهٔ ورود می‌تواند به صورت اختیاری به کاربرانی که اثر انگشتشان را ثبت کرده‌اند، "
-"اجازهٔ ورود با آن را بدهد."
+"صفحهٔ ورود می‌تواند به صورت اختیاری به کاربرانی که اثر انگشتشان را ثبت "
+"کرده‌اند، اجازهٔ ورود با آن را بدهد."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -360,11 +344,11 @@ msgstr "این که ورود با کارت هوشمند مجاز است یا ن�
 
 #: data/org.gnome.login-screen.gschema.xml:19
 msgid ""
-"The login screen can optionally allow users who have smartcards to log in using "
-"those smartcards."
+"The login screen can optionally allow users who have smartcards to log in "
+"using those smartcards."
 msgstr ""
-"صفحهٔ ورود می‌تواند به صورت اختیاری به کاربرانی که کارت هوشمند دارند، اجازهٔ ورود "
-"با آن را بدهد."
+"صفحهٔ ورود می‌تواند به صورت اختیاری به کاربرانی که کارت هوشمند دارند، اجازهٔ "
+"ورود با آن را بدهد."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -372,8 +356,8 @@ msgstr "این که ورود با گذرواژه مجاز است یا نه"
 
 #: data/org.gnome.login-screen.gschema.xml:29
 msgid ""
-"The login screen can be configured to disallow password authentication, forcing "
-"the user to use smartcard or fingerprint authentication."
+"The login screen can be configured to disallow password authentication, "
+"forcing the user to use smartcard or fingerprint authentication."
 msgstr ""
 "صفحهٔ ورود می‌تواند پیکربندی شود تا اجازهٔ تصدیق گذرواژه را  نداده و کاربر را "
 "مجبور به استفاده از کارت هوشمند یا اثر انگشت کند."
@@ -388,16 +372,16 @@ msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
 msgstr ""
-"صفحهٔ ورود می‌تواند به صورت اختیاری، تصویری کوچک نمایش داده تا راهی را برای نمایش "
-"علامت پایگاه‌ها و توزیع‌ها فراهم کند."
+"صفحهٔ ورود می‌تواند به صورت اختیاری، تصویری کوچک نمایش داده تا راهی را برای "
+"نمایش علامت پایگاه‌ها و توزیع‌ها فراهم کند."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
 msgstr ""
-"صفحهٔ ورود یدکی می‌تواند به صورت اختیاری، تصویری کوچک نمایش داده تا راهی را برای "
-"نمایش علامت پایگاه‌ها و توزیع‌ها فراهم کند."
+"صفحهٔ ورود یدکی می‌تواند به صورت اختیاری، تصویری کوچک نمایش داده تا راهی را "
+"برای نمایش علامت پایگاه‌ها و توزیع‌ها فراهم کند."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -434,8 +418,8 @@ msgstr "غیرفعال‌سازی نمایش دکمه‌های راه‌اندا
 #: data/org.gnome.login-screen.gschema.xml:87
 msgid "Set to true to disable showing the restart buttons in the login window."
 msgstr ""
-"روی درست تنظیم شود تا نمایش دکمهٔ «راه‌اندازی دوباره» در پنجرهٔ ورود به سیستم از "
-"کار بیافتد."
+"روی درست تنظیم شود تا نمایش دکمهٔ «راه‌اندازی دوباره» در پنجرهٔ ورود به سیستم "
+"از کار بیافتد."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -443,8 +427,8 @@ msgstr "تعداد مجاز شکست‌ها در تصدیق هویت"
 
 #: data/org.gnome.login-screen.gschema.xml:96
 msgid ""
-"The number of times a user is allowed to attempt authentication, before giving "
-"up and going back to user selection."
+"The number of times a user is allowed to attempt authentication, before "
+"giving up and going back to user selection."
 msgstr ""
 "تعداد دفعاتی که کاربر می‌تواند برای تصدیق‌هویت، قبل از بازگشت به قسمت انتخاب "
 "کاربر، تلاش کند."
@@ -465,8 +449,8 @@ msgstr "فقط دستور VERSION پشتیبانی می‌شود"
 msgid "COMMAND"
 msgstr "COMMAND"
 
-#: utils/gdmflexiserver.c:46 utils/gdmflexiserver.c:47 utils/gdmflexiserver.c:49
-#: utils/gdmflexiserver.c:50
+#: utils/gdmflexiserver.c:46 utils/gdmflexiserver.c:47
+#: utils/gdmflexiserver.c:49 utils/gdmflexiserver.c:50
 msgid "Ignored — retained for compatibility"
 msgstr "چشم‌پوشی شده - نگه داشته شده برای سازگاری"
 
@@ -491,6 +475,24 @@ msgstr "نماگرفت انجام شد"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "گرفتن عکسی از صفحه"
+
+#~ msgid ""
+#~ "The system is unable to determine whether to switch to an existing login "
+#~ "screen or start up a new login screen."
+#~ msgstr ""
+#~ "سامانه قادر به تشخیص اینکه باید به صفحهٔ ورود به سامانه فعلی انتقال پیدا "
+#~ "کند یا یک صفحهٔ ورود به سامانه جدید ایجاد کند نبود."
+
+#~ msgid "The system is unable to start up a new login screen."
+#~ msgstr "سامانه قادر به راه‌اندازی یک صفحهٔ جدید ورود به سامانه نبود."
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr "به بیشینهٔ تلاش تأیید هویت با پین رسیدید. لطفاً روش دیگری برگزینید"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr "متأسّفانه تأیید هویت با پین کار نکرد. لطفاً دوباره تلاش کنید."
 
 #~ msgid "Your password has expired, please change it now."
 #~ msgstr "گذرواژه شما منسوخ شده است، لطفا آن را هم‌اکنون تغییر دهید."

@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2021-02-09 20:09+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-04-10 21:51+0200\n"
 "Last-Translator: Matej Urbančič <mateju@src.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
@@ -57,6 +57,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: ni mogoče razčleniti naslova"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom ni znakovna naprava"
 
@@ -65,20 +66,9 @@ msgid "Could not identify the current session: "
 msgstr "Ni mogoče določiti trenutne seje: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "Ni mogoče določiti trenutne seje."
-
-#: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
-msgid ""
-"The system is unable to determine whether to switch to an existing login "
-"screen or start up a new login screen."
-msgstr ""
-"Ni mogoče določiti, ali naj se ustvari nov prijavni zaslon oziroma se "
-"preklopi na obstoječi prijavni zaslon."
-
-#: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
-msgid "The system is unable to start up a new login screen."
-msgstr "Ni mogoče začeti novega prijavnega zaslona."
 
 #: daemon/gdm-display-access-file.c:298
 #, c-format
@@ -121,43 +111,43 @@ msgstr "Klicalnik ni GDM"
 msgid "Unable to open private communication channel"
 msgstr "Ni mogoče odpreti zasebnega kanala za sporočanje"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr ""
 "Strežnik bi se moral zagnati ob prijavi uporabnika %s, vendar ta ne obstaja"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "Ni mogoče nastaviti vrednosti ID skupine na %d"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgrougs() je spodletel za %s"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "Ni mogoče nastaviti vrednosti ID uporabnika na %d"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: ni mogoče odpreti dnevniške datoteke za prikaz %s!"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: napaka med nastavljanjem %s na %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: prednosti strežnika ni mogoče nastaviti na %d: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: podan je prazen ukaz strežnika za zaslon %s"
@@ -186,11 +176,11 @@ msgstr "Naprava zaslona"
 msgid "The display device"
 msgstr "Naprava za prikazovanje"
 
-#: daemon/gdm-session.c:1285
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "Ni mogoče ustvariti opravila pomočnika overitve prijave"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
@@ -198,15 +188,7 @@ msgstr ""
 "Dosegli ste največje dovoljeno število poskusov overitve z geslom. Poskusite "
 "na drugi način."
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr ""
-"Dosegli ste največje dovoljeno število poskusov overitve s kodo PIN. "
-"Poskusite na drugi način."
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
@@ -214,7 +196,7 @@ msgstr ""
 "Dosegli ste največje dovoljeno število poskusov samodejne prijave. Poskusite "
 "na drugi način."
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
@@ -222,7 +204,7 @@ msgstr ""
 "Dosegli ste največje dovoljeno število poskusov overitve s prstnim odtisom. "
 "Poskusite na drugi način."
 
-#: daemon/gdm-session-worker.c:762
+#: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
@@ -230,54 +212,51 @@ msgstr ""
 "Dosegli ste največje dovoljeno število poskusov overitve s pametno kartico. "
 "Poskusite na drugi način."
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
 msgstr ""
 "Dosegli ste največje dovoljeno število poskusov overitve. Poskusite na drugi "
 "način."
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr "Overitev z geslom je spodletela. Poskusite znova."
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr "Overitev s kodo PIN je spodletela. Poskusite znova."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr "Samodejna prijava je spodletela. Poskusite znova."
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr "Overitev s prstnim odtisom je spodletela. Poskusite znova."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr "Overitev s pametno kartico je spodletela. Poskusite znova."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Dejanje je spodletelo. Poskusite znova."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Za račun je odobren omejen čas, ki je sedaj pretekel."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "Uporabniško ime:"
 
-#: daemon/gdm-session-worker.c:1704 daemon/gdm-session-worker.c:1721
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "na voljo ni nobenega uporabniškega računa"
 
-#: daemon/gdm-session-worker.c:1748
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "Ni mogoče zamenjati uporabnika"
 
-#: daemon/gdm-wayland-session.c:511
+#: daemon/gdm-wayland-session.c:531
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr "Zaganjalnik seje Wayland za zaslon GNOME"
 
@@ -285,15 +264,15 @@ msgstr "Zaganjalnik seje Wayland za zaslon GNOME"
 msgid "Could not create socket!"
 msgstr "Ni mogoče ustvariti vtiča!"
 
-#: daemon/gdm-x-session.c:859
+#: daemon/gdm-x-session.c:879
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "Zaženi program preko skripta zavijalnika /etc/gdm/Xsession"
 
-#: daemon/gdm-x-session.c:860
+#: daemon/gdm-x-session.c:880
 msgid "Listen on TCP socket"
 msgstr "Poslušaj vtič TCP"
 
-#: daemon/gdm-x-session.c:872
+#: daemon/gdm-x-session.c:892
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "Zaganjalnik seje X za zaslon GNOME"
 
@@ -507,6 +486,26 @@ msgstr "Zaslonska slika je zajeta"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Zajemanje zaslonske slike"
+
+#~ msgid ""
+#~ "The system is unable to determine whether to switch to an existing login "
+#~ "screen or start up a new login screen."
+#~ msgstr ""
+#~ "Ni mogoče določiti, ali naj se ustvari nov prijavni zaslon oziroma se "
+#~ "preklopi na obstoječi prijavni zaslon."
+
+#~ msgid "The system is unable to start up a new login screen."
+#~ msgstr "Ni mogoče začeti novega prijavnega zaslona."
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "Dosegli ste največje dovoljeno število poskusov overitve s kodo PIN. "
+#~ "Poskusite na drugi način."
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr "Overitev s kodo PIN je spodletela. Poskusite znova."
 
 #~ msgid "User unable to switch sessions."
 #~ msgstr "Ni mogoče preklopiti seje."

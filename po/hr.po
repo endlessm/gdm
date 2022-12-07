@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm2 0\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2021-02-25 19:41+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-02-26 12:16+0100\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
@@ -51,6 +51,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: Nemoguća obrada adrese"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom nije znakovni uređaj"
 
@@ -59,6 +60,7 @@ msgid "Could not identify the current session: "
 msgstr "Nemoguće otkrivanje trenutne sesije: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "Nemoguće identificirati trenutno sjedište."
 
@@ -103,42 +105,42 @@ msgstr "Pozivatelj nije GDM"
 msgid "Unable to open private communication channel"
 msgstr "Nemoguće otvaranje privatno kanala komunikacije"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr "Poslužitelj je stvorio korisnika %s, ali taj korisnik ne postoji"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "Nemoguće postavljanje id grupe na %d"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "pokretanje grupe () nije uspjelo za %s"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "Nemoguće postavljanje id korisnika na %d"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: Nemoguće otvaranje datoteke zapisa za zaslon %s!"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Greška pri postavljanju %s na %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: Prioritet poslužitelja se ne može postaviti na %d: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Prazna komanda poslužitelja za zaslon %s"
@@ -167,11 +169,11 @@ msgstr "Uređaj zaslona"
 msgid "The display device"
 msgstr "Uređaj zaslona"
 
-#: daemon/gdm-session.c:1288
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "Nemoguće stvaranje procesa pomoći ovjere"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
@@ -179,15 +181,7 @@ msgstr ""
 "Dosegli ste najviše dopuštenih pokušaja ovjere lozinkom, pokušajte drugim "
 "načinom"
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr ""
-"Dosegli ste najviše dopuštenih pokušaja ovjere PIN-om, pokušajte drugim "
-"načinom"
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
@@ -195,7 +189,7 @@ msgstr ""
 "Dosegli ste najviše dopuštenih automatskih pokušaja ovjere lozinkom, "
 "pokušajte drugim načinom"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
@@ -203,7 +197,7 @@ msgstr ""
 "Dosegli ste najviše dopuštenih pokušaja ovjere otiskom, pokušajte drugim "
 "načinom"
 
-#: daemon/gdm-session-worker.c:762
+#: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
@@ -211,49 +205,46 @@ msgstr ""
 "Dosegli ste najviše dopuštenih pokušaja ovjere pametnom karticom, pokušajte "
 "drugim načinom"
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
 msgstr ""
 "Dosegli ste najviše dopuštenih pokušaja ovjere, pokušajte drugim načinom"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr "Nažalost, ovjera lozinkom ne radi. Pokušajte ponovno."
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr "Nažalost, ovjera PIN-om ne radi. Pokušajte ponovno."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr "Nažalost, automatska prijava ne radi. Pokušajte ponovno."
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr "Nažalost, ovjera otiskom ne radi. Pokušajte ponovno."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr "Nažalost, ovjera pametnom karticom ne radi. Pokušajte ponovno."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Nažalost, to ne radi. Pokušajte ponovno."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Vašem računu dano je vremensko ograničenje koje je sada isteklo."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "Korisničko ime:"
 
-#: daemon/gdm-session-worker.c:1711 daemon/gdm-session-worker.c:1728
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "nema dostupnih korisničkih računa"
 
-#: daemon/gdm-session-worker.c:1755
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "Nemoguća promjena korisnika"
 
@@ -488,6 +479,16 @@ msgstr "Zaslon uslikan"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Uslikaj sliku zaslona"
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "Dosegli ste najviše dopuštenih pokušaja ovjere PIN-om, pokušajte drugim "
+#~ "načinom"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr "Nažalost, ovjera PIN-om ne radi. Pokušajte ponovno."
 
 #~ msgid ""
 #~ "The system is unable to determine whether to switch to an existing login "

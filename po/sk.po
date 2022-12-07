@@ -11,8 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2021-04-18 20:54+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-04-19 09:41+0200\n"
 "Last-Translator: Matej Mrenica <matejm98mthw@gmail.com>\n"
 "Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
@@ -62,6 +62,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: Nepodarilo sa analyzovať adresu"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom nie je znakové zariadenie"
 
@@ -70,6 +71,7 @@ msgid "Could not identify the current session: "
 msgstr "Nepodarilo sa identifikovať aktuálnu reláciu: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "Nepodarilo sa rozpoznať aktuálne sedenie."
 
@@ -114,45 +116,45 @@ msgstr "Volajúci nie je GDM"
 msgid "Unable to open private communication channel"
 msgstr "Nepodarilo sa otvoriť súkromný komunikačný kanál"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr "Server mal byť spustený používateľom %s, taký ale neexistuje"
 
 # PK: prekladat alebo neprekladat? identifikator skupiny
 # DK: kludne moze byt prelozeny-neni obmedzenie na pocet znakov ako napr. v tabulke kde je lepsie nechat ID
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "Nepodarilo sa nastaviť identifikátor skupiny na %d"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups () zlyhalo pre %s"
 
 #  PK: prekladat alebo neprekladat? identifikator pouzivatela
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "Nepodarilo sa nastaviť identifikátor používateľa na %d"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: Nepodarilo sa otvoriť súbor so záznamom pre displej %s!"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Chyba pri nastavovaní %s na %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: Priorita servera nemohla byť nastavená na %d: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Prázdny príkaz servera pre displej %s"
@@ -181,11 +183,11 @@ msgstr "Zariadenie displeja"
 msgid "The display device"
 msgstr "Zariadenie pre displej"
 
-#: daemon/gdm-session.c:1288
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "Nepodarilo sa vytvoriť proces pomocníka pre overenie totožnosti"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
@@ -193,15 +195,7 @@ msgstr ""
 "Dosiahli ste maximálny počet pokusov o overenie totožnosti pomocou hesla, "
 "prosím, skúste inú metódu"
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr ""
-"Dosiahli ste maximálny počet pokusov o overenie totožnosti pomocou kódu PIN, "
-"prosím, skúste inú metódu"
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
@@ -209,7 +203,7 @@ msgstr ""
 "Dosiahli ste maximálny počet pokusov o automatické prihlásenie, prosím, "
 "skúste inú metódu overenia"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
@@ -217,7 +211,7 @@ msgstr ""
 "Dosiahli ste maximálny počet pokusov o overenie totožnosti pomocou odtlačku "
 "prsta, prosím, skúste inú metódu"
 
-#: daemon/gdm-session-worker.c:762
+#: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
@@ -225,59 +219,54 @@ msgstr ""
 "Dosiahli ste maximálny počet pokusov o overenie totožnosti pomocou smart "
 "karty, prosím, skúste inú metódu"
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
 msgstr ""
 "Dosiahli ste maximálny počet pokusov o overenie totožnosti, prosím, skúste "
 "inú metódu"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr ""
 "Prepáčte, overenie totožnosti pomocou hesla nefungovalo. Prosím, skúste to "
 "znovu."
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr ""
-"Prepáčte, overenie totožnosti pomocou PIN kódu nefungovalo. Prosím, skúste "
-"to znovu."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr ""
 "Prepáčte, automatické prihlásenie nefungovalo. Prosím, skúste to znovu."
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr ""
 "Prepáčte, overenie totožnosti pomocou odtlačku prstu nefungovalo. Prosím, "
 "skúste to znovu."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr ""
 "Prepáčte, overenie totožnosti pomocou smart karty nefungovalo. Prosím, "
 "skúste to znovu."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Prepáčte, toto nefungovalo. Prosím, skúste to znovu."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Vášmu účtu bol pridelený časový limit, ktorý práve teraz vypršal."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "Používateľské meno:"
 
-#: daemon/gdm-session-worker.c:1711 daemon/gdm-session-worker.c:1728
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "nie je k dispozícií žiaden používateľský účet"
 
-#: daemon/gdm-session-worker.c:1755
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "Nepodarilo sa zmeniť na používateľa"
 
@@ -524,6 +513,18 @@ msgstr "Obrazovka zosnímaná"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Vytvorí snímku obrazovky"
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "Dosiahli ste maximálny počet pokusov o overenie totožnosti pomocou kódu "
+#~ "PIN, prosím, skúste inú metódu"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr ""
+#~ "Prepáčte, overenie totožnosti pomocou PIN kódu nefungovalo. Prosím, "
+#~ "skúste to znovu."
 
 #~ msgid ""
 #~ "The system is unable to determine whether to switch to an existing login "

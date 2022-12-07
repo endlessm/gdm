@@ -17,8 +17,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2020-12-21 15:54+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-02-21 15:30+0200\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
 "Language-Team: suomi <lokalisointi-lista@googlegroups.com>\n"
@@ -63,6 +63,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: Osoitteen jäsennys epäonnistui"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom ei ole merkkilaite"
 
@@ -71,20 +72,9 @@ msgid "Could not identify the current session: "
 msgstr "Nykyistä istuntoa ei voitu tunnistaa: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "Tämänhetkistä istuinta ei voitu tunnistaa."
-
-#: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
-msgid ""
-"The system is unable to determine whether to switch to an existing login "
-"screen or start up a new login screen."
-msgstr ""
-"Järjestelmä ei kykene päättämään, pitäisikö vaihtaa olemassa olevaan "
-"kirjautumisruutuun vai käynnistää uusi."
-
-#: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
-msgid "The system is unable to start up a new login screen."
-msgstr "Järjestelmä ei kykene käynnistämään uutta kirjautumisruutua."
 
 #: daemon/gdm-display-access-file.c:298
 #, c-format
@@ -127,42 +117,42 @@ msgstr "Kutsuja ei ole GDM"
 msgid "Unable to open private communication channel"
 msgstr "Yksityisen kommunikaatiokanavan avaaminen epäonnistui"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr "Palvelin käynnistettiin käyttäjänä %s, mutta käyttäjää ei ole olemassa"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "Ryhmätunnistetta ei voitu asettaa arvoon %d"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups() epäonnistui %s:lle"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "Käyttäjätunnistetta ei voitu asettaa arvoon %d"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: Näytön %s lokitiedostoa ei voi avata."
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Virhe asetettaessa %s arvoon %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: Palvelimen prioriteettia ei voitu asettaa arvoon %d: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Tyhjä palvelinkomento näytölle %s"
@@ -191,11 +181,11 @@ msgstr "Näyttölaite"
 msgid "The display device"
 msgstr "Näyttölaite"
 
-#: daemon/gdm-session.c:1285
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "Tunnistautumisen avustusprosessin luominen ei onnistunut"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
@@ -203,15 +193,7 @@ msgstr ""
 "Enimmäismäärä tunnistautumisyrityksiä salasanalla on täynnä. Yritä "
 "tunnistautumista toisella tavalla"
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr ""
-"Enimmäismäärä tunnistautumisyrityksiä PIN-koodilla on täynnä. Yritä "
-"tunnistautumista toisella tavalla"
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
@@ -219,7 +201,7 @@ msgstr ""
 "Enimmäismäärä automaattisen kirjautumisen yrityksiä on täynnä. Yritä "
 "tunnistautumista toisella tavalla"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
@@ -227,7 +209,7 @@ msgstr ""
 "Enimmäismäärä tunnistautumisyrityksiä sormenjäljellä on täynnä. Yritä "
 "tunnistautumista toisella tavalla"
 
-#: daemon/gdm-session-worker.c:762
+#: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
@@ -235,59 +217,55 @@ msgstr ""
 "Enimmäismäärä tunnistautumisyrityksiä älykortilla on täynnä. Yritä "
 "tunnistautumista toisella tavalla"
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
 msgstr ""
 "Enimmäismäärä tunnistautumisyrityksiä on täynnä. Yritä tunnistautumista "
 "toisella tavalla"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr ""
 "Valitettavasti tunnistautuminen salasanalla ei toiminut. Yritä uudelleen."
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr ""
-"Valitettavasti tunnistautuminen PIN-koodilla ei toiminut. Yritä uudelleen."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr ""
 "Valitettavasti automaattinen kirjautuminen ei toiminut. Yritä uudelleen."
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr ""
 "Valitettavasti tunnistautuminen sormenjäljellä ei toiminut. Yritä uudelleen."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr ""
 "Valitettavasti tunnistautuminen älykortilla ei toiminut. Yritä uudelleen."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Valitettavasti se ei kelvannut. Yritä uudelleen."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Tunnuksellesi annettiin aikaraja, joka on nyt umpeutunut."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "Käyttäjätunnus:"
 
-#: daemon/gdm-session-worker.c:1704 daemon/gdm-session-worker.c:1721
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "käyttäjätiliä ei ole käytettävissä"
 
-#: daemon/gdm-session-worker.c:1748
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "Käyttäjää ei voitu vaihtaa"
 
-#: daemon/gdm-wayland-session.c:511
+#: daemon/gdm-wayland-session.c:531
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr "Gnomen kirjautumisikkunan Wayland-istunnon käynnistäjä"
 
@@ -295,15 +273,15 @@ msgstr "Gnomen kirjautumisikkunan Wayland-istunnon käynnistäjä"
 msgid "Could not create socket!"
 msgstr "Pistokkeen luonti epäonnistui!"
 
-#: daemon/gdm-x-session.c:859
+#: daemon/gdm-x-session.c:879
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "Suorita ohjelma /etc/gdm/Xsession-wrapperiskriptin kautta"
 
-#: daemon/gdm-x-session.c:860
+#: daemon/gdm-x-session.c:880
 msgid "Listen on TCP socket"
 msgstr "Kuuntele TCP-sockettia"
 
-#: daemon/gdm-x-session.c:872
+#: daemon/gdm-x-session.c:892
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "Gnomen kirjautumisikkunan X-istunnon käynnistäjä"
 
@@ -519,6 +497,27 @@ msgstr "Kuvakaappaus otettu"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Kaappaa kuva näytöstä"
+
+#~ msgid ""
+#~ "The system is unable to determine whether to switch to an existing login "
+#~ "screen or start up a new login screen."
+#~ msgstr ""
+#~ "Järjestelmä ei kykene päättämään, pitäisikö vaihtaa olemassa olevaan "
+#~ "kirjautumisruutuun vai käynnistää uusi."
+
+#~ msgid "The system is unable to start up a new login screen."
+#~ msgstr "Järjestelmä ei kykene käynnistämään uutta kirjautumisruutua."
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "Enimmäismäärä tunnistautumisyrityksiä PIN-koodilla on täynnä. Yritä "
+#~ "tunnistautumista toisella tavalla"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr ""
+#~ "Valitettavasti tunnistautuminen PIN-koodilla ei toiminut. Yritä uudelleen."
 
 #~ msgid "Your password has expired, please change it now."
 #~ msgstr "Salasanasi on vanhentunut, vaihda se nyt."

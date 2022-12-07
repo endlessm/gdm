@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm HEAD\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2021-05-09 18:55+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-05-09 20:53+0200\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Tot En Òc\n"
@@ -52,6 +52,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP : impossible d'analisar l'adreça"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom es pas un periferic de caractèrs"
 
@@ -60,6 +61,7 @@ msgid "Could not identify the current session: "
 msgstr "Impossible d'identificar la session actuala : "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "Impossible d'identificar lo pòste actual."
 
@@ -104,45 +106,45 @@ msgstr "L'apelant es pas GDM"
 msgid "Unable to open private communication channel"
 msgstr "Impossible de dobrir un canal de comunicacion privat"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr ""
 "Lo servidor deviá èsser aviat per l’utilizaire %s mas aqueste utilizaire "
 "existís pas"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "Impossible de definir l’identificador del grop a %d"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups () a fracassat per %s"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "Impossible de definir l’identificador de l’utilizaire a %d"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr ""
 "%s : impossible de dobrir lo fichièr de jornalizacion per l'afichatge %s !"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s : error al moment de la definicion de %s a %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s : la prioritat del servidor pòt pas èsser fixada a %d : %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s : comanda de servidor voida per l'afichatge %s"
@@ -171,11 +173,11 @@ msgstr "Periferic d'afichatge"
 msgid "The display device"
 msgstr "Lo periferic d'afichatge"
 
-#: daemon/gdm-session.c:1288
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "Impossible de crear un processus assistent d'autentificacion"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
@@ -183,15 +185,7 @@ msgstr ""
 "Avètz atengut lo nombre maximal d’ensages per l’autentificacion via senhal, "
 "ensajatz un autre metòde"
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr ""
-"Avètz atengut lo nombre maximal d’ensages per l’autentificacion PIN, "
-"ensajatz un autre metòde"
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
@@ -199,7 +193,7 @@ msgstr ""
 "vètz atengut lo nombre maximal d’ensages per l’autentificacion automatica, "
 "ensajatz un autre metòde"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
@@ -207,7 +201,7 @@ msgstr ""
 "Avètz atengut lo nombre maximal d’ensages per l’autentificacion via detadas, "
 "ensajatz un autre metòde"
 
-#: daemon/gdm-session-worker.c:762
+#: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
@@ -215,50 +209,47 @@ msgstr ""
 "Avètz atengut lo nombre maximal d’ensages per l’autentificacion via carta, "
 "ensajatz un autre metòde"
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
 msgstr ""
 "Avètz atengut lo nombre maximal d’ensages per l’autentificacion, ensajatz un "
 "autre metòde"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr " L’autentificacion via senhal a pas foncionat. Tornatz ensajar. "
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr "L’autentificacion via PIN a pas foncionat. Tornatz ensajar."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr " L’autentificacion automatica a pas foncionat. Tornatz ensajar. "
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr "L’autentificacion via detadas a pas foncionat. Tornatz ensajar."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr "L’autentificacion via carta a pas foncionat. Tornatz ensajar."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "O planhèm, aquò a pas foncionat. Reensajatz."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Vòstre compte a un limit de temps qu'es ara escasut."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "Identificant :"
 
-#: daemon/gdm-session-worker.c:1711 daemon/gdm-session-worker.c:1728
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "cap de compte d'utilizaire pas disponible"
 
-#: daemon/gdm-session-worker.c:1755
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "Impossible de cambiar cap a l'utilizaire"
 
@@ -502,6 +493,16 @@ msgstr "Captura d'ecran efectuada"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Efectua una captura de l'ecran"
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "Avètz atengut lo nombre maximal d’ensages per l’autentificacion PIN, "
+#~ "ensajatz un autre metòde"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr "L’autentificacion via PIN a pas foncionat. Tornatz ensajar."
 
 #~ msgid ""
 #~ "The system is unable to determine whether to switch to an existing login "

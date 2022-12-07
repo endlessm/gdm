@@ -10,8 +10,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2020-12-21 15:54+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2021-01-15 02:26+0100\n"
 "Last-Translator: Марко М. Костић <marko.m.kostic@gmail.com>\n"
 "Language-Team: српски <gnome-sr@googlegroups.org>\n"
@@ -57,6 +57,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "ХДМЦП: Не могу да отворим адресу"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "„/dev/urandom“ није означени уређај"
 
@@ -65,20 +66,9 @@ msgid "Could not identify the current session: "
 msgstr "Не могу да одредим текућу сесију: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "Не могу да одредим текуће седиште."
-
-#: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
-msgid ""
-"The system is unable to determine whether to switch to an existing login "
-"screen or start up a new login screen."
-msgstr ""
-"Систем не може да одреди да ли да се пребаци на постојећи или да покрене "
-"нови екран пријављивања."
-
-#: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
-msgid "The system is unable to start up a new login screen."
-msgstr "Систем не може да покрене нови екран пријављивања."
 
 #: daemon/gdm-display-access-file.c:298
 #, c-format
@@ -121,43 +111,43 @@ msgstr "Позивник није ГДМ"
 msgid "Unable to open private communication channel"
 msgstr "Не могу да отворим приватни канал комуникације"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr ""
 "Требало је да се сервер прикаже за корисника %s, али тај корисник не постоји"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "Не могу да поставим иб групе на %d"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups () за %s није успео"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "Не могу да поставим иб корисника на %d"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: Не могу да отворим датотеку дневника за екран %s!"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Грешка при постављању %s на %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: Приоритет сервера не може бити постављен на вредност %d: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Празна наредба сервера за екран %s"
@@ -186,11 +176,11 @@ msgstr "Екран"
 msgid "The display device"
 msgstr "Уређај за приказ"
 
-#: daemon/gdm-session.c:1285
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "Не могу да направим процес помоћника потврђивања идентитета"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
@@ -198,15 +188,7 @@ msgstr ""
 "Досегли сте ограничење за највише покушаја пријављивања лозинком, покушајте "
 "другачији начин"
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr ""
-"Досегли сте ограничење за највише покушаја пријављивања преко ПИН-а, "
-"покушајте другачији начин"
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
@@ -214,7 +196,7 @@ msgstr ""
 "Досегли сте ограничење за највише покушаја самосталног пријављивања, "
 "покушајте другачији начин"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
@@ -222,7 +204,7 @@ msgstr ""
 "Досегли сте ограничење за највише покушаја пријаве уз помоћ отиска прста, "
 "покушајте другачији начин"
 
-#: daemon/gdm-session-worker.c:762
+#: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
@@ -230,55 +212,52 @@ msgstr ""
 "Досегли сте ограничење за највише покушаја пријаве преко паметне картице, "
 "покушајте другачији начин"
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
 msgstr ""
 "Досегли сте ограничење за највише покушаја пријављивања, покушајте другачији "
 "начин"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr "Нажалост, идентификовање лозинком није успело. Покушајте поново."
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr "Нажалост, идентификовање ПИН-ом није успело. Покушајте поново."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr "Нажалост, самостално пријављивање није успело. Покушајте поново."
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr "Нажалост, идентификовање отиском прста није успело. Покушајте поново."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr ""
 "Нажалост, идентификовање паметном картицом није успело. Покушајте поново."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Погрешили сте! Покушајте поново."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Вашем налогу је дато временско ограничење које је сада прошло."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "Корисничко име:"
 
-#: daemon/gdm-session-worker.c:1704 daemon/gdm-session-worker.c:1721
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "нема доступног корисничког налога"
 
-#: daemon/gdm-session-worker.c:1748
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "Не могу да променим корисника"
 
-#: daemon/gdm-wayland-session.c:511
+#: daemon/gdm-wayland-session.c:531
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr "Покретач Вејланд сесије Гномовог управника приказа"
 
@@ -286,15 +265,15 @@ msgstr "Покретач Вејланд сесије Гномовог управ
 msgid "Could not create socket!"
 msgstr "Не могу да направим прикључницу!"
 
-#: daemon/gdm-x-session.c:859
+#: daemon/gdm-x-session.c:879
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "Покрени програм помоћу скрипте „/etc/gdm/Xsession“ омотача"
 
-#: daemon/gdm-x-session.c:860
+#: daemon/gdm-x-session.c:880
 msgid "Listen on TCP socket"
 msgstr "Ослушкуј на ТЦП прикључници"
 
-#: daemon/gdm-x-session.c:872
+#: daemon/gdm-x-session.c:892
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "Покретач Икс сесије Гномовог управника приказа"
 
@@ -512,6 +491,26 @@ msgstr "Снимак екрана је урађен"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Прави снимак екрана вашег радног окружења"
+
+#~ msgid ""
+#~ "The system is unable to determine whether to switch to an existing login "
+#~ "screen or start up a new login screen."
+#~ msgstr ""
+#~ "Систем не може да одреди да ли да се пребаци на постојећи или да покрене "
+#~ "нови екран пријављивања."
+
+#~ msgid "The system is unable to start up a new login screen."
+#~ msgstr "Систем не може да покрене нови екран пријављивања."
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "Досегли сте ограничење за највише покушаја пријављивања преко ПИН-а, "
+#~ "покушајте другачији начин"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr "Нажалост, идентификовање ПИН-ом није успело. Покушајте поново."
 
 #~ msgid "Your password has expired, please change it now."
 #~ msgstr "Ваша лозинка је истекла, промените је."

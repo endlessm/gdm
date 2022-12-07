@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm2\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
-"POT-Creation-Date: 2020-12-21 15:54+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-07 15:28-0700\n"
 "PO-Revision-Date: 2020-12-26 06:18+0100\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: FRIULIAN <massimo.furlani@libero.it>\n"
@@ -50,6 +50,7 @@ msgid "XDMCP: Unable to parse address"
 msgstr "XDMCP: Impussibil analizâ il recapit"
 
 #: common/gdm-common.c:307
+#, c-format
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom nol è un dispositîf a caratars"
 
@@ -58,20 +59,9 @@ msgid "Could not identify the current session: "
 msgstr "Impussibil identificâ la session atuâl: "
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
+#, c-format
 msgid "Could not identify the current seat."
 msgstr "Impussibil identificâ la postazion atuâl."
-
-#: common/gdm-common.c:520 libgdm/gdm-user-switching.c:226
-msgid ""
-"The system is unable to determine whether to switch to an existing login "
-"screen or start up a new login screen."
-msgstr ""
-"Il sisteme nol rive a capî se passâ a une videade di acès esistent o creâ "
-"une gnove."
-
-#: common/gdm-common.c:528 libgdm/gdm-user-switching.c:234
-msgid "The system is unable to start up a new login screen."
-msgstr "Il sisteme nol rive a fâ partî une gnove videade di acès."
 
 #: daemon/gdm-display-access-file.c:298
 #, c-format
@@ -115,43 +105,43 @@ msgstr "Clamadôr no GDM"
 msgid "Unable to open private communication channel"
 msgstr "Impussibil vierzi un canâl privât di comunicazion"
 
-#: daemon/gdm-server.c:383
+#: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr ""
 "Il servidôr al veve di jessi inviât dal utent %s ma chest utent nol esist"
 
-#: daemon/gdm-server.c:394 daemon/gdm-server.c:414
+#: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
 msgid "Couldn’t set groupid to %d"
 msgstr "Impussibil stabilî il grupid a %d"
 
-#: daemon/gdm-server.c:400
+#: daemon/gdm-server.c:403
 #, c-format
 msgid "initgroups () failed for %s"
 msgstr "initgroups () falît par %s"
 
-#: daemon/gdm-server.c:406
+#: daemon/gdm-server.c:409
 #, c-format
 msgid "Couldn’t set userid to %d"
 msgstr "Impussibil meti il ID utent a %d"
 
-#: daemon/gdm-server.c:484
+#: daemon/gdm-server.c:487
 #, c-format
 msgid "%s: Could not open log file for display %s!"
 msgstr "%s: no pues vierzi il file di regjisti par il visôr %s!"
 
-#: daemon/gdm-server.c:505 daemon/gdm-server.c:511 daemon/gdm-server.c:517
+#: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
 msgid "%s: Error setting %s to %s"
 msgstr "%s: Erôr configurant %s a %s"
 
-#: daemon/gdm-server.c:537
+#: daemon/gdm-server.c:540
 #, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
 msgstr "%s: La prioritât dal servidôr no pues jessi metude a %d: %s"
 
-#: daemon/gdm-server.c:689
+#: daemon/gdm-server.c:692
 #, c-format
 msgid "%s: Empty server command for display %s"
 msgstr "%s: Al mancje il comant dal servidôr par il visôr %s"
@@ -180,11 +170,11 @@ msgstr "Dispositîf Visôr"
 msgid "The display device"
 msgstr "Il dispositîf dal visôr"
 
-#: daemon/gdm-session.c:1285
+#: daemon/gdm-session.c:1334
 msgid "Could not create authentication helper process"
 msgstr "Impussibil creâ il procès di jutori par l'autenticazion"
 
-#: daemon/gdm-session-worker.c:750
+#: daemon/gdm-session-worker.c:755
 msgid ""
 "You reached the maximum password authentication attempts, please try another "
 "method"
@@ -192,15 +182,7 @@ msgstr ""
 "Tu sês rivât al numar massim di tentatîfs pe autenticazion cu la password, "
 "prove un altri metodi"
 
-#: daemon/gdm-session-worker.c:753
-msgid ""
-"You reached the maximum PIN authentication attempts, please try another "
-"method"
-msgstr ""
-"Tu sês rivât al numar massim di tentatîfs pe autenticazion cul PIN, prove un "
-"altri metodi"
-
-#: daemon/gdm-session-worker.c:756
+#: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
@@ -208,7 +190,7 @@ msgstr ""
 "Tu sês rivât al numar massim di tentatîfs pal acès automatic, prove un altri "
 "metodi di autenticazion"
 
-#: daemon/gdm-session-worker.c:759
+#: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
@@ -216,7 +198,7 @@ msgstr ""
 "Tu sês rivât al numar massim di tentatîfs pe autenticazion cul impront "
 "digjitâl, prove un altri metodi"
 
-#: daemon/gdm-session-worker.c:762
+#: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
@@ -224,58 +206,55 @@ msgstr ""
 "Tu sês rivât al numar massim di tentatîfs pe autenticazion cu la smart card, "
 "prove un altri metodi"
 
-#: daemon/gdm-session-worker.c:764
+#: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
 msgstr ""
 "Tu sês rivât al numar massim di tentatîfs pe autenticazion, prove un altri "
 "metodi"
 
-#: daemon/gdm-session-worker.c:771
+#: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
 msgstr ""
 "Mi displâs, la autenticazion cu la password no à funzionât. Torne prove."
 
-#: daemon/gdm-session-worker.c:774
-msgid "Sorry, PIN authentication didn’t work. Please try again."
-msgstr "Mi displâs, la autenticazion cul PIN no à funzionât. Torne prove."
-
-#: daemon/gdm-session-worker.c:777
+#: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
 msgstr "Mi displâs, l'acès automatic nol à funzionât. Torne prove."
 
-#: daemon/gdm-session-worker.c:780
+#: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
 msgstr ""
 "Mi displâs, la autenticazion cul impront digjitâl no à funzionât. Torne "
 "prove."
 
-#: daemon/gdm-session-worker.c:783
+#: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
 msgstr ""
 "Mi displâs, la autenticazion cu la smart card no à funzionât. Torne prove."
 
-#: daemon/gdm-session-worker.c:785
+#: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
 msgstr "Mi displâs, no je lade drete. Torne prove."
 
-#: daemon/gdm-session-worker.c:800
+#: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
 msgstr "Il to account al veve un timp limit che cumò al è passât."
 
-#: daemon/gdm-session-worker.c:1202
+#: daemon/gdm-session-worker.c:1199
 msgid "Username:"
 msgstr "Non utent:"
 
-#: daemon/gdm-session-worker.c:1704 daemon/gdm-session-worker.c:1721
+#: daemon/gdm-session-worker.c:1600 daemon/gdm-session-worker.c:1617
+#, c-format
 msgid "no user account available"
 msgstr "nissun account utent disponibil"
 
-#: daemon/gdm-session-worker.c:1748
+#: daemon/gdm-session-worker.c:1644
 msgid "Unable to change to user"
 msgstr "Impussibil cambiâ utent"
 
-#: daemon/gdm-wayland-session.c:511
+#: daemon/gdm-wayland-session.c:531
 msgid "GNOME Display Manager Wayland Session Launcher"
 msgstr "Lançadôr di session Waylnd pal gjestôr di visôr di GNOME"
 
@@ -283,15 +262,15 @@ msgstr "Lançadôr di session Waylnd pal gjestôr di visôr di GNOME"
 msgid "Could not create socket!"
 msgstr "No pues creâ socket!"
 
-#: daemon/gdm-x-session.c:859
+#: daemon/gdm-x-session.c:879
 msgid "Run program through /etc/gdm/Xsession wrapper script"
 msgstr "Invie program tramit il script wrapper /etc/gdm/Xsession"
 
-#: daemon/gdm-x-session.c:860
+#: daemon/gdm-x-session.c:880
 msgid "Listen on TCP socket"
 msgstr "Scolte su socket TCP"
 
-#: daemon/gdm-x-session.c:872
+#: daemon/gdm-x-session.c:892
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "Lançadôr di session X pal Gjestôr di visôr di GNOME"
 
@@ -507,6 +486,26 @@ msgstr "Screenshot fat"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Fâs une figure dal visôr"
+
+#~ msgid ""
+#~ "The system is unable to determine whether to switch to an existing login "
+#~ "screen or start up a new login screen."
+#~ msgstr ""
+#~ "Il sisteme nol rive a capî se passâ a une videade di acès esistent o creâ "
+#~ "une gnove."
+
+#~ msgid "The system is unable to start up a new login screen."
+#~ msgstr "Il sisteme nol rive a fâ partî une gnove videade di acès."
+
+#~ msgid ""
+#~ "You reached the maximum PIN authentication attempts, please try another "
+#~ "method"
+#~ msgstr ""
+#~ "Tu sês rivât al numar massim di tentatîfs pe autenticazion cul PIN, prove "
+#~ "un altri metodi"
+
+#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
+#~ msgstr "Mi displâs, la autenticazion cul PIN no à funzionât. Torne prove."
 
 #~ msgid "Your password has expired, please change it now."
 #~ msgstr "La tô password a je scjadude, par plasê tu âs di cambiale cumò."
