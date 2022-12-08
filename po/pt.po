@@ -1,28 +1,58 @@
-# gdm's Portuguese Translation
-# Copyright © 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 gmd
-# Distributed under the same licence as the gdm package
-# Duarte Loreto <happyguy_pt@hotmail.com>, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013.
-# António Lima <amrlima@gmail.com>, 2013.
-# Pedro Albuquerque <palbuquerque73@openmailbox.com>, 2015.
-# Tiago Santos <tiagofsantos81@sapo.pt>, 2016.
-# Juliano Camargo <julianosc@pm.me>, 2020.
-# José Vieira <jvieira33@sapo.pt>, 2021.
-# Hugo Carvalho <hugokarvalho@hotmail.com>, 2021.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gdm package.
+# 
+# Translators:
+# Adorilson Bezerra <adorilson@gmail.com>, 2011
+# Afonso Celso Medina <afmedina@uol.com.br>, 2004-2005
+# Antonio Fernandes C. Neto <fernandesn@gnome.org>, 2010
+# António Lima <amrlima@gmail.com>, 2013
+# David Barzilay <barzilay@redhat.com>, 2003
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2001-2014
+# Enrico Nicoletto <liverig@gmail.com>, 2013
+# Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008
+# skarllotbr <skarllot@gmail.com>, 2008
+# Guilherme de S. Pastore <gpastore@gnome.org>, 2006
+# Gustavo Maciel Dias Vieira <gustavo@sagui.org>, 2004
+# Gustavo Noronha Silva <kov@debian.org>, 2003-2004
+# Henrique P. Machado <zehrique@gmail.com>, 2008,2011
+# Henrique P. Machado <zehrique@gmail.com>, 2008,2011
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2021
+# Jonh Wendell <jwendell@gnome.org>, 2012
+# José Vieira <jvieira33@sapo.pt>, 2021
+# Juliano Camargo <julianosc@pm.me>, 2020
+# Krix Apolinário <krixapolinario@gmail.com>, 2011
+# leonardof <leonardof@gnome.org>, 2007
+# leonardof <leonardof@gnome.org>, 2007
+# Luciano Gardim <lucianogardim@gmail.com>, 2009
+# Nuno Ferreira <nmrf@rnl.ist.utl.pt>, 1999
+# Og Maciel <ogmaciel@gnome.org>, 2011
+# Og Maciel <ogmaciel@gnome.org>, 2011
+# Pedro Albuquerque <pmra@gmx.com>, 2015
+# Pedro Albuquerque <palbuquerque73@openmailbox.com>, 2015
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2012-2013
+# Rafael Sfair <rsfair@gmail.com>, 2007
+# Raul Pereira <contato@raulpereira.com>, 2007
+# Rodrigo L. M. Flores <rodrigomarquesflores@gmail.com>, 2009
+# scardeira <cardeira.sergio@gmail.com>, 2016
+# scardeira <cardeira.sergio@gmail.com>, 2016
+# Silva <michele@endlessm.com>, 2015
+# skarllotbr <skarllot@gmail.com>, 2008
+# Tiago Santos <tiagofsantos81@sapo.pt>, 2016
+# Washington Lins <washington-lins@uol.com.br>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: 3.8\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2021-12-09 11:50+0000\n"
-"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
-"Language-Team: Português (https://l10n.gnome.org/teams/pt/)\n"
-"Language: pt\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>, 2021\n"
+"Language-Team: Portuguese (http://www.transifex.com/endless-os/gdm/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -77,15 +107,11 @@ msgstr "impossível encontrar o utilizador \"%s\" no sistema"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Impossível iniciar o servidor X (ambiente gráfico) devido a um erro interno. "
-"Contacte o administrador de sistemas ou analise o syslog para diagnosticar. "
-"Entretanto, este ecrã será desativado. Reinicie o GDM quando o problema "
-"estiver corrigido."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Impossível iniciar o servidor X (ambiente gráfico) devido a um erro interno. Contacte o administrador de sistemas ou analise o syslog para diagnosticar. Entretanto, este ecrã será desativado. Reinicie o GDM quando o problema estiver corrigido."
 
 #: daemon/gdm-manager.c:764
 msgid "No display available"
@@ -114,8 +140,7 @@ msgstr "Impossível abrir canal de comunicação privado"
 #: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
-"O servidor seria gerado pelo utilizador %s, mas este utilizador não existe"
+msgstr "O servidor seria gerado pelo utilizador %s, mas este utilizador não existe"
 
 #: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
@@ -182,41 +207,32 @@ msgstr "Impossível criar processo de ajuda à autenticação"
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
-msgstr ""
-"Foi atingido o máximo de tentativas de autenticação por palavra-passe. Tente "
-"outro método"
+"You reached the maximum password authentication attempts, please try another"
+" method"
+msgstr "Foi atingido o máximo de tentativas de autenticação por palavra-passe. Tente outro método"
 
 #: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
-msgstr ""
-"Foi atingido o máximo de tentativas de autenticação de início de sessão "
-"automático. Tente outro método"
+msgstr "Foi atingido o máximo de tentativas de autenticação de início de sessão automático. Tente outro método"
 
 #: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
-msgstr ""
-"Foi atingido o máximo de tentativas de autenticação por impressão digital. "
-"Tente outro método"
+msgstr "Foi atingido o máximo de tentativas de autenticação por impressão digital. Tente outro método"
 
 #: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
-msgstr ""
-"Foi atingido o máximo de tentativas de autenticação por cartão inteligente. "
-"Tente outro método"
+msgstr "Foi atingido o máximo de tentativas de autenticação por cartão inteligente. Tente outro método"
 
 #: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
-msgstr ""
-"Foi atingido o máximo de tentativas de autenticação. Tente outro método"
+msgstr "Foi atingido o máximo de tentativas de autenticação. Tente outro método"
 
 #: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
@@ -240,8 +256,7 @@ msgstr "Não resultou. Tente novamente."
 
 #: daemon/gdm-session-worker.c:799
 msgid "Your account was given a time limit that’s now passed."
-msgstr ""
-"Foi atribuído um limite de tempo à sua conta que foi agora ultrapassado."
+msgstr "Foi atribuído um limite de tempo à sua conta que foi agora ultrapassado."
 
 #: daemon/gdm-session-worker.c:1199
 msgid "Username:"
@@ -279,8 +294,7 @@ msgstr "Iniciador de sessão X do Gestor de ecrãs do GNOME"
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Impossível escrever ficheiro PID %s: possivelmente sem espaço em disco: %s"
+msgstr "Impossível escrever ficheiro PID %s: possivelmente sem espaço em disco: %s"
 
 #: daemon/main.c:182
 #, c-format
@@ -339,29 +353,23 @@ msgstr "Iniciador de sessão do gestor de ecrãs do GNOME"
 
 #: data/org.gnome.login-screen.gschema.xml:6
 msgid "Whether or not to allow fingerprint readers for login"
-msgstr ""
-"Permitir ou não início de sessão através do leitores de impressões digitais"
+msgstr "Permitir ou não início de sessão através do leitores de impressões digitais"
 
 #: data/org.gnome.login-screen.gschema.xml:9
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"O ecrã de início de sessão pode opcionalmente permitir aos utilizadores que "
-"tenham fornecido a sua impressão digital utilizá-la para aceder ao sistema."
+msgstr "O ecrã de início de sessão pode opcionalmente permitir aos utilizadores que tenham fornecido a sua impressão digital utilizá-la para aceder ao sistema."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
-msgstr ""
-"Permitir ou não início de sessão através de leitores de cartão inteligente"
+msgstr "Permitir ou não início de sessão através de leitores de cartão inteligente"
 
 #: data/org.gnome.login-screen.gschema.xml:19
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"O ecrã de início de sessão pode opcionalmente permitir aos utilizadores que "
-"tenham cartões inteligentes utilizá-los para aceder ao sistema."
+msgstr "O ecrã de início de sessão pode opcionalmente permitir aos utilizadores que tenham cartões inteligentes utilizá-los para aceder ao sistema."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -371,10 +379,7 @@ msgstr "Permitir ou não início de sessão através de palavras passe"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"O ecrã de inicio de sessão pode ser configurado para desativar a "
-"autenticação com palavra passe, forçando o utilizador a usar autenticação "
-"por cartão inteligente ou impressão digital."
+msgstr "O ecrã de inicio de sessão pode ser configurado para desativar a autenticação com palavra passe, forçando o utilizador a usar autenticação por cartão inteligente ou impressão digital."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -385,18 +390,13 @@ msgstr "Caminho para a imagem pequena no topo da lista de utilizadores"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"O ecrã de acesso pode opcionalmente apresentar uma pequena imagem para que "
-"os administradores de sítios e as distribuições possam mostrar a sua marca."
+msgstr "O ecrã de acesso pode opcionalmente apresentar uma pequena imagem para que os administradores de sítios e as distribuições possam mostrar a sua marca."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"O ecrã de acesso de recurso pode opcionalmente apresentar uma pequena imagem "
-"para que os administradores de sites e as distribuições possam mostrar a sua "
-"marca."
+msgstr "O ecrã de acesso de recurso pode opcionalmente apresentar uma pequena imagem para que os administradores de sites e as distribuições possam mostrar a sua marca."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -404,12 +404,9 @@ msgstr "Evitar mostrar a lista de utilizadores"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"O ecrã de acesso normalmente apresenta uma lista de utilizadores registados "
-"para iniciar sessão. Esta opção pode ser desligada para que não seja exibida "
-"a lista de utilizadores."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "O ecrã de acesso normalmente apresenta uma lista de utilizadores registados para iniciar sessão. Esta opção pode ser desligada para que não seja exibida a lista de utilizadores."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -432,10 +429,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Desativar a apresentação dos botões de reiniciar"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Definir como verdadeiro para desativar a apresentação do botão de reiniciar "
-"na janela de acesso."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Definir como verdadeiro para desativar a apresentação do botão de reiniciar na janela de acesso."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -445,9 +441,7 @@ msgstr "Número de falhas de autenticação permitidas"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"O número de vezes que é permitido que um utilizador tente autenticar-se "
-"antes de voltar à seleção de utilizador."
+msgstr "O número de vezes que é permitido que um utilizador tente autenticar-se antes de voltar à seleção de utilizador."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -491,32 +485,3 @@ msgstr "Captura de ecrã realizada"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Capturar uma imagem do ecrã"
-
-#~ msgid ""
-#~ "You reached the maximum PIN authentication attempts, please try another "
-#~ "method"
-#~ msgstr ""
-#~ "Foi atingido o máximo de tentativas de autenticação por PIN. Tente outro "
-#~ "método"
-
-#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
-#~ msgstr "A autenticação por PIN não resultou. Tente novamente."
-
-#~ msgid ""
-#~ "The system is unable to determine whether to switch to an existing login "
-#~ "screen or start up a new login screen."
-#~ msgstr ""
-#~ "O sistema é incapaz de determinar se deve alternar para um ecrã de início "
-#~ "de sessão existente ou criar um novo ecrã."
-
-#~ msgid "The system is unable to start up a new login screen."
-#~ msgstr "O sistema é incapaz de iniciar um novo ecrã de início de sessão."
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "A sua senha expirou, por favor, altera-a agora."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "Shell GNOME"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "Gestão de janelas e composição"

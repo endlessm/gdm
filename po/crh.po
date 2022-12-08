@@ -1,21 +1,22 @@
-# Qırımtatarca gdm.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gdm package.
-# Reşat SABIQ <tilde.birlik@gmail.com>, 2009, 2010, 2011, 2012, 2013.
-#
+# 
+# Translators:
+# Reşat SABIQ <tilde.birlik@gmail.com>, 2009-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2013-03-25 01:10-0500\n"
-"Last-Translator: Reşat SABIQ <tilde.birlik@gmail.com>\n"
-"Language-Team: QIRIMTATARCA (Qırım Türkçesi) <tilde-birlik-meydan@lists."
-"sourceforge.net>\n"
-"Language: crh\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Reşat SABIQ <tilde.birlik@gmail.com>, 2009-2013\n"
+"Language-Team: Crimean Turkish (http://www.transifex.com/endless-os/gdm/language/crh/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: UTF-8\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: crh\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -45,7 +46,6 @@ msgstr "XMCP: XDMCP başlığı oqulamadı!"
 msgid "XDMCP: Incorrect XDMCP version!"
 msgstr "XMDCP: Yañlış XDMCP sürümi!"
 
-# tüklü
 #: chooser/gdm-host-chooser-widget.c:271
 msgid "XDMCP: Unable to parse address"
 msgstr "XMDCP: adres ayırıştırılalmay"
@@ -56,9 +56,8 @@ msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom bir remiz cihazı degildir"
 
 #: common/gdm-common.c:501 libgdm/gdm-user-switching.c:207
-#, fuzzy
 msgid "Could not identify the current session: "
-msgstr "Ağımdaki oturımnı kimliklendiramadım."
+msgstr ""
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
 #, c-format
@@ -66,60 +65,51 @@ msgid "Could not identify the current seat."
 msgstr "Ağımdaki oturaq kimliklenamadı."
 
 #: daemon/gdm-display-access-file.c:298
-#, fuzzy, c-format
+#, c-format
 msgid "could not find user “%s” on system"
-msgstr "sistem üzerinde \"%s\" qullanıcısı tapılamadı"
+msgstr ""
 
 #: daemon/gdm-legacy-display.c:236
-#, fuzzy
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"X sunucısını (siziñ grafikiy çevreñizni) dahiliy bir hata yüzünden "
-"başlatamadım. Lütfen sistem memurıñıznen temasqa keçiñiz yaki teşhislemek "
-"içün sistem kütügiñizni teşkeriñiz. Bu arada bu kösterim ğayrı "
-"qabilleştirilecek.  Lütfen hata tüzetilgen soñ GDM'ni kene başlatıñız."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "X sunucısını (siziñ grafikiy çevreñizni) dahiliy bir hata yüzünden başlatamadım. Lütfen sistem memurıñıznen temasqa keçiñiz yaki teşhislemek içün sistem kütügiñizni teşkeriñiz. Bu arada bu kösterim ğayrı qabilleştirilecek.  Lütfen mesele tüzetilgen soñ GDM'ni kene başlatıñız."
 
 #: daemon/gdm-manager.c:764
-#, fuzzy
 msgid "No display available"
-msgstr "Faydalanışlı oturım yoq"
+msgstr ""
 
 #: daemon/gdm-manager.c:862 daemon/gdm-manager.c:1146
 msgid "No session available"
 msgstr "Faydalanışlı oturım yoq"
 
 #: daemon/gdm-manager.c:881
-#, fuzzy
 msgid "Chooser session unavailable"
-msgstr "Faydalanışlı oturım yoq"
+msgstr ""
 
 #: daemon/gdm-manager.c:897
 msgid "Can only be called before user is logged in"
-msgstr ""
+msgstr "Ancaq qullanıcı içeri imzalanmazdan evvel çağırılabilir"
 
 #: daemon/gdm-manager.c:908
 msgid "Caller not GDM"
-msgstr ""
+msgstr "Çağırıcı GDM degil"
 
 #: daemon/gdm-manager.c:918
 msgid "Unable to open private communication channel"
 msgstr ""
 
 #: daemon/gdm-server.c:386
-#, fuzzy, c-format
+#, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr ""
-"Sunucı qullanıcı %s tarafından yavrulanacaq edi faqat böyle bir qullanıcı "
-"yoqtır"
 
 #: daemon/gdm-server.c:397 daemon/gdm-server.c:417
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr "Zümre nomerası %d olaraq tesbit etilamadı"
+msgstr ""
 
 #: daemon/gdm-server.c:403
 #, c-format
@@ -127,9 +117,9 @@ msgid "initgroups () failed for %s"
 msgstr "%s içün initgroups () muvafaqiyetsiz"
 
 #: daemon/gdm-server.c:409
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn’t set userid to %d"
-msgstr "Qullanıcı numarası %d olaraq tesbit etilamadı"
+msgstr ""
 
 #: daemon/gdm-server.c:487
 #, c-format
@@ -142,9 +132,9 @@ msgid "%s: Error setting %s to %s"
 msgstr "%s: %s %s olaraq tesbit etilgende hata"
 
 #: daemon/gdm-server.c:540
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr "%s: Sunucı evelligi %d olaraq tesbit etilamadı: %s"
+msgstr ""
 
 #: daemon/gdm-server.c:692
 #, c-format
@@ -181,8 +171,8 @@ msgstr "Sahihlenim yardımcısı süreci icat etilamadı"
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
+"You reached the maximum password authentication attempts, please try another"
+" method"
 msgstr ""
 
 #: daemon/gdm-session-worker.c:758
@@ -246,9 +236,8 @@ msgid "Unable to change to user"
 msgstr "Qullanıcığa deñiştiramadım"
 
 #: daemon/gdm-wayland-session.c:531
-#, fuzzy
 msgid "GNOME Display Manager Wayland Session Launcher"
-msgstr "GNOME Kösterim İdarecisi Oturım İşçisi"
+msgstr ""
 
 #: daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
@@ -263,16 +252,14 @@ msgid "Listen on TCP socket"
 msgstr ""
 
 #: daemon/gdm-x-session.c:892
-#, fuzzy
 msgid "GNOME Display Manager X Session Launcher"
-msgstr "GNOME Kösterim İdarecisi Oturım İşçisi"
+msgstr ""
 
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr "PID dosyesi %s yazılalmay: belki disk tolu: %s"
 
-# tüklü
 #: daemon/main.c:182
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
@@ -284,18 +271,18 @@ msgid "Failed to create LogDir %s: %s"
 msgstr "Kütük fihristi (LogDir) %s icat etilamadı: %s"
 
 #: daemon/main.c:223
-#, fuzzy, c-format
+#, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr "GDM qullanıcısı '%s' tapılamadı. Abortlana!"
+msgstr ""
 
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
 msgstr "GDM qullanıcısı tamır (root) olmamalı. Abortlana!"
 
 #: daemon/main.c:235
-#, fuzzy, c-format
+#, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr "GDM zümresi '%s' tapılalmay. Abortlana!"
+msgstr ""
 
 #: daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -336,28 +323,21 @@ msgstr "İçeri imzalanuv içün parmaqizi oquyıcılarına izin berilip berilme
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"İçeri imzalanma ekranı parmaqizlerini qayd ettirgen qullanıcılarğa o "
-"izlerini qullanaraq oturım açmağa ihtiyariy olaraq izin berebilir."
+msgstr "İçeri imzalanma ekranı parmaqizlerini qayd ettirgen qullanıcılarğa o izlerini qullanaraq oturım açmağa ihtiyariy olaraq izin berebilir."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
-msgstr ""
-"İçeri imzalanuv içün aqıllı-kart oquyıcılarına izin berilip berilmeycegi"
+msgstr "İçeri imzalanuv içün aqıllı-kart oquyıcılarına izin berilip berilmeycegi"
 
 #: data/org.gnome.login-screen.gschema.xml:19
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"İçeri imzalanma ekranı aqıllı-kartlı qullanıcılarğa o aqıllı-kartlarını "
-"qullanaraq oturım açmağa ihtiyariy olaraq izin berebilir."
+msgstr "İçeri imzalanma ekranı aqıllı-kartlı qullanıcılarğa o aqıllı-kartlarını qullanaraq oturım açmağa ihtiyariy olaraq izin berebilir."
 
 #: data/org.gnome.login-screen.gschema.xml:26
-#, fuzzy
 msgid "Whether or not to allow passwords for login"
 msgstr ""
-"İçeri imzalanuv içün aqıllı-kart oquyıcılarına izin berilip berilmeycegi"
 
 #: data/org.gnome.login-screen.gschema.xml:29
 msgid ""
@@ -371,24 +351,16 @@ msgid "Path to small image at top of user list"
 msgstr "Qullanıcı listesiniñ töpesindeki suretçikke yolaq "
 
 #: data/org.gnome.login-screen.gschema.xml:39
-#, fuzzy
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
 msgstr ""
-"Sayt memurlarına ve dağıtımlarğa bir markalama yolunı temin içün, içeri "
-"imzalanma ekranı ihtiyariy olaraq onıñ qullanıcı listesiniñ töpesinde küçük "
-"bir suret kösterebilir."
 
 #: data/org.gnome.login-screen.gschema.xml:49
-#, fuzzy
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
 msgstr ""
-"Sayt memurlarına ve dağıtımlarğa bir markalama yolunı temin içün, ricat "
-"içeri imzalanma ekranı ihtiyariy olaraq onıñ qullanıcı listesiniñ töpesinde "
-"küçük bir suret kösterebilir."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -396,12 +368,9 @@ msgstr "Qullanıcı listesini köstermekten qaçın"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"İçeri imzalanma ekranı adetince biri olaraq içeri imzalanmaq üzre bir mevcut "
-"qullanıcılar listesini kösterir. Bu ayar qullanıcılar listesini köstermekni "
-"ğayrıqabilleştirmek içün tönterilebilir."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "İçeri imzalanma ekranı adetince biri olaraq içeri imzalanmaq üzre bir mevcut qullanıcılar listesini kösterir. Bu ayar qullanıcılar listesini köstermekni ğayrıqabilleştirmek içün tönterilebilir."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -411,7 +380,6 @@ msgstr "Afiş risalesiniñ kösterilüvini qabilleştir"
 msgid "Set to true to show the banner message text."
 msgstr "Afiş risalesi metnini köstermek içün doğruğa tesbit etiñiz."
 
-# tüklü
 #: data/org.gnome.login-screen.gschema.xml:75
 msgid "Banner message text"
 msgstr "Afiş risalesi metni"
@@ -425,10 +393,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Kene başlatuv dögmeleriniñ kösterilüvini ğayrı qabilleştir"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"İçeri imzalanuv penceresinde kene başlatuv dögmeleriniñ kösterilüvini ğayrı "
-"qabilleştirmek içün doğruğa ayarlañız."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "İçeri imzalanuv penceresinde kene başlatuv dögmeleriniñ kösterilüvini ğayrı qabilleştirmek içün doğruğa ayarlañız."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -438,9 +405,7 @@ msgstr "Sahihlenim muvaffaqiyetsizlikleriniñ caiz sayısı"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Bir qullanıcığa, pes etip qullanıcı saylamına keri barmazdan evvel, qaç kere "
-"sahihlenmege talpınmağa izin berilgeni."
+msgstr "Bir qullanıcığa, pes etip qullanıcı saylamına keri barmazdan evvel, qaç kere sahihlenmege talpınmağa izin berilgeni."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -458,7 +423,6 @@ msgstr "Faqat VERSION buyruğı desteklene"
 msgid "COMMAND"
 msgstr "BUYRUQ"
 
-# tüklü
 #: utils/gdmflexiserver.c:46 utils/gdmflexiserver.c:47
 #: utils/gdmflexiserver.c:49 utils/gdmflexiserver.c:50
 msgid "Ignored — retained for compatibility"
@@ -474,9 +438,8 @@ msgstr "Bu uyğulamanıñ sürümi"
 
 #. Option parsing
 #: utils/gdmflexiserver.c:137
-#, fuzzy
 msgid "— New GDM login"
-msgstr "- Yañı GDM içeri imzalanması"
+msgstr ""
 
 #: utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
@@ -486,21 +449,3 @@ msgstr "Ekran körüntisi alındı"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Ekrannıñ bir resmini al"
-
-#, c-format
-#~ msgid ""
-#~ "The system is unable to determine whether to switch to an existing login "
-#~ "screen or start up a new login screen."
-#~ msgstr ""
-#~ "Sistem mevcut bir içeri imzalanma ekranına almaşacağınımı yoqsa yañı bir "
-#~ "içeri imzalanma ekranını başlatacağınımı tesbit etalmay."
-
-#, c-format
-#~ msgid "The system is unable to start up a new login screen."
-#~ msgstr "Sistem yañı bir içeri imzalanma ekranını başlatalmay."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "GNOME Qabuğı"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "Pencere idaresi ve bileşikleme"

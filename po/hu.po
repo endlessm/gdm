@@ -1,31 +1,37 @@
-# Hungarian translation for gdm.
-# Copyright (C) 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021. Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gdm package.
-#
-# Szabolcs Ban <shooby at gnome dot hu>, 1999.
-# Krisztian Czako <slapic at linux dot co dot hu>, 2000.
-# Emese Kovacs <emese at gnome dot hu>, 2001.
-# Andras Timar <timar at gnome dot hu>, 2001, 2002, 2003.
-# Gabor Sari <saga at gnome dot hu>, 2003, 2004.
-# Laszlo Dvornik <dvornik at gnome dot hu>, 2004, 2005.
-# Gabor Kelemen <kelemeng at gnome dot hu>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2016.
-# Attila Szervác as sas-guest see : <sas-guest at haydn dot debian dot org>, 2006.
-# Kováts Dóra <dorcssa at gmail dot com>, 2008.
-# Balázs Úr <ur.balazs at fsf dot hu>, 2012, 2015, 2017, 2018, 2019, 2021.
+# 
+# Translators:
+# Andras Timar <timar at gnome dot hu>, 2001-2003
+# Attila Szervác as sas-guest see : <sas-guest at haydn dot debian dot org>, 2006
+# Balázs Úr <ur.balazs at fsf dot hu>, 2012,2015,2017-2019,2021
+# Balázs Úr <urbalazs at gmail dot com>, 2012-2018
+# Emese Kovacs <emese at gnome dot hu>, 2001
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2004-2013,2015-2016
+# Gabor Sari <saga at gnome dot hu>, 2003-2004
+# Kováts Dóra <dorcssa at gmail dot com>, 2008
+# Krisztian Czako <slapic at linux dot co dot hu>, 2000
+# Laszlo Dvornik <dvornik at gnome dot hu>, 2004-2005
+# Mate ORY <orymate at gmail d0t com>, 2006
+# Peter Doma <zelin at pointernet dot hu>, 2002
+# Peter Trombitas <trombipeti at gmail dot com>, 2012
+# Richard Somloi <ricsipontaz at gmail dot com>, 2011-2012
+# Szabolcs Ban <shooby at gnome dot hu>, 1998-2000
+# Zoltan Hoppar <hopparz@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm master\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2021-01-19 20:49+0100\n"
-"Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
-"Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
-"Language: hu\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>, 2012,2015,2017-2019,2021\n"
+"Language-Team: Hungarian (http://www.transifex.com/endless-os/gdm/language/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.12.3\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -80,14 +86,11 @@ msgstr "„%s” nevű felhasználó nem található a rendszeren"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Belső hiba miatt nem indítható el az X kiszolgáló (a grafikus felület). "
-"Értesítse a rendszergazdát, vagy ellenőrizze a rendszernaplót. Addig ez a "
-"képernyő ki lesz kapcsolva. Indítsa újra a GDM-et, ha a probléma megoldódott."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Belső hiba miatt nem indítható el az X kiszolgáló (a grafikus felület). Értesítse a rendszergazdát, vagy ellenőrizze a rendszernaplót. Addig ez a képernyő ki lesz kapcsolva. Indítsa újra a GDM-et, ha a probléma megoldódott."
 
 #: daemon/gdm-manager.c:764
 msgid "No display available"
@@ -116,9 +119,7 @@ msgstr "Nem sikerült megnyitni a személyes kommunikációs csatornát"
 #: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
-"A kiszolgálót a(z) %s felhasználónak kellene indítania, de ez a felhasználó "
-"nem létezik"
+msgstr "A kiszolgálót a(z) %s felhasználónak kellene indítania, de ez a felhasználó nem létezik"
 
 #: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
@@ -185,41 +186,32 @@ msgstr "Nem hozható létre a hitelesítési segédfolyamat"
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
-msgstr ""
-"Elérte a jelszavas hitelesítési próbálkozások korlátját, próbálkozzon másik "
-"módszerrel"
+"You reached the maximum password authentication attempts, please try another"
+" method"
+msgstr "Elérte a jelszavas hitelesítési próbálkozások korlátját, próbálkozzon másik módszerrel"
 
 #: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
-msgstr ""
-"Elérte az automatikus bejelentkezési próbálkozások korlátját, próbálkozzon "
-"másik hitelesítési módszerrel"
+msgstr "Elérte az automatikus bejelentkezési próbálkozások korlátját, próbálkozzon másik hitelesítési módszerrel"
 
 #: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
-msgstr ""
-"Elérte az ujjlenyomatos hitelesítési próbálkozások korlátját, próbálkozzon "
-"másik módszerrel"
+msgstr "Elérte az ujjlenyomatos hitelesítési próbálkozások korlátját, próbálkozzon másik módszerrel"
 
 #: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
-msgstr ""
-"Elérte az intelligenskártyás hitelesítési próbálkozások korlátját, "
-"próbálkozzon másik módszerrel"
+msgstr "Elérte az intelligenskártyás hitelesítési próbálkozások korlátját, próbálkozzon másik módszerrel"
 
 #: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
-msgstr ""
-"Elérte a hitelesítési próbálkozások korlátját, próbálkozzon másik módszerrel"
+msgstr "Elérte a hitelesítési próbálkozások korlátját, próbálkozzon másik módszerrel"
 
 #: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
@@ -268,8 +260,7 @@ msgstr "Nem hozható létre a foglalat!"
 
 #: daemon/gdm-x-session.c:879
 msgid "Run program through /etc/gdm/Xsession wrapper script"
-msgstr ""
-"Program futtatása a /etc/gdm/Xsession csomagoló-parancsfájlon keresztül"
+msgstr "Program futtatása a /etc/gdm/Xsession csomagoló-parancsfájlon keresztül"
 
 #: daemon/gdm-x-session.c:880
 msgid "Listen on TCP socket"
@@ -282,8 +273,7 @@ msgstr "GNOME bejelentkezéskezelő X munkamenet-indító"
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Nem írható a(z) %s PID fájl: lehetséges, hogy elfogyott a lemezterület: %s"
+msgstr "Nem írható a(z) %s PID fájl: lehetséges, hogy elfogyott a lemezterület: %s"
 
 #: daemon/main.c:182
 #, c-format
@@ -348,9 +338,7 @@ msgstr "Ujjlenyomat-olvasók használatának engedélyezése bejelentkezéshez"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"A bejelentkezési képernyő lehetővé teheti az ujjlenyomatukat regisztrált "
-"felhasználóknak a bejelentkezést ujjlenyomattal."
+msgstr "A bejelentkezési képernyő lehetővé teheti az ujjlenyomatukat regisztrált felhasználóknak a bejelentkezést ujjlenyomattal."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -360,9 +348,7 @@ msgstr "Intelligenskártya-olvasók használatának engedélyezése bejelentkez�
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"A bejelentkezési képernyő lehetővé teheti az intelligenskártyát birtokló "
-"felhasználóknak a bejelentkezést a kártyával."
+msgstr "A bejelentkezési képernyő lehetővé teheti az intelligenskártyát birtokló felhasználóknak a bejelentkezést a kártyával."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -372,10 +358,7 @@ msgstr "Jelszavak használatának engedélyezése bejelentkezéshez"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"A bejelentkezési képernyő beállítható a jelszavas hitelesítés tiltására, "
-"ezzel a felhasználót intelligenskártyás vagy ujjlenyomatos hitelesítés "
-"használatára kényszerítve."
+msgstr "A bejelentkezési képernyő beállítható a jelszavas hitelesítés tiltására, ezzel a felhasználót intelligenskártyás vagy ujjlenyomatos hitelesítés használatára kényszerítve."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -386,17 +369,13 @@ msgstr "Útvonal a kis képhez a felhasználólista tetején"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"A bejelentkezési képernyő megjeleníthet egy kis képet, ezzel a "
-"rendszergazdák és disztribúciók márkajelzést helyezhetnek el."
+msgstr "A bejelentkezési képernyő megjeleníthet egy kis képet, ezzel a rendszergazdák és disztribúciók márkajelzést helyezhetnek el."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"A tartalék bejelentkezési képernyő megjeleníthet egy kis képet, ezzel a "
-"rendszergazdák és disztribúciók márkajelzést helyezhetnek el."
+msgstr "A tartalék bejelentkezési képernyő megjeleníthet egy kis képet, ezzel a rendszergazdák és disztribúciók márkajelzést helyezhetnek el."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -404,12 +383,9 @@ msgstr "Felhasználólista megjelenítésének tiltása"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"A bejelentkezési képernyő általában megjeleníti a felhasználók listáját, "
-"akik nevében be lehet jelentkezni. Ezzel a beállítással letiltható a "
-"felhasználólista megjelenítése."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "A bejelentkezési képernyő általában megjeleníti a felhasználók listáját, akik nevében be lehet jelentkezni. Ezzel a beállítással letiltható a felhasználólista megjelenítése."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -419,7 +395,6 @@ msgstr "Hiba a fejlécüzenet megjelenítésekor"
 msgid "Set to true to show the banner message text."
 msgstr "Állítsa igazra a fejléc szövegének megjelenítéséhez."
 
-# fixme
 #: data/org.gnome.login-screen.gschema.xml:75
 msgid "Banner message text"
 msgstr "Fejlécüzenet szövege"
@@ -433,10 +408,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Az újraindítása gombok megjelenítésének letiltása"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Állítsa igazra az újraindítás gombok megjelenítésének letiltásához a "
-"bejelentkezési ablakban."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Állítsa igazra az újraindítás gombok megjelenítésének letiltásához a bejelentkezési ablakban."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -446,9 +420,7 @@ msgstr "Engedélyezett hitelesítési hibák száma"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"A felhasználó ennyiszer próbálkozhat a hitelesítéssel, mielőtt visszatér a "
-"felhasználóválasztáshoz."
+msgstr "A felhasználó ennyiszer próbálkozhat a hitelesítéssel, mielőtt visszatér a felhasználóválasztáshoz."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -492,24 +464,3 @@ msgstr "A képernyőkép elkészült"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Kép készítése a képernyőről"
-
-#~ msgid ""
-#~ "The system is unable to determine whether to switch to an existing login "
-#~ "screen or start up a new login screen."
-#~ msgstr ""
-#~ "A rendszer nem képes megállapítani, hogy át kell-e váltani egy meglévő "
-#~ "bejelentkezési képernyőre, vagy újat kell-e indítani."
-
-#~ msgid "The system is unable to start up a new login screen."
-#~ msgstr "A rendszer nem képes új bejelentkezési képernyőt indítani."
-
-#~ msgid ""
-#~ "You reached the maximum PIN authentication attempts, please try another "
-#~ "method"
-#~ msgstr ""
-#~ "Elérte a PIN-kódos hitelesítési próbálkozások korlátját, próbálkozzon "
-#~ "másik módszerrel"
-
-#~| msgid "Sorry, that didn’t work. Please try again."
-#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
-#~ msgstr "Sajnos a PIN-kódos hitelesítés nem sikerült. Próbálja újra."

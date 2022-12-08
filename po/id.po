@@ -1,28 +1,31 @@
-# Translation of gdm to Bahasa Indonesia
-# Copyright (C) 2004 THE gdm's COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gdm package.
-#
-# Mohammad DAMT <mdamt@bisnisweb.com>, 2003.
-# Dicky Wahyu Purnomo <dicky.wahyu@massaint.or.id>, 2004.
-# ahmad riza h nst <rizahnst@eriagempita.co.id>, 2005, 2006.
-# Dirgita <dirgitadevina@yahoo.co.id>, 2010, 2011, 2012, 2014.
-# Andika Triwidada <andika@gmail.com>, 2009, 2010, 2011, 2012, 2013, 2014.
-# Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017, 2019, 2021.
+# 
+# Translators:
+# ahmad riza h nst <rizahnst@eriagempita.co.id>, 2005-2006
+# Ahmad Riza H Nst  <rizahnst@gnome.org>, 2006
+# Andika Triwidada <andika@gmail.com>, 2009-2014
+# Dicky Wahyu Purnomo <dicky.wahyu@massaint.or.id>, 2004
+# dirgita <dirgitadevina@yahoo.co.id>, 2010-2012,2014
+# Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017,2019,2021
+# Kukuh Syafaat <syafaatkukuh@gmail.com>, 2017
+# Mohammad DAMT <mdamt@bisnisweb.com>, 2003
+# Roddy Shuler <roddy@stanfordalumni.org>, 2018
+# Septira Taruna <septira@endlessm.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm gnome-3-20\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2021-02-12 18:53+0700\n"
-"Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
-"Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
-"Language: id\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017,2019,2021\n"
+"Language-Team: Indonesian (http://www.transifex.com/endless-os/gdm/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4.2\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -77,15 +80,11 @@ msgstr "tidak menemukan pengguna \"%s\" pada sistem"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Tak dapat menjalankan server X (lingkungan grafik Anda) karena galat "
-"internal. Hubungilah administrator sistem Anda atau periksa catatan sistem "
-"(syslog) untuk diagnosa. Untuk sementara, tampilan ini akan dimatikan. "
-"Jalankan kembali GDM setelah masalah diperbaiki."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Tak dapat menjalankan server X (lingkungan grafik Anda) karena galat internal. Hubungilah administrator sistem Anda atau periksa catatan sistem (syslog) untuk diagnosa. Untuk sementara, tampilan ini akan dimatikan. Jalankan kembali GDM setelah masalah diperbaiki."
 
 #: daemon/gdm-manager.c:764
 msgid "No display available"
@@ -181,41 +180,32 @@ msgstr "Tak dapat membuat pembantu proses autentikasi"
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
-msgstr ""
-"Anda telah mencapai upaya autentikasi kata sandi maksimum, silakan coba "
-"metode lain"
+"You reached the maximum password authentication attempts, please try another"
+" method"
+msgstr "Anda telah mencapai upaya autentikasi kata sandi maksimum, silakan coba metode lain"
 
 #: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
-msgstr ""
-"Anda telah mencapai upaya masuk otomatis maksimum, silakan coba metode "
-"autentikasi lain"
+msgstr "Anda telah mencapai upaya masuk otomatis maksimum, silakan coba metode autentikasi lain"
 
 #: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
-msgstr ""
-"Anda telah mencapai upaya autentikasi sidik jari maksimum, silakan coba "
-"metode lain"
+msgstr "Anda telah mencapai upaya autentikasi sidik jari maksimum, silakan coba metode lain"
 
 #: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
-msgstr ""
-"Anda telah mencapai upaya autentikasi kartu pintar maksimum, silakan coba "
-"metode lain"
+msgstr "Anda telah mencapai upaya autentikasi kartu pintar maksimum, silakan coba metode lain"
 
 #: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
-msgstr ""
-"Anda telah mencapai upaya autentikasi maksimum, silakan coba metode lain"
+msgstr "Anda telah mencapai upaya autentikasi maksimum, silakan coba metode lain"
 
 #: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
@@ -274,12 +264,10 @@ msgstr "Dengarkan pada soket TCP"
 msgid "GNOME Display Manager X Session Launcher"
 msgstr "Peluncur Sesi X Manajer Tampilan GNOME"
 
-# Di sini, kita tahu betul bahwa yang dimaksud adalah media penyimpanan.
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Tak dapat menulis berkas PID %s: kemungkinan media simpan telah penuh: %s"
+msgstr "Tak dapat menulis berkas PID %s: kemungkinan media simpan telah penuh: %s"
 
 #: daemon/main.c:182
 #, c-format
@@ -344,9 +332,7 @@ msgstr "Apakah memperbolehkan pembaca sidik jari untuk log masuk"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Layar log masuk dapat dipilih untuk mengizinkan pengguna yang telah "
-"mendaftarkan sidik jari mereka untuk log masuk memakai sidik jari."
+msgstr "Layar log masuk dapat dipilih untuk mengizinkan pengguna yang telah mendaftarkan sidik jari mereka untuk log masuk memakai sidik jari."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -356,9 +342,7 @@ msgstr "Apakah memperbolehkan pembaca kartu pintar untuk log masuk"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Layar log masuk dapat dipilih untuk mengizinkan pengguna yang memiliki kartu "
-"pintar untuk log masuk memakai kartu pintar."
+msgstr "Layar log masuk dapat dipilih untuk mengizinkan pengguna yang memiliki kartu pintar untuk log masuk memakai kartu pintar."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -368,9 +352,7 @@ msgstr "Apakah memperbolehkan kata sandi untuk log masuk"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Layar log masuk dapat ditata untuk menolak autentikasi kata sandi, memaksa "
-"pengguna untuk memakai autentikasi kartu pintar atau sidik jari."
+msgstr "Layar log masuk dapat ditata untuk menolak autentikasi kata sandi, memaksa pengguna untuk memakai autentikasi kartu pintar atau sidik jari."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -381,19 +363,13 @@ msgstr "Path ke gambar kecil di puncak daftar pengguna"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Layar log masuk dapat dipilih untuk menampilkan gambar kecil yang "
-"menyediakan cara bagi administrator situs dan distribusi untuk menampilkan "
-"branding."
+msgstr "Layar log masuk dapat dipilih untuk menampilkan gambar kecil yang menyediakan cara bagi administrator situs dan distribusi untuk menampilkan branding."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Layar log masuk fallback dapat dipilih untuk menampilkan gambar kecil yang "
-"menyediakan cara bagi administrator situs dan distribusi untuk menampilkan "
-"branding."
+msgstr "Layar log masuk fallback dapat dipilih untuk menampilkan gambar kecil yang menyediakan cara bagi administrator situs dan distribusi untuk menampilkan branding."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -401,12 +377,9 @@ msgstr "Hindari menampilkan daftar pengguna"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Layar log masuk biasanya menampilkan daftar pengguna yang tersedia untuk log "
-"masuk. Pengaturan ini dapat dijungkitkan untuk tidak menampilkan daftar "
-"pengguna."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Layar log masuk biasanya menampilkan daftar pengguna yang tersedia untuk log masuk. Pengaturan ini dapat dijungkitkan untuk tidak menampilkan daftar pengguna."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -429,10 +402,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Tak menampilkan tombol menghidupulangkan mesin"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Isi dengan nilai benar (true) untuk tidak menampilkan tombol hidupkan ulang "
-"komputer pada jendela log masuk."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Isi dengan nilai benar (true) untuk tidak menampilkan tombol hidupkan ulang komputer pada jendela log masuk."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -442,9 +414,7 @@ msgstr "Banyaknya kegagalan autentikasi yang diizinkan"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Berapa kali seorang pengguna diizinkan mencoba mengautentikasi, sebelum "
-"menyerah dan kembali ke pemilihan pengguna."
+msgstr "Berapa kali seorang pengguna diizinkan mencoba mengautentikasi, sebelum menyerah dan kembali ke pemilihan pengguna."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -488,23 +458,3 @@ msgstr "Cuplikan layar telah diambil"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Mengambil gambar cuplikan layar"
-
-#~ msgid ""
-#~ "The system is unable to determine whether to switch to an existing login "
-#~ "screen or start up a new login screen."
-#~ msgstr ""
-#~ "Sistem tak bisa menentukan apakah akan berpindah ke layar log masuk yang "
-#~ "telah ada atau memulai layar log masuk baru."
-
-#~ msgid "The system is unable to start up a new login screen."
-#~ msgstr "Sistem tak bisa memulai suatu layar log masuk baru."
-
-#~ msgid ""
-#~ "You reached the maximum PIN authentication attempts, please try another "
-#~ "method"
-#~ msgstr ""
-#~ "Anda telah mencapai upaya autentikasi PIN maksimum, silakan coba metode "
-#~ "lain"
-
-#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
-#~ msgstr "Maaf, autentikasi PIN tidak berfungsi. Silakan coba lagi."

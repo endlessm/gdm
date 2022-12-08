@@ -1,30 +1,26 @@
-# GNOME Kuvahalduri (GDM) eesti keele tõlge.
-# Estonian translation of GDM (The GNOME Display Manager).
-#
-# Copyright (C) 1999, 2002, 2003, 2005, 2006 Free Software Foundation, Inc.
-# Copyright (C) 2007–2011 The GNOME Project.
-# This file is distributed under the same license as the GDM package.
-#
-# Lauris Kaplinski <lauris ariman ee>, 1999.
-# Tõivo Leedjärv <toivo linux ee>, 2002, 2003.
-# Ivar Smolin <okul linux ee>, 2005–2011.
-# Priit Laes <amd store20 com>, 2005.
-# Mattias Põldaru <mahfiaz@gmail.com>, 2009-2015.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gdm package.
+# 
+# Translators:
+# Lauris Kaplinski <lauris ariman ee>, 1999
+# Mattias Põldaru <mahfiaz@gmail.com>, 2009-2013
+# Priit Laes <amd store20 com>, 2005
+# Priit Laes <plaes+gi18n plaes org>, 2005-2006,2008
+# Tõivo Leedjärv <toivo linux ee>, 2002-2003
 msgid ""
 msgstr ""
-"Project-Id-Version: GDM MASTER\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2018-06-07 14:00+0300\n"
-"Last-Translator: Mart Raudsepp <leio@gentoo.org>\n"
-"Language-Team: Estonian <>\n"
-"Language: et\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Priit Laes <amd store20 com>, 2005\n"
+"Language-Team: Estonian (http://www.transifex.com/endless-os/gdm/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Poedit 2.0.7\n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -64,9 +60,8 @@ msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom pole märkseade"
 
 #: common/gdm-common.c:501 libgdm/gdm-user-switching.c:207
-#, fuzzy
 msgid "Could not identify the current session: "
-msgstr "Praegust seanssi pole võimalik tuvastada."
+msgstr ""
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
 #, c-format
@@ -80,15 +75,11 @@ msgstr "kasutajat „%s“ pole võimalik süsteemist leida"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"X-serverit (graafilist kasutajakeskkonda) pole võimalik mingi vea tõttu "
-"käivitada. Palun võta ühendust oma süsteemihalduriga või uuri veale jälile "
-"jõudmiseks süsteemi logisid. Vahepeal on see kuva blokitud.  Probleemide "
-"kõrvaldamise järel palun taaskäivita GDM."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "X-serverit (graafilist kasutajakeskkonda) pole võimalik mingi vea tõttu käivitada. Palun võta ühendust oma süsteemihalduriga või uuri veale jälile jõudmiseks süsteemi logisid. Vahepeal on see kuva blokitud.  Probleemide kõrvaldamise järel palun taaskäivita GDM."
 
 #: daemon/gdm-manager.c:764
 msgid "No display available"
@@ -117,9 +108,7 @@ msgstr "Pole võimalik avada privaatset sidekanalit"
 #: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
-"Server proovis luua uut protsessi kasutaja %s õigustes, kuid sellist "
-"kasutajat pole olemas"
+msgstr "Server proovis luua uut protsessi kasutaja %s õigustes, kuid sellist kasutajat pole olemas"
 
 #: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
@@ -186,8 +175,8 @@ msgstr "Autentimise abiprotsessi ei suudetud luua"
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
+"You reached the maximum password authentication attempts, please try another"
+" method"
 msgstr ""
 
 #: daemon/gdm-session-worker.c:758
@@ -214,24 +203,20 @@ msgid ""
 msgstr ""
 
 #: daemon/gdm-session-worker.c:773
-#, fuzzy
 msgid "Sorry, password authentication didn’t work. Please try again."
-msgstr "Kahjuks see ei toiminud. Palun proovi uuesti."
+msgstr ""
 
 #: daemon/gdm-session-worker.c:776
-#, fuzzy
 msgid "Sorry, auto login didn’t work. Please try again."
-msgstr "Kahjuks see ei toiminud. Palun proovi uuesti."
+msgstr ""
 
 #: daemon/gdm-session-worker.c:779
-#, fuzzy
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
-msgstr "Kahjuks see ei toiminud. Palun proovi uuesti."
+msgstr ""
 
 #: daemon/gdm-session-worker.c:782
-#, fuzzy
 msgid "Sorry, smart card authentication didn’t work. Please try again."
-msgstr "Kahjuks see ei toiminud. Palun proovi uuesti."
+msgstr ""
 
 #: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
@@ -277,9 +262,7 @@ msgstr "GNOME’i kuvahalduri X-i seansi käivitaja"
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"PID-faili %s pole võimalik kirjutada kirjutada: arvatavasti on kettaruum "
-"otsas: %s"
+msgstr "PID-faili %s pole võimalik kirjutada kirjutada: arvatavasti on kettaruum otsas: %s"
 
 #: daemon/main.c:182
 #, c-format
@@ -344,9 +327,7 @@ msgstr "Kas sõrmejäljelugejaga on võimalik sisse logida"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Sisselogimiskuva võib lubada kasutajatel, kes on sisestanud oma sõrmejäljed, "
-"nende alusel sisse logida."
+msgstr "Sisselogimiskuva võib lubada kasutajatel, kes on sisestanud oma sõrmejäljed, nende alusel sisse logida."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -356,9 +337,7 @@ msgstr "Kas kiipkaardilugejaga on võimalik sisse logida"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Sisselogimiskuva võib lubada kasutajatel, kellel on kiipkaart, selle abil "
-"sisse logida."
+msgstr "Sisselogimiskuva võib lubada kasutajatel, kellel on kiipkaart, selle abil sisse logida."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -368,10 +347,7 @@ msgstr "Kas parooliga on võimalik sisse logida"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Sisselogimisekraani võib seadistada selliselt, et parooliga autentimine pole "
-"võimalik, selle asemel tuleb sisse logida kiipkaardiga (nt ID-kaart) või "
-"sõrmejäljega."
+msgstr "Sisselogimisekraani võib seadistada selliselt, et parooliga autentimine pole võimalik, selle asemel tuleb sisse logida kiipkaardiga (nt ID-kaart) või sõrmejäljega."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -382,17 +358,13 @@ msgstr "Kasutajaloendi kohal asetseva väikese pildi asukoht failisüsteemis"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Sisselogimiskuva võib kuvada väikest pilti, et võimaldada halduritel ja "
-"distributsioonidel kuvada kaubamärgi logo."
+msgstr "Sisselogimiskuva võib kuvada väikest pilti, et võimaldada halduritel ja distributsioonidel kuvada kaubamärgi logo."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Varusisselogimiskuva võib kuvada väikest pilti, et võimaldada halduritel ja "
-"distributsioonidel kuvada kaubamärgi logo."
+msgstr "Varusisselogimiskuva võib kuvada väikest pilti, et võimaldada halduritel ja distributsioonidel kuvada kaubamärgi logo."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -400,11 +372,9 @@ msgstr "Kasutajaloendit ei näidata"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Sisselogimiskuva näitab tavaliselt saadavalolevaid kasutajaid, kellena on "
-"võimalik sisse logida. Selle sättega muudetakse kasutajate loendi kuvamist."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Sisselogimiskuva näitab tavaliselt saadavalolevaid kasutajaid, kellena on võimalik sisse logida. Selle sättega muudetakse kasutajate loendi kuvamist."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -427,10 +397,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Taaskäivitamise nuppude näitamise keelamine"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Kui märgitud, siis on taaskäivitamise nuppude näitamine sisselogimisaknas "
-"keelatud."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Kui märgitud, siis on taaskäivitamise nuppude näitamine sisselogimisaknas keelatud."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -440,9 +409,7 @@ msgstr "Mitu korda tohib autentimine nurjuda"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Mitu korda tohib kasutaja autentimine nurjuda, enne kui loobutakse ning "
-"naasetakse kasutaja valiku juurde."
+msgstr "Mitu korda tohib kasutaja autentimine nurjuda, enne kui loobutakse ning naasetakse kasutaja valiku juurde."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -486,24 +453,3 @@ msgstr "Kuvatõmmis tehtud"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Ekraani pildistamine"
-
-#, c-format
-#~ msgid ""
-#~ "The system is unable to determine whether to switch to an existing login "
-#~ "screen or start up a new login screen."
-#~ msgstr ""
-#~ "Süsteem ei suuda otsustada, kas hüpata olemasolevale sisselogimiskuvale "
-#~ "või käivitada uus."
-
-#, c-format
-#~ msgid "The system is unable to start up a new login screen."
-#~ msgstr "Süsteem ei suuda käivitada uut sisselogimiskuva."
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "Sinu parool on aegunud. Palun muuda see nüüd ära."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "GNOME Shell"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "Akna- ja komposiithaldus"

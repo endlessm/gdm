@@ -1,26 +1,24 @@
-# translation of gdm.po to Asturian
-# Asturian translation for gdm
-# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gdm package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
-# Xose S. Puente <xspuente@gmail.com>, 2007.
-# Xandru Armesto <xandru@softastur.org>, 2011.
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007
+# Xandru <xandru@softastur.org>, 2010-2011
+# Xose S. Puente <xspuente@gmail.com>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm-1\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2011-10-08 08:35+0200\n"
-"Last-Translator: Xandru Armesto <xandru@softastur.org>\n"
-"Language-Team: Softastur <alministradores@softastur.org>\n"
-"Language: ast\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Xandru <xandru@softastur.org>, 2010-2011\n"
+"Language-Team: Asturian (http://www.transifex.com/endless-os/gdm/language/ast/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Virtaal 0.5.2\n"
-"X-Launchpad-Export-Date: 2009-02-09 14:28+0000\n"
-"X-Poedit-Language: Asturian\n"
+"Language: ast\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -47,14 +45,12 @@ msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP: Nun pudo lleese la cabecera XDMCP."
 
 #: chooser/gdm-host-chooser-widget.c:265
-#, fuzzy
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XDMCP: La versión de XDMCP ye incorreuta!"
+msgstr ""
 
 #: chooser/gdm-host-chooser-widget.c:271
-#, fuzzy
 msgid "XDMCP: Unable to parse address"
-msgstr "XMDCP: Nun puede analizase la direición"
+msgstr ""
 
 #: common/gdm-common.c:307
 #, c-format
@@ -62,42 +58,38 @@ msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom nun ye un preséu de carauteres"
 
 #: common/gdm-common.c:501 libgdm/gdm-user-switching.c:207
-#, fuzzy
 msgid "Could not identify the current session: "
-msgstr "Nun pudo identificase la sesión actual."
+msgstr ""
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
-#, fuzzy, c-format
+#, c-format
 msgid "Could not identify the current seat."
-msgstr "Nun pudo identificase la sesión actual."
+msgstr ""
 
 #: daemon/gdm-display-access-file.c:298
-#, fuzzy, c-format
+#, c-format
 msgid "could not find user “%s” on system"
-msgstr "nun pudo alcontrase l'usuariu «%s» nel sistema"
+msgstr ""
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Nun se pudo arrancar el sirvidor X (el so entornu gráficu) por un fallu internu. Contacta col alministrador del to sistema o comprueba'l rexistru del sistema pa obtener un diagnósticu. Mentes tanto, esta pantalla va desactivase. Reanicia GDM en solucionando'l problema."
 
 #: daemon/gdm-manager.c:764
-#, fuzzy
 msgid "No display available"
-msgstr "La pantalla"
+msgstr ""
 
 #: daemon/gdm-manager.c:862 daemon/gdm-manager.c:1146
-#, fuzzy
 msgid "No session available"
-msgstr "nun hai cuentes d'usuariu disponibles"
+msgstr ""
 
 #: daemon/gdm-manager.c:881
-#, fuzzy
 msgid "Chooser session unavailable"
-msgstr "nun hai cuentes d'usuariu disponibles"
+msgstr ""
 
 #: daemon/gdm-manager.c:897
 msgid "Can only be called before user is logged in"
@@ -112,15 +104,14 @@ msgid "Unable to open private communication channel"
 msgstr ""
 
 #: daemon/gdm-server.c:386
-#, fuzzy, c-format
+#, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr ""
-"El sirvidor tenía de llanzase pol usuariu %s pero esi usuariu nun esiste"
 
 #: daemon/gdm-server.c:397 daemon/gdm-server.c:417
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr "Nun pudo afitase'l id de grupu a %d"
+msgstr ""
 
 #: daemon/gdm-server.c:403
 #, c-format
@@ -128,9 +119,9 @@ msgid "initgroups () failed for %s"
 msgstr "Falló initgroups() pa %s"
 
 #: daemon/gdm-server.c:409
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn’t set userid to %d"
-msgstr "Nun pudo afitase'l id d'usuariu a %d"
+msgstr ""
 
 #: daemon/gdm-server.c:487
 #, c-format
@@ -143,9 +134,9 @@ msgid "%s: Error setting %s to %s"
 msgstr "%s: Asocedió un error al establecer %s a %s"
 
 #: daemon/gdm-server.c:540
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr "%s: La prioridá del servidor nun se pudo poner a %d: %s"
+msgstr ""
 
 #: daemon/gdm-server.c:692
 #, c-format
@@ -177,14 +168,13 @@ msgid "The display device"
 msgstr "La pantalla"
 
 #: daemon/gdm-session.c:1334
-#, fuzzy
 msgid "Could not create authentication helper process"
-msgstr "%s: nun pudieron lleese los nomes d'autenticación"
+msgstr ""
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
+"You reached the maximum password authentication attempts, please try another"
+" method"
 msgstr ""
 
 #: daemon/gdm-session-worker.c:758
@@ -248,9 +238,8 @@ msgid "Unable to change to user"
 msgstr "Nun pudo camudase l'usuariu"
 
 #: daemon/gdm-wayland-session.c:531
-#, fuzzy
 msgid "GNOME Display Manager Wayland Session Launcher"
-msgstr "Trabayador de sesión de GDM"
+msgstr ""
 
 #: daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
@@ -265,16 +254,13 @@ msgid "Listen on TCP socket"
 msgstr ""
 
 #: daemon/gdm-x-session.c:892
-#, fuzzy
 msgid "GNOME Display Manager X Session Launcher"
-msgstr "Trabayador de sesión de GDM"
+msgstr ""
 
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Nun se puede escribir el ficheru con PID %s: seique nun heba espaciu nel "
-"discu: %s"
+msgstr "Nun se puede escribir el ficheru con PID %s: seique nun heba espaciu nel discu: %s"
 
 #: daemon/main.c:182
 #, c-format
@@ -287,18 +273,18 @@ msgid "Failed to create LogDir %s: %s"
 msgstr ""
 
 #: daemon/main.c:223
-#, fuzzy, c-format
+#, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr "Nun puede alcontrase l'usuariu de GDM «%s». Albortando."
+msgstr ""
 
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
 msgstr "L'usuariu de GDM nun debiera ser root. Albortando."
 
 #: daemon/main.c:235
-#, fuzzy, c-format
+#, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr "Nun s'alcuentra'l grupu de GDM «%s». Albortando."
+msgstr ""
 
 #: daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -339,9 +325,7 @@ msgstr "Indica si permitir llectores de buelgues p'aniciar sesión"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"La pantalla d'aniciu de sesión permite opcionalmente a los usuarios que "
-"tengan guardao la so buelga dactilar, usala p'aniciar sesión."
+msgstr "La pantalla d'aniciu de sesión permite opcionalmente a los usuarios que tengan guardao la so buelga dactilar, usala p'aniciar sesión."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -351,14 +335,11 @@ msgstr "Indica si permitir llectores de tarxetes intelixentes p'aniciar sesión"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"La pantalla d'aniciu de sesión permite opcionalmente a los usuarios que "
-"tienen tarxetes intelixentes usales p'aniciar sesión."
+msgstr "La pantalla d'aniciu de sesión permite opcionalmente a los usuarios que tienen tarxetes intelixentes usales p'aniciar sesión."
 
 #: data/org.gnome.login-screen.gschema.xml:26
-#, fuzzy
 msgid "Whether or not to allow passwords for login"
-msgstr "Indica si permitir llectores de tarxetes intelixentes p'aniciar sesión"
+msgstr ""
 
 #: data/org.gnome.login-screen.gschema.xml:29
 msgid ""
@@ -372,24 +353,16 @@ msgid "Path to small image at top of user list"
 msgstr "Camín a una imaxe pequeña na parte superior de la llista d'usuarios"
 
 #: data/org.gnome.login-screen.gschema.xml:39
-#, fuzzy
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
 msgstr ""
-"La pantalla d'aniciu de sesión permite opcionalmente amosar una pequeña "
-"imaxe na llista superior d'usuarios pa proporcionar a los alministradores y "
-"distribuidores una forma d'estilu y marca."
 
 #: data/org.gnome.login-screen.gschema.xml:49
-#, fuzzy
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
 msgstr ""
-"La pantalla d'aniciu de sesión permite opcionalmente amosar una pequeña "
-"imaxe na llista superior d'usuarios pa proporcionar a los alministradores y "
-"distribuidores una forma d'estilu y marca."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -397,8 +370,8 @@ msgstr ""
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr ""
 
 #: data/org.gnome.login-screen.gschema.xml:66
@@ -422,15 +395,13 @@ msgid "Disable showing the restart buttons"
 msgstr "Desactivar l'amosáu de los botones de reaniciu"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Afitar a braero pa desactivar l'amosáu de los usuarios conocíos na ventana "
-"d'aniciu de sesión."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Afitar a braero pa desactivar l'amosáu de los usuarios conocíos na ventana d'aniciu de sesión."
 
 #: data/org.gnome.login-screen.gschema.xml:93
-#, fuzzy
 msgid "Number of allowed authentication failures"
-msgstr "%s: nun pudieron lleese los nomes d'autenticación"
+msgstr ""
 
 #: data/org.gnome.login-screen.gschema.xml:96
 msgid ""
@@ -439,14 +410,12 @@ msgid ""
 msgstr ""
 
 #: libgdm/gdm-user-switching.c:59
-#, fuzzy
 msgid "Unable to create transient display: "
-msgstr "Nun pudo aniciase la pantalla nueva"
+msgstr ""
 
 #: libgdm/gdm-user-switching.c:90
-#, fuzzy
 msgid "Unable to activate session: "
-msgstr "L'usuariu nun pue cambiar ente sesiones."
+msgstr ""
 
 #: utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
@@ -471,9 +440,8 @@ msgstr "Versión d'esta aplicación"
 
 #. Option parsing
 #: utils/gdmflexiserver.c:137
-#, fuzzy
 msgid "— New GDM login"
-msgstr "- Aniciu de sesión GDM nuevu"
+msgstr ""
 
 #: utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
@@ -483,9 +451,3 @@ msgstr "Sacóse la semeya de pantalla"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Capturar una imaxe de la pantalla"
-
-#~ msgid "GNOME Shell"
-#~ msgstr "GNOME Shell"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "Xestor de composición de ventanes"

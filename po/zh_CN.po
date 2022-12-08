@@ -1,33 +1,36 @@
-# Simplified Chinese translation of gdm.
-# Copyright (C) 2000-2019 gdm'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gdm package.
+# 
+# Translators:
+# Aron Xu <happyaron.xu@gmail.com>, 2010-2011
+# Cheng Lu <chenglu1990@gmail.com>, 2012
+# 759b81c7bb2252a11f36c89344f31007, 2017
+# Dingzhong Chen <wsxy162@gmail.com>, 2019
+# 5c1f498cdfcd3e8829513039a952cd0d, 2018
+# Fan Qijiang <fqj1994@linux.com>, 2010
+# Funda Wang <fundawang@linux.net.cn>, 2003-2004
+# Lele Long <schemacs@gmail.com>, 2011
+# Tao Wei <weitao1979@gmail.com>, 2009
+# Dianjin Wang <1132321739qq@gmail.com>, 2013
 # Wang Li <charles@linux.net.cn>, 2002
-# Funda Wang <fundawang@linux.net.cn>, 2003, 2004
-# 甘露(Gan Lu) <rhythm.gan@gmail.com>, 2008, 2009
-# Tao Wei <weitao1979@gmail.com>, 2009.
-# Aron Xu <happyaron.xu@gmail.com>, 2010, 2011.
-# Fan Qijiang <fqj1994@linux.com>, 2010.
-# Wei Li <lw124124@gmail.com>, 2011.
-# Lele Long <schemacs@gmail.com>, 2011.
-# Cheng Lu <chenglu1990@gmail.com>, 2012.
-# YunQiang Su <wzssyqa@gmail.com>, 2011, 2012, 2013.
-# tuhaihe <1132321739qq@gmail.com>, 2013.
-# Dingzhong Chen <wsxy162@gmail.com>, 2019.
-#
+# Wei Li <lw124124@gmail.com>, 2011
+# YunQiang Su <wzssyqa@gmail.com>, 2011-2013
+# zhifeng peng <jnufeng@126.com>, 2016
+# 甘 露 <rhythm.gan@gmail.com>, 2008-2009
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm master\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2021-01-24 20:18+0800\n"
-"Last-Translator: mars <gzhqyz@gmail.com>\n"
-"Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
-"Language: zh_CN\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Dingzhong Chen <wsxy162@gmail.com>, 2019\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/endless-os/gdm/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4.1\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -82,13 +85,11 @@ msgstr "无法在系统中找到用户“%s”"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"由于内部错误无法启动 X 服务器(您的图形界面)。请与系统管理员联系或检查系统日志"
-"以便进行诊断。在此期间该显示将被禁用。请在问题更正以后重新启动 GDM。"
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "由于内部错误无法启动 X 服务器(您的图形界面)。请与系统管理员联系或检查系统日志以便进行诊断。在此期间该显示将被禁用。请在问题更正以后重新启动 GDM。"
 
 #: daemon/gdm-manager.c:764
 msgid "No display available"
@@ -184,8 +185,8 @@ msgstr "无法建立验证助手进程"
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
+"You reached the maximum password authentication attempts, please try another"
+" method"
 msgstr "密码验证失败达最大次数，请稍后重试"
 
 #: daemon/gdm-session-worker.c:758
@@ -373,8 +374,7 @@ msgstr "登录屏幕可显示一个小图像以允许管理员和发行版展示
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"备用模式的登录屏幕可显示一个小图像以允许管理员和发行版展示标识（可选）。"
+msgstr "备用模式的登录屏幕可显示一个小图像以允许管理员和发行版展示标识（可选）。"
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -382,8 +382,8 @@ msgstr "不显示用户列表"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr "登录屏幕通常会显示系统中可以登录的用户列表。这个选项可以禁用此功能。"
 
 #: data/org.gnome.login-screen.gschema.xml:66
@@ -407,7 +407,8 @@ msgid "Disable showing the restart buttons"
 msgstr "禁止显示重启按钮"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr "设置为 true，则禁止在登录窗口显示重启按钮。"
 
 #: data/org.gnome.login-screen.gschema.xml:93
@@ -462,29 +463,3 @@ msgstr "已经截屏"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "截取屏幕"
-
-#~ msgid ""
-#~ "The system is unable to determine whether to switch to an existing login "
-#~ "screen or start up a new login screen."
-#~ msgstr ""
-#~ "系统无法确定是否应当切换到一个已经登录的屏幕还是启动一个新登录屏幕。"
-
-#~ msgid "The system is unable to start up a new login screen."
-#~ msgstr "系统无法启动新登录屏幕。"
-
-#~ msgid ""
-#~ "You reached the maximum PIN authentication attempts, please try another "
-#~ "method"
-#~ msgstr "PIN 验证失败达最大次数，请稍后重试"
-
-#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
-#~ msgstr "抱歉，PIN 验证失败，请再试一次。"
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "你的密码已过期，请立即修改。"
-
-#~ msgid "GNOME Shell"
-#~ msgstr "GNOME Shell"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "窗口管理与混成"

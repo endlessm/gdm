@@ -1,33 +1,37 @@
-# translation of gdm.master.ru.po to Russian
-# Russian translation of gdm
-# Copyright (C) 1999-2009, 2010 Free Software Foundation, Inc.
-#
-# Sergey Panov <sipan@mit.edu>, 1999.
-# Valek Filippov  <frob@df.ru>, 2000-2002.
-# Dmitry G. Mastrukov <dmitry@taurussoft.org>, 2002-2003.
-# Leonid Kanter <leon@asplinux.ru>, 2003, 2004, 2005, 2006, 2007, 2008.
-# der_FeniX <kofenix@gmail.com>, 2010.
-# Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011.
-# Alexander Saprykin <xelfium@gmail.com>, 2009, 2010.
-# Maxim Petrov <maximpetov@yahoo.com>, 2011.
-# Yuri Myasoedov <ymyasoedov@yandex.ru>, 2012, 2013, 2015.
-# Stas Solovey <whats_up@tut.by>, 2011, 2012, 2013, 2016.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gdm package.
+# 
+# Translators:
+# Alexander Saprykin <xelfium@gmail.com>, 2009-2010
+# Alexandre Prokoudine <alexandre.prokoudine@gmail.com>, 2009
+# Andrew W. Nosenko <awn@bcs.zp.ua>, 2003
+# der_FeniX <kofenix@gmail.com>, 2010
+# Dmitry Shachnev <mitya57@ubuntu.com>, 2012
+# Leonid Kanter <leon@asplinux.ru>, 2003-2010
+# Maxim Petrov <maximpetov@yahoo.com>, 2011
+# Maxim Popov <ravemax@hotbox.ru>, 2006
+# Lincor <mikegurin@yandex.ru>, 2015
+# Sergey Panov <sipan@mit.edu>, 1999
+# Stas Solovey <whats_up@tut.by>, 2011-2016
+# Valery Inozemtsev <inozemtsev@gmail.com>, 2009
+# Yuri Kozlov <kozlov.y@gmail.com>, 2008
+# Yuri Kozlov <yuray@komyakino.ru>, 2010-2012
+# Yuri Myasoedov <omerta13@yandex.ru>, 2012-2013
+# Yuri Myasoedov <ymyasoedov@yandex.ru>, 2012-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm trunk\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2021-01-06 13:22+0200\n"
-"Last-Translator: Alexey Rubtsov <rushills@gmail.com>\n"
-"Language-Team: Russian <gnome-cyr@gnome.org>\n"
-"Language: ru\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Stas Solovey <whats_up@tut.by>, 2011-2016\n"
+"Language-Team: Russian (http://www.transifex.com/endless-os/gdm/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -82,15 +86,11 @@ msgstr "не удалось найти в системе пользовател�
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Не удалось запустить X-сервер (графическое окружение) из-за внутренней "
-"ошибки. Свяжитесь со своим системным администратором или проверьте системный "
-"журнал. В настоящее время этот дисплей будет отключен. Перезапустите GDM, "
-"когда проблема будет устранена."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Не удалось запустить X-сервер (графическое окружение) из-за внутренней ошибки. Свяжитесь со своим системным администратором или проверьте системный журнал. В настоящее время этот дисплей будет отключен. Перезапустите GDM, когда проблема будет устранена."
 
 #: daemon/gdm-manager.c:764
 msgid "No display available"
@@ -119,9 +119,7 @@ msgstr "Невозможно открыть приватный коммуник�
 #: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
-"Сервер должен был быть вызван пользователем %s, но этот пользователь не "
-"существует"
+msgstr "Сервер должен был быть вызван пользователем %s, но этот пользователь не существует"
 
 #: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
@@ -188,34 +186,27 @@ msgstr "Не удалось создать вспомогательный про
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
-msgstr ""
-"Вы использовали все попытки ввода пароля, пожалуйста, попробуйте другой метод"
+"You reached the maximum password authentication attempts, please try another"
+" method"
+msgstr "Вы использовали все попытки ввода пароля, пожалуйста, попробуйте другой метод"
 
 #: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
-msgstr ""
-"Вы использовали все попытки автоматического входа в систему, пожалуйста, "
-"попробуйте другой метод"
+msgstr "Вы использовали все попытки автоматического входа в систему, пожалуйста, попробуйте другой метод"
 
 #: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
-msgstr ""
-"Вы использовали все попытки входа по отпечатку пальца, пожалуйста, "
-"попробуйте другой метод"
+msgstr "Вы использовали все попытки входа по отпечатку пальца, пожалуйста, попробуйте другой метод"
 
 #: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
-msgstr ""
-"Вы использовали все попытки входа по смарт-карте, пожалуйста, попробуйте "
-"другой метод"
+msgstr "Вы использовали все попытки входа по смарт-карте, пожалуйста, попробуйте другой метод"
 
 #: daemon/gdm-session-worker.c:766
 msgid ""
@@ -284,7 +275,6 @@ msgstr "Модуль GDM для запуска сеанса X"
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr "Не удалось записать PID-файл %s: возможно, диск переполнен: %s"
 
-# Может быть найдётся более удачный перевод
 #: daemon/main.c:182
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
@@ -302,8 +292,7 @@ msgstr "Не найден пользователь GDM «%s». Аварийно�
 
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
-msgstr ""
-"Пользователь GDM не должен быть суперпользователем. Аварийное завершение!"
+msgstr "Пользователь GDM не должен быть суперпользователем. Аварийное завершение!"
 
 #: daemon/main.c:235
 #, c-format
@@ -312,8 +301,7 @@ msgstr "Не удалось найти группу GDM «%s». Аварийно
 
 #: daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
-msgstr ""
-"Группа GDM не должна быть группой суперпользователя. Аварийное завершение!"
+msgstr "Группа GDM не должна быть группой суперпользователя. Аварийное завершение!"
 
 #: daemon/main.c:317
 msgid "Make all warnings fatal"
@@ -344,30 +332,23 @@ msgstr "GDM (Менеджер дисплеев среды GNOME) не запущ
 
 #: data/org.gnome.login-screen.gschema.xml:6
 msgid "Whether or not to allow fingerprint readers for login"
-msgstr ""
-"Разрешить использование устройств считывания отпечатков пальцев для входа в "
-"систему"
+msgstr "Разрешить использование устройств считывания отпечатков пальцев для входа в систему"
 
 #: data/org.gnome.login-screen.gschema.xml:9
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Экран входа в систему может предоставить пользователям возможность входить в "
-"систему с помощью устройства считывания отпечатков пальцев."
+msgstr "Экран входа в систему может предоставить пользователям возможность входить в систему с помощью устройства считывания отпечатков пальцев."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
-msgstr ""
-"Разрешить использование устройств чтения смарт-карт для входа в систему"
+msgstr "Разрешить использование устройств чтения смарт-карт для входа в систему"
 
 #: data/org.gnome.login-screen.gschema.xml:19
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Экран входа в систему может предоставить пользователям возможность входить в "
-"систему с помощью смарт-карт."
+msgstr "Экран входа в систему может предоставить пользователям возможность входить в систему с помощью смарт-карт."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -377,10 +358,7 @@ msgstr "Разрешить использование паролей для вх
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Экран входа в систему можно настроить так, чтобы запретить авторизацию с "
-"помощью пароля, вынуждая пользователя проходить авторизацию с помощью смарт-"
-"карты или отпечатков пальцев."
+msgstr "Экран входа в систему можно настроить так, чтобы запретить авторизацию с помощью пароля, вынуждая пользователя проходить авторизацию с помощью смарт-карты или отпечатков пальцев."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -391,19 +369,13 @@ msgstr "Путь к небольшому изображению вверху с�
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"На экран входа в систему можно вывести небольшое изображение, предоставляя "
-"дистрибутивам и администраторам возможность отображения фирменного "
-"оформления."
+msgstr "На экран входа в систему можно вывести небольшое изображение, предоставляя дистрибутивам и администраторам возможность отображения фирменного оформления."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"В режиме совместимости на экран входа в систему можно вывести небольшое "
-"изображение, предоставляя дистрибутивам и администраторам возможность "
-"отображения фирменного оформления."
+msgstr "В режиме совместимости на экран входа в систему можно вывести небольшое изображение, предоставляя дистрибутивам и администраторам возможность отображения фирменного оформления."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -411,12 +383,9 @@ msgstr "Не показывать список пользователей"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Обычно, на экране входа в систему показывается список доступных "
-"пользователей. С помощью этого параметра можно отключить отображение списка "
-"пользователей."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Обычно, на экране входа в систему показывается список доступных пользователей. С помощью этого параметра можно отключить отображение списка пользователей."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -439,10 +408,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Отключить отображение кнопок перезапуска"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Установите, чтобы запретить отображение кнопок перезапуска в окне входа в "
-"систему."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Установите, чтобы запретить отображение кнопок перезапуска в окне входа в систему."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -452,10 +420,7 @@ msgstr "Количество разрешённых ошибок аутенти�
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Количество попыток, предоставленных пользователю для подтверждения проверки "
-"подлинности после которых будет выполнен возврат к экрану выбора "
-"пользователя."
+msgstr "Количество попыток, предоставленных пользователю для подтверждения проверки подлинности после которых будет выполнен возврат к экрану выбора пользователя."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -499,31 +464,3 @@ msgstr "Снимок экрана готов"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Сделать снимок экрана"
-
-#~ msgid ""
-#~ "The system is unable to determine whether to switch to an existing login "
-#~ "screen or start up a new login screen."
-#~ msgstr ""
-#~ "Системе не удалось найти для переключения экран входа в систему или "
-#~ "запустить новый экран входа."
-
-#~ msgid "The system is unable to start up a new login screen."
-#~ msgstr "Системе не удалось запустить новый экран входа в систему."
-
-#~ msgid ""
-#~ "You reached the maximum PIN authentication attempts, please try another "
-#~ "method"
-#~ msgstr ""
-#~ "Вы использовали все попытки ввода PIN, пожалуйста, попробуйте другой метод"
-
-#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
-#~ msgstr "Вход по PIN не сработал. Попробуйте ещё раз, пожалуйста."
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "Срок действия пароля истёк. Нужно его сейчас изменить."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "GNOME Shell"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "Управление окнами и компоновкой"

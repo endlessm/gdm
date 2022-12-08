@@ -1,28 +1,35 @@
-# Esperanto translation for gdm.
-# Copyright (C) 2009 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gdm package.
-# Jacob NORDFALK < >, 2009.
-# Lucas LARSON < >, 2009.
-# Patrick (Petriko) OUDEJANS, 2010.
-# Michael MORONI < >, 2009, 2011.
-# Daniel PUENTES <blatberk@openmailbox.org>, 2015.
-# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2009, 2010, 2011, 2013, 2015, 2018.
-# Carmen Bianca BAKKER <carmen@carmenbianca.eu>, 2019.
+# 
+# Translators:
+# Brian CROOM < >, 2008
+# Carmen Bianca Bakker <carmen@carmenbianca.eu>, 2019
+# Daniel PUENTES <blatberk@openmailbox.org>, 2015
+# Ed GLEZ < >, 2006
+# Jacob NORDFALK < >, 2009
+# Joop EGGEN <joop_eggen@yahoo.de>, 2006
+# kristjan <kristjan.schmidt@googlemail.com>, 2009-2013,2015,2018
+# Lucas LARSON < >, 2009
+# Michael MORONI < >, 2009,2011
+# Olivier WEB < >, 2008
+# Patrick (Petriko) OUDEJANS, 2010
+# Ryan LORTIE <desrt@desrt.ca>, 2013
+# Samir Ribić < >, 2011
+# Tiffany ANTOPOLSKI < >, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2019-02-22 13:40+0100\n"
-"Last-Translator: Carmen Bianca BAKKER <carmen@carmenbianca.eu>\n"
-"Language-Team: Esperanto <gnome-eo-list@gnome.org>\n"
-"Language: eo\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Carmen Bianca Bakker <carmen@carmenbianca.eu>, 2019\n"
+"Language-Team: Esperanto (http://www.transifex.com/endless-os/gdm/language/eo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: eo\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
-"X-Project-Style: gnome\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -62,9 +69,8 @@ msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom ne estas signokoda aparato"
 
 #: common/gdm-common.c:501 libgdm/gdm-user-switching.c:207
-#, fuzzy
 msgid "Could not identify the current session: "
-msgstr "Ne eblas identigi la aktualan seancon."
+msgstr ""
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
 #, c-format
@@ -78,15 +84,11 @@ msgstr "ne eblis trovi uzanton “%s” sur la sistemo"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Ne eblis starti la X-servilon (via grafika fasado) dum interna eraro. "
-"Bonvolu kontakti vian sistemaadministranton aŭ kontroli vian "
-"sistemprotokolan dosieron por serĉi la problemon. Intertempe la ekrano estos "
-"elŝaltita. Bonvole relanĉu GDM-on se la problemo estas  korektita."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Ne eblis starti la X-servilon (via grafika fasado) dum interna eraro. Bonvolu kontakti vian sistemaadministranton aŭ kontroli vian sistemprotokolan dosieron por serĉi la problemon. Intertempe la ekrano estos elŝaltita. Bonvole relanĉu GDM-on se la problemo estas  korektita."
 
 #: daemon/gdm-manager.c:764
 msgid "No display available"
@@ -182,8 +184,8 @@ msgstr "Ne eblis krei aŭtentokontrolilan procezon"
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
+"You reached the maximum password authentication attempts, please try another"
+" method"
 msgstr ""
 
 #: daemon/gdm-session-worker.c:758
@@ -210,24 +212,20 @@ msgid ""
 msgstr ""
 
 #: daemon/gdm-session-worker.c:773
-#, fuzzy
 msgid "Sorry, password authentication didn’t work. Please try again."
-msgstr "Pardonon, tio ne funkciis. Bonvolu provi denove."
+msgstr ""
 
 #: daemon/gdm-session-worker.c:776
-#, fuzzy
 msgid "Sorry, auto login didn’t work. Please try again."
-msgstr "Pardonon, tio ne funkciis. Bonvolu provi denove."
+msgstr ""
 
 #: daemon/gdm-session-worker.c:779
-#, fuzzy
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
-msgstr "Pardonon, tio ne funkciis. Bonvolu provi denove."
+msgstr ""
 
 #: daemon/gdm-session-worker.c:782
-#, fuzzy
 msgid "Sorry, smart card authentication didn’t work. Please try again."
-msgstr "Pardonon, tio ne funkciis. Bonvolu provi denove."
+msgstr ""
 
 #: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
@@ -338,9 +336,7 @@ msgstr "Ĉu aŭ ne permesi fringropremajn legilojn por saluto"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Tiu ĉi salut-ekrano povas permesi aŭ ne uzantojn, kiuj jam registris siajn "
-"fingropremojn, saluti pere de tiuj fingropremoj."
+msgstr "Tiu ĉi salut-ekrano povas permesi aŭ ne uzantojn, kiuj jam registris siajn fingropremojn, saluti pere de tiuj fingropremoj."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -350,9 +346,7 @@ msgstr "Ĉu aŭ ne permesi legilojn de inteligentaj memorkartoj por saluto"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Tiu ĉi salut-ekrano povas permesi aŭ ne uzantojn, kiuj havas inteligentajn "
-"memorkartojn, saluti pere de tiuj."
+msgstr "Tiu ĉi salut-ekrano povas permesi aŭ ne uzantojn, kiuj havas inteligentajn memorkartojn, saluti pere de tiuj."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -362,9 +356,7 @@ msgstr "Ĉu aŭ ne permesi pasvortojn por saluto"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Tiu ĉi salut-ekrano povas agordiĝi por malpermesi perpasvortan aŭtentigon, "
-"devigante uzantojn uzi inteligentajn memorkartojn aŭ fingropremoj ĉe saluto."
+msgstr "Tiu ĉi salut-ekrano povas agordiĝi por malpermesi perpasvortan aŭtentigon, devigante uzantojn uzi inteligentajn memorkartojn aŭ fingropremoj ĉe saluto."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -375,17 +367,13 @@ msgstr "Vojo al eta bildo sur listo de uzantoj"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"La salut-ekrano povas malnepre montri etan bildon por provizi markadospacon "
-"al administrantoj kaj distribuoj."
+msgstr "La salut-ekrano povas malnepre montri etan bildon por provizi markadospacon al administrantoj kaj distribuoj."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"La retropaŝa salut-ekrano povas montri etan bildon por provizi markadospacon "
-"al administrantoj kaj distribuoj."
+msgstr "La retropaŝa salut-ekrano povas montri etan bildon por provizi markadospacon al administrantoj kaj distribuoj."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -393,12 +381,9 @@ msgstr "Ne montri liston de uzantoj"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Tiu ĉi salut-ekrano norme montras liston de disponeblaj uzantoj, por saluti "
-"kiel unu el ili. Oni povas malvalidigi tiun ĉi, por ke oni ne montru la "
-"liston de uzantoj."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Tiu ĉi salut-ekrano norme montras liston de disponeblaj uzantoj, por saluti kiel unu el ili. Oni povas malvalidigi tiun ĉi, por ke oni ne montru la liston de uzantoj."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -421,10 +406,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Malebligi la montron de restartigo-butonoj"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Agordi al 'vera' por malebligi montron de restartig-butonoj en la "
-"salutfenestro."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Agordi al 'vera' por malebligi montron de restartig-butonoj en la salutfenestro."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -434,9 +418,7 @@ msgstr "Nombro da permesataj aŭtentokontrolaj malsukcesoj"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Nombro da fojoj, ke uzanto povas klopodi aŭtentigon, antaŭ reiri al elekto "
-"de uzanto."
+msgstr "Nombro da fojoj, ke uzanto povas klopodi aŭtentigon, antaŭ reiri al elekto de uzanto."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -480,22 +462,3 @@ msgstr "Faris ekrankopion"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Fari bildon de la ekrano"
-
-#~ msgid ""
-#~ "The system is unable to determine whether to switch to an existing login "
-#~ "screen or start up a new login screen."
-#~ msgstr ""
-#~ "La sistemo ne povas eltrovi ĉu ŝalti al ekzistantan salut-ekranon aŭ "
-#~ "startigi novan salut-ekranon."
-
-#~ msgid "The system is unable to start up a new login screen."
-#~ msgstr "La sistemo ne povas startigi novan salut-ekranon."
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "Via pasvorto senvalidiĝis, bonvole ŝanĝu ĝin."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "GNOME-ŝelo"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "Fenestra administrado kaj kunmetado"

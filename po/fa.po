@@ -1,29 +1,31 @@
-# Persian translation of gdm2.
-# Copyright (C) 2010, 2011 Iranian Free Software Users Group (IFSUG.org)translation team
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gdm package.
-# Roozbeh Pournader <roozbeh@gmail.com>, 2003, 2005, 2008.
-# Meelad Zakaria <meelad@farsiweb.info>, 2004, 2005, 2006.
-# Alireza Kheirkhahan <kheirkhahan@gmail.com>, 2005.
-# Hedayat Vatankhah <hedayat@grad.com>, 2008.
-# Mahyar Moghimi <mahyar.moqimi@gmail.com>, 2010.
-# Arash Mousavi <mousavi.arash@gmail.com>, 2011-2017.
-# Danial Behzadi <dani.behzi@ubuntu.com>, 2018-2021.
-#
+# 
+# Translators:
+# Alireza Kheirkhahan <kheirkhahan@gmail.com>, 2005
+# Arash Mousavi <mousavi.arash@gmail.com>, 2010-2017
+# Elnaz Sarbar <elnaz@farsiweb.info>, 2005-2006
+# Farzaneh Sarafraz <farzaneh@farsiweb.info>, 2006
+# Hedayat Vatankhah <hedayat@grad.com>, 2008
+# Mahyar Moghimi <mahyar.moqimi@gmail.com>, 2010-2011
+# Masoud Ahmadzadeh <masoud@bamdad.org>, 2005
+# Meelad Zakaria <meelad@farsiweb.info>, 2004-2006
+# Roozbeh Pournader <roozbeh@farsiweb.info>, 2003
+# Roozbeh Pournader <roozbeh@gmail.com>, 2003,2005,2008
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2021-01-22 14:13+0000\n"
-"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
-"Language-Team: Persian\n"
-"Language: fa\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Mahyar Moghimi <mahyar.moqimi@gmail.com>, 2010-2011\n"
+"Language-Team: Persian (http://www.transifex.com/endless-os/gdm/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 2.4.2\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -78,14 +80,11 @@ msgstr "کاربر «%s» روی سامانه یافت نشد"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"به دلیل یک خطای داخلی، کارساز X (محیط گرافیکی شما) آغاز نشد. لطفاً با مدیر "
-"سامانهٔ خود تماس بگیرید یا syslog خود را برای خطایابی بررسی کنید. در ضمن این "
-"نمایش غیرفعّال خواهد شد. لطفاً پس از حل مشکل GDM را دوباره آغاز کنید."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "به دلیل یک خطای داخلی، کارساز X (محیط گرافیکی شما) آغاز نشد. لطفاً با مدیر سامانهٔ خود تماس بگیرید یا syslog خود را برای خطایابی بررسی کنید. در ضمن این نمایش غیرفعّال خواهد شد. لطفاً پس از حل مشکل GDM را دوباره آغاز کنید."
 
 #: daemon/gdm-manager.c:764
 msgid "No display available"
@@ -181,8 +180,8 @@ msgstr "نمی‌توان فرایند یاریگر تأیید هویت را س�
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
+"You reached the maximum password authentication attempts, please try another"
+" method"
 msgstr "به بیشینهٔ تلاش تأیید هویت با گذرواژه رسیدید. لطفاً روش دیگری برگزینید"
 
 #: daemon/gdm-session-worker.c:758
@@ -201,8 +200,7 @@ msgstr "به بیشینهٔ تلاش تأیید هویت با اثر انگشت 
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
-msgstr ""
-"به بیشینهٔ تلاش تأیید هویت با کارت هوشمند رسیدید. لطفاً روش دیگری برگزینید"
+msgstr "به بیشینهٔ تلاش تأیید هویت با کارت هوشمند رسیدید. لطفاً روش دیگری برگزینید"
 
 #: daemon/gdm-session-worker.c:766
 msgid ""
@@ -334,9 +332,7 @@ msgstr "این که ورود با اثر انگشت مجاز است یا نه"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"صفحهٔ ورود می‌تواند به صورت اختیاری به کاربرانی که اثر انگشتشان را ثبت "
-"کرده‌اند، اجازهٔ ورود با آن را بدهد."
+msgstr "صفحهٔ ورود می‌تواند به صورت اختیاری به کاربرانی که اثر انگشتشان را ثبت کرده‌اند، اجازهٔ ورود با آن را بدهد."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -346,9 +342,7 @@ msgstr "این که ورود با کارت هوشمند مجاز است یا ن�
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"صفحهٔ ورود می‌تواند به صورت اختیاری به کاربرانی که کارت هوشمند دارند، اجازهٔ "
-"ورود با آن را بدهد."
+msgstr "صفحهٔ ورود می‌تواند به صورت اختیاری به کاربرانی که کارت هوشمند دارند، اجازهٔ ورود با آن را بدهد."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -358,9 +352,7 @@ msgstr "این که ورود با گذرواژه مجاز است یا نه"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"صفحهٔ ورود می‌تواند پیکربندی شود تا اجازهٔ تصدیق گذرواژه را  نداده و کاربر را "
-"مجبور به استفاده از کارت هوشمند یا اثر انگشت کند."
+msgstr "صفحهٔ ورود می‌تواند پیکربندی شود تا اجازهٔ تصدیق گذرواژه را  نداده و کاربر را مجبور به استفاده از کارت هوشمند یا اثر انگشت کند."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -371,17 +363,13 @@ msgstr "مسیر تصویر کوچک در بالای فهرست کاربر"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"صفحهٔ ورود می‌تواند به صورت اختیاری، تصویری کوچک نمایش داده تا راهی را برای "
-"نمایش علامت پایگاه‌ها و توزیع‌ها فراهم کند."
+msgstr "صفحهٔ ورود می‌تواند به صورت اختیاری، تصویری کوچک نمایش داده تا راهی را برای نمایش علامت پایگاه‌ها و توزیع‌ها فراهم کند."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"صفحهٔ ورود یدکی می‌تواند به صورت اختیاری، تصویری کوچک نمایش داده تا راهی را "
-"برای نمایش علامت پایگاه‌ها و توزیع‌ها فراهم کند."
+msgstr "صفحهٔ ورود یدکی می‌تواند به صورت اختیاری، تصویری کوچک نمایش داده تا راهی را برای نمایش علامت پایگاه‌ها و توزیع‌ها فراهم کند."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -389,11 +377,9 @@ msgstr "اجتناب از نمایش فهرست کاربران"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"صفحهٔ ورود معمولاً فهرستی از کاربران موجود را برای ورود نمایش می‌دهد. این تنظیم "
-"می‌تواند برای عدم نمایش فهرست کاربران تغییر کند."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "صفحهٔ ورود معمولاً فهرستی از کاربران موجود را برای ورود نمایش می‌دهد. این تنظیم می‌تواند برای عدم نمایش فهرست کاربران تغییر کند."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -416,10 +402,9 @@ msgid "Disable showing the restart buttons"
 msgstr "غیرفعال‌سازی نمایش دکمه‌های راه‌اندازی دوباره"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"روی درست تنظیم شود تا نمایش دکمهٔ «راه‌اندازی دوباره» در پنجرهٔ ورود به سیستم "
-"از کار بیافتد."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "روی درست تنظیم شود تا نمایش دکمهٔ «راه‌اندازی دوباره» در پنجرهٔ ورود به سیستم از کار بیافتد."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -429,9 +414,7 @@ msgstr "تعداد مجاز شکست‌ها در تصدیق هویت"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"تعداد دفعاتی که کاربر می‌تواند برای تصدیق‌هویت، قبل از بازگشت به قسمت انتخاب "
-"کاربر، تلاش کند."
+msgstr "تعداد دفعاتی که کاربر می‌تواند برای تصدیق‌هویت، قبل از بازگشت به قسمت انتخاب کاربر، تلاش کند."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -475,30 +458,3 @@ msgstr "نماگرفت انجام شد"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "گرفتن عکسی از صفحه"
-
-#~ msgid ""
-#~ "The system is unable to determine whether to switch to an existing login "
-#~ "screen or start up a new login screen."
-#~ msgstr ""
-#~ "سامانه قادر به تشخیص اینکه باید به صفحهٔ ورود به سامانه فعلی انتقال پیدا "
-#~ "کند یا یک صفحهٔ ورود به سامانه جدید ایجاد کند نبود."
-
-#~ msgid "The system is unable to start up a new login screen."
-#~ msgstr "سامانه قادر به راه‌اندازی یک صفحهٔ جدید ورود به سامانه نبود."
-
-#~ msgid ""
-#~ "You reached the maximum PIN authentication attempts, please try another "
-#~ "method"
-#~ msgstr "به بیشینهٔ تلاش تأیید هویت با پین رسیدید. لطفاً روش دیگری برگزینید"
-
-#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
-#~ msgstr "متأسّفانه تأیید هویت با پین کار نکرد. لطفاً دوباره تلاش کنید."
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "گذرواژه شما منسوخ شده است، لطفا آن را هم‌اکنون تغییر دهید."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "پوسته گنوم"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "مدیر و ترکیب‌ساز پنجره"

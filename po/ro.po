@@ -1,27 +1,37 @@
-# Romanian translation of gdm
-# Copyright (C) 2000 - 2009 Free Software Foundation, Inc.
-# Marius Andreiana <marius galuna.ro>, 2000, 2002.
-# Dan Damian <dand@gnome.ro>, 2001.
-# Mișu Moldovan <dumol@gnome.ro>, 2003 - 2009.
-# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009, 2010, 2011.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gdm package.
+# 
+# Translators:
 # Adi Roiban <adi@roiban.ro>, 2009
-# Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2014, 2015, 2018.
+# Adi Roiban https://launchpad.net/~adiroiban, 2008-2009
+# Cătălin Bălan <laserbeam333@gmail.com>, 2010
+# Dan Damian <dand@gnome.ro>, 2001
+# Daniel Șerbănescu <cyber19rider@gmail.com>, 2011
+# Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2014-2015,2018
+# georgian balan <braila222@gmail.com>, 2016-2017
+# Jobava Jobava <jobaval10n@gmail.com>, 2015
+# Lucian Adrian Grijincu https://launchpad.net/~lucian.grijincu, 2009
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009-2011
+# Lupescu Mircea <mircea.crazy@gmail.com>, 2011
+# Lupescu Mircea <mircea.crazy@yahoo.com>, 2011
+# Marius Andreiana <marius galuna.ro>, 2000,2002
+# Mișu Moldovan <dumol@gnome.ro> 2003, 2004
+# Mugurel Tudor <mugurelu@gnome.ro>, 2002-2003
+# Sebastian Ivan <sebastian.ivan@ubuntu.ro>, 2005
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2020-12-22 11:09+0200\n"
-"Last-Translator: Florentina Mușat <florentina.musat.28@gmail.com>\n"
-"Language-Team: Gnome Romanian Translation Team\n"
-"Language: ro\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Daniel Șerbănescu <daniel [at] serbanescu [dot] dk>, 2014-2015,2018\n"
+"Language-Team: Romanian (http://www.transifex.com/endless-os/gdm/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);;\n"
-"X-Generator: Poedit 2.4.2\n"
-"X-Project-Style: gnome\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -76,15 +86,11 @@ msgstr "utilizatorul „%s” nu a putut fi găsit în sistem"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Serverul X (mediul dumneavoastră grafic) nu a putut porni din cauza unei "
-"erori interne. Contactați administratorul de sistem sau verificați syslog "
-"pentru diagnoză. Între timp acest afișaj va fi dezactivat. Reporniți GDM "
-"când problema este corectată."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Serverul X (mediul dumneavoastră grafic) nu a putut porni din cauza unei erori interne. Contactați administratorul de sistem sau verificați syslog pentru diagnoză. Între timp acest afișaj va fi dezactivat. Reporniți GDM când problema este corectată."
 
 #: daemon/gdm-manager.c:764
 msgid "No display available"
@@ -180,42 +186,32 @@ msgstr "Nu s-a putut crea procesul ajutător de autentificare"
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
-msgstr ""
-"Ați atins numărul maxim de încercări de autentificare prin parolă, încercați "
-"o altă metodă"
+"You reached the maximum password authentication attempts, please try another"
+" method"
+msgstr "Ați atins numărul maxim de încercări de autentificare prin parolă, încercați o altă metodă"
 
 #: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
-msgstr ""
-"Ați atins numărul maxim de încercări de autentificare automată, încercați o "
-"altă metodă de autentificare"
+msgstr "Ați atins numărul maxim de încercări de autentificare automată, încercați o altă metodă de autentificare"
 
 #: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
-msgstr ""
-"Ați atins numărul maxim de încercări de autentificare prin amprentă, "
-"încercați o altă metodă"
+msgstr "Ați atins numărul maxim de încercări de autentificare prin amprentă, încercați o altă metodă"
 
 #: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
-msgstr ""
-"Ați atins numărul maxim de încercări de autentificare prin card smart, "
-"încercați o altă metodă"
+msgstr "Ați atins numărul maxim de încercări de autentificare prin card smart, încercați o altă metodă"
 
 #: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
-msgstr ""
-"Ați atins numărul maxim de încercări de autentificare, încercați o altă "
-"metodă"
+msgstr "Ați atins numărul maxim de încercări de autentificare, încercați o altă metodă"
 
 #: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
@@ -277,10 +273,8 @@ msgstr "Administratorul de afișaje GNOME - Lansatorul de sesiune X"
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Nu s-a putut scrie fișierul PID %s, probabil din lipsă de spațiu pe disc: %s"
+msgstr "Nu s-a putut scrie fișierul PID %s, probabil din lipsă de spațiu pe disc: %s"
 
-# Citind sursa, este dosarul din /var/run unde se crează un fișier la prima rulare (PID file), oprind astfel 2+ instanțe concomitente a GDM.
 #: daemon/main.c:182
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
@@ -344,22 +338,17 @@ msgstr "Permite sau nu folosirea cititoarelor de amprente pentru autentificare"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Ecranul de autentificare poate permite utilizatorilor care și-au înregistrat "
-"amprentele să se autentifice folosindu-le."
+msgstr "Ecranul de autentificare poate permite utilizatorilor care și-au înregistrat amprentele să se autentifice folosindu-le."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
-msgstr ""
-"Permite sau nu folosirea cititoarelor de smartcarduri pentru autentificare"
+msgstr "Permite sau nu folosirea cititoarelor de smartcarduri pentru autentificare"
 
 #: data/org.gnome.login-screen.gschema.xml:19
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Ecranul de autentificare poate permite utilizatorilor care și-au înregistrat "
-"smartcarduri să se autentifice folosindu-le."
+msgstr "Ecranul de autentificare poate permite utilizatorilor care și-au înregistrat smartcarduri să se autentifice folosindu-le."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -369,10 +358,7 @@ msgstr "Permite sau nu folosirea parolelor pentru autentificare"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Ecranul de autentificare poate fi configurat să nu permită autentificarea cu "
-"parolă, obligând utilizatorul să folosească autentificarea cu smartcard sau "
-"amprentă."
+msgstr "Ecranul de autentificare poate fi configurat să nu permită autentificarea cu parolă, obligând utilizatorul să folosească autentificarea cu smartcard sau amprentă."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -383,17 +369,13 @@ msgstr "Locația imaginii din vârful listei de utilizatori"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Ecranul de autentificare poate afișa o imagine mică pentru ca distribuitorii "
-"și administratorii să poată afișa un brand."
+msgstr "Ecranul de autentificare poate afișa o imagine mică pentru ca distribuitorii și administratorii să poată afișa un brand."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Ecranul de autentificare de rezervă poate afișa o imagine mică pentru ca "
-"distribuitorii și administratorii să poată afișa un brand."
+msgstr "Ecranul de autentificare de rezervă poate afișa o imagine mică pentru ca distribuitorii și administratorii să poată afișa un brand."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -401,11 +383,9 @@ msgstr "Evită afișarea listei de utilizatori"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Ecranul de autentificare în mod normal afișează o listă cu utilizatorii "
-"disponibili. Această opțiune poate fi dezactivată."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Ecranul de autentificare în mod normal afișează o listă cu utilizatorii disponibili. Această opțiune poate fi dezactivată."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -428,10 +408,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Dezactivează afișarea butoanelor de repornire"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Alegeți TRUE pentru a dezactiva afișarea butoanelor de repornire în "
-"fereastra de autentificare."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Alegeți TRUE pentru a dezactiva afișarea butoanelor de repornire în fereastra de autentificare."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -441,11 +420,8 @@ msgstr "Numărul de autentificări eșuate permise"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"De câte ori unui utilizator îi este permis să încerce autentificarea înainte "
-"de a reveni la selecția utilizatorilor."
+msgstr "De câte ori unui utilizator îi este permis să încerce autentificarea înainte de a reveni la selecția utilizatorilor."
 
-# Nu e un „monitor” în sine, ci un obiect afișaj al X11 care e creat temporar după ce utilizatorul iese din sesiunea lui, până înainte de a intra în a altuia.
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
 msgstr "Nu s-a putut porni afișajul temporar: "
@@ -488,32 +464,3 @@ msgstr "S-a capturat ecranul"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Capturează imaginea ecranului"
-
-#~ msgid ""
-#~ "The system is unable to determine whether to switch to an existing login "
-#~ "screen or start up a new login screen."
-#~ msgstr ""
-#~ "Sistemul nu poate determina dacă să comute la un ecran de autentificare "
-#~ "existent sau să pornească unul nou."
-
-#~ msgid "The system is unable to start up a new login screen."
-#~ msgstr "Sistemul nu poate porni un ecran de autentificare nou."
-
-#~ msgid ""
-#~ "You reached the maximum PIN authentication attempts, please try another "
-#~ "method"
-#~ msgstr ""
-#~ "Ați atins numărul maxim de încercări de autentificare prin PIN, încercați "
-#~ "o altă metodă"
-
-#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
-#~ msgstr "Autentificarea prin PIN nu a reușit. Încercați din nou."
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "Parola dumneavoastră a expirat, schimbați-o acum."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "Interfața GNOME"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "Administrarea și compunerea ferestrelor"

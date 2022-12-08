@@ -1,33 +1,37 @@
-# translation of gdm2 to Turkish
-# Turkish translation of GDM.
-# Copyright (C) 1999-2003, 2004 Free Software Foundation, Inc.
-#
-#
-# Fatih Demir <kabalak@gtranslator.org>, 1999.
-# Nilgün Belma Bugüner <nilgun@fide.org>, 2002.
-# Arman Aksoy <armish@linux-sevenler.de>, 2003.
-# Görkem Çetin <gorkem@kde.org>, 2003.
-# Baris Cicek <baris@teamforce.name.tr>, 2004, 2009.
-# Ozan Çağlayan <ozancag@gmail.com>, 2013.
-# Gökhan Gurbetoğlu <ggurbet@gmail.com>, 2013.
-# Muhammet Kara <muhammetk@gmail.com>, 2011, 2012, 2013, 2015, 2016.
-# Çağatay Yiğit Şahin <cyigitsahin@outlook.com>, 2017.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2017, 2021.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gdm package.
+# 
+# Translators:
+# Arman Aksoy <armish@linux-sevenler.de>, 2003
+# Baris Cicek <baris@teamforce.name.tr>, 2004-2005,2008-2009
+# Çağatay Yiğit Şahin <cyigitsahin@outlook.com>, 2017
+# Emin Tufan Çetin <etcetin@gmail.com>, 2013,2017,2021
+# Emin Tufan Çetin <etcetin@gmail.com>, 2013
+# Erçin EKER <ercin@linux.org.tr>, 2011
+# Fatih Demir <kabalak@gtranslator.org>, 1999-2000
+# Gökhan Gurbetoğlu <ggurbet@gmail.com>, 2013
+# Görkem Çetin <gorkem@kde.org>, 2003
+# Muha Aliss <muhaaliss@gmail.com>, 2019
+# Muhammet Kara <muhammetk@gmail.com>, 2011-2016
+# Nilgün Belma Bugüner <nilgun@fide.org>, 2001-2002
+# ozancaglayan <ozancag@gmail.com>, 2013
+# ozancaglayan <ozancag@gmail.com>, 2013
+# a893ff885fb55610360f9c121a4a0855, 2014
+# ztugcesirin <ztugcesirin@gmail.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm2\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2021-02-07 09:26+0300\n"
-"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
-"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
-"Language: tr\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>, 2013,2017,2021\n"
+"Language-Team: Turkish (http://www.transifex.com/endless-os/gdm/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.4.1\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -82,15 +86,11 @@ msgstr "“%s” adlı kullanıcı sistemde bulunamadı"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"İç hata nedeniyle X sunucusu (grafiksel ortamınız) başlatılamadı. Lütfen "
-"sistem yöneticinize başvurun ya da tanılama için syslog’unuza bakın. Bu "
-"sırada bu ekran devre dışı kalacaktır.  Sorun çözüldüğünde lütfen GDM’yi "
-"yeniden başlatın."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "İç hata nedeniyle X sunucusu (grafiksel ortamınız) başlatılamadı. Lütfen sistem yöneticinize başvurun ya da tanılama için syslog’unuza bakın. Bu sırada bu ekran devre dışı kalacaktır.  Sorun çözüldüğünde lütfen GDM’yi yeniden başlatın."
 
 #: daemon/gdm-manager.c:764
 msgid "No display available"
@@ -186,34 +186,27 @@ msgstr "Kimlik doğrulama yardımcı süreci oluşturulamadı"
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
-msgstr ""
-"Azami parola kimlik doğrulama girişimini aştınız, lütfen başka yöntem deneyin"
+"You reached the maximum password authentication attempts, please try another"
+" method"
+msgstr "Azami parola kimlik doğrulama girişimini aştınız, lütfen başka yöntem deneyin"
 
 #: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
-msgstr ""
-"Azami kendiliğinden oturum açma girişimini aştınız, lütfen başka kimlik "
-"doğrulama yöntemi deneyin"
+msgstr "Azami kendiliğinden oturum açma girişimini aştınız, lütfen başka kimlik doğrulama yöntemi deneyin"
 
 #: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
-msgstr ""
-"Azami parmak izi kimlik doğrulama girişimini aştınız, lütfen başka yöntem "
-"deneyin"
+msgstr "Azami parmak izi kimlik doğrulama girişimini aştınız, lütfen başka yöntem deneyin"
 
 #: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
-msgstr ""
-"Azami akıllı kart kimlik doğrulama girişimini aştınız, lütfen başka yöntem "
-"deneyin"
+msgstr "Azami akıllı kart kimlik doğrulama girişimini aştınız, lütfen başka yöntem deneyin"
 
 #: daemon/gdm-session-worker.c:766
 msgid ""
@@ -222,23 +215,19 @@ msgstr "Azami kimlik doğrulama girişimini aştınız, lütfen başka yöntem d
 
 #: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
-msgstr ""
-"Üzgünüm, parola kimlik doğrulaması işe yaramadı. Lütfen yeniden deneyin."
+msgstr "Üzgünüm, parola kimlik doğrulaması işe yaramadı. Lütfen yeniden deneyin."
 
 #: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
-msgstr ""
-"Üzgünüm, kendiliğinden oturum açma işe yaramadı. Lütfen yeniden deneyin."
+msgstr "Üzgünüm, kendiliğinden oturum açma işe yaramadı. Lütfen yeniden deneyin."
 
 #: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
-msgstr ""
-"Üzgünüm, parmak izi kimlik doğrulaması işe yaramadı. Lütfen yeniden deneyin."
+msgstr "Üzgünüm, parmak izi kimlik doğrulaması işe yaramadı. Lütfen yeniden deneyin."
 
 #: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
-msgstr ""
-"Üzgünüm, akıllı kart kimlik doğrulaması işe yaramadı. Lütfen yeniden deneyin."
+msgstr "Üzgünüm, akıllı kart kimlik doğrulaması işe yaramadı. Lütfen yeniden deneyin."
 
 #: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
@@ -349,10 +338,7 @@ msgstr "Oturum açmak için parmak izi okuyucularına izin verilip verilmeyeceğ
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Oturum açma ekranı, parmak izlerini oturum açmak için kaydeden "
-"kullanıcıların isteğe bağlı olarak parmak iziyle oturum açmasını "
-"sağlayabilir."
+msgstr "Oturum açma ekranı, parmak izlerini oturum açmak için kaydeden kullanıcıların isteğe bağlı olarak parmak iziyle oturum açmasını sağlayabilir."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -362,9 +348,7 @@ msgstr "Oturum açmak için akıllı kart okuyucularına izin verilip verilmeyec
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Oturum açma ekranı, isteğe bağlı olarak, akıllı kartı olan kullanıcıların "
-"akıllı kartlarıyla oturum açmasını sağlayabilir."
+msgstr "Oturum açma ekranı, isteğe bağlı olarak, akıllı kartı olan kullanıcıların akıllı kartlarıyla oturum açmasını sağlayabilir."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -374,10 +358,7 @@ msgstr "Oturum açmak için parolalara izin verilip verilmeyeceği"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Oturum açma ekranı parolayla kimlik denetimine izin vermeyecek biçimde "
-"yapılandırılabilir, böylece kullanıcı akıllı kartla ya da parmak izi "
-"okuyucuyla kimlik denetimini kullanmaya zorlanır."
+msgstr "Oturum açma ekranı parolayla kimlik denetimine izin vermeyecek biçimde yapılandırılabilir, böylece kullanıcı akıllı kartla ya da parmak izi okuyucuyla kimlik denetimini kullanmaya zorlanır."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -388,17 +369,13 @@ msgstr "Kullanıcı listesinin tepesindeki küçük resme giden yol"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Oturum açma ekranı, isteğe bağlı olarak, site yöneticileri ve dağıtımlara "
-"markalaşma olanağı sağlamak için küçük resim gösterebilir."
+msgstr "Oturum açma ekranı, isteğe bağlı olarak, site yöneticileri ve dağıtımlara markalaşma olanağı sağlamak için küçük resim gösterebilir."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Korumalı kip oturum açma ekranı, isteğe bağlı olarak, site yöneticileri ve "
-"dağıtımlara markalaşma olanağı sağlamak için küçük resim gösterebilir."
+msgstr "Korumalı kip oturum açma ekranı, isteğe bağlı olarak, site yöneticileri ve dağıtımlara markalaşma olanağı sağlamak için küçük resim gösterebilir."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -406,12 +383,9 @@ msgstr "Kullanıcı listesini göstermekten kaçın"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Oturum açma ekranı olağan durumda, oturum açabilecek kullanıcıların "
-"listesini gösterir. Bu ayar, kullanıcı listesinin gösterimini devre dışı "
-"bırakmak için açılıp kapatılabilir."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Oturum açma ekranı olağan durumda, oturum açabilecek kullanıcıların listesini gösterir. Bu ayar, kullanıcı listesinin gösterimini devre dışı bırakmak için açılıp kapatılabilir."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -434,10 +408,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Yeniden başlatma düğmelerini devre dışı bırak"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Oturum açma penceresinde yeniden başlatma düğmelerini göstermeyi devre dışı "
-"bırakmak için TRUE olarak ayarlayın."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Oturum açma penceresinde yeniden başlatma düğmelerini göstermeyi devre dışı bırakmak için TRUE olarak ayarlayın."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -447,9 +420,7 @@ msgstr "İzin verilen kimlik denetimi hatası sayısı"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Kullanıcı seçimine yeniden dönülmeden önce kullanıcılara izin verilecek "
-"giriş denemesi sayısı."
+msgstr "Kullanıcı seçimine yeniden dönülmeden önce kullanıcılara izin verilecek giriş denemesi sayısı."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -493,32 +464,3 @@ msgstr "Ekran görüntüsü alındı"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Ekranın resmini çek"
-
-#~ msgid ""
-#~ "The system is unable to determine whether to switch to an existing login "
-#~ "screen or start up a new login screen."
-#~ msgstr ""
-#~ "Sistem, var olan oturum açma ekranına geçiş yapılmasına ya da yeni oturum "
-#~ "açma ekranı başlatılmasına karar veremedi."
-
-#~ msgid "The system is unable to start up a new login screen."
-#~ msgstr "Sistem, yeni oturum açma ekranı başlatamadı."
-
-#~ msgid ""
-#~ "You reached the maximum PIN authentication attempts, please try another "
-#~ "method"
-#~ msgstr ""
-#~ "Azami PIN kimlik doğrulama girişimini aştınız, lütfen başka yöntem deneyin"
-
-#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
-#~ msgstr ""
-#~ "Üzgünüm, PIN kimlik doğrulaması işe yaramadı. Lütfen yeniden deneyin."
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "Parolanızın kullanım süresi doldu, lütfen şimdi değiştirin."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "GNOME Kabuğu"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "Pencere yönetimi ve kompozisyon"

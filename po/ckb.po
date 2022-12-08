@@ -1,21 +1,22 @@
-# Kurdish Sorani translation for gdm.
-# Copyright (C) 2020 gdm's COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gdm package.
-# jwtiyar <jwtiyar@gmail.com>, 2020.
-#
+# 
+# Translators:
+# Jwtiyar Nariman <jwtiyar@gmail.com>, 2020
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm master\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2020-01-17 01:49+0300\n"
-"Last-Translator: Jwtiyar Nariman <jwtiyar@gmail.com>\n"
-"Language-Team: Kurdish Sorani <ckb@li.org>\n"
-"Language: ckb\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Jwtiyar Nariman <jwtiyar@gmail.com>, 2020\n"
+"Language-Team: Central Kurdish (http://www.transifex.com/endless-os/gdm/language/ckb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.4\n"
+"Language: ckb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -70,10 +71,10 @@ msgstr "نەوانرا بەکارهێنرەر “%s” لە سیستەم بدۆ�
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
 msgstr ""
 
 #: daemon/gdm-manager.c:764
@@ -170,8 +171,8 @@ msgstr ""
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
+"You reached the maximum password authentication attempts, please try another"
+" method"
 msgstr ""
 
 #: daemon/gdm-session-worker.c:758
@@ -198,24 +199,20 @@ msgid ""
 msgstr ""
 
 #: daemon/gdm-session-worker.c:773
-#, fuzzy
 msgid "Sorry, password authentication didn’t work. Please try again."
-msgstr "ببورە، ئەوە کاری نەکرد. دووبارە هەوڵبدەرەوە."
+msgstr ""
 
 #: daemon/gdm-session-worker.c:776
-#, fuzzy
 msgid "Sorry, auto login didn’t work. Please try again."
-msgstr "ببورە، ئەوە کاری نەکرد. دووبارە هەوڵبدەرەوە."
+msgstr ""
 
 #: daemon/gdm-session-worker.c:779
-#, fuzzy
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
-msgstr "ببورە، ئەوە کاری نەکرد. دووبارە هەوڵبدەرەوە."
+msgstr ""
 
 #: daemon/gdm-session-worker.c:782
-#, fuzzy
 msgid "Sorry, smart card authentication didn’t work. Please try again."
-msgstr "ببورە، ئەوە کاری نەکرد. دووبارە هەوڵبدەرەوە."
+msgstr ""
 
 #: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
@@ -371,8 +368,8 @@ msgstr "لیستی بەکارهێنەر پیشان مەدە"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr ""
 
 #: data/org.gnome.login-screen.gschema.xml:66
@@ -396,7 +393,8 @@ msgid "Disable showing the restart buttons"
 msgstr ""
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr ""
 
 #: data/org.gnome.login-screen.gschema.xml:93
@@ -451,6 +449,3 @@ msgstr ""
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr ""
-
-#~ msgid "The system is unable to start up a new login screen."
-#~ msgstr "سیستەم نەیتوانی رووپەری چوونەژورەوەیەکی تر دەسپێبکاتەوە."

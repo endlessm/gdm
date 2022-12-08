@@ -1,21 +1,23 @@
-# Friulian translation of gdm 2
-# Copyright (C) 2007 Free Software Foundation, Inc.
-# Massimo Furlani <massimo.furlani@libero.it>, 2007.
-#
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gdm package.
+# 
+# Translators:
+# Fabio Tomat <f.t.public@gmail.com>, 2015
+# Massimo Furlani <massimo.furlani@libero.it>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm2\n"
+"Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2020-12-26 06:18+0100\n"
-"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
-"Language-Team: FRIULIAN <massimo.furlani@libero.it>\n"
-"Language: fur\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Massimo Furlani <massimo.furlani@libero.it>, 2007\n"
+"Language-Team: Friulian (http://www.transifex.com/endless-os/gdm/language/fur/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
+"Language: fur\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -70,16 +72,11 @@ msgstr "impussibil cjatâ l'utent “%s” tal sisteme"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Impussibil fâ partî il servidôr X (l'ambient grafic) par cause di un erôr "
-"interni. Par plasê scrîf al to aministradôr di sisteme o controle il "
-"regjistri di sisteme (regjistri di sisteme - syslog) par capî il probleme: "
-"pal moment il visôr al vignarà disabilitât. Une volte justât il probleme, "
-"torne invie GDM."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Impussibil fâ partî il servidôr X (l'ambient grafic) par cause di un erôr interni. Par plasê scrîf al to aministradôr di sisteme o controle il regjistri di sisteme (regjistri di sisteme - syslog) par capî il probleme: pal moment il visôr al vignarà disabilitât. Une volte justât il probleme, torne invie GDM."
 
 #: daemon/gdm-manager.c:764
 msgid "No display available"
@@ -108,8 +105,7 @@ msgstr "Impussibil vierzi un canâl privât di comunicazion"
 #: daemon/gdm-server.c:386
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
-"Il servidôr al veve di jessi inviât dal utent %s ma chest utent nol esist"
+msgstr "Il servidôr al veve di jessi inviât dal utent %s ma chest utent nol esist"
 
 #: daemon/gdm-server.c:397 daemon/gdm-server.c:417
 #, c-format
@@ -176,47 +172,36 @@ msgstr "Impussibil creâ il procès di jutori par l'autenticazion"
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
-msgstr ""
-"Tu sês rivât al numar massim di tentatîfs pe autenticazion cu la password, "
-"prove un altri metodi"
+"You reached the maximum password authentication attempts, please try another"
+" method"
+msgstr "Tu sês rivât al numar massim di tentatîfs pe autenticazion cu la password, prove un altri metodi"
 
 #: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
-msgstr ""
-"Tu sês rivât al numar massim di tentatîfs pal acès automatic, prove un altri "
-"metodi di autenticazion"
+msgstr "Tu sês rivât al numar massim di tentatîfs pal acès automatic, prove un altri metodi di autenticazion"
 
 #: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
-msgstr ""
-"Tu sês rivât al numar massim di tentatîfs pe autenticazion cul impront "
-"digjitâl, prove un altri metodi"
+msgstr "Tu sês rivât al numar massim di tentatîfs pe autenticazion cul impront digjitâl, prove un altri metodi"
 
 #: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
-msgstr ""
-"Tu sês rivât al numar massim di tentatîfs pe autenticazion cu la smart card, "
-"prove un altri metodi"
+msgstr "Tu sês rivât al numar massim di tentatîfs pe autenticazion cu la smart card, prove un altri metodi"
 
 #: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
-msgstr ""
-"Tu sês rivât al numar massim di tentatîfs pe autenticazion, prove un altri "
-"metodi"
+msgstr "Tu sês rivât al numar massim di tentatîfs pe autenticazion, prove un altri metodi"
 
 #: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
-msgstr ""
-"Mi displâs, la autenticazion cu la password no à funzionât. Torne prove."
+msgstr "Mi displâs, la autenticazion cu la password no à funzionât. Torne prove."
 
 #: daemon/gdm-session-worker.c:776
 msgid "Sorry, auto login didn’t work. Please try again."
@@ -224,14 +209,11 @@ msgstr "Mi displâs, l'acès automatic nol à funzionât. Torne prove."
 
 #: daemon/gdm-session-worker.c:779
 msgid "Sorry, fingerprint authentication didn’t work. Please try again."
-msgstr ""
-"Mi displâs, la autenticazion cul impront digjitâl no à funzionât. Torne "
-"prove."
+msgstr "Mi displâs, la autenticazion cul impront digjitâl no à funzionât. Torne prove."
 
 #: daemon/gdm-session-worker.c:782
 msgid "Sorry, smart card authentication didn’t work. Please try again."
-msgstr ""
-"Mi displâs, la autenticazion cu la smart card no à funzionât. Torne prove."
+msgstr "Mi displâs, la autenticazion cu la smart card no à funzionât. Torne prove."
 
 #: daemon/gdm-session-worker.c:784
 msgid "Sorry, that didn’t work. Please try again."
@@ -282,8 +264,7 @@ msgstr "No pues scrivi il file PID %s: forsit al è finît il spazi su disc: %s"
 #: daemon/main.c:182
 #, c-format
 msgid "Failed to create ran once marker dir %s: %s"
-msgstr ""
-"Falît tal creâ le cartele simboliche %s che e indiche l'inviament ugnul: %s"
+msgstr "Falît tal creâ le cartele simboliche %s che e indiche l'inviament ugnul: %s"
 
 #: daemon/main.c:188
 #, c-format
@@ -343,9 +324,7 @@ msgstr "Specifiche se permeti o no l'acès cun i letôrs di improntis digitai"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"La videade di acès e pues permeti, ai utents che a àn regjistrât lis "
-"improntis, di doprâlis par eseguî l'acès."
+msgstr "La videade di acès e pues permeti, ai utents che a àn regjistrât lis improntis, di doprâlis par eseguî l'acès."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -355,9 +334,7 @@ msgstr "Specifiche se permeti o no l'acès cun i letôrs di smartcard"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"La videade di acès e pues permeti, ai utents che a àn une smartcard, di "
-"doprâle par eseguî l'acès."
+msgstr "La videade di acès e pues permeti, ai utents che a àn une smartcard, di doprâle par eseguî l'acès."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -367,10 +344,7 @@ msgstr "Specifiche se permeti o no lis password par l'acès"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"La videade di acès e pues jessi configurade par gjavâ la pussibilitât di "
-"autenticâsi vie password e imponi al utent di doprâ une smartcard o un letôr "
-"di improntis."
+msgstr "La videade di acès e pues jessi configurade par gjavâ la pussibilitât di autenticâsi vie password e imponi al utent di doprâ une smartcard o un letôr di improntis."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -381,17 +355,13 @@ msgstr "Percors di une piçule figure insom ae liste dai utents"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"La videade di acès e pues mostrâ une piçule figure par dâ ai ministradôrs e "
-"a lis distribuzions un mût par fâ viodi il lôr logo."
+msgstr "La videade di acès e pues mostrâ une piçule figure par dâ ai ministradôrs e a lis distribuzions un mût par fâ viodi il lôr logo."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"La videade di acès di rapeç e pues mostrâ une piçule figure par dâ ai "
-"ministradôrs e a lis distribuzions un mût par fâ viodi il lôr logo."
+msgstr "La videade di acès di rapeç e pues mostrâ une piçule figure par dâ ai ministradôrs e a lis distribuzions un mût par fâ viodi il lôr logo."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -399,12 +369,9 @@ msgstr "Evite di mostrâ la liste dai utents"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"La videade di acès di norme e mostre une liste dai utents disponibii par "
-"eseguî l'acès. Cheste impostazion e pues jessi cambiade par no mostrâ la "
-"liste dai utents."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "La videade di acès di norme e mostre une liste dai utents disponibii par eseguî l'acès. Cheste impostazion e pues jessi cambiade par no mostrâ la liste dai utents."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -427,10 +394,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Tapone il boton par tornâ a inviâ"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Met a VÊR par taponâ in tal barcon di acès, il boton par tornâ a inviâ il "
-"sisteme."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Met a VÊR par taponâ in tal barcon di acès, il boton par tornâ a inviâ il sisteme."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -440,9 +406,7 @@ msgstr "Numar massim di faliments di autenticazion"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Il numar di voltis che un utent al pues cirî di autenticâsi, prime di "
-"rindisi e tornâ ae selezion dal utent."
+msgstr "Il numar di voltis che un utent al pues cirî di autenticâsi, prime di rindisi e tornâ ae selezion dal utent."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -486,32 +450,3 @@ msgstr "Screenshot fat"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Fâs une figure dal visôr"
-
-#~ msgid ""
-#~ "The system is unable to determine whether to switch to an existing login "
-#~ "screen or start up a new login screen."
-#~ msgstr ""
-#~ "Il sisteme nol rive a capî se passâ a une videade di acès esistent o creâ "
-#~ "une gnove."
-
-#~ msgid "The system is unable to start up a new login screen."
-#~ msgstr "Il sisteme nol rive a fâ partî une gnove videade di acès."
-
-#~ msgid ""
-#~ "You reached the maximum PIN authentication attempts, please try another "
-#~ "method"
-#~ msgstr ""
-#~ "Tu sês rivât al numar massim di tentatîfs pe autenticazion cul PIN, prove "
-#~ "un altri metodi"
-
-#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
-#~ msgstr "Mi displâs, la autenticazion cul PIN no à funzionât. Torne prove."
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "La tô password a je scjadude, par plasê tu âs di cambiale cumò."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "GNOME Shell"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "Ministre e cumbine i barcons"

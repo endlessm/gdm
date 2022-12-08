@@ -1,24 +1,26 @@
-# Korean messages for gdm
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gdm package.
-# update by Young-Ho, Cha <ganadist@chollian.net>, 2001, 2006.
-# update by ChiDeok, Hwang <hwang@mizi.co.kr>, 2001.
-# Eunju Kim <eukim@redhat.com>, 2007.
-# Changwoo Ryu <cwryu@debian.org>, 1999, 2002, 2004, 2006-2013, 2015-2019, 2021.
-#
-# 새로 번역하시는 분은 translator-credit에 추가하세요.
-#
+# 
+# Translators:
+# Changwoo Ryu <cwryu@debian.org>, 2021
+# eukim <eukim@redhat.com>, 2007
+# Seong-ho Cho <darkcircle.0426@gmail.com>, 2011-2012
+# update by ChiDeok, Hwang <hwang@mizi.co.kr>, 2001
+# update by Young-Ho, Cha <ganadist@chollian.net>, 2001,2006
+# Young-Ho Cha <ganadist@chollian.net>, 2002,2006
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2021-03-07 15:41+0900\n"
-"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
-"Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
-"Language: ko\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Changwoo Ryu <cwryu@debian.org>, 2021\n"
+"Language-Team: Korean (http://www.transifex.com/endless-os/gdm/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
@@ -74,14 +76,11 @@ msgstr "시스템에 “%s” 사용자가 없습니다"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"내부 오류로 인해 X 서버(그래픽 환경)를 시작할 수 없습니다. 진단을 하려면 시스"
-"템 관리자에게 연락을 하거나 시스템 기록을 확인하십시오. 이 화면은 곧 사라질"
-"것 입니다. 문제가 해결되면 GDM을 다시 시작해 주십시오."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "내부 오류로 인해 X 서버(그래픽 환경)를 시작할 수 없습니다. 진단을 하려면 시스템 관리자에게 연락을 하거나 시스템 기록을 확인하십시오. 이 화면은 곧 사라질것 입니다. 문제가 해결되면 GDM을 다시 시작해 주십시오."
 
 #: daemon/gdm-manager.c:764
 msgid "No display available"
@@ -177,8 +176,8 @@ msgstr "인증 도우미 프로세스를 만들지 못했습니다."
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
+"You reached the maximum password authentication attempts, please try another"
+" method"
 msgstr "암호 인증 시도 최대 제한에 도달했습니다. 다른 방법을 시도해 보십시오"
 
 #: daemon/gdm-session-worker.c:758
@@ -197,8 +196,7 @@ msgstr "지문 인증 시도 최대 제한에 도달했습니다. 다른 방법�
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
-msgstr ""
-"스마트 카드 인증 시도 최대 제한에 도달했습니다. 다른 방법을 시도해 보십시오"
+msgstr "스마트 카드 인증 시도 최대 제한에 도달했습니다. 다른 방법을 시도해 보십시오"
 
 #: daemon/gdm-session-worker.c:766
 msgid ""
@@ -340,8 +338,7 @@ msgstr "로그인에 스마트카드 리더를 허용할지 여부"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"로그인 화면에서 스마트카드가 있는 사용자는 스마트카드로 로그인을 허용합니다."
+msgstr "로그인 화면에서 스마트카드가 있는 사용자는 스마트카드로 로그인을 허용합니다."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -351,9 +348,7 @@ msgstr "로그인에 암호를 허용할지 여부"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"암호 인증을 거부하도록 로그인 화면을 설정할 수 있습니다. 그렇게 하면 사용자"
-"는 스마트 카드나 지문 인증을 해야 합니다."
+msgstr "암호 인증을 거부하도록 로그인 화면을 설정할 수 있습니다. 그렇게 하면 사용자는 스마트 카드나 지문 인증을 해야 합니다."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -364,17 +359,13 @@ msgstr "사용자 목록 위의 작은 그림에 대한 경로"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"로그인 화면에서 작은 이미지를 표시해, 시스템 관리자나 운영 체제 배포판 측에"
-"서 브랜드를 표시합니다."
+msgstr "로그인 화면에서 작은 이미지를 표시해, 시스템 관리자나 운영 체제 배포판 측에서 브랜드를 표시합니다."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"대체 모드 로그인 화면에서 작은 이미지를 표시해, 시스템 관리자나 운영 체제 배"
-"포판 측에서 브랜드를 표시합니다."
+msgstr "대체 모드 로그인 화면에서 작은 이미지를 표시해, 시스템 관리자나 운영 체제 배포판 측에서 브랜드를 표시합니다."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -382,11 +373,9 @@ msgstr "사용자 목록 표시하지 않기"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"로그인 화면은 로그인할 수 있는 사용자 목록을 표시합니다. 이 설정을 바꾸면 이 "
-"사용자 목록을 표시하지 않습니다."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "로그인 화면은 로그인할 수 있는 사용자 목록을 표시합니다. 이 설정을 바꾸면 이 사용자 목록을 표시하지 않습니다."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -409,7 +398,8 @@ msgid "Disable showing the restart buttons"
 msgstr "다시 시작 단추를 표시하지 않음"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
 msgstr "참이면 로그인 창에 다시 시작 단추를 표시하지 않습니다."
 
 #: data/org.gnome.login-screen.gschema.xml:93
@@ -420,9 +410,7 @@ msgstr "허용하는 최대 인증 실패 개수"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"한 사용자가 인증을 시도하는 게 허용된 최대 횟수. 넘어가면 사용자 선택으로 돌"
-"아갑니다."
+msgstr "한 사용자가 인증을 시도하는 게 허용된 최대 횟수. 넘어가면 사용자 선택으로 돌아갑니다."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -466,21 +454,3 @@ msgstr "찍은 스크린샷"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "화면을 그림 파일로 잡습니다"
-
-#~ msgid ""
-#~ "You reached the maximum PIN authentication attempts, please try another "
-#~ "method"
-#~ msgstr "PIN 인증 시도 최대 제한에 도달했습니다. 다른 방법을 시도해 보십시오"
-
-#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
-#~ msgstr "죄송합니다. PIN 인증이 동작하지 않았습니다. 다시 시도하십시오."
-
-#~ msgid ""
-#~ "The system is unable to determine whether to switch to an existing login "
-#~ "screen or start up a new login screen."
-#~ msgstr ""
-#~ "현재 로그인 화면으로 전환할지 아니면 새 로그인 창을 시작할 지 시스템에서 "
-#~ "결정하지 못했습니다."
-
-#~ msgid "The system is unable to start up a new login screen."
-#~ msgstr "시스템에서 새 로그인 화면을 시작하지 못했습니다."

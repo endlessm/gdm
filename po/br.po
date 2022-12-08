@@ -1,24 +1,25 @@
-# Breton translation for gdm
-# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006-2010
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gdm package.
-#
-# Giulia <oublieuse@gmail.com>, 2006.
-# Denis <denisarnuad@yahoo.fr>, 2008-2009.
-# Jamy <jamybzh@free.fr>, 2009.
-# Alan Monfort <alan.monfort@free.fr>, 2010.
-#
+# 
+# Translators:
+# Alan Monfort <alan.monfort@free.fr>, 2010
+# Denis Arnaud <denisarnuad@yahoo.fr>, 2014
+# Giulia <oublieuse@gmail.com>, 2006
+# Jérémy, 2009
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2010-06-11 17:34+0100\n"
-"Last-Translator: Alan Monfort <alan.monfort@free.fr>\n"
-"Language-Team: Brenux <brenux@free.fr>\n"
-"Language: br\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Alan Monfort <alan.monfort@free.fr>, 2010\n"
+"Language-Team: Breton (http://www.transifex.com/endless-os/gdm/language/br/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: br\n"
+"Plural-Forms: nplurals=5; plural=((n%10 == 1) && (n%100 != 11) && (n%100 !=71) && (n%100 !=91) ? 0 :(n%10 == 2) && (n%100 != 12) && (n%100 !=72) && (n%100 !=92) ? 1 :(n%10 ==3 || n%10==4 || n%10==9) && (n%100 < 10 || n% 100 > 19) && (n%100 < 70 || n%100 > 79) && (n%100 < 90 || n%100 > 99) ? 2 :(n != 0 && n % 1000000 == 0) ? 3 : 4);\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -45,14 +46,12 @@ msgid "XDMCP: Could not read XDMCP header!"
 msgstr "XDMCP : N'hall ket lenn talbenn ar skurzer XDMCP !"
 
 #: chooser/gdm-host-chooser-widget.c:265
-#, fuzzy
 msgid "XDMCP: Incorrect XDMCP version!"
-msgstr "XMDCP : Handelv XDMCP dizereat !"
+msgstr ""
 
 #: chooser/gdm-host-chooser-widget.c:271
-#, fuzzy
 msgid "XDMCP: Unable to parse address"
-msgstr "XMDCP : N'eo ket gouest da zielfennañ ar chomlec'h"
+msgstr ""
 
 #: common/gdm-common.c:307
 #, c-format
@@ -60,42 +59,38 @@ msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom n'eo ket un drobarzhell evit an arouezennoù"
 
 #: common/gdm-common.c:501 libgdm/gdm-user-switching.c:207
-#, fuzzy
 msgid "Could not identify the current session: "
-msgstr "N'hall ket hennadiñ an estez bremanel."
+msgstr ""
 
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
-#, fuzzy, c-format
+#, c-format
 msgid "Could not identify the current seat."
-msgstr "N'hall ket hennadiñ an estez bremanel."
+msgstr ""
 
 #: daemon/gdm-display-access-file.c:298
-#, fuzzy, c-format
+#, c-format
 msgid "could not find user “%s” on system"
-msgstr "n'hall ket kavout an arveriad \"%s\" war ar reizhiad"
+msgstr ""
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
 msgstr ""
 
 #: daemon/gdm-manager.c:764
-#, fuzzy
 msgid "No display available"
-msgstr "An drobarzhell skrammañ"
+msgstr ""
 
 #: daemon/gdm-manager.c:862 daemon/gdm-manager.c:1146
-#, fuzzy
 msgid "No session available"
-msgstr "N'eus kont arveriad hegerz ebet"
+msgstr ""
 
 #: daemon/gdm-manager.c:881
-#, fuzzy
 msgid "Chooser session unavailable"
-msgstr "N'eus kont arveriad hegerz ebet"
+msgstr ""
 
 #: daemon/gdm-manager.c:897
 msgid "Can only be called before user is logged in"
@@ -110,16 +105,14 @@ msgid "Unable to open private communication channel"
 msgstr ""
 
 #: daemon/gdm-server.c:386
-#, fuzzy, c-format
+#, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
 msgstr ""
-"Ret eo d'an dafariad bezañ delusket gant an arveriad %s met an arveriad-mañ "
-"n'eus ket anezhañ"
 
 #: daemon/gdm-server.c:397 daemon/gdm-server.c:417
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn’t set groupid to %d"
-msgstr "N'haller ket arventennañ naoudi ar strollad %d"
+msgstr ""
 
 #: daemon/gdm-server.c:403
 #, c-format
@@ -127,14 +120,14 @@ msgid "initgroups () failed for %s"
 msgstr "C'hwitet en deus initgroups () evit %s"
 
 #: daemon/gdm-server.c:409
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn’t set userid to %d"
-msgstr "N'haller ket arventennañ naoudi an arveriad %d"
+msgstr ""
 
 #: daemon/gdm-server.c:487
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Could not open log file for display %s!"
-msgstr "%s : N'hall ket digeriñ restr ar c'herzhlevr a-benn skrammañ %s !"
+msgstr ""
 
 #: daemon/gdm-server.c:508 daemon/gdm-server.c:514 daemon/gdm-server.c:520
 #, c-format
@@ -142,9 +135,9 @@ msgid "%s: Error setting %s to %s"
 msgstr "%s : Fazi en ur arventennañ %s da %s"
 
 #: daemon/gdm-server.c:540
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Server priority couldn’t be set to %d: %s"
-msgstr "%s : tevetegezh an dafariad n'hall ket bezañ arventennet da %d : %s"
+msgstr ""
 
 #: daemon/gdm-server.c:692
 #, c-format
@@ -176,14 +169,13 @@ msgid "The display device"
 msgstr "An drobarzhell skrammañ"
 
 #: daemon/gdm-session.c:1334
-#, fuzzy
 msgid "Could not create authentication helper process"
-msgstr "%s : Ne oa ket tu da lenn an anvioù dilesa"
+msgstr ""
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
+"You reached the maximum password authentication attempts, please try another"
+" method"
 msgstr ""
 
 #: daemon/gdm-session-worker.c:758
@@ -247,9 +239,8 @@ msgid "Unable to change to user"
 msgstr "N'eo ket gouest da gemmañ an arveriad"
 
 #: daemon/gdm-wayland-session.c:531
-#, fuzzy
 msgid "GNOME Display Manager Wayland Session Launcher"
-msgstr "Ameiler a-fet estez evit ardoer skramm GNOME (GDM)"
+msgstr ""
 
 #: daemon/gdm-xdmcp-display-factory.c:612
 msgid "Could not create socket!"
@@ -264,16 +255,13 @@ msgid "Listen on TCP socket"
 msgstr ""
 
 #: daemon/gdm-x-session.c:892
-#, fuzzy
 msgid "GNOME Display Manager X Session Launcher"
-msgstr "Ameiler a-fet estez evit ardoer skramm GNOME (GDM)"
+msgstr ""
 
 #: daemon/main.c:125 daemon/main.c:138
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
 msgstr ""
-"N'hall ket skrivañ ar restr mod PID %s : moarvat rak n'eus ket plas a-walc'h "
-"war ar gantenn : %s"
 
 #: daemon/main.c:182
 #, c-format
@@ -286,18 +274,18 @@ msgid "Failed to create LogDir %s: %s"
 msgstr ""
 
 #: daemon/main.c:223
-#, fuzzy, c-format
+#, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr "N'hall ket kavout arveriad '%s' GDM. O tilezel !"
+msgstr ""
 
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
 msgstr "Arabat eo da arveriad GDM bezañ gwrizienn (root). O tilezel !"
 
 #: daemon/main.c:235
-#, fuzzy, c-format
+#, c-format
 msgid "Can’t find the GDM group “%s”. Aborting!"
-msgstr "N'hall ket kavout strollad '%s' GDM. O tilezel !"
+msgstr ""
 
 #: daemon/main.c:241
 msgid "The GDM group should not be root. Aborting!"
@@ -308,9 +296,8 @@ msgid "Make all warnings fatal"
 msgstr "Lakaat an holl evezhioù da vezañ lazhus"
 
 #: daemon/main.c:318
-#, fuzzy
 msgid "Exit after a time (for debugging)"
-msgstr "Mont kuit goude ur pred - a-benn diveugañ"
+msgstr ""
 
 #: daemon/main.c:319
 msgid "Print GDM version"
@@ -384,8 +371,8 @@ msgstr ""
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
 msgstr ""
 
 #: data/org.gnome.login-screen.gschema.xml:66
@@ -401,24 +388,21 @@ msgid "Banner message text"
 msgstr "Testenn kemennadenn ar banniel"
 
 #: data/org.gnome.login-screen.gschema.xml:78
-#, fuzzy
 msgid "Text banner message to show in the login window."
-msgstr "Kemennadenn war ar banniel da ziskouez war ar prenestr kennaskañ."
+msgstr ""
 
 #: data/org.gnome.login-screen.gschema.xml:84
 msgid "Disable showing the restart buttons"
 msgstr "Diweredekaat diskouez an afelloù adloc'hañ"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Lakaat da wir a-benn diweredekaat diskouez an afelloù adloc'hañ war ar "
-"prenestr kennaskañ."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Lakaat da wir a-benn diweredekaat diskouez an afelloù adloc'hañ war ar prenestr kennaskañ."
 
 #: data/org.gnome.login-screen.gschema.xml:93
-#, fuzzy
 msgid "Number of allowed authentication failures"
-msgstr "%s : Ne oa ket tu da lenn an anvioù dilesa"
+msgstr ""
 
 #: data/org.gnome.login-screen.gschema.xml:96
 msgid ""
@@ -427,14 +411,12 @@ msgid ""
 msgstr ""
 
 #: libgdm/gdm-user-switching.c:59
-#, fuzzy
 msgid "Unable to create transient display: "
-msgstr "N'eo ket gouest da loc'hañ ar skrammañ nevez"
+msgstr ""
 
 #: libgdm/gdm-user-switching.c:90
-#, fuzzy
 msgid "Unable to activate session: "
-msgstr "N'eo ket gouest da gemmañ an arveriad"
+msgstr ""
 
 #: utils/gdmflexiserver.c:45
 msgid "Only the VERSION command is supported"
@@ -446,9 +428,8 @@ msgstr "ARC'HAD"
 
 #: utils/gdmflexiserver.c:46 utils/gdmflexiserver.c:47
 #: utils/gdmflexiserver.c:49 utils/gdmflexiserver.c:50
-#, fuzzy
 msgid "Ignored — retained for compatibility"
-msgstr "Laosket a-gostez - miret evit keverlec'hded"
+msgstr ""
 
 #: utils/gdmflexiserver.c:48 utils/gdm-screenshot.c:43
 msgid "Debugging output"
@@ -458,12 +439,10 @@ msgstr "Ec'hankad diveugañ"
 msgid "Version of this application"
 msgstr "Handelv an arload-mañ"
 
-# GDM : GNOME Display Manager
 #. Option parsing
 #: utils/gdmflexiserver.c:137
-#, fuzzy
 msgid "— New GDM login"
-msgstr "- Kennask nevez dre GDM"
+msgstr ""
 
 #: utils/gdm-screenshot.c:212
 msgid "Screenshot taken"
@@ -473,7 +452,3 @@ msgstr "skrammad tennet"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Tennañ ur skeudenn diouz ar skramm"
-
-#, fuzzy
-#~ msgid "Window management and compositing"
-#~ msgstr "Gwazerezh ardeiñ an tredan"

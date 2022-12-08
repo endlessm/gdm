@@ -1,28 +1,33 @@
-# Swedish messages for gdm.
-# Copyright © 1999-2021 Free Software Foundation, Inc.
-# Anders Carlsson <anders.carlsson@tordata.se>, 1999.
-# Christian Rose <menthos@menthos.com>, 2001, 2002, 2003, 2004, 2005.
-# Martin Norbäck <d95mback@dtek.chalmers.se>, 2001.
-# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
-# Göran Uddeborg <goeran@uddeborg.se>, 2014.
-# Sebastian Rasmussen <sebras@gmail.com>, 2015.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2016, 2017, 2019, 2021.
-# Luna Jernberg <droidbittin@gmail.com>, 2020.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gdm package.
+# 
+# Translators:
+# Åke Engelbrektson <eson57@gmail.com>, 2014
+# Anders Carlsson <anders.carlsson@tordata.se>, 1999
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015-2017,2019,2021
+# Christian Rose <menthos@menthos.com>, 2000-2005
+# Daniel Nylander <po@danielnylander.se>, 2006-2012
+# Göran Uddeborg <goeran@uddeborg.se>, 2014
+# Josef Andersson <josef.andersson@fripost.org>, 2014
+# Luna Jernberg <droidbittin@gmail.com>, 2020
+# Martin Norbäck <d95mback@dtek.chalmers.se>, 2001
+# Martin Wahlen <mva@sbbs.se>, 1998-1999
+# Mattias Eriksson <mattias.eriksson@tutanota.com>, 2015
+# Sebastian Rasmussen <sebras@gmail.com>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2021-02-09 21:08+0100\n"
-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
-"Language: sv\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>, 2020\n"
+"Language-Team: Swedish (http://www.transifex.com/endless-os/gdm/language/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.2\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -65,7 +70,6 @@ msgstr "/dev/urandom är inte en teckenenhet"
 msgid "Could not identify the current session: "
 msgstr "Kunde inte identifiera den aktuella sessionen: "
 
-# FIXME: Seat = säte?
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
 #, c-format
 msgid "Could not identify the current seat."
@@ -78,15 +82,11 @@ msgstr "kunde inte hitta användaren ”%s” i systemet"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Kunde inte starta X-servern (din grafiska miljö) på grund av ett internt "
-"fel. Kontakta din systemadministratör eller kontrollera din systemlogg för "
-"att analysera felet. Under tiden kommer denna display att vara inaktiverad. "
-"Starta om GDM när problemet är åtgärdat."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Kunde inte starta X-servern (din grafiska miljö) på grund av ett internt fel. Kontakta din systemadministratör eller kontrollera din systemlogg för att analysera felet. Under tiden kommer denna display att vara inaktiverad. Starta om GDM när problemet är åtgärdat."
 
 #: daemon/gdm-manager.c:764
 msgid "No display available"
@@ -182,41 +182,32 @@ msgstr "Kunde inte skapa en autentiseringshjälpprocess"
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
-msgstr ""
-"Du uppnådde maximala antalet försök med lösenordsautentisering. Försök med "
-"en annan metod"
+"You reached the maximum password authentication attempts, please try another"
+" method"
+msgstr "Du uppnådde maximala antalet försök med lösenordsautentisering. Försök med en annan metod"
 
 #: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
-msgstr ""
-"Du uppnådde maximala antalet försök med automatisk inloggning. Försök med en "
-"annan autentiseringsmetod"
+msgstr "Du uppnådde maximala antalet försök med automatisk inloggning. Försök med en annan autentiseringsmetod"
 
 #: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
-msgstr ""
-"Du uppnådde maximala antalet försök med fingeravtrycksautentisering. Försök "
-"med en annan metod"
+msgstr "Du uppnådde maximala antalet försök med fingeravtrycksautentisering. Försök med en annan metod"
 
 #: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
-msgstr ""
-"Du uppnådde maximala antalet försök med autentisering med smartkort. Försök "
-"med en annan metod"
+msgstr "Du uppnådde maximala antalet försök med autentisering med smartkort. Försök med en annan metod"
 
 #: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
-msgstr ""
-"Du uppnådde maximala antalet autentiseringsförsök. Försök med en annan metod"
+msgstr "Du uppnådde maximala antalet autentiseringsförsök. Försök med en annan metod"
 
 #: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
@@ -343,9 +334,7 @@ msgstr "Huruvida fingeravtrycksläsare ska tillåtas för inloggning eller inte"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Inloggningsskärmen kan om så önskas tillåta användare som har registrerat "
-"sina fingeravtryck att logga in med dessa avtryck."
+msgstr "Inloggningsskärmen kan om så önskas tillåta användare som har registrerat sina fingeravtryck att logga in med dessa avtryck."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -355,9 +344,7 @@ msgstr "Huruvida smartkortsläsare ska tillåtas för inloggning eller inte"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Inloggningsskärmen kan (valfritt) tillåta användare som har smartkort att "
-"logga in med dessa smartkort."
+msgstr "Inloggningsskärmen kan (valfritt) tillåta användare som har smartkort att logga in med dessa smartkort."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -367,10 +354,7 @@ msgstr "Huruvida lösenord ska tillåtas för inloggning eller inte"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Inloggningsskärmen kan konfigureras att inte tillåta lösenordsautentisering, "
-"och tvinga användaren att använda smartkorts- eller "
-"fingeravtrycksautentisering."
+msgstr "Inloggningsskärmen kan konfigureras att inte tillåta lösenordsautentisering, och tvinga användaren att använda smartkorts- eller fingeravtrycksautentisering."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -381,18 +365,13 @@ msgstr "Sökväg till liten bild längst upp i användarlistan"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Inloggningsskärmen kan (valfritt) visa en liten bild för att ge centrala "
-"administratörer och distributioner ett sätt att profilera sig på."
+msgstr "Inloggningsskärmen kan (valfritt) visa en liten bild för att ge centrala administratörer och distributioner ett sätt att profilera sig på."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Inloggningsskärmen att falla tillbaka på kan (valfritt) visa en liten bild "
-"för att ge centrala administratörer och distributioner ett sätt att "
-"profilera sig på."
+msgstr "Inloggningsskärmen att falla tillbaka på kan (valfritt) visa en liten bild för att ge centrala administratörer och distributioner ett sätt att profilera sig på."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -400,12 +379,9 @@ msgstr "Undvik att visa användarlistan"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Inloggningsskärmen visar normalt sett en lista över tillgängliga användare "
-"att logga in som. Denna inställning kan ställas in att inaktivera visning av "
-"användarlistan."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Inloggningsskärmen visar normalt sett en lista över tillgängliga användare att logga in som. Denna inställning kan ställas in att inaktivera visning av användarlistan."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -428,10 +404,9 @@ msgid "Disable showing the restart buttons"
 msgstr "Inaktivera visning av omstartsknapparna"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Ställ in till true för att inaktivera visning av omstartsknapparna i "
-"inloggningsfönstret."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Ställ in till true för att inaktivera visning av omstartsknapparna i inloggningsfönstret."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -441,9 +416,7 @@ msgstr "Antal tillåtna autentiseringsfel"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Antalet gånger en användare får försöka autentisera, innan gdm ger upp och "
-"återgår till användarvalet."
+msgstr "Antalet gånger en användare får försöka autentisera, innan gdm ger upp och återgår till användarvalet."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -487,32 +460,3 @@ msgstr "Skärmbild tagen"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Ta en bild av skärmen"
-
-#~ msgid ""
-#~ "The system is unable to determine whether to switch to an existing login "
-#~ "screen or start up a new login screen."
-#~ msgstr ""
-#~ "Systemet kan inte fastställa huruvida det ska växla till en befintlig "
-#~ "inloggningsskärm eller starta upp en ny inloggningsskärm."
-
-#~ msgid "The system is unable to start up a new login screen."
-#~ msgstr "Systemet kan inte starta upp en ny inloggningsskärm."
-
-#~ msgid ""
-#~ "You reached the maximum PIN authentication attempts, please try another "
-#~ "method"
-#~ msgstr ""
-#~ "Du uppnådde maximala antalet försök med PIN-autentisering. Försök med en "
-#~ "annan metod"
-
-#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
-#~ msgstr "Ledsen, PIN-autentisering fungerade inte. Försök igen."
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "Ditt lösenord har gått ut, ändra det nu."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "GNOME Shell"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "Fönsterhantering och compositing"

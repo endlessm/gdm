@@ -1,38 +1,41 @@
-# Dutch translation for gdm
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gdm package.
-#
-#
-# Authentication                identificatie / aanmeldingscontrole
-# display                       scherm
-# face browser                  gezichtenlijst/gebruikersfoto's
-# suspend                       pauzeren/pauzestand/pauzeerstand
-# hibernate                     slaapstand/slapen
-#
-# Hein-Jan Leliveld <h.j.leliveld@student.tn.tudelft.nl>, 1999.
-# Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>, 2001, 2003, 2008, 2010.
-# Ronald Hummelink <ronald@hummelink.xs4all.nl>, 2002.
-# Tino Meinen <a.t.meinen@chello.nl>, 2004–2006, 2008.
-# Vincent van Adrighem <adrighem@gnome.org>, 2004, 2006.
-# Michiel Sikkes <michiel.sikkes@gmail.com>, 2006.
-# Wouter Bolsterlee <wbolster@gnome.org>, 2006–2012.
-# Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2010–2011, 2015, 2017, 2021.
-# Reinout van Schouwen <reinouts@gnome.org>, 2013.
-# Nathan Follens <nthn@unseen.is>, 2015-2017, 2019.
+# 
+# Translators:
+# Almer S. Tigelaar <almer@gnome.org>, 2001
+# Dennis Smit <synap@area101.penguin.nl>, 2000
+# Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2011-2015
+# Hannie Dumoleyn <hannie@ubuntu-nl.org>, 2015,2017,2021
+# Heimen Stoffels <vistausss@fastmail.com>, 2018
+# Hein-Jan Leliveld <h.j.leliveld@student.tn.tudelft.nl>, 1999
+# Huib Kleinhout <huib@stack.nl>, 2002
+# Jan-Willem Harmanny <jwharmanny@hotmail.com>, 2002
+# Justin van Steijn <justin50@live.nl>, 2016
+# Michiel Sikkes <michiel.sikkes@gmail.com>, 2006
+# Nathan Follens <nthn@unseen.is>, 2015
+# Nathan Follens <nthn@unseen.is>, 2015-2017, 2019
+# Rachid BM <rachidbm@ubuntu.com>, 2011
+# Reinout van Schouwen <reinouts@gnome.org>, 2013
+# Reinout van Schouwen <reinouts@gnome.org>, 2011-2012,2014,2016
+# Ronald Hummelink <ronald@hummelink.xs4all.nl>, 2002
+# Tino Meinen <a.t.meinen@chello.nl>, 2004–2006, 2008
+# Tino Meinen <tino.meinen@gmail.com>, 2004,2006-2007,2009
+# Vincent van Adrighem <adrighem@gnome.org>, 2004,2006
+# Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>, 2001,2003,2008,2010
 msgid ""
 msgstr ""
 "Project-Id-Version: gdm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-07 15:28-0700\n"
-"PO-Revision-Date: 2021-03-25 17:30+0100\n"
-"Last-Translator: Hannie Dumoleyn <hannie@ubuntu-nl.org>\n"
-"Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
-"Language: nl\n"
+"POT-Creation-Date: 2022-12-08 00:09+0000\n"
+"PO-Revision-Date: 2015-03-23 18:32+0000\n"
+"Last-Translator: Nathan Follens <nthn@unseen.is>, 2015-2017, 2019\n"
+"Language-Team: Dutch (http://www.transifex.com/endless-os/gdm/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.12.3\n"
 
 #: chooser/gdm-host-chooser-dialog.c:139
 msgid "_Refresh"
@@ -46,13 +49,10 @@ msgstr "_Annuleren"
 msgid "C_onnect"
 msgstr "Ver_binden"
 
-# hostsysteem/hostcomputer/computer/systeem
-# het/een/.
 #: chooser/gdm-host-chooser-dialog.c:146
 msgid "Select System"
 msgstr "Systeem selecteren"
 
-# BUG: XMCP aan het begin moet zijn: XDMCP
 #: chooser/gdm-host-chooser-widget.c:253
 msgid "XDMCP: Could not create XDMCP buffer!"
 msgstr "XDMCP: aanmaken XDMCP-buffer is mislukt!"
@@ -74,12 +74,10 @@ msgstr "XDMCP: adres kan niet worden verwerkt"
 msgid "/dev/urandom is not a character device"
 msgstr "/dev/urandom is geen tekensapparaat"
 
-# huh?
 #: common/gdm-common.c:501 libgdm/gdm-user-switching.c:207
 msgid "Could not identify the current session: "
 msgstr "Kon de huidige sessie niet identificeren: "
 
-# huh?
 #: common/gdm-common.c:510 libgdm/gdm-user-switching.c:216
 #, c-format
 msgid "Could not identify the current seat."
@@ -92,15 +90,11 @@ msgstr "gebruiker ‘%s’ niet gevonden op het systeem"
 
 #: daemon/gdm-legacy-display.c:236
 msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Kan de X-server (grafische omgeving) niet starten vanwege een interne fout. "
-"Neem contact op met de systeembeheerder of bekijk het systeemlogboek om een "
-"diagnose te maken. Dit scherm wordt in de tussentijd uitgeschakeld. Herstart "
-"GDM wanneer het probleem is opgelost."
+"Could not start the X server (your graphical environment) due to an internal"
+" error. Please contact your system administrator or check your syslog to "
+"diagnose. In the meantime this display will be disabled.  Please restart GDM"
+" when the problem is corrected."
+msgstr "Kan de X-server (grafische omgeving) niet starten vanwege een interne fout. Neem contact op met de systeembeheerder of bekijk het systeemlogboek om een diagnose te maken. Dit scherm wordt in de tussentijd uitgeschakeld. Herstart GDM wanneer het probleem is opgelost."
 
 #: daemon/gdm-manager.c:764
 msgid "No display available"
@@ -170,7 +164,6 @@ msgstr "%s: Lege serveropdracht voor scherm %s"
 msgid "Username"
 msgstr "Gebruikersnaam"
 
-# de naam van de gebruiker op het systeem/computer
 #: daemon/gdm-session-auditor.c:89
 msgid "The username"
 msgstr "De gebruikersnaam"
@@ -179,17 +172,14 @@ msgstr "De gebruikersnaam"
 msgid "Hostname"
 msgstr "Computernaam"
 
-# de naam van de gastcomputer
 #: daemon/gdm-session-auditor.c:94
 msgid "The hostname"
 msgstr "De computernaam"
 
-# Beeldscherm/Schermapparaat
 #: daemon/gdm-session-auditor.c:99
 msgid "Display Device"
 msgstr "Beeldscherm"
 
-# beeldschermapparaat
 #: daemon/gdm-session-auditor.c:100
 msgid "The display device"
 msgstr "Het beeldscherm"
@@ -200,42 +190,32 @@ msgstr "Aanmaken hulpproces voor authenticatie mislukt"
 
 #: daemon/gdm-session-worker.c:755
 msgid ""
-"You reached the maximum password authentication attempts, please try another "
-"method"
-msgstr ""
-"U heeft het maximum aantal pogingen voor wachtwoordverificatie bereikt; "
-"probeer een andere methode"
+"You reached the maximum password authentication attempts, please try another"
+" method"
+msgstr "U heeft het maximum aantal pogingen voor wachtwoordverificatie bereikt; probeer een andere methode"
 
 #: daemon/gdm-session-worker.c:758
 msgid ""
 "You reached the maximum auto login attempts, please try another "
 "authentication method"
-msgstr ""
-"U heeft het maximum aantal pogingen voor automatisch aanmelden bereikt; "
-"probeer een andere verificatiemethode"
+msgstr "U heeft het maximum aantal pogingen voor automatisch aanmelden bereikt; probeer een andere verificatiemethode"
 
 #: daemon/gdm-session-worker.c:761
 msgid ""
 "You reached the maximum fingerprint authentication attempts, please try "
 "another method"
-msgstr ""
-"U heeft het maximum aantal pogingen voor vingerafdrukverificatie bereikt; "
-"probeer een andere methode"
+msgstr "U heeft het maximum aantal pogingen voor vingerafdrukverificatie bereikt; probeer een andere methode"
 
 #: daemon/gdm-session-worker.c:764
 msgid ""
 "You reached the maximum smart card authentication attempts, please try "
 "another method"
-msgstr ""
-"U heeft het maximum aantal pogingen tot verificatie van de smartcard "
-"bereikt; probeer een andere methode"
+msgstr "U heeft het maximum aantal pogingen tot verificatie van de smartcard bereikt; probeer een andere methode"
 
 #: daemon/gdm-session-worker.c:766
 msgid ""
 "You reached the maximum authentication attempts, please try another method"
-msgstr ""
-"U heeft het maximum aantal pogingen voor verificatie bereikt; probeer een "
-"andere methode"
+msgstr "U heeft het maximum aantal pogingen voor verificatie bereikt; probeer een andere methode"
 
 #: daemon/gdm-session-worker.c:773
 msgid "Sorry, password authentication didn’t work. Please try again."
@@ -297,9 +277,7 @@ msgstr "GDM (Gnome aanmeldbeheer) Manager X Sessiestarter"
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Kan PID-bestand %s niet beschrijven. Mogelijkerwijs is er geen vrije "
-"schijfruimte meer: %s"
+msgstr "Kan PID-bestand %s niet beschrijven. Mogelijkerwijs is er geen vrije schijfruimte meer: %s"
 
 #: daemon/main.c:182
 #, c-format
@@ -345,7 +323,6 @@ msgstr "GDM-versie weergeven"
 msgid "GNOME Display Manager"
 msgstr "Gnome Aanmeldbeheer"
 
-# wil -> mag
 #. make sure the pid file doesn't get wiped
 #: daemon/main.c:350
 msgid "Only the root user can run GDM"
@@ -365,9 +342,7 @@ msgstr "Al dan niet vingerafdruklezers toestaan voor aanmelden"
 msgid ""
 "The login screen can optionally allow users who have enrolled their "
 "fingerprints to log in using those prints."
-msgstr ""
-"Het aanmeldvenster kan optioneel gebruikers laten inloggen middels "
-"vingerafdrukken."
+msgstr "Het aanmeldvenster kan optioneel gebruikers laten inloggen middels vingerafdrukken."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
@@ -377,9 +352,7 @@ msgstr "Al dan niet smartcard-lezers toestaan voor aanmelden"
 msgid ""
 "The login screen can optionally allow users who have smartcards to log in "
 "using those smartcards."
-msgstr ""
-"Het aanmeldvenster kan optioneel gebruikers laten inloggen middels "
-"smartcards."
+msgstr "Het aanmeldvenster kan optioneel gebruikers laten inloggen middels smartcards."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
@@ -389,10 +362,7 @@ msgstr "Al dan niet wachtwoorden toestaan voor aanmelden"
 msgid ""
 "The login screen can be configured to disallow password authentication, "
 "forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Het aanmeldscherm kan worden ingesteld om wachtwoordauthenticatie niet toe "
-"te staan, waardoor de gebruiker gedwongen is om smartcard- of "
-"vingerafdrukauthenticatie te gebruiken."
+msgstr "Het aanmeldscherm kan worden ingesteld om wachtwoordauthenticatie niet toe te staan, waardoor de gebruiker gedwongen is om smartcard- of vingerafdrukauthenticatie te gebruiken."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
@@ -403,18 +373,13 @@ msgstr "Pad naar een kleine afbeelding boven de lijst met gebruikers"
 msgid ""
 "The login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Het aanmeldscherm kan optioneel een kleine afbeelding tonen. Dit maakt het "
-"voor beheerders en distributies mogelijk om ‘branding’ toe te voegen."
+msgstr "Het aanmeldscherm kan optioneel een kleine afbeelding tonen. Dit maakt het voor beheerders en distributies mogelijk om ‘branding’ toe te voegen."
 
 #: data/org.gnome.login-screen.gschema.xml:49
 msgid ""
 "The fallback login screen can optionally show a small image to provide site "
 "administrators and distributions a way to display branding."
-msgstr ""
-"Het aanmeldscherm in terugvalmodus kan optioneel een kleine afbeelding "
-"tonen. Dit maakt het voor beheerders en distributies mogelijk om ‘branding’ "
-"toe te voegen."
+msgstr "Het aanmeldscherm in terugvalmodus kan optioneel een kleine afbeelding tonen. Dit maakt het voor beheerders en distributies mogelijk om ‘branding’ toe te voegen."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
@@ -422,11 +387,9 @@ msgstr "Tonen van lijst met gebruikers vermijden"
 
 #: data/org.gnome.login-screen.gschema.xml:59
 msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Het aanmeldscherm toont normaal gesproken een lijst met beschikbare "
-"gebruikers. Deze instelling maakt het mogelijk deze lijst niet te tonen."
+"The login screen normally shows a list of available users to log in as. This"
+" setting can be toggled to disable showing the user list."
+msgstr "Het aanmeldscherm toont normaal gesproken een lijst met beschikbare gebruikers. Deze instelling maakt het mogelijk deze lijst niet te tonen."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -436,7 +399,6 @@ msgstr "Het welkomstbericht tonen"
 msgid "Set to true to show the banner message text."
 msgstr "Inschakelen om het welkomstbericht te tonen."
 
-# flyer/banner/tijdelijk mededeling/welkomstbericht/begroetingstekst
 #: data/org.gnome.login-screen.gschema.xml:75
 msgid "Banner message text"
 msgstr "Welkomstbericht"
@@ -450,9 +412,9 @@ msgid "Disable showing the restart buttons"
 msgstr "De herstartknoppen niet tonen"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid "Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Inschakelen om de herstartknoppen van het aanmeldvenster niet te tonen."
+msgid ""
+"Set to true to disable showing the restart buttons in the login window."
+msgstr "Inschakelen om de herstartknoppen van het aanmeldvenster niet te tonen."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
@@ -462,9 +424,7 @@ msgstr "Aantal toegestane mislukte inlogpogingen"
 msgid ""
 "The number of times a user is allowed to attempt authentication, before "
 "giving up and going back to user selection."
-msgstr ""
-"Aantal keer dat een gebruiker kan proberen in te loggen voordat teruggegaan "
-"wordt naar het kiezen van een gebruiker."
+msgstr "Aantal keer dat een gebruiker kan proberen in te loggen voordat teruggegaan wordt naar het kiezen van een gebruiker."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -508,34 +468,3 @@ msgstr "Schermafdruk gemaakt"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Een schermafdruk maken"
-
-#~ msgid ""
-#~ "You reached the maximum PIN authentication attempts, please try another "
-#~ "method"
-#~ msgstr ""
-#~ "U heeft het maximum aantal pogingen voor PIN-verificatie bereikt; probeer "
-#~ "een andere methode"
-
-#~| msgid "Sorry, that didn’t work. Please try again."
-#~ msgid "Sorry, PIN authentication didn’t work. Please try again."
-#~ msgstr "Sorry, PIN-verificatie werkte niet. Probeer het opnieuw."
-
-#~ msgid ""
-#~ "The system is unable to determine whether to switch to an existing login "
-#~ "screen or start up a new login screen."
-#~ msgstr ""
-#~ "Het systeem kon niet bepalen of naar een bestaand aanmeldscherm "
-#~ "geschakeld moest worden of dat er een nieuw aanmeldscherm gestart moet "
-#~ "worden."
-
-#~ msgid "The system is unable to start up a new login screen."
-#~ msgstr "Het systeem kan geen nieuw aanmeldscherm tonen."
-
-#~ msgid "Your password has expired, please change it now."
-#~ msgstr "Uw wachtwoord is verlopen, gelieve het nu te wijzigen."
-
-#~ msgid "GNOME Shell"
-#~ msgstr "Gnome Shell"
-
-#~ msgid "Window management and compositing"
-#~ msgstr "Vensterbeheer en compositing"
