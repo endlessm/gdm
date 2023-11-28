@@ -20,14 +20,14 @@ After=rc-local.service plymouth-start.service systemd-user-sessions.service
 OnFailure=plymouth-quit.service
 
 [Service]
-ExecStartPre=/usr/share/gdm/generate-config
-ExecStart=${sbindir}/gdm3
+ExecStart=${sbindir}/gdm
 KillMode=mixed
 Restart=always
-RestartSec=1s
 IgnoreSIGPIPE=no
 BusName=org.gnome.DisplayManager
 EnvironmentFile=-${LANG_CONFIG_FILE}
-ExecReload=/usr/share/gdm/generate-config
 ExecReload=/bin/kill -SIGHUP $MAINPID
 KeyringMode=shared
+
+[Install]
+Alias=display-manager.service
