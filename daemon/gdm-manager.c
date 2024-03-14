@@ -1764,6 +1764,8 @@ chown_initial_setup_home_dir (void)
                 goto out;
         }
 
+        g_debug ("Changing ownership of %s to %u:%u", gis_dir_path, pwe->pw_uid, pwe->pw_gid);
+
         error = NULL;
         dir = g_file_new_for_path (gis_dir_path);
         if (!chown_recursively (dir, pwe->pw_uid, pwe->pw_gid, &error)) {
@@ -1811,9 +1813,6 @@ on_start_user_session (StartUserSessionOperation *operation)
         g_object_get (G_OBJECT (display),
                       "doing-initial-setup", &doing_initial_setup,
                       NULL);
-
-        if (doing_initial_setup)
-                chown_initial_setup_home_dir ();
 
         session_id = gdm_session_get_conversation_session_id (operation->session,
                                                               operation->service_name);
@@ -2217,20 +2216,28 @@ on_session_conversation_started (GdmSession *session,
                                  GdmManager *manager)
 {
         GdmDisplay *display;
+        gboolean    doing_initial_setup = FALSE;
         gboolean    enabled;
         char       *username;
 
         g_debug ("GdmManager: session conversation started for service %s on session", service_name);
 
-        if (g_strcmp0 (service_name, "gdm-autologin") != 0) {
-                g_debug ("GdmManager: ignoring session conversation since its not automatic login conversation");
-                return;
-        }
-
         display = get_display_for_user_session (session);
 
         if (display == NULL) {
                 g_debug ("GdmManager: conversation has no associated display");
+                return;
+        }
+
+        g_object_get (G_OBJECT (display),
+                      "doing-initial-setup", &doing_initial_setup,
+                      NULL);
+
+        if (doing_initial_setup)
+                chown_initial_setup_home_dir ();
+
+        if (g_strcmp0 (service_name, "gdm-autologin") != 0) {
+                g_debug ("GdmManager: ignoring session conversation since its not automatic login conversation");
                 return;
         }
 
